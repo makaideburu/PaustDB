@@ -7492,8 +7492,8 @@
           "Level": 0,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 5,
-          "CoinCountModifier": 1,
+          "CoinModifier": 0,
+          "CoinCountModifier": 5,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -7536,7 +7536,8 @@
             "Heal HP"
           ]
         }
-      },{
+      },
+      {
         "Tier": 3,
         "Awakening": {
           "Name": "Wingbeat",
@@ -7549,8 +7550,8 @@
           "Level": 0,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 5,
-          "CoinCountModifier": 1,
+          "CoinModifier": 0,
+          "CoinCountModifier": 5,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -7591,6 +7592,94 @@
           "Description": "If the main target took HP damage this turn and isn't at Max HP at Skill Use:\n When this unit is at Max HP, deal +5~10% damage\n When this unit isn't at Max HP, heal 2~5 HP\n(7 times per turn)",
           "MiscTags": [
             "Heal HP"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 8000,
+    "Sinner": "Ishmael",
+    "Grade": "HE",
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "???",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Christmas Nightmare",
+          "Description": "If target has less than X SP, dael more damage for every SP below X\n[Before Attack] Gain (Highest Res + X) Tremor Count\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal SP\n<1>[On Hit] Inflict Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict Sinking\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Tremor Count",
+            "Heal SP",
+            "Tremor Count",
+            "Sinking",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Christmas Nightmare",
+          "Description": "[Indiscriminate] Targets randomly\nIf main target is in Stagger, Low Morale, or Panic, Base Power +X\n[Before Attack] Gain (Highest Res. + X) Tremor Count\n[Before Attack] Heal HP\n[After Attack] Heal SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict Sinking and Sinking Count\n<2>[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n<3>[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Tremor Count",
+            "Heal HP",
+            "Heal SP",
+            "Tremor Count",
+            "Sinking",
+            "Sinking Count",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ]
+        },
+        "Passive": {
+          "Name": "A Gaze in the Shadows",
+          "Description": "Allies gain more Tremor Count from Skill or Coin effects\nIf ally's target is in Stagger, Low Morale or Panic, gain even more Tremor Count\nEffect does not stack with E.G.O Gifts with the same effect",
+          "MiscTags": [
+            "Ally Tremor Count"
           ]
         }
       }
@@ -11272,8 +11361,8 @@
           "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 5,
-          "CoinCountModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 5,
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
@@ -11323,8 +11412,8 @@
           "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 5,
-          "CoinCountModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 5,
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
@@ -11358,6 +11447,99 @@
           "Description": "Turn End: If this unit has a negative effect, gain 1 Attack Power Up next turn\nWhen attacking targets that are either in Panic or E.G.O Corrosion, deal +15% damage",
           "MiscTags": [
             "Attack Power Up"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 13000,
+    "Sinner": "Gregor",
+    "Grade": "HE",
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "???",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Christmas Nightmare",
+          "Description": "If targhet has less than X SP, deal more damage for every SP below X\n[After Attack] At Max HP, heal SP at Turn End and gain Attack Power Up next turn\n<1>[On Hit] Inflict Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n<2>[On Hit] Heal (X + Highest Res)% missing HP on self\n[On Hit] Inflict Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict Attack Power Down and Fragility of the Highest Res next turn",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Heal SP",
+            "Attack Power Up",
+            "Tremor",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count",
+            "Heal HP",
+            "Sinking",
+            "Attack Power Down",
+            "Sin Fragility"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Christmas Nightmare",
+          "Description": "[Indiscriminate] Targets randomly\nIf target has less than X SP, deal more damage for every SP below X\n[Before Attack] Heal HP\n[After Attack] At max HP, heal SP at Turn End and gain Attack Power Up next turn\n<1>[On Hit] Inflict Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Heal (X + Highest Res)% missing HP on self\n[On Hit] Inflict Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict Attack Power Down and Fragility of the Highest Res next turn",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Heal HP",
+            "Heal SP",
+            "Attack Power Up",
+            "Tremor",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count",
+            "Sinking",
+            "Attack Power Down",
+            "Sin Fragility"
+          ]
+        },
+        "Passive": {
+          "Name": "Insomniac Night",
+          "Description": "Combat Start: Against all enemies, inflict (# of enemies in Stagger, Low Morale or Panic) Offense Level Down or Defense Level Down\nEffect does not stack with E.G.O Gifts with the same effect",
+          "MiscTags": [
+            "Offense Level Down",
+            "Defense Level Down"
           ]
         }
       }

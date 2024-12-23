@@ -348,7 +348,7 @@
         "MiscTags": [
           "Final Power",
           "Bleed Count",
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -500,7 +500,7 @@
         "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count) bonus Wrath damage. Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 3)",
         "Rank": 1,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Defense Level Down",
           "Spend Burn"
         ]
@@ -509,7 +509,7 @@
         "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 1.5) bonus Wrath damage. Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 5)",
         "Rank": 2,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Defense Level Down",
           "Spend Burn"
         ]
@@ -518,7 +518,7 @@
         "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 2) bonus Wrath damage. Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 8)",
         "Rank": 3,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Defense Level Down",
           "Spend Burn"
         ]
@@ -901,7 +901,7 @@
         "MiscTags": [
           "Rupture",
           "Rupture Count",
-          "Damage",
+          "HP Damage",
           "Spend Rupture Count"
         ]
       },
@@ -911,7 +911,7 @@
         "MiscTags": [
           "Rupture",
           "Rupture Count",
-          "Damage",
+          "HP Damage",
           "Spend Rupture Count"
         ]
       },
@@ -921,7 +921,7 @@
         "MiscTags": [
           "Rupture",
           "Rupture Count",
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -946,7 +946,7 @@
           "Faction Buff",
           "Slash Power Up",
           "Slash Damage Amp",
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -1071,7 +1071,7 @@
         "Description": "When an ally Critically Hits an enemy, deal an additional (Poise/3) Pride damage.\nBlade Lineage Identities, when they Critically Hit an enemy, deal an additional (Poise/2) Pride damage instead.",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -2029,7 +2029,7 @@
         "Description": "Enemies Staggered by taking Skill damage also recieve fixed damage by 33% of their Max HP (for Abnormalities, the part's HP), and are inflicted with 2 Fragile next turn. (Once per Encounter)",
         "Rank": 1,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Fragile"
         ]
       }
@@ -2397,21 +2397,21 @@
         "Description": "At the start of a non-Focused encounter, all enemies take fixed damage equal to 20% of their Max HP.",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       },
       {
         "Description": "At the start of a non-Focused encounter, all enemies take fixed damage equal to 25% of their Max HP.",
         "Rank": 2,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       },
       {
         "Description": "At the start of a non-Focused encounter, all enemies take fixed damage equal to 30% of their Max HP.",
         "Rank": 3,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -2502,7 +2502,7 @@
         "Description": "[Effect applies to #5 Deployed Identity]\nWhen hitting an enemy with a Blunt Skill, deal 3 bonus Blunt damage.\nGloom Affinity Attack Skill: heal an additional 3 HP as well.",
         "Rank": 1,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Heal HP"
         ]
       },
@@ -2510,7 +2510,7 @@
         "Description": "[Effect applies to #5, #6 Deployed Identities]\nWhen hitting an enemy with a Blunt Skill, deal 3~5 bonus Blunt damage.\nGloom Affinity Attack Skill: heal an additional 4 HP as well.",
         "Rank": 2,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Heal HP"
         ]
       },
@@ -2518,7 +2518,7 @@
         "Description": "[Effect applies to #5, #6 Deployed Identities]\nWhen hitting an enemy with a Blunt Skill, deal 3~7 bonus Blunt damage.\nGloom Affinity Attack Skill: heal an additional 6 HP as well.",
         "Rank": 3,
         "MiscTags": [
-          "Damage",
+          "HP Damage",
           "Heal HP"
         ]
       }
@@ -2606,7 +2606,7 @@
         "Description": "Turn Start: When dealing damage with an Attack Skill for the first time, deal half its damage as fixed damage to a random enemy.\nIf the Attack Skill's Affinity was Lust, deal said damage to two enemies instead.",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -3698,7 +3698,7 @@
         "Description": "Each turn, the first Skill to deal damage to an enemy deals bonus fixed damage by half the damage dealt.",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -4010,7 +4010,7 @@
         "Description": "When an ally with Shield is hit by an enemy, reflect 3 fixed damage. (Does not reflect damage when the ally did not take any Shield damage)",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -4205,21 +4205,21 @@
         "Description": "If a target with Tremor is defeated, inflict 0.5x(Tremor + Tremor Count on target) Sloth damage to a random enemy (or a random Abnormality part) next turn.",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       },
       {
         "Description": "If a target with Tremor is defeated, inflict 0.75x(Tremor + Tremor Count on target) Sloth damage to a random enemy (or a random Abnormality part) next turn.",
         "Rank": 2,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       },
       {
         "Description": "If a target with Tremor is defeated, inflict 1.25x(Tremor + Tremor Count on target) Sloth damage to a random enemy (or a random Abnormality part) next turn.",
         "Rank": 3,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -5434,7 +5434,7 @@
         "Rank": 1,
         "MiscTags": [
           "Attack Power Down",
-          "Damage"
+          "HP Damage"
         ]
       },
       {
@@ -5442,7 +5442,7 @@
         "Rank": 2,
         "MiscTags": [
           "Attack Power Down",
-          "Damage"
+          "HP Damage"
         ]
       },
       {
@@ -5450,7 +5450,7 @@
         "Rank": 3,
         "MiscTags": [
           "Attack Power Down",
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -7487,7 +7487,7 @@
         "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if target is at -45 SP, deal (Sinking on target / 5) Gloom damage (3 times per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 10) Gloom damage (2 times per Skill)",
         "Rank": 1,
         "MiscTags": [
-          "Damage"
+          "HP Damage"
         ]
       }
     ],
@@ -7746,7 +7746,7 @@
         "Rank": 1,
         "MiscTags": [
           "Damage Amp",
-          "Damage",
+          "HP Damage",
           "SP Damage"
         ]
       },
@@ -7755,7 +7755,7 @@
         "Rank": 2,
         "MiscTags": [
           "Damage Amp",
-          "Damage",
+          "HP Damage",
           "SP Damage"
         ]
       },
@@ -7764,7 +7764,7 @@
         "Rank": 3,
         "MiscTags": [
           "Damage Amp",
-          "Damage",
+          "HP Damage",
           "SP Damage"
         ]
       }
