@@ -1,0 +1,259 @@
+[
+  {
+    "HelpNames": [
+      "default"
+    ],
+    "HelpTitle": "Limbus Command Parameters",
+    "HelpDescription": "I can provide an answer to most of your (Limbus-related) curiosities.\nIf you seek she who holds the answers, Faust is the name to remember.\n...No, let me restate myself.\nNot just most. **All** of them.",
+    "HelpItems": [
+      [
+        "Sinner-related commands",
+        "Faust is here to help look for any query you might have, so learn to speak the language of Faust beforehand.\nFor further command help, see either `/limbus help identity`, `/limbus help ego`, or `/limbus help skills`"
+      ],
+      [
+        "Other commands",
+        "Faust also has information on Refraction Railway stages.\n`/limbus help rr`\nAs well as an E.G.O Gift Database for Mirror Dungeon.\n`/limbus help gift`\nPlayer-used status effects are available.\n`/limbus help status`"
+      ]
+    ],
+    "HelpFooter": "Changelog is available via /limbus help changelog"
+  },
+  {
+    "HelpNames": [
+      "identity",
+      "id",
+      "i"
+    ],
+    "HelpTitle": "Sinner ID Parameters",
+    "HelpDescription": "Used for searching for Sinner Identities.",
+    "HelpItems": [
+      [
+        "Basic Paramters",
+        "Filtering by a Sinner's Identities is straight-forward, via -s```i.e. -s yi sang```Filtering by an Identity's name is simple as well, and accepts partial names via -i```i.e. -i molar```Rarity can be filtered via -r```i.e. -r 3```Faust can further search by Identities with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Uptie 3 information is also available.```-t3```As an example for Spicebush Yi Sang:```/limbus identity -s yi sang -i spicebush```"
+      ],
+      [
+        "Special Parameters",
+        "Using `-ego` while searching for an identity will tell you which identities can solo support that E.G.O. i.e. which identities can generate all the resources that E.G.O. requires.\nIt should go without saying, but this requires a sinner as well. There are 3 4th Match Flames, after all."
+      ],
+      [
+        "The Wacky Stuff",
+        "`-s1 -s2 -s3 -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects). Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s."
+      ]
+    ],
+    "HelpFooter": "Due to how the identity query works, Faust will only show you the first TWELVE results."
+  },
+  {
+    "HelpNames": [
+      "ego"
+    ],
+    "HelpTitle": "E.G.O Parameters",
+    "HelpDescription": "Used for searching for Sinner E.G.O",
+    "HelpItems": [
+      [
+        "Basic Paramters",
+        "Filtering by a Sinner's E.G.O is straight-forward, via -s```i.e. -s faust```Filtering by an E.G.O's name is simple as well, and accepts partial names, via -ego```i.e. -ego hex nail```Rank can be filtered via -r```i.e. -r teth```Faust can further search by E.G.O with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Threadspin 3 information is also available.```-t3```As an example for Yi Sang's 4th Match Flame:```/limbus ego -s yi sang -ego 4th match flame```"
+      ],
+      [
+        "Special Parameters",
+        "Using `-i, -identity` while searching for an E.G.O. will tell you which E.G.O can be solo supported by that identity, i.e. which E.G.O use only the resources that identity generates.\nIt should go without saying, but this requires a sinner as well. There are 3 4th Match Flames, after all."
+      ],
+      [
+        "The Wacky Stuff",
+        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` (effects. Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```ego -s yi sang -awakening -sin sloth -e aoe```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE AOE"
+      ],
+      [
+        "Slightly Wackier Stuff",
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers. You should be able to understand what they do.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though.\n-cost, when given a list of sins separated by costs, will filter any found E.G.O that use only the sins provided."
+      ]
+    ],
+    "HelpFooter": "Due to how the E.G.O query works, Faust will only show you the first TWELVE results."
+  },
+  {
+    "HelpNames": [
+      "skill",
+      "skills"
+    ],
+    "HelpTitle": "Skill Parameters",
+    "HelpDescription": "Used for searching for Sinner ID Skills",
+    "HelpItems": [
+      [
+        "Basic Paramters",
+        "Filtering skills by Sinners is straight-forward.```-s, -sinner```Filtering by an identity's skills is simple as well.```-i, -identity```Faust can further search skills with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```Adding `-long` will include the skill descriptions, but cuts down on the number of displayed skills, and some skills are simply too long to be displayed.\nFaust has relented. Go compare the different W Corp Leaps, if you want.```-skill leap```"
+      ],
+      [
+        "The Wacky Stuff",
+        "`-s1 -s2 -s3` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects). Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```skill -s1 -s2 -s3 -sin sloth -d blunt```Will give you SKILL 1s, 2s, and 3s that are SLOTH AND BLUNT"
+      ],
+      [
+        "Slightly Wackier Stuff",
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers.\n'Power' in this case roughly refers to clash power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
+      ]
+    ],
+    "HelpFooter": "The skill query is particularly volatile, and the number of results is subject to change at any given time."
+  },
+  {
+    "HelpNames": [
+      "e",
+      "effect",
+      "effects"
+    ],
+    "HelpTitle": "Utilizing Effect Tags",
+    "HelpDescription": "Used for refining for Sinner ID Skills, E.G.O and E.G.O Gifts",
+    "HelpItems": [
+      [
+        "\u200B",
+        "Faust has manually tagged every Identity, Skill, and E.G.O with the effects that they have, and it would likely be best to simply show you some examples.\nFor most positive effects, you may search for things such as `haste`, `ally heal sp`, and `party heal hp`\nIn this case, `ally` will be tagged with effects that target one or more allies, while `party` targets all the sinners on the field.\nFor most negative effects, you may search for things such as `attack power down` or `self tremor`\n`charge` also comes with `charge support` for things such as AEDD Gregor's Spark Discharge, and effects such as `gaze` will be tagged with `pierce damage amp`\nFor consistency, please keep any effect queries to the actual effect's name, Faust will only deviate so far from glossary definitions.\nFor your benefit and curiosity, please see\n```/limbus help tags```\nto see more specifics."
+      ]
+    ],
+    "HelpFooter": "To hopefully add some ease of use, ID and E.G.O pages have their effect tags listed in the footer."
+  },
+  {
+    "HelpNames": [
+      "tags"
+    ],
+    "HelpTitle": "Effect Tags, Continued",
+    "HelpDescription": "Potentially Useful, But Unituitive Tags",
+    "HelpItems": [
+      [
+        "\u200B",
+        "```party heal hp, ally heal hp, heal hp```For effects that heal HP. Replace HP with SP for... that.\n```charge support```Will be tagged on skills that have any capacity for giving allies charge, such as Charge Barrier, Spark Discharge, or directly giving charge.\n```burn spread```Effects like Ishmael's Ardor Blossom Star, where attacking enemies with Burn afflicts random enemies with Burn.\n```self tremor count, ally tremor count```For the IDs that use Tremor as a do-nothing counter. Ally Tremor is an example if we ever get anything like that."
+      ]
+    ],
+    "HelpFooter": ""
+  },
+  {
+    "HelpNames": [
+      "rr",
+      "railway"
+    ],
+    "HelpTitle": "Refraction Railway Database",
+    "HelpDescription": "Faust has information available on enemies in Refraction Railway and their resists, to assist with planning and teambuilding.```-line```Denotes which Railway line you're looking for. Accepts either the Line Number (i.e. 2) or its name (i.e. Mobius), or will default to the latest/most current Railway Line.```-stop```Is required, and denotes which Stop of the Railway you're looking up. Same thing, Stop Number (i.e. 1) or its name (i.e. curse) ((Partial names are accepted.))\nAs of Line 4, certain nodes are split between a .1 and a .2 wave due to discord limitations. Use the name.\nFor those who care, enemy names are spoiler tagged.",
+    "HelpItems": [],
+    "HelpFooter": ""
+  },
+  {
+    "HelpNames": [
+      "gift",
+      "gifts"
+    ],
+    "HelpTitle": "E.G.O Gift Database",
+    "HelpDescription": "E.G.O Gifts and their available upgrades have been deemed a worthwhile addition, for those who need to reference such information.```-gift```Queries the gift name.```-e```Queries effects just like with IDs, Skills, and E.G.O.```-keyword```Searches for keywords.```-abno```Searches for the gift's source Abnormality. 'fusion' will work for fusion gifts in this context, and pack-specific gifts will accept their pack name as an Abnormality.",
+    "HelpItems": [],
+    "HelpFooter": ""
+  },
+  {
+    "HelpNames": [
+      "changelog"
+    ],
+    "HelpTitle": "Changelog",
+    "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
+    "HelpItems": [
+      [
+        "2.5.1 (2024-12-15)",
+        "```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
+      ],
+      [
+        "2.5.0.1 (2024-12-11)",
+        "```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
+      ],
+      [
+        "2.5.0 (2024-12-11)",
+        "```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
+      ]
+    ],
+    "OldItems": [
+      [
+        "1.0",
+        "```Full release with all intended features and a completed ID/EGO database as of 2023-09-21.```"
+      ],
+      [
+        "1.1",
+        "```E.G.O can now be queried via abnormality name. (i.e. -ego my form empties)\nE.G.O will now prioritize exact matches (Red Eyes is now queryable by name)```"
+      ],
+      [
+        "1.2 (2023-12-02)",
+        "```E.G.O and IDs can now be queried via rarity/grade.\nUpdated database to Canto 5 Part 3.```"
+      ],
+      [
+        "1.2.1 (2023-12-04)",
+        "```Pequod Heathcliff and Yi Sang preloaded into database```"
+      ],
+      [
+        "1.2.2 (2023-12-14)",
+        "```Pursuance Rodion added to database```"
+      ],
+      [
+        "1.3.0 (2023-12-15)",
+        "```E.G.O Gift Database added.```"
+      ],
+      [
+        "1.3.1 (2023-12-21)",
+        "```Cinq Sinclair and Outis added to database\nE.G.O gift database updated for MD3H\nFixed bug related to skill potential```"
+      ],
+      [
+        "1.3.2 (2023-12-28)",
+        "```Holiday Heathcliff and Outis added to database```"
+      ],
+      [
+        "1.4.0 (2024-01-11)",
+        "```Backend data restructure\n'Shi' now aliases to 'Shi Association', no more SloShing jumpscares```"
+      ],
+      [
+        "1.4.1 (2024-01-26)",
+        "```Further backend data restructure\nUpdate database to Dieci Yi Sang and Hong Lu```"
+      ],
+      [
+        "1.5.0 (2024-02-07)",
+        "```why did they give captain ishmael a second passive```"
+      ],
+      [
+        "1.6.0 (2024-03-28)",
+        "```i'm bad at keeping changelogs\nvarious bug fixes\nstatus db got added at some point\nfancy effect aliasing\ngosh i'm tired```"
+      ],
+      [
+        "1.7.0 (2024-04-29)",
+        "```Separate sanity costs for Awakening and Corrosions\nOffense/Defense levels added\nUse -costs in an ego query to search for ego that use only the sins you provide (separate with commas)```"
+      ],
+      [
+        "1.7.1 (2024-05-06)",
+        "```Gift database has been modified, source abnormalities and keywords are now valid parameters.```"
+      ],
+      [
+        "1.8.0 (2024-07-05)",
+        "```backend stuff don't worry about it```"
+      ],
+      [
+        "1.8.1 (2024-08-06)",
+        "```i wonder if anyone actually reads this\nIf they do, Charge now strictly refers to Charge Potency to retain consistency with the game. All previous instances of Charge are now Charge Count.```"
+      ],
+      [
+        "1.8.2 (2024-08-22)",
+        "```Wild Hunt Heathcliff had enough text to warrant a brand new override. Coins will collapse to a x(X) if necessary.\nIDs with 'always active' Passives have them moved to the Defense Skill tab. Same reason as above.\nReminder that skills can be queried by name and the result will LIKELY be less ugly.```"
+      ],
+      [
+        "2.0.0 (2024-09-05)",
+        "```verified and terrified\nLobotomy E.G.O Ryoshu has two sin costs in her passive. That's fun.```"
+      ],
+      [
+        "2.1.0 (2024-09-17)",
+        "```largely trivial formatter update\nyou'd think the indents would've been made automatic sooner.```"
+      ],
+      [
+        "2.2.1 (2024-10-17)",
+        "```just some housekeeping for da real ones who read this\nbarber outis's scissors are in fact cut down to just 'scissors' from there being no other reasonable way to make that fit into a discord embed\nweb frontend soon tm```"
+      ],
+      [
+        "2.2.0 (2024-10-07)",
+        "```fixed the support query for sins\nenjoy getting 50 results figuring out what zwei ish can use solo```"
+      ],
+      [
+        "2.4.0 (2024-12-04)",
+        "```hi\nadded an override for coin power changing shenanigans\ntechnically was needed since lcb heath's but was circumvented because 2 power divides into 2 coins```"
+      ],
+      [
+        "2.3.0 (2024-10-24)",
+        "```please just one patch where nothing breaks\nsomehow meursault's yearning-mircalla had enough text to set off every override without heavy editing\nweb frontend sooner tm```"
+      ]
+    ],
+    "HelpFooter": ""
+  }
+]

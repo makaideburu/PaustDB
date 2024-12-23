@@ -1,0 +1,2818 @@
+[
+  {
+    "Id": 1,
+    "Name": "Madness",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "First Stop - Contact",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Recollected G Corp. Soldiers",
+                "Count": 5,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.75,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Recollected Festered G Corp. H. Manager",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 0.5,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Recollected G Corp. Soldiers",
+                "Count": 3,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.75,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Station #3 - Sinkage",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Blubbering Toad",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.75,
+                      "Pierce": 0.75,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 0.75,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Left Eye",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.75,
+                      "Pierce": 1,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 0.75,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Right Eye",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.75,
+                      "Pierce": 1,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.5,
+                      "Pride": 0.75,
+                      "Envy": 1.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Mobius",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "First Stop: Curse",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted So That No One Will Cry",
+                "Refraction": "Sinking Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 0.5,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Right Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1,
+                      "Blunt": 2
+                    },
+                    "SinResist": {
+                      "Wrath": 2,
+                      "Lust": 1,
+                      "Sloth": 0.5,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Station #2: Servitude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Steam Transport Machine",
+                "Refraction": "Bleed/Tremor Resist, Sinking Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 1,
+                      "Gloom": 0.5,
+                      "Pride": 0.75,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Steam Blaster",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 0.5,
+                      "Pride": 0.75,
+                      "Envy": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Station #3: Rainfall",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Old Umbrella",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 1,
+                  "Sloth": 2,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1.5,
+                  "Envy": 0.75
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Drifting Fox",
+                "Refraction": "Rupture/Sinking Resist, Bleed Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1.5,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1.5,
+                      "Gloom": 2,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Name": "Station #4: Arrears",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted T Corp. Class 3 Collectors",
+                "Refraction": "Rupture/Sinking Resist, Burn Weak",
+                "Count": 2,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 0.5,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Abnormalities": [
+              {
+                "Name": "Refracted T Corp. Class 3 Collectors",
+                "Refraction": "Rupture/Sinking Resist, Burn Weak",
+                "Count": 2,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 0.5,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Name": "Station #5: Lure",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Faelantern",
+                "Refraction": "Rupture/Sinking Resist",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 2,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 2,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Fairy",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 2,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 2,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 1.5,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Name": "Station #6: Exploitation",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Shock Centipede",
+                "Refraction": "Sinking Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 0.5
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 1,
+                      "Blunt": 2
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 2,
+                      "Pride": 1,
+                      "Envy": 0.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Name": "Station #7: Odd Stench",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Fairy Wine",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.5,
+                  "Sloth": 2,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1.5,
+                  "Envy": 0.5
+                }
+              },
+              {
+                "Name": "Refracted Clover",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1.5,
+                  "Envy": 1.5
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Fairy Gentleman",
+                "Refraction": "Bleed/Tremor Resist, Rupture Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.75,
+                      "Sloth": 1,
+                      "Gluttony": 0.5,
+                      "Gloom": 1,
+                      "Pride": 1.5,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Left Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 2,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.75,
+                      "Sloth": 1,
+                      "Gluttony": 0.5,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Refracted Fairy-Long-Legs",
+                "Refraction": "Bleed/Tremor Resist, Rupture Weak",
+                "Count": -1,
+                "Parts": [
+                  {
+                    "Name": "Body, Left Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 1,
+                      "Pride": 1.5,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 1.5,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 1,
+                      "Pride": 1.5,
+                      "Envy": 1.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Name": "Station #8: Cycle",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Hemorrhaging Dimension",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.5,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Poisonous Dimension",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1.5,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Tremoring Dimension",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Electrifying Dimension",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1.5,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Wayward Passenger",
+                "Refraction": "Burn/Rupture Resist, Tremor Weak",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Left Blade",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 2,
+                      "Gloom": 1,
+                      "Pride": 0.75,
+                      "Envy": 0.5
+                    }
+                  },
+                  {
+                    "Name": "Right Blade",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 2,
+                      "Gloom": 1,
+                      "Pride": 0.75,
+                      "Envy": 0.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Name": "Terminus: The Garden",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Sin-drenched Roses",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Sign of Roses",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Flesh",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Signpost",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "MirrorClock OrangeRoad",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "First Stop: Cogwheel",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Whale of the Porous Hand Mermaid",
+                "Count": 6,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.5,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1.5,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Refracted Whale of the Porous Hand Mermaid",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.5,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1.5,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Whale of the Porous Hand Soldier Mermaid",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.5,
+                  "Pride": 1.2,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Station #2: Waves",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Whale of the Thousand Strands Mermaid",
+                "Count": 6,
+                "DamageResist": {
+                  "Slash": 1.2,
+                  "Pierce": 1.5,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Refracted Flotsam",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": -100
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Dream Devouring Siltcurrent",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 1,
+                      "Envy": 1.5
+                    }
+                  },
+                  {
+                    "Name": "Fluorescence",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 1,
+                      "Envy": 1.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Station #3: Nostalgia",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Drenched Gossypium",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.3,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.2,
+                      "Sloth": 1,
+                      "Gluttony": 0.5,
+                      "Gloom": 1,
+                      "Pride": 1.5,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Name": "Station #4: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 0,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Name": "Station #5: Drudgery",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Green Slime",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Ambling Pearl",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Shell",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.2,
+                      "Lust": 0.2,
+                      "Sloth": 0.2,
+                      "Gluttony": 0.2,
+                      "Gloom": 0.2,
+                      "Pride": 0.2,
+                      "Envy": 0.2
+                    }
+                  },
+                  {
+                    "Name": "Pearl",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1.2
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.2,
+                      "Gluttony": 1.2,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Name": "Station #6: Truth",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Candle",
+                "Count": 5,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 0.5,
+                  "Sloth": 1,
+                  "Gluttony": 1.5,
+                  "Gloom": 2,
+                  "Pride": 1.25,
+                  "Envy": 1
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Skin Prophet",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1.5,
+                      "Gloom": 2,
+                      "Pride": 1.25,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Name": "Station #7: Eclosion",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Ardor Blossom Moth",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.2,
+                      "Lust": 0.5,
+                      "Sloth": 1.2,
+                      "Gluttony": 1,
+                      "Gloom": 1.2,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Wings",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.2,
+                      "Lust": 0.5,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 2,
+                      "Pride": 1,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Name": "Station #8: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 0,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Name": "Station #9: Pallidification",
+        "Footer": "There's too many things with different resists in this stop. Icons are unavailable due to character limit.",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Pallidifed Thing-Shield",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1,
+                  "Blunt": 1.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1.2
+                }
+              },
+              {
+                "Name": "Refracted Pallidifed Thing-Club",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1,
+                  "Blunt": 1.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1.2
+                }
+              },
+              {
+                "Name": "Refracted Pallidifed Thing-Pirate",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.2,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1.2
+                }
+              },
+              {
+                "Name": "Refracted Pallidifed Thing-Hook",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.2,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1.2
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Refracted Pallid White Mermaid",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 0.8,
+                  "Pierce": 1.2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1.2,
+                  "Envy": 1.5
+                }
+              },
+              {
+                "Name": "Refracted Pallid Blue Mermaid",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Pallid Entwined Mermaid",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 0.8,
+                  "Pierce": 1.2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.5,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1.2
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 3,
+            "Enemies": [
+              {
+                "Name": "Refracted Pallid and Blue Mermaid",
+                "Count": 3,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.5,
+                  "Pride": 1.2,
+                  "Envy": 1.2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 10,
+        "Name": "Station #10: Brainwash",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Blinded Pequod Town Villager",
+                "Count": 3,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1.3,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 0.75,
+                  "Gluttony": 1.2,
+                  "Gloom": 1,
+                  "Pride": 1.2,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Gagged Pequod Town Villager",
+                "Count": 3,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1.3,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 0.75,
+                  "Gluttony": 1.2,
+                  "Gloom": 1,
+                  "Pride": 1.2,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Refracted Queequeg",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 1.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.5,
+                  "Sloth": 1,
+                  "Gluttony": 0.5,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1.25
+                }
+              },
+              {
+                "Name": "Refracted Starbuck",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.5,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 0.5,
+                  "Lust": 0.5,
+                  "Sloth": 1,
+                  "Gluttony": 1.25,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Ahab",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.5,
+                  "Gluttony": 1,
+                  "Gloom": 0.5,
+                  "Pride": 1.25,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 11,
+        "Name": "Station #11: Gaslight",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Effloresced E.G.O::GasHarpoon",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1.2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.2,
+                  "Lust": 1,
+                  "Sloth": 0.5,
+                  "Gluttony": 1,
+                  "Gloom": 0.5,
+                  "Pride": 1.2,
+                  "Envy": 1.2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 12,
+        "Name": "Station #12: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 13,
+        "Name": "Terminus: The Helix",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Grasp",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1.2
+                },
+                "SinResist": {
+                  "Wrath": 1.2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ],
+            "Abnormalities": [
+              {
+                "Name": "Refracted Spiral of Contempt",
+                "Refraction": "No Status Refractions",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.7,
+                      "Pierce": 0.7,
+                      "Blunt": 0.7
+                    },
+                    "SinResist": {
+                      "Wrath": 0.7,
+                      "Lust": 0.7,
+                      "Sloth": 0.7,
+                      "Gluttony": 0.7,
+                      "Gloom": 0.7,
+                      "Pride": 0.7,
+                      "Envy": 0.7
+                    }
+                  },
+                  {
+                    "Name": "Hands",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.7,
+                      "Pierce": 0.7,
+                      "Blunt": 0.7
+                    },
+                    "SinResist": {
+                      "Wrath": 0.7,
+                      "Lust": 0.7,
+                      "Sloth": 0.7,
+                      "Gluttony": 0.7,
+                      "Gloom": 0.7,
+                      "Pride": 0.7,
+                      "Envy": 0.7
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Masquerade",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "Section #1: Banquet/Well Basin/Twisted (1)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Portrait of a Certain Day",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.5,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1.25,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1.5,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Refracted Portrait",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Section #1: Banquet/Well Basin/Twisted (2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Edgar Family Butler",
+                "Count": 6,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.75,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Wuthering Heights Butler",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.75,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Josephine",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 1.25
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Hindley, The Reaved Lamenter",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.5,
+                  "Lust": 1.2,
+                  "Sloth": 0.5,
+                  "Gluttony": 1,
+                  "Gloom": 1.2,
+                  "Pride": 0.5,
+                  "Envy": 1.5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Section #1: Banquet/Well Basin/Twisted (3)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Nelly",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1.25,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Name": "Station #4: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 0,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (1)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae - The One Who Shall Grip Sinclair",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae - The One Who Grips Faust",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae - N Corp. Mittelhammer Rodion",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae - N Corp. Kleinhammer Heathcliff",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 0.75,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae - N Corp. Mittelhammer Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae - N Corp. Großhammer Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Kurokumo Henchman/Henchwoman",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 1.5,
+                  "Pierce": 0.75,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Kurokumo Clan Captain Jun",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 1.2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (3)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Mentor Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Yi Sang",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Faust",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Outis",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Sinclair",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Name": "Station #8: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 0,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Name": "Section #3: Forgery/Dreaming (1.1)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae? - W Corp. L3 Cleanup Agent Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - R Corp. 4th Pack Rabbit Heathcliff",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 0.75
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - W Corp. L3 Cleanup Agent Ryōshū",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Seven Association South Section 4 Faust",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - R Corp. 4th Pack Rhino Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - K Corp. Class 3 Excision Staff Hong Lu",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": -1,
+        "Name": "Section #3: Forgery/Dreaming (1.2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Seven Association South Section 6 Director Outis",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Rodion",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - The Ring Pointilist Student Yi Sang ",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - The Pequod Captain Ishmael",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 2,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Zwei Association South Section 4 Gregor",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 2,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 4 Director Sinclair",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 0.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 10,
+        "Name": "Section #3: Forgery/Dreaming (2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Dreaming Electric Sheep",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 1,
+                      "Gloom": 1.25,
+                      "Pride": 0.75,
+                      "Envy": 0.5
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Refracted Generator",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 2,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 2,
+                  "Sloth": 2,
+                  "Gluttony": 2,
+                  "Gloom": 2,
+                  "Pride": 2,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 11,
+        "Name": "Station #11: Interlude",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "**No Combat Encounters**",
+                "Count": 0,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 12,
+        "Name": "Section #4: Adamantine Wall/Feast (1.1)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Lobotomy E.G.O::Sunshower Heathcliff",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 0.75
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Chief Butler Ryōshū",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Heir Gregor",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 2,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Wuthering Heights Chief Butler Outis",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Wuthering Heights Butler Faust",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Butler Ishmael",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 2,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": -1,
+        "Name": "Section #4: Adamantine Wall/Feast (1.2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Dead Rabbits Boss Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Hong Lu",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 2,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Rodion",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Yi Sang",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 5 Director Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 4 Director Sinclair",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 0.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 13,
+        "Name": "Section #4: Adamantine Wall/Feast (2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "The Refracted King in Binds",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1.2
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.7,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.7,
+                      "Gloom": 1.3,
+                      "Pride": 1,
+                      "Envy": 0.7
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

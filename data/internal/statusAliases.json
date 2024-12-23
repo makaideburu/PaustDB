@@ -1,0 +1,528 @@
+[
+  {
+    "entry": "burn count",
+    "aliases": [
+      "burn"
+    ]
+  },
+  {
+    "entry": "bleed count",
+    "aliases": [
+      "bleed"
+    ]
+  },
+  {
+    "entry": "tremor count",
+    "aliases": [
+      "tremor"
+    ]
+  },
+  {
+    "entry": "rupture count",
+    "aliases": [
+      "rupture"
+    ]
+  },
+  {
+    "entry": "sinking count",
+    "aliases": [
+      "sinking"
+    ]
+  },
+  {
+    "entry": "poise count",
+    "aliases": [
+      "poise"
+    ]
+  },
+  {
+    "entry": "charge",
+    "aliases": [
+      "charge count"
+    ]
+  },
+  {
+    "entry": "charge count limit increase",
+    "aliases":[
+      "limit increase"
+    ]
+  },
+  {
+    "entry": "ally charge count",
+    "aliases": [
+      "charge support"
+    ]
+  },
+  {
+    "entry": "party charge count",
+    "aliases": [
+      "charge support"
+    ]
+  },
+  {
+    "entry": "charge barrier",
+    "aliases": [
+      "charge count"
+    ]
+  },
+  {
+    "entry": "ally charge barrier",
+    "aliases": [
+      "ally charge count"
+    ]
+  },
+  {
+    "entry": "gaze",
+    "aliases": [
+      "party pierce damage amp",
+      "party blunt damage amp"
+    ]
+  },
+  {
+    "entry": "nails",
+    "aliases": [
+      "unique bleed",
+      "bleed",
+      "bleed count"
+    ]
+  },
+  {
+    "entry": "talisman",
+    "aliases": [
+      "rupture"
+    ]
+  },
+  {
+    "entry": "heated gas harpoon",
+    "aliases": [
+      "burn"
+    ]
+  },
+  {
+    "entry": "overheated gas harpoon",
+    "aliases": [
+      "burn"
+    ]
+  },
+  {
+    "entry": "swordplay of the homeland - rending",
+    "aliases": [
+      "swordplay of the homeland"
+    ]
+  },
+  {
+    "entry": "swordplay of the homeland - penetrating",
+    "aliases": [
+      "swordplay of the homeland"
+    ]
+  },
+  {
+    "entry": "amplitude entanglement",
+    "aliases":[
+      "tremor - superposition"
+    ]
+  },
+  {
+    "entry": "tremor - decay",
+    "aliases":[
+      "unique tremor",
+      "defense level down"
+    ]
+  },
+  {
+    "entry": "tremor - fracture",
+    "aliases":[
+      "unique tremor"
+    ]
+  },
+  {
+    "entry": "tremor - reverb",
+    "aliases":[
+      "unique tremor"
+    ]
+  },
+  {
+    "entry": "tremor - everlasting",
+    "aliases":[
+      "unique tremor"
+    ]
+  },
+  {
+    "entry": "tremor - chain",
+    "aliases":[
+      "unique tremor"
+    ]
+  },
+  {
+    "entry": "curse",
+    "aliases": [
+      "attack power down",
+      "defense power down",
+      "offense level down",
+      "defense level down"
+    ]
+  },
+  {
+    "entry": "spark discharge",
+    "aliases": [
+      "rupture count",
+      "ally charge count",
+      "charge support"
+    ]
+  },
+  {
+    "entry": "maggots",
+    "aliases": [
+      "bleed"
+    ]
+  },
+  {
+    "entry": "dark flame",
+    "aliases": [
+      "unique burn"
+    ]
+  },
+  {
+    "entry": "red plum blossom",
+    "aliases":[
+      "unique bleed"
+    ]
+  },
+  {
+    "entry": "pink ribbons",
+    "aliases": [
+      "bind"
+    ]
+  },
+  {
+    "entry": "dimensional rift",
+    "aliases": [
+      "rupture count"
+    ]
+  },
+  {
+    "entry": "weakness analyzed",
+    "aliases": [
+      "resists down"
+    ]
+  },
+  {
+    "entry": "echoes of the manor",
+    "aliases":[
+      "sinking count",
+      "change panic type"
+    ]
+  },
+  {
+    "entry": "volatile passion",
+    "aliases":[
+      "burn",
+      "sp damage"
+    ]
+  },
+  {
+    "entry": "random negative status",
+    "aliases": [
+      "burn",
+      "bleed",
+      "tremor",
+      "rupture",
+      "sinking"
+    ]
+  },
+  {
+    "entry": "random negative status count",
+    "aliases":[
+      "burn count",
+      "bleed count",
+      "tremor count",
+      "rupture count",
+      "sinking count"
+    ]
+  },
+  {
+    "entry": "blubberbubble",
+    "aliases":[
+      "shield management",
+      "sinking",
+      "sinking count"
+    ]
+  },
+  {
+    "entry": "ally blubberbubble",
+    "aliases":[
+      "ally shield management",
+      "sinking",
+      "sinking count"
+    ]
+  },
+  {
+    "entry": "borrowed time",
+    "aliases":[
+      "haste",
+      "clash power up",
+      "self fragile",
+      "self stagger",
+      "self bind"
+    ]
+  },
+  {
+    "entry": "erudition",
+    "aliases": [
+      "shield",
+      "clash power up"
+    ]
+  },
+  {
+    "entry": "ally erudition",
+    "aliases": [
+      "ally shield",
+      "ally clash power"
+    ]
+  },
+  {
+    "entry": "gaze of contempt",
+    "aliases": [
+      "damage amp",
+      "contempt of the gaze"
+    ]
+  },
+  {
+    "entry": "contempt of the gaze",
+    "aliases": [
+      "protection",
+      "self damage down",
+      "aggro"
+    ]
+  },
+  {
+    "entry": "photoelectricity",
+    "aliases": [
+      "charge count",
+      "ally charge count"
+    ]
+  },
+  {
+    "entry": "clashable counter",
+    "aliases":[
+      "counter"
+    ]
+  },
+  {
+    "entry": "coffin",
+    "aliases": [
+      "damage up",
+      "min speed",
+      "clash power up"
+    ]
+  },
+  {
+    "entry": "ally wild hunt",
+    "aliases": [
+      "ally guts",
+      "gain resources",
+      "sinking"
+    ]
+  },
+  {
+    "entry": "dullahan",
+    "aliases": [
+      "self defense level down",
+      "offense level up",
+      "min speed",
+      "max speed",
+      "self sp damage"
+    ]
+  },
+  {
+    "entry": "impending ruin",
+    "aliases": [
+      "change panic type",
+      "sinking",
+      "sinking count",
+      "clash power down"
+    ]
+  },
+  {
+    "entry": "red eyes",
+    "aliases": [
+      "unique charge",
+      "bleed"
+    ]
+  },
+  {
+    "entry": "penitence",
+    "aliases": [
+      "unique charge",
+      "heal sp",
+      "shield"
+    ]
+  },
+  {
+    "entry": "only ashes remain",
+    "aliases": [
+      "status block",
+      "heal hp",
+      "ally heal hp",
+      "heal sp",
+      "ally heal sp"
+    ]
+  },
+  {
+    "entry": "the living & the departed",
+    "aliases": [
+      "unique ammo"
+    ]
+  },
+  {
+    "entry": "butterfly",
+    "aliases": [
+      "unique sinking",
+      "heal sp"
+    ]
+  },
+  {
+    "entry": "reload",
+    "aliases": [
+      "self sp damage",
+      "the living & the departed"
+    ]
+  },
+  {
+    "entry": "strategic r&r mode",
+    "aliases": [
+      "stagger recovery",
+      "status cleanse"
+    ]
+  },
+  {
+    "entry": "courier trunk",
+    "aliases": [
+      "Min Speed",
+      "Max Speed",
+      "Clash Power Up",
+      "Slash Power Up",
+      "Self HP Damage",
+      "Self SP Damage"
+    ]
+  },
+  {
+    "entry": "the uninvited",
+    "aliases": [
+      "Ally Heal SP",
+      "Heal SP"
+    ]
+  },
+  {
+    "entry": "defensive stance",
+    "aliases": [
+      "Defense Level Up",
+      "Aggro",
+      "Tremor Burst",
+      "Nullify Stagger"
+    ]
+  },
+  {
+    "entry": "blood-tinged scissorblades",
+    "aliases": [
+      "offense level up",
+      "self defense level down"
+    ]
+  },
+  {
+    "entry": "lasso",
+    "aliases": [
+      "rupture",
+      "bind"
+    ]
+  },
+  {
+    "entry": "Rose Wedge",
+    "aliases": [
+      "Bleed",
+      "Bleed Count"
+    ]
+  },
+  {
+    "entry": "Ailing Heart",
+    "aliases": [
+      "Defense Level Up",
+      "Heal HP"
+    ]
+  },
+  {
+    "entry": "Bloodied Hand",
+    "aliases": [
+      "Offense Level Up",
+      "Rupture",
+      "Bleed"
+    ]
+  },
+  {
+    "entry": "Blooming Thorn",
+    "aliases": [
+      "Defense Level Up",
+      "Bleed",
+      "Rupture"
+    ]
+  },
+  {
+    "entry": "ally Blooming Thorn",
+    "aliases": [
+      "ally Defense Level Up"
+    ]
+  },
+  {
+    "entry": "courier trunk - rodion",
+    "aliases": [
+      "Courier Trunk",
+      "Min Speed",
+      "Max Speed",
+      "Clash Power Up",
+      "Slash Damage Up",
+      "Self HP Damage",
+      "Self SP Damage"
+    ]
+  },
+  {
+    "entry": "courier trunk - sinclair",
+    "aliases": [
+      "Courier Trunk",
+      "Min Speed",
+      "Max Speed",
+      "Clash Power Up",
+      "Blunt Damage Up",
+      "Self HP Damage",
+      "Self SP Damage"
+    ]
+  },
+  {
+    "entry": "Hardblood",
+    "aliases": [
+      "Min Speed",
+      "Max Speed",
+      "Offense Level Up",
+      "Defense Level Up"
+    ]
+  },
+  {
+    "entry": "Ally Shimmering [Bloodfiend]",
+    "aliases": [
+      "Ally Shield"
+    ]
+  },
+  {
+    "entry": "Responsibility",
+    "aliases": [
+      "Clash Power Up",
+      "Damage Amp",
+      "Damage Taken Amp"
+    ]
+  },
+  {
+    "entry": "Dhyāna",
+    "aliases":[
+      "damage amp"
+    ]
+  }
+]
