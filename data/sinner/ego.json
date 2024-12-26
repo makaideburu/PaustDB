@@ -5801,11 +5801,7 @@
           "AttackWeightMod": 2,
           "MiscTags": [
             "Random Negative Status",
-            "Ally Poise Count",
-            "Ally Charge Count",
-            "Ally Haste",
-            "Ally Offense Level Up",
-            "Ally Defense Level Up"
+            "Ally Random Positive Status"
           ]
         },
         "Corrosion": {
@@ -5858,11 +5854,7 @@
           "AttackWeightMod": 2,
           "MiscTags": [
             "Random Negative Status",
-            "Ally Poise Count",
-            "Ally Charge Count",
-            "Ally Haste",
-            "Ally Offense Level Up",
-            "Ally Defense Level Up"
+            "Ally Random Positive Status"
           ]
         },
         "Corrosion": {
@@ -7598,7 +7590,7 @@
     ]
   },
   {
-    "Id": 8000,
+    "Id": 8303,
     "Sinner": "Ishmael",
     "Grade": "HE",
     "Sanity": 20,
@@ -11513,7 +11505,7 @@
     ]
   },
   {
-    "Id": 13000,
+    "Id": 13303,
     "Sinner": "Gregor",
     "Grade": "HE",
     "Sanity": 20,

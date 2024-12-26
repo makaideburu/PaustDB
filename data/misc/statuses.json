@@ -1388,7 +1388,8 @@
     "Description": "Max Potency: 10\nMax Count: 4\nGain 1 Potency every time this unit takes 10 Bleed damage\nWhen gaining Bleed or Unique Bleed from getting Hit, gain 2 Bleed and inflict 1 Bleed against the Attacker (5 times per turn)\nAt 10 Potency, gain +1 Bleed Count as well when triggering the above effect\nTurn End: Lose 1 Count\nCombat End: At 10 Potency or 1 Count, this effect expires, and this unit takes (Potency x 10) Lust damage\nIf the unit inflicted with this effect dies, or when this effect expires: Increase Bloodfeast by (Potency x 10), and deal (Potency x 2) Lust damage against all its allies (Min 1)",
     "Tags": [
       "Bleed",
-      "Bleed Count"
+      "Bleed Count",
+      "Bloodfeast"
     ]
   },
   {

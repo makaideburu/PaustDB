@@ -241,6 +241,26 @@
     ]
   },
   {
+    "entry": "random positive status",
+    "aliases":[
+      "poise count",
+      "charge count",
+      "haste",
+      "offense level up",
+      "Defense Level Up"
+    ]
+  },
+  {
+    "entry": "ally random positive status",
+    "aliases":[
+      "ally poise count",
+      "ally charge count",
+      "ally haste",
+      "ally offense level up",
+      "ally Defense Level Up"
+    ]
+  },
+  {
     "entry": "blubberbubble",
     "aliases":[
       "shield management",
@@ -440,7 +460,8 @@
     "entry": "Rose Wedge",
     "aliases": [
       "Bleed",
-      "Bleed Count"
+      "Bleed Count",
+      "Bloodfeast"
     ]
   },
   {
