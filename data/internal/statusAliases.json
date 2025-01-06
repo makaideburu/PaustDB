@@ -247,7 +247,7 @@
       "charge count",
       "haste",
       "offense level up",
-      "Defense Level Up"
+      "defense level up"
     ]
   },
   {
@@ -257,7 +257,7 @@
       "ally charge count",
       "ally haste",
       "ally offense level up",
-      "ally Defense Level Up"
+      "ally defense level up"
     ]
   },
   {
@@ -412,34 +412,35 @@
     "entry": "strategic r&r mode",
     "aliases": [
       "stagger recovery",
-      "status cleanse"
+      "status cleanse",
+      "retreat"
     ]
   },
   {
     "entry": "courier trunk",
     "aliases": [
-      "Min Speed",
-      "Max Speed",
-      "Clash Power Up",
-      "Slash Power Up",
-      "Self HP Damage",
-      "Self SP Damage"
+      "min speed",
+      "max speed",
+      "clash power up",
+      "slash power up",
+      "self hp damage",
+      "self sp damage"
     ]
   },
   {
     "entry": "the uninvited",
     "aliases": [
-      "Ally Heal SP",
-      "Heal SP"
+      "ally heal sp",
+      "heal sp"
     ]
   },
   {
     "entry": "defensive stance",
     "aliases": [
-      "Defense Level Up",
-      "Aggro",
-      "Tremor Burst",
-      "Nullify Stagger"
+      "defense level up",
+      "aggro",
+      "tremor burst",
+      "nullify stagger"
     ]
   },
   {
@@ -457,93 +458,182 @@
     ]
   },
   {
-    "entry": "Rose Wedge",
+    "entry": "rose wedge",
     "aliases": [
-      "Bleed",
-      "Bleed Count",
-      "Bloodfeast"
+      "bleed",
+      "bleed count",
+      "bloodfeast"
     ]
   },
   {
-    "entry": "Ailing Heart",
+    "entry": "ailing heart",
     "aliases": [
-      "Defense Level Up",
-      "Heal HP"
+      "defense level up",
+      "heal hp"
     ]
   },
   {
-    "entry": "Bloodied Hand",
+    "entry": "bloodied hand",
     "aliases": [
-      "Offense Level Up",
-      "Rupture",
-      "Bleed"
+      "offense level up",
+      "rupture",
+      "bleed"
     ]
   },
   {
-    "entry": "Blooming Thorn",
+    "entry": "blooming thorn",
     "aliases": [
-      "Defense Level Up",
-      "Bleed",
-      "Rupture"
+      "defense level up",
+      "bleed",
+      "rupture"
     ]
   },
   {
-    "entry": "ally Blooming Thorn",
+    "entry": "ally blooming thorn",
     "aliases": [
-      "ally Defense Level Up"
+      "ally defense level up"
     ]
   },
   {
     "entry": "courier trunk - rodion",
     "aliases": [
-      "Courier Trunk",
-      "Min Speed",
-      "Max Speed",
-      "Clash Power Up",
-      "Slash Damage Up",
-      "Self HP Damage",
-      "Self SP Damage"
+      "courier trunk",
+      "min speed",
+      "max speed",
+      "clash power up",
+      "slash damage up",
+      "self hp damage",
+      "self sp damage"
     ]
   },
   {
     "entry": "courier trunk - sinclair",
     "aliases": [
-      "Courier Trunk",
-      "Min Speed",
-      "Max Speed",
-      "Clash Power Up",
-      "Blunt Damage Up",
-      "Self HP Damage",
-      "Self SP Damage"
+      "courier trunk",
+      "min speed",
+      "max speed",
+      "clash power up",
+      "blunt damage up",
+      "self hp damage",
+      "self sp damage"
     ]
   },
   {
-    "entry": "Hardblood",
+    "entry": "hardblood",
     "aliases": [
-      "Min Speed",
-      "Max Speed",
-      "Offense Level Up",
-      "Defense Level Up"
+      "min speed",
+      "max speed",
+      "offense level up",
+      "defense level up"
     ]
   },
   {
-    "entry": "Ally Shimmering [Bloodfiend]",
+    "entry": "ally shimmering [bloodfiend]",
     "aliases": [
-      "Ally Shield"
+      "ally shield"
     ]
   },
   {
-    "entry": "Responsibility",
+    "entry": "responsibility",
     "aliases": [
-      "Clash Power Up",
-      "Damage Amp",
-      "Damage Taken Amp"
+      "clash power up",
+      "damage amp",
+      "damage taken amp"
     ]
   },
   {
-    "entry": "Dhyāna",
+    "entry": "dhyāna",
     "aliases":[
       "damage amp"
+    ]
+  },
+  {
+    "entry": "assist attack",
+    "aliases":[
+      "follow up"
+    ]
+  },
+  {
+    "entry": "target spotted",
+    "aliases":[
+      "follow up"
+    ]
+  },
+  {
+    "entry": "melee support",
+    "aliases":[
+      "follow up"
+    ]
+  },
+  {
+    "entry": "overwatch assignment",
+    "aliases":[
+      "stagger recovery",
+      "status cleanse",
+      "retreat"
+    ]
+  },
+  {
+    "entry": "the magic bullet",
+    "aliases":[
+      "the first magic bullet",
+      "the second magic bullet",
+      "the third magic bullet",
+      "the fourth magic bullet",
+      "the fifth magic bullet",
+      "the sixth magic bullet",
+      "the seventh magic bullet"
+    ]
+  },
+  {
+    "entry": "the first magic bullet",
+    "aliases": [
+      "raise stagger threshold"
+    ]
+  },
+  {
+    "entry": "the second magic bullet",
+    "aliases": [
+      "paralyze"
+    ]
+  },
+  {
+    "entry": "the third magic bullet",
+    "aliases": [
+      "attack weight increase",
+      "attack power down",
+      "burn"
+    ]
+  },
+  {
+    "entry": "the fourth magic bullet",
+    "aliases": [
+      "attack weight increase",
+      "raise stagger threshold",
+      "fragile"
+    ]
+  },
+  {
+    "entry": "the fifth magic bullet",
+    "aliases": [
+      "attack weight increase",
+      "burn",
+      "offense level down",
+      "defense level down"
+    ]
+  },
+  {
+    "entry": "the sixth magic bullet",
+    "aliases": [
+      "attack weight increase",
+      "burn"
+    ]
+  },
+  {
+    "entry": "the seventh magic bullet",
+    "aliases": [
+      "pierce resistance down",
+      "self pierce resistance down"
     ]
   }
 ]

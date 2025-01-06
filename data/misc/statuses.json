@@ -640,7 +640,9 @@
   {
     "Name": "Weakness Analyzed",
     "Description": "A random 'Endured' or 'Normal' Attack type resistance is reduced by 0.2 for one turn.",
-    "Tags": []
+    "Tags": [
+      "Resists Down"
+    ]
   },
   {
     "Name": "Declared Duel",
@@ -740,7 +742,7 @@
   },
   {
     "Name": "Magic Bullet",
-    "Description": "Max: 7\nThe higher the value, the higher the Base Power and Coin Power of Skill 3.\n0-3: +0 Coin +0 Base\n4-6: +2 Coin +2 Base\n7: +6 Coin +15 Base",
+    "Description": "Max: 7\nLobotomy E.G.O::Magic Bullet Outis Skill 3 Only:\n0-3: +0 Coin +0 Base\n4-6: +2 Coin +2 Base\n7: +6 Coin +15 Base",
     "Tags": []
   },
   {
@@ -751,7 +753,9 @@
   {
     "Name": "Assist Attack",
     "Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End.\nThe Skill used as an Assist Attack does not affect Unit B's upcoming Skills list.",
-    "Tags": []
+    "Tags": [
+      "Follow Up"
+    ]
   },
   {
     "Name": "Heated Gas Harpoon",
@@ -1296,7 +1300,7 @@
     ]
   },
   {
-    "Name": "Reload",
+    "Name": "Reload [Lobotomy E.G.O::Solemn Lament Yi Sang]",
     "Description": "Effect applied to The Living & The Departed\nConsume (30 - The Living + The Departed on self) / 2 SP\nReset both The Living & The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly'\nOn Reload, gain at least 1 of The Living and The Departed",
     "Tags": []
   },
@@ -1305,7 +1309,8 @@
     "Description": "Turn End: Recover from Stagger and retreat from Encounter (unless forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a substituted unit and move to the rearmost place in the Backup units' Deployment Order (escape from Encounter entirely if there are no other Backup units remaining to swap places with next turn. When returning to battle, return in the order they retreated in.)\nWhen returning to battle, return with the same amount of HP and SP when this unit retreated, and eliminate all effects on self (save for a select few)\nIf this unit had 0 SP when retreating, reset SP to 0 instead.",
     "Tags": [
       "Stagger Recovery",
-      "Status Cleanse"
+      "Status Cleanse",
+      "Retreat"
     ]
   },
   {
@@ -1541,7 +1546,7 @@
   },
   {
     "Name": "Shimmering [Bloodfiend]",
-    "Description": "Ma Stack: 50\nAs long as this effect exists, Bleed damage taken by Shield HP is converted into Bloodfeast\nGain Shield HP equal to Stack at the moment of application\nExpires at Turn End",
+    "Description": "Max Stack: 50\nAs long as this effect exists, Bleed damage taken by Shield HP is converted into Bloodfeast\nGain Shield HP equal to Stack at the moment of application\nExpires at Turn End",
     "Tags": [
       "Shield"
     ]
@@ -1559,5 +1564,128 @@
     "Name": "Dhyāna",
     "Description": "Max Stack: 108\nDeal +1% damage for every Stack",
     "Tags": []
+  },
+  {
+    "Name": "Target Spotted",
+    "Description": "If Unit A applies this effect to Unit B:\nUnit B follows up with an Unoppose Attck with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End\nThe Skill used due to this effect does not affect Unit B's upcoming Skill list",
+    "Tags": [
+      "Follow Up"
+    ]
+  },
+  {
+    "Name": "Reload [Full-Stop Office Rep Hong Lu]",
+    "Description": "Lose all currently owned Ammo, and reload to full",
+    "Tags": []
+  },
+  {
+    "Name": "Ammo - Atelier Logic",
+    "Description": "Unique Ammo\nAtelier Logic Special Ammo\nThis Ammo's count cannot be gained or lostdue to external effects",
+    "Tags": [
+      "Unique Ammo"
+    ]
+  },
+  {
+    "Name": "Concentration [Sniper]",
+    "Description": "Gain 1 Stack at Turn End",
+    "Tags": []
+  },
+  {
+    "Name": "Melee Support",
+    "Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with 'Melee Suport' against the same enemy that attacked Unit A\nActivates at Unit A's Skill End\nThe Skill used due to Melee Support does not affect Unit B's upcoming Skill list",
+    "Tags": [
+      "Follow Up"
+    ]
+  },
+  {
+    "Name": "Overwatch Assignment",
+    "Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Subtituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
+    "Tags": [
+      "Stagger Recovery",
+      "Status Cleanse",
+      "Retreat"
+    ]
+  },
+  {
+    "Name": "Reload [Full-Stop Office Fixer Heathcliff]",
+    "Description": "Lose all currently owned Ammo, and reload to full",
+    "Tags": []
+  },
+  {
+    "Name": "The Magic Bullet",
+    "Description": "See:\nThe First Magic Bullet\nThe Second Magic Bullet\nThe Third Magic Bullet\nThe Fourth Magic Bullet\nThe Fifth Magic Bullet\nThe Sixth Magic Bullet\nThe Seventh Magic Bullet",
+    "Tags": [
+      "The First Magic Bullet",
+      "The Second Magic Bullet",
+      "The Third Magic Bullet",
+      "The Fourth Magic Bullet",
+      "The Fifth Magic Bullet",
+      "The Sixth Magic Bullet",
+      "The Seventh Magic Bullet"
+    ]
+  },
+  {
+    "Name": "The First Magic Bullet",
+    "Description": "Deal more damage\nRaise target's Stagger Threshold by damage dealt",
+    "Tags": [
+      "The Magic Bullet",
+      "Raise Stagger Threshold"
+    ]
+  },
+  {
+    "Name": "The Second Magic Bullet",
+    "Description": "Deal more damage\nDeal damage to targets other than main target; main target takes 0 damage\nOn Hit, inflict Paralyze",
+    "Tags": [
+      "The Magic Bullet",
+      "Paralyze"
+    ]
+  },
+  {
+    "Name": "The Third Magic Bullet",
+    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, inflict Attack Power Down and Burn",
+    "Tags": [
+      "The Magic Bullet",
+      "Attack Weight Increase",
+      "Attack Power Down",
+      "Burn"
+    ]
+  },
+  {
+    "Name": "The Fourth Magic Bullet",
+    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt; inflict Fragile next turn",
+    "Tags": [
+      "The Magic Bullet",
+      "Attack Weight Increase",
+      "Raise Stagger Threshold",
+      "Fragile"
+    ]
+  },
+  {
+    "Name": "The Fifth Magic Bullet",
+    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, inflict Burn; inflict Offense Level Down and Defense Level Down next turn",
+    "Tags": [
+      "The Magic Bullet",
+      "Attack Weight Increase",
+      "Burn",
+      "Offense Level Down",
+      "Defense Level Down"
+    ]
+  },
+  {
+    "Name": "The Sixth Magic Bullet",
+    "Description": "Before Attack: Gain Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt\nReuse Coin for every X Burn on main target\nLose Plus Coin Skill Base Power\nLose Plus Coin Power\nLose Minus Coin Skill Base Power\nLose Minus Coin Power",
+    "Tags": [
+      "The Magic Bullet",
+      "Attack Weight Increase",
+      "Burn"
+    ]
+  },
+  {
+    "Name": "The Seventh Magic Bullet",
+    "Description": "Deal more damage\nDeal more damage for every X% missing HP on target\nBefore Attack: For this attack, change Pierce Damage Res on both target and self to Fatal\nAfter Attack: This unit dies",
+    "Tags": [
+      "The Magic Bullet",
+      "Pierce Resistance Down",
+      "Self Pierce Resistance Down"
+    ]
   }
 ]

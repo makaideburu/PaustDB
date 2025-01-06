@@ -3236,7 +3236,7 @@
         },
         "Corrosion": {
           "Name": "Blind Obsession",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain 4 Poise. Consume 2 Charge Count to gain 1 Poise (Max 10)\n[Turn End] Gain +4 Charge Count for every unit defeated by this Skill\n<1>[On Hit] Gain +1 Poise Count\n[On Crit] At 10+ Poise, gain +30% Critical Damage",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain 4 Poise. Consume 2 Charge Count to gain 1 Poise (Max 10)\n[Turn End] Gain +4 Charge Count for every unit defeated by this Skill\n<1>[On Hit] Gain +1 Poise Count\n[On Crit] At 10+ Poise, gain +30% damage on Critical Hit",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 30,
@@ -10579,6 +10579,90 @@
           "Description": "Maximum Charge Count +5\nSkills that consume Charge Count deal +2% damage for every (Charge - 1) (Max 10%)",
           "MiscTags": [
             "Charge Count Limit Increase"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 12000,
+    "Sinner": "Outis",
+    "Grade": "HE",
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "Der Freischütze",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Magic Bullet",
+          "Description": "Deal more damage for every X Burn on target\n[Before Attack] At 0 Magic Bullet, gain Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res\n[After Attack] If main target is defeated, inflict Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Magic Bullet",
+            "The Magic Bullet",
+            "Dark Flame",
+            "Burn"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Magic Bullet",
+          "Description": "[Indiscriminate] Targets randomly\nDeal more damage for every X Burn on target\n[Before Attack] At 0 Magic Bullet, gain Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res\n[After Attack] If main target is defeated, inflict Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / X) Burn Count\n[On Hit] Inflict Dark Flame equal to Magic Bullet",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 0,
+          "AttackWeightMod": 0,
+          "MiscTags": [
+            "Magic Bullet",
+            "The Magic Bullet",
+            "Dark Flame",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Seven Bullets",
+          "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / X) Burn\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead\nIf target has X+ Burn, inflict Dark Flame instead",
+          "MiscTags": [
+            "Burn",
+            "Dark Flame"
           ]
         }
       }
