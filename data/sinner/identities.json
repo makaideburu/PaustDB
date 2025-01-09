@@ -18087,7 +18087,7 @@
           ],
           "AltSkill": {
             "Name": "Taking Cover",
-            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Fragility (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Resist Down (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
             "DamageType": "Defend",
             "SinType": "Pride",
             "BasePower": 2,
@@ -18103,7 +18103,7 @@
             "MiscTags": [
               "Skill Change",
               "Melee Support",
-              "Pierce Fragility",
+              "Pierce Resist Down",
               "Poise",
               "Concentration (Sniper)"
             ]
