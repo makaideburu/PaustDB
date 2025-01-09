@@ -28,7 +28,7 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering by a Sinner's Identities is straight-forward, via -s```i.e. -s yi sang```Filtering by an Identity's name is simple as well, and accepts partial names via -i```i.e. -i molar```Rarity can be filtered via -r```i.e. -r 3```Faust can further search by Identities with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Uptie 3 information is also available.```-t3```As an example for Spicebush Yi Sang:```/limbus identity -s yi sang -i spicebush```"
+        "Filtering by a Sinner's Identities is straight-forward, via -s```i.e. -s yi sang```Filtering by an Identity's name is simple as well, and accepts partial names via -i```i.e. -i molar```Rarity can be filtered via -r```i.e. -r 3```Faust can further search by Identities with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Uptie 3 information is also available.```-t3```As an example for Spicebush Yi Sang:```/limbus identity -s yi sang -i spicebush```Shorthand is available for just looking up an ID, requiring both the ID and Sinner:```/limbus id spicebush yi sang```"
       ],
       [
         "Special Parameters",
@@ -36,7 +36,7 @@
       ],
       [
         "The Wacky Stuff",
-        "`-s1 -s2 -s3 -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects). Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s."
+        "`-s1 -s2 -s3 -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s."
       ]
     ],
     "HelpFooter": "Due to how the identity query works, Faust will only show you the first TWELVE results."
@@ -50,7 +50,7 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering by a Sinner's E.G.O is straight-forward, via -s```i.e. -s faust```Filtering by an E.G.O's name is simple as well, and accepts partial names, via -ego```i.e. -ego hex nail```Rank can be filtered via -r```i.e. -r teth```Faust can further search by E.G.O with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Threadspin 3 information is also available.```-t3```As an example for Yi Sang's 4th Match Flame:```/limbus ego -s yi sang -ego 4th match flame```"
+        "Filtering by a Sinner's E.G.O is straight-forward, via -s```i.e. -s faust```Filtering by an E.G.O's name is simple as well, and accepts partial names, via -ego```i.e. -ego hex nail```Rank can be filtered via -r```i.e. -r teth```Faust can further search by E.G.O with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Threadspin 3 information is also available.```-t3```As an example for Yi Sang's 4th Match Flame:```/limbus ego -s yi sang -ego 4th match flame```Shorthand is available for just looking up an EGO, requiring both the EGO and Sinner:```/limbus ego match flame yi sang```"
       ],
       [
         "Special Parameters",
@@ -58,7 +58,7 @@
       ],
       [
         "The Wacky Stuff",
-        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` (effects. Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```ego -s yi sang -awakening -sin sloth -e aoe```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE AOE"
+        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION"
       ],
       [
         "Slightly Wackier Stuff",
@@ -77,7 +77,7 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering skills by Sinners is straight-forward.```-s, -sinner```Filtering by an identity's skills is simple as well.```-i, -identity```Faust can further search skills with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```Adding `-long` will include the skill descriptions, but cuts down on the number of displayed skills, and some skills are simply too long to be displayed.\nFaust has relented. Go compare the different W Corp Leaps, if you want.```-skill leap```"
+        "Filtering skills by Sinners is straight-forward.```-s, -sinner```Filtering by an identity's skills is simple as well.```-i, -identity```Faust can further search skills with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```Adding `-long` will include the skill descriptions, but cuts down on the number of displayed skills, and some skills are simply too long to be displayed.\nFaust has relented. Go compare the different W Corp Leaps, if you want.```-skill leap```Skills can be shorthanded by name.```/limbus skill striker's stance```"
       ],
       [
         "The Wacky Stuff",
@@ -85,7 +85,7 @@
       ],
       [
         "Slightly Wackier Stuff",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers.\n'Power' in this case roughly refers to clash power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers.\n'Power' in this case refers to final power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
       ]
     ],
     "HelpFooter": "The skill query is particularly volatile, and the number of results is subject to change at any given time."
@@ -148,6 +148,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.5.3 (2025-01-08)",
+        "```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
+      ],
+      [
         "2.5.2 (2024-12-23)",
         "```Backend rework```"
       ],
@@ -158,10 +162,6 @@
       [
         "2.5.0.1 (2024-12-11)",
         "```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
-      ],
-      [
-        "2.5.0 (2024-12-11)",
-        "```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
       ]
     ],
     "OldItems": [
@@ -256,6 +256,10 @@
       [
         "2.3.0 (2024-10-24)",
         "```please just one patch where nothing breaks\nsomehow meursault's yearning-mircalla had enough text to set off every override without heavy editing\nweb frontend sooner tm```"
+      ],
+      [
+        "2.5.0 (2024-12-11)",
+        "```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
       ]
     ],
     "HelpFooter": ""

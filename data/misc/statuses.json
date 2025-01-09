@@ -1,512 +1,582 @@
 [
   {
     "Name": "Damage Up",
-    "Description": "Deal [Countx10%] more damage with skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with skills for one turn. (Max 100% at 10 Count)",
     "Tags": []
   },
   {
     "Name": "Slash DMG Up",
-    "Description": "Deal [Countx10%] more damage with Slash skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Slash skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Up"
     ]
   },
   {
     "Name": "Pierce DMG Up",
-    "Description": "Deal [Countx10%] more damage with Pierce skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Pierce skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Up"
     ]
   },
   {
     "Name": "Blunt DMG Up",
-    "Description": "Deal [Countx10%] more damage with Blunt skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Blunt skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Up"
     ]
   },
   {
     "Name": "Wrath DMG Up",
-    "Description": "Deal [Countx10%] more damage with Wrath skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Wrath skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Lust DMG Up",
-    "Description": "Deal [Countx10%] more damage with Lust skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Lust skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Sloth DMG Up",
-    "Description": "Deal [Countx10%] more damage with Sloth skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Sloth skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Gluttony DMG Up",
-    "Description": "Deal [Countx10%] more damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Gloom DMG Up",
-    "Description": "Deal [Countx10%] more damage with Gloom skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Gloom skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Pride DMG Up",
-    "Description": "Deal [Countx10%] more damage with Pride skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Pride skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Envy DMG Up",
-    "Description": "Deal [Countx10%] more damage with Envy skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% more damage with Envy skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Up"
     ]
   },
   {
     "Name": "Attack Power Up",
-    "Description": "Attack skills gain [Count] final power for one turn.",
+    "Description": "Attack skills gain (Stack) final power for one turn.",
     "Tags": []
   },
   {
     "Name": "Defense Power Up",
-    "Description": "Defense skills gain [Count] final power for one turn.",
+    "Description": "Defense skills gain (Stack) final power for one turn.",
     "Tags": []
   },
   {
     "Name": "Slash Power Up",
-    "Description": "Slash skills gain [Count] final power for one turn.",
+    "Description": "Slash skills gain (Stack) final power for one turn.",
     "Tags": [
       "Type Power Up"
     ]
   },
   {
     "Name": "Pierce Power Up",
-    "Description": "Pierce skills gain [Count] final power for one turn.",
+    "Description": "Pierce skills gain (Stack) final power for one turn.",
     "Tags": [
       "Type Power Up"
     ]
   },
   {
     "Name": "Blunt Power Up",
-    "Description": "Blunt skills gain [Count] final power for one turn.",
+    "Description": "Blunt skills gain (Stack) final power for one turn.",
     "Tags": [
       "Type Power Up"
     ]
   },
   {
     "Name": "Wrath Power Up",
-    "Description": "Wrath skills gain [Count] final power for one turn.",
+    "Description": "Wrath skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Lust Power Up",
-    "Description": "Lust skills gain [Count] final power for one turn.",
+    "Description": "Lust skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Sloth Power Up",
-    "Description": "Sloth skills gain [Count] final power for one turn.",
+    "Description": "Sloth skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Gluttony Power Up",
-    "Description": "Gluttony skills gain [Count] final power for one turn.",
+    "Description": "Gluttony skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Gloom Power Up",
-    "Description": "Gloom skills gain [Count] final power for one turn.",
+    "Description": "Gloom skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Pride Power Up",
-    "Description": "Pride skills gain [Count] final power for one turn.",
+    "Description": "Pride skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Envy Power Up",
-    "Description": "Envy skills gain [Count] final power for one turn.",
+    "Description": "Envy skills gain (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Up"
     ]
   },
   {
     "Name": "Protection",
-    "Description": "Take [Countx10%] less damage from skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from skills for one turn. (Max 100% at 10 Count)",
     "Tags": []
   },
   {
     "Name": "Slash Protection",
-    "Description": "Take [Countx10%] less damage from Slash skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Slash skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Protection"
     ]
   },
   {
     "Name": "Pierce Protection",
-    "Description": "Take [Countx10%] less damage from Pierce skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Pierce skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Protection"
     ]
   },
   {
     "Name": "Blunt Protection",
-    "Description": "Take [Countx10%] less damage from Blunt skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Blunt skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Protection"
     ]
   },
   {
     "Name": "Wrath Protection",
-    "Description": "Take [Countx10%] less damage from Wrath skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Wrath skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Lust Protection",
-    "Description": "Take [Countx10%] less damage from Lust skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Lust skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Sloth Protection",
-    "Description": "Take [Countx10%] less damage from Sloth skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Sloth skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Gluttony Protection",
-    "Description": "Take [Countx10%] less damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Gloom Protection",
-    "Description": "Take [Countx10%] less damage from Gloom skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Gloom skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Pride Protection",
-    "Description": "Take [Countx10%] less damage from Pride skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Pride skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Envy Protection",
-    "Description": "Take [Countx10%] less damage from Envy skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% less damage from Envy skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Protection"
     ]
   },
   {
     "Name": "Damage Down",
-    "Description": "Deal [Countx10%] less damage with skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with skills for one turn. (Max 100% at 10 Count)",
     "Tags": []
   },
   {
     "Name": "Slash DMG Down",
-    "Description": "Deal [Countx10%] less damage with Slash skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Slash skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Down"
     ]
   },
   {
     "Name": "Pierce DMG Down",
-    "Description": "Deal [Countx10%] less damage with Pierce skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Pierce skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Down"
     ]
   },
   {
     "Name": "Blunt DMG Down",
-    "Description": "Deal [Countx10%] less damage with Blunt skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Blunt skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type DMG Down"
     ]
   },
   {
     "Name": "Wrath DMG Down",
-    "Description": "Deal [Countx10%] less damage with Wrath skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Wrath skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Lust DMG Down",
-    "Description": "Deal [Countx10%] less damage with Lust skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Lust skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Sloth DMG Down",
-    "Description": "Deal [Countx10%] less damage with Sloth skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Sloth skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Gluttony DMG Down",
-    "Description": "Deal [Countx10%] less damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Gloom DMG Down",
-    "Description": "Deal [Countx10%] less damage with Gloom skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Gloom skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Pride DMG Down",
-    "Description": "Deal [Countx10%] less damage with Pride skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Pride skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Envy DMG Down",
-    "Description": "Deal [Countx10%] less damage with Envy skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Deal (Stack x 10)% less damage with Envy skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin DMG Down"
     ]
   },
   {
     "Name": "Attack Power Down",
-    "Description": "Attack skills lose [Count] final power for one turn.",
+    "Description": "Attack skills lose (Stack) final power for one turn.",
     "Tags": []
   },
   {
     "Name": "Defense Power Down",
-    "Description": "Defense skills lose [Count] final power for one turn.",
+    "Description": "Defense skills lose (Stack) final power for one turn.",
     "Tags": []
   },
   {
     "Name": "Slash Power Down",
-    "Description": "Slash skills lose [Count] final power for one turn.",
+    "Description": "Slash skills lose (Stack) final power for one turn.",
     "Tags": [
       "Type Power Down"
     ]
   },
   {
     "Name": "Pierce Power Down",
-    "Description": "Pierce skills lose [Count] final power for one turn.",
+    "Description": "Pierce skills lose (Stack) final power for one turn.",
     "Tags": [
       "Type Power Down"
     ]
   },
   {
     "Name": "Blunt Power Down",
-    "Description": "Blunt skills lose [Count] final power for one turn.",
+    "Description": "Blunt skills lose (Stack) final power for one turn.",
     "Tags": [
       "Type Power Down"
     ]
   },
   {
     "Name": "Wrath Power Down",
-    "Description": "Wrath skills lose [Count] final power for one turn.",
+    "Description": "Wrath skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Lust Power Down",
-    "Description": "Lust skills lose [Count] final power for one turn.",
+    "Description": "Lust skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Sloth Power Down",
-    "Description": "Sloth skills lose [Count] final power for one turn.",
+    "Description": "Sloth skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Gluttony Power Down",
-    "Description": "Gluttony skills lose [Count] final power for one turn.",
+    "Description": "Gluttony skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Gloom Power Down",
-    "Description": "Gloom skills lose [Count] final power for one turn.",
+    "Description": "Gloom skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Pride Power Down",
-    "Description": "Pride skills lose [Count] final power for one turn.",
+    "Description": "Pride skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Envy Power Down",
-    "Description": "Envy skills lose [Count] final power for one turn.",
+    "Description": "Envy skills lose (Stack) final power for one turn.",
     "Tags": [
       "Sin Power Down"
     ]
   },
   {
     "Name": "Fragile",
-    "Description": "Take [Countx10%] more damage from skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from skills for one turn. (Max 100% at 10 Count)",
     "Tags": []
   },
   {
     "Name": "Slash Fragility",
-    "Description": "Take [Countx10%] more damage from Slash skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Slash skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Fragility"
     ]
   },
   {
     "Name": "Pierce Fragility",
-    "Description": "Take [Countx10%] more damage from Pierce skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Pierce skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Fragility"
     ]
   },
   {
     "Name": "Blunt Fragility",
-    "Description": "Take [Countx10%] more damage from Blunt skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Blunt skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Type Fragility"
     ]
   },
   {
     "Name": "Wrath Fragility",
-    "Description": "Take [Countx10%] more damage from Wrath skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Wrath skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Lust Fragility",
-    "Description": "Take [Countx10%] more damage from Lust skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Lust skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Sloth Fragility",
-    "Description": "Take [Countx10%] more damage from Sloth skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Sloth skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Gluttony Fragility",
-    "Description": "Take [Countx10%] more damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Gloom Fragility",
-    "Description": "Take [Countx10%] more damage from Gloom skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Gloom skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Pride Fragility",
-    "Description": "Take [Countx10%] more damage from Pride skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Pride skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
     "Name": "Envy Fragility",
-    "Description": "Take [Countx10%] more damage from Envy skills for one turn. (Max 100% at 10 Count)",
+    "Description": "Take (Stack x 10)% more damage from Envy skills for one turn. (Max 100% at 10 Count)",
     "Tags": [
       "Sin Fragility"
     ]
   },
   {
+    "Name": "Slash Resist Down",
+    "Description": "Decrease Slash Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Pierce Resist Down",
+    "Description": "Decrease Pierce Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Blunt Resist Down",
+    "Description": "Decrease Blunt Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Wrath Resist Down",
+    "Description": "Decrease Wrath Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Lust Resist Down",
+    "Description": "Decrease Lust Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Sloth Resist Down",
+    "Description": "Decrease Sloth Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Gluttony Resist Down",
+    "Description": "Decrease Gluttony Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Gloom Resist Down",
+    "Description": "Decrease Gloom Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Pride Resist Down",
+    "Description": "Decrease Pride Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
+    "Name": "Envy Resist Down",
+    "Description": "Decrease Envy Resistance based on Stack (0.1 per Stack)",
+    "Tags": [
+      "Resist Down"
+    ]
+  },
+  {
     "Name": "Offense Level Up",
-    "Description": "Offense Level increases by [Potency] for one turn.",
+    "Description": "Offense Level increases by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Offense Level Down",
-    "Description": "Offense Level decreases by [Potency] for one turn.",
+    "Description": "Offense Level decreases by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Defense Level Up",
-    "Description": "Defense Level increases by [Potency] for one turn.",
+    "Description": "Defense Level increases by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Defense Level Down",
-    "Description": "Defense Level decreases by [Potency] for one turn.",
+    "Description": "Defense Level decreases by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Plus Coin Boost",
-    "Description": "Raise the Power of Plus Coins by [Count]",
+    "Description": "Raise the Power of Plus Coins by (Stack)",
     "Tags": []
   },
   {
     "Name": "Plus Coin Drop",
-    "Description": "Reduce the Power of Plus Coins by [Count]",
+    "Description": "Reduce the Power of Plus Coins by (Stack)",
     "Tags": []
   },
   {
     "Name": "Minus Coin Boost",
-    "Description": "Raise the Power of Minus Coins by [Count]",
+    "Description": "Raise the Power of Minus Coins by (Stack)",
     "Tags": []
   },
   {
     "Name": "Minus Coin Drop",
-    "Description": "Reduce the Power of Minus Coins by [Count]",
+    "Description": "Reduce the Power of Minus Coins by (Stack)",
     "Tags": []
   },
   {
     "Name": "SP Loss Efficiency",
-    "Description": "Gain/Lose [Potency] additional SP when losing SP.",
+    "Description": "Gain/Lose (Stack) additional SP when losing SP.",
     "Tags": []
   },
   {
     "Name": "SP Gain Efficiency",
-    "Description": "Gain/Lose [Potency] additional SP when gaining SP.",
+    "Description": "Gain/Lose (Stack) additional SP when gaining SP.",
     "Tags": []
   },
   {
@@ -521,40 +591,40 @@
   },
   {
     "Name": "Rupture Protection",
-    "Description": "Take [Count] less damage from Rupture effects for one turn.",
+    "Description": "Take (Stack) less damage from Rupture effects for one turn.",
     "Tags": [
       "Status Protection"
     ]
   },
   {
     "Name": "Rupture Fragility",
-    "Description": "Take [Count] more damage from Rupture effects for one turn.",
+    "Description": "Take (Stack) more damage from Rupture effects for one turn.",
     "Tags": [
       "Status Fragility"
     ]
   },
   {
     "Name": "Sinking Protection",
-    "Description": "Take [Count] less damage from Sinking effects for one turn.",
+    "Description": "Take (Stack) less damage from Sinking effects for one turn.",
     "Tags": [
       "Status Protection"
     ]
   },
   {
     "Name": "Sinking Fragility",
-    "Description": "Take [Count] more damage from Sinking effects for one turn.",
+    "Description": "Take (Stack) more damage from Sinking effects for one turn.",
     "Tags": [
       "Status Fragility"
     ]
   },
   {
     "Name": "Haste",
-    "Description": "Speed increases by [Count] for one turn.",
+    "Description": "Speed increases by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Bind",
-    "Description": "Speed decreases by [Count] for one turn.",
+    "Description": "Speed decreases by (Stack) for one turn.",
     "Tags": []
   },
   {
@@ -564,7 +634,7 @@
   },
   {
     "Name": "Charge Barrier",
-    "Description": "Gain (Charge Barrierx3) Shield.\nLose 1 Charge Barrier after losing (Charge Barrierx3) Shield.\nIf the unit is a W Corp employee, ALL Charge Barrier effects activate at (Charge Barrierx5) instead of (Charge Barrierx3)\nTurn End: Gain Charge Count for every Charge Barrier count. Charge Barrier and Shield gained from Charge barrier expire completely next turn.",
+    "Description": "Gain (Charge Barrier x 3) Shield.\nLose 1 Charge Barrier after losing (Charge Barrier x 3) Shield.\nIf the unit is a W Corp employee, ALL Charge Barrier effects activate at (Charge Barrier x 5) instead of (Charge Barrier x 3)\nTurn End: Gain Charge Count for every Charge Barrier count. Charge Barrier and Shield gained from Charge barrier expire completely next turn.",
     "Tags": []
   },
   {
@@ -574,7 +644,7 @@
   },
   {
     "Name": "Poise",
-    "Description": "On hit, gain [Potencyx5]% Crit Chance. Reduce Count by 1 on Critical Hit. Reduce Count by 1 at Turn End.",
+    "Description": "On hit, gain (Potency x 5)% Crit Chance. Reduce Count by 1 on Critical Hit. Reduce Count by 1 at Turn End.",
     "Tags": []
   },
   {
@@ -584,12 +654,12 @@
   },
   {
     "Name": "E.G.O. Resource Amp",
-    "Description": "Increases the amount of E.G.O. Resources gained from skills by [Count] for one turn.",
+    "Description": "Increases the amount of E.G.O. Resources gained from skills by (Stack) for one turn.",
     "Tags": []
   },
   {
     "Name": "Fanatic",
-    "Description": "Raise Skill Final Power by [Count] against units with Nails for one turn.",
+    "Description": "Raise Skill Final Power by (Stack) against units with Nails for one turn.",
     "Tags": []
   },
   {
@@ -599,27 +669,27 @@
   },
   {
     "Name": "Paralyze",
-    "Description": "Fix the Power of [Count] Coins to 0 for one turn.",
+    "Description": "Fix the Power of (Stack) Coins to 0 for one turn.",
     "Tags": []
   },
   {
     "Name": "Burn",
-    "Description": "At the end of the turn, take [Potency] fixed damage, then reduce Count by 1.",
+    "Description": "At the end of the turn, take (Potency) fixed damage, then reduce Count by 1.",
     "Tags": []
   },
   {
     "Name": "Bleed",
-    "Description": "When tossing an Attack Skill Coin, take [Potency] fixed damage, then reduce Count by 1.",
+    "Description": "When tossing an Attack Skill Coin, take (Potency) fixed damage, then reduce Count by 1.",
     "Tags": []
   },
   {
     "Name": "Rupture",
-    "Description": "When hit by an Attack, take [Potency] fixed damage, then reduce Count by 1.",
+    "Description": "When hit by an Attack, take (Potency) fixed damage, then reduce Count by 1.",
     "Tags": []
   },
   {
     "Name": "Sinking",
-    "Description": "When hit by an Attack, take [Potency] SP damage (Applies as Gloom-affinity damage to Abnormalities), then reduce Count by 1.",
+    "Description": "When hit by an Attack, take (Potency) SP damage (Applies as Gloom-affinity damage to Abnormalities), then reduce Count by 1.",
     "Tags": []
   },
   {
@@ -629,12 +699,12 @@
   },
   {
     "Name": "Tremor",
-    "Description": "When attacked by Skills that Trigger Tremor Burst, raise the Stagger Threshold by [Potency]. At the end of the turn, reduce Count by 1.",
+    "Description": "When attacked by Skills that Trigger Tremor Burst, raise the Stagger Threshold by (Potency). At the end of the turn, reduce Count by 1.",
     "Tags": []
   },
   {
     "Name": "Tremor Burst",
-    "Description": "Raise target's Stagger Threshold by [Tremor Potency] on target.",
+    "Description": "Raise target's Stagger Threshold by (Tremor Potency) on target.",
     "Tags": []
   },
   {
@@ -651,7 +721,7 @@
   },
   {
     "Name": "Nails",
-    "Description": "Unique Bleed.\nTurn Start: Gain 1 Bleed and increase Bleed Count by [Count]. Turn End: Halve the Count (Rounded down).",
+    "Description": "Unique Bleed.\nTurn Start: Gain 1 Bleed and increase Bleed Count by (Stack). Turn End: Halve the Count (Rounded down).",
     "Tags": [
       "Unique Bleed"
     ]
@@ -666,7 +736,7 @@
   },
   {
     "Name": "Talisman",
-    "Description": "On hit, inflict [Count] Rupture. When hit, gain [Count] Rupture. Turn End: At 6+ Count, remove all Talisman and take [Count] fixed damage.",
+    "Description": "On hit, inflict (Stack) Rupture. When hit, gain (Stack) Rupture. Turn End: At 6+ Count, remove all Talisman and take (Stack) fixed damage.",
     "Tags": [
       "Rupture"
     ]
@@ -678,7 +748,7 @@
   },
   {
     "Name": "Dark Flame",
-    "Description": "Unique Burn.\nMax value: 7\nTarget loses Defense Level equal to [Count].\nTurn End: Deal [Count]xBurn Pride Affinity damage, then expires.",
+    "Description": "Unique Burn.\nMax value: 7\nTarget loses Defense Level equal to (Stack).\nTurn End: Deal (Stack x Burn) Pride Affinity damage, then expires.",
     "Tags": [
       "Unique Burn",
       "Defense Level Down"
@@ -686,7 +756,7 @@
   },
   {
     "Name": "Maggots",
-    "Description": "Turn End: Take [Count] Gluttony Affinity damage; reduce Count by 1. Bleed Count +1.",
+    "Description": "Turn End: Take (Stack) Gluttony Affinity damage; reduce Stack by 1. Bleed Count +1.",
     "Tags": [
       "Bleed Count"
     ]
@@ -703,14 +773,14 @@
   },
   {
     "Name": "Pink Ribbons",
-    "Description": "Count increases by 1 whenever the affected unit tosses an Attack Skill Coin. At the end of the turn, inflict [Count] Bind, then remove the effect.",
+    "Description": "Count increases by 1 whenever the affected unit tosses an Attack Skill Coin. At the end of the turn, inflict (Stack) Bind, then remove the effect.",
     "Tags": [
       "Bind"
     ]
   },
   {
     "Name": "Dimensional Rift",
-    "Description": "At the end of the turn, gain [Count] Rupture Count. Then, remove the effect.",
+    "Description": "At the end of the turn, gain (Stack) Rupture Count. Then, remove the effect.",
     "Tags": [
       "Rupture Count"
     ]
@@ -737,7 +807,7 @@
   },
   {
     "Name": "K Corp Ampule",
-    "Description": "Turn Start: At less than 4 Count, heal by [Count]*5% of Max HP. At 4+ Count, the unit dies.",
+    "Description": "Turn Start: At less than 4 Count, heal by (Stack x 5)% of Max HP. At 4+ Count, the unit dies.",
     "Tags": []
   },
   {
@@ -747,7 +817,7 @@
   },
   {
     "Name": "Surgery",
-    "Description": "Reduce Max HP by [Count]x20%.\nDeal [Count]x20% more damage.\nGain [Count] Haste at Turn Start.\nDie when Count reaches 5.",
+    "Description": "Reduce Max HP by (Stack x 20)%.\nDeal (Stack x 20)% more damage.\nGain (Stack) Haste at Turn Start.\nDie when Stack reaches 5.",
     "Tags": []
   },
   {
@@ -773,7 +843,7 @@
   },
   {
     "Name": "Red Plum Blossom",
-    "Description": "Unique Bleed.\nMax Value: 10\n+10% chance for this unit to be Critically Hit if this unit is the main target.\nWhen struck by a Critical Hit, gain Bleed based on half the value and take +[Count]x3% damage from Critical Hits.\nReduce Count by 1 when hit.",
+    "Description": "Unique Bleed.\nMax Value: 10\n+10% chance for this unit to be Critically Hit if this unit is the main target.\nWhen struck by a Critical Hit, gain Bleed based on half the value and take +(Stack)x3% damage from Critical Hits.\nReduce Count by 1 when hit.",
     "Tags": [
       "Unique Bleed"
     ]
@@ -1586,7 +1656,7 @@
   },
   {
     "Name": "Concentration [Sniper]",
-    "Description": "Gain 1 Stack at Turn End",
+    "Description": "Max Stack: 4\nGain 1 Stack at Turn End",
     "Tags": []
   },
   {
@@ -1617,7 +1687,7 @@
   },
   {
     "Name": "The First Magic Bullet",
-    "Description": "Deal more damage\nRaise target's Stagger Threshold by damage dealt",
+    "Description": "Deal +20% damage\nRaise target's Stagger Threshold by damage dealt (Max 30)",
     "Tags": [
       "The Magic Bullet",
       "Raise Stagger Threshold"
@@ -1625,7 +1695,7 @@
   },
   {
     "Name": "The Second Magic Bullet",
-    "Description": "Deal more damage\nDeal damage to targets other than main target; main target takes 0 damage\nOn Hit, inflict Paralyze",
+    "Description": "Deal +10% damage\nDeal damage to targets other than main target (Max 4); main target takes 0 damage\nOn Hit, inflict 3 Paralyze",
     "Tags": [
       "The Magic Bullet",
       "Paralyze"
@@ -1633,7 +1703,7 @@
   },
   {
     "Name": "The Third Magic Bullet",
-    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, inflict Attack Power Down and Burn",
+    "Description": "Deal +20% damage\nBefore Attack: Gain +2 Attack Weight\nOn Hit, inflict 2 Attack Power Down and 10 Burn",
     "Tags": [
       "The Magic Bullet",
       "Attack Weight Increase",
@@ -1643,7 +1713,7 @@
   },
   {
     "Name": "The Fourth Magic Bullet",
-    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt; inflict Fragile next turn",
+    "Description": "Deal +30% damage\nBefore Attack: Gain +3 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 20); inflict 3 Fragile next turn",
     "Tags": [
       "The Magic Bullet",
       "Attack Weight Increase",
@@ -1653,7 +1723,7 @@
   },
   {
     "Name": "The Fifth Magic Bullet",
-    "Description": "Deal more damage\nBefore Attack: Gain Attack Weight\nOn Hit, inflict Burn; inflict Offense Level Down and Defense Level Down next turn",
+    "Description": "Deal +30% damage\nBefore Attack: Gain +4 Attack Weight\nOn Hit, inflict 10 Burn; inflict 4 Offense Level Down and 4 Defense Level Down next turn",
     "Tags": [
       "The Magic Bullet",
       "Attack Weight Increase",
@@ -1664,7 +1734,7 @@
   },
   {
     "Name": "The Sixth Magic Bullet",
-    "Description": "Before Attack: Gain Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt\nReuse Coin for every X Burn on main target\nLose Plus Coin Skill Base Power\nLose Plus Coin Power\nLose Minus Coin Skill Base Power\nLose Minus Coin Power",
+    "Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\n Minus Coin Skill Base Power -8\nMinus Coin Power -12",
     "Tags": [
       "The Magic Bullet",
       "Attack Weight Increase",
@@ -1673,7 +1743,7 @@
   },
   {
     "Name": "The Seventh Magic Bullet",
-    "Description": "Deal more damage\nDeal more damage for every X% missing HP on target\nBefore Attack: For this attack, change Pierce Damage Res on both target and self to Fatal\nAfter Attack: This unit dies",
+    "Description": "Deal +200% damage\nDeal +2.5% damage for every 1% missing HP on target (Max 200%)\nBefore Attack: For this attack, if Pierce Res on self or target are less than x2.0, change Pierce Damage Res on both target and self to x2.0\nAfter Attack: This unit dies",
     "Tags": [
       "The Magic Bullet",
       "Pierce Resistance Down",

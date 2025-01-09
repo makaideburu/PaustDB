@@ -7011,7 +7011,7 @@
           ],
           "AltSkill": {
             "Name": "Variant Sancho Hardblood Arts 8 - Split Apart",
-            "Description": "Attack Weight: 2\nOn Hit with this Skill: Heal 30% of HP damage dealt (Max 10)\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[Before Attack] Atk Weight +1 for every 10 Hardblood (Max 2)\n[After Attack] Consume 10 Hardblood for every Atk Weight gained\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\nDeal +2.5% damage for every Bleed on target (Max 25%)\nDeal +15% damage for every 100 Bloodfeast Consumed (Shared) (Max 75%)",
+            "Description": "On Hit with this Skill: Heal 30% of HP damage dealt (Max 10)\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[Before Attack] Atk Weight +1 for every 10 Hardblood (Max 2)\n[After Attack] Consume 10 Hardblood for every Atk Weight gained\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\nDeal +2.5% damage for every Bleed on target (Max 25%)\nDeal +15% damage for every 100 Bloodfeast Consumed (Shared) (Max 75%)",
             "DamageType": "Pierce",
             "SinType": "Wrath",
             "BasePower": 4,
@@ -7278,7 +7278,7 @@
           ],
           "AltSkill": {
             "Name": "Variant Sancho Hardblood Arts 8 - Split Apart",
-            "Description": "Attack Weight: 2\nOn Hit with this Skill: Heal 30% of HP damage dealt (Max 10)\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[Before Attack] Atk Weight +1 for every 10 Hardblood (Max 2)\n[After Attack] Consume 10 Hardblood for every Atk Weight gained\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\nDeal +2.5% damage for every Bleed on target (Max 25%)\nDeal +10% damage for every 100 Bloodfeast Consumed (Shared) (Max 50%)",
+            "Description": "On Hit with this Skill: Heal 30% of HP damage dealt (Max 10)\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[Before Attack] Atk Weight +1 for every 10 Hardblood (Max 2)\n[After Attack] Consume 10 Hardblood for every Atk Weight gained\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\nDeal +2.5% damage for every Bleed on target (Max 25%)\nDeal +10% damage for every 100 Bloodfeast Consumed (Shared) (Max 50%)",
             "DamageType": "Pierce",
             "SinType": "Wrath",
             "BasePower": 4,
@@ -14999,25 +14999,25 @@
     "Sinner": "Hong Lu",
     "Identity": "Full-Stop Office Rep",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 1,
+      "Pierce": 0.5,
+      "Blunt": 1
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Take the Shot",
-          "Description": "[On Use] Gain Poise Count\n<1>Spend Ammo\n<2>Spend Ammo\n[On Hit] Gain Poise\n<3>Spend Ammo\n[On Hit] Gain Poise",
+          "Description": "[On Use] Gain +3 Poise Count\n<1>Spend 1 Ammo\n<2>Spend 1 Ammo\n[On Hit] Gain 2 Poise\n<3>Spend 1 Ammo\n[On Hit] Gain 2 Poise",
           "DamageType": "Pierce",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 3,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -15031,11 +15031,11 @@
           ],
           "AltSkill": {
             "Name": "Melee Support",
-            "Description": "Deal more damage on Critical Hit\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n<2>[On Hit] Gain Poise",
+            "Description": "Deal +30% damage on Critical Hit\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
             "DamageType": "Slash",
             "SinType": "Pride",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 5,
+            "CoinPower": 4,
             "CoinCount": 2,
             "Level": 0,
             "BasePowerModifier": 0,
@@ -15052,14 +15052,14 @@
         },
         "SkillTwo": {
           "Name": "Target Marked",
-          "Description": "Base Power +X for every Y Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Res of Highest Res adds X% chance to activate Target Spotted\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n<2>Spend up to X Ammo\nDeal +(Ammo spent x X)% damage\nDeal +(Ammo spent x X)% more damage on Critical Hit\n<3>Deal more damage on Critical Hit\n[On Hit] Inflict Bind next turn\n<3>[On Hit] Inflict Attack Power Down next turn",
+          "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Res of Highest Res adds 25% chance to activate Target Spotted\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn",
           "DamageType": "Pierce",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 2,
+          "BasePowerModifier": 3,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
@@ -15075,13 +15075,13 @@
           ],
           "AltSkill": {
             "Name": "Combo: Target Marked",
-            "Description": "Base Power +X for every Y Ammo to be spent by this Skill\n[On Use] Gain Poise Count\n[Clash Lose] Gain Final Power\n<1>[On Hit] Gain Poise\n<2>Spend up to X Ammo\nDeal +(Ammo spent x X)% damage\nDeal +(Ammo spent x X)% more damage on Critical Hit\n<3>Deal more damage on Critical Hit\n[On Hit] Inflict Bind next turn\n<3>[On Hit] Inflict Attack Power Down next turn\n<4>[Unbreakable Coin]\nDeal more damage on Critical Hit",
+            "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain +3 Poise Count\n[Clash Lose] Final Power +5\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn\n<4>[Unbreakable Coin]\nDeal +30% damage on Critical Hit",
             "DamageType": "Pierce",
             "SinType": "Gloom",
-            "BasePower": 0,
-            "CoinPower": 0,
-            "CoinCount": 3,
-            "Level": 0,
+            "BasePower": 4,
+            "CoinPower": 4,
+            "CoinCount": 4,
+            "Level": 2,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
             "CoinModifier": 0,
@@ -15100,14 +15100,14 @@
         },
         "SkillThree": {
           "Name": "Full-Stop to Life",
-          "Description": "Base Power +X for every Y Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, activate Target Spotted\n[On Use] Gain Poise\n[Clash Win] Gain Poise Count\n<1>Spend Ammo\nDeal +(Ammo spent x X)% damage\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<2>Spend Ammo\nDeal +(Ammo spent x X)% damage\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<3> If target is Staggered, deal +X% damage on Critical Hit\n[On Hit] Inflict Bind\n[On Hit] Inflict Pierce Fragility",
+          "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, activate Target Spotted\n[On Use] Gain 5 Poise\n[Clash Win] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Bind\n[On Hit] Inflict 2 Pierce Fragility",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 7,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 3,
+          "BasePowerModifier": 3,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
@@ -15124,14 +15124,14 @@
           ],
           "AltSkill": {
             "Name": "Combo: Full-Stop to Life",
-            "Description": "Base Power +X for every Y Ammo to be spent by this Skill\n[On Use] Gain Poise\n[Clash Win] Gain Poise Count\n[Clash Lose] Gain Final Power\n<1>Spend Ammo\nDeal +(Ammo spent x X)% damage\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<2>Spend Ammo\nDeal +(Ammo spent x X)% damage\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<3> If target is Staggered, deal +X% damage on Critical Hit\n[On Hit] Inflict Bind\n[On Hit] Inflict Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +X% damage on Critical Hit\nDeal +(Target's Pierce Res x X)% damage",
+            "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Win] Gain +2 Poise Count\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Bind\n[On Hit] Inflict 2 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +50% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 7,
+            "CoinPower": 4,
             "CoinCount": 4,
-            "Level": 0,
-            "BasePowerModifier": 0,
+            "Level": 4,
+            "BasePowerModifier": 3,
             "FinalPowerModifier": 0,
             "CoinModifier": 0,
             "CoinCountModifier": 0,
@@ -15150,11 +15150,11 @@
         },
         "SkillDefense": {
           "Name": "Combat Poise",
-          "Description": "Turn Start: At 0 Ammo, activate as Power Counter instead\n[On Evade] Gain Poise",
+          "Description": "Turn Start: At 0 Ammo, activate as Power Counter instead\n[On Evade] Gain 1 Poise (5 times per turn)",
           "DamageType": "Evade",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 10,
           "CoinCount": 1,
           "Level": 0,
           "BasePowerModifier": 0,
@@ -15168,11 +15168,11 @@
           ],
           "AltSkill": {
             "Name": "Beyond the Shadow",
-            "Description": "[Clashable Counter]\nDeal +X% damage on Critical Hit\n[On Use] Gain Poise Count\n[Turn End] Reload\n<1>[On Hit] Gain Poise\n<2>[On Hit] Gain Poise",
+            "Description": "[Clashable Counter]\nDeal +20% damage on Critical Hit\n[On Use] Gain +2 Poise Count\n[Turn End] Reload (Once per Encounter)\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
             "DamageType": "Slash",
             "SinType": "Pride",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 5,
+            "CoinPower": 4,
             "CoinCount": 2,
             "Level": 0,
             "BasePowerModifier": 0,
@@ -15203,7 +15203,22 @@
         ],
         "PassiveSkill": {
           "Name": "Tactical Fire Support",
-          "Description": "If Full-Stop Office Fixer Heathcliff is in Overwatch Assignment state, or has been Deployed as a Backup unit, empower this unit's Skill 2 and 3\nCombat Start: At X+ Poise, gain Poise Count",
+          "Description": "If Full-Stop Office Fixer Heathcliff is in Overwatch Assignment state, or has been Deployed as a Backup unit, empower this unit's Skill 2 and 3\nCombat Start: At 20+ Poise, gain +1 Poise Count",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Skill Change",
+            "Poise Count"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Suppressing Fire",
+          "Description": "Ally Identity with the most Ammo deals +10% damage with Skills that spend Ammo (Does not activate when out of Ammo)",
           "PassiveResources": [
             {
               "ResourceSin": "None",
@@ -15212,13 +15227,222 @@
           ],
           "ResourceType": "None",
           "MiscTags": [
+            "Ally Damage Amp"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Take the Shot",
+          "Description": "[On Use] Gain +3 Poise Count\n<1>Spend 1 Ammo\n<2>Spend 1 Ammo\n[On Hit] Gain 2 Poise\n<3>Spend 1 Ammo\n[On Hit] Gain 2 Poise",
+          "DamageType": "Pierce",
+          "SinType": "Sloth",
+          "BasePower": 3,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Spend Ammo",
+            "Poise"
+          ],
+          "AltSkill": {
+            "Name": "Melee Support",
+            "Description": "[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+            "DamageType": "Slash",
+            "SinType": "Pride",
+            "BasePower": 5,
+            "CoinPower": 4,
+            "CoinCount": 2,
+            "Level": 0,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise Count",
+              "Poise"
+            ]
+          }
+        },
+        "SkillTwo": {
+          "Name": "Target Marked",
+          "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Res of Highest Res adds 20% chance to activate Target Spotted\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n<3>[On Hit] Inflict 1 Attack Power Down next turn",
+          "DamageType": "Pierce",
+          "SinType": "Gloom",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 2,
+          "BasePowerModifier": 3,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Target Spotted",
+            "Poise Count",
+            "Poise",
+            "Spend Ammo",
+            "Bind",
+            "Attack Power Down"
+          ],
+          "AltSkill": {
+            "Name": "Combo: Target Marked",
+            "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain +2 Poise Count\n[Clash Lose] Final Power +5\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn\n<4>[Unbreakable Coin]\nDeal +30% damage on Critical Hit",
+            "DamageType": "Pierce",
+            "SinType": "Gloom",
+            "BasePower": 4,
+            "CoinPower": 4,
+            "CoinCount": 4,
+            "Level": 2,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise Count",
+              "Poise",
+              "Spend Ammo",
+              "Bind",
+              "Attack Power Down",
+              "Unbreakable Coin"
+            ]
+          }
+        },
+        "SkillThree": {
+          "Name": "Full-Stop to Life",
+          "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, activate Target Spotted\n[On Use] Gain 5 Poise\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 1 Bind\n[On Hit] Inflict 1 Pierce Fragility",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 6,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 3,
+          "BasePowerModifier": 3,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Target Spotted",
+            "Poise",
+            "Poise Count",
+            "Spend Ammo",
+            "Raise Stagger Threshold",
+            "Bind",
+            "Pierce Fragility"
+          ],
+          "AltSkill": {
+            "Name": "Combo: Full-Stop to Life",
+            "Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 1 Bind\n[On Hit] Inflict 1 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +30% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage",
+            "DamageType": "Pierce",
+            "SinType": "Pride",
+            "BasePower": 6,
+            "CoinPower": 4,
+            "CoinCount": 4,
+            "Level": 4,
+            "BasePowerModifier": 3,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise",
+              "Poise Count",
+              "Spend Ammo",
+              "Raise Stagger Threshold",
+              "Bind",
+              "Pierce Fragility",
+              "Unbreakable Coin"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "Combat Poise",
+          "Description": "Turn Start: At 0 Ammo, activate as Power Counter instead\n[On Evade] Gain 1 Poise (3 times per turn)",
+          "DamageType": "Evade",
+          "SinType": "None",
+          "BasePower": 4,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise"
+          ],
+          "AltSkill": {
+            "Name": "Beyond the Shadow",
+            "Description": "[Clashable Counter]\n[On Use] Gain +2 Poise Count\n[Turn End] Reload (Once per Encounter)\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+            "DamageType": "Slash",
+            "SinType": "Pride",
+            "BasePower": 5,
+            "CoinPower": 4,
+            "CoinCount": 2,
+            "Level": 0,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Clashable Counter",
+              "Poise"
+            ]
+          }
+        },
+        "InstallPassives": [
+          {
+            "Name": "Concentration",
+            "Description": "When flipping a Coin that consumes Ammo:\nEven when this unit is out of Ammo, the attack does not get cancelled.\nHowever, the affected Coins' On Hit effects do not activate in such cases.",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": []
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Tactical Fire Support",
+          "Description": "If Full-Stop Office Fixer Heathcliff is in Overwatch Assignment state, or has been Deployed as a Backup unit, empower this unit's Skill 2 and 3",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
             "Skill Change",
             "Poise Count"
           ]
         },
         "SupportSkill": {
           "Name": "Suppressing Fire",
-          "Description": "Ally Identity with the most Ammo deals more damage with Skills that spend Ammo",
+          "Description": "Ally Identity with the most Ammo deals +10% damage with Skills that spend Ammo (Does not activate when out of Ammo)",
           "PassiveResources": [
             {
               "ResourceSin": "None",
@@ -17740,25 +17964,25 @@
     "Sinner": "Heathcliff",
     "Identity": "Full-Stop Office Fixer",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-8",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 1,
+      "Pierce": 0.5,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Return Fire",
-          "Description": "[On Use] Gain Poise Count\n[On Use] Gain Haste next turn\n<1>Spend Ammo\n[On Hit] Gain Poise Count\n<2>Spend Ammo\n<3>Spend Ammo",
+          "Description": "[On Use] Gain +2 Poise Count\n[On Use] Gain 2 Haste next turn\n<1>Spend 1 Ammo\n[On Hit] Gain +1 Poise Count\n<2>Spend 1 Ammo\n<3>Spend 1 Ammo",
           "DamageType": "Pierce",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
-          "CoinCount": 2,
-          "Level": 0,
+          "BasePower": 5,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -17772,13 +17996,13 @@
         },
         "SkillTwo": {
           "Name": "Headshot",
-          "Description": "If this unit's Speed is faster than the target's, deal +X% damage for every Y Speed difference\n[On Use] Gain Poise; gain Poise Count\n[On Use] Gain Haste next turn\n<1>Spend Ammo\nDeal more damage on Critical Hit\n[On Hit] Inflict Pierce Resist Down\n[On Crit] Inflict Pierce Resist Down next turn",
+          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 3 Poise; gain +2 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Resist Down (2 times per turn)\n[On Crit] Inflict 1 Pierce Resist Down next turn (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 10,
+          "CoinPower": 12,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -17795,13 +18019,13 @@
         },
         "SkillThree": {
           "Name": "Goin' for the Bullseye",
-          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +X% damage for every Y Speed difference\n[On Use] Gain Poise\n[On Use] Consume all Concentration (Sniper); gain Poise and deal +X% damage for every Y Stack consumed\n[After Attack] Gain Poise Count\n<1>Spend Ammo\nDeal more damage on Critical Hit\nDeal +(Target's Pierce Res x X)% damage on Critical Hit\n[On Crit] At X+ Poise, consume excess Poise; deal more damage based on Poise consumed",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper); gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 12,
+          "CoinPower": 14,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -17818,13 +18042,13 @@
           ],
           "AltSkill": {
             "Name": "AL-HV Pulverization Round",
-            "Description": "If this unit's Speed is faster than the target's, deal +X% damage for every Y Speed difference\n[On Use] Gain Poise\n[On Use] Consume all Concentration (Sniper) on self; gain Poise and deal +X% damage for every Y Stack consumed\n[After Attack] Gain Poise Count\n<1>Spend Ammo - Atelier Logic\nDeal more damage on Critical Hit\nDeal +(Target's Pierce Res x X)% damage on Critical Hit\n[On Crit] At X+ Poise, consume excess Poise; deal more damage based on Poise consumed",
+            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper) on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 15,
+            "CoinPower": 18,
             "CoinCount": 1,
-            "Level": 0,
+            "Level": 6,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
             "CoinModifier": 0,
@@ -17842,13 +18066,13 @@
         },
         "SkillDefense": {
           "Name": "Combat Poise",
-          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit\n[On Evade] Gain Poise\n[Turn End] Gain Concentration (Sniper) next turn",
+          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[On Evade] Gain 3 Poise (3 times per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)",
           "DamageType": "Evade",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 10,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -17863,13 +18087,13 @@
           ],
           "AltSkill": {
             "Name": "Taking Cover",
-            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit\n[Clash Win] Inflict Pierce Resist Down\n[Turn End] Gain Concentration (Sniper) next turn\n<1>[Unbreakable Coin]",
-            "DamageType": "Evade",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Resist Down (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "DamageType": "Defend",
             "SinType": "Pride",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 2,
+            "CoinPower": 8,
             "CoinCount": 1,
-            "Level": 0,
+            "Level": 3,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
             "CoinModifier": 0,
@@ -17887,7 +18111,7 @@
         "InstallPassives": [
           {
             "Name": "Snipe",
-            "Description": "Encounter Start: Gain Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic\nTurn End: If this unit does not have any remaining Ammo, activate Overwatch Assignment\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration (Sniper), gain Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic)",
+            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration (Sniper), gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -17906,14 +18130,14 @@
         ],
         "PassiveSkill": {
           "Name": "Precision Aim",
-          "Description": "Turn End: Gain Haste next turn based on Poise\nEncounter Start: If this unit is not set to use any Attack Skills, apply Poise to 1 ally with the least Poise\nTurn End: If this unit did not ue any Attack Skills, gain Poise and Pierce Power Up next turn",
+          "Description": "Turn End: Gain 1 Haste next turn for every 10 Poise (Max 2)\nEncounter Start: If this unit is not set to use any Attack Skills, apply 3 Poise to 1 ally with the least Poise\nTurn End: If this unit did not use any Attack Skills (Including E.G.O Skills, excluding Target Spotted), gain 10 Poise and 1 Pierce Power Up next turn",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 2
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
           "MiscTags": [
             "Haste",
             "Ally Poise",
@@ -17923,14 +18147,199 @@
         },
         "SupportSkill": {
           "Name": "Spotter",
-          "Description": "1 ally with the least Ammo gains Poise Count when using a Skill that consumes Ammo\nIf said ally is a Full-Stop Office Identity, or at less than X Poise Count, gain more Poise Count",
+          "Description": "1 ally with the least Ammo gains +2 Poise Count when using a Skill that consumes Ammo\nIf said ally is a Full-Stop Office Identity, or at less than 5 Poise Count, gain +4 Poise Count instead (Does not apply to units without Ammo)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Poise Count"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Return Fire",
+          "Description": "[On Use] Gain +2 Poise Count\n[On Use] Gain 1 Haste next turn\n<1>Spend 1 Ammo\n[On Hit] Gain +1 Poise Count\n<2>Spend 1 Ammo\n<3>Spend 1 Ammo",
+          "DamageType": "Pierce",
+          "SinType": "Gloom",
+          "BasePower": 5,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Spend Ammo"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Headshot",
+          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 30%)\n[On Use] Gain 3 Poise; gain +1 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +30% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Resist Down (2 times per turn)\n[On Crit] Inflict 1 Pierce Resist Down next turn (Once per turn)",
+          "DamageType": "Pierce",
+          "SinType": "Envy",
+          "BasePower": 10,
+          "CoinPower": 12,
+          "CoinCount": 1,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Poise Count",
+            "Haste",
+            "Spend Ammo",
+            "Pierce Resist Down"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Goin' for the Bullseye",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper); gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 10,
+          "CoinPower": 14,
+          "CoinCount": 1,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Skill Change",
+            "Poise",
+            "Spend Concentration (Sniper)",
+            "Spend Ammo",
+            "Spend Poise"
+          ],
+          "AltSkill": {
+            "Name": "AL-HV Pulverization Round",
+            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper) on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n<1>Spend 1 Ammo - Atelier Logic\nDeal +100% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+            "DamageType": "Pierce",
+            "SinType": "Pride",
+            "BasePower": 15,
+            "CoinPower": 15,
+            "CoinCount": 1,
+            "Level": 6,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise",
+              "Spend Concentration (Sniper)",
+              "Spend Ammo - Atelier Logic",
+              "Spend Poise"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "Combat Poise",
+          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)",
+          "DamageType": "Evade",
+          "SinType": "None",
+          "BasePower": 4,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Skill Change",
+            "Melee Support",
+            "Concentration (Sniper)"
+          ],
+          "AltSkill": {
+            "Name": "Taking Cover",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "DamageType": "Defend",
+            "SinType": "None",
+            "BasePower": 2,
+            "CoinPower": 8,
+            "CoinCount": 1,
+            "Level": 3,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Skill Change",
+              "Melee Support",
+              "Poise",
+              "Concentration (Sniper)"
+            ]
+          }
+        },
+        "InstallPassives": [
+          {
+            "Name": "Snipe",
+            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration (Sniper), gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Pierce Power Up",
+              "Ammo - Atelier Logic",
+              "Overwatch Assignment",
+              "Concentration (Sniper)",
+              "Reload"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Precision Aim",
+          "Description": "Turn End: Gain 1 Haste next turn for every 10 Poise (Max 2)\nTurn End: If this unit did not use any Attack Skills (Including E.G.O Skills, excluding Target Spotted), gain 10 Poise and 1 Pierce Power Up next turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 2
+            }
+          ],
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Haste",
+            "Ally Poise",
+            "Poise",
+            "Pierce Power Up"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Spotter",
+          "Description": "1 ally with the least Ammo gains +2 Poise Count when using a Skill that consumes Ammo\nIf said ally is a Full-Stop Office Identity, or at less than 5 Poise Count, gain +4 Poise Count instead (Does not apply to units without Ammo)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Poise Count"
           ]
@@ -22962,7 +23371,7 @@
           ],
           "AltSkill": {
             "Name": "Ascendant Don Quixote Hardblood Arts - The Finale",
-            "Description": "Attack Weight: 3\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Res) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +2 Rupture Count\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
+            "Description": "[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Res) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +2 Rupture Count\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
             "DamageType": "Pierce",
             "SinType": "Lust",
             "BasePower": 4,
@@ -25803,11 +26212,7 @@
           "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinOverride": [
-            6,
-            6,
-            10
-          ],
+          "CoinOverride": [ 6, 6, 10 ],
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [

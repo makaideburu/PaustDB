@@ -10588,25 +10588,25 @@
     "Id": 12000,
     "Sinner": "Outis",
     "Grade": "HE",
-    "Sanity": 0,
-    "CorrosionSanity": 0,
+    "Sanity": 25,
+    "CorrosionSanity": 30,
     "Abnormality": "Der Freischütze",
     "SinResist": {
-      "Wrath": -100,
-      "Lust": -100,
-      "Sloth": -100,
-      "Gluttony": -100,
-      "Gloom": -100,
-      "Pride": -100,
-      "Envy": -100
+      "Wrath": 0.75,
+      "Lust": 1,
+      "Sloth": 2,
+      "Gluttony": 1,
+      "Gloom": 1,
+      "Pride": 0.5,
+      "Envy": 2
     },
     "Cost": {
-      "Wrath": 0,
-      "Lust": 0,
+      "Wrath": 2,
+      "Lust": 2,
       "Sloth": 0,
       "Gluttony": 0,
       "Gloom": 0,
-      "Pride": 0,
+      "Pride": 4,
       "Envy": 0
     },
     "ThreadspinTiers": [
@@ -10614,17 +10614,72 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Magic Bullet",
-          "Description": "Deal more damage for every X Burn on target\n[Before Attack] At 0 Magic Bullet, gain Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res\n[After Attack] If main target is defeated, inflict Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet",
+          "Description": "Deal +3% damage for every 3 Burn on target (Max 30%)\n[Before Attack] At 0 Magic Bullet, gain Magic 1 Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 4 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 22,
+          "CoinPower": 14,
           "CoinCount": 1,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 3,
+          "BasePowerModifier": -16,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 0,
+          "CoinModifier": -8,
+          "CoinCountModifier": 2,
+          "AttackWeight": 1,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Magic Bullet",
+            "The Magic Bullet",
+            "Dark Flame",
+            "Burn"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Magic Bullet",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +3% damage for every 3 Burn on target (Max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 7 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 2) Burn Count (Rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 40,
+          "CoinPower": -20,
+          "CoinCount": 1,
+          "Level": 5,
+          "BasePowerModifier": -22,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 12,
+          "CoinCountModifier": 2,
+          "AttackWeight": 1,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Magic Bullet",
+            "The Magic Bullet",
+            "Dark Flame",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Seven Bullets",
+          "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
+          "MiscTags": [
+            "Burn",
+            "Dark Flame"
+          ]
+        }
+      },{
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Magic Bullet",
+          "Description": "Deal +2% damage for every 3 Burn on target (Max 20%)\n[Before Attack] At 0 Magic Bullet, gain Magic 1 Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 3 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 22,
+          "CoinPower": 14,
+          "CoinCount": 1,
+          "Level": 3,
+          "BasePowerModifier": -16,
+          "FinalPowerModifier": 0,
+          "CoinModifier": -8,
+          "CoinCountModifier": 2,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -10636,19 +10691,19 @@
         },
         "Corrosion": {
           "Name": "Magic Bullet",
-          "Description": "[Indiscriminate] Targets randomly\nDeal more damage for every X Burn on target\n[Before Attack] At 0 Magic Bullet, gain Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res\n[After Attack] If main target is defeated, inflict Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / X) Burn Count\n[On Hit] Inflict Dark Flame equal to Magic Bullet",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +2% damage for every 3 Burn on target (Max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 5 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 3) Burn Count (Rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 40,
+          "CoinPower": -20,
           "CoinCount": 1,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 5,
+          "BasePowerModifier": -22,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 0,
-          "AttackWeight": 0,
-          "AttackWeightMod": 0,
+          "CoinModifier": 12,
+          "CoinCountModifier": 2,
+          "AttackWeight": 1,
+          "AttackWeightMod": 7,
           "MiscTags": [
             "Magic Bullet",
             "The Magic Bullet",
@@ -10659,7 +10714,7 @@
         },
         "Passive": {
           "Name": "Seven Bullets",
-          "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / X) Burn\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead\nIf target has X+ Burn, inflict Dark Flame instead",
+          "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
           "MiscTags": [
             "Burn",
             "Dark Flame"
