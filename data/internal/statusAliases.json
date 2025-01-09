@@ -6,7 +6,19 @@
     ]
   },
   {
+    "entry": "unique burn",
+    "aliases": [
+      "burn"
+    ]
+  },
+  {
     "entry": "bleed count",
+    "aliases": [
+      "bleed"
+    ]
+  },
+  {
+    "entry": "unique bleed",
     "aliases": [
       "bleed"
     ]
@@ -18,7 +30,19 @@
     ]
   },
   {
+    "entry": "unique tremor",
+    "aliases": [
+      "tremor"
+    ]
+  },
+  {
     "entry": "rupture count",
+    "aliases": [
+      "rupture"
+    ]
+  },
+  {
+    "entry": "unique rupture",
     "aliases": [
       "rupture"
     ]
@@ -30,7 +54,19 @@
     ]
   },
   {
+    "entry": "unique sinking",
+    "aliases": [
+      "sinking"
+    ]
+  },
+  {
     "entry": "poise count",
+    "aliases": [
+      "poise"
+    ]
+  },
+  {
+    "entry": "unique poise",
     "aliases": [
       "poise"
     ]
@@ -39,6 +75,24 @@
     "entry": "charge",
     "aliases": [
       "charge count"
+    ]
+  },
+  {
+    "entry": "unique charge",
+    "aliases": [
+      "charge count"
+    ]
+  },
+  {
+    "entry": "spend ammo",
+    "aliases":[
+      "ammo"
+    ]
+  },
+  {
+    "entry": "unique ammo",
+    "aliases": [
+      "ammo"
     ]
   },
   {
