@@ -17996,7 +17996,7 @@
         },
         "SkillTwo": {
           "Name": "Headshot",
-          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 3 Poise; gain +2 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Resist Down (2 times per turn)\n[On Crit] Inflict 1 Pierce Resist Down next turn (Once per turn)",
+          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 3 Poise; gain +2 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 10,
@@ -18014,7 +18014,7 @@
             "Poise Count",
             "Haste",
             "Spend Ammo",
-            "Pierce Resist Down"
+            "Pierce Fragility"
           ]
         },
         "SkillThree": {
@@ -18087,7 +18087,7 @@
           ],
           "AltSkill": {
             "Name": "Taking Cover",
-            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Resist Down (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Fragility (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
             "DamageType": "Defend",
             "SinType": "Pride",
             "BasePower": 2,
@@ -18103,6 +18103,7 @@
             "MiscTags": [
               "Skill Change",
               "Melee Support",
+              "Pierce Fragility",
               "Poise",
               "Concentration (Sniper)"
             ]
@@ -18184,7 +18185,7 @@
         },
         "SkillTwo": {
           "Name": "Headshot",
-          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 30%)\n[On Use] Gain 3 Poise; gain +1 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +30% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Resist Down (2 times per turn)\n[On Crit] Inflict 1 Pierce Resist Down next turn (Once per turn)",
+          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 30%)\n[On Use] Gain 3 Poise; gain +1 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +30% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 10,
@@ -18202,7 +18203,7 @@
             "Poise Count",
             "Haste",
             "Spend Ammo",
-            "Pierce Resist Down"
+            "Pierce Fragility"
           ]
         },
         "SkillThree": {
