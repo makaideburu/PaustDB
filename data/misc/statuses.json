@@ -711,7 +711,7 @@
     "Name": "Weakness Analyzed",
     "Description": "A random 'Endured' or 'Normal' Attack type resistance is reduced by 0.2 for one turn.",
     "Tags": [
-      "Resists Down"
+      "Resist down"
     ]
   },
   {
@@ -1747,7 +1747,17 @@
     "Tags": [
       "The Magic Bullet",
       "Pierce Resistance Down",
-      "Self Pierce Resistance Down"
+      "Self Pierce Resistance Down",
+      "Self Instant Death"
+    ]
+  },
+  {
+    "Name": "Requested Target",
+    "Description": "+0.2 Resistance to Attack Types with 1.5 or less Resistance.\nIf the target with this effect is defeated, gain 1 E.G.O Resource for all Affinities, and the unit that defeated the targt heals 10 SP",
+    "Tags": [
+      "Resist Down",
+      "Gain Resources",
+      "Heal SP"
     ]
   }
 ]

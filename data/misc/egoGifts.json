@@ -11,7 +11,7 @@
         "Description": "All type and affinity resistances of enemies (for Abnormalities, all parts) change to Fatal.",
         "Rank": 1,
         "MiscTags": [
-          "Resists Down"
+          "Resist Down"
         ]
       }
     ],
@@ -174,7 +174,7 @@
         "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 1.7x.\nIf a Critical hit consumed Poise Count, the ally gains 10 Offense Level Up next turn. (Activates once per Identity, per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Critical Damage Up",
+          "Critical Damage Amp",
           "Offense Level Up"
         ]
       },
@@ -182,7 +182,7 @@
         "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2x.\nIf a Critical hit consumed Poise Count, the ally gains 12 Offense Level Up next turn. (Activates once per Identity, per turn)",
         "Rank": 2,
         "MiscTags": [
-          "Critical Damage Up",
+          "Critical Damage Amp",
           "Offense Level Up"
         ]
       },
@@ -190,7 +190,7 @@
         "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2.5x.\nIf a Critical hit consumed Poise Count, the ally gains 15 Offense Level Up next turn. (Activates once per Identity, per turn)",
         "Rank": 3,
         "MiscTags": [
-          "Critical Damage Up",
+          "Critical Damage Amp",
           "Offense Level Up"
         ]
       }
@@ -1843,7 +1843,7 @@
         "Description": "If the target has 1.5 or lower Slash Resistance, Slash Resistance is weakened by 0.3.",
         "Rank": 1,
         "MiscTags": [
-          "Resists Down"
+          "Resist Down"
         ]
       }
     ],
@@ -7386,7 +7386,7 @@
     "Cost": 243,
     "Upgrades": [
       {
-        "Description": "[Effect applies to #5 & #6 Deployed Identity]\nAt 45%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 20%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)",
+        "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 45%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 20%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)",
         "Rank": 1,
         "MiscTags": [
           "Offense Level Up",
@@ -7394,7 +7394,7 @@
         ]
       },
       {
-        "Description": "[Effect applies to #5 & #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (Max 20%)",
+        "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (Max 20%)",
         "Rank": 2,
         "MiscTags": [
           "Offense Level Up",
@@ -7403,7 +7403,7 @@
         ]
       },
       {
-        "Description": "[Effect applies to #5 & #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (Max 30%)",
+        "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (Max 30%)",
         "Rank": 3,
         "MiscTags": [
           "Offense Level Up",
@@ -7760,7 +7760,7 @@
         ]
       },
       {
-        "Description": "[Effect applies to #1 & #6 Deployed Identity]\nCombat Start: Deal +10% damage for every enemy Attack Skill targeting this unit (Max 30%)\nCombat Start: When targeted by 2+ Attack Skills, deal (# of Skills targeting this unit x 2) fixed HP and SP Damage against all enemies targeting this unit (Max 10; does not hurt allies)",
+        "Description": "[Effect applies to #1, #6 Deployed Identity]\nCombat Start: Deal +10% damage for every enemy Attack Skill targeting this unit (Max 30%)\nCombat Start: When targeted by 2+ Attack Skills, deal (# of Skills targeting this unit x 2) fixed HP and SP Damage against all enemies targeting this unit (Max 10; does not hurt allies)",
         "Rank": 3,
         "MiscTags": [
           "Damage Amp",
@@ -7909,7 +7909,7 @@
     "Cost": 251,
     "Upgrades": [
       {
-        "Description": "[Effect applies to #1, #2, #7 and #8 Deployed Identity]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
+        "Description": "[Effect applies to #1, #2, #7, #8 Deployed Identities]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
         "Rank": 1,
         "MiscTags": [
           "Self Tremor Count",
@@ -8005,6 +8005,137 @@
           "Damage Amp",
           "Heal SP",
           "Self Paralyze"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Implicit Contract Renewal",
+    "Tag": "Keywordless",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 255,
+    "Upgrades": [
+      {
+        "Description": "If there are no surviving Requested Target, inflict Requested Target against the first enemy to be attacked by an ally (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Requested Target"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Darkflame Smoking Pipe",
+    "Tag": "Keywordless",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 252,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #1 Deployed Identity]\nGain 2 Attack Power Up and 1 Fragile every turn\nIf the main target currently has a reduced Defense Level, gain 5 Poise before attack\nPierce Pride Skills deal +(50 / # of Coins)% damage (Including E.G.O)",
+        "Rank": 1,
+        "MiscTags": [
+          "Attack Power Up",
+          "Self Fragile",
+          "Poise",
+          "Pierce Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Gear Shrapnel",
+    "Tag": "Poise",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 207,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: If this unit has Poise, gain 2 Defense Level Up and 1 Defense Power Up\nIf this unit has Poise, the first Coin to hit deals +10% damage\nIf said Coin Critical Hits, +20% damage on Critical Hit",
+        "Rank": 1,
+        "MiscTags": [
+          "Defense Level Up",
+          "Defense Power Up",
+          "Damage Amp",
+          "Critical Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Equalizer",
+    "Tag": "Pierce",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 255,
+    "Upgrades": [
+      {
+        "Description": "If target has 1.5 or lower Pierce Resistance, Pierce Resistance +0.3",
+        "Rank": 1,
+        "MiscTags": [
+          "Resist Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "CQC Manual",
+    "Tag": "Poise",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 251,
+    "Upgrades": [
+      {
+        "Description": "If a Skill that can spend Ammo does not spend Ammo, gain 1 Attack Power Up this turn and next turn (Once per turn)\nWhen gaining Ammo, Skill 3 deals +50% damage this turn and next turn when used\nWhen using a Skill that spends Ammo, gain 3 Poise and +1 Poise Count",
+        "Rank": 1,
+        "MiscTags": [
+          "Attack Power Up",
+          "Damage Amp",
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Swift Command",
+    "Tag": "Keywordless",
+    "Abnormality": "*Full-Stopped by a Bullet*",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 249,
+    "Upgrades": [
+      {
+        "Description": "Turn End: If any allies Retreated this turn, 1 ally with the fastest Speed gains 2 Attack Power Up and 1 Damage Up at next Turn Start\nCombat Start: If any allies were Subtituted in this turn, allies that were Subtituted in gain 2 Attack Power Up and 2 Defense Power Up",
+        "Rank": 1,
+        "MiscTags": [
+          "Attack Power Up",
+          "Damage Up",
+          "Defense Power Up"
         ]
       }
     ],

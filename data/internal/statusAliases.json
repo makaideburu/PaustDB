@@ -257,7 +257,7 @@
   {
     "entry": "weakness analyzed",
     "aliases": [
-      "resists down"
+      "resist down"
     ]
   },
   {
@@ -687,7 +687,16 @@
     "entry": "the seventh magic bullet",
     "aliases": [
       "pierce resistance down",
-      "self pierce resistance down"
+      "self pierce resistance down",
+      "self instant death"
+    ]
+  },
+  {
+    "entry": "requested target",
+    "aliases": [
+      "resist down",
+      "gain resources",
+      "heal sp"
     ]
   }
 ]

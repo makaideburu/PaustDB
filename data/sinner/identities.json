@@ -7084,7 +7084,7 @@
         },
         "SkillDefense": {
           "Name": "Laughters Will Subside",
-          "Description": "[Clashable Counter]\n[Combat Start] Consume up to 50 Bloodfeast; gain 1 Hardblood for every 10 Bloodfeast consumed\nIf no Bloodfeast was consumed, gain 10 Bleed\n[Combat Start] 1 ally with the least HP: apply 1 Shimmering (Bloodfiend) for every 50 Bloodfeast Consumed (Shared) (Max 15; once per turn)\n<2>[On Hit] Inflict +2 Bleed Count",
+          "Description": "[Clashable Counter]\n[Combat Start] Consume up to 50 Bloodfeast; gain 1 Hardblood for every 10 Bloodfeast consumed\nIf no Bloodfeast was consumed, gain 10 Bleed\n[Combat Start] 1 ally with the least HP: apply 1 Shimmering [Bloodfiend] for every 50 Bloodfeast Consumed (Shared) (Max 15; once per turn)\n<2>[On Hit] Inflict +2 Bleed Count",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 5,
@@ -7102,12 +7102,12 @@
             "Spend Bloodfeast",
             "Hardblood",
             "Self Bleed",
-            "Ally Shimmering (Bloodfiend)",
+            "Ally Shimmering [Bloodfiend]",
             "Bleed Count"
           ],
           "AltSkill": {
             "Name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-            "Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 10)) Shimmering (Bloodfiend) for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
+            "Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 10)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
             "DamageType": "Pierce",
             "SinType": "Lust",
             "BasePower": 6,
@@ -7122,7 +7122,7 @@
             "AttackWeightMod": 1,
             "MiscTags": [
               "Clashable Counter",
-              "Ally Shimmering (Bloodfiend)",
+              "Ally Shimmering [Bloodfiend]",
               "Spend Hardblood",
               "Unbreakable Coin",
               "Bleed Count"
@@ -7351,7 +7351,7 @@
         },
         "SkillDefense": {
           "Name": "Laughters Will Subside",
-          "Description": "[Clashable Counter]\n[Combat Start] Consume up to 50 Bloodfeast; gain 1 Hardblood for every 10 Bloodfeast consumed\nIf no Bloodfeast was consumed, gain 10 Bleed\n[Combat Start] 1 ally with the least HP: apply 1 Shimmering (Bloodfiend) for every 50 Bloodfeast Consumed (Shared) (Max 10; once per turn)\n<2>[On Hit] Inflict +2 Bleed Count",
+          "Description": "[Clashable Counter]\n[Combat Start] Consume up to 50 Bloodfeast; gain 1 Hardblood for every 10 Bloodfeast consumed\nIf no Bloodfeast was consumed, gain 10 Bleed\n[Combat Start] 1 ally with the least HP: apply 1 Shimmering [Bloodfiend] for every 50 Bloodfeast Consumed (Shared) (Max 10; once per turn)\n<2>[On Hit] Inflict +2 Bleed Count",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 3,
@@ -7369,12 +7369,12 @@
             "Spend Bloodfeast",
             "Hardblood",
             "Self Bleed",
-            "Ally Shimmering (Bloodfiend)",
+            "Ally Shimmering [Bloodfiend]",
             "Bleed Count"
           ],
           "AltSkill": {
             "Name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-            "Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 15)) Shimmering (Bloodfiend) for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
+            "Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 15)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
             "DamageType": "Pierce",
             "SinType": "Lust",
             "BasePower": 4,
@@ -7389,7 +7389,7 @@
             "AttackWeightMod": 1,
             "MiscTags": [
               "Clashable Counter",
-              "Ally Shimmering (Bloodfiend)",
+              "Ally Shimmering [Bloodfiend]",
               "Spend Hardblood",
               "Unbreakable Coin",
               "Bleed Count"
@@ -18019,7 +18019,7 @@
         },
         "SkillThree": {
           "Name": "Goin' for the Bullseye",
-          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper); gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 12,
@@ -18035,14 +18035,14 @@
           "MiscTags": [
             "Skill Change",
             "Poise",
-            "Spend Concentration (Sniper)",
+            "Spend Concentration [Sniper]",
             "Poise Count",
             "Spend Ammo",
             "Spend Poise"
           ],
           "AltSkill": {
             "Name": "AL-HV Pulverization Round",
-            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper) on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
             "BasePower": 15,
@@ -18057,7 +18057,7 @@
             "AttackWeightMod": 1,
             "MiscTags": [
               "Poise",
-              "Spend Concentration (Sniper)",
+              "Spend Concentration [Sniper]",
               "Poise Count",
               "Spend Ammo - Atelier Logic",
               "Spend Poise"
@@ -18066,7 +18066,7 @@
         },
         "SkillDefense": {
           "Name": "Combat Poise",
-          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[On Evade] Gain 3 Poise (3 times per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)",
+          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[On Evade] Gain 3 Poise (3 times per turn)\n[Turn End] Gain 1 Concentration [Sniper] next turn (Once per turn)",
           "DamageType": "Evade",
           "SinType": "Pride",
           "BasePower": 4,
@@ -18083,11 +18083,11 @@
             "Skill Change",
             "Melee Support",
             "Poise",
-            "Concentration (Sniper)"
+            "Concentration [Sniper]"
           ],
           "AltSkill": {
             "Name": "Taking Cover",
-            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Resist Down (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Clash Win] Inflict 1 Pierce Resist Down (Once per turn)\n[Turn End] Gain 1 Concentration [Sniper] next turn (Once per turn)\n<1>[Unbreakable Coin]",
             "DamageType": "Defend",
             "SinType": "Pride",
             "BasePower": 2,
@@ -18105,14 +18105,14 @@
               "Melee Support",
               "Pierce Resist Down",
               "Poise",
-              "Concentration (Sniper)"
+              "Concentration [Sniper]"
             ]
           }
         },
         "InstallPassives": [
           {
             "Name": "Snipe",
-            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration (Sniper), gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
+            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration [Sniper], gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -18124,7 +18124,7 @@
               "Pierce Power Up",
               "Ammo - Atelier Logic",
               "Overwatch Assignment",
-              "Concentration (Sniper)",
+              "Concentration [Sniper]",
               "Reload"
             ]
           }
@@ -18208,7 +18208,7 @@
         },
         "SkillThree": {
           "Name": "Goin' for the Bullseye",
-          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper); gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 10,
@@ -18224,13 +18224,13 @@
           "MiscTags": [
             "Skill Change",
             "Poise",
-            "Spend Concentration (Sniper)",
+            "Spend Concentration [Sniper]",
             "Spend Ammo",
             "Spend Poise"
           ],
           "AltSkill": {
             "Name": "AL-HV Pulverization Round",
-            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration (Sniper) on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n<1>Spend 1 Ammo - Atelier Logic\nDeal +100% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n<1>Spend 1 Ammo - Atelier Logic\nDeal +100% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
             "BasePower": 15,
@@ -18245,7 +18245,7 @@
             "AttackWeightMod": 1,
             "MiscTags": [
               "Poise",
-              "Spend Concentration (Sniper)",
+              "Spend Concentration [Sniper]",
               "Spend Ammo - Atelier Logic",
               "Spend Poise"
             ]
@@ -18253,7 +18253,7 @@
         },
         "SkillDefense": {
           "Name": "Combat Poise",
-          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)",
+          "Description": "At 0 Ammo, this Skill activates as 'Taking Cover' instead\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration [Sniper] next turn (Once per turn)",
           "DamageType": "Evade",
           "SinType": "None",
           "BasePower": 4,
@@ -18269,11 +18269,11 @@
           "MiscTags": [
             "Skill Change",
             "Melee Support",
-            "Concentration (Sniper)"
+            "Concentration [Sniper]"
           ],
           "AltSkill": {
             "Name": "Taking Cover",
-            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration (Sniper) next turn (Once per turn)\n<1>[Unbreakable Coin]",
+            "Description": "[Clashable Guard]\n[On Use] If Full-Stop Office Rep Hong Lu is on the field, request Melee Support from that unit (Once per turn)\n[Turn End] Gain 1 Concentration [Sniper] next turn (Once per turn)\n<1>[Unbreakable Coin]",
             "DamageType": "Defend",
             "SinType": "None",
             "BasePower": 2,
@@ -18290,14 +18290,14 @@
               "Skill Change",
               "Melee Support",
               "Poise",
-              "Concentration (Sniper)"
+              "Concentration [Sniper]"
             ]
           }
         },
         "InstallPassives": [
           {
             "Name": "Snipe",
-            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration (Sniper), gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
+            "Description": "Encounter Start: Gain 3 Pierce Power Up\nWhen this unit enters the Encounter, gain 1 Ammo - Atelier Logic (Once per Encounter)\nTurn End: If this unit does not have any remaining Ammo of any kind, activate Overwatch Assignment (Once per Encounter)\nIf this unit is Subtituted in, or is rejoining after Overwatch Assignment, gain max Concentration [Sniper], gain 3 Pierce Power Up, and Reload (does not reload Ammo - Atelier Logic; once per Encounter)",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -18309,7 +18309,7 @@
               "Pierce Power Up",
               "Ammo - Atelier Logic",
               "Overwatch Assignment",
-              "Concentration (Sniper)",
+              "Concentration [Sniper]",
               "Reload"
             ]
           }

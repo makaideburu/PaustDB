@@ -148,6 +148,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.5.3.1 (2025-01-09)",
+        "```Proper fix for brackets in Status Effects```"
+      ],
+      [
         "2.5.3 (2025-01-08)",
         "```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
       ],
