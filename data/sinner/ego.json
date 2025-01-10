@@ -10614,7 +10614,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Magic Bullet",
-          "Description": "Deal +3% damage for every 3 Burn on target (Max 30%)\n[Before Attack] At 0 Magic Bullet, gain Magic 1 Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 4 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
+          "Description": "Deal +3% damage for every 3 Burn on target (Max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 4 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 22,
@@ -10669,7 +10669,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Magic Bullet",
-          "Description": "Deal +2% damage for every 3 Burn on target (Max 20%)\n[Before Attack] At 0 Magic Bullet, gain Magic 1 Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 3 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
+          "Description": "Deal +2% damage for every 3 Burn on target (Max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by Highest Res (Min 1; Max 4)\n[After Attack] If main target is defeated, inflict 3 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (Once per turn per unit)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 22,
