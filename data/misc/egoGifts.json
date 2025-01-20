@@ -7000,7 +7000,7 @@
         ]
       },
       {
-        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict 2 Weakness Analyzed.\nOdd-numbered Turn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
+        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed.\nOdd-numbered Turn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
         "Rank": 2,
         "MiscTags": [
           "Defense Level Down",
@@ -7010,7 +7010,7 @@
         ]
       },
       {
-        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict 2 Weakness Analyzed and 1 Clash Power Down.\nTurn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2). On Clash Win, deal +20% more damage.",
+        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed and 1 Clash Power Down.\nTurn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2). On Clash Win, deal +20% more damage.",
         "Rank": 3,
         "MiscTags": [
           "Defense Level Down",

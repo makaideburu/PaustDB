@@ -62,7 +62,7 @@
       ],
       [
         "Slightly Wackier Stuff",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers. You should be able to understand what they do.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though.\n-cost, when given a list of sins separated by costs, will filter any found E.G.O that use only the sins provided."
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though.\n-cost, when given a list of sins separated by costs, will filter any found E.G.O that use only the sins provided."
       ]
     ],
     "HelpFooter": "Due to how the E.G.O query works, Faust will only show you the first TWELVE results."
@@ -85,7 +85,7 @@
       ],
       [
         "Slightly Wackier Stuff",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers.\n'Power' in this case refers to final power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\n'Power' in this case refers to final power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
       ]
     ],
     "HelpFooter": "The skill query is particularly volatile, and the number of results is subject to change at any given time."
@@ -148,6 +148,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.5.4 (2025-01-20)",
+        "```Inconsequential backend stuff\nConsequential frontend stuff:\nSorts have been finagled, will sort in descending order by default. Do -sort asc to go in the other direction.\nQueries now ignore spaces and special characters, Moth Faust's S3 isn't a nightmare to search for, but -skill . -s ryoshu no longer shows you skills she's SANGRIA'd.```"
+      ],
+      [
         "2.5.3.1 (2025-01-09)",
         "```Proper fix for brackets in Status Effects```"
       ],
@@ -162,10 +166,6 @@
       [
         "2.5.1 (2024-12-15)",
         "```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
-      ],
-      [
-        "2.5.0.1 (2024-12-11)",
-        "```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
       ]
     ],
     "OldItems": [
@@ -264,6 +264,10 @@
       [
         "2.5.0 (2024-12-11)",
         "```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
+      ],
+      [
+        "2.5.0.1 (2024-12-11)",
+        "```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
       ]
     ],
     "HelpFooter": ""

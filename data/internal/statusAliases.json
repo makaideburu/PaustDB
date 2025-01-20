@@ -698,5 +698,25 @@
       "gain resources",
       "heal sp"
     ]
+  },
+  {
+    "entry": "fairy lure",
+    "aliases": [
+      "aggro",
+      "rupture"
+    ]
+  },
+  {
+    "entry": "deep inhale",
+    "aliases":[
+      "spend poise"
+    ]
+  },
+  {
+    "entry": "nebulizer ß",
+    "aliases":[
+      "ally poise",
+      "ally poise count"
+    ]
   }
 ]

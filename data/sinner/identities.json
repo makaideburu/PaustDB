@@ -1198,6 +1198,141 @@
     ]
   },
   {
+    "Id": 1000,
+    "Sinner": "Yi Sang",
+    "Identity": "LCE E.G.O::Lantern",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 2,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Though it must be prefaced that E.G.O gears are standardized equipment,",
+          "Description": "[Combat Start] On Clash Lose, Final Power +(# of Skills targetting this Unit)\n[On Use] Gain Aggro next turn\nIf target has X+ Rupture and Y+ Rupture Count, this Skill does not inflict Rupture with its effects\n[Clash Lose] Inflict more Rupture with this Skill\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n<2>[Unbreakable Coin]\n[On Hit] Inflict Rupture",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Aggro",
+            "Unbreakable Coin",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "when juxtaposed with the E.G.O gear from L Corp., depending on the degree of attunement to the Abnormality,",
+          "Description": "[Combat Start] On Clash Lose, Final Power +(# of Skills targetting this Unit x X)\n[On Use] Gain Aggro next turn\n[On Use] If target has X+ Rupture and Y+ Rupture Count, this Skill does not inflict Rupture Count with its effects\n[Clash Lose] Inflict more Rupture Count with this Skill\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture Count",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Aggro",
+            "Unbreakable Coin",
+            "Rupture Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "the idiosyncrasies of the source may be utilized with greater flexibility",
+          "Description": "Deal more damage for every X% missing HP on self\n[Combat Start] Base Power +(# of Skills targetting this Unit)\n[On Use] Gain Fairy Lure\n[On Use] Gain Aggro\n[On Use] If target has X+ Rupture and Y+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects; instead gain Base Power\n[After Attack] Heal SP\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Bind next turn\n<2>[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Rupture",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Fairy Lure",
+            "Aggro",
+            "Heal SP",
+            "Rupture Count",
+            "Bind"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Yet, the degree to which that attunement and synchronization are achieved may resultantly allow the user to be devoured",
+          "Description": "[Combat Start] Gain Fairy Lure\n[On Use] Gain Aggro next turn\n[On Use] If target has X+ Rupture and Y+ Rupture Count, this skill does not inflict Rupture Count with its effects; instead gain Base Power\n<1>[On Hit] Inflict Rupture Count",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Counter",
+            "Fairy Lure",
+            "Aggro",
+            "Rupture Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "This is reflected in their appearance, more closely resembling the source Abnormality than E.G.O of the former L Corp. do",
+          "Description": "On death, inflict Rupture and Rupture Count against the target that attacked this Unit last; gain X E.G.O resources for 4 least-owned E.G.O resources\nIf no one attacked this unit, or if an ally killed this unit, inflict Rupture and Rupture Count against the enemy with the least Rupture Count\nIf this unit is in a Fairy Lure state, inflict double the Rupture with this effect",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Rupture",
+            "Rupture Count",
+            "Gain Resources"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "E.G.O disintegration is not unlike decomposition of compost",
+          "Description": "When 1 ally with the least HP is killed, gain X E.G.O resources for 2 least-owned E.G.O resources",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Gain Resources"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 1301,
     "Sinner": "Yi Sang",
     "Identity": "Blade Lineage Salsu",
@@ -4642,7 +4777,7 @@
           "CoinModifier": 4,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
-          "AttackWeightMod": 0,
+          "AttackWeightMod": 1,
           "MiscTags": [
             "Charge Count",
             "Envy Fragility"
@@ -4755,7 +4890,7 @@
           "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
-          "AttackWeightMod": 0,
+          "AttackWeightMod": 1,
           "MiscTags": [
             "Charge Count"
           ]
@@ -4807,6 +4942,175 @@
           "ResourceType": "Owned",
           "MiscTags": [
             "Ally Charge Count"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 2000,
+    "Sinner": "Faust",
+    "Identity": "LCE E.G.O::Ardor Blossom Star",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Ignition",
+          "Description": "[On Use] At X+ Burn, deal more damage\n[On Use] Gain Burn and Burn Count\n[On Use] Coin Power +X for every Y (Burn on self and target)\n<1>[On Hit] Inflict Burn\n[On Hit] Gain Burn\n<2>[On Hit] Inflict Burn\n[On Hit] At X+ Burn, inflict more Burn\n[On Hit] Gain Burn",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Burn",
+            "Self Burn Count",
+            "Burn"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "E.G.O - A.B.S. Activation",
+          "Description": "[On Use] Deal more damage for every X Burn on self\n[On Use] Gain Burn Count\n[On Use] Coin Power +X for every Y (Burn on self and target)\n<1>[On Use] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>[Unbreakable Coin]\n[On Hit without Breaking] Inflict Burn\n[On Hit] If target has X+ Burn, inflict Burn Count",
+          "DamageType": "Blunt",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Burn Count",
+            "Burn",
+            "Unbreakable Coin",
+            "Burn Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Drawn by Flame",
+          "Description": "[Combat Start] Gain Burn and Burn Count\n[Before Use] At X+ Burn, activate 'A.B.S. Max Attunement [Degraded Corrosion]' instead\n[On Use] Deal more damage for every X Burn on self\n[On Use] Base Power +X for every Y (Burn on self and target)\n[On Use] Coin Power +X for every Y% missing HP on self\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Burn",
+            "Self Burn Count",
+            "Skill Change",
+            "Burn"
+          ],
+          "AltSkill": {
+            "Name": "A.B.S. Max Attunement [Degraded Corrosion]",
+            "Description": "After using this Skill, dies\nIf HP drops to 1 while using this Skill, maintains HP at 1 for the duration of the Skill\n[On Use] Deal more damage for every X Burn on self\n[On Use] Base Power +X for every Y (Burn on self and target)\n[On Use] Coin Power +X for every Y% missing HP on self\n<1>[Unbreakable Coin]\n[On Use] Inflict Burn\n<2>[Unbreakable Coin]\n[On Use] Inflict Burn\n<3>[Unbreakable Coin]\n[On Hit] Deal more damage for every X% missing HP on self",
+            "DamageType": "Blunt",
+            "SinType": "Wrath",
+            "BasePower": 0,
+            "CoinPower": 0,
+            "CoinCount": 3,
+            "Level": 0,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Self Instant Death",
+              "Unrelenting",
+              "Burn"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "Resonating by raising A.B.S. Attunement.",
+          "Description": "[On Use] At X+ Burn, Coin Power +Y\n[On Use] Lose Burn\n[On Evade] Lose Burn",
+          "DamageType": "Evade",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Spend Self Burn"
+          ]
+        },
+        "InstallPassives":[{
+          "Name": "Fireproof",
+          "Description": "Cannot be Staggered or fall below 1 HP due to Burn damage",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": []
+        }
+        ],
+        "PassiveSkill": {
+          "Name": "Flame Moth",
+          "Description": "Combat Start: At X%+ missing HP and less than Y Burn, gain Z Burn\nTurn End: Gain Offense Level Up for every X Burn\n\nOn death:\nInflict Burn on all enemies; inflict Burn on self between all enemies\nGain X E.G.O resources for 2 least-owned E.G.O resources\n\nOn death due to A.B.S. Max Attunement [Degraded Corrosion]:\nInflict Burn on all enemies; inflict Burn on self against all enemies\nGain X E.G.O resources for 2 least-owned E.G.O resouces\nAt X+ Burn, apply Offense Level Up to 1 ally that gets Subtituted in",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Self Burn",
+            "Offense Level Up",
+            "Burn",
+            "Gain Resources",
+            "Ally Offense Level Up"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Residual Heat",
+          "Description": "When 1 ally with the least SP inflicts Burn with a Base Attack Skill's On Hit effect, inflict additional Burn\nIf the target has X+ Burn, inflict Burn Count instead",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Burn",
+            "Burn Count"
           ]
         }
       }

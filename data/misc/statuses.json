@@ -1734,7 +1734,7 @@
   },
   {
     "Name": "The Sixth Magic Bullet",
-    "Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\n Minus Coin Skill Base Power -8\nMinus Coin Power -12",
+    "Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\n Minus Coin Skill Base Power -22\nMinus Coin Power -12",
     "Tags": [
       "The Magic Bullet",
       "Attack Weight Increase",
@@ -1758,6 +1758,29 @@
       "Resist Down",
       "Gain Resources",
       "Heal SP"
+    ]
+  },
+  {
+    "Name": "Fairy Lure",
+    "Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains Aggro\nTake more damage\nWhen hit, inflict Rupture against the attacker\nAt less than X% HP, inflict more Rupture\nIf target has X+ Rupture, this buff does not inflict Rupture\nReduced at Turn End",
+    "Tags": [
+      "Aggro",
+      "Rupture"
+    ]
+  },
+  {
+    "Name": "Deep Inhale",
+    "Description": "Max Stack: 20\nOn Crit: At X+ Poise and Y+ Poise Count, consume (Poise / Z) Poise to deal +(Poise Consumed x W)% more damage on Critical Hit; then lose 1 Stack",
+    "Tags": [
+      "Spend Poise"
+    ]
+  },
+  {
+    "Name": "Nebulizer ß",
+    "Description": "Max Stack: 5\nThis effect lasts for the duration of the Encounter\nWhen activating Pride A-Res, (Stack) allies gain Poise and Poise Count at Combat Start (Prioritizes allies that gain or use Poise or Poise Count; among them, prioritizes allies with the least Poise)",
+    "Tags": [
+      "Ally Poise",
+      "Ally Poise Count"
     ]
   }
 ]

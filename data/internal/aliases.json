@@ -50,7 +50,9 @@
   {
     "entry": "ishmael",
     "aliases": [
-      "ish"
+      "ish",
+      "ishy",
+      "fish"
     ]
   },
   {
@@ -61,13 +63,13 @@
   },
   {
     "entry": "sinclair",
-    "aliases":[
-      "sin"
+    "aliases": [
+      "shinkulare"
     ]
   },
   {
     "entry": "outis",
-    "aliases":[
+    "aliases": [
       "oats"
     ]
   },
@@ -119,7 +121,7 @@
   },
   {
     "entry": "to páthos máthos",
-    "aliases":[
+    "aliases": [
       "to pathos mathos",
       "pathos",
       "mathos",
@@ -137,12 +139,6 @@
     ]
   },
   {
-    "entry": "suddenly, one day",
-    "aliases": [
-      "suddenly one day"
-    ]
-  },
-  {
     "entry": "my form empties",
     "aliases": [
       "mfe"
@@ -150,7 +146,7 @@
   },
   {
     "entry": "der fluchschütze",
-    "aliases":[
+    "aliases": [
       "der schutze",
       "der fluchschutze"
     ]
@@ -162,15 +158,8 @@
     ]
   },
   {
-    "entry": "e.g.o",
-    "aliases": [
-      "ego"
-    ]
-  },
-  {
     "entry": "w corp.",
     "aliases": [
-      "w. corp",
       "wcorp",
       "warp corp",
       "warp"
@@ -184,15 +173,8 @@
     ]
   },
   {
-    "entry": "k corp.",
-    "aliases": [
-      "k corp"
-    ]
-  },
-  {
     "entry": "t corp.",
     "aliases": [
-      "t corp",
       "timetrack"
     ]
   },
@@ -245,50 +227,35 @@
     ]
   },
   {
-    "entry": "devyat' association",
-    "aliases":[
-      "devyat",
-      "devyat association"
-    ]
-  },
-  {
     "entry": "devyat' association north",
-    "aliases":[
-      "devyat association north",
+    "aliases": [
       "devyat north"
     ]
   },
   {
     "entry": "dieci association south",
-    "aliases":[
+    "aliases": [
       "dieci south"
     ]
   },
   {
     "entry": "öufi association",
-    "aliases":[
+    "aliases": [
       "oufi",
       "oufi association"
     ]
   },
   {
     "entry": "öufi association south",
-    "aliases":[
+    "aliases": [
       "oufi association south",
       "oufi south"
     ]
   },
   {
     "entry": "the ring",
-    "aliases":[
+    "aliases": [
       "ring"
-    ]
-  },
-  {
-    "entry": "full-stop office",
-    "aliases":[
-      "full stop",
-      "full stop office"
     ]
   },
   {
@@ -298,39 +265,16 @@
     ]
   },
   {
-    "entry": "k corp. ampule",
-    "aliases": [
-      "k corp ampule"
-    ]
-  },
-  {
-    "entry": "ally k corp. ampule",
-    "aliases": [
-      "ally k corp ampule"
-    ]
-  },
-  {
-    "entry": "e.g.o resource amp.",
-    "aliases": [
-      "ego resource amp"
-    ]
-  },
-  {
-    "entry": "ally e.g.o resource amp.",
-    "aliases": [
-      "ally ego resource amp"
-    ]
-  },
-  {
-    "entry": "party e.g.o resource amp.",
-    "aliases": [
-      "party ego resource amp"
-    ]
-  },
-  {
     "entry": "dhyāna",
-    "aliases":[
+    "aliases": [
       "dhyana"
+    ]
+  },
+  {
+    "entry": "nebulizer ß",
+    "aliases": [
+      "nebulizer b",
+      "nebulizer beta"
     ]
   }
 ]
