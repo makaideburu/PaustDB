@@ -1762,15 +1762,15 @@
   },
   {
     "Name": "Fairy Lure",
-    "Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains Aggro\nTake more damage\nWhen hit, inflict Rupture against the attacker\nAt less than X% HP, inflict more Rupture\nIf target has X+ Rupture, this buff does not inflict Rupture\nReduced at Turn End",
+    "Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains +10 Aggro\nTake +50% damage\nWhen hit, inflict 1 Rupture against the attacker (3 times per target's Skill)\nAt less than 50% HP, inflict +1 Rupture\nIf target has 15+ Rupture, this buff does not inflict Rupture\nReduced by 1at Turn End",
     "Tags": [
       "Aggro",
       "Rupture"
     ]
   },
   {
-    "Name": "Deep Inhale",
-    "Description": "Max Stack: 20\nOn Crit: At X+ Poise and Y+ Poise Count, consume (Poise / Z) Poise to deal +(Poise Consumed x W)% more damage on Critical Hit; then lose 1 Stack",
+    "Name": "Deep Breath",
+    "Description": "Max Stack: 20\nOn Crit: At 15+ Poise and 5+ Poise Count, consume (Poise / 5) Poise to deal +(Poise Consumed x 4)% more damage on Critical Hit; then lose 1 Stack",
     "Tags": [
       "Spend Poise"
     ]

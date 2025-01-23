@@ -3582,25 +3582,25 @@
     "Id": 4000,
     "Sinner": "Ryōshū",
     "Grade": "HE",
-    "Sanity": 0,
-    "CorrosionSanity": 0,
-    "Abnormality": "Sleeping Bag of Olden Days",
+    "Sanity": 25,
+    "CorrosionSanity": 25,
+    "Abnormality": "Sleeping Bag of a Bygone Day",
     "SinResist": {
-      "Wrath": -100,
-      "Lust": -100,
-      "Sloth": -100,
-      "Gluttony": -100,
-      "Gloom": -100,
-      "Pride": -100,
-      "Envy": -100
+      "Wrath": 0.75,
+      "Lust": 1,
+      "Sloth": 2,
+      "Gluttony": 2,
+      "Gloom": 1,
+      "Pride": 0.5,
+      "Envy": 1
     },
     "Cost": {
-      "Wrath": 0,
-      "Lust": 0,
+      "Wrath": 1,
+      "Lust": 1,
       "Sloth": 0,
       "Gluttony": 0,
       "Gloom": 0,
-      "Pride": 0,
+      "Pride": 5,
       "Envy": 0
     },
     "ThreadspinTiers": [
@@ -3608,47 +3608,47 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Thoracalgia",
-          "Description": "[Before Attack] Gain (Highest Res) Poise\nAt X+ Poise, Final Power +(Highest Res) instead\n[Before Attack] Gain (Highest Res / X) Poise Count\nAt X+ Poise Count, Coin Power +(Highest Res) instead\n[On Target Kill] Gain Deep Inhale next turn\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit\n[On Hit] Gain Deep Inhale",
+          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 3)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 3)\n[On Target Kill] Gain 2 Deep Breath next turn (6 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 4 Deep Breath (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 8,
+          "CoinPower": 5,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
-          "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "FinalPowerModifier": 6,
+          "CoinModifier": 3,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
           "MiscTags": [
             "Poise",
             "Poise Count",
-            "Deep Inhale"
+            "Deep Breath"
           ]
         },
         "Corrosion": {
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal more damage\n[Before Attack] At less than X Poise, consume Y% HP to gain Poise and Poise Count\nCannot be Staggered or defeated due to this effect\nGain additional Poise per ally targetted\n[After Attack] If the target is defeated, gain Deep Inhale next turn\nIf an ally is defeated, allies subtituted in due to the defeated ally gain Poise and Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource consumed\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit\n[On Hit] Gain Deep Inhale",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 2 additional Poise per ally targeted (Max 4)\n[After Attack] If the target is defeated, gain 3 Deep Breath next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +4 Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource consumed\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 7 Deep Breath (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 24,
+          "CoinPower": -8,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 4,
+          "AttackWeightMod": 4,
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP Ally",
             "Self HP Damage",
             "Poise",
             "Poise Count",
-            "Deep Inhale",
+            "Deep Breath",
             "Ally Poise",
             "Ally Poise Count",
             "Heal SP",
@@ -3657,7 +3657,65 @@
         },
         "Passive": {
           "Name": "Breath",
-          "Description": "Turn Start after using this E.G.O Skill: Gain Nebulizer ß\nIf this Skill defeated enemies, gain additional Nebulizer ß equal to the number of targets defeated\nIf this Skill defeated allies, gain (Targets defeated x X) additional Nebulizer ß\nValue stacks over this Encounter's duration",
+          "Description": "Turn Start after using this E.G.O Skill: Gain 1 Nebulizer ß (Once per turn)\nIf this Skill defeated enemies, gain additional Nebulizer ß equal to the number of targets defeated\nIf this Skill defeated allies, gain (Targets defeated x 2) additional Nebulizer ß\nValue stacks over this Encounter's duration",
+          "MiscTags": [
+            "Nebulizer ß"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Thoracalgia",
+          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 2)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 2)\n[On Target Kill] Gain 2 Deep Breath next turn (4 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 2 Deep Breath (Once per turn)",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 6,
+          "CoinPower": 5,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 6,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Poise",
+            "Poise Count",
+            "Deep Breath"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Thoracalgia",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 1 additional Poise per ally targeted (Max 2)\n[After Attack] If the target is defeated, gain 2 Deep Breath next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +2 Poise Count; recover half of SP used by this Skill\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 4 Deep Breath (Once per turn)",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 20,
+          "CoinPower": -8,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 4,
+          "AttackWeightMod": 4,
+          "MiscTags": [
+            "Special Targeting",
+            "Target Lowest HP Ally",
+            "Self HP Damage",
+            "Poise",
+            "Poise Count",
+            "Deep Breath",
+            "Ally Poise",
+            "Ally Poise Count",
+            "Heal SP"
+          ]
+        },
+        "Passive": {
+          "Name": "Breath",
+          "Description": "Turn Start after using this E.G.O Skill: Gain 1 Nebulizer ß (Once per turn)\nIf this Skill defeated enemies, gain additional Nebulizer ß equal to the number of targets defeated\nIf this Skill defeated allies, gain (Targets defeated x 2) additional Nebulizer ß\nValue stacks over this Encounter's duration",
           "MiscTags": [
             "Nebulizer ß"
           ]
