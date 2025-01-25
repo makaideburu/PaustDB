@@ -3197,7 +3197,7 @@
     "Cost": 218,
     "Upgrades": [
       {
-        "Description": "First Turn Start of an Encounter: All allies gain 4 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 2 Poise and +2 Poise Count at Combat Start.",
+        "Description": "First Turn Start of an Encounter: All allies gain 4 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 2 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 1,
         "MiscTags": [
           "Poise",
@@ -3205,7 +3205,7 @@
         ]
       },
       {
-        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 3 Poise and +2 Poise Count at Combat Start.",
+        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 3 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 2,
         "MiscTags": [
           "Poise",
@@ -3213,7 +3213,7 @@
         ]
       },
       {
-        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nWhen activating Pride Res, all allies gain 3 Poise and +3 Poise Count at Combat Start.",
+        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nWhen activating Pride Res, all allies gain 3 Poise and +3 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 3,
         "MiscTags": [
           "Poise",
@@ -8136,6 +8136,199 @@
           "Attack Power Up",
           "Damage Up",
           "Defense Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Combustion Gloves",
+    "Tag": "Burn",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 151,
+    "Upgrades": [
+      {
+        "Description": "On Clash Win with a Base Attack Skill that inflicts Burn or Unique Burn, inflict 2 Burn (2 times per turn per Identity)\nOn Clash Win with a Base Attack Skill that inflicts Burn Count, inflict +2 Burn Count (3 times per turn per enemy)\nBase Attack Skills that inflict Burn, Burn Count, or Unique Burn: Each Skill gains Offense Level equal to the number of copies of each Skill (Max 3)\nIf a Skill has 3+ copies, gain 2 additional Offense Level",
+        "Rank": 1,
+        "MiscTags": [
+          "Burn",
+          "Burn Count",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Spiked Combat Boots",
+    "Tag": "Rupture",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 149,
+    "Upgrades": [
+      {
+        "Description": "On Clash Win with a Base Attack Skill that inflicts Rupture or Rupture Count, inflict +3 Rupture Count (2 times per turn per enemy)\nOn Hit: If the enemy does not have Rupture, Coin effects that inflict Rupture inflict Rupture Count instead (Max 4; 2 times per turn per enemy; for Abnormalities, per part)\nBase Attack Skills that inflict Rupture or Rupture Count: Each Skill gains Offense Level equal to the number of copies of each Skill (Max 3)\nIf a Skill has 3+ Copies, gain 2 additional Offense Level",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture Count",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Re-ignition Plug",
+    "Tag": "Burn",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Lust",
+    "Tier": 3,
+    "Cost": 248,
+    "Upgrades": [
+      {
+        "Description": "Base Attack Skills that inflict Burn Count: Deal +20% damage and inflict +1 more Burn Count. On Hit with these Skills against enemies with Burn or Unique Burn: Inflict 1 Defense Level Down (2 times per turn per Identity)\nIdentities whose all Base Attack Skills inflict Burn, Burn Count or Unique Burn: At Turn Start: Gain Offense Level Up equal to the number of surviving turns (Except the turn they join the Encounter; max 5)",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp",
+          "Burn Count",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Enhancer Mk.4",
+    "Tag": "Rupture",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 254,
+    "Upgrades": [
+      {
+        "Description": "On Hit with the final Coin against enemies with 15- Rupture when using a Base Attack Skill that inflicts Rupture or Rupture Count: Inflict +3 Rupture Count (Once per turn per Identity)\nBase Attack Skills that inflict Rupture Count: Clash Power +1, deal +20% damage",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp",
+          "Rupture Count",
+          "Clash Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Embers",
+    "Tag": "Burn",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 257,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: All enemies (for Abnormalities, all Parts) with 2~7 Burn Count gain 1~2 Burn Count\nWhen enemies take 5 hits from ally Attack Skills (including E.G.O Skills) that inflict Burn, Burn Count or Unique Burn: Trigger Burn once, then reduce Burn Count by 1 (2 times per turn per enemy; for Abnormalities, per Part)",
+        "Rank": 1,
+        "MiscTags": [
+          "Burn Count",
+          "Burn Proc"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Twigs",
+    "Tag": "Rupture",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 244,
+    "Upgrades": [
+      {
+        "Description": "Every time Rupture activates 3 times on enemies with Rupture due to getting hit by allies' Attack Skills (including E.G.O Skills) that inflict Rupture or Rupture Count, inflict 2 Offense Level Down on said enemy next turn (3 times per turn per enemy; for Abnormalities, per Part)\nOn Kill with a Base Attack Skill that inflicts Rupture Count: Inflict the remaining Rupture Count on the defeated enemy on a random enemy next turn (2 times per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Down",
+          "Rupture Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Regular Operational Gear",
+    "Tag": "Keywordless",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Lust",
+    "Tier": 3,
+    "Cost": 252,
+    "Upgrades": [
+      {
+        "Description": "Limbus Company Identities: Skill 2 gains Offense Level +1 and deals +15% damage; Skill 3 gains Offense Level +2 and deals +30% damage\nIf there are 4+ Limbus Company Identities among the Backup Units, 2 random allies gain 2 Offense Level Up at Turn Start",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff",
+          "Offense Level Up",
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Operation Authorization Card",
+    "Tag": "Keywordless",
+    "Abnormality": "*LCB Regular Check-Up*",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 252,
+    "Upgrades": [
+      {
+        "Description": "During the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times pr turn)\nTurn Start: 3 allies with the lowest SP heal 15, 10, and 5 SP each (Does not stack; numbers apply in ascending order; does not activate of the affected units are Panicked or Corroded)",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up",
+          "Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "High-risk Operational Gear",
+    "Tag": "Keywordless",
+    "Abnormality": "Fusion: ||Regular Operational Gear + Operation Authorization Card||",
+    "Affinity": "Gloom",
+    "Tier": 4,
+    "Cost": 404,
+    "Upgrades": [
+      {
+        "Description": "Limbus Company Identities: Skill 2 gains Offense Level +2 and deals +20% damage; Skill 3 gains Offense Level +3 and deals +40% damage\nTurn Start: A Random ally gains 2 Offense Level Up for every Backup or defeated Limbus Company Identity\nDuring the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (Distributed equally, 2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times per turn)\nWhen 3+ Limbus Company Identities retreat or are defated, randomly apply 8 Offense Level Up between all Identities instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up",
+          "Damage Amp"
         ]
       }
     ],
