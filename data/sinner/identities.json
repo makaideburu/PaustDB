@@ -8564,7 +8564,7 @@
         },
         "SkillThree": {
           "Name": "O.O.F.",
-          "Description": "[On Use] Gain 4 Poise\nGain +1 Coin Power for every 7 Poise on self (Max 2)\n<1>[On Crit] Gain +1 Poise Count\n<2>[On Crit] Gain +1 Poise Count\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor & Rupture Potency and Count\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Rupture and +2 Rupture Count\n[On Hit] Trigger Tremor Burst",
+          "Description": "[On Use] Gain 4 Poise\nGain +1 Coin Power for every 7 Poise on self (Max 2)\n<1>[On Crit] Gain +1 Poise Count\n<2>[On Crit] Gain +1 Poise Count\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor (Count) & Rupture (Count)\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Rupture and +2 Rupture Count\n[On Hit] Trigger Tremor Burst",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -9085,6 +9085,7 @@
           ],
           "ResourceType": "Res",
           "EffectTags": [
+            "Follow Up",
             "Self Tremor Count",
             "Tremor Burst"
           ]
@@ -9197,6 +9198,7 @@
           ],
           "ResourceType": "Res",
           "EffectTags": [
+            "Follow Up",
             "Self Tremor Count",
             "Tremor Burst"
           ]
@@ -18934,6 +18936,157 @@
     ]
   },
   {
+    "Id": 7000,
+    "Sinner": "Heathcliff",
+    "Identity": "Kurokumo Clan Wakashu",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Lenticular Rend",
+          "Description": "Coin Power +X for every Y Bleed on target\n[On Use] Gain Defense Power Up next turn\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Offense Level Down",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Defense Power Up",
+            "Bleed",
+            "Offense Level Down"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Stormcloud",
+          "Description": "Coin Power +X for every Y Bleed on target\n[On Use] Gain Defense Power Up next turn\n<1>[On Hit] Inflict Bleed\n[Heads Hit] Inflict Slash Fragility\n<2>[On Hit] Inflict Bleed Count\n[On Hit] Inflict Attack Power Down",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Defense Power Up",
+            "Bleed",
+            "Slash Fragility",
+            "Bleed Count",
+            "Attack Power Down"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Thundercleave",
+          "Description": "Coin Power +X for every Y Bleed on target\n[Combat Start] Gain Cumulus Wall next turn\n[On Use] Gain Defense Power Up next turn\n[Clash Win] Gain Dark Cloud Blade next turn\n<1>[On Hit] Inflict Bleed\n[On Hit] Final Coin deals more damage\n<2>[On Hit] Inflict Slash Fragility\n[On Hit] Final Coin deals more damage\nDeal more damage for every X types of negative effect on target\n[On Hit] Inflict Bleed",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Cumulus Wall",
+            "Defense Power Up",
+            "Dark Cloud Blade",
+            "Bleed",
+            "Slash Fragility"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Rules of the Backstreets",
+          "Description": "[Clashable Counter]\nIf Kurokumo Clan Captain Ishmael is on the field:\nTurn all Coins in this skill into Unbreakable Coins\nSkill gains Final Power on Clash Lose\nDeal more damage for every X types of negative effect on target\n[On Use] If unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill\n<1>[On Hit] Inflict Bleed\n[On Hit] If this unit has Dark Cloud Blade, Reuse Coin once\n[On Hit] If unit has Battle Ready, Reuse Coin once",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Bleed"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "Battle Ready",
+            "Description": "When a Kurokumo Clan ally is defeated, gain Slash Power Up for the duration of this Encounter\nWhen 3+ Kurokumo Clan allies are defeated, gain Battle Ready for the duration of this Encounter",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Slash Power Up",
+              "Battle Ready"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Dark Cloud Blade",
+          "Description": "When 2+ allied Kurokumo Clan Identities are on the field, including this unit, gain Dark Cloud Blade\nAgainst enemies that, this turn, used Defense Skills or were at Max HP before attacking: deal more damage\nIf an enemy attacked and dealt damage to another ally, use Skill 1 against the attacker\nIf the enemy killed an ally, or if the ally's HP is less than X after the enemy's attack, use 'Rules of the Backstreets' instead",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Dark Cloud Blade",
+            "Follow Up"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Impale",
+          "Description": "1 ally with the fastest Speed: Against enemies that used Defense Skills or were at max HP before attacking this turn: deal more damage",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Damage Amp"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 8101,
     "Sinner": "Ishmael",
     "Identity": "LCB Sinner",
@@ -21380,6 +21533,156 @@
           "ResourceType": "Owned",
           "MiscTags": [
             "Ally Defense Level Up"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 8000,
+    "Sinner": "Ishmael",
+    "Identity": "Kurokumo Clan Captain",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Clean Up",
+          "Description": "Coin Power +X for every Y Bleed on target\nDeal more damage for every X types of negative effect on target\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Offense Level Down",
+          "DamageType": "Slash",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Bleed",
+            "Offense Level Down"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Sharpened Blade",
+          "Description": "Coin Power +X for every Y Bleed on target\nDeal more damage for every X types of negative effect on target\n[Combat Start] Apply Damage Up to X other fastest allied Kurokumo Clan Identities\nIf X+ allied Kurokumo Clan Identities are on the field, including this unit, apply Damage Up to Y other fastest Kurokumo Clan Identities instead\n<1>[On Hit] Inflict Bleed\n[Heads Hit] Inflict Slash Fragility\nWhen X+ Kurokumo Clan allies are on the field, including this unit, inflict Fragile instead\n<2>[On Hit] Inflict Bleed Count\n[On Hit] Gain Slash Power Up next turn",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Ally Damage Up",
+            "Bleed",
+            "Slash Fragility",
+            "Fragile",
+            "Bleed Count",
+            "Slash Power Up"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Ink Over",
+          "Description": "Coin Power +X for every Y Bleed on target\n[On Kill] Gain Slash Power Up next turn\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bleed\n<3>Deal more damage for every X types of negative effect on the target\n[On Hit] Activate Bleed X times on target; reduce their Bleed Count",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Slash Power Up",
+            "Bleed Count",
+            "Bleed",
+            "Bleed Proc"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Scattering Slash",
+          "Description": "[Combat Start] Gain Protection\n[Combat Start] Apply Defense Power Up to (X + Highest Res) fastest allied Kurokumo Clan Identities",
+          "DamageType": "Evade",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Protection",
+            "Ally Defense Power Up"
+          ]
+        },
+        "InstallPassives":[
+          {
+            "Name": "Battle Ready",
+            "Description": "When a Kurokumo Clan ally is defeated, gain Slash Power Up for the duration of this Encounter\nWhen 3+ Kurokumo Clan allies are defeated, gain Battle Ready for the duration of this Encounter",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Slash Power Up",
+              "Battle Ready"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Gathering Dark Clouds",
+          "Description": "Combat Start: If there are 2+ allied Kurokumo Clan Identities participating in this Encounter, gain Dark Cloud Blade\nCombat Start: Apply Dark Cloud to Kurokumo Clan Identities adjacent to this unit on the Dashboard\nAt X+ Lust Res, apply Dark Cloud to all other Kurokumo Clan allies",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Dark Cloud Blade",
+            "Ally Dark Cloud"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Cloud Workshop Blade",
+          "Description": "1 ally with the fastest Speed inflicts additional Bleed",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Bleed"
           ]
         }
       }
@@ -31964,7 +32267,7 @@
         },
         "SkillDefense": {
           "Name": "Faded Patience",
-          "Description": "[Combat Start] At 40%+ HP, gain 5 Bleed and activate Bleed up to 3 times on self\n[Combat Start] At less than 40% HP, consume up to 20 Bloodfeast and heal the same value as HP (Once per turn)\n[Combat Start] Gain 3 Ailing Heart (Once per turn)",
+          "Description": "[Combat Start] At 40%+ HP, gain 5 Bleed and Activate Bleed up to 3 times on self\n[Combat Start] At less than 40% HP, consume up to 20 Bloodfeast and heal the same value as HP (Once per turn)\n[Combat Start] Gain 3 Ailing Heart (Once per turn)",
           "DamageType": "Defend",
           "SinType": "Lust",
           "BasePower": 15,

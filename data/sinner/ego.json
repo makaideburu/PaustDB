@@ -672,7 +672,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Fell Bullet",
-          "Description": "Targets the ally with the least HP\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\nIf Res was Pride Res, Gain (Highest Res x 2) Torn Memory instead (Max 7)\n[Before Attack] Gain Poise 1 for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +15% damage for every Torn Memory (Max 105%)\n[On Ally Kill] Give 3 Poise to self and 2 allies\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1 and S2\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, only target 1 sub-target\n+9% damage on Critical Hit for every Torn Memory (Max 63%)\n[On Crit] Inflict 3 Bleed",
+          "Description": "Prioritizes targets with the least HP (Prioritizes allies)\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\nIf Res was Pride Res, Gain (Highest Res x 2) Torn Memory instead (Max 7)\n[Before Attack] Gain Poise 1 for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +15% damage for every Torn Memory (Max 105%)\n[On Ally Kill] Give 3 Poise to self and 2 allies\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1 and S2\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, only target 1 sub-target\n+9% damage on Critical Hit for every Torn Memory (Max 63%)\n[On Crit] Inflict 3 Bleed",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 18,
@@ -697,7 +697,7 @@
         },
         "Corrosion": {
           "Name": "Fell Bullet",
-          "Description": "[Indiscriminate] Targets the ally with the least HP\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\nIf Res was Pride Res, gain (Highest Res x 2) Torn Memory instead (Max 7)\n[Before Attack] Deal +4% damage for every Torn Memory (Max 28%)\n[Before Attack] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +15% damage for every Torn Memory (Max 105%)\nIf main target is an ally, deal +2% damage for every Poise (Max 50%)\n+30% damage on Critical Hit\n[On Ally Kill] Give 4 Poise to self and 3 allies\n[On Ally Kill] Next Coin deals +7% damage for every Torn Memory (Max 49%)\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1, S2, and S3\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, target only 1 sub-target\n+4% damage on Critical Hit for every Torn Memory (Max 28%)\n[On Crit] Inflict 5 Bleed",
+          "Description": "[Indiscriminate] Prioritizes targets with the least HP (Prioritizes allies)\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\nIf Res was Pride Res, gain (Highest Res x 2) Torn Memory instead (Max 7)\n[Before Attack] Deal +4% damage for every Torn Memory (Max 28%)\n[Before Attack] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +15% damage for every Torn Memory (Max 105%)\nIf main target is an ally, deal +2% damage for every Poise (Max 50%)\n+30% damage on Critical Hit\n[On Ally Kill] Give 4 Poise to self and 3 allies\n[On Ally Kill] Next Coin deals +7% damage for every Torn Memory (Max 49%)\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1, S2, and S3\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, target only 1 sub-target\n+4% damage on Critical Hit for every Torn Memory (Max 28%)\n[On Crit] Inflict 5 Bleed",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 30,
@@ -732,7 +732,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Fell Bullet",
-          "Description": "Targets the ally with the least HP\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\n[Before Attack] Gain Poise 1 for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +10% damage for every Torn Memory (Max 70%)\n[On Ally Kill] Give 3 Poise to self and 2 allies\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, only target 1 sub-target\n+5% damage on Critical Hit for every Torn Memory (Max 35%)\n[On Crit] Inflict 3 Bleed",
+          "Description": "Prioritizes targets with the least HP (Prioritizes allies)\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\n[Before Attack] Gain Poise 1 for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +10% damage for every Torn Memory (Max 70%)\n[On Ally Kill] Give 3 Poise to self and 2 allies\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1\n[On Ally Failed Kill] Gain 3 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, only target 1 sub-target\n+5% damage on Critical Hit for every Torn Memory (Max 35%)\n[On Crit] Inflict 3 Bleed",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 18,
@@ -757,7 +757,7 @@
         },
         "Corrosion": {
           "Name": "Fell Bullet",
-          "Description": "[Indiscriminate] Targets the ally with the least HP\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\n[Before Attack] Deal +3% damage for every Torn Memory (Max 21%)\n[Before Attack] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +12% damage for every Torn Memory (Max 84%)\nIf main target is an ally, deal +2% damage for every Poise (Max 50%)\n[On Ally Kill] Give 3 Poise to self and 3 allies\n[On Ally Kill] Next Coin deals +5% damage for every Torn Memory (Max 35%)\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1, S2, and S3\n[On Ally Failed Kill] Gain 2 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, target only 1 sub-target\n+3% damage on Critical Hit for every Torn Memory (Max 21%)\n[On Crit] Inflict 4 Bleed",
+          "Description": "[Indiscriminate] Prioritizes targets with the least HP (Prioritizes allies)\n[Before Attack] Gain (Highest Res + 1) Torn Memory (Max 7)\n[Before Attack] Deal +3% damage for every Torn Memory (Max 21%)\n[Before Attack] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose all Torn Memory\n<1>[Only targets main target]\nIf main target is an ally, deal +12% damage for every Torn Memory (Max 84%)\nIf main target is an ally, deal +2% damage for every Poise (Max 50%)\n[On Ally Kill] Give 3 Poise to self and 3 allies\n[On Ally Kill] Next Coin deals +5% damage for every Torn Memory (Max 35%)\n[On Ally Kill] Gain +1 E.G.O Resource for the ally's S1, S2, and S3\n[On Ally Failed Kill] Gain 2 Poise\n<2>[Only targets sub-targets]\nIf first Coin failed to kill an ally, target only 1 sub-target\n+3% damage on Critical Hit for every Torn Memory (Max 21%)\n[On Crit] Inflict 4 Bleed",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 30,
@@ -3797,7 +3797,7 @@
         },
         "Passive": {
           "Name": "Mark of the Gaze",
-          "Description": "Whenever this unit uses a base Attack Skill against an enemy, gain 1 additional E.G.O Resource for a random, least-owned Affinity that doesn't correspond to the Affinity of the Attack Skill used",
+          "Description": "Whenever this unit uses a base Attack Skill against an enemy, gain 1 additional E.G.O Resource for a random, least-owned Affinity that doesn't correspond to the Affinity of the Attack Skill used (2 times per turn)",
           "MiscTags": [
             "Gain Resources"
           ]

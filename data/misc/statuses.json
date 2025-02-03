@@ -1391,7 +1391,7 @@
       "Min Speed",
       "Max Speed",
       "Clash Power Up",
-      "Slash Damage Up",
+      "Slash DMG Up",
       "Self HP Damage",
       "Self SP Damage"
     ]
@@ -1781,6 +1781,40 @@
     "Tags": [
       "Ally Poise",
       "Ally Poise Count"
+    ]
+  },
+  {
+    "Name": "Dark Cloud Blade",
+    "Description": "Slash Power Up\nInflict Bleed On Hit with a Slash Skill",
+    "Tags": [
+      "Slash Power Up",
+      "Bleed"
+    ]
+  },
+  {
+    "Name": "Battle Ready",
+    "Description": "+X Bleed and Bleed Count inflicted with this unit's Skill or Coin Effects\nGain Slash Power Up and Slash DMG Up for the duration of this Encounter",
+    "Tags": [
+      "Bleed",
+      "Bleed Count",
+      "Slash Power Up",
+      "Slash DMG Up"
+    ]
+  },
+  {
+    "Name": "Dark Cloud",
+    "Description": "Turn every Coin on this unit's Base Attack Skills into Unbreakable Coins; this unit cannot be Staggered due to damage until said Skill ends; inflict more Bleed with its Coins\nOn Clash Lose, Final Power +X\nTurn End: This effect expires",
+    "Tags": [
+      "Unbreakable Coin",
+      "Bleed",
+      "Final Power"
+    ]
+  },
+  {
+    "Name": "Cumulus Wall",
+    "Description": "Gain Defense Skill Final Power\nThis effect expires at Turn End or after 'Rules of the Backstreets' ends",
+    "Tags": [
+      "Defense Power Up"
     ]
   }
 ]

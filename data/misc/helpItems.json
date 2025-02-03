@@ -28,18 +28,17 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering by a Sinner's Identities is straight-forward, via -s```i.e. -s yi sang```Filtering by an Identity's name is simple as well, and accepts partial names via -i```i.e. -i molar```Rarity can be filtered via -r```i.e. -r 3```Faust can further search by Identities with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Uptie 3 information is also available.```-t3```As an example for Spicebush Yi Sang:```/limbus identity -s yi sang -i spicebush```Shorthand is available for just looking up an ID, requiring both the ID and Sinner:```/limbus id spicebush yi sang```"
+        "Specific IDs can be searched with just the Identity and Sinner's names.```/limbus id spicebush yi sang```IDs can be searched via -i```/limbus id -i zwei south```Sinners can be searched via -s```/limbus id -s sinclair```Uptie 3 information is available by adding -t 3```/limbus id -i w corp -s meursault -t 3```"
+      ],
+      [
+        "Notice on Skills",
+        "Due to Discord's embed length limit, alternate skills and always-active skills are not displayed in an ID's kit. For skill searching, see ```/limbus help skill```"
       ],
       [
         "Special Parameters",
-        "Using `-ego` while searching for an identity will tell you which identities can solo support that E.G.O. i.e. which identities can generate all the resources that E.G.O. requires.\nIt should go without saying, but this requires a sinner as well. There are 3 4th Match Flames, after all."
-      ],
-      [
-        "The Wacky Stuff",
-        "`-s1 -s2 -s3 -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s."
+        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins."
       ]
-    ],
-    "HelpFooter": "Due to how the identity query works, Faust will only show you the first TWELVE results."
+    ]
   },
   {
     "HelpNames": [
@@ -50,22 +49,21 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering by a Sinner's E.G.O is straight-forward, via -s```i.e. -s faust```Filtering by an E.G.O's name is simple as well, and accepts partial names, via -ego```i.e. -ego hex nail```Rank can be filtered via -r```i.e. -r teth```Faust can further search by E.G.O with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```For those who care, Threadspin 3 information is also available.```-t3```As an example for Yi Sang's 4th Match Flame:```/limbus ego -s yi sang -ego 4th match flame```Shorthand is available for just looking up an EGO, requiring both the EGO and Sinner:```/limbus ego match flame yi sang```"
+        "Specific E.G.O can be searched with just the E.G.O and Sinner's names.```/limbus id sunshower yi sang```E.G.O can be searched via -ego```/limbus ego -ego cavernous wailing```Sinners can be searched via -s```/limbus ego -s sinclair```Threadspin 3 information is avalable by adding -t 3```/limbus ego -ego lifetime stew -s sinclair -t 3```"
       ],
       [
         "Special Parameters",
-        "Using `-i, -identity` while searching for an E.G.O. will tell you which E.G.O can be solo supported by that identity, i.e. which E.G.O use only the resources that identity generates.\nIt should go without saying, but this requires a sinner as well. There are 3 4th Match Flames, after all."
+        "-cost and a comma-separated list of sins will search for E.G.O that consume only those sins.```/limbus ego -s heathcliff -cost envy, gloom, pride```"
       ],
       [
-        "The Wacky Stuff",
+        "More Special Parameters",
         "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION"
       ],
       [
-        "Slightly Wackier Stuff",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though.\n-cost, when given a list of sins separated by costs, will filter any found E.G.O that use only the sins provided."
+        "Notice on sorting",
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though."
       ]
-    ],
-    "HelpFooter": "Due to how the E.G.O query works, Faust will only show you the first TWELVE results."
+    ]
   },
   {
     "HelpNames": [
@@ -77,15 +75,15 @@
     "HelpItems": [
       [
         "Basic Paramters",
-        "Filtering skills by Sinners is straight-forward.```-s, -sinner```Filtering by an identity's skills is simple as well.```-i, -identity```Faust can further search skills with certain effect tags. For more information, see /limbus help effects.```-e, -effect, -effects```Adding `-long` will include the skill descriptions, but cuts down on the number of displayed skills, and some skills are simply too long to be displayed.\nFaust has relented. Go compare the different W Corp Leaps, if you want.```-skill leap```Skills can be shorthanded by name.```/limbus skill striker's stance```"
+        "Specific Skills can be searched with just the Skill name.```/limbus skill lament mourn and despair```Skill names are searched via -skill```/limbus skill -skill leap```...and narrowed down per Sinner via -s```/limbus skill -s faust```Uptie 3 information is available by adding -t 3```/limbus skill -skill energy current -t 3```"
       ],
       [
-        "The Wacky Stuff",
-        "`-s1 -s2 -s3` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects). Adding `-any` will search for ANY OF THE ABOVE in the selected skill slots.\nAn example:```skill -s1 -s2 -s3 -sin sloth -d blunt```Will give you SKILL 1s, 2s, and 3s that are SLOTH AND BLUNT"
+        "Special Parameters",
+        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins."
       ],
       [
-        "Slightly Wackier Stuff",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\n'Power' in this case refers to final power while 'Potential' refers to the sum of rolls. (i.e. N Corp Sinlair's S3 has a maxpower of 30, and a maxpotential of 90)\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (W Corp Don's S3) or conditional coins (Kurokumo Hong Lu's S2)."
+        "Notice on sorting",
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power or coin reuse."
       ]
     ],
     "HelpFooter": "The skill query is particularly volatile, and the number of results is subject to change at any given time."
@@ -126,7 +124,7 @@
       "railway"
     ],
     "HelpTitle": "Refraction Railway Database",
-    "HelpDescription": "Faust has information available on enemies in Refraction Railway and their resists, to assist with planning and teambuilding.```-line```Denotes which Railway line you're looking for. Accepts either the Line Number (i.e. 2) or its name (i.e. Mobius), or will default to the latest/most current Railway Line.```-stop```Is required, and denotes which Stop of the Railway you're looking up. Same thing, Stop Number (i.e. 1) or its name (i.e. curse) ((Partial names are accepted.))\nAs of Line 4, certain nodes are split between a .1 and a .2 wave due to discord limitations. Use the name.\nFor those who care, enemy names are spoiler tagged.",
+    "HelpDescription": "Faust has information available on enemies in Refraction Railway and their resists, to assist with planning and teambuilding.```-line```Denotes which Railway line you're looking for. Accepts either the Line Number (i.e. 2) or its name (i.e. Mobius), or will default to the latest/most current Railway Line.```-stop```Is required, and denotes which Stop of the Railway you're looking up. Same thing, Stop Number (i.e. 1) or its name (i.e. curse) ((Partial names are accepted.))\nAs of Line 4, certain nodes are split between a .1 and a .2 wave due to Discord limitations. Use the name.\nFor those who care, enemy names are spoiler tagged.",
     "HelpItems": [],
     "HelpFooter": ""
   },
@@ -148,6 +146,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.5.5 (2025-02-03)",
+        "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
+      ],
+      [
         "2.5.4.1 (2025-01-20)",
         "```'Inconsequential' backend stuff became consequential error```"
       ],
@@ -166,10 +168,6 @@
       [
         "2.5.2 (2024-12-23)",
         "```Backend rework```"
-      ],
-      [
-        "2.5.1 (2024-12-15)",
-        "```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
       ]
     ],
     "OldItems": [
@@ -272,6 +270,10 @@
       [
         "2.5.0.1 (2024-12-11)",
         "```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
+      ],
+      [
+        "2.5.1 (2024-12-15)",
+        "```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
       ]
     ],
     "HelpFooter": ""

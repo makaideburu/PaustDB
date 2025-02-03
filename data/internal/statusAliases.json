@@ -718,5 +718,35 @@
       "ally poise",
       "ally poise count"
     ]
+  },
+  {
+    "entry": "dark cloud blade",
+    "aliases":[
+      "slash power up",
+      "bleed"
+    ]
+  },
+  {
+    "entry": "battle ready",
+    "aliases":[
+      "bleed",
+      "bleed count",
+      "slash power up",
+      "slash dmg up"
+    ]
+  },
+  {
+    "entry": "ally dark cloud",
+    "aliases":[
+      "ally unbreakable coin",
+      "ally bleed",
+      "ally final power"
+    ]
+  },
+  {
+    "entry": "cumulus wall",
+    "aliases":[
+      "defense power up"
+    ]
   }
 ]
