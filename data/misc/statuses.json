@@ -1785,7 +1785,7 @@
   },
   {
     "Name": "Dark Cloud Blade",
-    "Description": "Slash Power Up\nInflict Bleed On Hit with a Slash Skill",
+    "Description": "Max Stack: 1\nGain 1 Slash Power Up\nInflict 1 Bleed On Hit with Slash Skills",
     "Tags": [
       "Slash Power Up",
       "Bleed"
@@ -1793,7 +1793,7 @@
   },
   {
     "Name": "Battle Ready",
-    "Description": "+X Bleed and Bleed Count inflicted with this unit's Skill or Coin Effects\nGain Slash Power Up and Slash DMG Up for the duration of this Encounter",
+    "Description": "Max Stack: 1\n+1 Bleed and Bleed Count inflicted with this unit's Skill or Coin Effects\nGain 1 Slash Power Up and 3 Slash DMG Up for the duration of this Encounter",
     "Tags": [
       "Bleed",
       "Bleed Count",
@@ -1803,7 +1803,7 @@
   },
   {
     "Name": "Dark Cloud",
-    "Description": "Turn every Coin on this unit's Base Attack Skills into Unbreakable Coins; this unit cannot be Staggered due to damage until said Skill ends; inflict more Bleed with its Coins\nOn Clash Lose, Final Power +X\nTurn End: This effect expires",
+    "Description": "Max Stack: 1\nTurn every Coin on this unit's Base Attack Skills into Unbreakable Coins; this unit cannot be Staggered due to damage until said Skill ends; inflict more +1 Bleed effects with its Coins\nOn Clash Lose, Final Power +3\nTurn End: This effect expires",
     "Tags": [
       "Unbreakable Coin",
       "Bleed",
@@ -1812,7 +1812,7 @@
   },
   {
     "Name": "Cumulus Wall",
-    "Description": "Gain Defense Skill Final Power\nThis effect expires at Turn End or after 'Rules of the Backstreets' ends",
+    "Description": "Max Stack: 1\nDefense Skill Final Power +1\nThis effect expires at Turn End or after 'Rules of the Backstreets' ends",
     "Tags": [
       "Defense Power Up"
     ]
