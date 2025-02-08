@@ -5229,21 +5229,21 @@
     "Cost": 159,
     "Upgrades": [
       {
-        "Description": "When the ally with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count or Unique Bleed, deal +12.5% damage.",
+        "Description": "When the ally with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, deal +12.5% damage.",
         "Rank": 1,
         "MiscTags": [
           "Damage Amp"
         ]
       },
       {
-        "Description": "When 2 allies with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count or Unique Bleed, deal +15% damage.",
+        "Description": "When 2 allies with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, deal +15% damage.",
         "Rank": 2,
         "MiscTags": [
           "Damage Amp"
         ]
       },
       {
-        "Description": "When 3 allies with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count or Unique Bleed, deal +20% damage.",
+        "Description": "When 3 allies with the fastest Speed deals damage to an enemy with a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, deal +20% damage.",
         "Rank": 3,
         "MiscTags": [
           "Damage Amp"
@@ -5616,7 +5616,7 @@
     "Cost": 245,
     "Upgrades": [
       {
-        "Description": "When an ally with Attack Skills (not E.G.O Skills) that inflict Tremor, Tremor Count or Unique Tremor wins a Clash, inflict 2 Tremor and +2 Tremor Count. (2 times per turn)\nYurodivy Identities: Inflict 3 Tremor and +3 Tremor Count instead. (3 times per turn)\nIf the affected Identity Clashes against targets with higher Offense Levels, Clash Power +2; deal +20% damage when attacking after winning the Clash.",
+        "Description": "When an ally with Attack Skills (not E.G.O Skills) that inflict Tremor, Tremor Count, or Unique Tremor wins a Clash, inflict 2 Tremor and +2 Tremor Count. (2 times per turn)\nYurodivy Identities: Inflict 3 Tremor and +3 Tremor Count instead. (3 times per turn)\nIf the affected Identity Clashes against targets with higher Offense Levels, Clash Power +2; deal +20% damage when attacking after winning the Clash.",
         "Rank": 1,
         "MiscTags": [
           "Tremor",
@@ -5662,7 +5662,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count or Unique Tremor triggers Amplitude Conversion on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
+        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor triggers Amplitude Conversion on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -5686,7 +5686,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count or Unique Tremor deals damage to a slower enemy with 2+ Speed difference between them: Deal +(Tremor on target)% more damage (Max 25%) and inflict 2 Defense Level Down every time the ally deals damage. (Max 6)",
+        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor deals damage to a slower enemy with 2+ Speed difference between them: Deal +(Tremor on target)% more damage (Max 25%) and inflict 2 Defense Level Down every time the ally deals damage. (Max 6)",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -5733,7 +5733,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count or Unique Tremor Clashes against a faster enemy with 2+ Speed difference: Clash Power +2 and deal +(Tremor on target)% more damage. (Max 50%)\nTurn Start: From slowest to fastest, the 3 slowest allies gain 5 Offense Level Up, 3 Offense Level Up, and 2 Offense Level up respectively.",
+        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor Clashes against a faster enemy with 2+ Speed difference: Clash Power +2 and deal +(Tremor on target)% more damage. (Max 50%)\nTurn Start: From slowest to fastest, the 3 slowest allies gain 5 Offense Level Up, 3 Offense Level Up, and 2 Offense Level up respectively.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -6167,7 +6167,7 @@
     "Cost": 208,
     "Upgrades": [
       {
-        "Description": "Skills that inflict Burn, Burn Count or Unique Burn gain Clash Power +1",
+        "Description": "Skills that inflict Burn, Burn Count, or Unique Burn gain Clash Power +1",
         "Rank": 1,
         "MiscTags": [
           "Clash Power Up"
@@ -6187,7 +6187,7 @@
     "Cost": 260,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nSkills that inflict Burn, Burn Count or Unique Burn gain Final Power +1\nOn Clash Win with Skills that inflict Burn, Burn Count or Unique Burn: Inflict ((# of remaining Coins / 2) + 1) Burn on target",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nSkills that inflict Burn, Burn Count, or Unique Burn gain Final Power +1\nOn Clash Win with Skills that inflict Burn, Burn Count, or Unique Burn: Inflict ((# of remaining Coins / 2) + 1) Burn on target",
         "Rank": 1,
         "MiscTags": [
           "Final Power",
@@ -6208,7 +6208,7 @@
     "Cost": 204,
     "Upgrades": [
       {
-        "Description": "Skills that inflict Bleed, Bleed Count or Unique Bleed gain Clash Power +1",
+        "Description": "Skills that inflict Bleed, Bleed Count, or Unique Bleed gain Clash Power +1",
         "Rank": 1,
         "MiscTags": [
           "Clash Power Up"
@@ -6228,7 +6228,7 @@
     "Cost": 259,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Bleed, Bleed Count, or Unique Bleed. (Except E.G.O Skills, counts Identities on field at Encounter Start)\n1 ally with the fastest Speed's Skills that inflict Bleed, Bleed Count or Unique Bleed: Coin Power +1, damage dealt +50%\nFinal Power +1 to all Skills that inflict Bleed, Bleed Count or Unique Bleed",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Bleed, Bleed Count, or Unique Bleed. (Except E.G.O Skills, counts Identities on field at Encounter Start)\n1 ally with the fastest Speed's Skills that inflict Bleed, Bleed Count, or Unique Bleed: Coin Power +1, damage dealt +50%\nFinal Power +1 to all Skills that inflict Bleed, Bleed Count, or Unique Bleed",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -8219,7 +8219,7 @@
     "Cost": 248,
     "Upgrades": [
       {
-        "Description": "Base Attack Skills that inflict Burn Count: Deal +20% damage and inflict +1 more Burn Count. On Hit with these Skills against enemies with Burn or Unique Burn: Inflict 1 Defense Level Down (2 times per turn per Identity)\nIdentities whose all Base Attack Skills inflict Burn, Burn Count or Unique Burn: At Turn Start: Gain Offense Level Up equal to the number of surviving turns (Except the turn they join the Encounter; max 5)",
+        "Description": "Base Attack Skills that inflict Burn Count: Deal +20% damage and inflict +1 more Burn Count. On Hit with these Skills against enemies with Burn or Unique Burn: Inflict 1 Defense Level Down (2 times per turn per Identity)\nIdentities whose all Base Attack Skills inflict Burn, Burn Count, or Unique Burn: At Turn Start: Gain Offense Level Up equal to the number of surviving turns (Except the turn they join the Encounter; max 5)",
         "Rank": 1,
         "MiscTags": [
           "Damage Amp",
@@ -8263,7 +8263,7 @@
     "Cost": 257,
     "Upgrades": [
       {
-        "Description": "Turn Start: All enemies (for Abnormalities, all Parts) with 2~7 Burn Count gain 1~2 Burn Count\nWhen enemies take 5 hits from ally Attack Skills (including E.G.O Skills) that inflict Burn, Burn Count or Unique Burn: Trigger Burn once, then reduce Burn Count by 1 (2 times per turn per enemy; for Abnormalities, per Part)",
+        "Description": "Turn Start: All enemies (for Abnormalities, all Parts) with 2~7 Burn Count gain 1~2 Burn Count\nWhen enemies take 5 hits from ally Attack Skills (including E.G.O Skills) that inflict Burn, Burn Count, or Unique Burn: Trigger Burn once, then reduce Burn Count by 1 (2 times per turn per enemy; for Abnormalities, per Part)",
         "Rank": 1,
         "MiscTags": [
           "Burn Count",
