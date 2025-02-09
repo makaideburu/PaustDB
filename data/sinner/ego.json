@@ -5386,7 +5386,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Lasso",
-          "Description": "If the sum of this unit and target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 Rupture on target (Max 2)\n[Before Attack] Gain 2 Haste next turn\n<2>[On Hit] Inflict 2 Lasso\n<3>[On Hit] Inflict 2 HP Healing Down next turn\n[On Hit] Inflict +1 Rupture Count for every 2 Gluttony Res (Max 3)\n<4[On Hit] Randomly inflict Bleed equal to this unit's Speed between targets (Max 7)\n[On Hit] Randomly inflict Rupture equal to this unit's Speed between targets (Max 7)",
+          "Description": "If the sum of this unit and target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 Rupture on target (Max 2)\n[Before Attack] Gain 2 Haste next turn\n<2>[On Hit] Inflict 2 Lasso\n<3>[On Hit] Inflict 2 HP Healing Down next turn\n[On Hit] Inflict +1 Rupture Count for every 2 Gluttony Res (Max 3)\n<4>[On Hit] Randomly inflict Bleed equal to this unit's Speed between targets (Max 7)\n[On Hit] Randomly inflict Rupture equal to this unit's Speed between targets (Max 7)",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
           "BasePower": 4,
