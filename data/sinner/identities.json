@@ -2713,6 +2713,132 @@
     ]
   },
   {
+    "Id": 1000,
+    "Sinner": "Yi Sang",
+    "Identity": "Liu Association South Section 3",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Flame Hew",
+          "Description": "Coin Power +X for every Y Burn on target\nDeal more damage for every X Burn on target\n<1>[On Hit] Inflict Burn\n[Heads Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n[Heads Hit] Inflict Burn",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Frontal Assault",
+          "Description": "Coin Power +X for every Y Burn on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>Deal more damage for very Burn on target\n[On Hit] If target has X+ Burn, inflict Burn Count",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Flow of the Sword",
+          "Description": "Coin Power +X for every Y Burn on target\nDeal more damage for every X Burn on target\n[After Attack] Heal SP for 1 other ally with the least SP\nIf this attack killed the target, or if target has X+ Burn, heal more allies\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n<4>Deal more damage for every Burn on target\n[On Hit] Deal Wrath Damage equal to Burn on target; reduce target's Burn Count",
+          "DamageType": "Slash",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 4,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend Enemy Burn Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Flame Counter",
+          "Description": "[Before Getting Hit] Gain Shield equal to Burn on target\n[On Use] If target has X+ Burn, deal more damage\n<1>[Heads Hit] Inflict Burn\nIf this unit has Shield, inflict more Burn\n<2>[Heads Hit] Inflict Burn\nIf this unit has Shield, inflict more Burn",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Counter",
+            "Shield",
+            "Burn"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Inner Ardor",
+          "Description": "Turn End: Heal 1 ally with the least SP by (X + Highest Res) (Excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal additional SP\nAt X+ Wrath Res, heal more allies",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Heal SP"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Liu Defensive Square",
+          "Description": "For 2 allies with the least SP: If they lost SP this turn, heal SP at Turn End\nIf said allies have Base Attack Skills that inflict Burn or Burn Count, heal X~Y SP instead",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Heal SP"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 2101,
     "Sinner": "Faust",
     "Identity": "LCB Sinner",
@@ -3922,9 +4048,9 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Ally Heal SP",
-            "Ally Pierce DMG Up",
-            "Ally Blunt DMG Up",
+            "Party Heal SP",
+            "Party Pierce DMG Up",
+            "Party Blunt DMG Up",
             "Nails"
           ]
         },
@@ -4038,9 +4164,9 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Heal Ally SP",
-            "Ally Pierce DMG Up",
-            "Ally Blunt DMG Up",
+            "Party Heal SP",
+            "Party Pierce DMG Up",
+            "Party Blunt DMG Up",
             "Nails"
           ]
         },
@@ -9314,7 +9440,7 @@
           "MiscTags": []
         },
         "PassiveSkill": {
-          "Name": "Kokuundō",
+          "Name": "Kokuuntō",
           "Description": "Deal +10% damage to targets with Bleed.",
           "PassiveResources": [
             {
@@ -9421,7 +9547,7 @@
           "MiscTags": []
         },
         "PassiveSkill": {
-          "Name": "Kokuundō",
+          "Name": "Kokuuntō",
           "Description": "Deal +10% damage to targets with Bleed.",
           "PassiveResources": [
             {
@@ -31793,11 +31919,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Party Defense Level Up",
-            "Ally Defense Level Up",
-            "Defense Level Up",
-            "Party Defense Power Up",
-            "Ally Defense Power Up",
-            "Defense Power Up"
+            "Party Defense Power Up"
           ]
         },
         "SkillDefense": {
@@ -31908,11 +32030,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Party Defense Level Up",
-            "Ally Defense Level Up",
-            "Defense Level Up",
-            "Party Defense Power Up",
-            "Ally Defense Power Up",
-            "Defense Power Up"
+            "Party Defense Power Up"
           ]
         },
         "SkillDefense": {

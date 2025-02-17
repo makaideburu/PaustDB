@@ -1,5 +1,124 @@
 [
   {
+    "entry": "party heal sp",
+    "aliases": [
+      "heal sp",
+      "ally heal sp"
+    ]
+  },
+  {
+    "entry": "party heal hp",
+    "aliases":[
+      "heal hp",
+      "ally heal hp"
+    ]
+  },
+  {
+    "entry": "party burn",
+    "aliases":[
+      "self burn",
+      "ally burn"
+    ]
+  },
+  {
+    "entry": "party poise",
+    "aliases":[
+      "poise",
+      "ally poise"
+    ]
+  },
+  {
+    "entry": "party poise count",
+    "aliases":[
+      "poise count",
+      "ally poise count"
+    ]
+  },
+  {
+    "entry": "party protection",
+    "aliases":[
+      "protection",
+      "ally protection"
+    ]
+  },
+  {
+    "entry": "party haste",
+    "aliases":[
+      "haste",
+      "ally haste"
+    ]
+  },
+  {
+    "entry":"party e.g.o resource amp",
+    "aliases": [
+      "e.g.o resource amp",
+      "ally e.g.o resource amp"
+    ]
+  },
+  {
+    "entry": "party sp loss efficiency down",
+    "aliases":[
+      "sp loss efficiency down",
+      "ally sp loss efficiency down"
+    ]
+  },
+  {
+    "entry": "party defense level up",
+    "aliases":[
+      "defense level up",
+      "ally defense level up"
+    ]
+  },
+  {
+    "entry": "party defense power up",
+    "aliases":[
+      "defense power up",
+      "ally defense power up"
+    ]
+  },
+  {
+    "entry": "party pierce dmg up",
+    "aliases":[
+      "pierce dmg up",
+      "ally pierce dmg up"
+    ]
+  },
+  {
+    "entry": "party blunt dmg up",
+    "aliases":[
+      "blunt dmg up",
+      "ally blunt dmg up"
+    ]
+  },
+  {
+    "entry": "party sloth power up",
+    "aliases":[
+      "sloth power up",
+      "ally sloth power up"
+    ]
+  },
+  {
+    "entry": "party wrath dmg up",
+    "aliases":[
+      "wrath dmg up",
+      "ally wrath dmg up"
+    ]
+  },
+  {
+    "entry": "party sloth dmg up",
+    "aliases":[
+      "sloth dmg up",
+      "ally sloth dmg up"
+    ]
+  },
+  {
+    "entry": "party wrath fragility",
+    "aliases":[
+      "self wrath fragility",
+      "ally wrath fragility"
+    ]
+  },
+  {
     "entry": "burn count",
     "aliases": [
       "burn"
@@ -555,7 +674,7 @@
       "min speed",
       "max speed",
       "clash power up",
-      "slash damage up",
+      "slash dmg up",
       "self hp damage",
       "self sp damage"
     ]
@@ -567,7 +686,7 @@
       "min speed",
       "max speed",
       "clash power up",
-      "blunt damage up",
+      "blunt dmg up",
       "self hp damage",
       "self sp damage"
     ]
@@ -834,6 +953,13 @@
     "entry": "faction buff: limbus company",
     "aliases":[
       "faction buff"
+    ]
+  },
+  {
+    "entry": "nebulizer α",
+    "aliases":[
+      "party poise",
+      "party poise count"
     ]
   }
 ]

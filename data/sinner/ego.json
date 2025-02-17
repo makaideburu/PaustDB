@@ -45,7 +45,6 @@
           "MiscTags": [
             "Attack Power Down",
             "Party Haste",
-            "Haste",
             "Bind"
           ]
         },
@@ -77,7 +76,6 @@
           "MiscTags": [
             "Attack Power Down",
             "Party Haste",
-            "Haste",
             "Bind"
           ]
         },
@@ -837,12 +835,6 @@
             "Party Sloth Power Up",
             "Party Sloth DMG Up",
             "Party Protection",
-            "Ally Sloth Power Up",
-            "Ally Sloth DMG Up",
-            "Ally Protection",
-            "Sloth Power Up",
-            "Sloth DMG Up",
-            "Protection",
             "Heal SP"
           ]
         },
@@ -872,9 +864,7 @@
           "Name": "Ray of Sun After Rain",
           "Description": "At start of turn, all allies heal 3 SP",
           "MiscTags": [
-            "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP"
+            "Party Heal SP"
           ]
         }
       },
@@ -899,12 +889,6 @@
             "Party Sloth Power Up",
             "Party Sloth DMG Up",
             "Party Protection",
-            "Ally Sloth Power Up",
-            "Ally Sloth DMG Up",
-            "Ally Protection",
-            "Sloth Power Up",
-            "Sloth DMG Up",
-            "Protection",
             "Heal SP"
           ]
         },
@@ -934,9 +918,7 @@
           "Name": "Ray of Sun After Rain",
           "Description": "At start of turn, all allies heal 3 SP",
           "MiscTags": [
-            "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP"
+            "Party Heal SP"
           ]
         }
       }
@@ -1504,11 +1486,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP",
-            "Party Heal HP",
-            "Ally Heal HP",
-            "Heal HP"
+            "Party Heal HP"
           ]
         },
         "Corrosion": {
@@ -1559,11 +1537,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP",
-            "Party Heal HP",
-            "Ally Heal HP",
-            "Heal HP"
+            "Party Heal HP"
           ]
         },
         "Corrosion": {
@@ -1731,6 +1705,87 @@
           "Name": "Adaptive Release",
           "Description": "While this unit has Charge, deal +2% damage per Charge Count.\nSkills spend -2 Charge Count.",
           "MiscTags": []
+        }
+      }
+    ]
+  },
+  {
+    "Id": 2000,
+    "Sinner": "Faust",
+    "Grade": "HE",
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "Sleeping Bag of a Bygone Day",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Thoracalgia",
+          "Description": "[Before Attack] Apply (Highest Res) Poise to all allies\nAt X+ Pride Res, apply Poise Count as well to affected units, then apply Shallow Exhale to affected units next turn\n<1>[On Hit] Gain Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Party Poise",
+            "Party Poise Count",
+            "Party Shallow Exhale"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Thoracalgia",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than X Poise, gain up to Y Poise and consume (Poise gained x Z)% HP on self\nThis unit cannot be Staggered or defeated due to this effect\n[Before Attack] Apply (Highest Res) Poise to all allies\nAt X+ Pride Res, affected units gain Poise Count as well\nApply Shallow Exhale and Pride DMG Up next turn to affected units\n<1>[On Hit] Gain Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Party Poise",
+            "Party Poise Count",
+            "Party Shallow Exhale"
+          ]
+        },
+        "Passive": {
+          "Name": "Breath",
+          "Description": "Turn Start after using this E.G.O Skill: Gain Nebulizer α\nValue stacks through the Encounter\nCombat Start: Gain Nebulizer α every time this unit applies Poise Count to allies with Nebulizer α effects\nTurn End: Starting from allies with lowest HP percentages, heal (Nebulizer α)% HP for (Highest Res) allies\nIf the unit receiving healing has X+ Poise, activate additional healing",
+          "MiscTags": [
+            "Nebulizer α",
+            "Ally Heal HP"
+          ]
         }
       }
     ]
@@ -2571,7 +2626,6 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Charge Count",
-            "Party Charge Count",
             "Ally Charge Count"
           ]
         },
@@ -2592,7 +2646,6 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Charge Count",
-            "Party Charge Count",
             "Ally Charge Count",
             "Ally Fragile",
             "Ally Rupture"
@@ -2625,7 +2678,6 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Charge Count",
-            "Party Charge Count",
             "Ally Charge Count"
           ]
         },
@@ -2646,7 +2698,6 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Charge Count",
-            "Party Charge Count",
             "Ally Charge Count",
             "Ally Fragile",
             "Ally Rupture"
@@ -2956,9 +3007,7 @@
           "MiscTags": [
             "Sinking",
             "Gain Resources",
-            "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP"
+            "Party Heal SP"
           ]
         },
         "Corrosion": {
@@ -2979,11 +3028,7 @@
           "MiscTags": [
             "Sinking",
             "Party E.G.O Resource Amp",
-            "Ally E.G.O Resource Amp",
-            "E.G.O Resource Amp",
-            "Party Haste",
-            "Ally Haste",
-            "Haste"
+            "Party Haste"
           ]
         },
         "Passive": {
@@ -3014,9 +3059,7 @@
           "MiscTags": [
             "Sinking",
             "Gain Resources",
-            "Party Heal SP",
-            "Ally Heal SP",
-            "Heal SP"
+            "Party Heal SP"
           ]
         },
         "Corrosion": {
@@ -3036,12 +3079,8 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Sinking",
-            "Party E.G.O Resource Amp.",
-            "Ally E.G.O Resource Amp.",
-            "E.G.O Resource Amp.",
-            "Party Haste",
-            "Ally Haste",
-            "Haste"
+            "Party E.G.O Resource Amp",
+            "Party Haste"
           ]
         },
         "Passive": {
@@ -4875,9 +4914,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Sinking",
-            "Party SP Loss Efficiency Down",
-            "Ally SP Loss Efficiency Down",
-            "SP Loss Efficiency Down"
+            "Party SP Loss Efficiency Down"
           ]
         },
         "Passive": {
@@ -7198,8 +7235,6 @@
           "AttackWeightMod": 2,
           "MiscTags": [
             "Party Wrath DMG Up",
-            "Ally Wrath DMG Up",
-            "Wrath DMG Up",
             "Burn",
             "SP Damage"
           ]
@@ -7222,11 +7257,7 @@
           "MiscTags": [
             "Wrath Fragility",
             "Party Wrath Fragility",
-            "Ally Wrath Fragility",
-            "Wrath Fragility",
             "Party Wrath DMG Up",
-            "Ally Wrath DMG Up",
-            "Wrath DMG Up",
             "Enemy Wrath DMG Up",
             "Burn Spread"
           ]
@@ -7256,8 +7287,6 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Party Wrath DMG Up",
-            "Ally Wrath DMG Up",
-            "Wrath DMG Up",
             "Burn",
             "SP Damage"
           ]
@@ -7280,11 +7309,7 @@
           "MiscTags": [
             "Wrath Fragility",
             "Party Wrath Fragility",
-            "Ally Wrath Fragility",
-            "Wrath Fragility",
             "Party Wrath DMG Up",
-            "Ally Wrath DMG Up",
-            "Wrath DMG Up",
             "Enemy Wrath DMG Up"
           ]
         },
@@ -7515,8 +7540,6 @@
           "MiscTags": [
             "Self HP Damage",
             "Party Burn",
-            "Ally Burn",
-            "Self Burn",
             "Burn",
             "Raise Stagger Threshold"
           ]
@@ -7573,8 +7596,6 @@
           "MiscTags": [
             "Self HP Damage",
             "Party Burn",
-            "Ally Burn",
-            "Self Burn",
             "Burn",
             "Raise Stagger Threshold"
           ]
@@ -9254,9 +9275,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Attack Power Up",
-            "Party Heal HP",
-            "Ally Heal HP",
-            "Heal HP"
+            "Party Heal HP"
           ]
         },
         "Corrosion": {
@@ -9306,9 +9325,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Attack Power Up",
-            "Party Heal HP",
-            "Ally Heal HP",
-            "Heal HP"
+            "Party Heal HP"
           ]
         },
         "Corrosion": {
