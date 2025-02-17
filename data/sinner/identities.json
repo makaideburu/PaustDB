@@ -8906,7 +8906,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -8925,7 +8925,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -8944,7 +8944,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -8963,7 +8963,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": []
+          "MiscTags": []
         },
         "PassiveSkill": {
           "Name": "Flame Spread",
@@ -8975,7 +8975,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Burn",
             "Burn Spread"
           ]
@@ -8990,7 +8990,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Burn",
             "Burn Spread"
           ]
@@ -9013,7 +9013,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -9032,7 +9032,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -9051,7 +9051,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Burn"
           ]
         },
@@ -9070,7 +9070,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": []
+          "MiscTags": []
         },
         "PassiveSkill": {
           "Name": "Flame Spread",
@@ -9082,7 +9082,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Burn",
             "Burn Spread"
           ]
@@ -9097,7 +9097,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Burn",
             "Burn Spread"
           ]
@@ -9135,7 +9135,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Tremor Count"
           ]
@@ -9155,7 +9155,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Tremor Count"
           ]
@@ -9175,7 +9175,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Spend Self Tremor Count",
             "Tremor",
@@ -9198,7 +9198,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": []
+          "MiscTags": []
         },
         "PassiveSkill": {
           "Name": "N.O.",
@@ -9210,7 +9210,7 @@
             }
           ],
           "ResourceType": "Res",
-          "EffectTags": [
+          "MiscTags": [
             "Follow Up",
             "Self Tremor Count",
             "Tremor Burst"
@@ -9226,7 +9226,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Ally Tremor Count"
           ]
         }
@@ -9248,7 +9248,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Tremor Count"
           ]
@@ -9268,7 +9268,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Tremor Count"
           ]
@@ -9288,7 +9288,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": [
+          "MiscTags": [
             "Self Tremor Count",
             "Spend Self Tremor Count",
             "Tremor",
@@ -9311,7 +9311,7 @@
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
-          "EffectTags": []
+          "MiscTags": []
         },
         "PassiveSkill": {
           "Name": "N.O.",
@@ -9323,7 +9323,7 @@
             }
           ],
           "ResourceType": "Res",
-          "EffectTags": [
+          "MiscTags": [
             "Follow Up",
             "Self Tremor Count",
             "Tremor Burst"
@@ -9339,7 +9339,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "EffectTags": [
+          "MiscTags": [
             "Ally Tremor Count"
           ]
         }
