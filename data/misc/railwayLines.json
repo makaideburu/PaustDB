@@ -1,5 +1,67 @@
 [
   {
+    "Id": -1,
+    "Name": "TEMLPLATE",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "Section #1: Attachment/Hunt/Fountainhead/Misting",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Hurting Teddy Bear",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": -100,
+                      "Pierce": -100,
+                      "Blunt": -100
+                    },
+                    "SinResist": {
+                      "Wrath": -100,
+                      "Lust": -100,
+                      "Sloth": -100,
+                      "Gluttony": -100,
+                      "Gloom": -100,
+                      "Pride": -100,
+                      "Envy": -100
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Refracted Barbed Lasso",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": -100,
+                  "Pierce": -100,
+                  "Blunt": -100
+                },
+                "SinResist": {
+                  "Wrath": -100,
+                  "Lust": -100,
+                  "Sloth": -100,
+                  "Gluttony": -100,
+                  "Gloom": -100,
+                  "Pride": -100,
+                  "Envy": -100
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 1,
     "Name": "Madness",
     "Stops": [
@@ -2805,6 +2867,1014 @@
                       "Gloom": 1.3,
                       "Pride": 1,
                       "Envy": 0.7
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Merry Go Round",
+    "Stops": [
+      {
+        "Id": 1,
+        "Name": "Section #1: Attachment",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Hurting Teddy Bear",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.25,
+                      "Blunt": 0.8
+                    },
+                    "SinResist": {
+                      "Wrath": 1.2,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 0.75,
+                      "Envy": 1.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Section #1: Hunt",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Rose Hunter",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.8,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1.25,
+                      "Sloth": 0.5,
+                      "Gluttony": 1,
+                      "Gloom": 0.5,
+                      "Pride": 1.25,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Refracted Barbed Lasso",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 2,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Section #1: Fountainhead",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Peccatulum Pigritiae Class 3",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.8,
+                      "Lust": 0.8,
+                      "Sloth": 0.5,
+                      "Gluttony": 1.5,
+                      "Gloom": 1.75,
+                      "Pride": 0.5,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Refracted Peccatulum Irae Class 3",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 1.5,
+                      "Sloth": 0.5,
+                      "Gluttony": 0.8,
+                      "Gloom": 1.75,
+                      "Pride": 0.8,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Refracted Peccatulum Morositatis Class 3",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.5,
+                      "Lust": 0.8,
+                      "Sloth": 0.8,
+                      "Gluttony": 1.5,
+                      "Gloom": 0.5,
+                      "Pride": 1,
+                      "Envy": 1.75
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Name": "Section #1: Misting",
+        "Waves":[
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Sleeping Bag of a Bygone Day",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.8,
+                      "Pierce": 0.8,
+                      "Blunt": 0.8
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1.25,
+                      "Sloth": 0.8,
+                      "Gluttony": 1,
+                      "Gloom": 0.8,
+                      "Pride": 0.8,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1.25,
+                      "Lust": 1.25,
+                      "Sloth": 0.8,
+                      "Gluttony": 1,
+                      "Gloom": 0.8,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Person",
+                    "Count": -1,
+                    "DamageResist": {
+                      "Slash": 1.25,
+                      "Pierce": 1.25,
+                      "Blunt": 1.25
+                    },
+                    "SinResist": {
+                      "Wrath": 1.25,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 1.25,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1.25
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Name": "Section #3: Ironstrike",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Full-Stop Office Rep Hong Lu",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Solemn Lament Yi Sang",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Twinhook Pirates First Mate Gregor",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ryōshū",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ishmael",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 2,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Full-Stop Office Fixer Heathcliff",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 0.75
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Name": "Section #2: Rampage (2.1)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Captain Ishmael",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 2,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Heathcliff",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 0.75
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Ryōshū",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Hong Lu",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Gregor",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 2,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Rodion",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": -1,
+        "Name": "Section #2: Rampage (2.2)",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Magic Bullet Outis",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.5,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - LCE E.G.O::Ardor Blossom Star Faust",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dawn Office Fixer Sinclair",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - LCE E.G.O::Lantern Yi Sang",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Sister Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Brother Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Name": "Section #2: Oblivion",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Der Fluchschütze",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 0.8,
+                      "Lust": 1,
+                      "Sloth": 0.5,
+                      "Gluttony": 0.8,
+                      "Gloom": 1.25,
+                      "Pride": 1.25,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Refracted Old G Corp. Head Manager",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Downcast Veteran",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Name": "Section #3: Motherhood",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Dulcinea",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.8,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1.5,
+                  "Sloth": 0.5,
+                  "Gluttony": 1.25,
+                  "Gloom": 1.25,
+                  "Pride": 1,
+                  "Envy": 1.5
+                }
+              },
+              {
+                "Name": "Refracted Bloodfiends of the Parade",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.8,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.25,
+                  "Lust": 1.5,
+                  "Sloth": 0.5,
+                  "Gluttony": 1.5,
+                  "Gloom": 1.25,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Bloodbags of the Parade",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.8,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.25,
+                  "Lust": 2,
+                  "Sloth": 0.75,
+                  "Gluttony": 1.5,
+                  "Gloom": 1.25,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Fanghunt Bloodbags",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1.25,
+                  "Lust": 1.2,
+                  "Sloth": 0.75,
+                  "Gluttony": 1,
+                  "Gloom": 1.25,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Name": "Section #3: Treason",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Manager of La Manchaland Don Quixote",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Princess of La Manchaland Rodion",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 2,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Barber of La Manchaland Outis",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Priest of La Manchaland Gregor",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 2,
+                  "Gluttony": 0.75,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Red Eyes & Penitence Ryōshū",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 1,
+                  "Envy": 2
+                }
+              },
+              {
+                "Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 2,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 10,
+        "Name": "Section #3: Blood Sin",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "The Refracted Priest",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1,
+                  "Blunt": 0.8
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1.25,
+                  "Sloth": 0.75,
+                  "Gluttony": 1.25,
+                  "Gloom": 1.5,
+                  "Pride": 1,
+                  "Envy": 0.5
+                }
+              },
+              {
+                "Name": "The Refracted Barber",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 0.8,
+                  "Pierce": 1,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 0.5,
+                  "Lust": 1.5,
+                  "Sloth": 0.75,
+                  "Gluttony": 1.5,
+                  "Gloom": 1.25,
+                  "Pride": 1.25,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Refracted Dulcinea",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.8,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1.5,
+                  "Sloth": 0.5,
+                  "Gluttony": 1.25,
+                  "Gloom": 1.25,
+                  "Pride": 1,
+                  "Envy": 1.5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 11,
+        "Name": "Section #3: Yearning",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities":[
+              {
+                "Name": "Refracted Four-Hundred Roses",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
                     }
                   }
                 ]
