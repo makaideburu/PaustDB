@@ -146,6 +146,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.5.6 (2025-02-20)",
+        "```Fix for Railway Stops not prioritizing Stop number over Station number```"
+      ],
+      [
         "2.5.5 (2025-02-03)",
         "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
       ],
@@ -164,10 +168,6 @@
       [
         "2.5.3 (2025-01-08)",
         "```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
-      ],
-      [
-        "2.5.2 (2024-12-23)",
-        "```Backend rework```"
       ]
     ],
     "OldItems": [
@@ -274,6 +274,10 @@
       [
         "2.5.1 (2024-12-15)",
         "```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
+      ],
+      [
+        "2.5.2 (2024-12-23)",
+        "```Backend rework```"
       ]
     ],
     "HelpFooter": ""
