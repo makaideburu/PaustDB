@@ -1868,14 +1868,14 @@
   },
   {
     "Name": "Shallow Exhale",
-    "Description": "Max Stack: 1\nAt X+ Poise, gain +1 Poise Count with this unit's Skill or Coin effects\nExpires at Turn End",
+    "Description": "Max Stack: 1\nAt 20+ Poise, gain +1 Poise Count with this unit's Skill or Coin effects\nExpires at Turn End",
     "Tags":[
       "Poise Count"
     ]
   },
   {
     "Name": "Nebulizer α",
-    "Description": "Max Stack: 5\nThis effect persists through the Encounter\nCombat Start: Apply Poise and Poise Count to all allies including this unit",
+    "Description": "Max Stack: 5\nThis effect persists through the Encounter\nCombat Start: Apply 1 Poise and +1 Poise Count to all allies including this unit",
     "Tags":[
       "Party Poise",
       "Party Poise Count"

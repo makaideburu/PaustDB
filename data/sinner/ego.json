@@ -1713,25 +1713,25 @@
     "Id": 2000,
     "Sinner": "Faust",
     "Grade": "HE",
-    "Sanity": 0,
-    "CorrosionSanity": 0,
+    "Sanity": 20,
+    "CorrosionSanity": 20,
     "Abnormality": "Sleeping Bag of a Bygone Day",
     "SinResist": {
-      "Wrath": -100,
-      "Lust": -100,
-      "Sloth": -100,
-      "Gluttony": -100,
-      "Gloom": -100,
-      "Pride": -100,
-      "Envy": -100
+      "Wrath": 0.75,
+      "Lust": 1,
+      "Sloth": 2,
+      "Gluttony": 2,
+      "Gloom": 1,
+      "Pride": 0.5,
+      "Envy": 1
     },
     "Cost": {
       "Wrath": 0,
       "Lust": 0,
-      "Sloth": 0,
+      "Sloth": 1,
       "Gluttony": 0,
-      "Gloom": 0,
-      "Pride": 0,
+      "Gloom": 1,
+      "Pride": 5,
       "Envy": 0
     },
     "ThreadspinTiers": [
@@ -1739,19 +1739,19 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Thoracalgia",
-          "Description": "[Before Attack] Apply (Highest Res) Poise to all allies\nAt X+ Pride Res, apply Poise Count as well to affected units, then apply Shallow Exhale to affected units next turn\n<1>[On Hit] Gain Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit",
+          "Description": "[Before Attack] Apply (Highest Res) Poise to all allies (Max 6)\nAt 3+ Pride Res, apply +1 Poise Count as well to affected units, then apply 1 Shallow Exhale to affected units next turn\n<1>[On Hit] Gain +1 Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 8,
+          "CoinPower": 5,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
           "MiscTags": [
             "Party Poise",
             "Party Poise Count",
@@ -1760,19 +1760,19 @@
         },
         "Corrosion": {
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than X Poise, gain up to Y Poise and consume (Poise gained x Z)% HP on self\nThis unit cannot be Staggered or defeated due to this effect\n[Before Attack] Apply (Highest Res) Poise to all allies\nAt X+ Pride Res, affected units gain Poise Count as well\nApply Shallow Exhale and Pride DMG Up next turn to affected units\n<1>[On Hit] Gain Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than 20 Poise, gain up to 20 Poise and consume (Poise gained x 2)% HP on self\nThis unit cannot be Staggered or defeated due to this effect\n[Before Attack] Apply (Highest Res) Poise to all allies (Max 6)\nAt 3+ Pride Res, affected units gain +1 Poise Count as well\nApply 1 Shallow Exhale and 1 Pride DMG Up next turn to affected units\n<1>[On Hit] Gain +1 Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 24,
+          "CoinPower": -8,
           "CoinCount": 2,
           "Level": 0,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
           "MiscTags": [
             "Party Poise",
             "Party Poise Count",
@@ -1781,7 +1781,60 @@
         },
         "Passive": {
           "Name": "Breath",
-          "Description": "Turn Start after using this E.G.O Skill: Gain Nebulizer α\nValue stacks through the Encounter\nCombat Start: Gain Nebulizer α every time this unit applies Poise Count to allies with Nebulizer α effects\nTurn End: Starting from allies with lowest HP percentages, heal (Nebulizer α)% HP for (Highest Res) allies\nIf the unit receiving healing has X+ Poise, activate additional healing",
+          "Description": "Turn Start after using this E.G.O Skill: Gain 1 Nebulizer α (Once per turn)\nValue stacks through the Encounter\nCombat Start: Gain 1 Nebulizer α every time this unit applies 10 Poise Count to allies with Nebulizer α effects\nTurn End: Starting from allies with lowest HP percentages, heal (Nebulizer α)% HP for (Highest Res) allies (Max 6)\nIf the unit receiving healing has 20+ Poise, activate additional healing 1 more time",
+          "MiscTags": [
+            "Nebulizer α",
+            "Ally Heal HP"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Thoracalgia",
+          "Description": "[Before Attack] Apply (Highest Res) Poise to all allies (Max 6)\nAt 3+ Pride Res, apply +1 Poise Count as well to affected units, then apply 1 Shallow Exhale to affected units next turn\n<1>[On Hit] Gain +1 Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit (Max 20%)",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 6,
+          "CoinPower": 5,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Party Poise",
+            "Party Poise Count",
+            "Party Shallow Exhale"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Thoracalgia",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than 20 Poise, gain up to 20 Poise and consume (Poise gained x 2)% HP on self\nThis unit cannot be Staggered or defeated due to this effect\n[Before Attack] Apply (Highest Res) Poise to all allies (Max 6)\nAt 3+ Pride Res, affected units gain +1 Poise Count as well\nApply 1 Shallow Exhale and 1 Pride DMG Up next turn to affected units\n<1>[On Hit] Gain +1 Poise Count\n<2>Deal +(Poise + Poise Count)% damage on Critical Hit (Max 20%)",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 20,
+          "CoinPower": -8,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Party Poise",
+            "Party Poise Count",
+            "Party Shallow Exhale"
+          ]
+        },
+        "Passive": {
+          "Name": "Breath",
+          "Description": "Turn Start after using this E.G.O Skill: Gain 1 Nebulizer α (Once per turn)\nValue stacks through the Encounter\nCombat Start: Gain 1 Nebulizer α every time this unit applies 10 Poise Count to allies with Nebulizer α effects\nTurn End: Starting from allies with lowest HP percentages, heal (Nebulizer α)% HP for (Highest Res) allies (Max 6)\nIf the unit receiving healing has 20+ Poise, activate additional healing 1 more time",
           "MiscTags": [
             "Nebulizer α",
             "Ally Heal HP"

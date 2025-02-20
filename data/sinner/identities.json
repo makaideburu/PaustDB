@@ -2717,28 +2717,28 @@
     "Sinner": "Yi Sang",
     "Identity": "Liu Association South Section 3",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-6",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Flame Hew",
-          "Description": "Coin Power +X for every Y Burn on target\nDeal more damage for every X Burn on target\n<1>[On Hit] Inflict Burn\n[Heads Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n[Heads Hit] Inflict Burn",
+          "Description": "Coin Power +1 for every 3 Burn on target (Max 2)\nDeal +10% damage for every 10 Burn on target (Max 30%)\n<1>[On Hit] Inflict 1 Burn\n[Heads Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n[Heads Hit] Inflict 1 Burn",
           "DamageType": "Slash",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -2748,16 +2748,16 @@
         },
         "SkillTwo": {
           "Name": "Frontal Assault",
-          "Description": "Coin Power +X for every Y Burn on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>Deal more damage for very Burn on target\n[On Hit] If target has X+ Burn, inflict Burn Count",
+          "Description": "Coin Power +1 for every 6 Burn on target (Max 2)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>Deal +5% damage for very Burn on target (Max 60%)\n[On Hit] If target has 6+ Burn, inflict +2 Burn Count",
           "DamageType": "Slash",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -2768,16 +2768,16 @@
         },
         "SkillThree": {
           "Name": "Flow of the Sword",
-          "Description": "Coin Power +X for every Y Burn on target\nDeal more damage for every X Burn on target\n[After Attack] Heal SP for 1 other ally with the least SP\nIf this attack killed the target, or if target has X+ Burn, heal more allies\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n<4>Deal more damage for every Burn on target\n[On Hit] Deal Wrath Damage equal to Burn on target; reduce target's Burn Count",
+          "Description": "Coin Power +1 for every 6 Burn on target (Max 2)\nDeal +10% damage for every 6 Burn on target (Max 30%)\n[After Attack] Heal 15 SP for 1 other ally with the least SP\nIf this attack killed the target, or if target had 10+ Burn, heal 1 more ally\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +2% damage for every Burn on target (Max 60%)\n[On Hit] Deal Wrath Damage equal to Burn on target (Max 30); reduce target's Burn Count by 2",
           "DamageType": "Slash",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 3,
           "CoinCount": 4,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -2788,11 +2788,11 @@
         },
         "SkillDefense": {
           "Name": "Flame Counter",
-          "Description": "[Before Getting Hit] Gain Shield equal to Burn on target\n[On Use] If target has X+ Burn, deal more damage\n<1>[Heads Hit] Inflict Burn\nIf this unit has Shield, inflict more Burn\n<2>[Heads Hit] Inflict Burn\nIf this unit has Shield, inflict more Burn",
+          "Description": "[Before Getting Hit] Gain Shield equal to Burn on target (Max 15; once per turn)\n[On Use] If target has 10+ Burn, deal +10% damage\n<1>[Heads Hit] Inflict 1 Burn\nIf this unit has Shield, inflict 1 additional Burn\n<2>[Heads Hit] Inflict 1 Burn\nIf this unit has Shield, inflict 1 additional Burn",
           "DamageType": "Slash",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 3,
           "CoinCount": 2,
           "Level": 0,
           "BasePowerModifier": 0,
@@ -2809,28 +2809,139 @@
         },
         "PassiveSkill": {
           "Name": "Inner Ardor",
-          "Description": "Turn End: Heal 1 ally with the least SP by (X + Highest Res) (Excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal additional SP\nAt X+ Wrath Res, heal more allies",
+          "Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Res) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP\nAt 4+ Wrath Res, heal 1 additional ally",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Heal SP"
           ]
         },
         "SupportSkill": {
           "Name": "Liu Defensive Square",
-          "Description": "For 2 allies with the least SP: If they lost SP this turn, heal SP at Turn End\nIf said allies have Base Attack Skills that inflict Burn or Burn Count, heal X~Y SP instead",
+          "Description": "For 2 allies with the least SP: If they lost SP this turn, heal 5 SP at Turn End\nIf said allies have Base Attack Skills that inflict Burn or Burn Count, heal 5~10 SP instead",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Heal SP"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Flame Hew",
+          "Description": "If target has 3+ Burn, Coin Power +1\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Frontal Assault",
+          "Description": "Coin Power +1 for every 6 Burn on target (Max 2)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>Deal +2.5% damage for very Burn on target (Max 30%)\n[On Hit] If target has 6+ Burn, inflict +2 Burn Count",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Flow of the Sword",
+          "Description": "If target has 6+ Burn, Coin Power +1\nDeal +10% damage for every 6 Burn on target (Max 30%)\n[After Attack] Heal 10 SP for 1 other ally with the least SP\nIf this attack killed the target, or if target had 10+ Burn, heal 1 more ally\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +2% damage for every Burn on target (Max 60%)\n[On Hit] Deal Wrath Damage equal to Burn on target (Max 30); reduce target's Burn Count by 2",
+          "DamageType": "Slash",
+          "SinType": "Envy",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 4,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend Enemy Burn Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Flame Counter",
+          "Description": "[Before Getting Hit] Gain Shield equal to Burn on target (Max 10; once per turn)\n<1>[Heads Hit] Inflict 1 Burn\nIf this unit has Shield, inflict 1 additional Burn\n<2>[Heads Hit] Inflict 1 Burn\nIf this unit has Shield, inflict 1 additional Burn",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Counter",
+            "Shield",
+            "Burn"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Inner Ardor",
+          "Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Res) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Heal SP"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Liu Defensive Square",
+          "Description": "For 2 allies with the least SP: If they lost SP this turn, heal 5 SP at Turn End",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Heal SP"
           ]
