@@ -1769,7 +1769,7 @@
     "Stops": [
       {
         "Id": 1,
-        "Name": "Section #1: Banquet/Well Basin/Twisted (1)",
+        "Name": "Section #1: Banquet",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -1825,7 +1825,7 @@
       },
       {
         "Id": 2,
-        "Name": "Section #1: Banquet/Well Basin/Twisted (2)",
+        "Name": "Section #1: Well Basin",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -1908,7 +1908,7 @@
       },
       {
         "Id": 3,
-        "Name": "Section #1: Banquet/Well Basin/Twisted (3)",
+        "Name": "Section #1: Twisted",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -1966,13 +1966,13 @@
       },
       {
         "Id": 5,
-        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (1)",
+        "Name": "Section #2: Chiseling",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae - The One Who Shall Grip Sinclair",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - The One Who Shall Grip Sinclair",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -1990,7 +1990,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae - The One Who Grips Faust",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - The One Who Grips Faust",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2008,7 +2008,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae - N Corp. Mittelhammer Rodion",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Rodion",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2026,7 +2026,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae - N Corp. Kleinhammer Heathcliff",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Kleinhammer Heathcliff",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2044,7 +2044,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae - N Corp. Mittelhammer Don Quixote",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Don Quixote",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2062,7 +2062,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae - N Corp. Großhammer Meursault",
+                "Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Großhammer Meursault",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2085,7 +2085,7 @@
       },
       {
         "Id": 6,
-        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (2)",
+        "Name": "Section #2: Cloudbrume",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -2132,13 +2132,13 @@
       },
       {
         "Id": 7,
-        "Name": "Section #2: Chiseling/Cloudbrume/Boneflesh (3)",
+        "Name": "Section #2: Boneflesh",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Mentor Meursault",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Mentor Meursault",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2156,7 +2156,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Yi Sang",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Yi Sang",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2174,7 +2174,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Faust",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Faust",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2192,7 +2192,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Don Quixote",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Don Quixote",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2210,7 +2210,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Outis",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Outis",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2228,7 +2228,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Blade Lineage Salsu Sinclair",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Sinclair",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2280,13 +2280,13 @@
       },
       {
         "Id": 9,
-        "Name": "Section #3: Forgery/Dreaming (1.1)",
+        "Name": "Section #3: Forgery (1/2)",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae? - W Corp. L3 Cleanup Agent Don Quixote",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Don Quixote",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2304,7 +2304,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - R Corp. 4th Pack Rabbit Heathcliff",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rabbit Heathcliff",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2322,7 +2322,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - W Corp. L3 Cleanup Agent Ryōshū",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Ryōshū",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2340,7 +2340,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Seven Association South Section 4 Faust",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Seven Association South Section 4 Faust",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2358,7 +2358,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - R Corp. 4th Pack Rhino Meursault",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2376,7 +2376,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - K Corp. Class 3 Excision Staff Hong Lu",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - K Corp. Class 3 Excision Staff Hong Lu",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2399,13 +2399,13 @@
       },
       {
         "Id": -1,
-        "Name": "Section #3: Forgery/Dreaming (1.2)",
+        "Name": "Section #3: Forgery (1.2)",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae? - Seven Association South Section 6 Director Outis",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Seven Association South Section 6 Director Outis",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2423,7 +2423,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Rodion",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2441,7 +2441,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - The Ring Pointilist Student Yi Sang ",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Ring Pointilist Student Yi Sang ",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2459,7 +2459,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - The Pequod Captain Ishmael",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - The Pequod Captain Ishmael",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2477,7 +2477,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Zwei Association South Section 4 Gregor",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Zwei Association South Section 4 Gregor",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2495,7 +2495,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 4 Director Sinclair",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2518,7 +2518,7 @@
       },
       {
         "Id": 10,
-        "Name": "Section #3: Forgery/Dreaming (2)",
+        "Name": "Section #3: Dreaming",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -2603,13 +2603,13 @@
       },
       {
         "Id": 12,
-        "Name": "Section #4: Adamantine Wall/Feast (1.1)",
+        "Name": "Section #4: Adamantine Wall (1/2)",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae? - Lobotomy E.G.O::Sunshower Heathcliff",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Sunshower Heathcliff",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2627,7 +2627,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Chief Butler Ryōshū",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Chief Butler Ryōshū",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2645,7 +2645,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Heir Gregor",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Heir Gregor",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2663,7 +2663,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Wuthering Heights Chief Butler Outis",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Wuthering Heights Chief Butler Outis",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2681,7 +2681,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Wuthering Heights Butler Faust",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Wuthering Heights Butler Faust",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2699,7 +2699,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Edgar Family Butler Ishmael",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Butler Ishmael",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2722,13 +2722,13 @@
       },
       {
         "Id": -1,
-        "Name": "Section #4: Adamantine Wall/Feast (1.2)",
+        "Name": "Section #4: Adamantine Wall (2/2)",
         "Waves": [
           {
             "WaveNumber": 1,
             "Enemies": [
               {
-                "Name": "Refracted Peccatulum Invidiae? - Dead Rabbits Boss Meursault",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dead Rabbits Boss Meursault",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2746,7 +2746,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Hong Lu",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Hong Lu",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 0.5,
@@ -2764,7 +2764,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Rodion",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2782,7 +2782,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Dieci Association South Section 4 Yi Sang",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Yi Sang",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 1,
@@ -2800,7 +2800,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 5 Director Don Quixote",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 5 Director Don Quixote",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2818,7 +2818,7 @@
                 }
               },
               {
-                "Name": "Refracted Peccatulum Invidiae? - Cinq Association South Section 4 Director Sinclair",
+                "Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
                 "Count": 1,
                 "DamageResist": {
                   "Slash": 2,
@@ -2841,7 +2841,7 @@
       },
       {
         "Id": 13,
-        "Name": "Section #4: Adamantine Wall/Feast (2)",
+        "Name": "Terminus: Feast",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -3133,7 +3133,7 @@
       },
       {
         "Id": 5,
-        "Name": "Section #3: Ironstrike",
+        "Name": "Section #2: Ironstrike",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -3252,7 +3252,7 @@
       },
       {
         "Id": 6,
-        "Name": "Section #2: Rampage (2.1)",
+        "Name": "Section #2: Rampage (1/2)",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -3371,7 +3371,7 @@
       },
       {
         "Id": -1,
-        "Name": "Section #2: Rampage (2.2)",
+        "Name": "Section #2: Rampage (2/2)",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -3831,7 +3831,7 @@
       },
       {
         "Id": 11,
-        "Name": "Section #3: Yearning",
+        "Name": "Terminus: Yearning",
         "Waves": [
           {
             "WaveNumber": 1,
