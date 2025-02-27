@@ -876,7 +876,7 @@
     "Cost": 406,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn End: All allies gain 3 Charge Barrier next turn.\nTurn Start: All allies gain ((Charge Count + Unique Charge / 5) + 1) Damage Up (Max 5, rounded up)\nEvery time an Identity consumes 20 Charge Count, it gains 1 Charge. (2 times per Encounter per Identity, does not count Unique Charge)",
+        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn End: All allies gain 3 Charge Barrier next turn.\nTurn Start: All allies gain ((Charge Count + Unique Charge / 5) + 1) Damage Up (Max 5, rounded up)\nEvery time an Identity consumes 20 Charge Count, it gains 1 Charge. (2 times per Encounter per Identity, does not count Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense level Up at Turn Start. (Maxes at 40 consumed Charge Count)",
         "Rank": 1,
         "MiscTags": [
           "Charge Barrier",
@@ -1148,7 +1148,7 @@
     "Cost": 212,
     "Upgrades": [
       {
-        "Description": "First Turn Start of a Wave: Select 1 enemy with the slowest Speed (or a random Abnormality part) and inflict 5 Bind for 5 turns starting next turn.\nClash Win: If this unit's Speed is faster than the target's, heal SP equal to the Speed difference, and gain Offense level equal to half of that Speed diffference. (Only applies to the Skill used to win the Skill. Max Offense Level gain: 3)",
+        "Description": "First Turn Start of a Wave: Select 1 enemy with the slowest Speed (or a random Abnormality part) and inflict 5 Bind for 5 turns starting next turn.\nClash Win: If this unit's Speed is faster than the target's, heal SP equal to the Speed difference, and gain Offense level equal to half of that Speed diffference. (Only applies to the Skill used to win the Clash. Max Offense Level gain: 3)",
         "Rank": 1,
         "MiscTags": [
           "Bind",

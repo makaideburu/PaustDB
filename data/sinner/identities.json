@@ -9078,7 +9078,7 @@
         },
         "PassiveSkill": {
           "Name": "Flame Spread",
-          "Description": "When this unit defeats an enemy with Burn, apply 4 Burn to 2 random enemies/parts with no/the least Burn (Once per turn)",
+          "Description": "When this unit defeats an enemy with Burn, apply 4 Burn to 2 random enemies/parts with no/the least Burn (2 times per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Wrath",

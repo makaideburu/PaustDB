@@ -1873,7 +1873,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Everlasting",
-          "Description": "If the target's Speed is slower than this unit's, deal +(3.5 x (Speed difference))% damage (Max 50%)\n[Before Attack] At 3+ Highest Res, inflict Tremor by (2 x (Highest Res)) (Max 10)\nIf the Highest Res was a Sloth A-Res, inflict Tremor Count by Tremor inflicted (Max 10)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 10 Tremor and +10 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Everlasting\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<4>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Reduce target's Max Speed by half next turn",
+          "Description": "If the target's Speed is slower than this unit's, deal +(5 x (Speed difference))% damage (Max 50%)\n[Before Attack] At 3+ Highest Res, inflict Tremor by (2 x (Highest Res)) (Max 10)\nIf the Highest Res was a Sloth A-Res, inflict Tremor Count by Tremor inflicted (Max 10)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 10 Tremor and +10 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Everlasting\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<4>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Reduce target's Max Speed by half next turn",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 4,
@@ -1899,7 +1899,7 @@
         },
         "Corrosion": {
           "Name": "Everlasting",
-          "Description": "[Indiscriminate] Targets randomly\nIf the main target's Speed is slower than this unit's, deal +(2.5 x (Speed difference))% damage (Max 20%)\n[Before Attack] At 3+ Highest Res, inflict Tremor by Highest Res (Max 4)\nIf the Highest Res was a Sloth A-Res, inflict Tremor Count by Tremor inflicted (Max 5)\n<1>[On Hit] Inflict 5 Tremor and +5 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Everlasting\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Reduce the target's Max Speed by half next turn",
+          "Description": "[Indiscriminate] Targets randomly\nIf the main target's Speed is slower than this unit's, deal +(2.5 x (Speed difference))% damage (Max 20%)\n[Before Attack] At 3+ Highest Res, inflict Tremor by Highest Res (Max 5)\nIf the Highest Res was a Sloth A-Res, inflict Tremor Count by Tremor inflicted (Max 5)\n<1>[On Hit] Inflict 5 Tremor and +5 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Everlasting\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n[On Hit] Reduce the target's Max Speed by half next turn",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 36,
