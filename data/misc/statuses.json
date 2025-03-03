@@ -1418,10 +1418,8 @@
     "Name": "Focused Attack",
     "Description": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on the target Slot's Focused Attack stack.\n1x Stack: Gain Clash Power\n2x Stack: Gain Base Power\n3x Stack: Gain Base Power and Coin Power\nExpires if, for a turn, the unit who inflicted it fails to hit the Slot inflicted with their Focused Attack\nExpires if the unit who inflicted Focused Attack inflicts it on a different Slot\nReplaced if a different unit inflicts Focused Attack on a Slot already inflicted with Focused Attack\nAt the start of the next turn, if a Slot inflicted with Focused Attack is no longer present, rearrange all Focused Attack inflicted against the Slots of that Part in Deployment Order",
     "Tags": [
-      "Defense Level Up",
-      "Aggro",
-      "Tremor Burst",
-      "Nullify Stagger"
+      "Clash Power Up",
+      "Base Power Up"
     ]
   },
   {
@@ -1880,5 +1878,20 @@
       "Party Poise",
       "Party Poise Count"
     ]
+  },
+  {
+    "Name": "District 12 Fuel",
+    "Description": "Max Stack: 100\nConsumed by certain Skills\nAt X- Stack, becomes Overheated Fuel",
+    "Tags":[]
+  },
+  {
+    "Name": "Overheated Fuel",
+    "Description": "Max Stack: 100\nConsuming District 12 Fuel in Overheated Fuel state consumes Overheated Fuel instead\nConsuming Overheated Fuel also counts as consuming District 12 Fuel\nAt X+ Stack, becomes District 12 Fuel",
+    "Tags":[]
+  },
+  {
+    "Name": "Nerve Strike",
+    "Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Gain Clash Power\n2x Stack: Gain Base Power\n3x Stack: Gain Clash Power and Base Power\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
+    "Tags":[]
   }
 ]

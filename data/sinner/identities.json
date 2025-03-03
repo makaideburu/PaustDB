@@ -2450,7 +2450,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Celebration for the Departed",
-          "Description": "At 10+ Living & Departed, Clash Power +1\nIf (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +2 Sinking Count\n<1>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent",
+          "Description": "At 10+ The Living & The Departed, Clash Power +1\nIf (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +2 Sinking Count\n<1>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -2471,7 +2471,7 @@
         },
         "SkillTwo": {
           "Name": "Solemn Lament for the Living",
-          "Description": "At 10+ Living & Departed, Clash Power +1\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) Living & Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) Living & Departed (Max 12)\nIf said Res was at 4+ A-Res, Reload instead\n<1>Spend 5 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 1 Living & Departed\nInflict Butterfly equal to Living & Departed spent",
+          "Description": "At 10+ The Living & The Departed, Clash Power +1\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) The Living & The Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) The Living & The Departed (Max 12)\nIf said Res was at 4+ A-Res, Reload instead\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -2493,7 +2493,7 @@
         },
         "SkillThree": {
           "Name": "Goodbye Now, A Sorrow In You",
-          "Description": "Base Power +1 for every 5 Living & Departed (Max 4)\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +3 Sinking Count\n[After Attack] Reload\n<1>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 6 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<3>Spend all Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n[On Hit] Deal +4% damage for every Living & Departed consumed by this Skill\n<4>[On Hit] Inflict Gloom Damage equal to All Butterfly on target",
+          "Description": "Base Power +1 for every 5 The Living & The Departed (Max 4)\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +3 Sinking Count\n[After Attack] Reload\n<1>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 6 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<3>Spend all The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n[On Hit] Deal +4% damage for every The Living & The Departed consumed by this Skill\n<4>[On Hit] Inflict Gloom Damage equal to All Butterfly on target",
           "DamageType": "Pierce",
           "SinType": "Sloth",
           "BasePower": 4,
@@ -2533,7 +2533,7 @@
         "InstallPassives": [
           {
             "Name": "ISeeTheDyingButterfly.",
-            "Description": "Begin encounters with 10 of each Living & Departed\nWhen consuming Living & Departed, select randomly between each for each value consumed\nWhen inflicting Butterfly, inflict Living and Departed equal to each value of Living and Departed consumed\nIf this unit runs out of Living & Departed midway through Skill use, cancel all subsequent Coins and Reload\nWhen Reloading, or when gaining Living & Departed, gain them based on this unit's SP\nAt 0+ SP, 70% to gain Departed over Living\nAt less than 0 SP, 70% to gain Living over Departed\nEach Ammo gained calculates separately",
+            "Description": "Begin encounters with 10 of each The Living & The Departed\nWhen consuming The Living & The Departed, select randomly between each for each value consumed\nWhen inflicting Butterfly, inflict Living and Departed equal to each value of Living and Departed consumed\nIf this unit runs out of The Living & The Departed midway through Skill use, cancel all subsequent Coins and Reload\nWhen Reloading, or when gaining The Living & The Departed, gain them based on this unit's SP\nAt 0+ SP, 70% to gain Departed over Living\nAt less than 0 SP, 70% to gain Living over Departed\nEach Ammo gained calculates separately",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -2549,7 +2549,7 @@
         ],
         "PassiveSkill": {
           "Name": "Fire.IShallFire.",
-          "Description": "After Attack: If this unit killed the target with its Skill, Reload\nWhen this unit gains Living & Departed, gain 2 Haste next turn (Once per turn)",
+          "Description": "After Attack: If this unit killed the target with its Skill, Reload\nWhen this unit gains The Living & The Departed, gain 2 Haste next turn (Once per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Gloom",
@@ -2582,7 +2582,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Celebration for the Departed",
-          "Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +2 Sinking Count\n<1>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent",
+          "Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +2 Sinking Count\n<1>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -2603,7 +2603,7 @@
         },
         "SkillTwo": {
           "Name": "Solemn Lament for the Living",
-          "Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) Living & Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) Living & Departed (Max 12)\n<1>Spend 5 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 1 Living & Departed\nInflict Butterfly equal to Living & Departed spent",
+          "Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) The Living & The Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) The Living & The Departed (Max 12)\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -2625,7 +2625,7 @@
         },
         "SkillThree": {
           "Name": "Goodbye Now, A Sorrow In You",
-          "Description": "Base Power +1 for every 10 Living & Departed (Max 2)\n[Clash Win] Inflict +3 Sinking Count\n[After Attack] Reload\n<1>Spend 1 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<2>Spend 6 Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n<3>Spend all Living & Departed\n[On Hit] Inflict Butterfly equal to Living & Departed spent\n[On Hit] Deal +2% damage for every Living & Departed consumed by this Skill\n<4>[On Hit] Inflict Gloom Damage equal to All Butterfly on target",
+          "Description": "Base Power +1 for every 10 The Living & The Departed (Max 2)\n[Clash Win] Inflict +3 Sinking Count\n[After Attack] Reload\n<1>Spend 1 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 6 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<3>Spend all The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n[On Hit] Deal +2% damage for every The Living & The Departed consumed by this Skill\n<4>[On Hit] Inflict Gloom Damage equal to All Butterfly on target",
           "DamageType": "Pierce",
           "SinType": "Sloth",
           "BasePower": 4,
@@ -2665,7 +2665,7 @@
         "InstallPassives": [
           {
             "Name": "ISeeTheDyingButterfly.",
-            "Description": "Begin encounters with 10 of each Living & Departed\nWhen consuming Living & Departed, select randomly between each for each value consumed\nWhen inflicting Butterfly, inflict Living and Departed equal to each value of Living and Departed consumed\nIf this unit runs out of Living & Departed midway through Skill use, cancel all subsequent Coins and Reload\nWhen Reloading, or when gaining Living & Departed, gain them based on this unit's SP\nAt 0+ SP, 70% to gain The Departed over the Living\nAt less than 0 SP, 70% to gain The Living over The Departed\nEach Ammo gained calculates separately",
+            "Description": "Begin encounters with 10 of each The Living & The Departed\nWhen consuming The Living & The Departed, select randomly between each for each value consumed\nWhen inflicting Butterfly, inflict Living and Departed equal to each value of Living and Departed consumed\nIf this unit runs out of The Living & The Departed midway through Skill use, cancel all subsequent Coins and Reload\nWhen Reloading, or when gaining The Living & The Departed, gain them based on this unit's SP\nAt 0+ SP, 70% to gain The Departed over the Living\nAt less than 0 SP, 70% to gain The Living over The Departed\nEach Ammo gained calculates separately",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -2681,7 +2681,7 @@
         ],
         "PassiveSkill": {
           "Name": "Fire.IShallFire.",
-          "Description": "After Attack: If this unit killed the target with its Skill, Reload\nWhen this unit gains Living & Departed, gain 2 Haste next turn (Once per turn)",
+          "Description": "After Attack: If this unit killed the target with its Skill, Reload\nWhen this unit gains The Living & The Departed, gain 2 Haste next turn (Once per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Gloom",
@@ -8297,6 +8297,134 @@
     ]
   },
   {
+    "Id": 3000,
+    "Sinner": "Don Quixote",
+    "Identity": "Cinq Association East Section 3",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Fa Jin",
+          "Description": "If this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n[On Crit] Inflict Burn Count",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Virescent Flame Palm",
+          "Description": "If this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Clash Win] Gain Poise\nGain Poise Count equal to Nerve Strike - Don Quixote on target\n<1>[On Hit] Gain Poise Count\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n[On Hit] Inflict Defense Level Down for every X Burn on target\nInflict additional Defense Level Down equal to Nerve Strike - Don Quixote on target",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Poise Count",
+            "Burn",
+            "Defense Level Down"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Prithee, let this be an enlightening bout",
+          "Description": "Deal more damage for every Nerve Strike - Don Quixote on target\nIf this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Clash Win] Gain Poise\nGain additional Poise if target has Nerve Strike - Don Quixote\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit\n[On Hit] If target has Nerve Strike - Don Quixote, inflict Defense Level Down",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 4,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Burn",
+            "Defense Level Down"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Thou'rt in dire need of a lesson in table manners!",
+          "Description": "If this unit's Speed is faser than target's, Coin Power +X for every Y Speed difference",
+          "DamageType": "Evade",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": []
+        },
+        "PassiveSkill": {
+          "Name": "Virescent Pyrojade",
+          "Description": "Turn End: Gain Haste next turn for every X Poise on self\nAgainst the target/Part a Base Attack Skill hit last, inflict Nerve Strike - Don Quixote next turn\nDeal +(Burn on target)% damage on Critical Hit\nRaise the cap for this effect based on Nerve Strike - Don Quixote on target",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Haste",
+            "Nerve Strike"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Featherstride Technique",
+          "Description": "1 ally with the fastest Speed: On Clash Win against enemies with Burn or Unique Burn, gain Haste next turn\nIf target has X+ Burn, gain additional Haste",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Haste"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 4101,
     "Sinner": "Ryōshū",
     "Identity": "LCB Sinner",
@@ -13286,7 +13414,7 @@
         },
         "SkillThree": {
           "Name": "Salut",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +20% damage for every Focused Assault - Meursault on the Skill Slot\n+30% damage on Critical Hit\nDeal +2% damage on Critical Hit for every Rupture on target (Max 30%)\n[After Attack] If this Coin defeated the target or destroyed a Part, Reuse this Skill once against a random target",
+          "Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +20% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit\nDeal +2% damage on Critical Hit for every Rupture on target (Max 30%)\n[After Attack] If this Coin defeated the target or destroyed a Part, Reuse this Skill once against a random target",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 5,
@@ -13405,7 +13533,7 @@
         },
         "SkillThree": {
           "Name": "Salut",
-          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +10% damage for every Focused Assault - Meursault on the Skill Slot\n+30% damage on Critical Hit",
+          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +10% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 5,
@@ -32969,6 +33097,154 @@
           "ResourceType": "Res",
           "MiscTags": [
             "Ally Heal HP"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 13000,
+    "Sinner": "Gregor",
+    "Identity": "Firefist Office Survivor",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Flamethrow",
+          "Description": "Coin Power +X for every Y Burn on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Consume X District 12 Fuel to inflict +Y Burn Count",
+          "DamageType": "Blunt",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend District 12 Fuel",
+            "Burn Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "I'll burn away every last drop of your filthy blood",
+          "Description": "Coin Power +X for every Y Burn on target\nCoins that consumed District 12 Fuel deal more damage\nWhen in Overheated Fuel state, deal even more damage\n<1>[On Hit] Inflict Burn\n[On Hit] Consume X District 12 Fuel to inflict Burn against 2 targets with the least Burn\n<2>[On Hit] Inflict Burn Count\n[On Hit] Consume X District 12 Fuel to inflict Burn Count against 2 targets with the least Burn Count",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend District 12 Fuel",
+            "Burn Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Firefist",
+          "Description": "Coin Power +X for every Y Burn on target\n[On Use] Base Power +X for every Y Burn on target\n[On Use] Consume up to X District 12 Fuel and deal more damage for every District 12 Fuel consumed\nWhen in Overheated Fuel state, deal even more damage\n[After Attack] If target is killed, or if this Skill consumed District 12 Fuel, gain Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict Burn and Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict Burn and Burn Count\n<3>[On Hit] Deal more damage for every District 12 Fuel consumed by this Skill\nWhen in Overheated Fuel state, deal even more damage",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Spend District 12 Fuel",
+            "Blunt DMG Up",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "I have to keep going for big sis",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain District 12 Fuel\n<1>[On Hit] Inflict Burn",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "District 12 Fuel",
+            "Burn"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "District 12 Special Workshop Fuel",
+            "Description": "Begin Encounters with X District 12 Fuel\nAt X- Stack, District 12 Fuel becomes Overheated Fuel\nAt X+ Stack, Overheated Fuel becomes District 12 Fuel",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "District 12 Fuel",
+              "Overheated Fuel"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "I'm the only survivor...",
+          "Description": "Deal more damage for every District 12 Fuel or Overheated Fuel consumed in this Encounter\nIf the main target is a <Bloodfiend>, <Bloodbag>, or if the sum of Burn and Burn Count is X+, deal even more damage\nAt X+ District 12 Fuel or Overheated Fuel, if this unit Staggers or defeats enemies with Burn, inflict +X Burn Count against 2 random enemies without Burn or with the least Burn Count\nFocused Encounters, on Parts",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Burn Count"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "I hope they're from our Office...",
+          "Description": "1 ally with the fastest Speed: On Hit, deal more Wrath Damage for every X Burn on target",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Wrath Damage Amp"
           ]
         }
       }
