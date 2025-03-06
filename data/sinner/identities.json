@@ -8297,32 +8297,32 @@
     ]
   },
   {
-    "Id": 3000,
+    "Id": 3306,
     "Sinner": "Don Quixote",
     "Identity": "Cinq Association East Section 3",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 2,
+      "Pierce": 0.5,
+      "Blunt": 1
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Fa Jin",
-          "Description": "If this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n[On Crit] Inflict Burn Count",
+          "Description": "If this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n[On Crit] Inflict +1 Burn Count",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -8334,16 +8334,16 @@
         },
         "SkillTwo": {
           "Name": "Virescent Flame Palm",
-          "Description": "If this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Clash Win] Gain Poise\nGain Poise Count equal to Nerve Strike - Don Quixote on target\n<1>[On Hit] Gain Poise Count\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n[On Hit] Inflict Defense Level Down for every X Burn on target\nInflict additional Defense Level Down equal to Nerve Strike - Don Quixote on target",
+          "Description": "If this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 3 Poise\nGain additional Poise Count equal to Nerve Strike - Don Quixote on target\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 5; once per turn)\nInflict additional Defense Level Down equal to Nerve Strike - Don Quixote on target",
           "DamageType": "Pierce",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -8356,16 +8356,16 @@
         },
         "SkillThree": {
           "Name": "Prithee, let this be an enlightening bout",
-          "Description": "Deal more damage for every Nerve Strike - Don Quixote on target\nIf this unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Clash Win] Gain Poise\nGain additional Poise if target has Nerve Strike - Don Quixote\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n<3>[On Hit] Inflict Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit\n[On Hit] If target has Nerve Strike - Don Quixote, inflict Defense Level Down",
+          "Description": "Deal +15% damage for every Nerve Strike - Don Quixote on target (Max 45%)\nIf this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 50%)\n[On Hit] If target has Nerve Strike - Don Quixote, inflict 3 Defense Level Down",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 3,
           "CoinCount": 4,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -8377,16 +8377,16 @@
         },
         "SkillDefense": {
           "Name": "Thou'rt in dire need of a lesson in table manners!",
-          "Description": "If this unit's Speed is faser than target's, Coin Power +X for every Y Speed difference",
+          "Description": "If this unit's Speed is faser than target's, Coin Power +1 for every 2 Speed difference (Max 2)",
           "DamageType": "Evade",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 10,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -8394,14 +8394,18 @@
         },
         "PassiveSkill": {
           "Name": "Virescent Pyrojade",
-          "Description": "Turn End: Gain Haste next turn for every X Poise on self\nAgainst the target/Part a Base Attack Skill hit last, inflict Nerve Strike - Don Quixote next turn\nDeal +(Burn on target)% damage on Critical Hit\nRaise the cap for this effect based on Nerve Strike - Don Quixote on target",
+          "Description": "Turn End: Gain 1 Haste next turn for every 3 Poise on self (Max 2)\nAgainst the target/Part a Base Attack Skill hit last, inflict Nerve Strike - Don Quixote next turn (Once per turn)\nDeal +(Burn on target)% damage on Critical Hit (Max 15%)\nRaise the cap for this effect by 5% for every Nerve Strike - Don Quixote on target",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 2
+            },
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 2
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Haste",
             "Nerve Strike"
@@ -8409,14 +8413,129 @@
         },
         "SupportSkill": {
           "Name": "Featherstride Technique",
-          "Description": "1 ally with the fastest Speed: On Clash Win against enemies with Burn or Unique Burn, gain Haste next turn\nIf target has X+ Burn, gain additional Haste",
+          "Description": "1 ally with the fastest Speed: On Clash Win against enemies with Burn or Unique Burn, gain 1 Haste next turn (Once per turn)\nIf target has 20+ Burn, gain 1 additional Haste",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Haste"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Fa Jin",
+          "Description": "If this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Burn"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Virescent Flame Palm",
+          "Description": "If this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 3 Poise\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 3; once per turn)",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Poise Count",
+            "Burn",
+            "Defense Level Down"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Prithee, let this be an enlightening bout",
+          "Description": "Deal +10% damage for every Nerve Strike - Don Quixote on target (Max 30%)\nIf this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 30%)",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 3,
+          "CoinPower": 3,
+          "CoinCount": 4,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Burn"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Thou'rt in dire need of a lesson in table manners!",
+          "Description": "\u200B",
+          "DamageType": "Evade",
+          "SinType": "None",
+          "BasePower": 4,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": []
+        },
+        "PassiveSkill": {
+          "Name": "Virescent Pyrojade",
+          "Description": "Turn End: Gain 1 Haste next turn for every 3 Poise on self (Max 2)\nAgainst the target/Part a Base Attack Skill hit last, inflict Nerve Strike - Don Quixote next turn (Once per turn)\nDeal +(Burn on target)% damage on Critical Hit (Max 15%)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 2
+            },
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 2
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Haste",
+            "Nerve Strike"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Featherstride Technique",
+          "Description": "1 ally with the fastest Speed: On Clash Win against enemies with Burn or Unique Burn, gain 1 Haste next turn (Once per turn)\nIf target has 20+ Burn, gain 1 additional Haste",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Haste"
           ]
@@ -33103,32 +33222,32 @@
     ]
   },
   {
-    "Id": 13000,
+    "Id": 13306,
     "Sinner": "Gregor",
     "Identity": "Firefist Office Survivor",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-6",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 2,
+      "Blunt": 1
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Flamethrow",
-          "Description": "Coin Power +X for every Y Burn on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Consume X District 12 Fuel to inflict +Y Burn Count",
+          "Description": "Coin Power +1 for every 3 Burn on target (Max 2)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Consume 15 District 12 Fuel to inflict +2 Burn Count",
           "DamageType": "Blunt",
           "SinType": "Lust",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -33140,13 +33259,13 @@
         },
         "SkillTwo": {
           "Name": "I'll burn away every last drop of your filthy blood",
-          "Description": "Coin Power +X for every Y Burn on target\nCoins that consumed District 12 Fuel deal more damage\nWhen in Overheated Fuel state, deal even more damage\n<1>[On Hit] Inflict Burn\n[On Hit] Consume X District 12 Fuel to inflict Burn against 2 targets with the least Burn\n<2>[On Hit] Inflict Burn Count\n[On Hit] Consume X District 12 Fuel to inflict Burn Count against 2 targets with the least Burn Count",
+          "Description": "Coin Power +1 for every 6 Burn on target (Max 2)\nCoins that consumed District 12 Fuel deal +15% damage\nWhen in Overheated Fuel state, deal +30% damage instead\n<1>[On Hit] Inflict 2 Burn\n[On Hit] Consume 10 District 12 Fuel to inflict 2 Burn against 2 enemies with the least Burn\n<2>[On Hit] Inflict +2 Burn Count\n[On Hit] Consume 10 District 12 Fuel to inflict +1 Burn Count against 2 enemies with the least Burn Count",
           "DamageType": "Blunt",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -33161,16 +33280,16 @@
         },
         "SkillThree": {
           "Name": "Firefist",
-          "Description": "Coin Power +X for every Y Burn on target\n[On Use] Base Power +X for every Y Burn on target\n[On Use] Consume up to X District 12 Fuel and deal more damage for every District 12 Fuel consumed\nWhen in Overheated Fuel state, deal even more damage\n[After Attack] If target is killed, or if this Skill consumed District 12 Fuel, gain Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict Burn and Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict Burn and Burn Count\n<3>[On Hit] Deal more damage for every District 12 Fuel consumed by this Skill\nWhen in Overheated Fuel state, deal even more damage",
+          "Description": "Coin Power +1 for every 3 Burn on target (Max 2)\n[On Use] Base Power +1 for every 6 Burn on target (Max 3)\n[On Use] Consume up to 25 District 12 Fuel and deal +2% damage for every District 12 Fuel consumed (Max 50%)\nWhen in Overheated Fuel state, deal +4% damage instead (Max 100%)\n[After Attack] If target is defeated, or if this Skill consumed District 12 Fuel, gain 2 Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<3>[On Hit] Deal +2% damage for every District 12 Fuel consumed by this Skill (Max 50%)\nWhen in Overheated Fuel state, deal +4% more damage instead (Max 100%)",
           "DamageType": "Blunt",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 5,
+          "BasePowerModifier": 3,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -33183,13 +33302,13 @@
         },
         "SkillDefense": {
           "Name": "I have to keep going for big sis",
-          "Description": "[Clashable Counter]\n[Combat Start] Gain District 12 Fuel\n<1>[On Hit] Inflict Burn",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain 100 District 12 Fuel\n<1>[On Hit] Inflict 1 Burn",
           "DamageType": "Blunt",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 9,
+          "CoinPower": 7,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -33205,7 +33324,7 @@
         "InstallPassives": [
           {
             "Name": "District 12 Special Workshop Fuel",
-            "Description": "Begin Encounters with X District 12 Fuel\nAt X- Stack, District 12 Fuel becomes Overheated Fuel\nAt X+ Stack, Overheated Fuel becomes District 12 Fuel",
+            "Description": "Begin Encounters with 100 District 12 Fuel\nAt 50- Stack, District 12 Fuel becomes Overheated Fuel\nAt 51+ Stack, Overheated Fuel becomes District 12 Fuel",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -33221,28 +33340,28 @@
         ],
         "PassiveSkill": {
           "Name": "I'm the only survivor...",
-          "Description": "Deal more damage for every District 12 Fuel or Overheated Fuel consumed in this Encounter\nIf the main target is a <Bloodfiend>, <Bloodbag>, or if the sum of Burn and Burn Count is X+, deal even more damage\nAt X+ District 12 Fuel or Overheated Fuel, if this unit Staggers or defeats enemies with Burn, inflict +X Burn Count against 2 random enemies without Burn or with the least Burn Count\nFocused Encounters, on Parts",
+          "Description": "Deal +0.2% damage for every District 12 Fuel or Overheated Fuel consumed in this Encounter (Max 40%)\nIf the main target is a <Bloodfiend>, <Bloodbag>, or if the sum of Burn and Burn Count is 30+, deal +0.3% damage instead (Max 60%)\nAt 1+ District 12 Fuel or Overheated Fuel, if this unit Staggers or defeats enemies with Burn, inflict +2 Burn Count against 2 random enemies without Burn or with the least Burn Count (Once per turn)\nFocused Encounters, on Parts",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
           "MiscTags": [
             "Burn Count"
           ]
         },
         "SupportSkill": {
           "Name": "I hope they're from our Office...",
-          "Description": "1 ally with the fastest Speed: On Hit, deal more Wrath Damage for every X Burn on target",
+          "Description": "1 ally with the fastest Speed: On Hit, deal +5% Wrath Damage for every 6 Burn on target (Max 20%)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Wrath Damage Amp"
           ]

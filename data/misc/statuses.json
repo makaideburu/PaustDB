@@ -1881,17 +1881,17 @@
   },
   {
     "Name": "District 12 Fuel",
-    "Description": "Max Stack: 100\nConsumed by certain Skills\nAt X- Stack, becomes Overheated Fuel",
+    "Description": "Max Stack: 100\nConsumed by certain Skills\nAt 50- Stack, becomes Overheated Fuel",
     "Tags":[]
   },
   {
     "Name": "Overheated Fuel",
-    "Description": "Max Stack: 100\nConsuming District 12 Fuel in Overheated Fuel state consumes Overheated Fuel instead\nConsuming Overheated Fuel also counts as consuming District 12 Fuel\nAt X+ Stack, becomes District 12 Fuel",
+    "Description": "Max Stack: 100\nConsuming District 12 Fuel in Overheated Fuel state consumes Overheated Fuel instead\nConsuming Overheated Fuel also counts as consuming District 12 Fuel\nAt 51+ Stack, becomes District 12 Fuel",
     "Tags":[]
   },
   {
     "Name": "Nerve Strike",
-    "Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Gain Clash Power\n2x Stack: Gain Base Power\n3x Stack: Gain Clash Power and Base Power\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
+    "Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Clash Power +1\n2x Stack: Base Power +1\n3x Stack: Clash Power +1 and Base Power +1\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
     "Tags":[]
   }
 ]
