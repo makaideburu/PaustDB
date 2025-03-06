@@ -33268,7 +33268,7 @@
           "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -33280,7 +33280,7 @@
         },
         "SkillThree": {
           "Name": "Firefist",
-          "Description": "Coin Power +1 for every 3 Burn on target (Max 2)\n[On Use] Base Power +1 for every 6 Burn on target (Max 3)\n[On Use] Consume up to 25 District 12 Fuel and deal +2% damage for every District 12 Fuel consumed (Max 50%)\nWhen in Overheated Fuel state, deal +4% damage instead (Max 100%)\n[After Attack] If target is defeated, or if this Skill consumed District 12 Fuel, gain 2 Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<3>[On Hit] Deal +2% damage for every District 12 Fuel consumed by this Skill (Max 50%)\nWhen in Overheated Fuel state, deal +4% more damage instead (Max 100%)",
+          "Description": "Coin Power +1 for every 3 Burn Count on target (Max 2)\n[On Use] Base Power +1 for every 6 Burn on target (Max 3)\n[On Use] Consume up to 25 District 12 Fuel and deal +2% damage for every District 12 Fuel consumed (Max 50%)\nWhen in Overheated Fuel state, deal +4% damage instead (Max 100%)\n[After Attack] If target is defeated, or if this Skill consumed District 12 Fuel, gain 2 Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count\n<3>[On Hit] Deal +2% damage for every District 12 Fuel consumed by this Skill (Max 50%)\nWhen in Overheated Fuel state, deal +4% more damage instead (Max 100%)",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 5,
@@ -33290,6 +33290,139 @@
           "BasePowerModifier": 3,
           "FinalPowerModifier": 0,
           "CoinModifier": 2,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Spend District 12 Fuel",
+            "Blunt DMG Up",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "I have to keep going for big sis",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain 100 District 12 Fuel\n<1>[On Hit] Inflict 1 Burn",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 9,
+          "CoinPower": 7,
+          "CoinCount": 1,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "District 12 Fuel",
+            "Burn"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "District 12 Special Workshop Fuel",
+            "Description": "Begin Encounters with 100 District 12 Fuel\nAt 50- Stack, District 12 Fuel becomes Overheated Fuel\nAt 51+ Stack, Overheated Fuel becomes District 12 Fuel",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "District 12 Fuel",
+              "Overheated Fuel"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "I'm the only survivor...",
+          "Description": "Deal +0.2% damage for every District 12 Fuel or Overheated Fuel consumed in this Encounter (Max 40%)\nIf the main target is a <Bloodfiend>, <Bloodbag>, or if the sum of Burn and Burn Count is 30+, deal +0.3% damage instead (Max 60%)\nAt 1+ District 12 Fuel or Overheated Fuel, if this unit Staggers or defeats enemies with Burn, inflict +2 Burn Count against 2 random enemies without Burn or with the least Burn Count (Once per turn)\nFocused Encounters, on Parts",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Burn Count"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "I hope they're from our Office...",
+          "Description": "1 ally with the fastest Speed: On Hit, deal +5% Wrath Damage for every 6 Burn on target (Max 20%)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Wrath",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Wrath Damage Amp"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Flamethrow",
+          "Description": "If target has 3+ Burn, Coin Power +1\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Consume 15 District 12 Fuel to inflict +1 Burn Count",
+          "DamageType": "Blunt",
+          "SinType": "Lust",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend District 12 Fuel",
+            "Burn Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "I'll burn away every last drop of your filthy blood",
+          "Description": "If target has 6+ Burn, Coin Power +1\nCoins that consumed District 12 Fuel deal +10% damage\nWhen in Overheated Fuel state, deal +20% damage instead\n<1>[On Hit] Inflict 2 Burn\n[On Hit] Consume 10 District 12 Fuel to inflict 1 Burn against 2 enemies with the least Burn\n<2>[On Hit] Inflict +1 Burn Count\n[On Hit] Consume 10 District 12 Fuel to inflict +1 Burn Count against 2 enemies with the least Burn Count",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Burn",
+            "Spend District 12 Fuel",
+            "Burn Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Firefist",
+          "Description": "If target has 3+ Burn Count, Coin Power +1\n[On Use] Base Power +1 for every 6 Burn on target (Max 2)\n[On Use] Consume up to 25 District 12 Fuel and deal +1% damage for every District 12 Fuel consumed (Max 25%)\nWhen in Overheated Fuel state, deal +3% damage instead (Max 75%)\n[After Attack] If target is defeated, or if this Skill consumed District 12 Fuel, gain 1 Blunt DMG Up next turn\n<1>[On Hit] If District 12 Fuel was consumed, inflict 1 Burn and +1 Burn Count\n<2>[On Hit] If District 12 Fuel was consumed, inflict 1 Burn and +1 Burn Count\n<3>[On Hit] Deal +1% damage for every District 12 Fuel consumed by this Skill (Max 25%)\nWhen in Overheated Fuel state, deal +3% more damage instead (Max 75%)",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 5,
+          "BasePowerModifier": 2,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
