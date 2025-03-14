@@ -12922,7 +12922,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Draw of the Sword",
-          "Description": "At 5+ Poise, Coin Power +1\n[Combat Start] Apply 1 Swordplay of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+          "Description": "At 5+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 3,
@@ -12936,14 +12936,14 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Swordplay of the Homeland - Rending",
+            "Sword of the Homeland - Rending",
             "Poise Count",
             "Poise"
           ]
         },
         "SkillTwo": {
           "Name": "Acupuncture",
-          "Description": "At 7+ Poise, Coin Power +1\n[Combat Start] Apply 1 Swordplay of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +3 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+60% damage on Critical Hit",
+          "Description": "At 7+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +3 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+60% damage on Critical Hit",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 3,
@@ -12957,7 +12957,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Swordplay of the Homeland - Penetrating",
+            "Sword of the Homeland - Penetrating",
             "Poise Count",
             "Poise",
             "Slash Power Up"
@@ -13073,7 +13073,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Draw of the Sword",
-          "Description": "[Combat Start] Apply 1 Swordplay of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+          "Description": "[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 3,
@@ -13087,14 +13087,14 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Swordplay of the Homeland - Rending",
+            "Sword of the Homeland - Rending",
             "Poise Count",
             "Poise"
           ]
         },
         "SkillTwo": {
           "Name": "Acupuncture",
-          "Description": "[Combat Start] Apply 1 Swordplay of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+40% damage on Critical Hit",
+          "Description": "[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+40% damage on Critical Hit",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 3,
@@ -13108,7 +13108,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Swordplay of the Homeland - Penetrating",
+            "Sword of the Homeland - Penetrating",
             "Poise Count",
             "Poise",
             "Slash Power Up"
