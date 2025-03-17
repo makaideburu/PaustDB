@@ -7998,7 +7998,7 @@
           }
         ],
         "PassiveSkill": {
-          "Name": "Armadura De Sangre",
+          "Name": "Armadura de Sangre",
           "Description": "After Attack: If the enemy is defeated, increase Bloodfeast by 10% of target's Max HP (100 per turn; also on Part break)\nGain 1 Damage Up next turn for every 15% missing HP at Turn End (Max 3)\nIf an ally is about to be defeated from Bleed damage, prevent them from being defeated from Bleed damage for the turn (Once per Encounter per ally)",
           "PassiveResources": [
             {
@@ -8265,7 +8265,7 @@
           }
         ],
         "PassiveSkill": {
-          "Name": "Armadura De Sangre",
+          "Name": "Armadura de Sangre",
           "Description": "After Attack: If the enemy is defeated, increase Bloodfeast by 10% of target's Max HP (100 per turn; also on Part break)\nGain 1 Damage Up next turn for every 15% missing HP at Turn End (Max 3)\nIf an ally is about to be defeated from Bleed damage, prevent them from being defeated from Bleed damage for the turn (Once per Encounter per ally)",
           "PassiveResources": [
             {
@@ -8313,7 +8313,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Fa Jin",
-          "Description": "If this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n[On Crit] Inflict +1 Burn Count",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n[On Crit] Inflict +1 Burn Count",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -8334,7 +8334,7 @@
         },
         "SkillTwo": {
           "Name": "Virescent Flame Palm",
-          "Description": "If this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 3 Poise\nGain additional Poise Count equal to Nerve Strike - Don Quixote on target\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 5; once per turn)\nInflict additional Defense Level Down equal to Nerve Strike - Don Quixote on target",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 3 Poise\nGain additional Poise Count equal to Nerve Strike - Don Quixote on target\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 5; once per turn)\nInflict additional Defense Level Down equal to Nerve Strike - Don Quixote on target",
           "DamageType": "Pierce",
           "SinType": "Wrath",
           "BasePower": 4,
@@ -8356,7 +8356,7 @@
         },
         "SkillThree": {
           "Name": "Prithee, let this be an enlightening bout",
-          "Description": "Deal +15% damage for every Nerve Strike - Don Quixote on target (Max 45%)\nIf this unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 50%)\n[On Hit] If target has Nerve Strike - Don Quixote, inflict 3 Defense Level Down",
+          "Description": "Deal +15% damage for every Nerve Strike - Don Quixote on target (Max 45%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 50%)\n[On Hit] If target has Nerve Strike - Don Quixote, inflict 3 Defense Level Down",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -8377,7 +8377,7 @@
         },
         "SkillDefense": {
           "Name": "Thou'rt in dire need of a lesson in table manners!",
-          "Description": "If this unit's Speed is faser than target's, Coin Power +1 for every 2 Speed difference (Max 2)",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)",
           "DamageType": "Evade",
           "SinType": "Wrath",
           "BasePower": 4,
@@ -8430,7 +8430,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Fa Jin",
-          "Description": "If this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -8450,7 +8450,7 @@
         },
         "SkillTwo": {
           "Name": "Virescent Flame Palm",
-          "Description": "If this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 3 Poise\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 3; once per turn)",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 3 Poise\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Defense Level Down for every 6 Burn on target (Max 3; once per turn)",
           "DamageType": "Pierce",
           "SinType": "Wrath",
           "BasePower": 4,
@@ -8472,7 +8472,7 @@
         },
         "SkillThree": {
           "Name": "Prithee, let this be an enlightening bout",
-          "Description": "Deal +10% damage for every Nerve Strike - Don Quixote on target (Max 30%)\nIf this unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 30%)",
+          "Description": "Deal +10% damage for every Nerve Strike - Don Quixote on target (Max 30%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain 5 Poise\nIf target has Nerve Strike - Don Quixote, gain 3 additional Poise\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Burn\n<4>Deal +(Poise on self + Burn on target)% damage on Critical Hit (Max 30%)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 3,
@@ -10423,7 +10423,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Receiving Arts 1: The Hunt",
-          "Description": "If this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (Max 3)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 B.M.",
+          "Description": "If unit's Speed is faster than target's, gain Clash Power +1 for every 2 Speed difference (Max 3)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 B.M.",
           "DamageType": "Slash",
           "SinType": "Lust",
           "BasePower": 3,
@@ -10443,7 +10443,7 @@
         },
         "SkillTwo": {
           "Name": "Receiving Arts 7: Capture",
-          "Description": "If this unit's Speed is faster than the main target's, gain Clash Power +1 for every 2 Speed difference (Max 3)\n[Combat Start] Consume 6 Poise Count on self to gain +2 Atk Weight for this Skill\n<1>[On Hit] Gain 3 Poise\n[On Crit] Inflict 1 B.M.\n<2>[On Hit] Inflict 2 B.M.",
+          "Description": "If unit's Speed is faster than the main target's, gain Clash Power +1 for every 2 Speed difference (Max 3)\n[Combat Start] Consume 6 Poise Count on self to gain +2 Atk Weight for this Skill\n<1>[On Hit] Gain 3 Poise\n[On Crit] Inflict 1 B.M.\n<2>[On Hit] Inflict 2 B.M.",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 4,
@@ -10465,7 +10465,7 @@
         },
         "SkillThree": {
           "Name": "Receiving Arts 2: S.Y.N.C.",
-          "Description": "If target has B.M., Clash Power +1\nIf this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Gain +7 Poise Count\n<1>[On Hit] Gain 5 Poise\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Raise Stagger Threshold by 30% of damage dealt\n[On Crit] Inflict 1 B.M.\n<2>[On Hit] If target is Staggered, deal +40% damage on Critical Hit\n[On Hit] Inflict 2 B.M.\n[On Kill] Reuse Skill once on a random target with B.M.\n(Does not activate on Reuse. Does not activate when there are no remaining targets with B.M.)",
+          "Description": "If target has B.M., Clash Power +1\nIf unit's Speed is faster than target's, gain Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Gain +7 Poise Count\n<1>[On Hit] Gain 5 Poise\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Raise Stagger Threshold by 30% of damage dealt\n[On Crit] Inflict 1 B.M.\n<2>[On Hit] If target is Staggered, deal +40% damage on Critical Hit\n[On Hit] Inflict 2 B.M.\n[On Kill] Reuse Skill once on a random target with B.M.\n(Does not activate on Reuse. Does not activate when there are no remaining targets with B.M.)",
           "DamageType": "Slash",
           "SinType": "Wrath",
           "BasePower": 4,
@@ -10506,7 +10506,7 @@
         },
         "PassiveSkill": {
           "Name": "Clearing Household Chores",
-          "Description": "On Hit against targets with B.M., gain +1 Poise Count, and gain 1 Haste next turn (3 times per turn)\nOn Crit against target with B.M., eliminate B.M. on target; then, if this unit's Speed is faster than the target's, deal +10% damage on Critical Hit for every 1 Speed difference (Max 60%)",
+          "Description": "On Hit against targets with B.M., gain +1 Poise Count, and gain 1 Haste next turn (3 times per turn)\nOn Crit against target with B.M., eliminate B.M. on target; then, If unit's Speed is faster than target's, deal +10% damage on Critical Hit for every 1 Speed difference (Max 60%)",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -10539,7 +10539,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Receiving Arts 1: The Hunt",
-          "Description": "If this unit's Speed is faster than the target's by 3 or more, Clash Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 B.M.",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Clash Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict 2 B.M.",
           "DamageType": "Slash",
           "SinType": "Lust",
           "BasePower": 3,
@@ -10621,7 +10621,7 @@
         },
         "PassiveSkill": {
           "Name": "Clearing Household Chores",
-          "Description": "On Hit against targets with B.M., gain 1 Haste next turn (3 times per turn)\nOn Crit against target with B.M., eliminate B.M. on target; then, if this unit's Speed is faster than the target's, deal +5% damage on Critical Hit for every 1 Speed difference (Max 30%)",
+          "Description": "On Hit against targets with B.M., gain 1 Haste next turn (3 times per turn)\nOn Crit against target with B.M., eliminate B.M. on target; then, If unit's Speed is faster than target's, deal +5% damage on Critical Hit for every 1 Speed difference (Max 30%)",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -10712,7 +10712,7 @@
         },
         "SkillThree": {
           "Name": "Skullbuster",
-          "Description": "If Red Eyes and Penitence are both at 15+, activate 'Serious Skullbuster' instead\nIf this unit's Speed is faster than the target's, Coin Power +1\n[On Use] At max SP, Clash Power +2 and Coin Power +1\n[After Attack] If this effect activated, lose 15 SP\n<1>[On Hit] Gain 7 Red Eyes\n[On Hit] Gain 7 Penitence\n[On Hit] Inflict 3 Bleed\n<2>[Heads Hit] Gain 2 Penitence\n<3>[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence / 2)% of each unit's Max HP\n[On Hit] Heal self and 1 ally with the least SP by (Penitence - 10) SP (Min 0)",
+          "Description": "If Red Eyes and Penitence are both at 15+, activate 'Serious Skullbuster' instead\nIf unit's Speed is faster than target's, Coin Power +1\n[On Use] At max SP, Clash Power +2 and Coin Power +1\n[After Attack] If this effect activated, lose 15 SP\n<1>[On Hit] Gain 7 Red Eyes\n[On Hit] Gain 7 Penitence\n[On Hit] Inflict 3 Bleed\n<2>[Heads Hit] Gain 2 Penitence\n<3>[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence / 2)% of each unit's Max HP\n[On Hit] Heal self and 1 ally with the least SP by (Penitence - 10) SP (Min 0)",
           "DamageType": "Blunt",
           "SinType": "Lust",
           "BasePower": 5,
@@ -10805,7 +10805,7 @@
         ],
         "PassiveSkill": {
           "Name": "Spiderhead / Skullface",
-          "Description": "When hitting an enemy with a Coin that gains Red Eyes:\nDeal +(Red Eyes / 2)% damage\nIf this unit's Speed is faster than the target's by 3 or more, deal additional +(Red Eyes / 2)% damage\nIf the target has Bleed, gain 1 Red Eyes (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains Penitence:\nDeal +(Penitence / 2)% damage\nIf the target's SP is lower than this unit's, deal additional +(Penitence / 2)% damage\nAt 20+ SP, gain 1 Penitence (3 times per turn)\n\nWhen hit by an enemy, gain Penitence (Max 3)",
+          "Description": "When hitting an enemy with a Coin that gains Red Eyes:\nDeal +(Red Eyes / 2)% damage\nIf unit's Speed is faster than target's by 3 or more, deal additional +(Red Eyes / 2)% damage\nIf the target has Bleed, gain 1 Red Eyes (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains Penitence:\nDeal +(Penitence / 2)% damage\nIf the target's SP is lower than this unit's, deal additional +(Penitence / 2)% damage\nAt 20+ SP, gain 1 Penitence (3 times per turn)\n\nWhen hit by an enemy, gain Penitence (Max 3)",
           "PassiveResources": [
             {
               "ResourceSin": "Lust",
@@ -10884,7 +10884,7 @@
         },
         "SkillThree": {
           "Name": "Skullbuster",
-          "Description": "If Red Eyes and Penitence are both at 15+, activate 'Serious Skullbuster' instead\nIf this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[On Use] At max SP Coin Power +1\n[After Attack] If this effect activated, lose 15 SP\n<1>[On Hit] Gain 7 Red Eyes\n[On Hit] Gain 7 Penitence\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence / 3)% of each unit's Max HP\n[On Hit] Heal self and 1 ally with the least SP by (Penitence - 10) SP (Min 0)",
+          "Description": "If Red Eyes and Penitence are both at 15+, activate 'Serious Skullbuster' instead\nIf unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] At max SP Coin Power +1\n[After Attack] If this effect activated, lose 15 SP\n<1>[On Hit] Gain 7 Red Eyes\n[On Hit] Gain 7 Penitence\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence / 3)% of each unit's Max HP\n[On Hit] Heal self and 1 ally with the least SP by (Penitence - 10) SP (Min 0)",
           "DamageType": "Blunt",
           "SinType": "Lust",
           "BasePower": 5,
@@ -11007,6 +11007,133 @@
           "MiscTags": [
             "Ally Heal HP",
             "Ally Heal SP"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 4000,
+    "Sinner": "Ryōshū",
+    "Identity": "Heishou Pack - Mao Branch",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n[On Hit] At X+ Speed, Reuse Coin",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "As Written",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's by X+, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Haste next turn\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, inflict Rupture Count\n<2>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Haste",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillThree": {
+          "Name": "I'll gut you with a curse-engraved sword",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Strider [Mao]",
+            "Rupture Count",
+            "Deathrite [Haste]",
+            "Rupture"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Strider. Unleashed. Heh",
+          "Description": "[Clashable Counter]\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X+, Base Power +Y for every Z Speed difference\n<1>[On Hit] Inflict Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Rupture Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao]",
+          "Description": "If this unit has Strider [Mao], deal more damage\nIf target has Deathrite [Haste] deal more damage",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": []
+        },
+        "SupportSkill": {
+          "Name": "Partial Heishou Mutation Training",
+          "Description": "Turn End: 1 ally with the fastest Speed gains Haste next turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Haste"
           ]
         }
       }
@@ -13489,7 +13616,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Allez",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 3 Speed difference (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency with its effects, but does not consume Rupture Count On Hit\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] If this unit's Speed is faster than the target's, inflict Rupture equal to the Speed difference (Max 3)",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1 for every 3 Speed difference (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency with its effects, but does not consume Rupture Count On Hit\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] If unit's Speed is faster than target's, inflict Rupture equal to the Speed difference (Max 3)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 3,
@@ -13510,7 +13637,7 @@
         },
         "SkillTwo": {
           "Name": "Fente",
-          "Description": "If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects, but does not consume Rupture Count On Hit\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>If this unit does not inflict Rupture, +5% damage on Critical Hit for every Rupture and Rupture Count it would have inflicted\n[On Hit] Inflict 4 Rupture\n[On Hit] At 7+ Speed, Inflict +2 Rupture Count",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects, but does not consume Rupture Count On Hit\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>If this unit does not inflict Rupture, +5% damage on Critical Hit for every Rupture and Rupture Count it would have inflicted\n[On Hit] Inflict 4 Rupture\n[On Hit] At 7+ Speed, Inflict +2 Rupture Count",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 4,
@@ -13533,7 +13660,7 @@
         },
         "SkillThree": {
           "Name": "Salut",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +20% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit\nDeal +2% damage on Critical Hit for every Rupture on target (Max 30%)\n[After Attack] If this Coin defeated the target or destroyed a Part, Reuse this Skill once against a random target",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +20% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit\nDeal +2% damage on Critical Hit for every Rupture on target (Max 30%)\n[After Attack] If this Coin defeated the target or destroyed a Part, Reuse this Skill once against a random target",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 5,
@@ -13554,7 +13681,7 @@
         },
         "SkillDefense": {
           "Name": "Défensive",
-          "Description": "[On Use] If this unit's Speed is faster than the target's by 3 or more, Coin Power +2",
+          "Description": "[On Use] If unit's Speed is faster than target's by 3 or more, Coin Power +2",
           "DamageType": "Evade",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -13608,7 +13735,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Allez",
-          "Description": "If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency with its effects, but does not consume Rupture Count On Hit\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Inflict 1 Rupture",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency with its effects, but does not consume Rupture Count On Hit\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 3,
@@ -13629,7 +13756,7 @@
         },
         "SkillTwo": {
           "Name": "Fente",
-          "Description": "If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects, but does not consume Rupture Count On Hit\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict 4 Rupture\n[On Hit] At 7+ Speed, Inflict +2 Rupture Count",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects, but does not consume Rupture Count On Hit\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict 4 Rupture\n[On Hit] At 7+ Speed, Inflict +2 Rupture Count",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 4,
@@ -13652,7 +13779,7 @@
         },
         "SkillThree": {
           "Name": "Salut",
-          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +10% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n[Clash Win] Gain 5 Poise\nIf the target has Focused Attack - Meursault, gain 5 additional Poise\n<1>[Hit after Clash Win] The final Coin deals +10% damage\n<2>[Hit after Clash Win] The final Coin deals +10% damage\n<3>Deal +10% damage for every Focused Attack - Meursault on the Skill Slot\n+30% damage on Critical Hit",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 5,
@@ -14684,7 +14811,7 @@
         },
         "SkillTwo": {
           "Name": "Goin' First",
-          "Description": "At 6+ Speed, Coin Power +1\n[On Use] Gain 2 Haste next turn\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[On Hit] If this unit is faster than the target, inflict Bleed Count equal to their speed difference. (Max 4)",
+          "Description": "At 6+ Speed, Coin Power +1\n[On Use] Gain 2 Haste next turn\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[On Hit] If this unit is faster than target, inflict Bleed Count equal to their speed difference. (Max 4)",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 4,
@@ -14795,7 +14922,7 @@
         },
         "SkillTwo": {
           "Name": "Goin' First",
-          "Description": "[On Use] Gain 2 Haste next turn\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[On Hit] If this unit is faster than the target, inflict Bleed Count equal to their speed difference. (Max 4)",
+          "Description": "[On Use] Gain 2 Haste next turn\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[On Hit] If this unit is faster than target, inflict Bleed Count equal to their speed difference. (Max 4)",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 4,
@@ -19067,7 +19194,7 @@
         },
         "SkillTwo": {
           "Name": "Headshot",
-          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 3 Poise; gain +2 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
+          "Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 3 Poise; gain +2 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 10,
@@ -19090,7 +19217,7 @@
         },
         "SkillThree": {
           "Name": "Goin' for the Bullseye",
-          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 12,
@@ -19113,7 +19240,7 @@
           ],
           "AltSkill": {
             "Name": "AL-HV Pulverization Round",
-            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+            "Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
             "BasePower": 15,
@@ -19256,7 +19383,7 @@
         },
         "SkillTwo": {
           "Name": "Headshot",
-          "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 30%)\n[On Use] Gain 3 Poise; gain +1 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +30% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
+          "Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 30%)\n[On Use] Gain 3 Poise; gain +1 Poise Count\n[On Use] Gain 2 Haste next turn (Once per turn)\n<1>Spend 1 Ammo\nDeal +30% damage on Critical Hit\n[On Hit] Inflict 1 Pierce Fragility (2 times per turn)\n[On Crit] Inflict 1 Pierce Fragility next turn (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 10,
@@ -19279,7 +19406,7 @@
         },
         "SkillThree": {
           "Name": "Goin' for the Bullseye",
-          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+          "Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n<1>Spend 1 Ammo\nDeal +50% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 10,
@@ -19301,7 +19428,7 @@
           ],
           "AltSkill": {
             "Name": "AL-HV Pulverization Round",
-            "Description": "If this unit's Speed is faster than the target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n<1>Spend 1 Ammo - Atelier Logic\nDeal +100% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+            "Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n<1>Spend 1 Ammo - Atelier Logic\nDeal +100% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
             "DamageType": "Pierce",
             "SinType": "Pride",
             "BasePower": 15,
@@ -20660,7 +20787,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Sweeping Redirection",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Sinking\n[On Crit] Gain 1 Haste next turn",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Sinking\n[On Crit] Gain 1 Haste next turn",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 3,
@@ -20682,7 +20809,7 @@
         },
         "SkillTwo": {
           "Name": "Housekeeping",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 2 Poise\n<1>[On Hit] Gain 1 Haste next turn\n[On Crit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Defense Level Down\n<2>[On Hit] Inflict 4 Sinking",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 2 Poise\n<1>[On Hit] Gain 1 Haste next turn\n[On Crit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Defense Level Down\n<2>[On Hit] Inflict 4 Sinking",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 4,
@@ -20706,7 +20833,7 @@
         },
         "SkillThree": {
           "Name": "Restraining Technique",
-          "Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Use] Gain 6 Poise\n<1>[On Hit] Inflict +3 Sinking Count\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Bind next turn\n[On Hit] Inflict 1 Slash Fragility next turn",
+          "Description": "If unit's Speed is faster than target's, Coin Power +1\n[On Use] Gain 6 Poise\n<1>[On Hit] Inflict +3 Sinking Count\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Bind next turn\n[On Hit] Inflict 1 Slash Fragility next turn",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -27248,7 +27375,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Remise",
-          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Haste next turn\n<2>[On Hit] Gain 1 Haste next turn",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Haste next turn\n<2>[On Hit] Gain 1 Haste next turn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -27268,7 +27395,7 @@
         },
         "SkillTwo": {
           "Name": "Engagement",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -27287,7 +27414,7 @@
         },
         "SkillThree": {
           "Name": "Contre Attaque",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[Clash Win] Consume 10 Poise Count, gain Poise equal to Poise Count consumed. Against targets with Declared Duel - Sinclair, gain Poise equal to (Poise Count consumed x 2) instead\n[Clash Win] If unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (Twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+50% damage on Critical Hit",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[Clash Win] Consume 10 Poise Count, gain Poise equal to Poise Count consumed. Against targets with Declared Duel - Sinclair, gain Poise equal to (Poise Count consumed x 2) instead\n[Clash Win] If unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (Twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+50% damage on Critical Hit",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 5,
@@ -27378,7 +27505,7 @@
         },
         "SkillTwo": {
           "Name": "Engagement",
-          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -27397,7 +27524,7 @@
         },
         "SkillThree": {
           "Name": "Contre Attaque",
-          "Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[Clash Win] If unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (Twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+30% damage on Critical Hit",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Clash Win] If unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (Twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+30% damage on Critical Hit",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 5,
@@ -28829,7 +28956,7 @@
         },
         "SkillTwo": {
           "Name": "Punition",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +2\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 4 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +2\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 4 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -28871,7 +28998,7 @@
         },
         "SkillDefense": {
           "Name": "Retraite",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every Speed difference (Coin Power +1 for every 1 Speed difference; Max 3)\n[On Evade] Gain 1 Poise (Max 10)",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +1 for every Speed difference (Coin Power +1 for every 1 Speed difference; Max 3)\n[On Evade] Gain 1 Poise (Max 10)",
           "DamageType": "Evade",
           "SinType": "Pride",
           "BasePower": 5,
@@ -28944,7 +29071,7 @@
         },
         "SkillTwo": {
           "Name": "Punition",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 2 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 2 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -28986,7 +29113,7 @@
         },
         "SkillDefense": {
           "Name": "Retraite",
-          "Description": "If this unit's Speed is higher than the target's, Coin Power +1\n[On Evade] Gain 1 Poise (Max 5)",
+          "Description": "If unit's Speed is higher than the target's, Coin Power +1\n[On Evade] Gain 1 Poise (Max 5)",
           "DamageType": "Evade",
           "SinType": "None",
           "BasePower": 5,
@@ -30803,6 +30930,132 @@
           "MiscTags": [
             "Ally Heal HP",
             "Bleed Count"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 12000,
+    "Sinner": "Outis",
+    "Identity": "Heishou Pack - Mao Branch",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Perforating Kill",
+          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Unopposed Attack] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Gain Haste next turn\n<2>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Haste"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Cursewrit Butcherblade",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[On Unopposed Attack] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "DamageType": "Slash",
+          "SinType": "Gloom",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Strider [Mao]",
+            "Rupture Count",
+            "Rupture",
+            "Deathrite [Haste]"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Partial Heishou Mutation",
+          "Description": "[Clashable Counter]\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X or more, Base Power +X for every Y Speed difference\n<1>[On Hit] Inflict Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Rupture Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao]",
+          "Description": "If this unit has Strider [Mao], and target has Deathrite [Haste], deal more damage for every Strider [Mao]",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": []
+        },
+        "SupportSkill": {
+          "Name": "A Husk of Hares",
+          "Description": "1 ally with the fastest Speed: When attacking targets with Rupture, deal more damage\nGain Haste next turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Damage Amp",
+            "Ally Haste"
           ]
         }
       }

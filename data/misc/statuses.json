@@ -1893,5 +1893,19 @@
     "Name": "Nerve Strike",
     "Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Clash Power +1\n2x Stack: Base Power +1\n3x Stack: Clash Power +1 and Base Power +1\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
     "Tags":[]
+  },
+  {
+    "Name": "Strider [Mao]",
+    "Description": "Max Stack: 3\nTurn End: Gain Haste next turn\nReduced at Turn End",
+    "Tags":[
+      "Haste"
+    ]
+  },
+  {
+    "Name": "Deathrite [Haste]",
+    "Description": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with X+ Speed, lose Y Stack and gain Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture on self; then this effect expires\nCannot gain additional Stacks of this effect while already active",
+    "Tags":[
+      "Rupture Count"
+    ]
   }
 ]
