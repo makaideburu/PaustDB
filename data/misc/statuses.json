@@ -1896,14 +1896,14 @@
   },
   {
     "Name": "Strider [Mao]",
-    "Description": "Max Stack: 3\nTurn End: Gain Haste next turn\nReduced at Turn End",
+    "Description": "Max Stack: 3\nTurn End: Gain 5 Haste next turn\nReduced by 1 at Turn End",
     "Tags":[
       "Haste"
     ]
   },
   {
     "Name": "Deathrite [Haste]",
-    "Description": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with X+ Speed, lose Y Stack and gain Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture on self; then this effect expires\nCannot gain additional Stacks of this effect while already active",
+    "Description": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture on self; then this effect expires\nCannot gain additional Stacks of this effect while already active",
     "Tags":[
       "Rupture Count"
     ]

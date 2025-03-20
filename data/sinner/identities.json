@@ -11017,29 +11017,29 @@
     "Sinner": "Ryōshū",
     "Identity": "Heishou Pack - Mao Branch",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Blinkstep",
-          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n[On Hit] At X+ Speed, Reuse Coin",
+          "Description": "If unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Rupture Count\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)",
           "DamageType": "Slash",
           "SinType": "Lust",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -11049,16 +11049,16 @@
         },
         "SkillTwo": {
           "Name": "As Written",
-          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's by X+, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Haste next turn\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, inflict Rupture Count\n<2>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n[On Hit] At 10+ Speed, inflict +1 Rupture Count\n<2>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -11069,17 +11069,129 @@
           ]
         },
         "SkillThree": {
-          "Name": "I'll gut you with a curse-engraved sword",
-          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "Name": "I'll gut you with a curse-engraved blade",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)\n[Reuse - On Hit] Inflict Deathrite [Haste]",
           "DamageType": "Slash",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
+          "CoinModifier": 3,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Strider [Mao]",
+            "Rupture Count",
+            "Deathrite [Haste]",
+            "Rupture"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Strider. Unleashed. Heh",
+          "Description": "[Clashable Counter]\n[On Use] Gain 3 Strider [Mao]\n[On Use] If unit's Speed is faster than target's, Base Power +1 for every 2 Speed difference (Max 2)\n<1>[On Hit] Inflict +1 Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 5,
+          "CoinPower": 8,
+          "CoinCount": 1,
+          "Level": 1,
+          "BasePowerModifier": 2,
+          "FinalPowerModifier": 0,
           "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Rupture Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao]",
+          "Description": "If this unit has Strider [Mao], deal +5% damage\nIf target has Deathrite [Haste], deal +5% damage",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": []
+        },
+        "SupportSkill": {
+          "Name": "Partial Heishou Mutation Training",
+          "Description": "Turn End: 1 ally with the fastest Speed gains 2 Haste next turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Haste"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Rupture Count\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 2,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "As Written",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\n[On Use] If target has 4+ Rupture, Coin Power +1\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n[On Hit] At 10+ Speed, inflict +1 Rupture Count\n<2>At 10+ Speed, deal +20% damage",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Haste",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillThree": {
+          "Name": "I'll gut you with a curse-engraved blade",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 5,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -11092,13 +11204,13 @@
         },
         "SkillDefense": {
           "Name": "Strider. Unleashed. Heh",
-          "Description": "[Clashable Counter]\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X+, Base Power +Y for every Z Speed difference\n<1>[On Hit] Inflict Rupture Count",
+          "Description": "[Clashable Counter]\n[On Use] Gain 3 Strider [Mao]\n<1>[On Hit] Inflict +1 Rupture Count",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 8,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -11112,26 +11224,26 @@
         },
         "PassiveSkill": {
           "Name": "Heishou Mutation [Mao]",
-          "Description": "If this unit has Strider [Mao], deal more damage\nIf target has Deathrite [Haste] deal more damage",
+          "Description": "If this unit has Strider [Mao], deal +5% damage",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": []
         },
         "SupportSkill": {
           "Name": "Partial Heishou Mutation Training",
-          "Description": "Turn End: 1 ally with the fastest Speed gains Haste next turn",
+          "Description": "Turn End: 1 ally with the fastest Speed gains 2 Haste next turn",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Haste"
           ]
@@ -30940,29 +31052,29 @@
     "Sinner": "Outis",
     "Identity": "Heishou Pack - Mao Branch",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Blinkstep",
-          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)",
           "DamageType": "Slash",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 3,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -30971,16 +31083,16 @@
         },
         "SkillTwo": {
           "Name": "Perforating Kill",
-          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Unopposed Attack] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Gain Haste next turn\n<2>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture Count",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n[On Unopposed Attack] Inflict +1 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Gain 1 Haste next turn (2 times per turn)\n<2>At 10+ Speed, deal +30% damage\n[On Hit] Inflict +1 Rupture Count",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -30991,17 +31103,17 @@
         },
         "SkillThree": {
           "Name": "Cursewrit Butcherblade",
-          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[On Unopposed Attack] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On Use] Gain 3 Strider [Mao]\n[On Unopposed Attack] Inflict +2 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)\n[Reuse - On Hit] Inflict Deathrite [Haste]",
           "DamageType": "Slash",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 0,
+          "CoinModifier": 3,
+          "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
@@ -31013,14 +31125,14 @@
         },
         "SkillDefense": {
           "Name": "Partial Heishou Mutation",
-          "Description": "[Clashable Counter]\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X or more, Base Power +X for every Y Speed difference\n<1>[On Hit] Inflict Rupture Count",
+          "Description": "[Clashable Counter]\n[On Use] Gain 3 Strider [Mao]\n[On Use] If unit's Speed is faster than target's, Base Power +1 for every 2 Speed difference (Max 2)\n<1>[On Hit] Inflict +1 Rupture Count",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 7,
           "CoinCount": 1,
           "Level": 0,
-          "BasePowerModifier": 0,
+          "BasePowerModifier": 2,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
@@ -31033,26 +31145,136 @@
         },
         "PassiveSkill": {
           "Name": "Heishou Mutation [Mao]",
-          "Description": "If this unit has Strider [Mao], and target has Deathrite [Haste], deal more damage for every Strider [Mao]",
+          "Description": "If this unit has Strider [Mao], and target has Deathrite [Haste], deal +5% damage for every Strider [Mao] (Max 15%)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": []
         },
         "SupportSkill": {
           "Name": "A Husk of Hares",
-          "Description": "1 ally with the fastest Speed: When attacking targets with Rupture, deal more damage\nGain Haste next turn",
+          "Description": "1 ally with the fastest Speed: When attacking targets with Rupture, deal +10% damage\nGain 1 Haste next turn (Once per turn)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Damage Amp",
+            "Ally Haste"
+          ]
+        }
+      },
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] At 12+ Speed, Reuse Coin (Once per Skill)",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Perforating Kill",
+          "Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n[On Unopposed Attack] Inflict +1 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n<2>At 10+ Speed, deal +20% damage\n[On Hit] Inflict +1 Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Cursewrit Butcherblade",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] Gain 3 Strider [Mao]\n[On Unopposed Attack] Inflict +2 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] At 10+ Speed, Reuse Coin (Once per Skill)",
+          "DamageType": "Slash",
+          "SinType": "Gloom",
+          "BasePower": 5,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Strider [Mao]",
+            "Rupture Count",
+            "Rupture",
+            "Deathrite [Haste]"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Partial Heishou Mutation",
+          "Description": "[Clashable Counter]\n[On Use] Gain 3 Strider [Mao]\n[On Use] If unit's Speed is faster than target's by 2 or more, Base Power +1\n<1>[On Hit] Inflict +1 Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 5,
+          "CoinPower": 7,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 1,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Rupture Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao]",
+          "Description": "If this unit has Strider [Mao], and target has Deathrite [Haste], deal +5% damage for every Strider [Mao] (Max 15%)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": []
+        },
+        "SupportSkill": {
+          "Name": "A Husk of Hares",
+          "Description": "1 ally with the fastest Speed: When attacking targets with Rupture, deal +10% damage\nGain 1 Haste next turn (Once per turn)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Damage Amp",
             "Ally Haste"
