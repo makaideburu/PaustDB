@@ -3453,7 +3453,7 @@
         },
         "SkillThree": {
           "Name": "Overcharge",
-          "Description": "At 5+ Charge Count, Clash Power +2\n<3>[On Hit] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze",
+          "Description": "At 5+ Charge Count, Clash Power +2\n<3>[On Hit] Spend 5 Charge Count to inflict 2 Attack Power Down and 3 Paralyze next turn",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 6,
@@ -3562,7 +3562,7 @@
         },
         "SkillThree": {
           "Name": "Overcharge",
-          "Description": "<3>[On Hit] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze",
+          "Description": "<3>[On Hit] Spend 5 Charge Count to inflict 2 Attack Power Down and 3 Paralyze next turn",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 6,
@@ -6152,7 +6152,8 @@
             "Nails",
             "Tremor",
             "Tremor Count",
-            "Attack Power Down"
+            "Attack Power Down",
+            "Paralyze"
           ]
         },
         "SkillDefense": {
@@ -6259,7 +6260,8 @@
             "Nails",
             "Tremor",
             "Tremor Count",
-            "Attack Power Down"
+            "Attack Power Down",
+            "Paralyze"
           ]
         },
         "SkillDefense": {
@@ -11013,7 +11015,7 @@
     ]
   },
   {
-    "Id": 4000,
+    "Id": 4306,
     "Sinner": "Ryōshū",
     "Identity": "Heishou Pack - Mao Branch",
     "World": "",
@@ -31048,7 +31050,7 @@
     ]
   },
   {
-    "Id": 12000,
+    "Id": 12307,
     "Sinner": "Outis",
     "Identity": "Heishou Pack - Mao Branch",
     "World": "",

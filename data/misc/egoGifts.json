@@ -594,7 +594,7 @@
         "Rank": 1,
         "MiscTags": [
           "Self Sinking Count",
-          "Clash Power Down",
+          "Clash Power",
           "Sinking",
           "Sinking Count"
         ]
@@ -1207,7 +1207,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nSkills that apply (including on self) Tremor or Tremor Count gain Clash Power +1.\nWhen dealing damage to an enemy that has Tremor with Attack Skills (Except E.G.O Skills) that inflict Tremor or Tremor Count, deal +(Tremor on target + 5)% more damage.\nPride Skills: Deal +(Sum of Tremor and Tremor Count on target + 5)% damage",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Damage Amp"
         ]
       }
@@ -1248,7 +1248,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nAttack Skills (Except E.G.O Skills) that inflict Rupture or Rupture Count gain Clash Power +1, Offense Level +2, and deal +15% damage.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Damage Amp"
         ]
@@ -1411,7 +1411,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nTurn Start: Allies with 10+ (sum of Poise and Poise Count) gain Clash Power +1 and 1 Damage Up\nAt 20+ sum, gain Clash Power +1 and 3 Damage Up instead.\nAt 40+ sum, gain Clash Power +2 and 3 Damage Up instead.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Damage Up"
         ]
       }
@@ -1608,7 +1608,7 @@
         "MiscTags": [
           "Faction Buff: Technology Liberation Alliance",
           "Offense Level Up",
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -1628,7 +1628,7 @@
         "Description": "[Effect applies to #3, #4 Deployed Identities]\nIn a Clash, Clash Power +1; Pierce Skills deal +20% damage.\nIn an unopposed attack, Pierce Skills deal +10% damage.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Pierce Damage Amp"
         ]
       },
@@ -1636,7 +1636,7 @@
         "Description": "[Effect applies to #3, #4, #5 Deployed Identities]\nIn a Clash, Clash Power +1; Pierce Skills deal +20% damage.\nIn an unopposed attack, Pierce Skills deal +10% damage.",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Pierce Damage Amp"
         ]
       },
@@ -1644,7 +1644,7 @@
         "Description": "[Effect applies to #3, #4, #5, #6 Deployed Identities]\nIn a Clash, Clash Power +1; Pierce Skills deal +25% damage.\nIn an unopposed attack, Pierce Skills deal +12.5% damage.",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Pierce Damage Amp"
         ]
       }
@@ -2123,7 +2123,7 @@
         "Description": "If the unit's Speed is faster than the target's, gain +(Speed/3) Clash Power (Max 3).",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -2338,7 +2338,7 @@
           "Haste",
           "Defense Power Up",
           "Self Bind",
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -2358,7 +2358,7 @@
         "Description": "When an ally Clashes against an enemy with a faster Speed, gain Clash Power +1.\nWhen an ally wins a Clash against an enemy with a faster Speed, gain 2 Offense Level Up next turn. (Max 4)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up"
         ]
       }
@@ -3453,7 +3453,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +10% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 2 Charge Barrier next turn.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Charge Barrier"
         ]
       },
@@ -3461,7 +3461,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +15% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 3 Charge Barrier next turn.",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Charge Barrier"
         ]
       },
@@ -3469,7 +3469,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +25% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 4 Charge Barrier next turn.",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Charge Barrier"
         ]
       }
@@ -3622,7 +3622,7 @@
         "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +1 on the first turn, and gain 1 Haste and Clash Power +1 starting from the second turn.\nShi Association Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal. (Activates immediately upon entering an encounter)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Haste",
           "Faction Buff: Shi Association"
         ]
@@ -3631,7 +3631,7 @@
         "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +1 on the first turn, and gain 2 Haste and Clash Power +1 starting from the second turn.\nShi Association Identities' HP gets capped to 50% of Max HP. In return, take 75% less damage and receive 75% reduced heal. (Activates immediately upon entering an encounter)",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Haste",
           "Faction Buff: Shi Association"
         ]
@@ -3878,7 +3878,7 @@
         "Description": "[Effect applies to #6 Deployed Identity]\nSlash Skills (Except E.G.O Skills) with 2- Coins gain Clash Power +1 and deal +10% damage.\nSingle-Coin Skills gain Clash Power +1 and deal +20% damage instead.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Slash Damage Amp"
         ]
       },
@@ -3886,7 +3886,7 @@
         "Description": "[Effect applies to #4, #6 Deployed Identity]\nSlash Skills (Except E.G.O Skills) with 2 or fewer Coins gain Clash Power +1 and deal +15% damage.\nSingle-Coin Skills gain Clash Power +1 and deal +25% damage instead.",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Slash Damage Amp"
         ]
       },
@@ -3894,7 +3894,7 @@
         "Description": "[Effect applies to #4, #6 Deployed Identity]\nSlash Skills (Except E.G.O Skills) with 2 or fewer Coins gain Clash Power +1 and deal +20% damage.\nSingle-Coin Skills gain Clash Power +1 and deal +30% damage instead.",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Slash Damage Amp"
         ]
       }
@@ -3975,7 +3975,7 @@
         "Description": "Pierce Skills gain Clash Power +1.\nSkills that consume Ammo deal +(40/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start. (Once per encounter)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Ammo"
         ]
       },
@@ -3983,7 +3983,7 @@
         "Description": "Pierce Skills gain Clash Power +1 and deal +5% damage.\nSkills that consume Ammo deal +(50/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start. (Once per encounter)",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Pierce Damage Amp",
           "Ammo"
         ]
@@ -3992,7 +3992,7 @@
         "Description": "Pierce Skills gain Clash Power +1 and deal +10% damage.\nSkills that consume Ammo deal +(60/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start. (Once per encounter)",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Pierce Damage Amp",
           "Ammo"
         ]
@@ -4574,7 +4574,7 @@
         "Description": "Attack Skills (Except E.G.O Skills) that inflict Sinking, Sinking Count, or Unique Sinking deal +5% damage.\nFor skills with 2 or fewer Coins, gain Clash Power +1 and deal +10% damage instead.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Damage Amp"
         ]
@@ -4583,7 +4583,7 @@
         "Description": "Attack Skills (Except E.G.O Skills) that inflict Sinking, Sinking Count, or Unique Sinking deal +7.5% damage.\nFor skills with 2 or fewer Coins, gain Clash Power +1 and deal +12.5% damage instead.",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Damage Amp"
         ]
@@ -4592,7 +4592,7 @@
         "Description": "Attack Skills (Except E.G.O Skills) that inflict Sinking, Sinking Count, or Unique Sinking deal +10% damage.\nFor skills with 2 or fewer Coins, gain Clash Power +1 and deal +15% damage instead.",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Damage Amp"
         ]
@@ -5533,7 +5533,7 @@
         "Description": "When clashing with a faster enemy, Clash Power +1.\nWhen dealing damage to a faster enemy, inflict 3 Tremor and +2 Tremor Count next turn. (Once per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Tremor",
           "Tremor Count"
         ]
@@ -5622,7 +5622,7 @@
           "Tremor",
           "Tremor Count",
           "Faction Buff: Yurodivy",
-          "Clash Power Up",
+          "Clash Power",
           "Damage Amp"
         ]
       }
@@ -5952,7 +5952,7 @@
         "MiscTags": [
           "Coin Power",
           "Damage Amp",
-          "Clash Power Up",
+          "Clash Power",
           "Charge Count",
           "Spend Charge Count",
           "Envy Fragility"
@@ -5977,7 +5977,7 @@
         "MiscTags": [
           "Coin Power",
           "Damage Amp",
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Revive",
           "Protection"
@@ -6127,7 +6127,7 @@
         "Rank": 1,
         "MiscTags": [
           "Heal SP",
-          "Clash Power Up",
+          "Clash Power",
           "SP Heal Efficiency Up",
           "SP Loss Efficiency Down"
         ]
@@ -6170,7 +6170,7 @@
         "Description": "Skills that inflict Burn, Burn Count, or Unique Burn gain Clash Power +1",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -6211,7 +6211,7 @@
         "Description": "Skills that inflict Bleed, Bleed Count, or Unique Bleed gain Clash Power +1",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -6650,7 +6650,7 @@
         "Description": "Turn Start: At 8+ Tremor Count, Clash Power +1\nWhen defeating or Staggering an enemy with a Skill that consumes Tremor Count on self: Gain +(Tremor Count consumed / 4) Tremor Count (Once per Skill)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Self Tremor Count"
         ]
       }
@@ -6672,7 +6672,7 @@
         "Rank": 1,
         "MiscTags": [
           "Tremor Count",
-          "Clash Power Up",
+          "Clash Power",
           "Self Tremor Count"
         ]
       }
@@ -6695,7 +6695,7 @@
         "MiscTags": [
           "Tremor",
           "Tremor Count",
-          "Clash Power Up",
+          "Clash Power",
           "Self Tremor Count",
           "Damage Amp"
         ]
@@ -7001,7 +7001,7 @@
         "MiscTags": [
           "Defense Level Down",
           "Faction Buff: Seven Association",
-          "Clash Power Up"
+          "Clash Power"
         ]
       },
       {
@@ -7010,7 +7010,7 @@
         "MiscTags": [
           "Defense Level Down",
           "Faction Buff: Seven Association",
-          "Clash Power Up",
+          "Clash Power",
           "Weakness Analyzed"
         ]
       },
@@ -7020,7 +7020,7 @@
         "MiscTags": [
           "Defense Level Down",
           "Faction Buff: Seven Association",
-          "Clash Power Up",
+          "Clash Power",
           "Weakness Analyzed",
           "Damage Amp"
         ]
@@ -7042,7 +7042,7 @@
         "Description": "Slash Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit\nKurokumo Clan Identities: Effect applies to all Slash Skills instead\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed or Bleed Count On Hit with a Base Attack Skill, gain 1 Poise (4 times per turn per Identity)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
@@ -7053,7 +7053,7 @@
         "Description": "Slash Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit\nKurokumo Clan Identities: Effect applies to all Slash or Lust Skills instead\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed or Bleed Count On Hit with a Base Attack Skill, gain 1 Poise (6 times per turn per Identity)",
         "Rank": 2,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
@@ -7064,7 +7064,7 @@
         "Description": "Slash Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit\nKurokumo Clan Identities: Effect applies to all Skills instead\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed or Bleed Count On Hit with a Base Attack Skill, gain 1~2 Poise (8 times per turn per Identity)",
         "Rank": 3,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
@@ -7088,7 +7088,7 @@
         "Description": "Slash Base Attack Skills gain Clash Power +2. On Combat Start, gain Offense Level Up equal to # of Identities who are using Slash Base Attack Skills this turn. (Max 3)\nAllies with Slash Attack Type for all of their Base Attack Skills gain 2 Slash DMG Up at Turn Start. (Excluding Empowered or Skills with Unique Conditionals)\nWhen using a Guard (Excluding Power Guards), gain 1 Protection and 3 Defense Level Up. (Once per Identity per turn). If an allied Identity takes 2 instances of HP or Shield damage by a direct single-target Attack Skill, gain 1 Defense Level Up next turn (Max 3).\nTurn Start: Zwei Association Identities gain 2 Attack Power Up, 1 Slash Power Up, and 2 Defense Level Up for every other Zwei Association Identity (Max 8).",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Slash DMG Up",
           "Protection",
@@ -7180,7 +7180,7 @@
         "Rank": 1,
         "MiscTags": [
           "Offense Level Up",
-          "Clash Power Up",
+          "Clash Power",
           "Faction Buff: Technology Liberation Alliance"
         ]
       },
@@ -7189,7 +7189,7 @@
         "Rank": 2,
         "MiscTags": [
           "Offense Level Up",
-          "Clash Power Up",
+          "Clash Power",
           "Faction Buff: Technology Liberation Alliance"
         ]
       },
@@ -7198,7 +7198,7 @@
         "Rank": 3,
         "MiscTags": [
           "Offense Level Up",
-          "Clash Power Up",
+          "Clash Power",
           "Faction Buff: Technology Liberation Alliance"
         ]
       }
@@ -7219,7 +7219,7 @@
         "Description": "Pierce Base Attack Skills gain Clash Power +2.\nCombat Start: Gain Offense Level Up equal to # of allied Identities who are using Pierce Base Attack Skills this turn (Max 3).\nAllies with Pierce Attack Type for all of their Base Attack Skills gain 2 Pierce DMG Up at Turn Start. (Excluding Empowered or Skills with Unique Conditionals)\nEvade Skill Power +2. Every time an allied Identity successfully Evades 2 times within a single turn, they gain 1 Damage Up next turn (Max 3).\nTurn Start: Cinq Association Identities gain 1 Pierce Power Up and 2 Pierce DMG Up; if a Cinq Association Identity deals damage On Hit against an enemy with their Declared Duel or Focused Attack, gain 2 Pierce DMG Up and 1 Haste next turn. (Once per Identity per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Pierce DMG Up",
           "Damage Up",
@@ -7326,7 +7326,7 @@
         "Description": "Blunt Base Attack Skills gain Clash Power +2. Combat Start: Gain Offense Level Up equal to # of allied Identities who are using Blunt Base Attack Skills this turn (Max 3).\nAllies with Blunt Attack Type for all of their Base Attack Skills gain 2 Blunt DMG Up at Turn Start. (Excluding Empowered or Skills with Unique Conditionals)\nWhen using a Counter (Excluding Power Counters), gain 7.5% of this unit's Max HP as Shield HP and deal +20% damage. Cannot be staggered by damage when using a Counter Skill (Once per Identity per Encounter).\nTurn Start: The Middle Identities gain 1 Blunt Power Up and 2 Defense Power Up; when The Middle Identity uses a Counter Skill, the above Counter Skill enhancement effects activate twice per Encounter and deal +40% damage instead.",
         "Rank": 1,
         "MiscTags": [
-          "Clash Power Up",
+          "Clash Power",
           "Offense Level Up",
           "Blunt DMG Up",
           "Counter Damage Amp",
@@ -7874,7 +7874,7 @@
         "Rank": 1,
         "MiscTags": [
           "Heal SP",
-          "Clash Power Up",
+          "Clash Power",
           "Gain Resources"
         ]
       }
@@ -8246,7 +8246,7 @@
         "MiscTags": [
           "Damage Amp",
           "Rupture Count",
-          "Clash Power Up"
+          "Clash Power"
         ]
       }
     ],
@@ -8476,6 +8476,206 @@
           "Faction Buff: Blade Lineage",
           "HP Damage",
           "Spend Poise"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Harestride",
+    "Tag": "Rupture",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Pride",
+    "Tier": 2,
+    "Cost": 210,
+    "Upgrades": [
+      {
+        "Description": "If an ally's Speed is faster than target's, the ally inflicts (Speed difference / 3) additional Rupture or Rupture Count when inflicting them with Skills. (Max 3)",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Enh. Tattoos - The Middle",
+    "Tag": "Blunt",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Envy",
+    "Tier": 2,
+    "Cost": 200,
+    "Upgrades": [
+      {
+        "Description": "Blunt Skills: Clash Power +1\nThe Middle Identities: Clash Power +1 and Coin Power +1 instead\nThe Middle Identities: If the main target has Vengeance Mark, Clash Power +1, Coin Power +1, and deal +10% damage instead",
+        "Rank": 1,
+        "MiscTags": [
+          "Clash Power",
+          "Faction Buff: The Middle",
+          "Coin Power",
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Chains of Loyalty",
+    "Tag": "Blunt",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Lust",
+    "Tier": 3,
+    "Cost": 253,
+    "Upgrades": [
+      {
+        "Description": "When hit, all allies in the same faction deal +5% Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and +10% Blunt damage instead (3 per turn, 30% per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Blunt Damage Amp",
+          "Faction Buff: The Middle",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Strange Glyph Talisman",
+    "Tag": "Rupture",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 212,
+    "Upgrades": [
+      {
+        "Description": "When defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on the target between all enemies (Focused Encounters, all Parts) (Max 2 per enemy, rounded down)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on the target between all enemies (Focused Encounters, all Parts) (Max 2 per enemy, rounded down)",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Strange Glyph Inscription",
+    "Tag": "Rupture",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 245,
+    "Upgrades": [
+      {
+        "Description": "When clashing against enemies with Rupture, gain (Rupture on target / 20) Clash Power (Max 2)\nWhen Clashing against targets with Deathrite [Haste], gain (Rupture on target / 15) Clash Power instead (Max 3)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deatrite [Haste] damage / 3)",
+        "Rank": 1,
+        "MiscTags": [
+          "Clash Power",
+          "HP Damage"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Swishing Fuel Tank",
+    "Tag": "Keywordless",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 252,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #2, #4 Deployed Identities]\nWhen taking lethal damage, 60% chance to not take that damage and heal 30 HP (Once per Encounter)\nThe above effect does not activate under the following conditions:\nWhen the Skill damage taken exceeds the unit's Max HP\nWhen the unit has the HP Healing Down effect",
+        "Rank": 1,
+        "MiscTags": [
+          "Unrelenting"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Shadow Bamboo Hat",
+    "Tag": "Slash",
+    "Abnormality": "**Nocturnal Sweeping**",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 251,
+    "Upgrades": [
+      {
+        "Description": "Turn End: Heishou Pack - Mao Branch Identities gain 2 Haste next turn\nIf an ally's Speed is faster than the target's, or when activating Unopposed Attacks, deal +10% Slash damage for every (Speed difference / 3) (Max 30%)\nIf an ally's Speed is faster than the target's, take -10% damage for every (Speed difference / 3) (Max 30%)",
+        "Rank": 1,
+        "MiscTags": [
+          "Slash Damage Amp",
+          "Damage Reduction"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Everlasting Chains of Bond",
+    "Tag": "Blunt",
+    "Abnormality": "Fusion: ||Enh. Tatoos - The Middle + Chains of Loyalty||",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 401,
+    "Upgrades": [
+      {
+        "Description": "Encounter Start: Activates when there are 2 or more The Middle Identities (only counts Identities on field at Encounter Start)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf target has Vengeance mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: The Middle",
+          "Blunt Damage Amp",
+          "Offense Level Up",
+          "Base Power",
+          "Coin Power",
+          "Damage Amp",
+          "Min Speed",
+          "Max Speed"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD5"
+    ]
+  },
+  {
+    "Name": "Glyph of Glass Shards",
+    "Tag": "Rupture",
+    "Abnormality": "Fusion: ||Strange Glyph Talisman + Strange Glyph Inscriptions||",
+    "Affinity": "Gluttony",
+    "Tier": 4,
+    "Cost": 407,
+    "Upgrades": [
+      {
+        "Description": "Encounter Start: Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills)\nWhen defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (Max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (Max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (Max 2)\n**If target has Deathrite [Haste], gain (Deathrite [Haste] / 10) Coin Power instead (Max 2) [1]**\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)\n\nNotes:\n[1] I really don't know what's going on here, this is verbatim from the game",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count",
+          "Clash Power",
+          "Coin Power",
+          "HP Damage"
         ]
       }
     ],
