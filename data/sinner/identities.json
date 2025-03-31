@@ -28354,6 +28354,135 @@
     ]
   },
   {
+    "Id": 11000,
+    "Sinner": "Sinclair",
+    "Identity": "The Middle Little Brother",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Is it You?!",
+          "Description": "If target has X+ Bleed, Coin Power +Y\n[On Use] This Skill Slot gains X Aggro next turn\n[On Use] Heal SP\nAt Max SP, Clash Power +X instead\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Aggro",
+            "Heal SP",
+            "Bleed"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Payback with Interest",
+          "Description": "If target has X+ Bleed, Coin Power +Y\n[On Use] This Skill Slot gains X Aggro next turn\n[Combat Start] This Skill gains (Highest Res / X) Offense Level\nIf said Res includes an A-Res, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict Bleed\n<3>At X+ Res that includes this Skill, deal more damage",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Aggro",
+            "Bleed"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Write 'em all down",
+          "Description": "Deal more damage for every X Book of Vengeance [Sinclair]\nCoin Power +X for every Y Bleed on target\n[Combat Start] This Skill gains (Highest Res / X) Offense Level\nIf said Res includes an A-Res, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict Bleed\n<3>Deal more damage for every Res that includes this Skill\nDeal more damage for every X Book of Vengeance [Sinclair]",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Bleed"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Warmup in the East",
+          "Description": "[Combat Start] Skill behavior changes based on the sum of Envy A-Res\nAt X+ sum of A-Res, use 'Payback with Interest' as Counter\nAt X++ sum of A-Res, use 'Write 'em all Down' as Counter\n(Activates from leftmost Skill Slot. Activates 2 times per turn.)\n[Combat Start] Gain X% of missing HP as Shield\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Counter",
+            "Skill Change",
+            "Shield",
+            "Bleed"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "The Middle Never Forgets",
+          "Description": "When hit by an enemy, inflict Vendetta Mark against the attacker (or Part)\nWhen an other ally is hit by an enemy, inflict Vendetta Mark against the attacker (or Part)\nIf said ally is from The Middle, inflict additional Vendetta mark\nAfter Attacking with Base Attack Skills or Counter Skills, consume all Vendetta Mark on target\nEvery time this unit consumes the target's Vendetta Mark, gain Book of Vengeance [Sinclair] equal to the amount consumed",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Vendetta Mark",
+            "Spend Vendetta Mark",
+            "Book of Vengeance"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "We've Got Your Back",
+          "Description": "Encounter Start: 1 ally with the least current HP percentage gains Defense Level Up\nIf said ally is from The Middle, also gain Offense Level Up",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Defense Level Up",
+            "Ally Offense Level Up"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 12101,
     "Sinner": "Outis",
     "Identity": "LCB Sinner",
