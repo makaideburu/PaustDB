@@ -1910,7 +1910,7 @@
   },
   {
     "Name": "Book of Vengeance",
-    "Description": "Max Stack: 30\nDeal more damage based on Stack\nGain the following effects next turn based on Stack:\nAt X+ Stack: Gain Blunt DMG Up\nAt X++ Stack: Gain Max Speed and Power Up\nAt Y Stack: Gain Blunt DMG Up",
+    "Description": "Max Stack: 30\nDeal +(Stack)% damage (Max 30%)\nGain the following effects next turn based on Stack:\nAt 10+ Stack: Gain 1 Blunt DMG Up\nAt 20+ Stack: Gain Max Speed +1 and 1 Power Up\nAt 30 Stack: Gain 2 Blunt DMG Up",
     "Tags":[
       "Blunt Damage Up",
       "Max Speed",
@@ -1918,8 +1918,8 @@
     ]
   },
   {
-    "Name": "vendetta Mark",
-    "Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake more damage from The Middle enemies based on Stack\nTurn End: The unit with the highest Stack of this effect gains Sibling Vengeance Mark next turn\n(Counted separately from Vengeance mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
+    "Name": "Vendetta Mark",
+    "Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (Max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
     "Tags":[
       "Ally Damage Amp",
       "Sibling Vengeance Mark"
