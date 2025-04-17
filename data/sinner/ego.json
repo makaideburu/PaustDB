@@ -1471,7 +1471,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Fluid Sac",
-          "Description": "<1>[After Attack] Heal 15 SP for all allies\n[After Attack] Heal all allies for 15% of Max HP\n[Heads Attack End] Heal 10 SP for all allies",
+          "Description": "<1>[After Attack] Heal 15 SP for all allies\n[After Attack] Heal all allies for 15% of max HP\n[Heads Attack End] Heal 10 SP for all allies",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 16,
@@ -1522,7 +1522,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Fluid Sac",
-          "Description": "<1>[After Attack] Heal 15 SP for all allies\n[After Attack] Heal all allies for 15% of Max HP",
+          "Description": "<1>[After Attack] Heal 15 SP for all allies\n[After Attack] Heal all allies for 15% of max HP",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 16,
@@ -2424,7 +2424,7 @@
         },
         "Corrosion": {
           "Name": "Electric Screaming",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Envy Res - 2) Atk Weight (Max 3)\n[Before Attack] Deal +((Envy Res - 3) x 12)% damage (Max 36%)\n[Before Attack] At 20- Charge Count, spend 1% of this unit's Max HP per missing Charge Count to raise Charge Count to 20\n<1>[On Kill] Gain +3 Charge Count",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Envy Res - 2) Atk Weight (Max 3)\n[Before Attack] Deal +((Envy Res - 3) x 12)% damage (Max 36%)\n[Before Attack] At 20- Charge Count, spend 1% of this unit's max HP per missing Charge Count to raise Charge Count to 20\n<1>[On Kill] Gain +3 Charge Count",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 28,
@@ -2476,7 +2476,7 @@
         },
         "Corrosion": {
           "Name": "Electric Screaming",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Envy Res - 2) Atk Weight (Max 2)\n[Before Attack] Deal +((Envy Res - 3) x 8)% damage (Max 24%)\n[Before Attack] At 20- Charge Count, spend 1.5% of this unit's Max HP per missing Charge Count to raise Charge Count to 20\n<1>[On Kill] Gain +3 Charge Count",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Envy Res - 2) Atk Weight (Max 2)\n[Before Attack] Deal +((Envy Res - 3) x 8)% damage (Max 24%)\n[Before Attack] At 20- Charge Count, spend 1.5% of this unit's max HP per missing Charge Count to raise Charge Count to 20\n<1>[On Kill] Gain +3 Charge Count",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 28,
@@ -3572,7 +3572,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Red Eyes (Open)",
-          "Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +7\n<1>[On Hit] If target has 3+ Bind, deal +40% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of Max HP",
+          "Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +7\n<1>[On Hit] If target has 3+ Bind, deal +40% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 22,
@@ -3592,7 +3592,7 @@
         },
         "Corrosion": {
           "Name": "Red Eyes (Open)",
-          "Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +10\n<1>[On Hit] If target has 3+ Bind, deal +50% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of Max HP",
+          "Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +10\n<1>[On Hit] If target has 3+ Bind, deal +50% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 33,
@@ -3612,7 +3612,7 @@
         },
         "Passive": {
           "Name": "Predator",
-          "Description": "If this unit healed more than 10% of its Max HP this turn, gain 1 Attack Power Up next turn.",
+          "Description": "If this unit healed more than 10% of its max HP this turn, gain 1 Attack Power Up next turn.",
           "MiscTags": [
             "Attack Power Up"
           ]
@@ -3622,7 +3622,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Red Eyes (Open)",
-          "Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +4\n<1>[On Hit] If target has 3+ Bind, deal +20% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of Max HP",
+          "Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +4\n<1>[On Hit] If target has 3+ Bind, deal +20% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 22,
@@ -3642,7 +3642,7 @@
         },
         "Corrosion": {
           "Name": "Red Eyes (Open)",
-          "Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +7\n<1>[On Hit] If target has 3+ Bind, deal +30% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of Max HP",
+          "Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +7\n<1>[On Hit] If target has 3+ Bind, deal +30% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 33,
@@ -3662,7 +3662,7 @@
         },
         "Passive": {
           "Name": "Predator",
-          "Description": "If this unit healed more than 10% of its Max HP this turn, gain 1 Attack Power Up next turn.",
+          "Description": "If this unit healed more than 10% of its max HP this turn, gain 1 Attack Power Up next turn.",
           "MiscTags": [
             "Attack Power Up"
           ]
@@ -4519,7 +4519,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Pursuance",
-          "Description": "[After Attack] Heal 2 other allies with the least HP for 30% of Max HP; apply 2 Protection next turn\n<1>[On Hit] Trigger Tremor Burst",
+          "Description": "[After Attack] Heal 2 other allies with the least HP for 30% of max HP; apply 2 Protection next turn\n<1>[On Hit] Trigger Tremor Burst",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 26,
@@ -4572,7 +4572,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Pursuance",
-          "Description": "[After Attack] Heal 2 other allies with the least HP for 30% of Max HP; apply 2 Protection next turn\n<1>[On Hit] Trigger Tremor Burst",
+          "Description": "[After Attack] Heal 2 other allies with the least HP for 30% of max HP; apply 2 Protection next turn\n<1>[On Hit] Trigger Tremor Burst",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 26,
@@ -4829,7 +4829,7 @@
         },
         "Corrosion": {
           "Name": "Yearning-Mircalla",
-          "Description": "[Indiscriminate] Targets randomly\nCoin Power +1 for every 6 (Bleed on self + target) (Max 3)\n[On Use] Consume up to 10% of unit's Max HP and deal (HP consumed / 2) damage to all other units\nAt 50%- Max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage dealt\n<1>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<2>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Res / 2)) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (Min 1)",
+          "Description": "[Indiscriminate] Targets randomly\nCoin Power +1 for every 6 (Bleed on self + target) (Max 3)\n[On Use] Consume up to 10% of unit's max HP and deal (HP consumed / 2) damage to all other units\nAt 50%- max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage dealt\n<1>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<2>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Res / 2)) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (Min 1)",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 6,
@@ -4889,7 +4889,7 @@
         },
         "Corrosion": {
           "Name": "Yearning-Mircalla",
-          "Description": "[Indiscriminate] Targets randomly\nAt 6+ (Bleed on self + target). Coin Power +1\n[On Use] Consume up to 10% of this unit's Max HP and deal (HP consumed / 2) damage to all enemies and allies\nAt 50%- unit's Max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage\n<1>[On Hit] Inflict 3 Bleed on self and target\n<2>[On Hit] Inflict 3 Bleed on self and target\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Res / 2)) times (3 times max)",
+          "Description": "[Indiscriminate] Targets randomly\nAt 6+ (Bleed on self + target). Coin Power +1\n[On Use] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\nAt 50%- unit's max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage\n<1>[On Hit] Inflict 3 Bleed on self and target\n<2>[On Hit] Inflict 3 Bleed on self and target\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Res / 2)) times (3 times max)",
           "DamageType": "Pierce",
           "SinType": "Lust",
           "BasePower": 6,
@@ -5667,7 +5667,7 @@
         },
         "Passive": {
           "Name": "Entangled Phenomena Restoration",
-          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% Max HP)",
+          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% max HP)",
           "MiscTags": [
             "Charge Count",
             "Revive",
@@ -5726,7 +5726,7 @@
         },
         "Passive": {
           "Name": "Entangled Phenomena Restoration",
-          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% Max HP)",
+          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% max HP)",
           "MiscTags": [
             "Charge Count",
             "Revive",
@@ -6177,7 +6177,7 @@
         },
         "Corrosion": {
           "Name": "AEDD",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain +1 Charge Count for every 10% of missing HP (Max 7)\nGain 2 Haste next turn\n<1>[On Hit] Spend all Charge Count to deal bonus Gloom damage by (Charge Count x 2.5)% of damage dealt (Max 50%)\n[After Attack] Spend all Charge Count\n[Tails Attack End] Lose HP by 10% of Max HP to gain +10 Charge Count",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain +1 Charge Count for every 10% of missing HP (Max 7)\nGain 2 Haste next turn\n<1>[On Hit] Spend all Charge Count to deal bonus Gloom damage by (Charge Count x 2.5)% of damage dealt (Max 50%)\n[After Attack] Spend all Charge Count\n[Tails Attack End] Lose HP by 10% of max HP to gain +10 Charge Count",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 29,
@@ -6199,7 +6199,7 @@
         },
         "Passive": {
           "Name": "Temperamental Discharge",
-          "Description": "When hit, spend 1 Charge Count to heal 2.5% of Max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
+          "Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
           "MiscTags": [
             "Spend Charge Count",
             "Heal HP"
@@ -6254,7 +6254,7 @@
         },
         "Passive": {
           "Name": "Temperamental Discharge",
-          "Description": "When hit, spend 1 Charge Count to heal 2.5% of Max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
+          "Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
           "MiscTags": [
             "Spend Charge Count",
             "Heal HP"
@@ -6613,7 +6613,7 @@
         },
         "Passive": {
           "Name": "Dhyāna",
-          "Description": "Raise Max HP by 15% of this Unit's base Max HP when recovering from Stagger.\nThen, heal by 15% of current Max HP. If at 30%- of current Max HP, heal by 25% instead.\n(3 times per encounter.)\n(At combat end, revert to base Max HP. Current HP value will be adjusted to reflect the HP percentage at the time of combat end.)",
+          "Description": "Raise max HP by 15% of this Unit's base max HP when recovering from Stagger.\nThen, heal by 15% of current max HP. If at 30%- of current max HP, heal by 25% instead.\n(3 times per encounter.)\n(At combat end, revert to base max HP. Current HP value will be adjusted to reflect the HP percentage at the time of combat end.)",
           "MiscTags": []
         }
       },
@@ -6665,7 +6665,7 @@
         },
         "Passive": {
           "Name": "Dhyāna",
-          "Description": "Raise Max HP by 15% of this Unit's base Max HP when recovering from Stagger.\nThen, heal by 15% of current Max HP. If at 30%- of current Max HP, heal by 25% instead.\n(3 times per encounter.)\n(At combat end, revert to base Max HP. Current HP value will be adjusted to reflect the HP percentage at the time of combat end.)",
+          "Description": "Raise max HP by 15% of this Unit's base max HP when recovering from Stagger.\nThen, heal by 15% of current max HP. If at 30%- of current max HP, heal by 25% instead.\n(3 times per encounter.)\n(At combat end, revert to base max HP. Current HP value will be adjusted to reflect the HP percentage at the time of combat end.)",
           "MiscTags": []
         }
       }
@@ -7400,7 +7400,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Bygone Days",
-          "Description": "[Before Attack] At 4+ highest Res, gain +1 Atk Weight\nIf said Res was Gloom Res, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 20%)\nIf the highest Res was an X+ Gloom Res, heal 10% more of Max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 4+ Gloom Res, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
+          "Description": "[Before Attack] At 4+ highest Res, gain +1 Atk Weight\nIf said Res was Gloom Res, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 20%)\nIf the highest Res was an X+ Gloom Res, heal 10% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 4+ Gloom Res, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 17,
@@ -7424,7 +7424,7 @@
         },
         "Corrosion": {
           "Name": "Bygone Days",
-          "Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of Max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Res, heal 1 additional ally\nIf said Res was a Gloom Res, heal 5% more of Max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] Inflict 1 Gloom Fragility for every 3 Gloom Res (Max 2)\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
+          "Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Res, heal 1 additional ally\nIf said Res was a Gloom Res, heal 5% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] Inflict 1 Gloom Fragility for every 3 Gloom Res (Max 2)\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 28,
@@ -7485,7 +7485,7 @@
         },
         "Corrosion": {
           "Name": "Bygone Days",
-          "Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of Max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Res, heal 1 additional ally\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 3+ Gloom Res, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
+          "Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Res, heal 1 additional ally\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 3+ Gloom Res, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 28,
@@ -7573,7 +7573,7 @@
         },
         "Corrosion": {
           "Name": "Ardor Blossom Star",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Lose HP by 10% of Max HP\n<1>[After Attack] Inflict Burn by (2 x Wrath Res) on all units\n[On Hit] Raise Stagger Threshold by 60% of damage dealt",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Lose HP by 10% of max HP\n<1>[After Attack] Inflict Burn by (2 x Wrath Res) on all units\n[On Hit] Raise Stagger Threshold by 60% of damage dealt",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 41,
@@ -7629,7 +7629,7 @@
         },
         "Corrosion": {
           "Name": "Ardor Blossom Star",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Lose HP by 10% of Max HP\n<1>[On Hit] Inflict Burn by (2 x Wrath Res) on all units\n[On Hit] Raise Stagger Threshold by 60% of damage dealt",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Lose HP by 10% of max HP\n<1>[On Hit] Inflict Burn by (2 x Wrath Res) on all units\n[On Hit] Raise Stagger Threshold by 60% of damage dealt",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 41,
@@ -7690,7 +7690,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Wingbeat",
-          "Description": "If this Skill's healing exceeds this unit's Max HP, redirect the excess healing to 1 ally with the least HP percentage instead\n<1>[On Hit] Heal 20% of Max HP on self\n<2>[Heads Hit] Lose 1~2 SP\n[Heads Hit] Reuse this Coin (5 times per Skill)\n[On Hit] Heal self by 8~12% of damage dealt\n[On Hit] Inflict 1 Gluttony Fragility\n[On Hit] Inflict 1~4 Bleed",
+          "Description": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead\n<1>[On Hit] Heal 20% of max HP on self\n<2>[Heads Hit] Lose 1~2 SP\n[Heads Hit] Reuse this Coin (5 times per Skill)\n[On Hit] Heal self by 8~12% of damage dealt\n[On Hit] Inflict 1 Gluttony Fragility\n[On Hit] Inflict 1~4 Bleed",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -7713,7 +7713,7 @@
         },
         "Corrosion": {
           "Name": "Wingbeat",
-          "Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Deal 5% HP damage to at most 5 random other allies\nHeal HP on self equal to the damage dealt (including damage dealt to Shield HP) to allies\nDamage dealt by this effect can kill allies\nIf this unit dealt damage to an ally, gain 2 Attack Power Up this turn, and 2 Haste next turn\n[After Attack] If this Skill's healing exceeds this unit's Max HP, gain (excess heal/Max HP) x 10 Offense Level Up next turn (Max 6 per turn)\n<1>[Tails Hit] Heal self by 20% of damage dealt\n[Tails Hit] Inflict 3~6 Bleed\n[On Kill] Gain 1 Attack Power Up next turn (Max 3)",
+          "Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Deal 5% HP damage to at most 5 random other allies\nHeal HP on self equal to the damage dealt (including damage dealt to Shield HP) to allies\nDamage dealt by this effect can kill allies\nIf this unit dealt damage to an ally, gain 2 Attack Power Up this turn, and 2 Haste next turn\n[After Attack] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 Offense Level Up next turn (Max 6 per turn)\n<1>[Tails Hit] Heal self by 20% of damage dealt\n[Tails Hit] Inflict 3~6 Bleed\n[On Kill] Gain 1 Attack Power Up next turn (Max 3)",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 39,
@@ -7738,7 +7738,7 @@
         },
         "Passive": {
           "Name": "Gluttony",
-          "Description": "If the main target took HP damage this turn and isn't at Max HP at Skill Use:\n When this unit is at Max HP, deal +5~10% damage\n When this unit isn't at Max HP, heal 2~5 HP\n(7 times per turn)",
+          "Description": "If the main target took HP damage this turn and isn't at max HP at Skill Use:\n When this unit is at max HP, deal +5~10% damage\n When this unit isn't at max HP, heal 2~5 HP\n(7 times per turn)",
           "MiscTags": [
             "Heal HP"
           ]
@@ -7748,7 +7748,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Wingbeat",
-          "Description": "If this Skill's healing exceeds this unit's Max HP, redirect the excess healing to 1 ally with the least HP percentage instead\n<1>[On Hit] Heal 18% of Max HP on self\n<2>[Heads Hit] Lose 1~2 SP\n[Heads Hit] Reuse this Coin (5 times per Skill)\n[On Hit] Heal self by 6~10% of damage dealt\n[On Hit] Inflict 1 Gluttony Fragility\n[On Hit] Inflict 1~3 Bleed",
+          "Description": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead\n<1>[On Hit] Heal 18% of max HP on self\n<2>[Heads Hit] Lose 1~2 SP\n[Heads Hit] Reuse this Coin (5 times per Skill)\n[On Hit] Heal self by 6~10% of damage dealt\n[On Hit] Inflict 1 Gluttony Fragility\n[On Hit] Inflict 1~3 Bleed",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -7771,7 +7771,7 @@
         },
         "Corrosion": {
           "Name": "Wingbeat",
-          "Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 1)\n[Before Attack] Deal 5% HP damage to at most 5 random other allies\nHeal HP on self equal to the damage dealt (including damage dealt to Shield HP) to allies\nDamage dealt by this effect can kill allies\nIf this unit dealt damage to an ally, gain 2 Attack Power Up this turn, and 2 Haste next turn\n[After Attack] If this Skill's healing exceeds this unit's Max HP, gain (excess heal/Max HP) x 10 Offense Level Up next turn (Max 3 per turn)\n<1>[Tails Hit] Heal self by 15% of damage dealt\n[Tails Hit] Inflict 2~5 Bleed",
+          "Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 1)\n[Before Attack] Deal 5% HP damage to at most 5 random other allies\nHeal HP on self equal to the damage dealt (including damage dealt to Shield HP) to allies\nDamage dealt by this effect can kill allies\nIf this unit dealt damage to an ally, gain 2 Attack Power Up this turn, and 2 Haste next turn\n[After Attack] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 Offense Level Up next turn (Max 3 per turn)\n<1>[Tails Hit] Heal self by 15% of damage dealt\n[Tails Hit] Inflict 2~5 Bleed",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 39,
@@ -7796,7 +7796,7 @@
         },
         "Passive": {
           "Name": "Gluttony",
-          "Description": "If the main target took HP damage this turn and isn't at Max HP at Skill Use:\n When this unit is at Max HP, deal +5~10% damage\n When this unit isn't at Max HP, heal 2~5 HP\n(7 times per turn)",
+          "Description": "If the main target took HP damage this turn and isn't at max HP at Skill Use:\n When this unit is at max HP, deal +5~10% damage\n When this unit isn't at max HP, heal 2~5 HP\n(7 times per turn)",
           "MiscTags": [
             "Heal HP"
           ]
@@ -8005,7 +8005,7 @@
         },
         "Corrosion": {
           "Name": "Blind Obsession",
-          "Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Heal 3% of Max HP on self\n[On Hit] Gain 1 Poise and +1 Poise Count\n[On Hit] Inflict 3 Pride Fragility this turn and next turn\n[After Attack] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP",
+          "Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Heal 3% of max HP on self\n[On Hit] Gain 1 Poise and +1 Poise Count\n[On Hit] Inflict 3 Pride Fragility this turn and next turn\n[After Attack] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 35,
@@ -8063,7 +8063,7 @@
         },
         "Corrosion": {
           "Name": "Blind Obsession",
-          "Description": "[Indiscriminate] Targets randomly\n<1>[Tails Hit] Heal 3% of Max HP on self\n[On Hit] Gain 1 Poise and +1 Poise Count\n[On Hit] Inflict 2 Pride Fragility this turn and next turn\n[Tails Attack End] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP",
+          "Description": "[Indiscriminate] Targets randomly\n<1>[Tails Hit] Heal 3% of max HP on self\n[On Hit] Gain 1 Poise and +1 Poise Count\n[On Hit] Inflict 2 Pride Fragility this turn and next turn\n[Tails Attack End] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 30,
@@ -8553,7 +8553,7 @@
         },
         "Passive": {
           "Name": "Spark of Flame",
-          "Description": "After defeating an enemy that has Burn, heal HP by (Wrath A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that has Burn, heal HP by (Wrath A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -8603,7 +8603,7 @@
         },
         "Passive": {
           "Name": "Spark of Flame",
-          "Description": "After defeating an enemy that has Burn, heal HP by (Wrath A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that has Burn, heal HP by (Wrath A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -8641,7 +8641,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Pursuance",
-          "Description": "<1>[On Hit] Inflict 1 Sloth Fragility next turn\n[After Attack] Heal 2 other allies with the least HP percentage for 30% of this unit's Max HP\n[Heads Attack End] If the target is Staggered or defeated, apply 15% of this unit's Max HP as Shield to allies that this unit healed",
+          "Description": "<1>[On Hit] Inflict 1 Sloth Fragility next turn\n[After Attack] Heal 2 other allies with the least HP percentage for 30% of this unit's max HP\n[Heads Attack End] If the target is Staggered or defeated, apply 15% of this unit's max HP as Shield to allies that this unit healed",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 26,
@@ -8684,7 +8684,7 @@
         },
         "Passive": {
           "Name": "Sentencing from Above",
-          "Description": "Whenever an enemy is Staggered, the ally with the least HP percentage heals 4% of their Max HP. (Once per turn)",
+          "Description": "Whenever an enemy is Staggered, the ally with the least HP percentage heals 4% of their max HP. (Once per turn)",
           "MiscTags": [
             "Ally Heal HP"
           ]
@@ -8694,7 +8694,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Pursuance",
-          "Description": "<1>[Heads Hit] Inflict 1 Sloth Fragility next turn\n[After Attack] Heal 2 other allies with the least HP percentage for 25% of this unit's Max HP\n[Heads Attack End] If the target is Staggered or defeated, apply 10% of this unit's Max HP as Shield to allies that this unit healed",
+          "Description": "<1>[Heads Hit] Inflict 1 Sloth Fragility next turn\n[After Attack] Heal 2 other allies with the least HP percentage for 25% of this unit's max HP\n[Heads Attack End] If the target is Staggered or defeated, apply 10% of this unit's max HP as Shield to allies that this unit healed",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 26,
@@ -8737,7 +8737,7 @@
         },
         "Passive": {
           "Name": "Sentencing from Above",
-          "Description": "Whenever an enemy is Staggered, the ally with the least HP percentage heals 4% of their Max HP. (Once per turn)",
+          "Description": "Whenever an enemy is Staggered, the ally with the least HP percentage heals 4% of their max HP. (Once per turn)",
           "MiscTags": [
             "Ally Heal HP"
           ]
@@ -8775,7 +8775,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Hex Nail",
-          "Description": "[After Attack] Heal self and 2 other allies with the least HP percentage for 15% of this unit's Max HP\nEach heal-receiving unit heals +2.5% more HP for every negative effect on themselves (Max 10%)\nAt 4+ Envy Res, including this Skill, heal 1 additional ally\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 3 Curse\n[Heads Hit] Inflict 3 Nails",
+          "Description": "[After Attack] Heal self and 2 other allies with the least HP percentage for 15% of this unit's max HP\nEach heal-receiving unit heals +2.5% more HP for every negative effect on themselves (Max 10%)\nAt 4+ Envy Res, including this Skill, heal 1 additional ally\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 3 Curse\n[Heads Hit] Inflict 3 Nails",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 8,
@@ -8798,7 +8798,7 @@
         },
         "Corrosion": {
           "Name": "Hex Nail",
-          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Heal 3 other allies with the least HP percentage for 20% of this unit's Max HP\nEach heal-receiving unit gains 1 Offense Level Up until next turn for every negative effect on themselves (Max 3)\nAt 4+ Envy Res, including this Skill, heal 1 additional ally\n<1>[On Hit] Inflict 4 Bleed\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 3 Curse\n[Tails Hit] Inflict 3 Nails",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Heal 3 other allies with the least HP percentage for 20% of this unit's max HP\nEach heal-receiving unit gains 1 Offense Level Up until next turn for every negative effect on themselves (Max 3)\nAt 4+ Envy Res, including this Skill, heal 1 additional ally\n<1>[On Hit] Inflict 4 Bleed\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 3 Curse\n[Tails Hit] Inflict 3 Nails",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 28,
@@ -8834,7 +8834,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Hex Nail",
-          "Description": "[After Attack] Heal self and 2 other allies with the least HP percentage for 12.5% of this unit's Max HP\nEach heal-receiving unit heals +2.5% more HP for every negative effect on themselves (Max 7.5%)\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 2 Curse\n[Heads Hit] Inflict 2 Nails",
+          "Description": "[After Attack] Heal self and 2 other allies with the least HP percentage for 12.5% of this unit's max HP\nEach heal-receiving unit heals +2.5% more HP for every negative effect on themselves (Max 7.5%)\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 2 Curse\n[Heads Hit] Inflict 2 Nails",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 6,
@@ -8857,7 +8857,7 @@
         },
         "Corrosion": {
           "Name": "Hex Nail",
-          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Heal 3 other allies with the least HP percentage for 15% of this unit's Max HP\nEach heal-receiving unit gains 1 Offense Level Up until next turn for every negative effect on themselves (Max 2)\n<1>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Curse\n[Tails Hit] Inflict 2 Nails",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Heal 3 other allies with the least HP percentage for 15% of this unit's max HP\nEach heal-receiving unit gains 1 Offense Level Up until next turn for every negative effect on themselves (Max 2)\n<1>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Curse\n[Tails Hit] Inflict 2 Nails",
           "DamageType": "Slash",
           "SinType": "Envy",
           "BasePower": 24,
@@ -9020,6 +9020,154 @@
     ]
   },
   {
+    "Id": 9000,
+    "Sinner": "Rodion",
+    "Grade": "WAW",
+    "Sanity": 15,
+    "CorrosionSanity": 40,
+    "Abnormality": "Burning Duchess",
+    "SinResist": {
+      "Wrath": 0.5,
+      "Lust": 2,
+      "Sloth": 1,
+      "Gluttony": 0.75,
+      "Gloom": 2,
+      "Pride": 0.5,
+      "Envy": 1
+    },
+    "Cost": {
+      "Wrath": 7,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 3,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Indicant's Trial",
+          "Description": "[Before Attack] Gain (Highest Res / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Res) allies with the least HP percentages for 20% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Res / 3)) Searing Birdcage next turn on main target (Max 3; rounded down)",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 8,
+          "CoinPower": 8,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 4,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Ally Heal HP",
+            "Self SP Damage",
+            "Burn",
+            "Searing Birdcage"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Indicant's Trial",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] Inflict +1 Burn Count\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Res) Searing Birdcage next turn on main target (Max 5)\n<2>[Unbreakable Coin]\nDeal +2% damage on main target for every Burn on main target (Max 100%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Res) allies with the least HP percentages (Max 6 allies; once per Skill)",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 8,
+          "CoinPower": 8,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 4,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Unbreakable Coin",
+            "Burn",
+            "Burn Count",
+            "Searing Birdcage",
+            "Ally Wrath DMG Up",
+            "Ally Wrath Power Up"
+          ]
+        },
+        "Passive": {
+          "Name": "Blazing Amusement",
+          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 1 ally with the least SP instead",
+          "MiscTags": [
+            "Burn Count",
+            "Heal SP",
+            "Ally Heal SP"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Indicant's Trial",
+          "Description": "[Before Attack] Gain (Highest Res / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Res) allies with the least HP percentages for 18% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Res / 3)) Searing Birdcage next turn on main target (Max 3; rounded down)",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 8,
+          "CoinPower": 8,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 4,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Ally Heal HP",
+            "Self SP Damage",
+            "Burn",
+            "Searing Birdcage"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Indicant's Trial",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Res) Searing Birdcage next turn on main target (Max 4)\n<2>[Unbreakable Coin]\nDeal +1% damage on main target for every Burn on main target (Max 50%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Res) allies with the least HP percentages (Max 5 allies; once per Skill)",
+          "DamageType": "Pierce",
+          "SinType": "Wrath",
+          "BasePower": 8,
+          "CoinPower": 8,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 4,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Unbreakable Coin",
+            "Burn",
+            "Burn Count",
+            "Searing Birdcage",
+            "Ally Wrath DMG Up",
+            "Ally Wrath Power Up"
+          ]
+        },
+        "Passive": {
+          "Name": "Blazing Amusement",
+          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 1 ally with the least SP instead",
+          "MiscTags": [
+            "Burn Count",
+            "Heal SP",
+            "Ally Heal SP"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 11101,
     "Sinner": "Sinclair",
     "Grade": "ZAYIN",
@@ -9167,7 +9315,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Cavernous Wailing",
-          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n<1>[After Attack] Apply 20% of this unit's Max HP as Shield to self and (1 + (Highest Res - 2)) allies with the least Current HP, and apply 2 Blubberbubble as well (Max 3 other allies)\nIf the affected ally already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ highest Gloom A-Res, this skill's above effects change to 'apply 3 Blubberbubble' and 'change the Blubberbubble value to 3' instead",
+          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n<1>[After Attack] Apply 20% of this unit's max HP as Shield to self and (1 + (Highest Res - 2)) allies with the least Current HP, and apply 2 Blubberbubble as well (Max 3 other allies)\nIf the affected ally already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ highest Gloom A-Res, this skill's above effects change to 'apply 3 Blubberbubble' and 'change the Blubberbubble value to 3' instead",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 16,
@@ -9190,7 +9338,7 @@
         },
         "Corrosion": {
           "Name": "Cavernous Wailing",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Gain +10 Aggro next turn\n<1>[On Hit] Inflict 2 Sinking and +3 Sinking Count\n[After Attack] Gain (20 + 5(Highest Res))% of this unit's Max HP as Shield to self and gain 2 Blubberbubble (Max 40%)\nIf this unit already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ Highest Gloom A-Res, this Skill's above effects change to 'Gain 3 Blubberbubble' and 'Change the Blubberbubble value to 3' instead.\nAt 4+ Gloom Res, gain additional Shield equal to 10% of this unit's Max HP",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Gain +10 Aggro next turn\n<1>[On Hit] Inflict 2 Sinking and +3 Sinking Count\n[After Attack] Gain (20 + 5(Highest Res))% of this unit's max HP as Shield to self and gain 2 Blubberbubble (Max 40%)\nIf this unit already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ Highest Gloom A-Res, this Skill's above effects change to 'Gain 3 Blubberbubble' and 'Change the Blubberbubble value to 3' instead.\nAt 4+ Gloom Res, gain additional Shield equal to 10% of this unit's max HP",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 24,
@@ -9224,7 +9372,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Cavernous Wailing",
-          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n<1>[After Attack] Apply 14% of this unit's Max HP as Shield to self and (1 + (Highest Res - 2)) allies with the least Current HP, and apply 2 Blubberbubble as well (Max 3 other allies)\nIf the affected ally already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ highest Gloom A-Res, this skill's above effects change to 'apply 3 Blubberbubble' and 'change the Blubberbubble value to 3' instead",
+          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n<1>[After Attack] Apply 14% of this unit's max HP as Shield to self and (1 + (Highest Res - 2)) allies with the least Current HP, and apply 2 Blubberbubble as well (Max 3 other allies)\nIf the affected ally already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ highest Gloom A-Res, this skill's above effects change to 'apply 3 Blubberbubble' and 'change the Blubberbubble value to 3' instead",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 16,
@@ -9247,7 +9395,7 @@
         },
         "Corrosion": {
           "Name": "Cavernous Wailing",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Gain +10 Aggro next turn\n<1>[On Hit] Inflict 2 Sinking\n[After Attack] Gain (18 + 3(Highest Res))% of this unit's Max HP as Shield to self and gain 2 Blubberbubble (Max 30%)\nIf this unit already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ Highest Gloom A-Res, this Skill's above effects change to 'Gain 3 Blubberbubble' and 'Change the Blubberbubble value to 3' instead.\nAt 4+ Gloom Res, gain additional Shield equal to 10% of this unit's Max HP",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[Before Attack] Gain +10 Aggro next turn\n<1>[On Hit] Inflict 2 Sinking\n[After Attack] Gain (18 + 3(Highest Res))% of this unit's max HP as Shield to self and gain 2 Blubberbubble (Max 30%)\nIf this unit already has Blubberbubble, change the Blubberbubble value to 2\nAt 4+ Highest Gloom A-Res, this Skill's above effects change to 'Gain 3 Blubberbubble' and 'Change the Blubberbubble value to 3' instead.\nAt 4+ Gloom Res, gain additional Shield equal to 10% of this unit's max HP",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 24,
@@ -9309,7 +9457,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Impending Day",
-          "Description": "If target's HP is below 25%, +40% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their Max HP",
+          "Description": "If target's HP is below 25%, +40% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 28,
@@ -9359,7 +9507,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Impending Day",
-          "Description": "If target's HP is below 25%, +20% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their Max HP",
+          "Description": "If target's HP is below 25%, +20% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 28,
@@ -9437,7 +9585,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Lifetime Stew",
-          "Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's Max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
+          "Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
           "DamageType": "Blunt",
           "SinType": "Lust",
           "BasePower": 18,
@@ -9495,7 +9643,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Lifetime Stew",
-          "Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's Max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
+          "Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
           "DamageType": "Blunt",
           "SinType": "Lust",
           "BasePower": 18,
@@ -9730,7 +9878,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Lantern",
-          "Description": "[Before Attack] At 50%- HP, Attack Weight +2\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 15% of Max HP",
+          "Description": "[Before Attack] At 50%- HP, Attack Weight +2\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 15% of max HP",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 18,
@@ -9776,7 +9924,7 @@
         },
         "Passive": {
           "Name": "Fairy Lure",
-          "Description": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal 3% of Max HP + (Gluttony A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal 3% of max HP + (Gluttony A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -9786,7 +9934,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Lantern",
-          "Description": "[Before Attack] At 50%- HP, Attack Weight +1\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 12% of Max HP",
+          "Description": "[Before Attack] At 50%- HP, Attack Weight +1\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 12% of max HP",
           "DamageType": "Slash",
           "SinType": "Gluttony",
           "BasePower": 18,
@@ -9832,7 +9980,7 @@
         },
         "Passive": {
           "Name": "Fairy Lure",
-          "Description": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal 3% of Max HP + (Gluttony A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that mainly targets this unit at the start of the combat phase, heal 3% of max HP + (Gluttony A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -11393,7 +11541,7 @@
         },
         "Passive": {
           "Name": "Nutrient Absorption",
-          "Description": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -11444,7 +11592,7 @@
         },
         "Passive": {
           "Name": "Nutrient Absorption",
-          "Description": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Res)% of Max HP.",
+          "Description": "After defeating an enemy that has Rupture, heal HP by (Gluttony A-Res)% of max HP.",
           "MiscTags": [
             "Heal HP"
           ]
@@ -11482,7 +11630,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Bygone Days",
-          "Description": "[After Attack] Heal 15 SP to self and 2 other allies with the least SP\nIf the target survives this attack, consume 3 Sinking Count on target, then heal additional SP (to self & affected allies) equal to Sinking on target (Max SP heal: 20)\nIf the target is defeated, inflict 3 Sinking and 1 Curse on 3 random enemies (For Focused Encounters, random Parts)",
+          "Description": "[After Attack] Heal 15 SP to self and 2 other allies with the least SP\nIf the target survives this attack, consume 3 Sinking Count on target, then heal additional SP (to self & affected allies) equal to Sinking on target (max SP heal: 20)\nIf the target is defeated, inflict 3 Sinking and 1 Curse on 3 random enemies (For Focused Encounters, random Parts)",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 20,
@@ -11536,7 +11684,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Bygone Days",
-          "Description": "[After Attack] Heal 12 SP to self and 2 other allies with the least SP\nIf the target survives this attack, consume 5 Sinking Count on target, then heal additional SP (to self & affected allies) equal to Sinking on target (Max SP heal: 20)\nIf the target is defeated, inflict 3 Sinking and 1 Curse on 2 random enemies (For Focused Encounters, random Parts)",
+          "Description": "[After Attack] Heal 12 SP to self and 2 other allies with the least SP\nIf the target survives this attack, consume 5 Sinking Count on target, then heal additional SP (to self & affected allies) equal to Sinking on target (max SP heal: 20)\nIf the target is defeated, inflict 3 Sinking and 1 Curse on 2 random enemies (For Focused Encounters, random Parts)",
           "DamageType": "Pierce",
           "SinType": "Gloom",
           "BasePower": 20,
@@ -11884,7 +12032,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Christmas Nightmare",
-          "Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At Max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Res)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the Highest Res next turn",
+          "Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Res)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the Highest Res next turn",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 12,
@@ -11949,7 +12097,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Christmas Nightmare",
-          "Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At Max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Res)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
+          "Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Res)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 12,
@@ -12040,7 +12188,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Garden of Thorns",
-          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 3)\n[On Use] Apply 1 (Corresponding Sin Affinity) Damage Up and 1 (Corresponding Sin Affinity) Power Up to (4 + Highest Res) allies.\nAt 4+ Corresponding Res, apply 1 additional Corresponding Sin Damage Up\nAt 5+ Corresponding Res, apply 1 additional Corresponding Sin Power Up\nAt 6+ Corresponding Res, apply the above effects next turn as well\n<1>[After Attack] Heal 4 allies with the lowest HP percentages for 22% of their Max HP\nHeal (Highest Res - 2) more allies (Max 3)",
+          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 3)\n[On Use] Apply 1 (Corresponding Sin Affinity) Damage Up and 1 (Corresponding Sin Affinity) Power Up to (4 + Highest Res) allies.\nAt 4+ Corresponding Res, apply 1 additional Corresponding Sin Damage Up\nAt 5+ Corresponding Res, apply 1 additional Corresponding Sin Power Up\nAt 6+ Corresponding Res, apply the above effects next turn as well\n<1>[After Attack] Heal 4 allies with the lowest HP percentages for 22% of their max HP\nHeal (Highest Res - 2) more allies (Max 3)",
           "DamageType": "Slash",
           "SinType": "Lust",
           "BasePower": 20,
@@ -12095,7 +12243,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Garden of Thorns",
-          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[On Use] Apply 1 (Corresponding Sin Affinity) Damage Up and 1 (Corresponding Sin Affinity) Power Up to (2 + Highest Res) allies.\nAt 4+ Corresponding Res, apply 1 additional Corresponding Sin Damage Up\nAt 5+ Corresponding Res, apply 1 additional Corresponding Sin Power Up\n<1>[After Attack] Heal 2 allies with the lowest HP percentages for 18% of their Max HP\nHeal (Highest Res - 2) more allies (Max 3)",
+          "Description": "[Before Attack] Gain (Highest Res - 2) Atk Weight (Max 2)\n[On Use] Apply 1 (Corresponding Sin Affinity) Damage Up and 1 (Corresponding Sin Affinity) Power Up to (2 + Highest Res) allies.\nAt 4+ Corresponding Res, apply 1 additional Corresponding Sin Damage Up\nAt 5+ Corresponding Res, apply 1 additional Corresponding Sin Power Up\n<1>[After Attack] Heal 2 allies with the lowest HP percentages for 18% of their max HP\nHeal (Highest Res - 2) more allies (Max 3)",
           "DamageType": "Slash",
           "SinType": "Lust",
           "BasePower": 20,

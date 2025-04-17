@@ -5348,7 +5348,7 @@
         },
         "SkillTwo": {
           "Name": "E.G.O - A.B.S. Activation",
-          "Description": "[On Use] Deal +10% damage for every 10 Burn on self (Max 20%)\n[On Use] Gain +4 Burn Count\n[On Use] Coin Power +1 for every 4 (Burn on self and target) (Max 2)\n<1>[On Use] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[Unbreakable Coin]\n[On Hit without Breaking] Inflict 3 Burn\n[On Hit] If target has 15+ Burn, inflict +2 Burn Count",
+          "Description": "[On Use] Deal +10% damage for every 10 Burn on self (Max 20%)\n[On Use] Gain +4 Burn Count\n[On Use] Coin Power +1 for every 4 (Burn on self and target) (Max 2)\n<1>[On Use] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 3 Burn\n[On Hit] If target has 15+ Burn, inflict +2 Burn Count",
           "DamageType": "Blunt",
           "SinType": "Pride",
           "BasePower": 4,
@@ -5503,7 +5503,7 @@
         },
         "SkillTwo": {
           "Name": "E.G.O - A.B.S. Activation",
-          "Description": "[On Use] Deal +10% damage for every 10 Burn on self (Max 20%)\n[On Use] Gain +4 Burn Count\n[On Use] At 4+ (Burn on self and target), Coin Power +1\n<1>[On Use] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[Unbreakable Coin]\n[On Hit without Breaking] Inflict 3 Burn",
+          "Description": "[On Use] Deal +10% damage for every 10 Burn on self (Max 20%)\n[On Use] Gain +4 Burn Count\n[On Use] At 4+ (Burn on self and target), Coin Power +1\n<1>[On Use] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 3 Burn",
           "DamageType": "Blunt",
           "SinType": "Pride",
           "BasePower": 3,

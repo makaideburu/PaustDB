@@ -463,70 +463,70 @@
     "Name": "Slash Resist Down",
     "Description": "Decrease Slash Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Pierce Resist Down",
     "Description": "Decrease Pierce Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Blunt Resist Down",
     "Description": "Decrease Blunt Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Wrath Resist Down",
     "Description": "Decrease Wrath Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Lust Resist Down",
     "Description": "Decrease Lust Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Sloth Resist Down",
     "Description": "Decrease Sloth Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Gluttony Resist Down",
     "Description": "Decrease Gluttony Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Gloom Resist Down",
     "Description": "Decrease Gloom Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Pride Resist Down",
     "Description": "Decrease Pride Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
     "Name": "Envy Resist Down",
     "Description": "Decrease Envy Resistance based on Stack (0.1 per Stack)",
     "Tags": [
-      "Resist Down"
+      "Resistance Down"
     ]
   },
   {
@@ -711,7 +711,7 @@
     "Name": "Weakness Analyzed",
     "Description": "A random 'Endured' or 'Normal' Attack type resistance is reduced by 0.2 for one turn.",
     "Tags": [
-      "Resist down"
+      "Resistance Down"
     ]
   },
   {
@@ -1753,7 +1753,7 @@
     "Name": "Requested Target",
     "Description": "+0.2 Resistance to Attack Types with 1.5 or less Resistance.\nIf the target with this effect is defeated, gain 1 E.G.O Resource for all Affinities, and the unit that defeated the targt heals 10 SP",
     "Tags": [
-      "Resist Down",
+      "Resistance Down",
       "Gain Resources",
       "Heal SP"
     ]
@@ -1930,6 +1930,14 @@
     "Description": "Max Stack: 1\nExpires at Turn End\nEvery Identity treats this unit as having their Vengeance Mark",
     "Tags":[
       "Vengeance Mark"
+    ]
+  },
+  {
+    "Name": "Searing Birdcage",
+    "Description": "Max Stack: 5\nIf this unit has Burn, weaken Wrath Resist by 0.1 for every Stack (Does not weaken past 2.0)\nTurn End: Gain Bind equal to Stack next turn\nTurn End: Halve stack\nCannot gain additional Stacks of this effect while it is already active",
+    "Tags":[
+      "Wrath Resistance Down",
+      "Bind"
     ]
   }
 ]

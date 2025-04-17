@@ -119,6 +119,24 @@
     ]
   },
   {
+    "entry": "wrath resistance down",
+    "aliases":[
+      "resistance down"
+    ]
+  },
+  {
+    "entry": "pierce resistance down",
+    "aliases":[
+      "resistance down"
+    ]
+  },
+  {
+    "entry": "self pierce resistance down",
+    "aliases":[
+      "self resistance down"
+    ]
+  },
+  {
     "entry": "burn count",
     "aliases": [
       "burn"
@@ -364,7 +382,7 @@
   {
     "entry": "weakness analyzed",
     "aliases": [
-      "resist down"
+      "resistance down"
     ]
   },
   {
@@ -801,7 +819,7 @@
   {
     "entry": "requested target",
     "aliases": [
-      "resist down",
+      "resistance down",
       "gain resources",
       "heal sp"
     ]
@@ -981,6 +999,13 @@
     "entry": "sibling vengeance mark",
     "aliases":[
       "vengeance mark"
+    ]
+  },
+  {
+    "entry": "searing birdcage",
+    "aliases":[
+      "wrath resistance down",
+      "bind"
     ]
   }
 ]
