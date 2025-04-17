@@ -9097,7 +9097,7 @@
         },
         "Passive": {
           "Name": "Blazing Amusement",
-          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 1 ally with the least SP instead",
+          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 5 SP for 1 ally with the least SP instead",
           "MiscTags": [
             "Burn Count",
             "Heal SP",
@@ -9149,7 +9149,6 @@
             "Attack Weight Increase",
             "Unbreakable Coin",
             "Burn",
-            "Burn Count",
             "Searing Birdcage",
             "Ally Wrath DMG Up",
             "Ally Wrath Power Up"
@@ -9157,7 +9156,7 @@
         },
         "Passive": {
           "Name": "Blazing Amusement",
-          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 1 ally with the least SP instead",
+          "Description": "When a target with 10+ Burn Count is defeated, inflict the Burn Count on target between all enemies and heal 8 SP on self (In Focused Encounters, all Parts; max 3 per target, 2 times per turn)\nAt max SP, heal 5 SP for 1 ally with the least SP instead",
           "MiscTags": [
             "Burn Count",
             "Heal SP",
