@@ -6949,7 +6949,7 @@
     "Cost": 410,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count; next turn, gain 1 Plus Coin Boost\nAfter Attack with Skill 3 that consumed Charge Count on self: If target is defeated or at 3+ Charge Count, add 1 Skill 3 to Skill List for the upcoming turn. (Once per turn per ally; Unique Charge does not activate this)",
+        "Description": "Encounter Start: Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count; next turn, gain 1 Plus Coin Boost\nAfter Attack with Skill 3 that consumed Charge Count on self: If target is defeated or at 3+ Charge, add 1 Skill 3 to Skill List for the upcoming turn. (Once per turn per ally; Unique Charge does not activate this)",
         "Rank": 1,
         "MiscTags": [
           "Charge Count",
