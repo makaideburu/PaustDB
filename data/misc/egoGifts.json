@@ -659,7 +659,7 @@
     "Cost": 432,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage Identites: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -12; 'To Claim Their Bones' Skill deals +50% damage.",
+        "Description": "Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage Identites: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -12; 'To Claim Their Bones' Skill deals +50% damage.",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Blade Lineage",
@@ -740,7 +740,7 @@
     "Cost": 432,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage allies with Poise have a fixed Critical rate of 100%.",
+        "Description": "Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage allies with Poise have a fixed Critical rate of 100%.",
         "Rank": 1,
         "MiscTags": [
           "Slash Damage Amp"
@@ -829,7 +829,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 3 or more Kurokumo Clan Identities.\nTurn Start: All allies gain 2 Slash Power Up, and deal +35% Slash damage.\nTurn Start: When a Kurokumo Clan Identity deals damage for the first time, inflict an additional 4 Bleed and +4 Bleed Count (Once per turn).",
+        "Description": "Activates when there are 3 or more Kurokumo Clan Identities.\nTurn Start: All allies gain 2 Slash Power Up, and deal +35% Slash damage.\nTurn Start: When a Kurokumo Clan Identity deals damage for the first time, inflict an additional 4 Bleed and +4 Bleed Count (Once per turn).",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Kurokumo Clan",
@@ -876,11 +876,14 @@
     "Cost": 406,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn End: All allies gain 3 Charge Barrier next turn.\nTurn Start: All allies gain ((Charge Count + Unique Charge / 5) + 1) Damage Up (Max 5, rounded up)\nEvery time an Identity consumes 20 Charge Count, it gains 1 Charge. (2 times per Encounter per Identity, does not count Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense level Up at Turn Start. (Maxes at 40 consumed Charge Count)",
+        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (Maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain ((Charge Count + Unique Charge) / 5 + 1) Damage Up (Max 9; rounded up)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (Maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 20 Charge Count (2 times per Identity per Encounter, Unique Charge does not count)\nAfter Attack of a Skill that consumed Charge Count on self: Inflict (Charge - 1) Defense Level Down (5 times per enemy per turn; max 3 Defense Level Down)",
         "Rank": 1,
         "MiscTags": [
           "Charge Barrier",
-          "Damage Up"
+          "Offense Level Up",
+          "Damage Up",
+          "Charge",
+          "Defense Level Down"
         ]
       }
     ],
@@ -942,7 +945,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 3 or more Blade Lineage Identities.\nTurn Start: All allies gain 2 Slash Power Up, and deal +35% Slash damage.\nTurn Start: When a Blade Lineage Identity Critically Hits, deal additional Pride damage equal to Poise on self.",
+        "Description": "Activates when there are 3 or more Blade Lineage Identities.\nTurn Start: All allies gain 2 Slash Power Up, and deal +35% Slash damage.\nTurn Start: When a Blade Lineage Identity Critically Hits, deal additional Pride damage equal to Poise on self.",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Blade Lineage",
@@ -5662,7 +5665,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor triggers Amplitude Conversion on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor triggers Amplitude Conversion on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -5686,7 +5689,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor deals damage to a slower enemy with 2+ Speed difference between them: Deal +(Tremor on target)% more damage (Max 25%) and inflict 2 Defense Level Down every time the ally deals damage. (Max 6)",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor deals damage to a slower enemy with 2+ Speed difference between them: Deal +(Tremor on target)% more damage (Max 25%) and inflict 2 Defense Level Down every time the ally deals damage. (Max 6)",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -5710,7 +5713,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nYurodivy Identities: Skill 3 gains Coin Power +2 and deal +(25 x (Sum of Tremor and Tremor Count on target))% damage instead. (Max 100%)\nYurodivy Identities: Gain +3 Tremor Count at Turn Start.",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nYurodivy Identities: Skill 3 gains Coin Power +2 and deal +(25 x (Sum of Tremor and Tremor Count on target))% damage instead. (Max 100%)\nYurodivy Identities: Gain +3 Tremor Count at Turn Start.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -5733,7 +5736,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor Clashes against a faster enemy with 2+ Speed difference: Clash Power +2 and deal +(Tremor on target)% more damage. (Max 50%)\nTurn Start: From slowest to fastest, the 3 slowest allies gain 5 Offense Level Up, 3 Offense Level Up, and 2 Offense Level up respectively.",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor Clashes against a faster enemy with 2+ Speed difference: Clash Power +2 and deal +(Tremor on target)% more damage. (Max 50%)\nTurn Start: From slowest to fastest, the 3 slowest allies gain 5 Offense Level Up, 3 Offense Level Up, and 2 Offense Level up respectively.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -6561,7 +6564,7 @@
     "Cost": 404,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities that have Attack Skills that apply Burn or Unique Burn. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nOn Hit with a Skill (including E.G.O Skills): If the target has 3+ Burn Count, Activate Burn once on target (target loses 1 Burn Count; activates once per Skill)\nTurn End: Targets with 3+ Burn Count Activate Burn one more time (target loses 1 Burn Count)\nIf a target with Burn is defeated (for Abnormalities, their Core), inflict its remaining Burn to one enemy with the least Burn at next Turn Start\nTurn Start: Inflict 4 Offense level Down to enemies with Burn\nIf a target with Burn is defeated, at next Turn Start, (defeated enemy's Burn / 15) allies with Skills that inflict Burn gain 2 Damage Up. (once per turn)",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Burn or Unique Burn. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nOn Hit with a Skill (including E.G.O Skills): If the target has 3+ Burn Count, Activate Burn once on target (target loses 1 Burn Count; activates once per Skill)\nTurn End: Targets with 3+ Burn Count Activate Burn one more time (target loses 1 Burn Count)\nIf a target with Burn is defeated (for Abnormalities, their Core), inflict its remaining Burn to one enemy with the least Burn at next Turn Start\nTurn Start: Inflict 4 Offense level Down to enemies with Burn\nIf a target with Burn is defeated, at next Turn Start, (defeated enemy's Burn / 15) allies with Skills that inflict Burn gain 2 Damage Up. (once per turn)",
         "Rank": 1,
         "MiscTags": [
           "Burn Proc",
@@ -6928,7 +6931,7 @@
     "Cost": 205,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
+        "Description": "Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
         "Rank": 1,
         "MiscTags": [
           "Charge Count",
@@ -6949,7 +6952,7 @@
     "Cost": 410,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count; next turn, gain 1 Plus Coin Boost\nAfter Attack with Skill 3 that consumed Charge Count on self: If target is defeated or at 3+ Charge, add 1 Skill 3 to Skill List for the upcoming turn. (Once per turn per ally; Unique Charge does not activate this)",
+        "Description": "Activates when there are 5+ Identities with Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field at Encounter Start)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count; next turn, gain 1 Plus Coin Boost\nAfter Attack with Skill 3 that consumed Charge Count on self: If target is defeated or at 3+ Charge, add 1 Skill 3 to Skill List for the upcoming turn. (Once per turn per ally; Unique Charge does not activate this)",
         "Rank": 1,
         "MiscTags": [
           "Charge Count",
@@ -8641,7 +8644,7 @@
     "Cost": 401,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when there are 2 or more The Middle Identities (only counts Identities on field at Encounter Start)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf target has Vengeance mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
+        "Description": "Activates when there are 2 or more The Middle Identities (only counts Identities on field at Encounter Start)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf target has Vengeance mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: The Middle",
@@ -8668,7 +8671,7 @@
     "Cost": 407,
     "Upgrades": [
       {
-        "Description": "Encounter Start: Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills)\nWhen defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (Max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (Max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (Max 2)\nWhen clashing against targets with Deathrite [Haste], gain (Rupture / 10) Coin Power instead (Max 2)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills)\nWhen defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (Max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (Max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (Max 2)\nWhen clashing against targets with Deathrite [Haste], gain (Rupture / 10) Coin Power instead (Max 2)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)",
         "Rank": 1,
         "MiscTags": [
           "Rupture",
