@@ -16533,11 +16533,11 @@
           "Description": "Ally Identity with the most Ammo deals +10% damage with Skills that spend Ammo (Does not activate when out of Ammo)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Damage Amp"
           ]
@@ -16755,6 +16755,137 @@
         "SupportSkill": {
           "Name": "Suppressing Fire",
           "Description": "Ally Identity with the most Ammo deals +10% damage with Skills that spend Ammo (Does not activate when out of Ammo)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Damage Amp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 6000,
+    "Sinner": "Hong Lu",
+    "Identity": "R Corp. 4th Pack Reindeer",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Energy Strike",
+          "Description": "Deal more damage for every Charge\nAt X+ Charge, Coin Power +Y\nAt X+ Charge Count, Coin Power +Y\n[On Use] Gain Charge Count\n<1>[On Hit] Gain (Charge + X) Charge Count\n<2>[On Hit] Inflict Sinking",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count",
+            "Sinking"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Mind Whip",
+          "Description": "Deal more damage for every Charge\n[On Use] At X~Y Charge Count:\n-Gain Sinking and raise Charge Count to Z\n-This Skill gains [Indiscriminate], Unfocused Volley, and additional Atk Weight\n-[Before Use] At W+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] Consume X Charge Count to gain Coin Power +Y\n[Before Attack] At X+ Remaining Charge Count, consume Y Charge Count to deal more damage\n<1>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<2>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<3>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<4>[On Hit] Inflict Sinking Count\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 4,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Conditional Indiscriminate",
+            "Unfocused Volley",
+            "Attack Weight Increase",
+            "Spend Charge Count",
+            "Sinking",
+            "Raise Stagger Threshold",
+            "Sinking Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Concentration",
+          "Description": "Base Power +X, Coin Power +Y for every Charge\nAt X+ Charge Count, Final Power +Y\n[On Use] Gain Charge Count\n<1>Deal +(Final Power x X)% damage\nAt X+ Charge, deal more damage for every Charge\n[On Hit] Gain +(Charge x X) Charge Count\n[On Hit] Inflict Sinking and Sinking Count",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count",
+            "Sinking",
+            "Sinking Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Energy Condensation",
+          "Description": "[On Use] At X+ Charge Count, Coin Power +Y\n[On Use] Gain Charge Count",
+          "DamageType": "Defend",
+          "SinType": "Envy",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Brainwave Charge-focusing Antlers",
+          "Description": "Gain Charge every time this unit consumes X cumulative Charge Count in this Encounter\nAt X+ Charge:\n-Inflict more Sinking with Base Attack Skills for every Y Charge (does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x Z)% damage with Base Attack Skills",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Charge"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Charged Pulverization Support",
+          "Description": "1 ally with the most Charge: When using a Base Attack Skill that gains Charge Count, deal more damage with the final Coin",
           "PassiveResources": [
             {
               "ResourceSin": "None",
@@ -18240,7 +18371,7 @@
         },
         "SkillThree": {
           "Name": "Spread Out!",
-          "Description": "[On use] Gain 6 Sinking and +3 Sinking Count\n<1>[Tails Hit] Inflict 1 Paralyze next turn\n<3>[On Hit] Inflict 5 Rupture\n[Tails Hit] Inflict 1 Fragile next turn",
+          "Description": "[On Use] Gain 6 Sinking and +3 Sinking Count\n<1>[Tails Hit] Inflict 1 Paralyze next turn\n<3>[On Hit] Inflict 5 Rupture\n[Tails Hit] Inflict 1 Fragile next turn",
           "DamageType": "Pierce",
           "SinType": "Sloth",
           "BasePower": 18,
@@ -18363,7 +18494,7 @@
         },
         "SkillThree": {
           "Name": "Spread Out!",
-          "Description": "[On use] Gain 6 Sinking and +3 Sinking Count\n<1>[Tails Hit] Inflict 1 Paralyze next turn\n<3>[On Hit] Inflict 5 Rupture\n[Tails Hit] Inflict 1 Fragile next turn",
+          "Description": "[On Use] Gain 6 Sinking and +3 Sinking Count\n<1>[Tails Hit] Inflict 1 Paralyze next turn\n<3>[On Hit] Inflict 5 Rupture\n[Tails Hit] Inflict 1 Fragile next turn",
           "DamageType": "Pierce",
           "SinType": "Sloth",
           "BasePower": 18,

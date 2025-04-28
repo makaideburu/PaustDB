@@ -1939,5 +1939,13 @@
       "Wrath Resistance Down",
       "Bind"
     ]
+  },
+  {
+    "Name": "Unfocused Volley",
+    "Description": "When this Skill flips Coins, each Coin flips against a random enemy among its targets\nThe first Coin always targets the main target\nAll 'On Hit' effects and all damage dealt by each Coins are inflicted only against the random target the Coin selected",
+    "Tags":[
+      "Wrath Resistance Down",
+      "Bind"
+    ]
   }
 ]
