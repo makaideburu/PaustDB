@@ -16774,28 +16774,28 @@
     "Sinner": "Hong Lu",
     "Identity": "R Corp. 4th Pack Reindeer",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-6",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 1,
+      "Pierce": 2,
+      "Blunt": 0.5
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Energy Strike",
-          "Description": "Deal more damage for every Charge\nAt X+ Charge, Coin Power +Y\nAt X+ Charge Count, Coin Power +Y\n[On Use] Gain Charge Count\n<1>[On Hit] Gain (Charge + X) Charge Count\n<2>[On Hit] Inflict Sinking",
+          "Description": "Deal +3% damage for every Charge (Max 15%)\nAt 2+ Charge, Coin Power +1\nAt 5+ Charge Count, Coin Power +1\n[On Use] Gain +2 Charge Count\n<1>[On Hit] Gain (Charge + 1) Charge Count (Max 4)\n<2>[On Hit] Inflict 1 Sinking",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -16806,19 +16806,19 @@
         },
         "SkillTwo": {
           "Name": "Mind Whip",
-          "Description": "Deal more damage for every Charge\n[On Use] At X~Y Charge Count:\n-Gain Sinking and raise Charge Count to Z\n-This Skill gains [Indiscriminate], Unfocused Volley, and additional Atk Weight\n-[Before Use] At W+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] Consume X Charge Count to gain Coin Power +Y\n[Before Attack] At X+ Remaining Charge Count, consume Y Charge Count to deal more damage\n<1>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<2>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<3>[On Hit] Inflict Sinking\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt\n<4>[On Hit] Inflict Sinking Count\n[On Hit] Raise target's Stagger Threshold by X% of damage dealt",
+          "Description": "Deal +4% damage for every Charge (Max 20%)\n[On Use] At 5~9 Charge Count:\n-Gain 10 Sinking and raise Charge Count to 10\n-This Skill gains [Indiscriminate], Unfocused Volley, and Atk Weight +1\n-[Before Use] At 5+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n[Before Attack] At 8+ Remaining Charge Count, consume 8 Charge Count to deal +40% damage\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
           "DamageType": "Blunt",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 2,
+          "CoinPower": 3,
           "CoinCount": 4,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeightMod": 2,
           "MiscTags": [
             "Conditional Indiscriminate",
             "Unfocused Volley",
@@ -16831,16 +16831,16 @@
         },
         "SkillThree": {
           "Name": "Concentration",
-          "Description": "Base Power +X, Coin Power +Y for every Charge\nAt X+ Charge Count, Final Power +Y\n[On Use] Gain Charge Count\n<1>Deal +(Final Power x X)% damage\nAt X+ Charge, deal more damage for every Charge\n[On Hit] Gain +(Charge x X) Charge Count\n[On Hit] Inflict Sinking and Sinking Count",
+          "Description": "Base Power +1, Coin Power +1 for every Charge (Max 5 each)\nAt 10+ Charge Count, Final Power +4\n[On Use] Gain +7 Charge Count\n<1>Deal +(Final Power x 5)% damage (Max 150%)\nAt 3+ Charge, deal +20% damage for every Charge (Max 100%)\n[On Hit] Gain +(Charge + 3) Charge Count (Max 8)\n[On Hit] Inflict 4 Sinking and +4 Sinking Count",
           "DamageType": "Blunt",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 8,
+          "CoinPower": 10,
           "CoinCount": 1,
-          "Level": 0,
-          "BasePowerModifier": 0,
-          "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "Level": 4,
+          "BasePowerModifier": 5,
+          "FinalPowerModifier": 4,
+          "CoinModifier": 5,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -16852,16 +16852,16 @@
         },
         "SkillDefense": {
           "Name": "Energy Condensation",
-          "Description": "[On Use] At X+ Charge Count, Coin Power +Y\n[On Use] Gain Charge Count",
+          "Description": "[On Use] At 10+ Charge Count, Coin Power +4\n[On Use] Gain +3 Charge Count (2 times per turn)",
           "DamageType": "Defend",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 10,
+          "CoinPower": 6,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 4,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -16871,28 +16871,144 @@
         },
         "PassiveSkill": {
           "Name": "Brainwave Charge-focusing Antlers",
-          "Description": "Gain Charge every time this unit consumes X cumulative Charge Count in this Encounter\nAt X+ Charge:\n-Inflict more Sinking with Base Attack Skills for every Y Charge (does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x Z)% damage with Base Attack Skills",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n-Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x 5)% damage with Base Attack Skills (Max 25%)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Envy",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Charge"
           ]
         },
         "SupportSkill": {
           "Name": "Charged Pulverization Support",
-          "Description": "1 ally with the most Charge: When using a Base Attack Skill that gains Charge Count, deal more damage with the final Coin",
+          "Description": "1 ally with the most Charge: When using a Base Attack Skill that gains Charge Count, deal +15% damage with the final Coin",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Envy",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Damage Amp"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Energy Strike",
+          "Description": "Deal +2% damage for every Charge (Max 15%)\nAt 2+ Charge, Coin Power +1\n[On Use] Gain +2 Charge Count\n<1>[On Hit] Gain (Charge + 1) Charge Count (Max 3)\n<2>[On Hit] Inflict 1 Sinking",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count",
+            "Sinking"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Mind Whip",
+          "Description": "Deal +2% damage for every Charge (Max 10%)\n[On Use] At 5~9 Charge Count:\n-Gain 15 Sinking and raise Charge Count to 10\n-This Skill gains [Indiscriminate], Unfocused Volley, and Atk Weight +1\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 2,
+          "CoinPower": 3,
+          "CoinCount": 4,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 2,
+          "MiscTags": [
+            "Conditional Indiscriminate",
+            "Unfocused Volley",
+            "Attack Weight Increase",
+            "Spend Charge Count",
+            "Sinking",
+            "Raise Stagger Threshold",
+            "Sinking Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Concentration",
+          "Description": "Coin Power +1 for every Charge (Max 5)\nAt 10+ Charge Count, Final Power +2\n[On Use] Gain +5 Charge Count\n<1>Deal +(Final Power x 5)% damage (Max 100%)\n[On Hit] Gain +(Charge + 1) Charge Count (Max 6)\n[On Hit] Inflict 4 Sinking and +2 Sinking Count",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 8,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 4,
+          "BasePowerModifier": 5,
+          "FinalPowerModifier": 4,
+          "CoinModifier": 5,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count",
+            "Sinking",
+            "Sinking Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Energy Condensation",
+          "Description": "[On Use] At 10+ Charge Count, Coin Power +2\n[On Use] Gain +3 Charge Count (Once per turn)",
+          "DamageType": "Defend",
+          "SinType": "None",
+          "BasePower": 8,
+          "CoinPower": 4,
+          "CoinCount": 1,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Charge Count"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Brainwave Charge-focusing Antlers",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n-Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x 3)% damage with Base Attack Skills (Max 15%)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Envy",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Charge"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Charged Pulverization Support",
+          "Description": "1 ally with the most Charge: When using a Base Attack Skill that gains Charge Count, deal +10% damage with the final Coin",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Envy",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Damage Amp"
           ]
