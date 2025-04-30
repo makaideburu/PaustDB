@@ -168,6 +168,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.6.1 (2025-04-30)",
+        "```nothing happened here```"
+      ],
+      [
         "2.6.0 (2025-04-28)",
         "```:crab: THE IMAGE DUPE BUG IS GONE :crab:\nIt could've been squashed like, a year ago but it took this long to realize what the correct solution was.```"
       ],
@@ -186,10 +190,6 @@
       [
         "2.5.4 (2025-01-20)",
         "```Inconsequential backend stuff\nConsequential frontend stuff:\nSorts have been finagled, will sort in descending order by default. Do -sort asc to go in the other direction.\nQueries now ignore spaces and special characters, Moth Faust's S3 isn't a nightmare to search for, but -skill . -s ryoshu no longer shows you skills she's SANGRIA'd.```"
-      ],
-      [
-        "2.5.3.1 (2025-01-09)",
-        "```Proper fix for brackets in Status Effects```"
       ]
     ],
     "OldItems": [
@@ -304,6 +304,10 @@
       [
         "2.5.3 (2025-01-08)",
         "```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
+      ],
+      [
+        "2.5.3.1 (2025-01-09)",
+        "```Proper fix for brackets in Status Effects```"
       ]
     ],
     "HelpFooter": ""
