@@ -34671,7 +34671,7 @@
         },
         "SkillThree": {
           "Name": "Serpentshear Puncturing Arm",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n-If this unit has Serpent Arm, Coin Power +X for every Z (this unit's Poise + target's Rupture) instead\n[On Use] Gain Serpent Arm\n[Clash Win] If the target has X+ Rupture, gain Poise\n<1>Deal more damage for every (Poise on self + target's Rupture)\nIf this unit has Serpent Arm, deal more Damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target\n[On Crit] Reduce Deathrite [Venom] on target\n[On Crit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
+          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n-If this unit has Serpent Arm, Coin Power +X for every Z (this unit's Poise + target's Rupture) instead\n[On Use] Gain Serpent Arm\n[Clash Win] If the target has X+ Rupture, gain Poise\n<1>Deal more damage for every (Poise on self + target's Rupture)\nIf this unit has Serpent Arm, deal more damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target\n[On Crit] Reduce Deathrite [Venom] on target\n[On Crit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 0,
@@ -34694,7 +34694,7 @@
         },
         "SkillDefense": {
           "Name": "Reversal Kick",
-          "Description": "[Clashable Guard]\n[Combat Start] Gain Serpent Arm next turn\n[On Use] At X+ Poise, Coin Power +Y\n<1>[Unbreakable Coin[",
+          "Description": "[Clashable Guard]\n[Combat Start] Gain Serpent Arm next turn\n[On Use] At X+ Poise, Coin Power +Y\n<1>[Unbreakable Coin]",
           "DamageType": "Defend",
           "SinType": "Gluttony",
           "BasePower": 0,
