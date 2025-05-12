@@ -977,6 +977,7 @@
   {
     "entry": "deathrite [haste]",
     "aliases":[
+      "deathrite",
       "rupture count"
     ]
   },
@@ -1006,6 +1007,21 @@
     "aliases":[
       "wrath resistance down",
       "bind"
+    ]
+  },
+  {
+    "entry": "serpent arm",
+    "aliases":[
+      "poise",
+      "poise count"
+    ]
+  },
+  {
+    "entry": "deathrite [venom]",
+    "aliases":[
+      "deathrite",
+      "offense level down",
+      "defense level down"
     ]
   }
 ]

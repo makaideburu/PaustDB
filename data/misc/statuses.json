@@ -1905,6 +1905,7 @@
     "Name": "Deathrite [Haste]",
     "Description": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture on self; then this effect expires\nCannot gain additional Stacks of this effect while already active",
     "Tags":[
+      "Deathrite",
       "Rupture Count"
     ]
   },
@@ -1946,6 +1947,23 @@
     "Tags":[
       "Wrath Resistance Down",
       "Bind"
+    ]
+  },
+  {
+    "Name": "Serpent Arm",
+    "Description": "Max Stack: 3\nTurn End: Gain Poise and Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain Poise\nTurn End: Lose stack",
+    "Tags":[
+      "Poise",
+      "Poise Count"
+    ]
+  },
+  {
+    "Name": "Deathrite [Venom]",
+    "Description": "Base Stack: 5\n-Deathrite\n-When getting Rupture triggered by a Critical Hit from the target, lose Stack\n-When losing Stacks due to this effect, gain Offense Level Down or Defense Level Down\nWhen losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while active",
+    "Tags":[
+      "Deathrite",
+      "Offense Level Down",
+      "Defense Level Down"
     ]
   }
 ]
