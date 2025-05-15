@@ -25799,28 +25799,28 @@
     "Sinner": "Rodion",
     "Identity": "Heishou Pack - Si Branch",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Serpent Glint",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n[On Crit] If this unit has Serpent Arm, inflict Rupture",
+          "Description": "[On Use] Coin Power +1 for every 10 (this unit's Poise + target's Rupture) (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict 2 Rupture",
           "DamageType": "Slash",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -25831,16 +25831,16 @@
         },
         "SkillTwo": {
           "Name": "Snake Fang",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n[Clash Win] Inflict Rupture Count\n[Clash Win] Gain Poise Count\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n<3>[On Hit] At X+ Poise, consume Y Poise to Reuse Coin once\n[On Hit] Inflict Deathrite [Venom]\n[On Crit] Gain Serpent Arm",
+          "Description": "[On Use] Coin Power +1 for every 10 (this unit's Poise + target's Rupture) (Max 2)\n[Clash Win] Inflict +2 Rupture Count\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Rupture Count\n<3>[On Hit] At 30+ Poise, consume 10 Poise to Reuse Coin once (1 time per Skill)\n[On Hit] Inflict Deathrite [Venom]\n[On Crit] Gain 1 Serpent Arm",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -25856,19 +25856,19 @@
         },
         "SkillThree": {
           "Name": "Serpent's Mortal Flurry",
-          "Description": "[Unfocused Volley]\n[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n[On Use] Gain Clash Power equal to Serpent Arm on self\n[Clash Win] Inflict Rupture Count on all targets\n<1>[On Hit] Gain Poise Count\n<2>[On Hit] Gain Poise\n<3>[On Hit] Inflict Rupture Count\n[On Crit] Reduce Deathrite [Venom] on target\n[On Crit] Reuse this Coin once",
+          "Description": "[Unfocused Volley]\n[On Use] Coin Power +1 for every 10 (this unit's Poise + target's Rupture) (Max 2)\n[On Use] Gain Clash Power equal to Serpent Arm on self\n[Clash Win] Inflict +1 Rupture Count on all targets\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict +1 Rupture Count\n[On Crit] Reduce Deathrite [Venom] on target by 1\n[On Crit] Reuse this Coin once (2 times per Skill)",
           "DamageType": "Pierce",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
-          "CoinCountModifier": 1,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "CoinModifier": 2,
+          "CoinCountModifier": 2,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
           "MiscTags": [
             "Unfocused Volley",
             "Serpent Arm",
@@ -25881,11 +25881,132 @@
         },
         "SkillDefense": {
           "Name": "Reversal Kick",
-          "Description": "[Clashable Guard]\n[Combat Start] Gain Serpent Arm next turn\n[On Use] If this unit has X+ Poise, Coin Power +Y\n<1>[Unbreakable Coin]",
+          "Description": "[Clashable Guard]\n[Combat Start] Gain 3 Serpent Arm next turn\n[On Use] If this unit has 10+ Poise Count, Coin Power +1\n<1>[Unbreakable Coin]",
           "DamageType": "Defend",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Guard",
+            "Serpent Arm",
+            "Unbreakable Coin"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Si]",
+          "Description": "If this unit has Serpent Arm, deal +5% damage\nIf target has Deathrite [Venom], deal +5% damage",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Intravascular Venom",
+          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage to an enemy, inflict 1 Offense Level Down and 1 Defense Level Down next turn (Once per turn)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Offense Level Down",
+            "Defense Level Down"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Serpent Glint",
+          "Description": "[On Use] At 10+ (this unit's Poise + target's Rupture), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict 1 Rupture",
+          "DamageType": "Slash",
+          "SinType": "Envy",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Snake Fang",
+          "Description": "[On Use] At 10+ (this unit's Poise + target's Rupture), Coin Power +1 \n[Clash Win] Inflict +2 Rupture Count\n[Clash Win] Gain +2 Poise Count\n<2>[On Hit] Inflict +1 Rupture Count\n<3>[On Hit] At 30+ Poise, consume 10 Poise to Reuse Coin once (1 time per Skill)\n[On Hit] Inflict Deathrite [Venom]",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Poise Count",
+            "Rupture",
+            "Rupture Count",
+            "Spend Poise Count",
+            "Deathrite [Venom]"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Serpent's Mortal Flurry",
+          "Description": "[Unfocused Volley]\n[On Use] At 10+ (this unit's Poise + target's Rupture), Coin Power +1\n[On Use] Gain Clash Power equal to Serpent Arm on self\n[Clash Win] Inflict +1 Rupture Count on all targets\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict +1 Rupture Count\n[On Crit] Reduce Deathrite [Venom] on target by 1\n[On Crit] Reuse this Coin once (2 times per Skill)",
+          "DamageType": "Pierce",
+          "SinType": "Gloom",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 2,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Unfocused Volley",
+            "Serpent Arm",
+            "Rupture Count",
+            "Poise Count",
+            "Poise",
+            "Rupture Count",
+            "Spend Enemy Deathrite [Venom]"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Reversal Kick",
+          "Description": "[Clashable Guard]\n[Combat Start] Gain 3 Serpent Arm next turn\n<1>[Unbreakable Coin]",
+          "DamageType": "Defend",
+          "SinType": "None",
+          "BasePower": 2,
+          "CoinPower": 8,
           "CoinCount": 1,
           "Level": 0,
           "BasePowerModifier": 0,
@@ -25902,27 +26023,27 @@
         },
         "PassiveSkill": {
           "Name": "Heishou Mutation [Si]",
-          "Description": "If this unit has Serpent Arm, deal more damage\nIf target has Deathrite [Venom], deal more damage",
+          "Description": "If this unit has Serpent Arm, deal +5% damage\nIf target has Deathrite [Venom], deal +5% damage",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
           ]
         },
         "SupportSkill": {
           "Name": "Intravascular Venom",
-          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage to an enemy, inflict Offense Level Down and Defense Level Down next turn",
+          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage to an enemy, inflict 1 Offense Level Down and 1 Defense Level Down next turn (Once per turn)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Offense Level Down",
             "Defense Level Down"
@@ -34614,28 +34735,28 @@
     "Sinner": "Gregor",
     "Identity": "Heishou Pack - Si Branch",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Snake Fang",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n[On Use] Gain Poise Count\n<1>[On Hit} inflict Rupture\n<2>[On Hit] Inflict Rupture\n[On Crit] If this unit has Serpent Arm, inflict Rupture Count",
+          "Description": "[On Use] Coin Power +1 for every 10 (this unit's Poise + target's Rupture) (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit} inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
           "DamageType": "Slash",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -34647,16 +34768,16 @@
         },
         "SkillTwo": {
           "Name": "Blindsiding Cleave",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n[Clash Win] Inflict Rupture Count\n[Clash Win] Gain Poise Count\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Rupture\n[On Hit] At X+ Poise, consume Y Poise to Reuse Coin once\n[On Hit] Inflict Deathrite [Venom]\n[On Crit] Gain Serpent Arm",
+          "Description": "[On Use] Coin Power +1 for every 10 (this unit's Poise + target's Rupture) (Max 2)\n[Clash Win] Inflict +2 Rupture Count\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] At 30+ Poise, consume 10 Poise to Reuse Coin once (1 time per Skill)\n[On Hit] Inflict Deathrite [Venom]\n[On Crit] Gain 1 Serpent Arm",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -34671,16 +34792,16 @@
         },
         "SkillThree": {
           "Name": "Serpentshear Puncturing Arm",
-          "Description": "[On Use] Coin Power +X for every Y (this unit's Poise + target's Rupture)\n-If this unit has Serpent Arm, Coin Power +X for every Z (this unit's Poise + target's Rupture) instead\n[On Use] Gain Serpent Arm\n[Clash Win] If the target has X+ Rupture, gain Poise\n<1>Deal more damage for every (Poise on self + target's Rupture)\nIf this unit has Serpent Arm, deal more damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target\n[On Crit] Reduce Deathrite [Venom] on target\n[On Crit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
+          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n-If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +10% damage for every (Poise on self + target's Rupture) (Max 200%)\nIf this unit has Serpent Arm, deal +100% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Crit] Inflict +2 Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
           "DamageType": "Pierce",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 8,
+          "CoinPower": 14,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 6,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -34694,11 +34815,129 @@
         },
         "SkillDefense": {
           "Name": "Reversal Kick",
-          "Description": "[Clashable Guard]\n[Combat Start] Gain Serpent Arm next turn\n[On Use] At X+ Poise, Coin Power +Y\n<1>[Unbreakable Coin]",
+          "Description": "[Clashable Guard]\n[Combat Start] Gain 3 Serpent Arm next turn\n[On Use] At 10+ Poise Count, Coin Power +1\n<1>[Unbreakable Coin]",
           "DamageType": "Defend",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 10,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Guard",
+            "Serpent Arm",
+            "Unbreakable Coin"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Si]",
+          "Description": "If target has Deathrite [Venom], deal +5% damage for every Serpent Arm on self (Max 15%)\nIf this unit reduced the target's Deathrite [Venom] down to 0 Stack, gain 1 Pierce DMG Up next turn (Max 2)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Pierce DMG Up"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
+          "Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Subtituting Identity of the earliest Deployment Order",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Poise"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Snake Fang",
+          "Description": "[On Use] At 10+ (this unit's Poise + target's Rupture), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit} inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Blindsiding Cleave",
+          "Description": "[On Use] At 10+ (this unit's Poise + target's Rupture), Coin Power +1\n[Clash Win] Inflict +1 Rupture Count\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] At 30+ Poise, consume 10 Poise to Reuse Coin once (1 time per Skill)\n[On Hit] Inflict Deathrite [Venom]",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Poise Count",
+            "Rupture",
+            "Spend Poise Count",
+            "Deathrite [Venom]"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Serpentshear Puncturing Arm",
+          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n-If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +5% damage for every (Poise on self + target's Rupture) (Max 150%)\nIf this unit has Serpent Arm, deal +75% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Hit] Inflict Deathrite [Venom]",
+          "DamageType": "Pierce",
+          "SinType": "Envy",
+          "BasePower": 8,
+          "CoinPower": 12,
+          "CoinCount": 1,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 6,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Serpent Arm",
+            "Poise",
+            "Spend Enemy Deathrite [Venom]",
+            "Deathrite [Venom]"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Reversal Kick",
+          "Description": "[Clashable Guard]\n[Combat Start] Gain 3 Serpent Arm next turn\n<1>[Unbreakable Coin]",
+          "DamageType": "Defend",
+          "SinType": "None",
+          "BasePower": 2,
+          "CoinPower": 8,
           "CoinCount": 1,
           "Level": 0,
           "BasePowerModifier": 0,
@@ -34715,28 +34954,28 @@
         },
         "PassiveSkill": {
           "Name": "Heishou Mutation [Si]",
-          "Description": "If target has Deathrite [Venom], deal more damage for every Serpent Arm on self\nIf this unit reduced the target's Deathrite [Venom] down to 0 Stack, gain Pierce DMG Up next turn",
+          "Description": "If target has Deathrite [Venom], deal +5% damage for every Serpent Arm on self (Max 15%)\nIf this unit reduced the target's Deathrite [Venom] down to 0 Stack, gain 1 Pierce DMG Up next turn (Max 2)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Pierce DMG Up"
           ]
         },
         "SupportSkill": {
           "Name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
-          "Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply Poise to the Subtituting Identity of the earliest Deployment Order",
+          "Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Subtituting Identity of the earliest Deployment Order",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Poise"
           ]

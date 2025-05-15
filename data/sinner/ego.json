@@ -5621,7 +5621,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Dimension Shredder",
-          "Description": "Targets the rearmost unit (in regular encounters)\n[Before Attack] Gain +5 Charge Count; Gain 2 Haste next turn\n<1>Inflict 1 Fragile and 4 Dimensional Rift",
+          "Description": "Targets the rearmost unit (in regular encounters)\n[Before Attack] Gain +5 Charge Count; Gain 2 Haste next turn\n<1>[On Hit] Inflict 1 Fragile and 4 Dimensional Rift",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 22,
@@ -5680,7 +5680,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Dimension Shredder",
-          "Description": "Targets the rearmost unit (in regular encounters)\n[Before Attack] Gain +5 Charge Count; Gain 2 Haste next turn\n<1>Inflict 1 Fragile and 4 Dimensional Rift",
+          "Description": "Targets the rearmost unit (in regular encounters)\n[Before Attack] Gain +5 Charge Count; Gain 2 Haste next turn\n<1>[On Hit] Inflict 1 Fragile and 4 Dimensional Rift",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 22,
