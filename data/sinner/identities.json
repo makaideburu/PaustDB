@@ -1225,8 +1225,9 @@
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "CoinOverride":[
-            1, 1
+          "CoinOverride": [
+            1,
+            1
           ],
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -1348,8 +1349,9 @@
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "CoinOverride":[
-            1, 1
+          "CoinOverride": [
+            1,
+            1
           ],
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -5431,18 +5433,19 @@
             "Spend Self Burn"
           ]
         },
-        "InstallPassives":[{
-          "Name": "Fireproof",
-          "Description": "Cannot be Staggered or fall below 1 HP due to Burn damage",
-          "PassiveResources": [
-            {
-              "ResourceSin": "None",
-              "ResourceCount": -1
-            }
-          ],
-          "ResourceType": "None",
-          "MiscTags": []
-        }
+        "InstallPassives": [
+          {
+            "Name": "Fireproof",
+            "Description": "Cannot be Staggered or fall below 1 HP due to Burn damage",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": []
+          }
         ],
         "PassiveSkill": {
           "Name": "Flame Moth",
@@ -5585,18 +5588,19 @@
             "Spend Self Burn"
           ]
         },
-        "InstallPassives":[{
-          "Name": "Fireproof",
-          "Description": "Cannot be Staggered or fall below 1 HP due to Burn damage",
-          "PassiveResources": [
-            {
-              "ResourceSin": "None",
-              "ResourceCount": -1
-            }
-          ],
-          "ResourceType": "None",
-          "MiscTags": []
-        }
+        "InstallPassives": [
+          {
+            "Name": "Fireproof",
+            "Description": "Cannot be Staggered or fall below 1 HP due to Burn damage",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": []
+          }
         ],
         "PassiveSkill": {
           "Name": "Flame Moth",
@@ -5629,6 +5633,202 @@
           "MiscTags": [
             "Burn",
             "Burn Count"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 2000,
+    "Sinner": "Faust",
+    "Identity": "Heishou Pack - Mao Branch Adept",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n[On Hit] At X+ Speed, Reuse Coin once",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Clearing the Path, My Lord",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Tianjiu Star's Blade)% damage\nIf unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Haste next turn\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Rupture\nIf target has Deathrite [Haste] or Deathrite [Fissure], deal more damage",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Haste",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Traceless to Sight and Sound Alike.",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Combat Start] Gain Assist Defense\n[Before Use] At X+ Tianqiu Star's Blade, activate 'Ascendent Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Assist Defense",
+            "Skill Change",
+            "Strider [Mao]",
+            "Rupture Count",
+            "Deathrite [Haste]"
+          ],
+          "AltSkill": {
+            "Name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+            "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] Coin Power +X for every Y Rupture on target\n[On use] At X+ Speed, gain Poise; at less than X Poise Count, raise Poise Count to Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n[After Attack] Spend Tianjiu Star's Blade\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]\n[Reuse - On Hit]Inflict Deathrite [Fissure]",
+            "DamageType": "Slash",
+            "SinType": "Gluttony",
+            "BasePower": 0,
+            "CoinPower": 0,
+            "CoinCount": 3,
+            "Level": 0,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 1,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise",
+              "Poise Count",
+              "Strider [Mao]",
+              "Rupture Count",
+              "Spend Tianjiu Star's Blade",
+              "Deathrite [Haste]",
+              "Deathrite [Fissure]"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "It Shall be Done.",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain Assist Defense\n[On Use] This Skill gains Offense Level +X for every Y% HP this unit has cumulatively lost in this Encounter\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X or more, Base Power +Y for every Z Speed difference\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Assist Defense",
+            "Strider [Mao]",
+            "Rupture"
+          ],
+          "AltSkill": {
+            "Name": "Swiftfeet Protection",
+            "Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At X+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +X for every Y% HP this unit has cumulatively lost in this Encounter\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain Protection\n<1>[Unbreakable Coin]",
+            "DamageType": "Defend",
+            "SinType": "Gluttony",
+            "BasePower": 0,
+            "CoinPower": 0,
+            "CoinCount": 1,
+            "Level": 0,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Clashable Guard",
+              "Skill Change",
+              "Nullify Stagger",
+              "Protection",
+              "Unbreakable Coin"
+            ]
+          }
+        },
+        "InstallPassives": [
+          {
+            "Name": "Tianjiu Star",
+            "Description": "When Deathrite [Fissure] Stack drops to 0 and expires, inflict Mark of Decay",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Mark of Decay"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao] / Mao Branch Adept",
+          "Description": "If unit's Speed is faster than target's, deal more damage for every X Speed difference\nGain Tianjiu Star's Blade every time an ally activates a Deathrite effect\n-If this unit triggered a Deathrite effect, gain additional Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain Tianjiu Star's Blade",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Tianjiu Star's Blade"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Blinkblade",
+          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage, gain Offense Level Up next turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Offense Level Up"
           ]
         }
       }
@@ -7953,7 +8153,7 @@
             ]
           }
         },
-        "InstallPassives":[
+        "InstallPassives": [
           {
             "Name": "Bloodfeast",
             "Description": "If this unit is on the field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of Bleed damage collectively received by every unit.\nWhen consuming Bloodfeast, if there are <La Manchaland> Kindreds of the same generation as this unit, this unit takes precedence.\nWhen using Variant Sancho Hardblood Arts 9 - Whip, HP does not drop below 1 due to Bleed damage",
@@ -8220,7 +8420,7 @@
             ]
           }
         },
-        "InstallPassives":[
+        "InstallPassives": [
           {
             "Name": "Bloodfeast",
             "Description": "If this unit is on the field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of Bleed damage collectively received by every unit.\nWhen consuming Bloodfeast, if there are <La Manchaland> Kindreds of the same generation as this unit, this unit takes precedence.\nWhen using Variant Sancho Hardblood Arts 9 - Whip, HP does not drop below 1 due to Bleed damage",
@@ -22745,7 +22945,7 @@
             "Ally Defense Power Up"
           ]
         },
-        "InstallPassives":[
+        "InstallPassives": [
           {
             "Name": "Battle Ready",
             "Description": "When a Kurokumo Clan ally is defeated, gain 1 Slash Power Up for the duration of this Encounter\nWhen 3+ Kurokumo Clan allies are defeated, gain Battle Ready for the duration of this Encounter",
@@ -22880,7 +23080,7 @@
             "Ally Defense Power Up"
           ]
         },
-        "InstallPassives":[
+        "InstallPassives": [
           {
             "Name": "Battle Ready",
             "Description": "When a Kurokumo Clan ally is defeated, gain 1 Slash Power Up for the duration of this Encounter\nWhen 3+ Kurokumo Clan allies are defeated, gain Battle Ready for the duration of this Encounter",
@@ -25910,8 +26110,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "MiscTags": [
-          ]
+          "MiscTags": []
         },
         "SupportSkill": {
           "Name": "Intravascular Venom",
@@ -26031,8 +26230,7 @@
             }
           ],
           "ResourceType": "Owned",
-          "MiscTags": [
-          ]
+          "MiscTags": []
         },
         "SupportSkill": {
           "Name": "Intravascular Venom",
@@ -28603,7 +28801,11 @@
           "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinOverride": [ 6, 6, 10 ],
+          "CoinOverride": [
+            6,
+            6,
+            10
+          ],
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
