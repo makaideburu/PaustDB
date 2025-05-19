@@ -1965,5 +1965,32 @@
       "Offense Level Down",
       "Defense Level Down"
     ]
+  },
+  {
+    "Name": "Tianjiu Star's Blade",
+    "Description": "Max Stack: 20\nAt X+ Stack, gain Haste next turn at Turn End\nUsed for certain Skills",
+    "Tags":[
+      "Haste"
+    ]
+  },
+  {
+    "Name": "Deathrite [Fissure]",
+    "Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain Bind next turn\nWhen this effect activates, if this unit is to gain X or more Bind next turn, lose Y Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while it is already active",
+    "Tags":[
+      "Deathrite",
+      "Bind"
+    ]
+  },
+  {
+    "Name": "Assist Defense",
+    "Description": "Max Stack: 3\nWhen an ally is about to take an Unopposed Attack from an enemy, consume X Stack to redirect the enemy's targeting to self; then, use the Skill that activates for Assist Defense\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nDoes not activate for allies who equipped Defense Skills\nExpires at Turn End",
+    "Tags":[
+    ]
+  },
+  {
+    "Name": "Mark of Decay",
+    "Description": "Max Stack: 1\nTake more damage from Gluttony Affinity Skillls\nTake more damage from Deathrite effects\nExpires at Turn End",
+    "Tags":[
+    ]
   }
 ]
