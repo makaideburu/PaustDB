@@ -168,6 +168,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.6.2.1 (2025-05-19)",
+        "```oh no not again```"
+      ],
+      [
         "2.6.2 (2025-05-15)",
         "```Inconsequential backend stuff that should be inconsequential for real```"
       ],
@@ -186,10 +190,6 @@
       [
         "2.5.5 (2025-02-03)",
         "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
-      ],
-      [
-        "2.5.4.1 (2025-01-20)",
-        "```'Inconsequential' backend stuff became consequential error```"
       ]
     ],
     "OldItems": [
@@ -312,6 +312,10 @@
       [
         "2.5.4 (2025-01-20)",
         "```Inconsequential backend stuff\nConsequential frontend stuff:\nSorts have been finagled, will sort in descending order by default. Do -sort asc to go in the other direction.\nQueries now ignore spaces and special characters, Moth Faust's S3 isn't a nightmare to search for, but -skill . -s ryoshu no longer shows you skills she's SANGRIA'd.```"
+      ],
+      [
+        "2.5.4.1 (2025-01-20)",
+        "```'Inconsequential' backend stuff became consequential error```"
       ]
     ],
     "HelpFooter": ""
