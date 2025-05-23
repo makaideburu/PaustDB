@@ -1416,7 +1416,7 @@
   },
   {
     "Name": "Focused Attack",
-    "Description": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on the target Slot's Focused Attack stack.\n1x Stack: Gain Clash Power\n2x Stack: Gain Base Power\n3x Stack: Gain Base Power and Coin Power\nExpires if, for a turn, the unit who inflicted it fails to hit the Slot inflicted with their Focused Attack\nExpires if the unit who inflicted Focused Attack inflicts it on a different Slot\nReplaced if a different unit inflicts Focused Attack on a Slot already inflicted with Focused Attack\nAt the start of the next turn, if a Slot inflicted with Focused Attack is no longer present, rearrange all Focused Attack inflicted against the Slots of that Part in Deployment Order",
+    "Description": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on the target Slot's Focused Attack stack.\n1x Stack: Gain Clash Power +1\n2x Stack: Gain Base Power +1\n3x Stack: Gain Base Power +1 and Coin Power +1\nExpires if, for a turn, the unit who inflicted it fails to hit the Slot inflicted with their Focused Attack\nExpires if the unit who inflicted Focused Attack inflicts it on a different Slot\nReplaced if a different unit inflicts Focused Attack on a Slot already inflicted with Focused Attack\nAt the start of the next turn, if a Slot inflicted with Focused Attack is no longer present, rearrange all Focused Attack inflicted against the Slots of that Part in Deployment Order",
     "Tags": [
       "Clash Power Up",
       "Base Power Up"
@@ -1968,14 +1968,14 @@
   },
   {
     "Name": "Tianjiu Star's Blade",
-    "Description": "Max Stack: 20\nAt X+ Stack, gain Haste next turn at Turn End\nUsed for certain Skills",
+    "Description": "Max Stack: 20\nAt 10+ Stack, gain 1 Haste next turn at Turn End\nUsed for certain Skills",
     "Tags":[
       "Haste"
     ]
   },
   {
     "Name": "Deathrite [Fissure]",
-    "Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain Bind next turn\nWhen this effect activates, if this unit is to gain X or more Bind next turn, lose Y Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while it is already active",
+    "Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\nWhen this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while it is already active",
     "Tags":[
       "Deathrite",
       "Bind"
@@ -1983,14 +1983,29 @@
   },
   {
     "Name": "Assist Defense",
-    "Description": "Max Stack: 3\nWhen an ally is about to take an Unopposed Attack from an enemy, consume X Stack to redirect the enemy's targeting to self; then, use the Skill that activates for Assist Defense\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nDoes not activate for allies who equipped Defense Skills\nExpires at Turn End",
+    "Description": "Max Stack: 3\nWhen an ally is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the Skill that activates for Assist Defense\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nDoes not activate for allies who equipped Defense Skills\nExpires at Turn End",
     "Tags":[
     ]
   },
   {
     "Name": "Mark of Decay",
-    "Description": "Max Stack: 1\nTake more damage from Gluttony Affinity Skillls\nTake more damage from Deathrite effects\nExpires at Turn End",
+    "Description": "Max Stack: 1\nTake +10% damage from Gluttony Affinity Skills\nTake +10% damage from Deathrite effects\nExpires at Turn End",
     "Tags":[
+    ]
+  },
+  {
+    "Name": "Twisted Curse Talisman",
+    "Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (Once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (Max 2)\n-Cannot gain additional Stacks of this effect while it is already active",
+    "Tags":[
+      "Rupture Count",
+      "Attack Power Down"
+    ]
+  },
+  {
+    "Name": "Centipede Venom",
+    "Description": "Max Stack: 20\nTurn End: Gain (Stack / 4) Defense Level Down next turn (Rounded down)\nTurn End: Take Gluttony damage equal to Stack, and halve the Stack (Rounded down)\nUpon death, transfers to this unit's ally (For Focused Encounters, a different Part) with none or the least Centipede Venom Stacks.",
+    "Tags":[
+      "Defense Level Down"
     ]
   }
 ]

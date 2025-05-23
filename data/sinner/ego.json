@@ -2767,6 +2767,138 @@
     ]
   },
   {
+    "Id": 3000,
+    "Sinner": "Don Quixote",
+    "Grade": "HE",
+    "Sanity": 25,
+    "CorrosionSanity": 30,
+    "Abnormality": "So That No One Will Cry",
+    "SinResist": {
+      "Wrath": 2,
+      "Lust": 0.5,
+      "Sloth": 1,
+      "Gluttony": 1,
+      "Gloom": 1,
+      "Pride": 2,
+      "Envy": 0.5
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 1,
+      "Sloth": 0,
+      "Gluttony": 5,
+      "Gloom": 2,
+      "Pride": 1,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Red Sheet",
+          "Description": "<1>[On Hit] Inflict (4 + Gluttony Res) Twisted Curse Talisman (Max 10)\n<2>Deal +3% damage for every Twisted Curse Talisman on target (Max 30%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (Max 3, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 4) Rupture Count (Max 2, rounded down)",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 16,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Twisted Curse Talisman",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Red Sheet",
+          "Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict (6 + Gluttony Res) Twisted Curse Talisman (Max 10)\n<2>Deal +10% damage for every Twisted Curse Talisman on target (Max 100%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (Max 3, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 3) Rupture Count (Max 2, rounded down)",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 26,
+          "CoinPower": -10,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Twisted Curse Talisman",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Enfeebling Talisman",
+          "Description": "On Hit with this unit's Skills: If the target either has 15+ Rupture, or this unit dealt a Critical Hit, inflict 1 Defense Level Down (Max 6)\nWhen this Passive activates, its effects do not stack with the effects of E.G.O Gift 'Old Wooden Doll'",
+          "MiscTags": [
+            "Ally Charge Count"
+          ]
+        }
+      },
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Red Sheet",
+          "Description": "<1>[On Hit] Inflict (4 + Gluttony Res) Twisted Curse Talisman (Max 10)\n<2>Deal +5% damage for every Twisted Curse Talisman on target (Max 50%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (Max 4, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 4) Rupture Count (Max 2, rounded down)",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 16,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Twisted Curse Talisman",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Red Sheet",
+          "Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict (6 + Gluttony Res) Twisted Curse Talisman (Max 10)\n<2>Deal +10% damage for every Twisted Curse Talisman on target (Max 100%)\n[On Hit] Inflict (Twisted Curse Talisman on target / 2) Rupture (Max 4, rounded down)\n[On Hit] Inflict +(Twisted Curse Talisman on target / 3) Rupture Count (Max 2, rounded down)",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 26,
+          "CoinPower": -10,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Twisted Curse Talisman",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Enfeebling Talisman",
+          "Description": "On Hit with this unit's Skills: If the target either has 15+ Rupture, or this unit dealt a Critical Hit, inflict 1 Defense Level Down (Max 6)\nWhen this Passive activates, its effects do not stack with the effects of E.G.O Gift 'Old Wooden Doll'",
+          "MiscTags": [
+            "Ally Charge Count"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 3401,
     "Sinner": "Don Quixote",
     "Grade": "WAW",
@@ -7095,6 +7227,138 @@
           "Name": "Compulsion",
           "Description": "Clash Power +2 in clashes whose win rate is in the unit's favor.\nClash Power -2 in clashes whose win rate is against the unit's favor.",
           "MiscTags": []
+        }
+      }
+    ]
+  },
+  {
+    "Id": 8000,
+    "Sinner": "Ishmael",
+    "Grade": "ZAYIN",
+    "Sanity": 20,
+    "CorrosionSanity": 20,
+    "Abnormality": "Centipede Apostle",
+    "SinResist": {
+      "Wrath": 0.75,
+      "Lust": 1,
+      "Sloth": 2,
+      "Gluttony": 1,
+      "Gloom": 0.75,
+      "Pride": 1,
+      "Envy": 2
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 2,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 2,
+      "Envy": 0
+    },
+    "ThreadspinTiers":[
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Hundred-Footed Death Maggot [蝍蛆殺]",
+          "Description": "[After Attack] Inflict Centipede Venom equal to the sum of the types of negative effects on self and main target (Max 10)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] At 4+ Gluttony or Gloom Res, inflict Centipede Venom by Res (Max 5)",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 10,
+          "CoinPower": 5,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Centipede Venom",
+            "Sinking",
+            "Rupture"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Hundred-Footed Death Maggot [蝍蛆殺]",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Inflict Centipede Venom equal to the sum of the types of negative effects on self and main target (Max 10)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] At 4+ Gluttony or Gloom Res, inflict Centipede Venom by Res (Max 5)",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 16,
+          "CoinPower": -7,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Centipede Venom",
+            "Sinking",
+            "Rupture"
+          ]
+        },
+        "Passive": {
+          "Name": "Reversal Death by Gu Poison",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n-At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "MiscTags": [
+            "Offense Level Up"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Hundred-Footed Death Maggot [蝍蛆殺]",
+          "Description": "[After Attack] Inflict Centipede Venom equal to the sum of the types of negative effects on self and main target (Max 8)\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] At 4+ Gluttony or Gloom Res, inflict Centipede Venom by Res (Max 4)",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 10,
+          "CoinPower": 5,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Centipede Venom",
+            "Sinking",
+            "Rupture"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Hundred-Footed Death Maggot [蝍蛆殺]",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Inflict Centipede Venom equal to the sum of the types of negative effects on self and main target (Max 10)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] At 4+ Gluttony or Gloom Res, inflict Centipede Venom by Res (Max 4)",
+          "DamageType": "Blunt",
+          "SinType": "Gloom",
+          "BasePower": 16,
+          "CoinPower": -7,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 3,
+          "AttackWeightMod": 3,
+          "MiscTags": [
+            "Centipede Venom",
+            "Sinking",
+            "Rupture"
+          ]
+        },
+        "Passive": {
+          "Name": "Reversal Death by Gu Poison",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n-At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "MiscTags": [
+            "Offense Level Up"
+          ]
         }
       }
     ]

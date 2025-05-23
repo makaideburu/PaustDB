@@ -5643,28 +5643,28 @@
     "Sinner": "Faust",
     "Identity": "Heishou Pack - Mao Branch Adept",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Blinkstep",
-          "Description": "If unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n[On Hit] At X+ Speed, Reuse Coin once",
+          "Description": "If unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Rupture Count\n[On Hit] At 10+ Speed, Reuse Coin once",
           "DamageType": "Slash",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -5674,17 +5674,17 @@
           ]
         },
         "SkillTwo": {
-          "Name": "Clearing the Path, My Lord",
-          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Tianjiu Star's Blade)% damage\nIf unit's Speed is faster than target's by X or more, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Haste next turn\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Rupture\nIf target has Deathrite [Haste] or Deathrite [Fissure], deal more damage",
+          "Name": "Clearing the Path, My Lord.",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Tianjiu Star's Blade)% damage (Max 50%)\nIf unit's Speed is faster than target's by 3 or more, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 1 Rupture\nIf target has Deathrite [Haste] or Deathrite [Fissure], deal +50% damage",
           "DamageType": "Slash",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -5696,16 +5696,16 @@
         },
         "SkillThree": {
           "Name": "Traceless to Sight and Sound Alike.",
-          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[Combat Start] Gain Assist Defense\n[Before Use] At X+ Tianqiu Star's Blade, activate 'Ascendent Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] If target has X+ Rupture, Coin Power +Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[Before Use] At 10+ Tianjiu Star's Blade, activate 'Ascendent Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 3,
           "CoinCountModifier": 1,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -5718,16 +5718,16 @@
           ],
           "AltSkill": {
             "Name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-            "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage\nIf unit's Speed is faster than target's, Coin Power +X for every Y Speed difference\n[On Use] Coin Power +X for every Y Rupture on target\n[On use] At X+ Speed, gain Poise; at less than X Poise Count, raise Poise Count to Y\n[On Use] Gain Strider [Mao]\n[Clash Win] Inflict Rupture Count\n[After Attack] Spend Tianjiu Star's Blade\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict Rupture\n<3>At X+ Speed, deal more damage\n[On Hit] Inflict Rupture\n[On Hit] At X+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]\n[Reuse - On Hit]Inflict Deathrite [Fissure]",
+            "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Coin Power +1 for every 10 Rupture on target (Max 2)\n[On use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
             "DamageType": "Slash",
             "SinType": "Gluttony",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 5,
+            "CoinPower": 4,
             "CoinCount": 3,
-            "Level": 0,
+            "Level": 4,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
-            "CoinModifier": 0,
+            "CoinModifier": 4,
             "CoinCountModifier": 1,
             "AttackWeight": 1,
             "AttackWeightMod": 1,
@@ -5744,14 +5744,14 @@
         },
         "SkillDefense": {
           "Name": "It Shall be Done.",
-          "Description": "[Clashable Counter]\n[Combat Start] Gain Assist Defense\n[On Use] This Skill gains Offense Level +X for every Y% HP this unit has cumulatively lost in this Encounter\n[On Use] Gain Strider [Mao]\n[On Use] If unit's Speed is faster than target's by X or more, Base Power +Y for every Z Speed difference\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[On Use] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Gain 3 Strider [Mao]\n[On Use] If unit's Speed is faster than target's by 2 or more, Base Power +1 for every 2 Speed difference (Max 2)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture",
           "DamageType": "Slash",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 2,
+          "BasePowerModifier": 2,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
@@ -5765,13 +5765,13 @@
           ],
           "AltSkill": {
             "Name": "Swiftfeet Protection",
-            "Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At X+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +X for every Y% HP this unit has cumulatively lost in this Encounter\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain Protection\n<1>[Unbreakable Coin]",
+            "Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
             "DamageType": "Defend",
             "SinType": "Gluttony",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 4,
+            "CoinPower": 10,
             "CoinCount": 1,
-            "Level": 0,
+            "Level": 2,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
             "CoinModifier": 0,
@@ -5805,28 +5805,209 @@
         ],
         "PassiveSkill": {
           "Name": "Heishou Mutation [Mao] / Mao Branch Adept",
-          "Description": "If unit's Speed is faster than target's, deal more damage for every X Speed difference\nGain Tianjiu Star's Blade every time an ally activates a Deathrite effect\n-If this unit triggered a Deathrite effect, gain additional Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain Tianjiu Star's Blade",
+          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n-If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Tianjiu Star's Blade"
           ]
         },
         "SupportSkill": {
           "Name": "Blinkblade",
-          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage, gain Offense Level Up next turn",
+          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage, gain 1 Offense Level Up next turn (3 times per turn)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Offense Level Up"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Blinkstep",
+          "Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Rupture Count\n[On Hit] At 10+ Speed, Reuse Coin once",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Clearing the Path, My Lord.",
+          "Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Clash Win] Inflict +1 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n<2>If target has Deathrite [Haste] or Deathrite [Fissure], deal +30% damage",
+          "DamageType": "Slash",
+          "SinType": "Pride",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Haste",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Traceless to Sight and Sound Alike.",
+          "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[Before Use] At 10+ Tianjiu Star's Blade, activate 'Ascendent Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 5,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Assist Defense",
+            "Skill Change",
+            "Strider [Mao]",
+            "Rupture Count",
+            "Deathrite [Haste]"
+          ],
+          "AltSkill": {
+            "Name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+            "Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
+            "DamageType": "Slash",
+            "SinType": "Gluttony",
+            "BasePower": 5,
+            "CoinPower": 3,
+            "CoinCount": 3,
+            "Level": 4,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 4,
+            "CoinCountModifier": 1,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Poise",
+              "Poise Count",
+              "Strider [Mao]",
+              "Rupture Count",
+              "Spend Tianjiu Star's Blade",
+              "Deathrite [Haste]",
+              "Deathrite [Fissure]"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "It Shall be Done.",
+          "Description": "[Clashable Counter]\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[On Use] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Gain 3 Strider [Mao]\n[On Use] If unit's Speed is faster than target's by 2 or more, Base Power +1 for every 2 Speed difference (Max 2)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture",
+          "DamageType": "Slash",
+          "SinType": "Gluttony",
+          "BasePower": 5,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 2,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Assist Defense",
+            "Strider [Mao]",
+            "Rupture"
+          ],
+          "AltSkill": {
+            "Name": "Swiftfeet Protection",
+            "Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
+            "DamageType": "Defend",
+            "SinType": "Gluttony",
+            "BasePower": 4,
+            "CoinPower": 8,
+            "CoinCount": 1,
+            "Level": 2,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 0,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 1,
+            "MiscTags": [
+              "Clashable Guard",
+              "Skill Change",
+              "Nullify Stagger",
+              "Protection",
+              "Unbreakable Coin"
+            ]
+          }
+        },
+        "InstallPassives": [
+          {
+            "Name": "Tianjiu Star",
+            "Description": "When Deathrite [Fissure] Stack drops to 0 and expires, inflict Mark of Decay",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Mark of Decay"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Heishou Mutation [Mao] / Mao Branch Adept",
+          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n-If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Tianjiu Star's Blade"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Blinkblade",
+          "Description": "When 1 ally with the fastest Speed inflicts Rupture damage, gain 1 Offense Level Up next turn (3 times per turn)",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Offense Level Up"
           ]
