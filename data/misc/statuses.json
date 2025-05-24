@@ -2007,5 +2007,181 @@
     "Tags":[
       "Defense Level Down"
     ]
+  },
+  {
+    "Name": "Deception (Low Morale)",
+    "Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +10% damage against the target",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Deception (Panic)",
+    "Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +20% damage against the target; if this unit's Speed is faster than target's, take -20% damage",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Night in the Backstreets (Low Morale)",
+    "Description": "Turn Start: Gain 1 Attack Power Up, 1 HP Healing Boost, and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Night in the Backstreets (Panic)",
+    "Description": "Turn Start: Gain 2 Attack Power Up, 2 HP Healing Boost, and 1 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Podao (Low Morale)",
+    "Description": "Take +10% damage from Unopposed Attacks; deal +30% damage with Counterattacks",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Podao (Panic)",
+    "Description": "Take +20% damage from Unopposed Attacks; deal +50% damage with Counterattacks",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Charge Circuitry Countercurrent (Low Morale)",
+    "Description": "When Clashing against targets with Rupture, gain +3 Charge Count and 1 Fragile (2 times per turn)",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Charge Circuitry Countercurrent (Panic)",
+    "Description": "When Clashing against targets with Rupture, gain +5 Charge Count, 1 Damage Up, and 2 Fragile (2 times per turn)",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Double-edged Feather (Low Morale)",
+    "Description": "Turn Start: Gain 1 Fragile and 1 HP Healing Boost\nOn Hit, inflict 1 Rupture and 1 Bleed",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Double-edged Feather (Panic)",
+    "Description": "Turn Start: Gain 2 Fragile and 2 HP Healing Boost\nOn Hit, inflict 1 Rupture and 1 Bleed",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Angst (Low Morale)",
+    "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 2 Damage Up and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Angst (Panic)",
+    "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 2 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart of Evil (Low Morale)",
+    "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 2 Damage Up and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart of Evil (Panic)",
+    "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 2 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart of Oppressive Evil (Low Morale)",
+    "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart of Oppressive Evil (Panic)",
+    "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 4 Damage Up and 2 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Charge Order (Low Morale)",
+    "Description": "Turn Start: Gain 1 Fragile and apply 1 Damage Up to all allies",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Charge Order (Panic)",
+    "Description": "Turn Start: Gain 2 Fragile and apply 2 Damage Up to all allies",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Eldtree Mutation (Low Morale)",
+    "Description": "Gain 1 Damage Up, 1 Fragile, and 1 Rupture Fragility",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Eldtree Mutation (Panic)",
+    "Description": "Gain 2 Damage Up, 2 Fragile, and 2 Rupture Fragility",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Jia Qiu (Low Morale)",
+    "Description": "Deal +10% damage against enemies that aren't Hong Lu",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Jia Qiu (Panic)",
+    "Description": "Deal +20% damage against enemies that aren't Hong Lu",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
   }
 ]
