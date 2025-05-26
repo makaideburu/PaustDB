@@ -28950,7 +28950,7 @@
         },
         "SkillTwo": {
           "Name": "Courier Trunk - Demolition Gadget",
-          "Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 30- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 14- Courier Trunk - Sinclair, inflict +2 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 14- Courier Trunk - Sinclair, inflict +2 Rupture Count",
+          "Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 30- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
           "BasePower": 4,
@@ -29107,7 +29107,7 @@
         },
         "SkillTwo": {
           "Name": "Courier Trunk - Demolition Gadget",
-          "Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 20- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 14- Courier Trunk - Sinclair, inflict +1 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 14- Courier Trunk - Sinclair, inflict +1 Rupture Count",
+          "Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 20- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
           "BasePower": 4,
