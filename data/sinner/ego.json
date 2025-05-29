@@ -3062,7 +3062,7 @@
       "Pride": 0,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -4107,7 +4107,7 @@
       "Pride": 0,
       "Envy": 2
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -5079,7 +5079,7 @@
       "Pride": 0,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -5945,7 +5945,7 @@
         },
         "Passive": {
           "Name": "Green Slime",
-          "Description": "if struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Res) times per turn",
+          "Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Res) times per turn",
           "MiscTags": [
             "Rupture"
           ]
@@ -6001,9 +6001,191 @@
         },
         "Passive": {
           "Name": "Green Slime",
-          "Description": "if struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Res) times per turn",
+          "Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Res) times per turn",
           "MiscTags": [
             "Rupture"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Id": 6000,
+    "Sinner": "Hong Lu",
+    "Grade": "WAW",
+    "Sanity": 10,
+    "CorrosionSanity": 25,
+    "Abnormality": "Yinglong",
+    "SinResist": {
+      "Wrath": 2,
+      "Lust": 1,
+      "Sloth": 2,
+      "Gluttony": 0.5,
+      "Gloom": 0.5,
+      "Pride": 1,
+      "Envy": 0.75
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 5,
+      "Gloom": 1,
+      "Pride": 0,
+      "Envy": 1
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Description": "[Unclashable] Ignores target's Defense Skill; targets self\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n-This damage does not Stagger or reduce this unit's HP below 1",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 20,
+          "CoinPower": -10,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Special Targeting",
+            "Target Self",
+            "Flower-burying Wedge [埋花櫼]"
+          ],
+          "AltSkill": {
+            "Name": "Tears of the Tarnished Blood - The End [終]",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n-At 3+: Atk Weight +1; Base Power +1\n-At 4+: Atk Weight +2; Base Power +2\n-At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "DamageType": "Pierce",
+            "SinType": "Gluttony",
+            "BasePower": 4,
+            "CoinPower": 5,
+            "CoinCount": 4,
+            "Level": 5,
+            "BasePowerModifier": 3,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 3,
+            "CoinCountModifier": 0,
+            "AttackWeight": 7,
+            "AttackWeightMod": 10,
+            "MiscTags": [
+              "Unclashable",
+              "Attack Weight Increase",
+              "Self Instant Death",
+              "Rupture Count",
+              "Rupture"
+            ]
+          }
+        },
+        "Corrosion": {
+          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Res, Atk Weight +1\n-At 6+ Highest Res, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 12,
+          "CoinPower": -2,
+          "CoinCount": 4,
+          "Level": 5,
+          "BasePowerModifier": -8,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 7,
+          "AttackWeightMod": 9,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Flower-burying Wedge [埋花櫼]",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "Passive": {
+          "Name": "Crying Tears",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n-Gain 2 Haste next turn\n-All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n-Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n-Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n-Inflict 1 Attack Power Down to all enemies next turn",
+          "MiscTags": [
+            "Party Sin DMG Up",
+            "Party Damage Type DMG Up"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Description": "[Unclashable] Ignores target's Defense Skill; targets self\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n-This damage does not Stagger or reduce this unit's HP below 1",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 20,
+          "CoinPower": -10,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Special Targeting",
+            "Target Self",
+            "Flower-burying Wedge [埋花櫼]"
+          ],
+          "AltSkill": {
+            "Name": "Tears of the Tarnished Blood - The End [終]",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n-At 3+: Atk Weight +1; Base Power +1\n-At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "DamageType": "Pierce",
+            "SinType": "Gluttony",
+            "BasePower": 4,
+            "CoinPower": 4,
+            "CoinCount": 4,
+            "Level": 5,
+            "BasePowerModifier": 2,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 2,
+            "CoinCountModifier": 0,
+            "AttackWeight": 7,
+            "AttackWeightMod": 9,
+            "MiscTags": [
+              "Unclashable",
+              "Attack Weight Increase",
+              "Self Instant Death",
+              "Rupture Count",
+              "Rupture"
+            ]
+          }
+        },
+        "Corrosion": {
+          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Res, Atk Weight +1\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 12,
+          "CoinPower": -2,
+          "CoinCount": 4,
+          "Level": 5,
+          "BasePowerModifier": -8,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 7,
+          "AttackWeightMod": 9,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Flower-burying Wedge [埋花櫼]",
+            "Rupture Count",
+            "Rupture"
+          ]
+        },
+        "Passive": {
+          "Name": "Crying Tears",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n-Gain 2 Haste next turn\n-All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n-Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n-Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n-Inflict 1 Attack Power Down to all enemies next turn",
+          "MiscTags": [
+            "Party Sin DMG Up",
+            "Party Damage Type DMG Up"
           ]
         }
       }
@@ -6033,7 +6215,7 @@
       "Pride": 0,
       "Envy": 2
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -7141,7 +7323,7 @@
       "Pride": 0,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -7256,7 +7438,7 @@
       "Pride": 2,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -8384,7 +8566,7 @@
       "Pride": 3,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -9454,7 +9636,7 @@
       "Pride": 0,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -10388,6 +10570,97 @@
     ]
   },
   {
+    "Id": 11000,
+    "Sinner": "Sinclair",
+    "Grade": "WAW",
+    "Sanity": 10,
+    "CorrosionSanity": 25,
+    "Abnormality": "Yinglong",
+    "SinResist": {
+      "Wrath": 2,
+      "Lust": 0.75,
+      "Sloth": 1,
+      "Gluttony": 0.5,
+      "Gloom": 0.5,
+      "Pride": 2,
+      "Envy": 1
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 2,
+      "Sloth": 0,
+      "Gluttony": 6,
+      "Gloom": 0,
+      "Pride": 2,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "Description": "Coin Power +1 for every 6 Flower-burying Pin [埋花針] on self (Max 3)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Res (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 8,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 3,
+          "CoinCountModifier": 1,
+          "AttackWeight": 5,
+          "AttackWeightMod": 5,
+          "MiscTags": [
+            "Denial [不許]",
+            "Flower-burying Pin [埋花針]",
+            "Self HP Damage",
+            "Nullify Stagger",
+            "Self SP Damage",
+            "Rupture Count",
+            "Rupture",
+            "Self Instant Death"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every Flower-burying Pin [埋花針] (Max 2)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Res + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 20,
+          "CoinPower": -8,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 2,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 3,
+          "CoinCountModifier": 1,
+          "AttackWeight": 7,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Denial [不許]",
+            "Flower-burying Pin [埋花針]",
+            "Self HP Damage",
+            "Nullify Stagger",
+            "Rupture Count",
+            "Rupture",
+            "Skill Reuse",
+            "Self Instant Death"
+          ]
+        },
+        "Passive": {
+          "Name": "Crying Tears",
+          "Description": "Turn End: If this unit had a negative effect, lost its HP or SP, heal 5 SP\nIf this unit or an ally is defeated, inflict 1 Fragile to all enemies next turn (Once per turn)",
+          "MiscTags": [
+            "Heal SP",
+            "Fragile"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 12101,
     "Sinner": "Outis",
     "Grade": "ZAYIN",
@@ -10411,7 +10684,7 @@
       "Pride": 2,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
@@ -11287,7 +11560,8 @@
             "Dark Flame"
           ]
         }
-      },{
+      },
+      {
         "Tier": 4,
         "Awakening": {
           "Name": "Magic Bullet",
@@ -11509,7 +11783,7 @@
       "Pride": 0,
       "Envy": 0
     },
-    "ThreadspinTiers":[
+    "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {

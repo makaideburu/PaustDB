@@ -2183,5 +2183,39 @@
       "Panic",
       "Panic Type"
     ]
+  },
+  {
+    "Name": "Flower-burying Wedge [埋花櫼]",
+    "Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End' next turn based on this unit's Speed.",
+    "Tags":[
+      "Offense Level Up",
+      "Defense Level Down",
+      "Unrelenting",
+      "Tarnished Blood",
+      "Skill Change"
+    ]
+  },
+  {
+    "Name": "Tarnished Blood",
+    "Description": "Max Stack: 5\nTurn End: Take 20% HP damage per Stack (does not Stagger)\nGain 1 at Turn End\nExpires on death or Retreat",
+    "Tags":[
+      "Self HP Damage"
+    ]
+  },
+  {
+    "Name": "Flower-Burying Pin [埋花針]",
+    "Description": "Max Stack: 20\n-Gain 1 Stack at Turn End or when hit\n-Gain 1 Offense Level per 5 Stack\nIf the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\nExpires on death or Retreat",
+    "Tags":[
+      "Offense Level Up",
+      "Rupture"
+    ]
+  },
+  {
+    "Name": "Denial [不許]",
+    "Description": "When this unit takes damage that brings their HP down to 0: This unit's HP does not drop below 1; recover from Stagger due to damage\nIf ths above effect activated, dies at Turn End\nExpires on death, Retreat, or Turn End",
+    "Tags":[
+      "Unrelenting",
+      "Nullify Stagger"
+    ]
   }
 ]

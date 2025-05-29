@@ -168,6 +168,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.7 (2025-05-29)",
+        "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
+      ],
+      [
         "2.6.2.1 (2025-05-19)",
         "```oh no not again```"
       ],
@@ -186,10 +190,6 @@
       [
         "2.5.6 (2025-02-20)",
         "```Fix for Railway Stops not prioritizing Stop number over Station number```"
-      ],
-      [
-        "2.5.5 (2025-02-03)",
-        "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
       ]
     ],
     "OldItems": [
@@ -316,6 +316,10 @@
       [
         "2.5.4.1 (2025-01-20)",
         "```'Inconsequential' backend stuff became consequential error```"
+      ],
+      [
+        "2.5.5 (2025-02-03)",
+        "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
       ]
     ],
     "HelpFooter": ""
