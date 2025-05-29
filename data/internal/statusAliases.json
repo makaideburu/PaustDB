@@ -77,6 +77,23 @@
     ]
   },
   {
+    "entry": "party damage type dmg up",
+    "aliases":[
+      "damage type dmg up",
+      "ally damage type dmg up",
+      "party slash dmg up",
+      "party pierce dmg up",
+      "party blunt dmg up"
+    ]
+  },
+  {
+    "entry": "party slash dmg up",
+    "aliases":[
+      "slash dmg up",
+      "ally slash dmg up"
+    ]
+  },
+  {
     "entry": "party pierce dmg up",
     "aliases":[
       "pierce dmg up",
@@ -98,6 +115,20 @@
     ]
   },
   {
+    "entry": "party sin dmg up",
+    "aliases":[
+      "sin dmg up",
+      "ally sin dmg up",
+      "party wrath dmg up",
+      "party lust dmg up",
+      "party sloth dmg up",
+      "party gluttony dmg up",
+      "party gloom dmg up",
+      "party pride dmg up",
+      "party envy dmg up"
+    ]
+  },
+  {
     "entry": "party wrath dmg up",
     "aliases":[
       "wrath dmg up",
@@ -105,10 +136,45 @@
     ]
   },
   {
+    "entry": "party lust dmg up",
+    "aliases":[
+      "lust dmg up",
+      "ally lust dmg up"
+    ]
+  },
+  {
     "entry": "party sloth dmg up",
     "aliases":[
       "sloth dmg up",
       "ally sloth dmg up"
+    ]
+  },
+  {
+    "entry": "party gluttony dmg up",
+    "aliases":[
+      "gluttony dmg up",
+      "ally gluttony dmg up"
+    ]
+  },
+  {
+    "entry": "party gloom dmg up",
+    "aliases":[
+      "gloom dmg up",
+      "ally gloom dmg up"
+    ]
+  },
+  {
+    "entry": "party pride dmg up",
+    "aliases":[
+      "pride dmg up",
+      "ally pride dmg up"
+    ]
+  },
+  {
+    "entry": "party envy dmg up",
+    "aliases":[
+      "envy dmg up",
+      "ally envy dmg up"
     ]
   },
   {

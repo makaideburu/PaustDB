@@ -10599,7 +10599,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
-          "Description": "Coin Power +1 for every 6 Flower-burying Pin [埋花針] on self (Max 3)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Res (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
+          "Description": "Coin Power +1 for every 6 Flower-burying Pin [埋花針] (Max 3)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Res (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 8,
@@ -10625,7 +10625,7 @@
         },
         "Corrosion": {
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
-          "Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every Flower-burying Pin [埋花針] (Max 2)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Res + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
+          "Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 10 Flower-burying Pin [埋花針] (Max 2)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Res + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 20,
@@ -10633,6 +10633,69 @@
           "CoinCount": 2,
           "Level": 0,
           "BasePowerModifier": 2,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 3,
+          "CoinCountModifier": 1,
+          "AttackWeight": 7,
+          "AttackWeightMod": 7,
+          "MiscTags": [
+            "Denial [不許]",
+            "Flower-burying Pin [埋花針]",
+            "Self HP Damage",
+            "Nullify Stagger",
+            "Rupture Count",
+            "Rupture",
+            "Skill Reuse",
+            "Self Instant Death"
+          ]
+        },
+        "Passive": {
+          "Name": "Crying Tears",
+          "Description": "Turn End: If this unit had a negative effect, lost its HP or SP, heal 5 SP\nIf this unit or an ally is defeated, inflict 1 Fragile to all enemies next turn (Once per turn)",
+          "MiscTags": [
+            "Heal SP",
+            "Fragile"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "Description": "At 6+ Flower-burying Pin [埋花針], Coin Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Res (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 8,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 1,
+          "AttackWeight": 5,
+          "AttackWeightMod": 5,
+          "MiscTags": [
+            "Denial [不許]",
+            "Flower-burying Pin [埋花針]",
+            "Self HP Damage",
+            "Nullify Stagger",
+            "Self SP Damage",
+            "Rupture Count",
+            "Rupture",
+            "Self Instant Death"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "Description": "[Indiscriminate] Targets randomly\nAt 10+ Flower-burying Pin [埋花針], Base Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Res + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
+          "DamageType": "Pierce",
+          "SinType": "Gluttony",
+          "BasePower": 20,
+          "CoinPower": -8,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 1,
           "FinalPowerModifier": 0,
           "CoinModifier": 3,
           "CoinCountModifier": 1,
