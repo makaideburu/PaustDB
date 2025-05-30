@@ -27243,16 +27243,16 @@
         },
         "SupportSkill": {
           "Name": "Wishing Talisman",
-          "Description": "At the start of the combat phase, give (Highest Res x 2) Talisman to the ally with the most HP.",
+          "Description": "1 ally with the highest current HP inflicts +1 more Rupture with Attack and Counter Skills",
           "PassiveResources": [
             {
               "ResourceSin": "Gluttony",
               "ResourceCount": 4
             }
           ],
-          "ResourceType": "Res",
+          "ResourceType": "Owned",
           "MiscTags": [
-            "Ally Talisman"
+            "Rupture"
           ]
         }
       },
@@ -27326,6 +27326,117 @@
           "SinType": "None",
           "BasePower": 8,
           "CoinPower": 5,
+          "CoinCount": 1,
+          "Level": 1,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Talisman"
+          ]
+        },
+        "PassiveSkill": {
+          "Name": "Unfixing Talismans",
+          "Description": "On hit, if the target had Rupture, gain 1 Talisman.",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Self Talisman"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Wishing Talisman",
+          "Description": "1 ally with the highest current HP inflicts +1 more Rupture with Attack and Counter Skills",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Talisman"
+          ]
+        }
+      },
+      {
+        "Tier": 0,
+        "SkillOne": {
+          "Name": "Magnify Wound",
+          "Description": "<1>[On Hit] Inflict 2 Rupture\n[On Hit] If target has 5+ Rupture, gain 1 Talisman",
+          "DamageType": "Blunt",
+          "SinType": "Gluttony",
+          "BasePower": 5,
+          "CoinPower": 5,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Rupture",
+            "Self Talisman"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Proliferating Talismans",
+          "Description": "<1>[On Hit] Gain 1 Talisman\n[On Hit] If target has Rupture, gain 1 Talisman\n<2>[On Hit] Gain 1 Talisman\n[On Hit] If target has Rupture, gain 1 Talisman\n<3>[On Hit] Gain 1 Talisman\n[On Hit] If target has Rupture, gain 1 Talisman",
+          "DamageType": "Blunt",
+          "SinType": "Pride",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Self Talisman"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Rupturing Talisman",
+          "Description": "<1>[On Hit] Spend 5 Talisman on self; Give 5 Talisman\n<2>[On Hit] If target has Talisman, inflict +3 Rupture Count",
+          "DamageType": "Pierce",
+          "SinType": "Lust",
+          "BasePower": 5,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Spend Self Talisman",
+            "Enemy Talisman",
+            "Rupture",
+            "Rupture Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Guard",
+          "Description": "[On Use] Gain 1 Talisman",
+          "DamageType": "Defend",
+          "SinType": "Gluttony",
+          "BasePower": 8,
+          "CoinPower": 8,
           "CoinCount": 1,
           "Level": 1,
           "BasePowerModifier": 0,

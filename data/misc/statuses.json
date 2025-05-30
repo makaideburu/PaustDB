@@ -736,6 +736,13 @@
   },
   {
     "Name": "Talisman",
+    "Description": "Max StacK: 6\nOn Hit, consume 1 Rupture Count on target to inflict (Stack / 2) Rupture (inflicts at least 1 Rupture if Count was consumed; rounded down)\nWhen hit, gain (Stack / 2) Rupture and lose 1 Stack (Gain at least 1; rounded down)\nTurn End: At 6+ Stack, remove all Talisman on self and take fixed damage by Stack",
+    "Tags": [
+      "Rupture"
+    ]
+  },
+  {
+    "Name": "Talisman (Old)",
     "Description": "On hit, inflict (Stack) Rupture. When hit, gain (Stack) Rupture. Turn End: At 6+ Count, remove all Talisman and take (Stack) fixed damage.",
     "Tags": [
       "Rupture"
