@@ -736,7 +736,7 @@
   },
   {
     "Name": "Talisman",
-    "Description": "Max StacK: 6\nOn Hit, consume 1 Rupture Count on target to inflict (Stack / 2) Rupture (inflicts at least 1 Rupture if Count was consumed; rounded down)\nWhen hit, gain (Stack / 2) Rupture and lose 1 Stack (Gain at least 1; rounded down)\nTurn End: At 6+ Stack, remove all Talisman on self and take fixed damage by Stack",
+    "Description": "Max Stack: 6\nOn Hit, consume 1 Rupture Count on target to inflict (Stack / 2) Rupture (inflicts at least 1 Rupture if Count was consumed; rounded down)\nWhen hit, gain (Stack / 2) Rupture and lose 1 Stack (Gain at least 1; rounded down)\nTurn End: At 6+ Stack, remove all Talisman on self and take fixed damage by Stack",
     "Tags": [
       "Rupture"
     ]
@@ -2223,6 +2223,162 @@
     "Tags":[
       "Unrelenting",
       "Nullify Stagger"
+    ]
+  },
+  {
+    "Name": "Ready [待]",
+    "Description": "Max Stack: 3\nNumber of turns this unit spent in Retreat or as a Backup Unit",
+    "Tags":[
+    ]
+  },
+  {
+    "Name": "Launcher [始]",
+    "Description": "Max Stack: 6\nNumber of turns this unit spent active in an Encounter\nExpires on Retreat\nGain Stack at Turn End",
+    "Tags":[
+    ]
+  },
+  {
+    "Name": "Assist [援]",
+    "Description": "Max Stack: 1\nIf target has X+ negative effects, Clash Power +X and deal more damage",
+    "Tags":[
+      "Ally Clash Power",
+      "Ally Damage Amp"
+    ]
+  },
+  {
+    "Name": "Battlefield Retreat",
+    "Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Subtituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
+    "Tags":[
+      "Retreat",
+      "Nullify Stagger"
+    ]
+  },
+  {
+    "Name": "Thorns (Low Morale)",
+    "Description": "Clash Win: Gain 1 Damage Up",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Thorns (Panic)",
+    "Description": "Clash Win: Gain 1 Damage Up\nTurn End: Gain 2 Clash Power Up next turn",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Le Regole (Low Morale)",
+    "Description": "If this unit inflicted 2+ Tremor last turn, gain 1 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 1 Wrath DMG Up\nIf this unit failed to inflict anything, gain 2 Defense level Down",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Le Regole (Panic)",
+    "Description": "If this unit inflicted 2+ Tremor last turn, gain 2 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 2 Wrath DMG Up\nIf this unit failed to inflict anything, gain 3 Defense level Down",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Beastly Instinct (Low Morale)",
+    "Description": "Deals +(HP percentage difference / 2)% damage to targets with higher HP percentages than this unit's (Max 10%)\nTurn Start: Gain 1 Attack Power Up, 1 Damage Up, and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Beastly Instinct (Panic)",
+    "Description": "Deals +(HP percentage difference)% damage to targets with higher HP percentages than this unit's (Max 25%)\nTurn Start: Gain 1 Plus Coin Boost, 2 Damage Up, and 2 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Flesh Scoop (Low Morale)",
+    "Description": "Turn Start: Gain 5 Bleed and 1 Attack Power Up",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Flesh Scoop (Panic)",
+    "Description": "Turn Start: Gain 10 Bleed and 2 Attack Power Up",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart Toward the New Era (Low Morale)",
+    "Description": "On Hit: Consume 3 SP on self to inflict 2 Sinking",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Heart Toward the New Era (Panic)",
+    "Description": "On Hit: Inflict 3 Sinking and gain 1 Sinking",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Soft Goldcasted Heart (Low Morale)",
+    "Description": "Turn Start: Gain 1 Attack Power Up and 1 Fragile",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Soft Goldcasted Heart (Panic)",
+    "Description": "Turn Start: Gain 2 Attack Power Up and 2 Fragile",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Inherited Will of Hongyuan (Low Morale)",
+    "Description": "All Parts gain 2 Attack Power Up and 1 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 1 Damage Up and 1 Fragile next turn (Once per turn)",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Inherited Will of Hongyuan (Panic)",
+    "Description": "All Parts gain 2 Attack Power Up and 2 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 2 Damage Up and 2 Fragile next turn (Once per turn)",
+    "Tags":[
+      "Panic",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Infinitely Bequeathing Will of Hongyuan (Low Morale)",
+    "Description": "Gain 2 Attack Power Up and 1 Fragile\nUnits generated by this unit gain 3 Defense Level Down\nDeal +20% damage. If the Palanquin Part's HP drops to 0, deal -10% damage instead",
+    "Tags":[
+      "Low Morale",
+      "Panic Type"
+    ]
+  },
+  {
+    "Name": "Infinitely Bequeathing Will of Hongyuan (Panic)",
+    "Description": "Gain 2 Attack Power Up and 2 Fragile\nUnits generated by this unit gain 6 Defense Level Down\nDeal +30% damage. If the Palanquin Part's HP drops to 0, deal -15% damage instead",
+    "Tags":[
+      "Panic",
+      "Panic Type"
     ]
   }
 ]
