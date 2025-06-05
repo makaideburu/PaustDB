@@ -23315,28 +23315,28 @@
     "Sinner": "Ishmael",
     "Identity": "Family Hierarch Candidate",
     "World": "",
-    "Speed": "???",
+    "Speed": "3-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 1,
+      "Pierce": 2,
+      "Blunt": 0.5
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Crimson Strike",
-          "Description": "[On Use] If target has X+ types of negative effects, Clash Power +Y\n[On Use] Coin Power +X for every Y Rupture on target\n[Clash Win] Gain Poise and Poise Count\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Rupture\n[On Crit] Gain Offense Level Up next turn",
+          "Description": "[On Use] If target has 5+ types of negative effects, Clash Power +1\n[On Use] Coin Power +1 for every 3 Rupture on target (Max 2)\n[Clash Win] Gain 3 Poise and +2 Poise Count\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n[On Crit] Gain 1 Offense Level Up next turn (2 times per turn)",
           "DamageType": "Blunt",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 1,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -23349,19 +23349,19 @@
           ],
           "AltSkill": {
             "Name": "Crimson Strike - Launcher [始]",
-            "Description": "[Unclashable]\n[Before Use] Consume all Ready [待] on self to gain + (Ready [待] x X) Atk Weight\n[On Use] Gain Poise and Poise Count\n[On Use] At X+ Ready [待], Coin Power +Y\n<2>[On Hit] Inflict Rupture",
+            "Description": "[Unclashable]\n[Before Use] Consume all Ready [待] on self to gain + (Ready [待] x 2) Atk Weight (Max 5)\n[On Use] Gain 5 Poise and +2 Poise Count\n[On Use] At 3+ Ready [待], Coin Power +2\n<2>[On Hit] Inflict 1 Rupture",
             "DamageType": "Blunt",
             "SinType": "Gloom",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 2,
+            "CoinPower": 2,
             "CoinCount": 2,
             "Level": 0,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
-            "CoinModifier": 0,
+            "CoinModifier": 2,
             "CoinCountModifier": 0,
             "AttackWeight": 1,
-            "AttackWeightMod": 1,
+            "AttackWeightMod": 6,
             "MiscTags": [
               "Spend Ready [待]",
               "Poise",
@@ -23372,16 +23372,16 @@
         },
         "SkillTwo": {
           "Name": "Crimson Phoenix",
-          "Description": "[On Use] If target has X+ types of negative effects, Coin Power +Y\n[On Use] If target has X+ Rupture, Coin Power +Y\n<1>[On Hit] Inflict Rupture Count\n[On Crit] Inflict Defense Level Down next turn\n<2>[On Hit] Inflict Rupture Count\n[On Crit] Inflict Defense Level Down next turn\n<3>[On Hit] Gain Poise equal to Rupture on target\n[Heads Hit] Gain Poise Count equal to Rupture Count on target\n<4>Deal +(X + Poise on self + Rupture on target)% damage on Critical Hit\n[On Crit Kill] Gain Offense Level Up next turn",
+          "Description": "[On Use] If target has 5+ types of negative effects, Coin Power +1\n[On Use] If target has 4+ Rupture, Coin Power +1\n<1>[On Hit] Inflict +1 Rupture Count\n[On Crit] Inflict 2 Defense Level Down next turn\n<2>[On Hit] Inflict +1 Rupture Count\n[On Crit] Inflict 2 Defense Level Down next turn\n<3>[On Hit] Gain Poise equal to Rupture on target (Max 5)\n[Heads Hit] Gain Poise Count equal to Rupture Count on target (Max 3)\n<4>Deal +(20 + Poise on self + Rupture on target)% damage on Critical Hit (Max 50%)\n[On Crit Kill] Gain 3 Offense Level Up next turn (Once per turn)",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 2,
+          "CoinPower": 3,
           "CoinCount": 4,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -23395,19 +23395,19 @@
         },
         "SkillThree": {
           "Name": "Crimson Spring",
-          "Description": "[Before Attack] If main target has X+ types of negative effects, Atk Weight +Y\n[Before Attack] At X+ Launcher [始], Atk Weight +Y\n[On Use] Coin Power +X for every Y types of negative effects on main target\n[On Use] Coin Power +X for every Y (Rupture + Rupture Count) on main target\n[Clash Win] Gain Poise\n<1>[Unbreakable Coin]\nDeal +(X + Poise on self + Rupture on main target)% damage\nDeal +(X + Poise on self + Rupture on main target)% damage on Critical Hit\nDeal +X% damage on Critical Hit for every Launcher [始]\n[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture Count\n[On Crit] Gain Poise and Poise Count\n[On Crit Kill] Gain Poise Count",
+          "Description": "[Before Attack] If main target has 5+ types of negative effects, Atk Weight +1\n[Before Attack] At 3+ Launcher [始], Atk Weight +1\n[On Use] Coin Power +2 for every 3 types of negative effects on main target (Max 6)\n[On Use] Coin Power +1 for every 7 (Rupture + Rupture Count) on main target (Max 5)\n[Clash Win] Gain 4 Poise\n<1>[Unbreakable Coin]\nDeal +(50 + Poise on self + Rupture on main target)% damage (Max 75%)\nDeal +(80 + Poise on self + Rupture on main target)% damage on Critical Hit (Max 105%)\n+5% damage on Critical Hit for every Launcher [始] (Max 30%)\n[On Hit] Inflict 5 Rupture\n[On Crit] Inflict +1 Rupture Count\n[On Crit] Gain 2 Poise and +1 Poise Count\n[On Crit Kill] Gain +2 Poise Count (3 times per turn)",
           "DamageType": "Slash",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 8,
+          "CoinPower": 14,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 11,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Weight Increase",
             "Poise",
@@ -23419,11 +23419,11 @@
         },
         "SkillDefense": {
           "Name": "Adept Evasion",
-          "Description": "[Combat Start] At X+ Launcher [始]. perform a Battlefield Retreat at Turn End\n-On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Use] Gain Poise Count\n[On Evade] Gain Poise",
+          "Description": "[Combat Start] At 3+ Launcher [始]. perform a Battlefield Retreat at Turn End\n-On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Use] Gain +1 Poise Count (2 times per turn)\n[On Evade] Gain 2 Poise (2 times per turn)",
           "DamageType": "Evade",
           "SinType": "Gloom",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 11,
           "CoinCount": 1,
           "Level": 0,
           "BasePowerModifier": 0,
@@ -23441,7 +23441,7 @@
         "InstallPassives": [
           {
             "Name": "Launching Maneuver [始動]",
-            "Description": "On Retreat, apply X Offense Level Up next turn to allies in their Deployment Order\n-# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply Y Offense level Up next turn instead\n-Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
+            "Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n-# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n-Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -23458,14 +23458,14 @@
         ],
         "PassiveSkill": {
           "Name": "Rupture-breathing Resolve",
-          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target\n-If this unit gained up to X Poise with the above effect, gain Poise Count equal to Rupture Count on target\n\nIn a clash, if this unit's Offense level is higher than target's, Clash Power +X; inflict more Rupture or Rupture Count with this unit's Base Attack Skills",
+          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target (3 per enemy; once per turn)\n-If this unit gained up 3 Poise with the above effect, gain Poise Count equal to Rupture Count on target (2 per enemy; once per turn)\n\nIn a Clash, if this unit's Offense level is higher than target's, Clash Power +1; inflict +1 Rupture or Rupture Count with this unit's Base Attack Skills (2 times per turn)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 5
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Poise",
             "Poise Count",
@@ -23474,14 +23474,14 @@
         },
         "SupportSkill": {
           "Name": "Lingering Resolve",
-          "Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Subtituting Identity next turn\nIn Chain Battles, if this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at X% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat",
+          "Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Subtituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Gluttony",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Assist [援]",
             "Ally Battlefield Retreat"

@@ -2239,7 +2239,7 @@
   },
   {
     "Name": "Assist [援]",
-    "Description": "Max Stack: 1\nIf target has X+ negative effects, Clash Power +X and deal more damage",
+    "Description": "Max Stack: 1\nIf target has 5+ negative effects, Clash Power +1 and deal +10% damage",
     "Tags":[
       "Ally Clash Power",
       "Ally Damage Amp"
