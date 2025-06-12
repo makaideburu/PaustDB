@@ -33624,7 +33624,7 @@
         },
         "SkillThree": {
           "Name": "Let's Grind 'Em",
-          "Description": "If target has 5+ Tremor Count, Coin Power +1\n<1>[On Hit] Trigger Tremor Burst, reduce Tremor Count by 2\nSpend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent\n<2>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n[On Hit] if target has 5+ Tremor Count, inflict 3 Rupture\n<3>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n[On Hit] if target has 5+ Tremor Count, inflict 3 Rupture",
+          "Description": "If target has 5+ Tremor Count, Coin Power +1\n<1>[On Hit] Trigger Tremor Burst, reduce Tremor Count by 2 and spend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent\n<2>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n[On Hit] if target has 5+ Tremor Count, inflict 3 Rupture\n<3>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n[On Hit] if target has 5+ Tremor Count, inflict 3 Rupture",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -33738,7 +33738,7 @@
         },
         "SkillThree": {
           "Name": "Let's Grind 'Em",
-          "Description": "<1>[On Hit] Trigger Tremor Burst, reduce Tremor Count by 2\nSpend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent\n<2>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n<3>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage",
+          "Description": "<1>[On Hit] Trigger Tremor Burst, reduce Tremor Count by 2 and spend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent\n<2>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage\n<3>[On Hit] Inflict 1 Rupture\nIf target is staggered, deal +10% damage",
           "DamageType": "Slash",
           "SinType": "Gloom",
           "BasePower": 4,
