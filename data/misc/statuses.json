@@ -2380,5 +2380,58 @@
       "Panic",
       "Panic Type"
     ]
+  },
+  {
+    "Name": "Tremor - Scorch",
+    "Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
+    "Tags":[
+      "Unique Tremor"
+    ]
+  },
+  {
+    "Name": "Scorch Propellant Ammo",
+    "Description": "Max Capacity: 15\nUnique Ammo\nCounts as Ammo",
+    "Tags":[
+      "Unique Ammo"
+    ]
+  },
+  {
+    "Name": "Tigermark Round",
+    "Description": "Max Capacity: 12\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+    "Tags":[
+      "Unique Ammo"
+    ]
+  },
+  {
+    "Name": "Savage Tigermark Round",
+    "Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+    "Tags":[
+      "Unique Ammo"
+    ]
+  },
+  {
+    "Name": "Unrelenting Spirit [剛氣]",
+    "Description": "Max Stack: 1\nGain Min and Max Speed\nIf this unit's Speed is faster than target's by X or more, deal +(Speed difference x Y)% damage\nInflict more Tremor and Tremor Count with this unit's Skills\nIf this unit spent X or more Tigermark Round and Savage Tigermark Round, convert this buff into Unrelenting Spirit - Shin [剛氣-心] next turn at Turn End",
+    "Tags":[
+      "Min Speed",
+      "Max Speed"
+    ]
+  },
+  {
+    "Name": "Unrelenting Spirit - Shin [剛氣-心]",
+    "Description": "Max Stack: 1\nGain Min and Max Speed\nIf this unit's Speed is faster than target's by X or more, deal +(Speed difference x Y)% damage\nInflict more Tremor and Tremor Count with this unit's Skills",
+    "Tags":[
+      "Min Speed",
+      "Max Speed"
+    ]
+  },
+  {
+    "Name": "Overheat",
+    "Description": "Lose this effect when gaining Savage Tigermark Round\nGain Min and max Speed\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / X) Clash Power, but gain the following based on rounds spent:\n8+: Gain Protection for every X% missing HP on self\n14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(X + missing HP percentage on self)% damage\n20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (Except E.G.O Skills)",
+    "Tags":[
+      "Min Speed",
+      "Max Speed",
+      "Protection"
+    ]
   }
 ]

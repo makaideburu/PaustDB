@@ -1168,5 +1168,46 @@
       "ally status cleanse",
       "ally retreat"
     ]
+  },
+  {
+    "entry": "spend scorch propellant ammo",
+    "aliases": [
+      "spend ammo"
+    ]
+  },
+  {
+    "entry": "scorch propellant ammo",
+    "aliases": [
+      "ammo",
+      "unique ammo"
+    ]
+  },
+  {
+    "entry": "tremor - scorch",
+    "aliases": [
+      "unique tremor"
+    ]
+  },
+  {
+    "entry": "unrelenting spirit [剛氣]",
+    "aliases": [
+      "min speed",
+      "max speed"
+    ]
+  },
+  {
+    "entry": "unrelenting spirit - shin [剛氣-心]",
+    "aliases": [
+      "min speed",
+      "max speed"
+    ]
+  },
+  {
+    "entry": "overheat",
+    "aliases": [
+      "min speed",
+      "max speed",
+      "protection"
+    ]
   }
 ]
