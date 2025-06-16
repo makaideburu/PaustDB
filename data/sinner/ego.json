@@ -4785,7 +4785,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Capote",
-          "Description": "[After Attack] Gain 2 Haste, 1 Wrath Power Up, and 1 Blunt Power Up next turn\n<1>[On Hit] Inflict 10 Burn\n[On Hit] Inflict Tremor by target's Burn Count\n[On Hit] Inflict 3 Burn on 5 random enemies\n[On Hit] Trigger Tremor Burst, then reduce Tremor Count by 2: If the burst Staggered the target, inflict +3 Burn Count on 5 random enemies",
+          "Description": "[After Attack] Gain 2 Haste, 1 Wrath Power Up, and 1 Blunt Power Up next turn\n<1>[On Hit] Inflict 10 Burn\n[On Hit] Inflict Tremor by target's Burn\n[On Hit] Inflict 3 Burn on 5 random enemies\n[On Hit] Trigger Tremor Burst, then reduce Tremor Count by 2: If the burst Staggered the target, inflict +3 Burn Count on 5 random enemies",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 20,
@@ -4810,7 +4810,7 @@
         },
         "Corrosion": {
           "Name": "Capote",
-          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Gain 2 Haste, 1 Wrath Power Up, and 1 Blunt Power Up next turn\n<1>[On Hit] Inflict 12 Burn\n[On Hit] Inflict Tremor by target's Burn Count\n[On Hit] Inflict 3 Burn on 5 random enemies\n[On Hit] Trigger Tremor Burst, then reduce Tremor Count by 2: If the burst Staggered the target, inflict +4 Burn Count on 5 random units",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Gain 2 Haste, 1 Wrath Power Up, and 1 Blunt Power Up next turn\n<1>[On Hit] Inflict 12 Burn\n[On Hit] Inflict Tremor by target's Burn\n[On Hit] Inflict 3 Burn on 5 random enemies\n[On Hit] Trigger Tremor Burst, then reduce Tremor Count by 2: If the burst Staggered the target, inflict +4 Burn Count on 5 random units",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 37,
