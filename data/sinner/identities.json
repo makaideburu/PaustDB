@@ -14503,7 +14503,7 @@
         ],
         "PassiveSkill": {
           "Name": "Tiantui Star's Blade [天退星刀]",
-          "Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unrbeakable Coins\nCoins that spend Tigermark Round gain Power and deal more damage\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, covnert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that spend Savage Tigermark Round gain Power, deal more damage, and inflict more Burn and Burn Count On Hit",
+          "Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that spend Tigermark Round gain Power and deal more damage\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that spend Savage Tigermark Round gain Power, deal more damage, and inflict more Burn and Burn Count On Hit",
           "PassiveResources": [
             {
               "ResourceSin": "None",

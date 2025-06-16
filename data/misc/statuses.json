@@ -1131,9 +1131,9 @@
     ]
   },
   {
-    "Name" : "Tremor - Fracture",
+    "Name": "Tremor - Fracture",
     "Description": "When Staggered, and when the sum of Tremor and Tremor Count adds up to 20 or higher, raise Stagger Level by 1\nCannot exceed maximum Stagger Level with this effect\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
-    "Tags":[
+    "Tags": [
       "Unique Tremor",
       "Stagger Level"
     ]
@@ -1141,53 +1141,53 @@
   {
     "Name": "Before the King in Binds",
     "Description": "When this unit's Attack with 1 Atk Weight hits, inflict 100% of the damage dealt as (Affinity of the Attack Skill used to hit) damage against 2 enemies with the least HP that can be attacked",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Before the King",
     "Description": "When this unit's Attack with 1 Atk Weight hits, inflict 50% of the damage dealt as (Affinity of the Attack Skill used to hit) damage against 2 enemies with the least HP that can be attacked",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "B.M.",
     "Description": "Enhances Edgar Family Chief Butler Ryōshū's Skills against targets with this effect.\nTurn End: Reduce the Count by 1.",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Volatile Passion",
     "Description": "On Hit, inflict 1 Burn\nIf the main target has Burn, +1 Final Power\nWhen hit, if this unit had a Defense Skill chained at Combat Start, inflict Burn against the attacker for the turn\nTurn End: Lose (# of turns spent in Volatile E.G.O state x 5) SP. (Max SP loss: 40)",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Blubberbubble",
     "Description": "This effect counts as a 'Shield Management' effect.\nTurn End: Reduce Count by 1.\nThis unit does not lose Shield at Turn End as long as it has the Blubberbubble effect (Unless depleted by damage or effect).\nIf the Shield affected by Blubberbubble breaks due to taking damage, inflict 4 Sinking Potency/Count against the attacker (randomly split between Potency and Count).\nThis unit can stack its Shield value by using this effect. However, as long as Blubberbubble is in effect, the max Shield cannot exceed 60% of this unit's Max HP.",
-    "Tags":[
+    "Tags": [
       "Shield Management"
     ]
   },
   {
     "Name": "Tremor - Reverb",
     "Description": "On Tremor Burst, take Sloth damage equal to Tremor on self\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
-    "Tags":[
+    "Tags": [
       "Unique Tremor"
     ]
   },
   {
     "Name": "Amplitude Entanglement",
     "Description": "- Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\n- Potency and Count values do not change over Entanglement\n- When triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\n- Turn End: Converted into Tremor",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Tremor - Everlasting",
     "Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (Max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
-    "Tags":[
+    "Tags": [
       "Unique Tremor"
     ]
   },
   {
     "Name": "Borrowed Time",
     "Description": "Turn End at 2+ Count:\n- Gain (Stack - 1) Haste, Clash Power Up, and Fragile next turn\n- If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\nTurn End: At 1 Count, gain 2 x (Stack - 1) Bind\nTurn End: Gain 1 Stack, lose 1 Count",
-    "Tags":[
+    "Tags": [
       "Haste",
       "Clash Power Up",
       "Self Fragile",
@@ -1197,12 +1197,12 @@
   {
     "Name": "Time Moratorium",
     "Description": "Does not take any damage as long as this effect is active, store all damage received instead\nCombat End: If there is only 1 Count left of this effect, the effect triggers Tremor Burst after dealing (100 + (Stack x 15)))% of stored damage as Sloth damage\nTurn End: Gain 1 Stack and lose 1 Count\nIf another instance of Time Moratorium is inflicted on a unit with Time Moratorium, this effect will immediately expire after triggering the Tremor Burst and Sloth Damage effects",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Tremor - Chain",
     "Description": "Lose 1 Clash Power for every 10 Tremor on self (Max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
-    "Tags":[
+    "Tags": [
       "Unique Tremor"
     ]
   },
@@ -1432,8 +1432,7 @@
   {
     "Name": "Bloodfeast",
     "Description": "Max Value: 999\nStores all Bleed damage dealt in this zone\nResets when moving to a different zone\nThis value is shared by all characters\nIf there is a higher Kindred among the allies who also consume Bloodfeast, this unit cannot consume Bloodfeast until that ally consumes it first.",
-    "Tags": [
-    ]
+    "Tags": []
   },
   {
     "Name": "Blood-tinged Scissorblades",
@@ -1446,8 +1445,7 @@
   {
     "Name": "Sewing Target",
     "Description": "Max Value: 1\nTake +0.5% damage for every Bleed on self (Max 10%)\nTurn End: reduced by 1",
-    "Tags": [
-    ]
+    "Tags": []
   },
   {
     "Name": "Lasso",
@@ -1460,8 +1458,7 @@
   {
     "Name": "Polydipsic Rose",
     "Description": "Max Value: 5\nTurn End: At 10+ Bleed Potency, take Lust damage equal to 1% of this unit's Max HP (Max 30)\nTurn End: Reduced by 1",
-    "Tags": [
-    ]
+    "Tags": []
   },
   {
     "Name": "Rose Wedge",
@@ -1874,14 +1871,14 @@
   {
     "Name": "Shallow Exhale",
     "Description": "Max Stack: 1\nAt 20+ Poise, gain +1 Poise Count with this unit's Skill or Coin effects\nExpires at Turn End",
-    "Tags":[
+    "Tags": [
       "Poise Count"
     ]
   },
   {
     "Name": "Nebulizer α",
     "Description": "Max Stack: 5\nThis effect persists through the Encounter\nCombat Start: Apply 1 Poise and +1 Poise Count to all allies including this unit",
-    "Tags":[
+    "Tags": [
       "Party Poise",
       "Party Poise Count"
     ]
@@ -1889,29 +1886,29 @@
   {
     "Name": "District 12 Fuel",
     "Description": "Max Stack: 100\nConsumed by certain Skills\nAt 50- Stack, becomes Overheated Fuel",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Overheated Fuel",
     "Description": "Max Stack: 100\nConsuming District 12 Fuel in Overheated Fuel state consumes Overheated Fuel instead\nConsuming Overheated Fuel also counts as consuming District 12 Fuel\nAt 51+ Stack, becomes District 12 Fuel",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Nerve Strike",
     "Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Clash Power +1\n2x Stack: Base Power +1\n3x Stack: Clash Power +1 and Base Power +1\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
-    "Tags":[]
+    "Tags": []
   },
   {
     "Name": "Strider [Mao]",
     "Description": "Max Stack: 3\nTurn End: Gain 5 Haste next turn\nReduced by 1 at Turn End",
-    "Tags":[
+    "Tags": [
       "Haste"
     ]
   },
   {
     "Name": "Deathrite [Haste]",
     "Description": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture on self; then this effect expires\nCannot gain additional Stacks of this effect while already active",
-    "Tags":[
+    "Tags": [
       "Deathrite",
       "Rupture Count"
     ]
@@ -1919,7 +1916,7 @@
   {
     "Name": "Book of Vengeance",
     "Description": "Max Stack: 30\nDeal +(Stack)% damage (Max 30%)\nGain the following effects next turn based on Stack:\nAt 10+ Stack: Gain 1 Blunt DMG Up\nAt 20+ Stack: Gain Max Speed +1 and 1 Power Up\nAt 30 Stack: Gain 2 Blunt DMG Up",
-    "Tags":[
+    "Tags": [
       "Blunt Damage Up",
       "Max Speed",
       "Power Up"
@@ -1928,7 +1925,7 @@
   {
     "Name": "Vendetta Mark",
     "Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (Max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
-    "Tags":[
+    "Tags": [
       "Ally Damage Amp",
       "Sibling Vengeance Mark"
     ]
@@ -1936,14 +1933,14 @@
   {
     "Name": "Sibling Vengeance Mark",
     "Description": "Max Stack: 1\nExpires at Turn End\nEvery Identity treats this unit as having their Vengeance Mark",
-    "Tags":[
+    "Tags": [
       "Vengeance Mark"
     ]
   },
   {
     "Name": "Searing Birdcage",
     "Description": "Max Stack: 5\nIf this unit has Burn, weaken Wrath Resist by 0.1 for every Stack (Does not weaken past 2.0)\nTurn End: Gain Bind equal to Stack next turn\nTurn End: Halve stack\nCannot gain additional Stacks of this effect while it is already active",
-    "Tags":[
+    "Tags": [
       "Wrath Resistance Down",
       "Bind"
     ]
@@ -1951,7 +1948,7 @@
   {
     "Name": "Unfocused Volley",
     "Description": "When this Skill flips Coins, each Coin flips against a random enemy among its targets\nThe first Coin always targets the main target\nAll 'On Hit' effects and all damage dealt by each Coins are inflicted only against the random target the Coin selected",
-    "Tags":[
+    "Tags": [
       "Wrath Resistance Down",
       "Bind"
     ]
@@ -1959,7 +1956,7 @@
   {
     "Name": "Serpent Arm",
     "Description": "Max Stack: 3\nTurn End: Gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: Lose 1 Stack",
-    "Tags":[
+    "Tags": [
       "Poise",
       "Poise Count"
     ]
@@ -1967,7 +1964,7 @@
   {
     "Name": "Deathrite [Venom]",
     "Description": "Base Stack: 5\n-Deathrite\n-When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n-When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n-When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while active",
-    "Tags":[
+    "Tags": [
       "Deathrite",
       "Offense Level Down",
       "Defense Level Down"
@@ -1976,14 +1973,14 @@
   {
     "Name": "Tianjiu Star's Blade",
     "Description": "Max Stack: 20\nAt 10+ Stack, gain 1 Haste next turn at Turn End\nUsed for certain Skills",
-    "Tags":[
+    "Tags": [
       "Haste"
     ]
   },
   {
     "Name": "Deathrite [Fissure]",
     "Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\nWhen this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while it is already active",
-    "Tags":[
+    "Tags": [
       "Deathrite",
       "Bind"
     ]
@@ -1991,19 +1988,17 @@
   {
     "Name": "Assist Defense",
     "Description": "Max Stack: 3\nWhen an ally is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the Skill that activates for Assist Defense\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nDoes not activate for allies who equipped Defense Skills\nExpires at Turn End",
-    "Tags":[
-    ]
+    "Tags": []
   },
   {
     "Name": "Mark of Decay",
     "Description": "Max Stack: 1\nTake +10% damage from Gluttony Affinity Skills\nTake +10% damage from Deathrite effects\nExpires at Turn End",
-    "Tags":[
-    ]
+    "Tags": []
   },
   {
     "Name": "Twisted Curse Talisman",
     "Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (Once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (Max 2)\n-Cannot gain additional Stacks of this effect while it is already active",
-    "Tags":[
+    "Tags": [
       "Rupture Count",
       "Attack Power Down"
     ]
@@ -2011,14 +2006,14 @@
   {
     "Name": "Centipede Venom",
     "Description": "Max Stack: 20\nTurn End: Gain (Stack / 4) Defense Level Down next turn (Rounded down)\nTurn End: Take Gluttony damage equal to Stack, and halve the Stack (Rounded down)\nUpon death, transfers to this unit's ally (For Focused Encounters, a different Part) with none or the least Centipede Venom Stacks.",
-    "Tags":[
+    "Tags": [
       "Defense Level Down"
     ]
   },
   {
     "Name": "Deception (Low Morale)",
     "Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +10% damage against the target",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2026,7 +2021,7 @@
   {
     "Name": "Deception (Panic)",
     "Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +20% damage against the target; if this unit's Speed is faster than target's, take -20% damage",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2034,7 +2029,7 @@
   {
     "Name": "Night in the Backstreets (Low Morale)",
     "Description": "Turn Start: Gain 1 Attack Power Up, 1 HP Healing Boost, and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2042,7 +2037,7 @@
   {
     "Name": "Night in the Backstreets (Panic)",
     "Description": "Turn Start: Gain 2 Attack Power Up, 2 HP Healing Boost, and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2050,7 +2045,7 @@
   {
     "Name": "Podao (Low Morale)",
     "Description": "Take +10% damage from Unopposed Attacks; deal +30% damage with Counterattacks",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2058,7 +2053,7 @@
   {
     "Name": "Podao (Panic)",
     "Description": "Take +20% damage from Unopposed Attacks; deal +50% damage with Counterattacks",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2066,7 +2061,7 @@
   {
     "Name": "Charge Circuitry Countercurrent (Low Morale)",
     "Description": "When Clashing against targets with Rupture, gain +3 Charge Count and 1 Fragile (2 times per turn)",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2074,7 +2069,7 @@
   {
     "Name": "Charge Circuitry Countercurrent (Panic)",
     "Description": "When Clashing against targets with Rupture, gain +5 Charge Count, 1 Damage Up, and 2 Fragile (2 times per turn)",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2082,7 +2077,7 @@
   {
     "Name": "Double-edged Feather (Low Morale)",
     "Description": "Turn Start: Gain 1 Fragile and 1 HP Healing Boost\nOn Hit, inflict 1 Rupture and 1 Bleed",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2090,7 +2085,7 @@
   {
     "Name": "Double-edged Feather (Panic)",
     "Description": "Turn Start: Gain 2 Fragile and 2 HP Healing Boost\nOn Hit, inflict 1 Rupture and 1 Bleed",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2098,7 +2093,7 @@
   {
     "Name": "Angst (Low Morale)",
     "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 2 Damage Up and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2106,7 +2101,7 @@
   {
     "Name": "Angst (Panic)",
     "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 2 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2114,7 +2109,7 @@
   {
     "Name": "Heart of Evil (Low Morale)",
     "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 2 Damage Up and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2122,7 +2117,7 @@
   {
     "Name": "Heart of Evil (Panic)",
     "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 2 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2130,7 +2125,7 @@
   {
     "Name": "Heart of Oppressive Evil (Low Morale)",
     "Description": "Clash Power +2 against targets with Omen Talisman\nTurn Start: Gain 3 Damage Up and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2138,7 +2133,7 @@
   {
     "Name": "Heart of Oppressive Evil (Panic)",
     "Description": "Clash Power +3 against targets with Omen Talisman\nTurn Start: Gain 4 Damage Up and 2 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2146,7 +2141,7 @@
   {
     "Name": "Charge Order (Low Morale)",
     "Description": "Turn Start: Gain 1 Fragile and apply 1 Damage Up to all allies",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2154,7 +2149,7 @@
   {
     "Name": "Charge Order (Panic)",
     "Description": "Turn Start: Gain 2 Fragile and apply 2 Damage Up to all allies",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2162,7 +2157,7 @@
   {
     "Name": "Eldtree Mutation (Low Morale)",
     "Description": "Gain 1 Damage Up, 1 Fragile, and 1 Rupture Fragility",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2170,7 +2165,7 @@
   {
     "Name": "Eldtree Mutation (Panic)",
     "Description": "Gain 2 Damage Up, 2 Fragile, and 2 Rupture Fragility",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2178,7 +2173,7 @@
   {
     "Name": "Jia Qiu (Low Morale)",
     "Description": "Deal +10% damage against enemies that aren't Hong Lu",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2186,7 +2181,7 @@
   {
     "Name": "Jia Qiu (Panic)",
     "Description": "Deal +20% damage against enemies that aren't Hong Lu",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2194,7 +2189,7 @@
   {
     "Name": "Flower-burying Wedge [埋花櫼]",
     "Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End' next turn based on this unit's Speed.",
-    "Tags":[
+    "Tags": [
       "Offense Level Up",
       "Defense Level Down",
       "Unrelenting",
@@ -2205,14 +2200,14 @@
   {
     "Name": "Tarnished Blood",
     "Description": "Max Stack: 5\nTurn End: Take 20% HP damage per Stack (does not Stagger)\nGain 1 at Turn End\nExpires on death or Retreat",
-    "Tags":[
+    "Tags": [
       "Self HP Damage"
     ]
   },
   {
     "Name": "Flower-Burying Pin [埋花針]",
     "Description": "Max Stack: 20\n-Gain 1 Stack at Turn End or when hit\n-Gain 1 Offense Level per 5 Stack\nIf the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\nExpires on death or Retreat",
-    "Tags":[
+    "Tags": [
       "Offense Level Up",
       "Rupture"
     ]
@@ -2220,7 +2215,7 @@
   {
     "Name": "Denial [不許]",
     "Description": "When this unit takes damage that brings their HP down to 0: This unit's HP does not drop below 1; recover from Stagger due to damage\nIf ths above effect activated, dies at Turn End\nExpires on death, Retreat, or Turn End",
-    "Tags":[
+    "Tags": [
       "Unrelenting",
       "Nullify Stagger"
     ]
@@ -2228,19 +2223,17 @@
   {
     "Name": "Ready [待]",
     "Description": "Max Stack: 3\nNumber of turns this unit spent in Retreat or as a Backup Unit",
-    "Tags":[
-    ]
+    "Tags": []
   },
   {
     "Name": "Launcher [始]",
     "Description": "Max Stack: 6\nNumber of turns this unit spent active in an Encounter\nExpires on Retreat\nGain Stack at Turn End",
-    "Tags":[
-    ]
+    "Tags": []
   },
   {
     "Name": "Assist [援]",
     "Description": "Max Stack: 1\nIf target has 5+ negative effects, Clash Power +1 and deal +10% damage",
-    "Tags":[
+    "Tags": [
       "Ally Clash Power",
       "Ally Damage Amp"
     ]
@@ -2248,7 +2241,7 @@
   {
     "Name": "Battlefield Retreat",
     "Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Subtituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
-    "Tags":[
+    "Tags": [
       "Retreat",
       "Nullify Stagger"
     ]
@@ -2256,7 +2249,7 @@
   {
     "Name": "Thorns (Low Morale)",
     "Description": "Clash Win: Gain 1 Damage Up",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2264,7 +2257,7 @@
   {
     "Name": "Thorns (Panic)",
     "Description": "Clash Win: Gain 1 Damage Up\nTurn End: Gain 2 Clash Power Up next turn",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2272,7 +2265,7 @@
   {
     "Name": "Le Regole (Low Morale)",
     "Description": "If this unit inflicted 2+ Tremor last turn, gain 1 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 1 Wrath DMG Up\nIf this unit failed to inflict anything, gain 2 Defense level Down",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2280,7 +2273,7 @@
   {
     "Name": "Le Regole (Panic)",
     "Description": "If this unit inflicted 2+ Tremor last turn, gain 2 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 2 Wrath DMG Up\nIf this unit failed to inflict anything, gain 3 Defense level Down",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2288,7 +2281,7 @@
   {
     "Name": "Beastly Instinct (Low Morale)",
     "Description": "Deals +(HP percentage difference / 2)% damage to targets with higher HP percentages than this unit's (Max 10%)\nTurn Start: Gain 1 Attack Power Up, 1 Damage Up, and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2296,7 +2289,7 @@
   {
     "Name": "Beastly Instinct (Panic)",
     "Description": "Deals +(HP percentage difference)% damage to targets with higher HP percentages than this unit's (Max 25%)\nTurn Start: Gain 1 Plus Coin Boost, 2 Damage Up, and 2 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2304,7 +2297,7 @@
   {
     "Name": "Flesh Scoop (Low Morale)",
     "Description": "Turn Start: Gain 5 Bleed and 1 Attack Power Up",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2312,7 +2305,7 @@
   {
     "Name": "Flesh Scoop (Panic)",
     "Description": "Turn Start: Gain 10 Bleed and 2 Attack Power Up",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2320,7 +2313,7 @@
   {
     "Name": "Heart Toward the New Era (Low Morale)",
     "Description": "On Hit: Consume 3 SP on self to inflict 2 Sinking",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2328,7 +2321,7 @@
   {
     "Name": "Heart Toward the New Era (Panic)",
     "Description": "On Hit: Inflict 3 Sinking and gain 1 Sinking",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2336,7 +2329,7 @@
   {
     "Name": "Soft Goldcasted Heart (Low Morale)",
     "Description": "Turn Start: Gain 1 Attack Power Up and 1 Fragile",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2344,7 +2337,7 @@
   {
     "Name": "Soft Goldcasted Heart (Panic)",
     "Description": "Turn Start: Gain 2 Attack Power Up and 2 Fragile",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2352,7 +2345,7 @@
   {
     "Name": "Inherited Will of Hongyuan (Low Morale)",
     "Description": "All Parts gain 2 Attack Power Up and 1 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 1 Damage Up and 1 Fragile next turn (Once per turn)",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2360,7 +2353,7 @@
   {
     "Name": "Inherited Will of Hongyuan (Panic)",
     "Description": "All Parts gain 2 Attack Power Up and 2 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 2 Damage Up and 2 Fragile next turn (Once per turn)",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2368,7 +2361,7 @@
   {
     "Name": "Infinitely Bequeathing Will of Hongyuan (Low Morale)",
     "Description": "Gain 2 Attack Power Up and 1 Fragile\nUnits generated by this unit gain 3 Defense Level Down\nDeal +20% damage. If the Palanquin Part's HP drops to 0, deal -10% damage instead",
-    "Tags":[
+    "Tags": [
       "Low Morale",
       "Panic Type"
     ]
@@ -2376,7 +2369,7 @@
   {
     "Name": "Infinitely Bequeathing Will of Hongyuan (Panic)",
     "Description": "Gain 2 Attack Power Up and 2 Fragile\nUnits generated by this unit gain 6 Defense Level Down\nDeal +30% damage. If the Palanquin Part's HP drops to 0, deal -15% damage instead",
-    "Tags":[
+    "Tags": [
       "Panic",
       "Panic Type"
     ]
@@ -2384,35 +2377,35 @@
   {
     "Name": "Tremor - Scorch",
     "Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
-    "Tags":[
+    "Tags": [
       "Unique Tremor"
     ]
   },
   {
     "Name": "Scorch Propellant Ammo",
     "Description": "Max Capacity: 15\nUnique Ammo\nCounts as Ammo",
-    "Tags":[
+    "Tags": [
       "Unique Ammo"
     ]
   },
   {
     "Name": "Tigermark Round",
     "Description": "Max Capacity: 12\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
-    "Tags":[
+    "Tags": [
       "Unique Ammo"
     ]
   },
   {
     "Name": "Savage Tigermark Round",
     "Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
-    "Tags":[
+    "Tags": [
       "Unique Ammo"
     ]
   },
   {
     "Name": "Unrelenting Spirit [剛氣]",
     "Description": "Max Stack: 1\nGain Min and Max Speed\nIf this unit's Speed is faster than target's by X or more, deal +(Speed difference x Y)% damage\nInflict more Tremor and Tremor Count with this unit's Skills\nIf this unit spent X or more Tigermark Round and Savage Tigermark Round, convert this buff into Unrelenting Spirit - Shin [剛氣-心] next turn at Turn End",
-    "Tags":[
+    "Tags": [
       "Min Speed",
       "Max Speed"
     ]
@@ -2420,7 +2413,7 @@
   {
     "Name": "Unrelenting Spirit - Shin [剛氣-心]",
     "Description": "Max Stack: 1\nGain Min and Max Speed\nIf this unit's Speed is faster than target's by X or more, deal +(Speed difference x Y)% damage\nInflict more Tremor and Tremor Count with this unit's Skills",
-    "Tags":[
+    "Tags": [
       "Min Speed",
       "Max Speed"
     ]
@@ -2428,7 +2421,7 @@
   {
     "Name": "Overheat",
     "Description": "Lose this effect when gaining Savage Tigermark Round\nGain Min and max Speed\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / X) Clash Power, but gain the following based on rounds spent:\n8+: Gain Protection for every X% missing HP on self\n14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(X + missing HP percentage on self)% damage\n20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (Except E.G.O Skills)",
-    "Tags":[
+    "Tags": [
       "Min Speed",
       "Max Speed",
       "Protection"
