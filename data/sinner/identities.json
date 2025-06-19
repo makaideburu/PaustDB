@@ -19747,7 +19747,7 @@
         },
         "SkillThree": {
           "Name": "Execution Sentencing",
-          "Description": "Coin Power +1 for every 6 Tremor on target (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Tremor\n<3>[On Hit] If the sum of target's Tremor x Tremor Count is 20 or higher, inflict Amplitude Conversion on target, converting Tremor to Tremor - Decay",
+          "Description": "Coin Power +1 for every 6 Tremor on target (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Tremor\n<3>[On Hit] If the sum of target's Tremor + Tremor Count is 20 or higher, inflict Amplitude Conversion on target, converting Tremor to Tremor - Decay",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 5,
@@ -19856,7 +19856,7 @@
         },
         "SkillThree": {
           "Name": "Execution Sentencing",
-          "Description": "If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Tremor\n<3>[On Hit] If the sum of target's Tremor x Tremor Count is 20 or higher, inflict Amplitude Conversion on target, converting Tremor to Tremor - Decay",
+          "Description": "If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Tremor\n<3>[On Hit] If the sum of target's Tremor + Tremor Count is 20 or higher, inflict Amplitude Conversion on target, converting Tremor to Tremor - Decay",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 5,
