@@ -14347,28 +14347,31 @@
     "Sinner": "Meursault",
     "Identity": "The Thumb East Capo IIII",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-6",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 1,
+      "Pierce": 0.5,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Double Slash - Blast [爆]",
-          "Description": "Final Power +X for every Y (Burn + Tremor on main target)\n<1>[On Hit] Inflict Tremor\n<2>Spend Tigermark Round\n[On Hit] Inflict Tremor\n[On Hit] Inflict Burn",
+          "Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 3)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn",
           "DamageType": "Slash",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
-          "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "FinalPowerModifier": 3,
+          "CoinOverride": [
+            4,
+            5
+          ],
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -14380,16 +14383,20 @@
         },
         "SkillTwo": {
           "Name": "Triple Slash - Blast [爆]",
-          "Description": "Final Power +X for every Y (Burn + Tremor on main target)\n<1>[On Hit] Inflict Tremor\n<2>Spend Tigermark Round\n[On Hit] Inflict Tremor\n[On Hit] Inflict Burn\n<3>Spend Tigermark Round\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Burn Count\n[On Hit] If target has X+ Tremor, trigger Tremor Burst; reduce target's Tremor Count",
+          "Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 4)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Lust",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 4,
           "BasePowerModifier": 0,
-          "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "FinalPowerModifier": 4,
+          "CoinOverride": [
+            4,
+            5,
+            5
+          ],
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -14405,16 +14412,16 @@
         },
         "SkillThree": {
           "Name": "Tanglecleaver [快刀亂麻]",
-          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nCoin Power +X for every Y (Burn + Tremor on main target)\n<1>Spend Tigermark Round\n[On Hit] Inflict Tremor\n[On Hit] Inflict Burn\n<2>Spend Tigermark Round\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Burn Count\n<3>Spend Tigermark Round; deal more damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n-If Tigermark Round was spent, repeat above effect X times",
+          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nCoin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 3 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Inflict +3 Burn Count\n<3>Spend 1 Tigermark Round; deal +50% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n-If Tigermark Round was spent, repeat above effect 2 more times",
           "DamageType": "Blunt",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 3,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -14432,19 +14439,19 @@
           ],
           "AltSkill": {
             "Name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
-            "Description": "Coin Power +X for every Y (Burn + Tremor on main target)\n<1>[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Tremor Count\n<3>Spend Savage Tigermark Round\n[On Hit] Inflict Burn\n<4>Spend Savage Tigermark Round\n[On Hit] Inflict Burn Count\n<5>Spend Savage Tigermark Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\nIf Savage Tigermark Round was spent, repeat above effect X times",
+            "Description": "Coin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Spend 1 Savage Tigermark Round\n[On Hit] Inflict 3 Burn\n<4>Spend 1 Savage Tigermark Round\n[On Hit] Inflict +3 Burn Count\n<5>Spend 1 Savage Tigermark Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\nIf Savage Tigermark Round was spent, repeat above effect 2 more times",
             "DamageType": "Blunt",
             "SinType": "Wrath",
-            "BasePower": 0,
-            "CoinPower": 0,
+            "BasePower": 3,
+            "CoinPower": 3,
             "CoinCount": 5,
-            "Level": 0,
+            "Level": 6,
             "BasePowerModifier": 0,
             "FinalPowerModifier": 0,
-            "CoinModifier": 0,
+            "CoinModifier": 4,
             "CoinCountModifier": 0,
             "AttackWeight": 1,
-            "AttackWeightMod": 1,
+            "AttackWeightMod": 3,
             "MiscTags": [
               "Tremor",
               "Tremor Count",
@@ -14460,15 +14467,15 @@
         },
         "SkillDefense": {
           "Name": "I'm Burning Up.",
-          "Description": "[Clashable Counter]\nFinal Power +X for every Y (Burn + Tremor on main target)\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +X\n<1>[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Tremor Count",
+          "Description": "[Clashable Counter]\nFinal Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +2\n<1>[On Hit] Inflict 1 Tremor (2 times per turn)\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
           "DamageType": "Slash",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
-          "FinalPowerModifier": 0,
+          "FinalPowerModifier": 2,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
@@ -14482,7 +14489,7 @@
         "InstallPassives": [
           {
             "Name": "Chachihu [揷翅虎]",
-            "Description": "Begin Encounters with Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload Savage Tigermark Round and gain Unrelenting Spirit [剛氣]\n-If activated from Stagger, recover from Stagger (except forced Stagger)\n-Remove all remaining Tigermark Round\n-At X+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains Atk Weight; gain Overheat next turn",
+            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n-If activated from Stagger, recover from Stagger (except forced Stagger)\n-Remove all remaining Tigermark Round\n-At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -14503,14 +14510,14 @@
         ],
         "PassiveSkill": {
           "Name": "Tiantui Star's Blade [天退星刀]",
-          "Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that spend Tigermark Round gain Power and deal more damage\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that spend Savage Tigermark Round gain Power, deal more damage, and inflict more Burn and Burn Count On Hit",
+          "Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that (successfully) spend Tigermark Round gain +1 Power and deal +10% damage\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that (successfully) spend Savage Tigermark Round gain +2 Power, deal +30% damage, and inflict +2 more Burn and Burn Count On Hit",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Sloth",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Unbreakable Coin",
             "Burn",
@@ -14519,14 +14526,197 @@
         },
         "SupportSkill": {
           "Name": "Savage Tiger's Lunge",
-          "Description": "When 1 ally with the fastest Speed uses a Skill that spends Ammo, if their Speed is faster than target's by X or more, deal more damage\nDoes not activate if unit does not use Ammo, but activates if unit has no Ammo remaining",
+          "Description": "When 1 ally with the fastest Speed uses a Skill that spends Ammo, if their Speed is faster than target's by 3 or more, deal +(Speed difference x 3)% damage (Max 15%)\nDoes not activate if unit does not use Ammo, but activates if unit has no Ammo remaining",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Sloth",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Ally Damage Amp"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Double Slash - Blast [爆]",
+          "Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 2,
+          "CoinOverride": [
+            4,
+            5
+          ],
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Tremor",
+            "Spend Tigermark Round",
+            "Burn"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Triple Slash - Blast [爆]",
+          "Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Burn Count\n[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "DamageType": "Slash",
+          "SinType": "Lust",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 4,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 2,
+          "CoinOverride": [
+            4,
+            5,
+            5
+          ],
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Tremor",
+            "Spend Tigermark Round",
+            "Burn",
+            "Tremor Count",
+            "Burn Count",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Tanglecleaver [快刀亂麻]",
+          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nIf main target has 8+ (Burn + Tremor), Coin Power +1\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n<3>Spend 1 Tigermark Round; deal +20% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n-If Tigermark Round was spent, repeat above effect 1 more time",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Skill Change",
+            "Spend Tigermark Round",
+            "Tremor",
+            "Burn",
+            "Tremor Count",
+            "Burn Count",
+            "Amplitude Conversion",
+            "Tremor - Scorch",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ],
+          "AltSkill": {
+            "Name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
+            "Description": "If target has 8+ (Burn + Tremor), Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Spend 1 Savage Tigermark Round\n[On Hit] Inflict 2 Burn\n<4>Spend 1 Savage Tigermark Round\n[On Hit] Inflict +2 Burn Count\n<5>Spend 1 Savage Tigermark Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\nIf Savage Tigermark Round was spent, repeat above effect 1 more time",
+            "DamageType": "Blunt",
+            "SinType": "Wrath",
+            "BasePower": 2,
+            "CoinPower": 3,
+            "CoinCount": 5,
+            "Level": 6,
+            "BasePowerModifier": 0,
+            "FinalPowerModifier": 0,
+            "CoinModifier": 3,
+            "CoinCountModifier": 0,
+            "AttackWeight": 1,
+            "AttackWeightMod": 3,
+            "MiscTags": [
+              "Tremor",
+              "Tremor Count",
+              "Spend Savage Tigermark Round",
+              "Burn",
+              "Burn Count",
+              "Amplitude Conversion",
+              "Tremor - Scorch",
+              "Tremor Burst",
+              "Spend Enemy Tremor Count"
+            ]
+          }
+        },
+        "SkillDefense": {
+          "Name": "I'm Burning Up.",
+          "Description": "[Clashable Counter]\nIf target has 4+ (Burn + Tremor on main target), Final Power +1\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +1\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
+          "DamageType": "Slash",
+          "SinType": "Sloth",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 1,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Tremor Count"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "Chachihu [揷翅虎]",
+            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n-If activated from Stagger, recover from Stagger (except forced Stagger)\n-Remove all remaining Tigermark Round\n-At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Tigermark Round",
+              "Savage Tigermark Round",
+              "Spend Tigermark Round",
+              "Unrelenting Spirit [剛氣]",
+              "Unrelenting Spirit - Shin [剛氣-心]",
+              "Attack Weight Increase",
+              "Overheat"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Tiantui Star's Blade [天退星刀]",
+          "Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that (successfully) spend Tigermark Round gain +1 Power\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that (successfully) spend Savage Tigermark Round gain +2 Power",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Sloth",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Unbreakable Coin",
+            "Burn",
+            "Burn Count"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Savage Tiger's Lunge",
+          "Description": "When 1 ally with the fastest Speed uses a Skill that spends Ammo, if their Speed is faster than target's by 3 or more, deal +(Speed difference x 2)% damage (Max 10%)\nDoes not activate if unit does not use Ammo, but activates if unit has no Ammo remaining",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Sloth",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Owned",
           "MiscTags": [
             "Ally Damage Amp"
           ]
@@ -30135,28 +30325,28 @@
     "Sinner": "Sinclair",
     "Identity": "The Thumb East Soldato II",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-6",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 2,
+      "Pierce": 0.5,
+      "Blunt": 1
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "Adherence to Propriety.",
-          "Description": "[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[On Use] If target has Unique Tremor, Coin Power +X\n<1>[On Hit] Inflict Tremor Count\n<2>[On Hit] Inflict Tremor",
+          "Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor on target) (Max 2)\n[On Use] If target has Unique Tremor, Clash Power +1\n<1>[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Inflict 1 Tremor",
           "DamageType": "Pierce",
           "SinType": "Lust",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 3,
+          "CoinPower": 4,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -30167,16 +30357,16 @@
         },
         "SkillTwo": {
           "Name": "Respect the Thumb.",
-          "Description": "[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[On Use] Deal more damage for every X (Burn + Tremor on target)\n[On Use] If target has X+ Unique Tremor, Base Power +Y\n<1>[On Hit] Inflict Tremor\n[On Hit] Inflict Tremor Count\n<2>[On Hit] If target has X+ Tremor - Scorch, inflict Burn Count\n[On Hit] If target has X+ Tremor, trigger Tremor Burst; reduce target's Tremor Count",
+          "Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor on target) (Max 2)\n[On Use] Deal +10% damage for every 4 (Burn + Tremor on target) (Max 30%)\n[On Use] If target has 10+ Unique Tremor, Base Power +2\n<1>[On Hit] Inflict 2 Tremor\n[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] If target has 10+ Tremor - Scorch, inflict +2 Burn Count\n[On Hit] If target has 6+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Pierce",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 3,
+          "BasePowerModifier": 2,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -30190,16 +30380,16 @@
         },
         "SkillThree": {
           "Name": "Thruster Compression",
-          "Description": "[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[On Use] At X+ Scorch Propellant Ammo, Base Power +X, deal more damage, and convert Coins into Unbreakable Coins\n<1>Spend Scorch Propellant Ammo; deal more damage\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Burn Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<2>Spend Scorch Propellant Ammo; deal more damage\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Burn\n<3>Spend Scorch Propellant Ammo; deal more damage\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Burn\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If X+ Scorch Propellant Ammo was spent, trigger Tremor Burst; reduce target's Tremor Count",
+          "Description": "[On Use] Coin Power +1 for every 8 (Burn + Tremor on target) (Max 2)\n[On Use] At 3+ Scorch Propellant Ammo, Base Power +3, deal +30% damage, and convert Coins into Unbreakable Coins\n<1>Spend 1 Scorch Propellant Ammo; deal +25% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +3 Burn Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<2>Spend 1 Scorch Propellant Ammo; deal +25% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict 3 Burn\n<3>Spend 1 Scorch Propellant Ammo; deal +25% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict 4 Burn\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If 3 Scorch Propellant Ammo was spent, trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 4,
           "CoinCount": 3,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 5,
+          "BasePowerModifier": 3,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -30217,13 +30407,13 @@
         },
         "SkillDefense": {
           "Name": "Ferrous Guard",
-          "Description": "Inflict Tremor against the Attacker when hit as long as this unit has remaining Shield",
+          "Description": "Inflict 2 Tremor against the Attacker when hit as long as this unit has remaining Shield (4 times per turn)",
           "DamageType": "Defend",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 9,
+          "CoinPower": 6,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
@@ -30237,7 +30427,7 @@
         "InstallPassives": [
           {
             "Name": "Bayonets",
-            "Description": "Begin Encounters with Scorch Propellant Ammo\nIf this unit spent Scorch Propellant Ammo with Skills or Passives, gain Damage Up equal to the amount spent next turn\nWhen flipping a Coin that consumes Scorch Propellant Ammo, not having Scorch Propellant Ammo does not cancel this unit's attacks; instead the Coin's On Hit 'inflict Burn' and 'inflict Burn Count' do not activate",
+            "Description": "Begin Encounters with 15 Scorch Propellant Ammo\nIf this unit spent Scorch Propellant Ammo with Skills or Passives, gain Damage Up equal to the amount spent next turn (Max 3)\nWhen flipping a Coin that consumes Scorch Propellant Ammo, not having Scorch Propellant Ammo does not cancel this unit's attacks; instead the Coin's On Hit 'inflict Burn' and 'inflict Burn Count' do not activate",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -30253,14 +30443,14 @@
         ],
         "PassiveSkill": {
           "Name": "Ammunition Tribute",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half, spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 3
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
           "MiscTags": [
             "Spend Scorch Propellant Ammo",
             "Ally Ammo"
@@ -30268,14 +30458,151 @@
         },
         "SupportSkill": {
           "Name": "Reloader",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half, regain half of the maximum Ammo capacity\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Ammo"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "Adherence to Propriety.",
+          "Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor on target) (Max 2)\n<1>[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Inflict 1 Tremor",
+          "DamageType": "Pierce",
+          "SinType": "Lust",
+          "BasePower": 3,
+          "CoinPower": 4,
+          "CoinCount": 2,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Tremor Count",
+            "Tremor"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Respect the Thumb.",
+          "Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor on target) (Max 2)\n<1>[On Hit] Inflict 2 Tremor\n[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] If target has 10+ Tremor - Scorch, inflict +1 Burn Count\n[On Hit] If target has 6+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "DamageType": "Pierce",
+          "SinType": "Sloth",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Tremor",
+            "Tremor Count",
+            "Burn Count",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Thruster Compression",
+          "Description": "[On Use] Coin Power +1 for every 8 (Burn + Tremor on target) (Max 2)\n[On Use] At 3+ Scorch Propellant Ammo, Base Power +1\n<1>Spend 1 Scorch Propellant Ammo; deal +20% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +2 Burn Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<2>Spend 1 Scorch Propellant Ammo; deal +20% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict 3 Burn\n<3>Spend 1 Scorch Propellant Ammo; deal +20% damage\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict 4 Burn\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If 3 Scorch Propellant Ammo was spent, trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 4,
+          "CoinCount": 3,
+          "Level": 5,
+          "BasePowerModifier": 3,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Spend Scorch Propellant Ammo",
+            "Tremor Count",
+            "Burn",
+            "Amplitude Conversion",
+            "Tremor - Scorch",
+            "Burn",
+            "Tremor Burst",
+            "Spend Enemy Tremor Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Ferrous Guard",
+          "Description": "Inflict 1 Tremor against the Attacker when hit as long as this unit has remaining Shield (3 times per turn)",
+          "DamageType": "Defend",
+          "SinType": "None",
+          "BasePower": 9,
+          "CoinPower": 6,
+          "CoinCount": 1,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Tremor"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "Bayonets",
+            "Description": "Begin Encounters with 15 Scorch Propellant Ammo\nIf this unit spent Scorch Propellant Ammo with Skills or Passives, gain Damage Up equal to the amount spent next turn (Max 3)\nWhen flipping a Coin that consumes Scorch Propellant Ammo, not having Scorch Propellant Ammo does not cancel this unit's attacks; instead the Coin's On Hit 'inflict Burn' and 'inflict Burn Count' do not activate",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Scorch Propellant Ammo",
+              "Damage Up"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Ammunition Tribute",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 3
+            }
+          ],
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Spend Scorch Propellant Ammo",
+            "Ally Ammo"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Reloader",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Ammo"
           ]
