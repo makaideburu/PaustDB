@@ -2949,6 +2949,161 @@
     ]
   },
   {
+    "Id": 1000,
+    "Sinner": "Yi Sang",
+    "Identity": "N Corp. E.G.O::Fell Bullet",
+    "World": "",
+    "Speed": "???",
+    "Rarity": 3,
+    "DamageResist": {
+      "Slash": -100,
+      "Pierce": -100,
+      "Blunt": -100
+    },
+    "UptieTiers": [
+      {
+        "Tier": 4,
+        "SkillOne": {
+          "Name": "See Through Defenses",
+          "Description": "[On Use] Deal more damage for every Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Base Power +X for every Y Poise Count\n[On Use] Gain Poise Count and Torn Memory\n<1>[On Hit] Gain Poise Count\n[On Crit] Inflict Bleed Count\n[On Crit] Gain Torn Memory",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Torn Memory",
+            "Bleed Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Punch Through",
+          "Description": "[On Use] Deal more damage for every Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Gain Poise\n<1>[On Hit] Gain Poise\n[On Crit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Hit] Gain Poise\n[On Hit] Gain Torn Memory\n[On Crit] Inflict Bleed\n[On Crit] Gain Torn Memory",
+          "DamageType": "Pierce",
+          "SinType": "Lust",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Bleed",
+            "Torn Memory"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Target Readjustment Fire",
+          "Description": "[Combat Start] Targets lowest HP unit\n$At X Torn Memory, prioritize an ally\n[Combat Start] Atk Weight +X for every Y Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Base Power +X for every Y Poise Count\n[On Use] Gain Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x X) SP\n[After Attack] At X Torn Memory at Combat Start, lose them all; if an ally is killed, heal SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal more damage for every Torn Memory\n$Deal more damage on Critical Hit for every Poise\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If an ally was not killed, target 1 sub-target\nDeal more damage for every Torn Memory; if an ally was killed, deal more instead\nDeal more damage on Critical Hit for every Poise\nDeal more damage on Critical Hit for every Torn Memory\nDeal more damage based on HP percentage lost from first Coin\n[On Hit] Inflict Bleed; if an ally was killed, inflict Bleed and Bleed Count instead",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 2,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Special Targeting",
+            "Target Lowest HP",
+            "Target Lowest HP Ally",
+            "Attack Weight Increase",
+            "Spend Torn Memory",
+            "Self SP Damage",
+            "Heal SP",
+            "Unbreakable Coin",
+            "Bleed",
+            "Bleed Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Front Line Support",
+          "Description": "[Clashable Counter]\n[On Use] Coin Power +X for every Y Poise\n[On Use] Gain Torn Memory\n<1>[On Hit] Gain Poise\n[On Hit] Gain Poise Count",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Torn Memory",
+            "Poise",
+            "Poise Count"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "Volatilized Memory",
+            "Description": "Turn End: Lose all Torn Memory. Next turn, gain the same amount of Torn Memory equal to the amount lost",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Torn Memory"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Fell Bullet",
+          "Description": "If this unit killed an allied unit with its attack, gain Fell Bullet next turn (including with E.G.O Corrosion or attacks against allies)\nIf this unit uses its E.G.O Fell Bullet and consumes Torn Memory, next turn, gain Torn Memory equal to the amount consumed by the end of last turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Fell Bullet",
+            "Torn Memory"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Designate Target",
+          "Description": "When the ally with the slowest Speed attacked an ally: After Attack, gain Damage Up next turn\n$If the attacked ally is killed by the attack, gain Damage Up for the Encounter instead\n$Can gain up to X Damage Up from the above effect",
+          "PassiveResources": [
+            {
+              "ResourceSin": "None",
+              "ResourceCount": -1
+            }
+          ],
+          "ResourceType": "None",
+          "MiscTags": [
+            "Ally Damage Up"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 2101,
     "Sinner": "Faust",
     "Identity": "LCB Sinner",
@@ -5802,7 +5957,7 @@
         ],
         "PassiveSkill": {
           "Name": "Heishou Mutation [Mao] / Mao Branch Adept",
-          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n-If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
+          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n$If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
           "PassiveResources": [
             {
               "ResourceSin": "Gluttony",
@@ -5983,7 +6138,7 @@
         ],
         "PassiveSkill": {
           "Name": "Heishou Mutation [Mao] / Mao Branch Adept",
-          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n-If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
+          "Description": "If unit's Speed is faster than target's, deal +2% damage for every 1 Speed difference (Max 10%)\nGain 1 Tianjiu Star's Blade every time an ally triggers a Deathrite effect\n$If this unit triggered a Deathrite effect, gain +1 Tianjiu Star's Blade\nWhen activating the Assist Defense effect, gain 5 Tianjiu Star's Blade",
           "PassiveResources": [
             {
               "ResourceSin": "Gluttony",
@@ -11118,7 +11273,7 @@
           ],
           "AltSkill": {
             "Name": "Serious Skullbuster",
-            "Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +4% damage for every Red Eyes and Penitence consumed (Max 160%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n- Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
+            "Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +4% damage for every Red Eyes and Penitence consumed (Max 160%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
             "DamageType": "Blunt",
             "SinType": "Lust",
             "BasePower": 5,
@@ -11290,7 +11445,7 @@
           ],
           "AltSkill": {
             "Name": "Serious Skullbuster",
-            "Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +2.5% damage for every Red Eyes and Penitence consumed (Max 100%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n- Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
+            "Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +2.5% damage for every Red Eyes and Penitence consumed (Max 100%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
             "DamageType": "Blunt",
             "SinType": "Lust",
             "BasePower": 5,
@@ -14412,7 +14567,7 @@
         },
         "SkillThree": {
           "Name": "Tanglecleaver [快刀亂麻]",
-          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nCoin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 3 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Inflict +3 Burn Count\n<3>Spend 1 Tigermark Round; deal +50% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n-If Tigermark Round was spent, repeat above effect 2 more times",
+          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nCoin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 3 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Inflict +3 Burn Count\n<3>Spend 1 Tigermark Round; deal +50% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$If Tigermark Round was spent, repeat above effect 2 more times",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 5,
@@ -14489,7 +14644,7 @@
         "InstallPassives": [
           {
             "Name": "Chachihu [揷翅虎]",
-            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n-If activated from Stagger, recover from Stagger (except forced Stagger)\n-Remove all remaining Tigermark Round\n-At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
+            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n$If activated from Stagger, recover from Stagger (except forced Stagger)\n$Remove all remaining Tigermark Round\n$At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -14596,7 +14751,7 @@
         },
         "SkillThree": {
           "Name": "Tanglecleaver [快刀亂麻]",
-          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nIf main target has 8+ (Burn + Tremor), Coin Power +1\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n<3>Spend 1 Tigermark Round; deal +20% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n-If Tigermark Round was spent, repeat above effect 1 more time",
+          "Description": "If unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If unit does not have Savage Tigermark Round, cancel activation\nIf main target has 8+ (Burn + Tremor), Coin Power +1\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n<3>Spend 1 Tigermark Round; deal +20% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$If Tigermark Round was spent, repeat above effect 1 more time",
           "DamageType": "Blunt",
           "SinType": "Wrath",
           "BasePower": 4,
@@ -14672,7 +14827,7 @@
         "InstallPassives": [
           {
             "Name": "Chachihu [揷翅虎]",
-            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n-If activated from Stagger, recover from Stagger (except forced Stagger)\n-Remove all remaining Tigermark Round\n-At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
+            "Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n$If activated from Stagger, recover from Stagger (except forced Stagger)\n$Remove all remaining Tigermark Round\n$At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -17566,7 +17721,7 @@
         },
         "SkillTwo": {
           "Name": "Mind Whip",
-          "Description": "Deal +4% damage for every Charge (Max 20%)\n[On Use] At 5~9 Charge Count:\n-Gain 10 Sinking and raise Charge Count to 10\n-This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +1\n-[Before Use] At 5+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n[Before Attack] At 8+ Remaining Charge Count, consume 8 Charge Count to deal +40% damage\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
+          "Description": "Deal +4% damage for every Charge (Max 20%)\n[On Use] At 5~9 Charge Count:\n$Gain 10 Sinking and raise Charge Count to 10\n$This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +1\n$[Before Use] At 5+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n[Before Attack] At 8+ Remaining Charge Count, consume 8 Charge Count to deal +40% damage\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 2,
@@ -17631,7 +17786,7 @@
         },
         "PassiveSkill": {
           "Name": "Brainwave Charge-focusing Antlers",
-          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n-Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x 5)% damage with Base Attack Skills (Max 25%)",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n$Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n$Deal +(Charge x 5)% damage with Base Attack Skills (Max 25%)",
           "PassiveResources": [
             {
               "ResourceSin": "Envy",
@@ -17682,7 +17837,7 @@
         },
         "SkillTwo": {
           "Name": "Mind Whip",
-          "Description": "Deal +2% damage for every Charge (Max 10%)\n[On Use] At 5~9 Charge Count:\n-Gain 15 Sinking and raise Charge Count to 10\n-This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +1\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
+          "Description": "Deal +2% damage for every Charge (Max 10%)\n[On Use] At 5~9 Charge Count:\n$Gain 15 Sinking and raise Charge Count to 10\n$This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +1\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<1>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<3>[On Hit] Inflict 1 Sinking\n[On Hit] Raise target's Stagger Threshold by 5% of damage dealt\n<4>[On Hit] Inflict +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 2,
@@ -17747,7 +17902,7 @@
         },
         "PassiveSkill": {
           "Name": "Brainwave Charge-focusing Antlers",
-          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n-Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n-Deal +(Charge x 3)% damage with Base Attack Skills (Max 15%)",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAt 2+ Charge:\n$Inflict +1 Sinking with Base Attack Skills for every 2 Charge (Max 2, does not activate when inflicting only Sinking Count or inflicting Sinking on self)\n$Deal +(Charge x 3)% damage with Base Attack Skills (Max 15%)",
           "PassiveResources": [
             {
               "ResourceSin": "Envy",
@@ -23798,7 +23953,7 @@
         },
         "SkillDefense": {
           "Name": "Adept Evasion",
-          "Description": "[Combat Start] At 3+ Launcher [始]. perform a Battlefield Retreat at Turn End\n-On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Use] Gain +1 Poise Count (2 times per turn)\n[On Evade] Gain 2 Poise (2 times per turn)",
+          "Description": "[Combat Start] At 3+ Launcher [始]. perform a Battlefield Retreat at Turn End\n$On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Use] Gain +1 Poise Count (2 times per turn)\n[On Evade] Gain 2 Poise (2 times per turn)",
           "DamageType": "Evade",
           "SinType": "Gloom",
           "BasePower": 4,
@@ -23820,7 +23975,7 @@
         "InstallPassives": [
           {
             "Name": "Launching Maneuver [始動]",
-            "Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n-# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n-Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
+            "Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -23837,7 +23992,7 @@
         ],
         "PassiveSkill": {
           "Name": "Rupture-breathing Resolve",
-          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target (3 per enemy; once per turn)\n-If this unit gained up 3 Poise with the above effect, gain Poise Count equal to Rupture Count on target (2 per enemy; once per turn)\n\nIn a Clash, if this unit's Offense level is higher than target's, Clash Power +1; inflict +1 Rupture or Rupture Count with this unit's Base Attack Skills (2 times per turn)",
+          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target (3 per enemy; once per turn)\n$If this unit gained up 3 Poise with the above effect, gain Poise Count equal to Rupture Count on target (2 per enemy; once per turn)\n\nIn a Clash, if this unit's Offense level is higher than target's, Clash Power +1; inflict +1 Rupture or Rupture Count with this unit's Base Attack Skills (2 times per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Gluttony",
@@ -23962,7 +24117,7 @@
         },
         "SkillDefense": {
           "Name": "Adept Evasion",
-          "Description": "[Combat Start] At 3+ Launcher [始]. perform a Battlefield Retreat at Turn End\n-On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Evade] Gain 2 Poise (2 times per turn)",
+          "Description": "[Combat Start] At 3+ Launcher [始]. perform a Battlefield Retreat at Turn End\n$On Retreat, move to the frontmost place in Backup units' Deployment order (Returns first among Backup Units)\n[On Evade] Gain 2 Poise (2 times per turn)",
           "DamageType": "Evade",
           "SinType": "None",
           "BasePower": 4,
@@ -23983,7 +24138,7 @@
         "InstallPassives": [
           {
             "Name": "Launching Maneuver [始動]",
-            "Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n-# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n-Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
+            "Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$# of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Subtituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
             "PassiveResources": [
               {
                 "ResourceSin": "None",
@@ -24000,7 +24155,7 @@
         ],
         "PassiveSkill": {
           "Name": "Rupture-breathing Resolve",
-          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target (3 per enemy; once per turn)\n-If this unit gained up 3 Poise with the above effect, gain Poise Count equal to Rupture Count on target (2 per enemy; once per turn)\n\nIn a Clash, if this unit's Offense level is higher than target's, Clash Power +1; inflict +1 Rupture or Rupture Count with this unit's Base Attack Skills (2 times per turn)",
+          "Description": "On Kill with this unit's Attack Skills: Gain Poise equal to Rupture on target (3 per enemy; once per turn)\n$If this unit gained up 3 Poise with the above effect, gain Poise Count equal to Rupture Count on target (2 per enemy; once per turn)\n\nIn a Clash, if this unit's Offense level is higher than target's, Clash Power +1; inflict +1 Rupture or Rupture Count with this unit's Base Attack Skills (2 times per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Gluttony",
@@ -30443,7 +30598,7 @@
         ],
         "PassiveSkill": {
           "Name": "Ammunition Tribute",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n$If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -30458,7 +30613,7 @@
         },
         "SupportSkill": {
           "Name": "Reloader",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n$If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -30580,7 +30735,7 @@
         ],
         "PassiveSkill": {
           "Name": "Ammunition Tribute",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), spend Scorch Propellant Ammo on self equal to the amount the affected ally spent, and supply them with Ammo as Scorch Propellant Ammo that was just spent (Up to 5 Ammo; once per Encounter)\nIf the receiving ally is a Thumb Identity of a higher rank, supply 1 additional Ammo they use\nIf the receiving ally has separate Potency and Count, supply at random\n$If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -30595,7 +30750,7 @@
         },
         "SupportSkill": {
           "Name": "Reloader",
-          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n-If either Potency or Count is maxed, supply whichever isn't maxed",
+          "Description": "When the ally Identity with the highest Deployment order among those using Ammo finishes their attack, if their current Ammo is fewer than half (Rounded up), regain half of the maximum Ammo capacity (Rounded up; once per Encounter; max 5 Ammo)\nIf the receiving ally has separate Potency and Count, supply at random\n$If either Potency or Count is maxed, supply whichever isn't maxed",
           "PassiveResources": [
             {
               "ResourceSin": "Pride",
@@ -36298,7 +36453,7 @@
         },
         "SkillThree": {
           "Name": "Serpentshear Puncturing Arm",
-          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n-If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +10% damage for every (Poise on self + target's Rupture) (Max 200%)\nIf this unit has Serpent Arm, deal +100% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Crit] Inflict +2 Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
+          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n$If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +10% damage for every (Poise on self + target's Rupture) (Max 200%)\nIf this unit has Serpent Arm, deal +100% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Crit] Inflict +2 Rupture Count\n[On Hit] Inflict Deathrite [Venom]",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 8,
@@ -36417,7 +36572,7 @@
         },
         "SkillThree": {
           "Name": "Serpentshear Puncturing Arm",
-          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n-If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +5% damage for every (Poise on self + target's Rupture) (Max 150%)\nIf this unit has Serpent Arm, deal +75% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Hit] Inflict Deathrite [Venom]",
+          "Description": "[On Use] Coin Power +1 for every 8 (this unit's Poise + target's Rupture) (Max 4)\n$If this unit has Serpent Arm, Coin Power +1 for every 5 (this unit's Poise + target's Rupture) instead (Max 6)\n[On Use] Gain 3 Serpent Arm\n[Clash Win] If the target has 5+ Rupture, gain 5 Poise\n<1>Deal +5% damage for every (Poise on self + target's Rupture) (Max 150%)\nIf this unit has Serpent Arm, deal +75% damage on Critical Hit\n[On Hit] Reduce Deathrite [Venom] on target by 2\n[On Crit] Reduce Deathrite [Venom] on target by 3\n[On Hit] Inflict Deathrite [Venom]",
           "DamageType": "Pierce",
           "SinType": "Envy",
           "BasePower": 8,

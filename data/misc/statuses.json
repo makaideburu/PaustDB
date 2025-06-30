@@ -2426,5 +2426,14 @@
       "Max Speed",
       "Protection"
     ]
+  },
+  {
+    "Name": "Fell Bullet",
+    "Description": "Max Stack: 1\nDeal more damage for every Torn Memory\nOn Hit, inflict Bleed\nOn Kill, gain Poise and Poise Count\nExpires at Turn End",
+    "Tags": [
+      "Bleed",
+      "Poise",
+      "Poise Count"
+    ]
   }
 ]

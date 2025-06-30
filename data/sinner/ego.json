@@ -3832,7 +3832,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Thoracalgia",
-          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 3)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 3)\n[On Target Kill] Gain 2 Deep Breath next turn (6 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 4 Deep Breath (Once per turn)",
+          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 3)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 3)\n[On Target Kill] Gain 2 Deep Inhale next turn (6 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 4 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 8,
@@ -3848,12 +3848,12 @@
           "MiscTags": [
             "Poise",
             "Poise Count",
-            "Deep Breath"
+            "Deep Inhale"
           ]
         },
         "Corrosion": {
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 2 additional Poise per ally targeted (Max 4)\n[After Attack] If the target is defeated, gain 3 Deep Breath next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +4 Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource consumed\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 7 Deep Breath (Once per turn)",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 2 additional Poise per ally targeted (Max 4)\n[After Attack] If the target is defeated, gain 3 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +4 Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource consumed\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 7 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 24,
@@ -3872,7 +3872,7 @@
             "Self HP Damage",
             "Poise",
             "Poise Count",
-            "Deep Breath",
+            "Deep Inhale",
             "Ally Poise",
             "Ally Poise Count",
             "Heal SP",
@@ -3891,7 +3891,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Thoracalgia",
-          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 2)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 2)\n[On Target Kill] Gain 2 Deep Breath next turn (4 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 2 Deep Breath (Once per turn)",
+          "Description": "[Before Attack] Gain (Highest Res) Poise (Max 6)\nAt 15+ Poise, Final Power +(Highest Res) instead (Max 6)\n[Before Attack] Gain (Highest Res / 2) Poise Count (Max 2)\nAt 5+ Poise Count, Coin Power +(Highest Res) instead (Max 2)\n[On Target Kill] Gain 2 Deep Inhale next turn (4 times per turn)\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 2 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 6,
@@ -3907,12 +3907,12 @@
           "MiscTags": [
             "Poise",
             "Poise Count",
-            "Deep Breath"
+            "Deep Inhale"
           ]
         },
         "Corrosion": {
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 1 additional Poise per ally targeted (Max 2)\n[After Attack] If the target is defeated, gain 2 Deep Breath next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +2 Poise Count; recover half of SP used by this Skill\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 4 Deep Breath (Once per turn)",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 1 additional Poise per ally targeted (Max 2)\n[After Attack] If the target is defeated, gain 2 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +2 Poise Count; recover half of SP used by this Skill\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 4 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 20,
@@ -3931,7 +3931,7 @@
             "Self HP Damage",
             "Poise",
             "Poise Count",
-            "Deep Breath",
+            "Deep Inhale",
             "Ally Poise",
             "Ally Poise Count",
             "Heal SP"
@@ -6791,10 +6791,9 @@
         },
         "Passive": {
           "Name": "Roar",
-          "Description": "After defeating an enemy, gain Charge by half that turn's (Envy A-Res / 2)",
+          "Description": "After defeating an enemy, gain Charge Count by (Envy A-Res / 2)",
           "MiscTags": [
-            "Spend Charge Count",
-            "Heal HP"
+            "Charge Count"
           ]
         }
       },
@@ -6843,10 +6842,9 @@
         },
         "Passive": {
           "Name": "Roar",
-          "Description": "After defeating an enemy, gain Charge by half that turn's (Envy A-Res / 2)",
+          "Description": "After defeating an enemy, gain Charge by (Envy A-Res / 2)",
           "MiscTags": [
-            "Spend Charge Count",
-            "Heal HP"
+            "Charge Count"
           ]
         }
       }

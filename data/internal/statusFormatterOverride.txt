@@ -9,7 +9,7 @@ Courier Trunk
 Stagger Threshold
 Stagger
 damage on Critical Hit
-Critical damage
+damage on Crit
 Burn, Burn Count, or Unique Burn
 any Burn
 Bleed, Bleed Count, or Unique Bleed
@@ -32,3 +32,11 @@ Poise on self + Rupture on target
 self Poise + target Rupture
 Poise on self + Rupture on main target
 self Poise + main target Rupture
+Deal +
++
+Deal more
++X%
+deal more
++X%
+$
+└

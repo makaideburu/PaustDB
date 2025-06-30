@@ -1,5 +1,11 @@
 [
   {
+    "entry": "target lowest hp ally",
+    "aliases": [
+      "target ally"
+    ]
+  },
+  {
     "entry": "party heal sp",
     "aliases": [
       "heal sp",
@@ -1208,6 +1214,14 @@
       "min speed",
       "max speed",
       "protection"
+    ]
+  },
+  {
+    "entry": "fell bullet",
+    "aliases": [
+      "bleed",
+      "poise",
+      "poise count"
     ]
   }
 ]
