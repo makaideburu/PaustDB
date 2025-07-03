@@ -2953,28 +2953,28 @@
     "Sinner": "Yi Sang",
     "Identity": "N Corp. E.G.O::Fell Bullet",
     "World": "",
-    "Speed": "???",
+    "Speed": "4-7",
     "Rarity": 3,
     "DamageResist": {
-      "Slash": -100,
-      "Pierce": -100,
-      "Blunt": -100
+      "Slash": 0.5,
+      "Pierce": 1,
+      "Blunt": 2
     },
     "UptieTiers": [
       {
         "Tier": 4,
         "SkillOne": {
           "Name": "See Through Defenses",
-          "Description": "[On Use] Deal more damage for every Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Base Power +X for every Y Poise Count\n[On Use] Gain Poise Count and Torn Memory\n<1>[On Hit] Gain Poise Count\n[On Crit] Inflict Bleed Count\n[On Crit] Gain Torn Memory",
+          "Description": "[On Use] Deal +15% damage for every Torn Memory\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain +2 Poise Count and 1 Torn Memory\n<1>[On Hit] Gain +1 Poise Count\n[On Crit] Inflict +1 Bleed Count\n[On Crit] Gain 1 Torn Memory",
           "DamageType": "Blunt",
           "SinType": "Wrath",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 6,
           "CoinCount": 1,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 1,
+          "BasePowerModifier": 2,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -2986,16 +2986,16 @@
         },
         "SkillTwo": {
           "Name": "Punch Through",
-          "Description": "[On Use] Deal more damage for every Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Gain Poise\n<1>[On Hit] Gain Poise\n[On Crit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Hit] Gain Poise\n[On Hit] Gain Torn Memory\n[On Crit] Inflict Bleed\n[On Crit] Gain Torn Memory",
+          "Description": "[On Use] Deal +15% damage for every Torn Memory\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Gain 2 Poise\n<1>[On Hit] Gain 2 Poise\n[On Crit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Gain 2 Poise\n[On Hit] Gain 1 Torn Memory\n[On Crit] Inflict 2 Bleed\n[On Crit] Gain 2 Torn Memory",
           "DamageType": "Pierce",
           "SinType": "Lust",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 6,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -3007,19 +3007,19 @@
         },
         "SkillThree": {
           "Name": "Target Readjustment Fire",
-          "Description": "[Combat Start] Targets lowest HP unit\n$At X Torn Memory, prioritize an ally\n[Combat Start] Atk Weight +X for every Y Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Base Power +X for every Y Poise Count\n[On Use] Gain Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x X) SP\n[After Attack] At X Torn Memory at Combat Start, lose them all; if an ally is killed, heal SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal more damage for every Torn Memory\n$Deal more damage on Critical Hit for every Poise\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If an ally was not killed, target 1 sub-target\nDeal more damage for every Torn Memory; if an ally was killed, deal more instead\nDeal more damage on Critical Hit for every Poise\nDeal more damage on Critical Hit for every Torn Memory\nDeal more damage based on HP percentage lost from first Coin\n[On Hit] Inflict Bleed; if an ally was killed, inflict Bleed and Bleed Count instead",
+          "Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal +7% damage for every Torn Memory\n$Deal +3% damage on Critical Hit for every Poise (Max 60%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +20% damage for every Torn Memory; if ally was killed, deal +40% instead\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin) damage\n[On Hit] Inflict 3 Bleed; if ally was killed, 5 Bleed and +2 Bleed Count instead",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 7,
           "CoinCount": 2,
-          "Level": 0,
-          "BasePowerModifier": 0,
+          "Level": 5,
+          "BasePowerModifier": 2,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 2,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 2,
+          "AttackWeightMod": 4,
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP",
@@ -3035,16 +3035,16 @@
         },
         "SkillDefense": {
           "Name": "Front Line Support",
-          "Description": "[Clashable Counter]\n[On Use] Coin Power +X for every Y Poise\n[On Use] Gain Torn Memory\n<1>[On Hit] Gain Poise\n[On Hit] Gain Poise Count",
+          "Description": "[Clashable Counter]\n[On Use] Coin Power +1 for every 2 Poise (Max 3)\n[On Use] Gain 2 Torn Memory\n<1>[On Hit] Gain 2 Poise\n[On Hit] Gain +2 Poise Count",
           "DamageType": "Pierce",
           "SinType": "Pride",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 5,
+          "CoinPower": 7,
           "CoinCount": 1,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
-          "CoinModifier": 0,
+          "CoinModifier": 3,
           "CoinCountModifier": 0,
           "AttackWeight": 1,
           "AttackWeightMod": 1,
@@ -3076,11 +3076,11 @@
           "Description": "If this unit killed an allied unit with its attack, gain Fell Bullet next turn (including with E.G.O Corrosion or attacks against allies)\nIf this unit uses its E.G.O Fell Bullet and consumes Torn Memory, next turn, gain Torn Memory equal to the amount consumed by the end of last turn",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 6
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Owned",
           "MiscTags": [
             "Fell Bullet",
             "Torn Memory"
@@ -3088,14 +3088,154 @@
         },
         "SupportSkill": {
           "Name": "Designate Target",
-          "Description": "When the ally with the slowest Speed attacked an ally: After Attack, gain Damage Up next turn\n$If the attacked ally is killed by the attack, gain Damage Up for the Encounter instead\n$Can gain up to X Damage Up from the above effect",
+          "Description": "When the ally with the slowest Speed attacked an ally: After Attack, gain 1 Damage Up next turn (2 times per turn)\n$If the attacked ally is killed by the attack, gain 1 Damage Up for the Encounter instead (Max 2 per Stage per Identity)\n$Can gain up to 2 Damage Up from the above effect",
           "PassiveResources": [
             {
-              "ResourceSin": "None",
-              "ResourceCount": -1
+              "ResourceSin": "Pride",
+              "ResourceCount": 4
             }
           ],
-          "ResourceType": "None",
+          "ResourceType": "Res",
+          "MiscTags": [
+            "Ally Damage Up"
+          ]
+        }
+      },
+      {
+        "Tier": 3,
+        "SkillOne": {
+          "Name": "See Through Defenses",
+          "Description": "[On Use] Deal +10% damage for every Torn Memory\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain +1 Poise Count and 1 Torn Memory\n<1>[On Hit] Gain +1 Poise Count\n[On Crit - Heads Hit] Inflict +1 Bleed Count\n[On Crit - Heads Hit] Gain 1 Torn Memory",
+          "DamageType": "Blunt",
+          "SinType": "Wrath",
+          "BasePower": 4,
+          "CoinPower": 6,
+          "CoinCount": 1,
+          "Level": 1,
+          "BasePowerModifier": 1,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise Count",
+            "Torn Memory",
+            "Bleed Count"
+          ]
+        },
+        "SkillTwo": {
+          "Name": "Punch Through",
+          "Description": "[On Use] Deal +10% damage for every Torn Memory\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] Gain 2 Poise\n<1>[On Hit] Gain 2 Poise\n[On Crit - Heads Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Gain 2 Poise\n[On Hit] Gain 1 Torn Memory\n[On Crit] Inflict 1 Bleed\n[On Crit] Gain 2 Torn Memory",
+          "DamageType": "Pierce",
+          "SinType": "Lust",
+          "BasePower": 3,
+          "CoinPower": 6,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Poise",
+            "Bleed",
+            "Torn Memory"
+          ]
+        },
+        "SkillThree": {
+          "Name": "Target Readjustment Fire",
+          "Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal +5% damage for every Torn Memory\n$Deal +2% damage on Critical Hit for every Poise (Max 40%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +15% damage for every Torn Memory; if ally was killed, deal +30% instead\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin) damage\n[On Hit] Inflict 2 Bleed; if ally was killed, 3 Bleed and +1 Bleed Count instead",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 3,
+          "CoinPower": 7,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 1,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 1,
+          "CoinCountModifier": 0,
+          "AttackWeight": 2,
+          "AttackWeightMod": 4,
+          "MiscTags": [
+            "Special Targeting",
+            "Target Lowest HP",
+            "Target Lowest HP Ally",
+            "Attack Weight Increase",
+            "Spend Torn Memory",
+            "Self SP Damage",
+            "Heal SP",
+            "Unbreakable Coin",
+            "Bleed",
+            "Bleed Count"
+          ]
+        },
+        "SkillDefense": {
+          "Name": "Front Line Support",
+          "Description": "[Clashable Counter]\n[On Use] Coin Power +1 for every 2 Poise (Max 2)\n[On Use] Gain 2 Torn Memory\n<1>[On Hit] Gain 2 Poise\n[On Hit] Gain +2 Poise Count",
+          "DamageType": "Pierce",
+          "SinType": "Pride",
+          "BasePower": 5,
+          "CoinPower": 5,
+          "CoinCount": 1,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 2,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Clashable Counter",
+            "Torn Memory",
+            "Poise",
+            "Poise Count"
+          ]
+        },
+        "InstallPassives": [
+          {
+            "Name": "Volatilized Memory",
+            "Description": "Turn End: Lose all Torn Memory. Next turn, gain the same amount of Torn Memory equal to the amount lost",
+            "PassiveResources": [
+              {
+                "ResourceSin": "None",
+                "ResourceCount": -1
+              }
+            ],
+            "ResourceType": "None",
+            "MiscTags": [
+              "Torn Memory"
+            ]
+          }
+        ],
+        "PassiveSkill": {
+          "Name": "Fell Bullet",
+          "Description": "If this unit killed an allied unit with its attack, gain Fell Bullet next turn (including with E.G.O Corrosion or attacks against allies)\nIf this unit uses its E.G.O Fell Bullet and consumes Torn Memory, next turn, gain Torn Memory equal to the amount consumed by the end of last turn",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 6
+            }
+          ],
+          "ResourceType": "Owned",
+          "MiscTags": [
+            "Fell Bullet",
+            "Torn Memory"
+          ]
+        },
+        "SupportSkill": {
+          "Name": "Designate Target",
+          "Description": "When the ally with the slowest Speed attacked an ally: After Attack, gain 1 Damage Up next turn (2 times per turn)\n$If the attacked ally is killed by the attack, gain 1 Damage Up for the Encounter instead (Max 2 per Stage per Identity)\n$Can gain up to 2 Damage Up from the above effect",
+          "PassiveResources": [
+            {
+              "ResourceSin": "Pride",
+              "ResourceCount": 4
+            }
+          ],
+          "ResourceType": "Res",
           "MiscTags": [
             "Ally Damage Up"
           ]

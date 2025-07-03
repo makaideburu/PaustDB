@@ -2429,7 +2429,7 @@
   },
   {
     "Name": "Fell Bullet",
-    "Description": "Max Stack: 1\nDeal more damage for every Torn Memory\nOn Hit, inflict Bleed\nOn Kill, gain Poise and Poise Count\nExpires at Turn End",
+    "Description": "Max Stack: 1\nDeal +3% damage for every Torn Memory\nOn Hit, inflict 1 Bleed (3 per turn)\nOn Kill, gain 3 Poise and +2 Poise Count (2 times per turn)\nExpires at Turn End",
     "Tags": [
       "Bleed",
       "Poise",

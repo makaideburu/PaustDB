@@ -6039,7 +6039,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Tears of the Tarnished Blood - Inception [始]",
-          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n-This damage does not Stagger or reduce this unit's HP below 1",
+          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 20,
@@ -6059,7 +6059,7 @@
           ],
           "AltSkill": {
             "Name": "Tears of the Tarnished Blood - The End [終]",
-            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n-At 3+: Atk Weight +1; Base Power +1\n-At 4+: Atk Weight +2; Base Power +2\n-At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n$At 3+: Atk Weight +1; Base Power +1\n$At 4+: Atk Weight +2; Base Power +2\n$At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
             "DamageType": "Pierce",
             "SinType": "Gluttony",
             "BasePower": 4,
@@ -6083,7 +6083,7 @@
         },
         "Corrosion": {
           "Name": "Tears of the Tarnished Blood - Inception [始]",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Res, Atk Weight +1\n-At 6+ Highest Res, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Res, Atk Weight +1\n$At 6+ Highest Res, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 12,
@@ -6105,7 +6105,7 @@
         },
         "Passive": {
           "Name": "Crying Tears",
-          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n-Gain 2 Haste next turn\n-All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n-Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n-Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n-Inflict 1 Attack Power Down to all enemies next turn",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$Gain 2 Haste next turn\n$All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$Inflict 1 Attack Power Down to all enemies next turn",
           "MiscTags": [
             "Party Sin DMG Up",
             "Party Damage Type DMG Up"
@@ -6116,7 +6116,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Tears of the Tarnished Blood - Inception [始]",
-          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n-This damage does not Stagger or reduce this unit's HP below 1",
+          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 20,
@@ -6136,7 +6136,7 @@
           ],
           "AltSkill": {
             "Name": "Tears of the Tarnished Blood - The End [終]",
-            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n-At 3+: Atk Weight +1; Base Power +1\n-At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n$At 3+: Atk Weight +1; Base Power +1\n$At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
             "DamageType": "Pierce",
             "SinType": "Gluttony",
             "BasePower": 4,
@@ -6182,7 +6182,7 @@
         },
         "Passive": {
           "Name": "Crying Tears",
-          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n-Gain 2 Haste next turn\n-All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n-Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n-Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n-Inflict 1 Attack Power Down to all enemies next turn",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$Gain 2 Haste next turn\n$All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$Inflict 1 Attack Power Down to all enemies next turn",
           "MiscTags": [
             "Party Sin DMG Up",
             "Party Damage Type DMG Up"
@@ -7483,7 +7483,7 @@
         },
         "Passive": {
           "Name": "Reversal Death by Gu Poison",
-          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n-At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
           "MiscTags": [
             "Offense Level Up"
           ]
@@ -7535,7 +7535,7 @@
         },
         "Passive": {
           "Name": "Reversal Death by Gu Poison",
-          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n-At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$At 3+ A-Res, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
           "MiscTags": [
             "Offense Level Up"
           ]
