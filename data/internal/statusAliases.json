@@ -69,6 +69,13 @@
     ]
   },
   {
+    "entry": "party offense level up",
+    "aliases":[
+      "offense level up",
+      "ally offense level up"
+    ]
+  },
+  {
     "entry": "party defense level up",
     "aliases":[
       "defense level up",
@@ -80,6 +87,13 @@
     "aliases":[
       "defense power up",
       "ally defense power up"
+    ]
+  },
+  {
+    "entry": "party damage amp",
+    "aliases":[
+      "damage amp",
+      "ally damage amp"
     ]
   },
   {
@@ -1222,6 +1236,21 @@
       "bleed",
       "poise",
       "poise count"
+    ]
+  },
+  {
+    "entry": "party self-resonance circuitry",
+    "aliases": [
+      "party damage amp",
+      "party offense level up"
+    ]
+  },
+  {
+    "entry": "near-light superbattery",
+    "aliases": [
+      "charge count limit increase",
+      "damage amp",
+      "resistance down"
     ]
   }
 ]

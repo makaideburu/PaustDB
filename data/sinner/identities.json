@@ -2949,7 +2949,7 @@
     ]
   },
   {
-    "Id": 1000,
+    "Id": 1307,
     "Sinner": "Yi Sang",
     "Identity": "N Corp. E.G.O::Fell Bullet",
     "World": "",
@@ -24895,7 +24895,7 @@
         },
         "SupportSkill": {
           "Name": "Rising Faith",
-          "Description": "After an enemy is defeated, apply 1 Haste and 1 Damage Up to the ally with the most SP. (Once per turn)",
+          "Description": "After an enemy is defeated, apply 1 Haste and 1 Damage Up next turn to the ally with the most SP. (Once per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Wrath",
@@ -25007,7 +25007,7 @@
         },
         "SupportSkill": {
           "Name": "Rising Faith",
-          "Description": "After an enemy is defeated, apply 1 Haste and 1 Damage Up to the ally with the most SP. (Once per turn)",
+          "Description": "After an enemy is defeated, apply 1 Haste and 1 Damage Up next turn to the ally with the most SP. (Once per turn)",
           "PassiveResources": [
             {
               "ResourceSin": "Wrath",

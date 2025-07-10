@@ -2435,5 +2435,29 @@
       "Poise",
       "Poise Count"
     ]
+  },
+  {
+    "Name": "Self-Resonance Circuitry",
+    "Description": "Total Sum of Charge Count currently owned by allies: X\nCumulative Charge Count consumed by allies: X\nOn Hit with a Skill: Deal +(sum of Charge Count on all allies / 3)% damage\nAll allies gain 1 Offense Level Up for every 100 cumulative Charge Count consumed by allies",
+    "Tags": [
+      "Damage Amp",
+      "Offense Level Up"
+    ]
+  },
+  {
+    "Name": "Near-light Superbattery",
+    "Description": "Max Stack: 100\nWhen consuming Charge Count, add the amount consumed to this buff's Stack\nMax Charge Count Cap +10\nGain 1 Charge Count when allies gain Charge or Charge Count\nWhen this unit consumes Charge Count with its Skills consume the same amount of Charge Count 1 more time (When there isn't enough available, consume as much as is available)\nDeal +10% damage for every 10 Stack\nEnemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (Max +0.5 Resist; does not activate against Staggered enemies)\nWhen the Identity with this effect dies, the buff and its Stack transfers to next Deployed ally.",
+    "Tags": [
+      "Charge Count Limit Increase",
+      "Damage Amp",
+      "Resistance Down"
+    ]
+  },
+  {
+    "Name": "Reflux",
+    "Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n$Take (Sinking x Stack) Gloom damage\n$Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
+    "Tags": [
+      "Sinking"
+    ]
   }
 ]

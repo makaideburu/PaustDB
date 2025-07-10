@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.7.1 (2025-07-08)",
+        "```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
+      ],
+      [
         "2.7 (2025-05-29)",
         "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.6.0 (2025-04-28)",
         "```:crab: THE IMAGE DUPE BUG IS GONE :crab:\nIt could've been squashed like, a year ago but it took this long to realize what the correct solution was.```"
-      ],
-      [
-        "2.5.6 (2025-02-20)",
-        "```Fix for Railway Stops not prioritizing Stop number over Station number```"
       ]
     ],
     "OldItems": [
@@ -324,6 +324,10 @@
       [
         "2.5.5 (2025-02-03)",
         "```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
+      ],
+      [
+        "2.5.6 (2025-02-20)",
+        "```Fix for Railway Stops not prioritizing Stop number over Station number```"
       ]
     ],
     "HelpFooter": ""
