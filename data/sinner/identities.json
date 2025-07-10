@@ -35968,7 +35968,7 @@
         "Tier": 4,
         "SkillOne": {
           "Name": "Sacrifice for the Family",
-          "Description": "[On Use] Gain +3 Aggro to this Skill Slot next turn\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Use] Gain 10 Bleed\nAt 50%- HP, gain 15 additional Bleed\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Gain 3 Bloodied Hand",
+          "Description": "[On Use] Gain +3 Aggro to this Skill Slot next turn\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Use] Gain 10 Bleed\nAt 50%+ HP, gain 15 additional Bleed\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Gain 3 Bloodied Hand",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -36112,7 +36112,7 @@
         "Tier": 3,
         "SkillOne": {
           "Name": "Sacrifice for the Family",
-          "Description": "[On Use] Gain +3 Aggro to this Skill Slot next turn\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Gain 10 Bleed\nAt 50%- HP, gain 15 additional Bleed\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Gain 2 Bloodied Hand",
+          "Description": "[On Use] Gain +3 Aggro to this Skill Slot next turn\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Gain 10 Bleed\nAt 50%+ HP, gain 15 additional Bleed\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Gain 2 Bloodied Hand",
           "DamageType": "Blunt",
           "SinType": "Gluttony",
           "BasePower": 3,
