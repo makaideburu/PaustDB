@@ -8734,5 +8734,214 @@
     "Availability": [
       "MD5"
     ]
+  },
+  {
+    "Name": "A Certain Philosophy",
+    "Tag": "Keywordless",
+    "Abnormality": "||Fail a 99% Fusion Success||",
+    "Affinity": "Sloth",
+    "Tier": 6,
+    "Cost": 999,
+    "Upgrades": [
+      {
+        "Description": "Fix Fusion Probability forecast to 100%",
+        "Rank": 1,
+        "MiscTags": []
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Wealth",
+    "Tag": "Keywordless",
+    "Abnormality": "||Bizarre Machine||",
+    "Affinity": "Envy",
+    "Tier": 6,
+    "Cost": 999,
+    "Upgrades": [
+      {
+        "Description": "Fix all E.G.O Gift Purchase & Enhancement Cost to 1\nAllies gain 1 Offense Level Up for every 500 Cost (Max 20)",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Tenacity Bolus",
+    "Tag": "Keywordless",
+    "Abnormality": "**Four Houses and Greed**",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: 1 ally with the highest Max HP gains Defense level Up equal to the number of times that unit was hit by the enemies' Skill Attacsk (Max 6)",
+        "Rank": 1,
+        "MiscTags": [
+          "Defense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Lightening Axe",
+    "Tag": "Charge",
+    "Abnormality": "**Four Houses and Greed**",
+    "Affinity": "Envy",
+    "Tier": 2,
+    "Cost": 202,
+    "Upgrades": [
+      {
+        "Description": "On Hit with Skills that consume Charge Count: Inflict 1 Rupture (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Charge that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$At 6+: When dealing Rupture damage to enemies, gain +1 Charge Count (3 times per turn)\n$At 8+: On Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill)",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Charge Count",
+          "Rupture Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Flower in the Mirror",
+    "Tag": "Rupture",
+    "Abnormality": "**The Surrendered Witnessing**",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 255,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormailities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Moon in the Water",
+    "Tag": "Poise",
+    "Abnormality": "**The Surrendered Witnessing**",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 261,
+    "Upgrades": [
+      {
+        "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$On Hit with a Skill: If target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (Once per turn per Identity)",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count",
+          "Critical Damage Amp",
+          "Status Cleanse"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "A Drop",
+    "Tag": "Bleed",
+    "Abnormality": "**The Dream Ending**",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 396,
+    "Upgrades": [
+      {
+        "Description": "Activates when 3+ Identities have Skills that consume Bloodfeast (Except E.G.O Skills, except Backup Units)\nBefore using Skills that consume Bloodfeast, if target has 30+ Bleed, reduce their Bleed to 15. Then, increase Bloodfeast equal to the Bleed reduced. (Once per turn for the enemy group as a whole; activates only against the main target with 2+ Atk Weight Skills)\nFor Identities with Skills that consume Bloodfeast: Apply 1 Power Up and 1 Damage Up for every 10 Bloodfeast generated with the above effect (Max 4)",
+        "Rank": 1,
+        "MiscTags": [
+          "Spend Enemy Bleed",
+          "Bloodfeast",
+          "Power Up",
+          "Damage Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Shatterbound Cannon",
+    "Tag": "Keywordless",
+    "Abnormality": "**Line 5**",
+    "Affinity": "Gloom",
+    "Tier": 4,
+    "Cost": 398,
+    "Upgrades": [
+      {
+        "Description": "Combat Start: Gain 2 Damage Up and 2 Fragile\nStarting from the second turn, stacks of Damage Up and Fragile gained due to the above effect increases by 1 (Up to 8 times)",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Up",
+          "Self Fragile"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Sorrowful Exhale",
+    "Tag": "Poise",
+    "Abnormality": "**Line 5**",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "If the #5 Deployed ally has 50+ (Poise + Poise Count): Their Skill Coins, when attacking after Clash Win or Unopposed Attacks always flip Heads (for Minus Coins, Tails), and deal +80% damage on Critical Hit (Once per Encounter, except E.G.O Skills)\nIf there are 5+ Deployed allies with Attack Skills that apply or gain Poise or Poise Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every Deployed Identity beyond the conditional, including Backup Units)",
+        "Rank": 1,
+        "MiscTags": [
+          "Critical Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Coveting Thorn",
+    "Tag": "Bleed",
+    "Abnormality": "**Line 5**",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 397,
+    "Upgrades": [
+      {
+        "Description": "Every 3 turns, inflict 2 Gluttonous Thorn against enemies (or Parts) with Bleed\nIf all enemies (or Parts) have Bleed, inflict 4 Gluttonous Thorn",
+        "Rank": 1,
+        "MiscTags": [
+          "Gluttonous Thorn"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
   }
 ]

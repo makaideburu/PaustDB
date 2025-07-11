@@ -2459,5 +2459,14 @@
     "Tags": [
       "Sinking"
     ]
+  },
+  {
+    "Name": "Gluttonous Thorn",
+    "Description": "Max Stack: 9\nTurn End: Gain Bleed Count equal to Lust Res, then lose 1 Gluttonous Thorn (Max Bleed Count gain: 5)\nWhile this unit has this effect, if it gains Bleed beyond 99, increase Bloodfeast equal to the excess Bleed; then, gain Defense Level Down next turn equal to the Bloodfeast increased (Max Defense Level Down: 9)",
+    "Tags": [
+      "Bleed Count",
+      "Bloodfeast",
+      "Defense Level Down"
+    ]
   }
 ]
