@@ -426,7 +426,7 @@
   {
     "Id": 14,
     "Name": "Blood, Sweat, and Tears",
-    "Tag": "Keywordless",
+    "Tag": "Tremor",
     "Abnormality": "Drunkard",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -793,7 +793,7 @@
     ]
   },
   {
-    "Id": 25,
+    "Id": 26,
     "Name": "Lowest Star",
     "Tag": "Blunt",
     "Abnormality": "Blue-ish Star",
@@ -834,7 +834,7 @@
     ]
   },
   {
-    "Id": 26,
+    "Id": 27,
     "Name": "Prejudice",
     "Tag": "Keywordless",
     "Abnormality": "Spider of Marriage",
@@ -858,31 +858,7 @@
     ]
   },
   {
-    "Id": 27,
-    "Name": "Gathering Skulls",
-    "Tag": "Pierce",
-    "Abnormality": "Chattering Teeth",
-    "Affinity": "Pride",
-    "Tier": 2,
-    "Cost": 194,
-    "Upgrades": [
-      {
-        "Description": "After defeating an enemy by using a Pride Affinity or Pierce damage Skill, raise the unit's Pierce Power by 2 for the next 2 turns.",
-        "Rank": 1,
-        "MiscTags": [
-          "Pierce Power Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD1",
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Id": 27,
+    "Id": 28,
     "Name": "Little and To-be-Naughty Plushie",
     "Tag": "Bleed",
     "Abnormality": "None",
@@ -907,7 +883,31 @@
     ]
   },
   {
-    "Id": 28,
+    "Id": 29,
+    "Name": "Gathering Skulls",
+    "Tag": "Pierce",
+    "Abnormality": "Chattering Teeth",
+    "Affinity": "Pride",
+    "Tier": 2,
+    "Cost": 194,
+    "Upgrades": [
+      {
+        "Description": "After defeating an enemy by using a Pride Affinity or Pierce damage Skill, raise the unit's Pierce Power by 2 for the next 2 turns.",
+        "Rank": 1,
+        "MiscTags": [
+          "Pierce Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD1",
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 30,
     "Name": "Nixie Divergence",
     "Tag": "Tremor",
     "Abnormality": "Steam Transport Machine",
@@ -948,31 +948,7 @@
     ]
   },
   {
-    "Id": 29,
-    "Name": "Standard-duty Battery",
-    "Tag": "Rupture",
-    "Abnormality": "Shock Centipede",
-    "Affinity": "Envy",
-    "Tier": 3,
-    "Cost": 269,
-    "Upgrades": [
-      {
-        "Description": "When hitting an enemy with a Skill, inflict 3 Rupture on target.\nIf the Skill's Affinity was Envy, inflict 5 Rupture on target instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Rupture"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD1",
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Id": 29,
+    "Id": 31,
     "Name": "Dreaming Electric Sheep",
     "Tag": "Slash",
     "Abnormality": "Dreaming Electric Sheep",
@@ -998,7 +974,31 @@
     ]
   },
   {
-    "Id": 29,
+    "Id": 32,
+    "Name": "Standard-duty Battery",
+    "Tag": "Rupture",
+    "Abnormality": "Shock Centipede",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 269,
+    "Upgrades": [
+      {
+        "Description": "When hitting an enemy with a Skill, inflict 3 Rupture on target.\nIf the Skill's Affinity was Envy, inflict 5 Rupture on target instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD1",
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 33,
     "Name": "Pinpoint Logic Circuit",
     "Tag": "Burn",
     "Abnormality": "kqe-1j-23",
@@ -1022,7 +1022,7 @@
     ]
   },
   {
-    "Id": 30,
+    "Id": 34,
     "Name": "Voodoo Doll",
     "Tag": "Keywordless",
     "Abnormality": "Will You Play?",
@@ -1063,7 +1063,7 @@
     ]
   },
   {
-    "Id": 31,
+    "Id": 35,
     "Name": "Carmilla",
     "Tag": "Keywordless",
     "Abnormality": "Four-hundred Roses",
@@ -1101,7 +1101,7 @@
     ]
   },
   {
-    "Id": 32,
+    "Id": 36,
     "Name": "Child within a Flask",
     "Tag": "Keywordless",
     "Abnormality": "Children in the Flask",
@@ -1125,7 +1125,7 @@
     ]
   },
   {
-    "Id": 33,
+    "Id": 37,
     "Name": "Illusory Hunt",
     "Tag": "Keywordless",
     "Abnormality": "All-around Cleaner",
@@ -1149,7 +1149,7 @@
     ]
   },
   {
-    "Id": 34,
+    "Id": 38,
     "Name": "Homeward",
     "Tag": "Keywordless",
     "Abnormality": "Smokey Old Man",
@@ -1173,7 +1173,7 @@
     ]
   },
   {
-    "Id": 35,
+    "Id": 39,
     "Name": "Tomorrow's Fortune",
     "Tag": "Keywordless",
     "Abnormality": "Star Luminary",
@@ -1197,6 +1197,1408 @@
     ]
   },
   {
+    "Id": 40,
+    "Name": "Red Order",
+    "Tag": "Sinking",
+    "Abnormality": "Centipede Apostle",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 188,
+    "Upgrades": [
+      {
+        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 1 Offense level next turn. (Max 3)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 2 Offense Level next turn instead. (Max 4)",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up"
+        ]
+      },
+      {
+        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 1 Offense level next turn. (Max 4)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 2 Offense Level next turn instead. (Max 5)",
+        "Rank": 2,
+        "MiscTags": [
+          "Offense Level Up"
+        ]
+      },
+      {
+        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 2 Offense level next turn. (Max 4)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 3 Offense Level next turn instead. (Max 6)",
+        "Rank": 3,
+        "MiscTags": [
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 41,
+    "Name": "Smokes and Wires",
+    "Tag": "Bleed",
+    "Abnormality": "4th Front of the Smoke War",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 261,
+    "Upgrades": [
+      {
+        "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 2 Speed next turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Bleed",
+          "Speed Down"
+        ]
+      },
+      {
+        "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
+        "Rank": 2,
+        "MiscTags": [
+          "Bleed",
+          "Speed Down"
+        ]
+      },
+      {
+        "Description": "Allies inflict 2.5x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
+        "Rank": 3,
+        "MiscTags": [
+          "Bleed",
+          "Speed Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 42,
+    "Name": "Employee Card",
+    "Tag": "Charge",
+    "Abnormality": "Forsaken Employee",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 195,
+    "Upgrades": [
+      {
+        "Description": "When activating Wrath A-Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +3 Charge Count at the next Turn Start. (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Charge Count",
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      },
+      {
+        "Description": "When activating Wrath Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +3 Charge Count at the next Turn Start. (Once per turn)",
+        "Rank": 2,
+        "MiscTags": [
+          "Charge Count",
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      },
+      {
+        "Description": "When activating Wrath Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +4 Charge Count at the next Turn Start. (Once per turn)",
+        "Rank": 3,
+        "MiscTags": [
+          "Charge Count",
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 43,
+    "Name": "Oscillating Bracelet",
+    "Tag": "Tremor",
+    "Abnormality": "None",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 208,
+    "Upgrades": [
+      {
+        "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 2 Tremor instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Tremor"
+        ]
+      },
+      {
+        "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 3 Tremor instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Tremor"
+        ]
+      },
+      {
+        "Description": "When hitting an enemy with a Skill, inflict 2 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 4 Tremor instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Tremor"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 44,
+    "Name": "Glimpse of Flames",
+    "Tag": "Burn",
+    "Abnormality": "None",
+    "Affinity": "Wrath",
+    "Tier": 4,
+    "Cost": 379,
+    "Upgrades": [
+      {
+        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 3)",
+        "Rank": 1,
+        "MiscTags": [
+          "HP Damage",
+          "Defense Level Down",
+          "Spend Burn"
+        ]
+      },
+      {
+        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 1.5) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 5)",
+        "Rank": 2,
+        "MiscTags": [
+          "HP Damage",
+          "Defense Level Down",
+          "Spend Burn"
+        ]
+      },
+      {
+        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 2) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 8)",
+        "Rank": 3,
+        "MiscTags": [
+          "HP Damage",
+          "Defense Level Down",
+          "Spend Burn"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 45,
+    "Name": "Cigarette Holder",
+    "Tag": "Poise",
+    "Abnormality": "None",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 197,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Allies with Poise gain 1 Power Up.\nAllies with 5+ Poise Count gain 2 Power Up instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Skill Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 46,
+    "Name": "Barbed Lasso",
+    "Tag": "Rupture",
+    "Abnormality": "Rose Hunter",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 187,
+    "Upgrades": [
+      {
+        "Description": "Turn End: Inflict Rupture on all enemies equal to their current Speed values.\nWhen activating Lust A-Res, apply 3 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count"
+        ]
+      },
+      {
+        "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 1).\nWhen activating Lust A-Res, apply 4 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
+        "Rank": 2,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count"
+        ]
+      },
+      {
+        "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 2).\nWhen activating Lust A-Res, apply 5 Rupture and +4 Rupture Count to a random enemy at Combat Start.",
+        "Rank": 3,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 47,
+    "Name": "Rusted Cutting Knife",
+    "Tag": "Bleed",
+    "Abnormality": "None",
+    "Affinity": "Lust",
+    "Tier": 3,
+    "Cost": 244,
+    "Upgrades": [
+      {
+        "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 1 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count"
+        ]
+      },
+      {
+        "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 2 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count"
+        ]
+      },
+      {
+        "Description": "When inflicting Bleed or Unique Bleed with Skill effects, inflict 3 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +2 Bleed Count instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 48,
+    "Name": "Thorny Path",
+    "Tag": "Sinking",
+    "Abnormality": "Heavenly Commander's Throne",
+    "Affinity": "Lust",
+    "Tier": 1,
+    "Cost": 160,
+    "Upgrades": [
+      {
+        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust A-Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
+        "Rank": 1,
+        "MiscTags": [
+          "Sinking",
+          "Sinking Count"
+        ]
+      },
+      {
+        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
+        "Rank": 2,
+        "MiscTags": [
+          "Sinking",
+          "Sinking Count"
+        ]
+      },
+      {
+        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 3 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
+        "Rank": 3,
+        "MiscTags": [
+          "Sinking",
+          "Sinking Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 49,
+    "Name": "Red-stained Gossypium",
+    "Tag": "Bleed",
+    "Abnormality": "None",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 382,
+    "Upgrades": [
+      {
+        "Description": "First Turn Start of an Encounter: Inflict 1 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
+        "Rank": 1,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count",
+          "Offense Level Down",
+          "Defense Level Down"
+        ]
+      },
+      {
+        "Description": "First Turn Start of a Wave: Inflict 2 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
+        "Rank": 2,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count",
+          "Offense Level Down",
+          "Defense Level Down"
+        ]
+      },
+      {
+        "Description": "First Turn Start of a Wave: Inflict 4 Bleed and +20 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 2) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
+        "Rank": 3,
+        "MiscTags": [
+          "Bleed",
+          "Bleed Count",
+          "Offense Level Down",
+          "Defense Level Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 50,
+    "Name": "Stone Tomb",
+    "Tag": "Poise",
+    "Abnormality": "Pagoda Veneration",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 196,
+    "Upgrades": [
+      {
+        "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy with a Sloth Affinity Skill, they gain 2 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 3 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
+        "Rank": 2,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "Allies gain 2x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 4 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
+        "Rank": 3,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 51,
+    "Name": "Portable Battery Socket",
+    "Tag": "Charge",
+    "Abnormality": "None",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 190,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Two random allies gain +2 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth A-Res, one random ally gains +3 Charge Count at Combat Start.",
+        "Rank": 1,
+        "MiscTags": [
+          "Charge Count"
+        ]
+      },
+      {
+        "Description": "Turn Start: Two random allies gain +3 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth Res, one random ally gains +3 Charge Count at Combat Start.",
+        "Rank": 2,
+        "MiscTags": [
+          "Charge Count"
+        ]
+      },
+      {
+        "Description": "Turn Start: Three random allies gain +3 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth Res, one random ally gains +5 Charge Count at Combat Start.",
+        "Rank": 3,
+        "MiscTags": [
+          "Charge Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 52,
+    "Name": "Dust to Dust",
+    "Tag": "Burn",
+    "Abnormality": "None",
+    "Affinity": "Sloth",
+    "Tier": 3,
+    "Cost": 231,
+    "Upgrades": [
+      {
+        "Description": "First Turn Start of a wave: inflict 5 Burn and +3 Burn Count to all enemies. (For Abnormalities, one random part)\nWhen activating Sloth A-Res, inflict 3 Burn and +2 Burn Count to all enemies (for Abnormalities, one random part), at Combat Start.",
+        "Rank": 1,
+        "MiscTags": [
+          "Burn",
+          "Burn Count"
+        ]
+      },
+      {
+        "Description": "At the start of the battle, inflict 6 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +2 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
+        "Rank": 2,
+        "MiscTags": [
+          "Burn",
+          "Burn Count"
+        ]
+      },
+      {
+        "Description": "At the start of the battle, inflict 8 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +3 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
+        "Rank": 3,
+        "MiscTags": [
+          "Burn",
+          "Burn Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 53,
+    "Name": "Melted Spring",
+    "Tag": "Sinking",
+    "Abnormality": "Time Duck",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 206,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Enemies with Sinking lose 3 Offense Level and Defense Level for the turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Down",
+          "Defense Level Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 54,
+    "Name": "Downpour",
+    "Tag": "Tremor",
+    "Abnormality": "None",
+    "Affinity": "Sloth",
+    "Tier": 4,
+    "Cost": 381,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Inflict (Current Turn Count x 2) Tremor and +2 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
+        "Rank": 1,
+        "MiscTags": [
+          "Tremor",
+          "Tremor Count",
+          "Tremor Burst"
+        ]
+      },
+      {
+        "Description": "Turn Start: Inflict (3 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
+        "Rank": 2,
+        "MiscTags": [
+          "Tremor",
+          "Tremor Count",
+          "Tremor Burst"
+        ]
+      },
+      {
+        "Description": "Turn Start: Inflict (5 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger 2 Tremor Burst on all enemies (or all Abnormality parts).",
+        "Rank": 3,
+        "MiscTags": [
+          "Tremor",
+          "Tremor Count",
+          "Tremor Burst"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 55,
+    "Name": "Four-leaf Clover",
+    "Tag": "Poise",
+    "Abnormality": "Fairy-Long-Legs",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 260,
+    "Upgrades": [
+      {
+        "Description": "When an ally with Poise at Combat Start Critical Hits an enemy, gain 5 Poise and +2 Poise Count at the next Turn Start. (Once per turn)\nIf the Skill's Affinity was Gluttony, gain 7 Poise and +3 Poise Count instead at the next Turn Start.",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 56,
+    "Name": "Nightvision Goggles",
+    "Tag": "Charge",
+    "Abnormality": "Dimensional Oxidation Variant",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 184,
+    "Upgrades": [
+      {
+        "Description": "This Gift activates when an ally has 15+ Charge Count at Turn Start.\nCombat Start: The ally with 15+ Charge Count loses 3 Charge Count and gains 5 Offense Level for the turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Spend Charge Count",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 57,
+    "Name": "Disk Fragment",
+    "Tag": "Keywordless",
+    "Abnormality": "Dimensional Orbit Stabilizer",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 265,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Gain +1 E.G.O resource of a random affinity for each non-Gluttony E.G.O skill used last turn.\nIf a Gluttony Affinity E.G.O skill was used, gain +3 E.G.O resources of a random Affinity for each Gluttony E.G.O Skill used last turn instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Gain Resources"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 58,
+    "Name": "Midwinter Nightmare",
+    "Tag": "Sinking",
+    "Abnormality": "Faelantern",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 259,
+    "Upgrades": [
+      {
+        "Description": "When hitting and dealing HP damage to an enemy with a Skill, inflict 3 Sinking.\nIf the Skill's Affinity was Gluttony, inflict 5 Sinking instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Sinking"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 59,
+    "Name": "Thrill",
+    "Tag": "Rupture",
+    "Abnormality": "None",
+    "Affinity": "Gluttony",
+    "Tier": 4,
+    "Cost": 384,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Inflict 3 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
+        "Rank": 1,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count",
+          "HP Damage",
+          "Spend Rupture Count"
+        ]
+      },
+      {
+        "Description": "Turn Start: Inflict 4 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
+        "Rank": 2,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count",
+          "HP Damage",
+          "Spend Rupture Count"
+        ]
+      },
+      {
+        "Description": "Turn Start: Inflict 6 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
+        "Rank": 3,
+        "MiscTags": [
+          "Rupture",
+          "Rupture Count",
+          "HP Damage"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 60,
+    "Name": "Skeletal Crumbs",
+    "Tag": "Sinking",
+    "Abnormality": "Tomb of Bone",
+    "Affinity": "Gloom",
+    "Tier": 2,
+    "Cost": 205,
+    "Upgrades": [
+      {
+        "Description": "Deal +12.5% damage and take -12.5% damage against enemies that had Sinking at Combat Start.\nAllies with Gloom Affinity Attack Skills deal +20% damage and take -20% damage instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp",
+          "Damage Reduction"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 61,
+    "Name": "Curriculum Vitae",
+    "Tag": "Charge",
+    "Abnormality": "Funeral of a Dying Butterfly",
+    "Affinity": "Gloom",
+    "Tier": 1,
+    "Cost": 155,
+    "Upgrades": [
+      {
+        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 1 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 2 Haste and 1 Power Up next turn instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Haste",
+          "Skill Power Up"
+        ]
+      },
+      {
+        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 2 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 3 Haste and 1 Power Up next turn instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Haste",
+          "Skill Power Up"
+        ]
+      },
+      {
+        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 3 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 4 Haste and 1 Power Up next turn instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Haste",
+          "Skill Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 62,
+    "Name": "Pendant of Nostalgia",
+    "Tag": "Poise",
+    "Abnormality": "Der Fluchschütze",
+    "Affinity": "Gloom",
+    "Tier": 1,
+    "Cost": 145,
+    "Upgrades": [
+      {
+        "Description": "Combat Start: A random ally gains 3 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 3 Poise and +2 Poise Count.",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "Combat Start: A random ally gains 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
+        "Rank": 2,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "Combat Start: 2 random allies gain 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
+        "Rank": 3,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 63,
+    "Name": "Broken Revolver",
+    "Tag": "Rupture",
+    "Abnormality": "None",
+    "Affinity": "Gloom",
+    "Tier": 2,
+    "Cost": 158,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Enemies with Rupture have their Offense Level reduced by 2 for the turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 64,
+    "Name": "Artistic Sense",
+    "Tag": "Sinking",
+    "Abnormality": "None",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 373,
+    "Upgrades": [
+      {
+        "Description": "Deal +35% damage against enemies suffering negative effects (Low Morale, Panic) from SP loss.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      },
+      {
+        "Description": "Deal +40% damage against enemies with 0 or less SP.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+        "Rank": 2,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      },
+      {
+        "Description": "Deal +50% damage against enemies without Sanity or with 0 or less SP.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
+        "Rank": 3,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 65,
+    "Name": "Nebulizer",
+    "Tag": "Poise",
+    "Abnormality": "Sleeping Bag of a Bygone Day",
+    "Affinity": "Pride",
+    "Tier": 2,
+    "Cost": 218,
+    "Upgrades": [
+      {
+        "Description": "First Turn Start of an Encounter: All allies gain 4 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 2 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 3 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
+        "Rank": 2,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nWhen activating Pride Res, all allies gain 3 Poise and +3 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
+        "Rank": 3,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 66,
+    "Name": "Special Contract",
+    "Tag": "Keywordless",
+    "Abnormality": "Overdue Assignments",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "Enemies Staggered by taking Skill damage also recieve fixed damage by 33% of their Max HP (for Abnormalities, the part's HP), and are inflicted with 2 Fragile next turn. (Once per Encounter)",
+        "Rank": 1,
+        "MiscTags": [
+          "HP Damage",
+          "Fragile"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 67,
+    "Name": "Grand Welcome",
+    "Tag": "Keywordless",
+    "Abnormality": "The King in Binds",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 267,
+    "Upgrades": [
+      {
+        "Description": "Encounter Start: Gain +5 Pride E.G.O resources.\nWhenever an enemy dies, gain +2 Pride E.G.O resources and +1 E.G.O resource for 2 other random affinities.",
+        "Rank": 1,
+        "MiscTags": [
+          "Gain Resources"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 68,
+    "Name": "Wrist Guards",
+    "Tag": "Keywordless",
+    "Abnormality": "Handshake of Handshakes",
+    "Affinity": "Pride",
+    "Tier": 1,
+    "Cost": 161,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Allies with 5+ (Charge Count + Unique Charge) gain 1 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 2 Damage Up instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Up"
+        ]
+      },
+      {
+        "Description": "Turn Start: Allies with 3+ (Charge Count + Unique Charge) gain 1 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 2 Damage Up instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Damage Up"
+        ]
+      },
+      {
+        "Description": "Turn Start: Allies with Charge Count or Unique Charge gain 2 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 3 Damage Up instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Damage Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3"
+    ]
+  },
+  {
+    "Id": 69,
+    "Name": "Clear Mirror, Calm Water",
+    "Tag": "Poise",
+    "Abnormality": "None",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 390,
+    "Upgrades": [
+      {
+        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 1.7x.\nIf a Critical hit consumed Poise Count, the ally gains 10 Offense Level Up next turn. (Activates once per Identity, per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Critical Damage Amp",
+          "Offense Level Up"
+        ]
+      },
+      {
+        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2x.\nIf a Critical hit consumed Poise Count, the ally gains 12 Offense Level Up next turn. (Activates once per Identity, per turn)",
+        "Rank": 2,
+        "MiscTags": [
+          "Critical Damage Amp",
+          "Offense Level Up"
+        ]
+      },
+      {
+        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2.5x.\nIf a Critical hit consumed Poise Count, the ally gains 15 Offense Level Up next turn. (Activates once per Identity, per turn)",
+        "Rank": 3,
+        "MiscTags": [
+          "Critical Damage Amp",
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 70,
+    "Name": "Charred Disk",
+    "Tag": "Burn",
+    "Abnormality": "None",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 248,
+    "Upgrades": [
+      {
+        "Description": "When an enemy with Burn is defeated (for Abnormalities, when the Core is defeated), inflict half of the Burn on the defeated enemy to an enemy with the least Burn at the next Turn Start.\nTurn Start: Inflict 4 Offense Level Down to enemies with Burn for the turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Burn",
+          "Offense Level Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 71,
+    "Name": "Lightning Rod",
+    "Tag": "Charge",
+    "Abnormality": "None",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 247,
+    "Upgrades": [
+      {
+        "Description": "Encounter Start: All allies gain +3 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +5 Charge Count instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      },
+      {
+        "Description": "Encounter Start: All allies gain +4 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +6 Charge Count instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      },
+      {
+        "Description": "Encounter Start: All allies gain +5 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +7 Charge Count instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Party Charge Count",
+          "Charge Support"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 72,
+    "Name": "Endorphin Kit",
+    "Tag": "Poise",
+    "Abnormality": "Dream-Devouring Siltcurrent",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 251,
+    "Upgrades": [
+      {
+        "Description": "When gaining Poise from Skill effects, gain 1 Poise and +1 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 2 Poise and +2 Poise Count instead.",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "When gaining Poise from Skill effects, gain 2 Poise and +2 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 3 Poise and +3 Poise Count instead.",
+        "Rank": 2,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      },
+      {
+        "Description": "When gaining Poise from Skill effects, gain 3 Poise and +3 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 4 Poise and +4 Poise Count instead.",
+        "Rank": 3,
+        "MiscTags": [
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 73,
+    "Name": "Headless Portrait",
+    "Tag": "Sinking",
+    "Abnormality": "Portrait of a Certain Day",
+    "Affinity": "Envy",
+    "Tier": 1,
+    "Cost": 151,
+    "Upgrades": [
+      {
+        "Description": "Combat Start: Inflict 2 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 1 Sinking between all enemies next turn. (For Abnormalities, one random part)",
+        "Rank": 1,
+        "MiscTags": [
+          "Sinking"
+        ]
+      },
+      {
+        "Description": "Combat Start: Inflict 3 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 2 Sinking between all enemies next turn. (For Abnormalities, one random part)",
+        "Rank": 2,
+        "MiscTags": [
+          "Sinking"
+        ]
+      },
+      {
+        "Description": "Combat Start: Inflict 4 Sinking and +1 Sinking Count on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 3 Sinking between all enemies next turn. (For Abnormalities, one random part)",
+        "Rank": 3,
+        "MiscTags": [
+          "Sinking",
+          "Sinking Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 74,
+    "Name": "Charge-Type Gloves",
+    "Tag": "Charge",
+    "Abnormality": "None",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 394,
+    "Upgrades": [
+      {
+        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +5 Charge Count.\nTurn Start: All allies gain +2 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
+        "Rank": 1,
+        "MiscTags": [
+          "Charge Count Limit Increase",
+          "Party Charge Count",
+          "Near-light Superbattery"
+        ]
+      },
+      {
+        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +6 Charge Count.\nTurn Start: All allies gain +3 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
+        "Rank": 2,
+        "MiscTags": [
+          "Charge Count Limit Increase",
+          "Party Charge Count",
+          "Near-light Superbattery"
+        ]
+      },
+      {
+        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +8 Charge Count.\nTurn Start: All allies gain +4 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
+        "Rank": 3,
+        "MiscTags": [
+          "Charge Count Limit Increase",
+          "Party Charge Count",
+          "Near-light Superbattery"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 75,
+    "Name": "First-aid Kit",
+    "Tag": "Keywordless",
+    "Abnormality": "Centaur",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 230,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: One ally under 50% HP heals 25% of Max HP. (Once per Encounter; does not activate if the ally is dead)",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal HP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 76,
+    "Name": "Painkiller",
+    "Tag": "Keywordless",
+    "Abnormality": "Hydra",
+    "Affinity": "Gloom",
+    "Tier": 2,
+    "Cost": 183,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Staggered allies heal by 12.5% of Max HP and gain 3 Protection for this turn.",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal HP",
+          "Protection"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 77,
+    "Name": "Voracious Hammer",
+    "Tag": "Keywordless",
+    "Abnormality": "Sleepyhead",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 213,
+    "Upgrades": [
+      {
+        "Description": "After winning a combat encounter, gain 3 Cost for each enemy defeated.",
+        "Rank": 1,
+        "MiscTags": [
+          "Cost"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 78,
+    "Name": "Golden Urn",
+    "Tag": "Keywordless",
+    "Abnormality": "Golden Grip",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 180,
+    "Upgrades": [
+      {
+        "Description": "Gain +20% Cost after winning a combat encounter. (Not affected by Starter Buffs or other E.G.O gifts)",
+        "Rank": 1,
+        "MiscTags": [
+          "Cost"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 79,
+    "Name": "Milepost of Survival",
+    "Tag": "Keywordless",
+    "Abnormality": "Highway Devotee",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 182,
+    "Upgrades": [
+      {
+        "Description": "Upon clearing Floor Boss: gain (80 + # of Identities participating in the Encounter x 5) additional Cost (unaffected by effects that raise Cost after clearing an Encounter)",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal HP",
+          "Cost"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 80,
+    "Name": "Faith",
+    "Tag": "Keywordless",
+    "Abnormality": "None",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 424,
+    "Upgrades": [
+      {
+        "Description": "After using a Plus Coin Skill, fully heal the ally's SP at the next Turn Start. (Unless corroded)",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 81,
+    "Name": "Piece of Relationship",
+    "Tag": "Keywordless",
+    "Abnormality": "None",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 422,
+    "Upgrades": [
+      {
+        "Description": "Upon Acquisition: All Deployed Identities gain 5 Levels.\n[Cannot Sell]",
+        "Rank": 1,
+        "MiscTags": [
+          "Level Up"
+        ]
+      },
+      {
+        "Description": "Upon Acquisition: All Deployed Identities gain 7 Levels.\n[Cannot Sell]",
+        "Rank": 2,
+        "MiscTags": [
+          "Level Up"
+        ]
+      },
+      {
+        "Description": "Upon Acquisition: All Deployed Identities gain 10 Levels.\n[Cannot Sell]",
+        "Rank": 3,
+        "MiscTags": [
+          "Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD2",
+      "MD3",
+      "MD4"
+    ]
+  },
+  {
+    "Id": 82,
     "Name": "Lunar Memory",
     "Tag": "Keywordless",
     "Abnormality": "Fusion: ||Sundered Memory + Punctured Memory + Crushed Memory + (T4 E.G.O Fragment) + (T4 E.G.O Fragment)||",
@@ -1235,42 +2637,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Artistic Sense",
-    "Tag": "Sinking",
-    "Abnormality": "None",
-    "Affinity": "Pride",
-    "Tier": 4,
-    "Cost": 373,
-    "Upgrades": [
-      {
-        "Description": "Deal +35% damage against enemies suffering negative effects (Low Morale, Panic) from SP loss.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
-        "Rank": 1,
-        "MiscTags": [
-          "Damage Amp"
-        ]
-      },
-      {
-        "Description": "Deal +40% damage against enemies with 0 or less SP.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
-        "Rank": 2,
-        "MiscTags": [
-          "Damage Amp"
-        ]
-      },
-      {
-        "Description": "Deal +50% damage against enemies without Sanity or with 0 or less SP.\nWhen Sinking's effect applies to enemies without Sanity, the Affinity of the damage inflicted changes to whatever is the most effective.",
-        "Rank": 3,
-        "MiscTags": [
-          "Damage Amp"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -1317,87 +2683,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Charge-Type Gloves",
-    "Tag": "Charge",
-    "Abnormality": "None",
-    "Affinity": "Envy",
-    "Tier": 4,
-    "Cost": 394,
-    "Upgrades": [
-      {
-        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +5 Charge Count.\nTurn Start: All allies gain +2 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
-        "Rank": 1,
-        "MiscTags": [
-          "Charge Count Limit Increase",
-          "Party Charge Count",
-          "Near-light Superbattery"
-        ]
-      },
-      {
-        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +6 Charge Count.\nTurn Start: All allies gain +3 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
-        "Rank": 2,
-        "MiscTags": [
-          "Charge Count Limit Increase",
-          "Party Charge Count",
-          "Near-light Superbattery"
-        ]
-      },
-      {
-        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +8 Charge Count.\nTurn Start: All allies gain +4 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
-        "Rank": 3,
-        "MiscTags": [
-          "Charge Count Limit Increase",
-          "Party Charge Count",
-          "Near-light Superbattery"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Clear Mirror, Calm Water",
-    "Tag": "Poise",
-    "Abnormality": "None",
-    "Affinity": "Envy",
-    "Tier": 4,
-    "Cost": 390,
-    "Upgrades": [
-      {
-        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 1.7x.\nIf a Critical hit consumed Poise Count, the ally gains 10 Offense Level Up next turn. (Activates once per Identity, per turn)",
-        "Rank": 1,
-        "MiscTags": [
-          "Critical Damage Amp",
-          "Offense Level Up"
-        ]
-      },
-      {
-        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2x.\nIf a Critical hit consumed Poise Count, the ally gains 12 Offense Level Up next turn. (Activates once per Identity, per turn)",
-        "Rank": 2,
-        "MiscTags": [
-          "Critical Damage Amp",
-          "Offense Level Up"
-        ]
-      },
-      {
-        "Description": "Increases the allies' Critical Hit damage multiplier from 1.2x to 2.5x.\nIf a Critical hit consumed Poise Count, the ally gains 15 Offense Level Up next turn. (Activates once per Identity, per turn)",
-        "Rank": 3,
-        "MiscTags": [
-          "Critical Damage Amp",
-          "Offense Level Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -1451,48 +2736,6 @@
     ]
   },
   {
-    "Name": "Downpour",
-    "Tag": "Tremor",
-    "Abnormality": "None",
-    "Affinity": "Sloth",
-    "Tier": 4,
-    "Cost": 381,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Inflict (Current Turn Count x 2) Tremor and +2 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
-        "Rank": 1,
-        "MiscTags": [
-          "Tremor",
-          "Tremor Count",
-          "Tremor Burst"
-        ]
-      },
-      {
-        "Description": "Turn Start: Inflict (3 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
-        "Rank": 2,
-        "MiscTags": [
-          "Tremor",
-          "Tremor Count",
-          "Tremor Burst"
-        ]
-      },
-      {
-        "Description": "Turn Start: Inflict (5 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger 2 Tremor Burst on all enemies (or all Abnormality parts).",
-        "Rank": 3,
-        "MiscTags": [
-          "Tremor",
-          "Tremor Count",
-          "Tremor Burst"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Enrapturing Trance",
     "Tag": "Rupture",
     "Abnormality": "Fusion: ||Talisman Bundle + Standard-duty Battery + Thorny Rope Cuffs||",
@@ -1510,28 +2753,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Faith",
-    "Tag": "Keywordless",
-    "Abnormality": "None",
-    "Affinity": "Pride",
-    "Tier": 4,
-    "Cost": 424,
-    "Upgrades": [
-      {
-        "Description": "After using a Plus Coin Skill, fully heal the ally's SP at the next Turn Start. (Unless corroded)",
-        "Rank": 1,
-        "MiscTags": [
-          "Heal SP"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -1691,48 +2912,6 @@
     ]
   },
   {
-    "Name": "Glimpse of Flames",
-    "Tag": "Burn",
-    "Abnormality": "None",
-    "Affinity": "Wrath",
-    "Tier": 4,
-    "Cost": 379,
-    "Upgrades": [
-      {
-        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 3)",
-        "Rank": 1,
-        "MiscTags": [
-          "HP Damage",
-          "Defense Level Down",
-          "Spend Burn"
-        ]
-      },
-      {
-        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 1.5) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 5)",
-        "Rank": 2,
-        "MiscTags": [
-          "HP Damage",
-          "Defense Level Down",
-          "Spend Burn"
-        ]
-      },
-      {
-        "Description": "Turn End: Consume half of Burn Count on enemies with Burn to deal (Burn x Consumed Burn Count x 2) bonus Wrath damage (Can consume up to 5 Burn Count). Targets lose (Burn Count consumed by Glimpse of Flames)/2 Defense Levels for the next turn. (Max 8)",
-        "Rank": 3,
-        "MiscTags": [
-          "HP Damage",
-          "Defense Level Down",
-          "Spend Burn"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Guiding Gas Lamp",
     "Tag": "Poise",
     "Abnormality": "Fusion: ||Harpoon Prosthetic Leg + Nebulizer||",
@@ -1874,42 +3053,6 @@
     ]
   },
   {
-    "Name": "Piece of Relationship",
-    "Tag": "Keywordless",
-    "Abnormality": "None",
-    "Affinity": "Envy",
-    "Tier": 4,
-    "Cost": 422,
-    "Upgrades": [
-      {
-        "Description": "Upon Acquisition: All Deployed Identities gain 5 Levels.\n[Cannot Sell]",
-        "Rank": 1,
-        "MiscTags": [
-          "Level Up"
-        ]
-      },
-      {
-        "Description": "Upon Acquisition: All Deployed Identities gain 7 Levels.\n[Cannot Sell]",
-        "Rank": 2,
-        "MiscTags": [
-          "Level Up"
-        ]
-      },
-      {
-        "Description": "Upon Acquisition: All Deployed Identities gain 10 Levels.\n[Cannot Sell]",
-        "Rank": 3,
-        "MiscTags": [
-          "Level Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Punctured Memory",
     "Tag": "Pierce",
     "Abnormality": "None",
@@ -1949,51 +3092,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Red-stained Gossypium",
-    "Tag": "Bleed",
-    "Abnormality": "None",
-    "Affinity": "Lust",
-    "Tier": 4,
-    "Cost": 382,
-    "Upgrades": [
-      {
-        "Description": "First Turn Start of an Encounter: Inflict 1 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
-        "Rank": 1,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count",
-          "Offense Level Down",
-          "Defense Level Down"
-        ]
-      },
-      {
-        "Description": "First Turn Start of a Wave: Inflict 2 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
-        "Rank": 2,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count",
-          "Offense Level Down",
-          "Defense Level Down"
-        ]
-      },
-      {
-        "Description": "First Turn Start of a Wave: Inflict 4 Bleed and +20 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 2) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
-        "Rank": 3,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count",
-          "Offense Level Down",
-          "Defense Level Down"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -2089,50 +3187,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Thrill",
-    "Tag": "Rupture",
-    "Abnormality": "None",
-    "Affinity": "Gluttony",
-    "Tier": 4,
-    "Cost": 384,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Inflict 3 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
-        "Rank": 1,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count",
-          "HP Damage",
-          "Spend Rupture Count"
-        ]
-      },
-      {
-        "Description": "Turn Start: Inflict 4 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
-        "Rank": 2,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count",
-          "HP Damage",
-          "Spend Rupture Count"
-        ]
-      },
-      {
-        "Description": "Turn Start: Inflict 6 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
-        "Rank": 3,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count",
-          "HP Damage"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -2321,29 +3375,6 @@
     ]
   },
   {
-    "Name": "Charred Disk",
-    "Tag": "Burn",
-    "Abnormality": "None",
-    "Affinity": "Envy",
-    "Tier": 3,
-    "Cost": 248,
-    "Upgrades": [
-      {
-        "Description": "When an enemy with Burn is defeated (for Abnormalities, when the Core is defeated), inflict half of the Burn on the defeated enemy to an enemy with the least Burn at the next Turn Start.\nTurn Start: Inflict 4 Offense Level Down to enemies with Burn for the turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Burn",
-          "Offense Level Down"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Chief Butler's Secret Arts",
     "Tag": "Keywordless",
     "Abnormality": "*A Certain World*",
@@ -2463,28 +3494,6 @@
     ]
   },
   {
-    "Name": "Disk Fragment",
-    "Tag": "Keywordless",
-    "Abnormality": "Dimensional Orbit Stabilizer",
-    "Affinity": "Gluttony",
-    "Tier": 3,
-    "Cost": 265,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Gain +1 E.G.O resource of a random affinity for each non-Gluttony E.G.O skill used last turn.\nIf a Gluttony Affinity E.G.O skill was used, gain +3 E.G.O resources of a random Affinity for each Gluttony E.G.O Skill used last turn instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Gain Resources"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Distant Star",
     "Tag": "Sinking",
     "Abnormality": "None",
@@ -2526,84 +3535,6 @@
     ]
   },
   {
-    "Name": "Dust to Dust",
-    "Tag": "Burn",
-    "Abnormality": "None",
-    "Affinity": "Sloth",
-    "Tier": 3,
-    "Cost": 231,
-    "Upgrades": [
-      {
-        "Description": "First Turn Start of a wave: inflict 5 Burn and +3 Burn Count to all enemies. (For Abnormalities, one random part)\nWhen activating Sloth A-Res, inflict 3 Burn and +2 Burn Count to all enemies (for Abnormalities, one random part), at Combat Start.",
-        "Rank": 1,
-        "MiscTags": [
-          "Burn",
-          "Burn Count"
-        ]
-      },
-      {
-        "Description": "At the start of the battle, inflict 6 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +2 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
-        "Rank": 2,
-        "MiscTags": [
-          "Burn",
-          "Burn Count"
-        ]
-      },
-      {
-        "Description": "At the start of the battle, inflict 8 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +3 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
-        "Rank": 3,
-        "MiscTags": [
-          "Burn",
-          "Burn Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Endorphin Kit",
-    "Tag": "Poise",
-    "Abnormality": "Dream-Devouring Siltcurrent",
-    "Affinity": "Envy",
-    "Tier": 3,
-    "Cost": 251,
-    "Upgrades": [
-      {
-        "Description": "When gaining Poise from Skill effects, gain 1 Poise and +1 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 2 Poise and +2 Poise Count instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "When gaining Poise from Skill effects, gain 2 Poise and +2 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 3 Poise and +3 Poise Count instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "When gaining Poise from Skill effects, gain 3 Poise and +3 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 4 Poise and +4 Poise Count instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Finifugality",
     "Tag": "Poise",
     "Abnormality": "None",
@@ -2621,51 +3552,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "First-aid Kit",
-    "Tag": "Keywordless",
-    "Abnormality": "Centaur",
-    "Affinity": "Wrath",
-    "Tier": 3,
-    "Cost": 230,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: One ally under 50% HP heals 25% of Max HP. (Once per Encounter; does not activate if the ally is dead)",
-        "Rank": 1,
-        "MiscTags": [
-          "Heal HP"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Four-leaf Clover",
-    "Tag": "Poise",
-    "Abnormality": "Fairy-Long-Legs",
-    "Affinity": "Gluttony",
-    "Tier": 3,
-    "Cost": 260,
-    "Upgrades": [
-      {
-        "Description": "When an ally with Poise at Combat Start Critical Hits an enemy, gain 5 Poise and +2 Poise Count at the next Turn Start. (Once per turn)\nIf the Skill's Affinity was Gluttony, gain 7 Poise and +3 Poise Count instead at the next Turn Start.",
-        "Rank": 1,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -2688,28 +3574,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Grand Welcome",
-    "Tag": "Keywordless",
-    "Abnormality": "The King in Binds",
-    "Affinity": "Pride",
-    "Tier": 3,
-    "Cost": 267,
-    "Upgrades": [
-      {
-        "Description": "Encounter Start: Gain +5 Pride E.G.O resources.\nWhenever an enemy dies, gain +2 Pride E.G.O resources and +1 E.G.O resource for 2 other random affinities.",
-        "Rank": 1,
-        "MiscTags": [
-          "Gain Resources"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -2835,45 +3699,6 @@
     ]
   },
   {
-    "Name": "Lightning Rod",
-    "Tag": "Charge",
-    "Abnormality": "None",
-    "Affinity": "Envy",
-    "Tier": 3,
-    "Cost": 247,
-    "Upgrades": [
-      {
-        "Description": "Encounter Start: All allies gain +3 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +5 Charge Count instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      },
-      {
-        "Description": "Encounter Start: All allies gain +4 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +6 Charge Count instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      },
-      {
-        "Description": "Encounter Start: All allies gain +5 Charge Count.\nIf two or more participating allies have Envy Affinity Attack Skills, all allies gain +7 Charge Count instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Material Interference Force Field",
     "Tag": "Charge",
     "Abnormality": "Resident of Metropolaris",
@@ -2907,28 +3732,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Midwinter Nightmare",
-    "Tag": "Sinking",
-    "Abnormality": "Faelantern",
-    "Affinity": "Gluttony",
-    "Tier": 3,
-    "Cost": 259,
-    "Upgrades": [
-      {
-        "Description": "When hitting and dealing HP damage to an enemy with a Skill, inflict 3 Sinking.\nIf the Skill's Affinity was Gluttony, inflict 5 Sinking instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Sinking"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -3009,45 +3812,6 @@
     ]
   },
   {
-    "Name": "Rusted Cutting Knife",
-    "Tag": "Bleed",
-    "Abnormality": "None",
-    "Affinity": "Lust",
-    "Tier": 3,
-    "Cost": 244,
-    "Upgrades": [
-      {
-        "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 1 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count"
-        ]
-      },
-      {
-        "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 2 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count"
-        ]
-      },
-      {
-        "Description": "When inflicting Bleed or Unique Bleed with Skill effects, inflict 3 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +2 Bleed Count instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Bleed",
-          "Bleed Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Rusted Hilt",
     "Tag": "Slash",
     "Abnormality": "*Yield My Flesh to Claim Their Bones*",
@@ -3088,68 +3852,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Smokes and Wires",
-    "Tag": "Bleed",
-    "Abnormality": "4th Front of the Smoke War",
-    "Affinity": "Wrath",
-    "Tier": 3,
-    "Cost": 261,
-    "Upgrades": [
-      {
-        "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 2 Speed next turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Bleed",
-          "Speed Down"
-        ]
-      },
-      {
-        "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
-        "Rank": 2,
-        "MiscTags": [
-          "Bleed",
-          "Speed Down"
-        ]
-      },
-      {
-        "Description": "Allies inflict 2.5x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
-        "Rank": 3,
-        "MiscTags": [
-          "Bleed",
-          "Speed Down"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Special Contract",
-    "Tag": "Keywordless",
-    "Abnormality": "Overdue Assignments",
-    "Affinity": "Pride",
-    "Tier": 3,
-    "Cost": 250,
-    "Upgrades": [
-      {
-        "Description": "Enemies Staggered by taking Skill damage also recieve fixed damage by 33% of their Max HP (for Abnormalities, the part's HP), and are inflicted with 2 Fragile next turn. (Once per Encounter)",
-        "Rank": 1,
-        "MiscTags": [
-          "HP Damage",
-          "Fragile"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -3250,45 +3952,6 @@
     ]
   },
   {
-    "Name": "Barbed Lasso",
-    "Tag": "Rupture",
-    "Abnormality": "Rose Hunter",
-    "Affinity": "Lust",
-    "Tier": 2,
-    "Cost": 187,
-    "Upgrades": [
-      {
-        "Description": "Turn End: Inflict Rupture on all enemies equal to their current Speed values.\nWhen activating Lust A-Res, apply 3 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
-        "Rank": 1,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count"
-        ]
-      },
-      {
-        "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 1).\nWhen activating Lust A-Res, apply 4 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
-        "Rank": 2,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count"
-        ]
-      },
-      {
-        "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 2).\nWhen activating Lust A-Res, apply 5 Rupture and +4 Rupture Count to a random enemy at Combat Start.",
-        "Rank": 3,
-        "MiscTags": [
-          "Rupture",
-          "Rupture Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Black Ledger",
     "Tag": "Keywordless",
     "Abnormality": "*Yield My Flesh to Claim Their Bones*",
@@ -3350,50 +4013,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Broken Revolver",
-    "Tag": "Rupture",
-    "Abnormality": "None",
-    "Affinity": "Gloom",
-    "Tier": 2,
-    "Cost": 158,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Enemies with Rupture have their Offense Level reduced by 2 for the turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Offense Level Down"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Cigarette Holder",
-    "Tag": "Poise",
-    "Abnormality": "None",
-    "Affinity": "Lust",
-    "Tier": 2,
-    "Cost": 197,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Allies with Poise gain 1 Power Up.\nAllies with 5+ Poise Count gain 2 Power Up instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Skill Power Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -3477,48 +4096,6 @@
     ]
   },
   {
-    "Name": "Employee Card",
-    "Tag": "Charge",
-    "Abnormality": "Forsaken Employee",
-    "Affinity": "Wrath",
-    "Tier": 2,
-    "Cost": 195,
-    "Upgrades": [
-      {
-        "Description": "When activating Wrath A-Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +3 Charge Count at the next Turn Start. (Once per turn)",
-        "Rank": 1,
-        "MiscTags": [
-          "Charge Count",
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      },
-      {
-        "Description": "When activating Wrath Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +3 Charge Count at the next Turn Start. (Once per turn)",
-        "Rank": 2,
-        "MiscTags": [
-          "Charge Count",
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      },
-      {
-        "Description": "When activating Wrath Res or using a Skill that gains or applies Charge Count or Unique Charge, all allies gain +4 Charge Count at the next Turn Start. (Once per turn)",
-        "Rank": 3,
-        "MiscTags": [
-          "Charge Count",
-          "Party Charge Count",
-          "Charge Support"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Fluorescent Lamp",
     "Tag": "Rupture",
     "Abnormality": "Dream-Devouring Siltcurrent",
@@ -3573,28 +4150,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Golden Urn",
-    "Tag": "Keywordless",
-    "Abnormality": "Golden Grip",
-    "Affinity": "Sloth",
-    "Tier": 2,
-    "Cost": 180,
-    "Upgrades": [
-      {
-        "Description": "Gain +20% Cost after winning a combat encounter. (Not affected by Starter Buffs or other E.G.O gifts)",
-        "Rank": 1,
-        "MiscTags": [
-          "Cost"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -3728,52 +4283,6 @@
     ]
   },
   {
-    "Name": "Melted Spring",
-    "Tag": "Sinking",
-    "Abnormality": "Time Duck",
-    "Affinity": "Sloth",
-    "Tier": 2,
-    "Cost": 206,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Enemies with Sinking lose 3 Offense Level and Defense Level for the turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Offense Level Down",
-          "Defense Level Down"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Milepost of Survival",
-    "Tag": "Keywordless",
-    "Abnormality": "Highway Devotee",
-    "Affinity": "Sloth",
-    "Tier": 2,
-    "Cost": 182,
-    "Upgrades": [
-      {
-        "Description": "Upon clearing Floor Boss: gain (80 + # of Identities participating in the Encounter x 5) additional Cost (unaffected by effects that raise Cost after clearing an Encounter)",
-        "Rank": 1,
-        "MiscTags": [
-          "Heal HP",
-          "Cost"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Mirror Tactile Synaesthesia",
     "Tag": "Tremor",
     "Abnormality": "Lost Mind",
@@ -3812,68 +4321,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Nebulizer",
-    "Tag": "Poise",
-    "Abnormality": "Sleeping Bag of a Bygone Day",
-    "Affinity": "Pride",
-    "Tier": 2,
-    "Cost": 218,
-    "Upgrades": [
-      {
-        "Description": "First Turn Start of an Encounter: All allies gain 4 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 2 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
-        "Rank": 1,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 3 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
-        "Rank": 2,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nWhen activating Pride Res, all allies gain 3 Poise and +3 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
-        "Rank": 3,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Nightvision Goggles",
-    "Tag": "Charge",
-    "Abnormality": "Dimensional Oxidation Variant",
-    "Affinity": "Gluttony",
-    "Tier": 2,
-    "Cost": 184,
-    "Upgrades": [
-      {
-        "Description": "This Gift activates when an ally has 15+ Charge Count at Turn Start.\nCombat Start: The ally with 15+ Charge Count loses 3 Charge Count and gains 5 Offense Level for the turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Spend Charge Count",
-          "Offense Level Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -3969,42 +4416,6 @@
     ]
   },
   {
-    "Name": "Oscillating Bracelet",
-    "Tag": "Tremor",
-    "Abnormality": "None",
-    "Affinity": "Wrath",
-    "Tier": 2,
-    "Cost": 208,
-    "Upgrades": [
-      {
-        "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 2 Tremor instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Tremor"
-        ]
-      },
-      {
-        "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 3 Tremor instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Tremor"
-        ]
-      },
-      {
-        "Description": "When hitting an enemy with a Skill, inflict 2 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 4 Tremor instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Tremor"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Pain of Stifled Rage",
     "Tag": "Burn",
     "Abnormality": "Brazen Bull",
@@ -4038,29 +4449,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Painkiller",
-    "Tag": "Keywordless",
-    "Abnormality": "Hydra",
-    "Affinity": "Gloom",
-    "Tier": 2,
-    "Cost": 183,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Staggered allies heal by 12.5% of Max HP and gain 3 Protection for this turn.",
-        "Rank": 1,
-        "MiscTags": [
-          "Heal HP",
-          "Protection"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -4102,42 +4490,6 @@
     ]
   },
   {
-    "Name": "Portable Battery Socket",
-    "Tag": "Charge",
-    "Abnormality": "None",
-    "Affinity": "Sloth",
-    "Tier": 2,
-    "Cost": 190,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Two random allies gain +2 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth A-Res, one random ally gains +3 Charge Count at Combat Start.",
-        "Rank": 1,
-        "MiscTags": [
-          "Charge Count"
-        ]
-      },
-      {
-        "Description": "Turn Start: Two random allies gain +3 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth Res, one random ally gains +3 Charge Count at Combat Start.",
-        "Rank": 2,
-        "MiscTags": [
-          "Charge Count"
-        ]
-      },
-      {
-        "Description": "Turn Start: Three random allies gain +3 Charge Count (Prioritizes Identities with Skills that gain Charge Count or Unique Charge).\nWhen activating Sloth Res, one random ally gains +5 Charge Count at Combat Start.",
-        "Rank": 3,
-        "MiscTags": [
-          "Charge Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Ragged Umbrella",
     "Tag": "Rupture",
     "Abnormality": "Drifting Fox",
@@ -4171,42 +4523,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Red Order",
-    "Tag": "Sinking",
-    "Abnormality": "Centipede Apostle",
-    "Affinity": "Wrath",
-    "Tier": 2,
-    "Cost": 188,
-    "Upgrades": [
-      {
-        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 1 Offense level next turn. (Max 3)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 2 Offense Level next turn instead. (Max 4)",
-        "Rank": 1,
-        "MiscTags": [
-          "Offense Level Up"
-        ]
-      },
-      {
-        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 1 Offense level next turn. (Max 4)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 2 Offense Level next turn instead. (Max 5)",
-        "Rank": 2,
-        "MiscTags": [
-          "Offense Level Up"
-        ]
-      },
-      {
-        "Description": "Whenever an ally inflicts Sinking, Sinking Count, or Unique Sinking on enemies with Skill Effects, the ally gains 2 Offense level next turn. (Max 4)\nAllies with Gloom or Wrath Affinity Attack Skills, upon inflicting Sinking on enemies with Skill Effects, gain 3 Offense Level next turn instead. (Max 6)",
-        "Rank": 3,
-        "MiscTags": [
-          "Offense Level Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -4311,29 +4627,6 @@
     ]
   },
   {
-    "Name": "Skeletal Crumbs",
-    "Tag": "Sinking",
-    "Abnormality": "Tomb of Bone",
-    "Affinity": "Gloom",
-    "Tier": 2,
-    "Cost": 205,
-    "Upgrades": [
-      {
-        "Description": "Deal +12.5% damage and take -12.5% damage against enemies that had Sinking at Combat Start.\nAllies with Gloom Affinity Attack Skills deal +20% damage and take -20% damage instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Damage Amp",
-          "Damage Reduction"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Smoking Gunpowder",
     "Tag": "Rupture",
     "Abnormality": "None",
@@ -4424,45 +4717,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Stone Tomb",
-    "Tag": "Poise",
-    "Abnormality": "Pagoda Veneration",
-    "Affinity": "Sloth",
-    "Tier": 2,
-    "Cost": 196,
-    "Upgrades": [
-      {
-        "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy with a Sloth Affinity Skill, they gain 2 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
-        "Rank": 1,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 3 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
-        "Rank": 2,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "Allies gain 2x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 4 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
-        "Rank": 3,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -4596,28 +4850,6 @@
       }
     ],
     "Availability": [
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Voracious Hammer",
-    "Tag": "Keywordless",
-    "Abnormality": "Sleepyhead",
-    "Affinity": "Lust",
-    "Tier": 2,
-    "Cost": 213,
-    "Upgrades": [
-      {
-        "Description": "After winning a combat encounter, gain 3 Cost for each enemy defeated.",
-        "Rank": 1,
-        "MiscTags": [
-          "Cost"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
       "MD4"
     ]
   },
@@ -4817,45 +5049,6 @@
     ]
   },
   {
-    "Name": "Curriculum Vitae",
-    "Tag": "Charge",
-    "Abnormality": "Funeral of a Dying Butterfly",
-    "Affinity": "Gloom",
-    "Tier": 1,
-    "Cost": 155,
-    "Upgrades": [
-      {
-        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 1 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 2 Haste and 1 Power Up next turn instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Haste",
-          "Skill Power Up"
-        ]
-      },
-      {
-        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 2 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 3 Haste and 1 Power Up next turn instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Haste",
-          "Skill Power Up"
-        ]
-      },
-      {
-        "Description": "Turn End: Allies with 7+ (Charge Count + Unique Charge) gain 3 Haste next turn.\nIf the ally has Gloom Affinity Skills, gain 4 Haste and 1 Power Up next turn instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Haste",
-          "Skill Power Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Deceptive Accord",
     "Tag": "Slash",
     "Abnormality": "Broken Wings",
@@ -5004,43 +5197,6 @@
     ]
   },
   {
-    "Name": "Headless Portrait",
-    "Tag": "Sinking",
-    "Abnormality": "Portrait of a Certain Day",
-    "Affinity": "Envy",
-    "Tier": 1,
-    "Cost": 151,
-    "Upgrades": [
-      {
-        "Description": "Combat Start: Inflict 2 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 1 Sinking between all enemies next turn. (For Abnormalities, one random part)",
-        "Rank": 1,
-        "MiscTags": [
-          "Sinking"
-        ]
-      },
-      {
-        "Description": "Combat Start: Inflict 3 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 2 Sinking between all enemies next turn. (For Abnormalities, one random part)",
-        "Rank": 2,
-        "MiscTags": [
-          "Sinking"
-        ]
-      },
-      {
-        "Description": "Combat Start: Inflict 4 Sinking and +1 Sinking Count on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 3 Sinking between all enemies next turn. (For Abnormalities, one random part)",
-        "Rank": 3,
-        "MiscTags": [
-          "Sinking",
-          "Sinking Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "Melted Paraffin",
     "Tag": "Burn",
     "Abnormality": "Skin Prophet",
@@ -5129,45 +5285,6 @@
       }
     ],
     "Availability": [
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
-    "Name": "Pendant of Nostalgia",
-    "Tag": "Poise",
-    "Abnormality": "Der Fluchschütze",
-    "Affinity": "Gloom",
-    "Tier": 1,
-    "Cost": 145,
-    "Upgrades": [
-      {
-        "Description": "Combat Start: A random ally gains 3 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 3 Poise and +2 Poise Count.",
-        "Rank": 1,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "Combat Start: A random ally gains 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
-        "Rank": 2,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      },
-      {
-        "Description": "Combat Start: 2 random allies gain 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
-        "Rank": 3,
-        "MiscTags": [
-          "Poise",
-          "Poise Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
       "MD3",
       "MD4"
     ]
@@ -5365,45 +5482,6 @@
     ]
   },
   {
-    "Name": "Thorny Path",
-    "Tag": "Sinking",
-    "Abnormality": "Heavenly Commander's Throne",
-    "Affinity": "Lust",
-    "Tier": 1,
-    "Cost": 160,
-    "Upgrades": [
-      {
-        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust A-Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
-        "Rank": 1,
-        "MiscTags": [
-          "Sinking",
-          "Sinking Count"
-        ]
-      },
-      {
-        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
-        "Rank": 2,
-        "MiscTags": [
-          "Sinking",
-          "Sinking Count"
-        ]
-      },
-      {
-        "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 3 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
-        "Rank": 3,
-        "MiscTags": [
-          "Sinking",
-          "Sinking Count"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3",
-      "MD4"
-    ]
-  },
-  {
     "Name": "UPS System",
     "Tag": "Charge",
     "Abnormality": "kqe-1j-23",
@@ -5510,41 +5588,6 @@
     ],
     "Availability": [
       "MD4"
-    ]
-  },
-  {
-    "Name": "Wrist Guards",
-    "Tag": "Keywordless",
-    "Abnormality": "Handshake of Handshakes",
-    "Affinity": "Pride",
-    "Tier": 1,
-    "Cost": 161,
-    "Upgrades": [
-      {
-        "Description": "Turn Start: Allies with 5+ (Charge Count + Unique Charge) gain 1 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 2 Damage Up instead.",
-        "Rank": 1,
-        "MiscTags": [
-          "Damage Up"
-        ]
-      },
-      {
-        "Description": "Turn Start: Allies with 3+ (Charge Count + Unique Charge) gain 1 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 2 Damage Up instead.",
-        "Rank": 2,
-        "MiscTags": [
-          "Damage Up"
-        ]
-      },
-      {
-        "Description": "Turn Start: Allies with Charge Count or Unique Charge gain 2 Damage Up.\nIf the ally has Pride Affinity Attack Skills, gain 3 Damage Up instead.",
-        "Rank": 3,
-        "MiscTags": [
-          "Damage Up"
-        ]
-      }
-    ],
-    "Availability": [
-      "MD2",
-      "MD3"
     ]
   },
   {

@@ -1,1264 +1,1328 @@
 [
-  {
-    "entry": "target lowest hp ally",
-    "aliases": [
-      "target ally"
-    ]
-  },
-  {
-    "entry": "party heal sp",
-    "aliases": [
-      "heal sp",
-      "ally heal sp"
-    ]
-  },
-  {
-    "entry": "party heal hp",
-    "aliases":[
-      "heal hp",
-      "ally heal hp"
-    ]
-  },
-  {
-    "entry": "party burn",
-    "aliases":[
-      "self burn",
-      "ally burn"
-    ]
-  },
-  {
-    "entry": "party poise",
-    "aliases":[
-      "poise",
-      "ally poise"
-    ]
-  },
-  {
-    "entry": "party poise count",
-    "aliases":[
-      "poise count",
-      "ally poise count"
-    ]
-  },
-  {
-    "entry": "party protection",
-    "aliases":[
-      "protection",
-      "ally protection"
-    ]
-  },
-  {
-    "entry": "party haste",
-    "aliases":[
-      "haste",
-      "ally haste"
-    ]
-  },
-  {
-    "entry":"party e.g.o resource amp",
-    "aliases": [
-      "e.g.o resource amp",
-      "ally e.g.o resource amp"
-    ]
-  },
-  {
-    "entry": "party sp loss efficiency down",
-    "aliases":[
-      "sp loss efficiency down",
-      "ally sp loss efficiency down"
-    ]
-  },
-  {
-    "entry": "party offense level up",
-    "aliases":[
-      "offense level up",
-      "ally offense level up"
-    ]
-  },
-  {
-    "entry": "party defense level up",
-    "aliases":[
-      "defense level up",
-      "ally defense level up"
-    ]
-  },
-  {
-    "entry": "party defense power up",
-    "aliases":[
-      "defense power up",
-      "ally defense power up"
-    ]
-  },
-  {
-    "entry": "party damage amp",
-    "aliases":[
-      "damage amp",
-      "ally damage amp"
-    ]
-  },
-  {
-    "entry": "party damage type dmg up",
-    "aliases":[
-      "damage type dmg up",
-      "ally damage type dmg up",
-      "party slash dmg up",
-      "party pierce dmg up",
-      "party blunt dmg up"
-    ]
-  },
-  {
-    "entry": "party slash dmg up",
-    "aliases":[
-      "slash dmg up",
-      "ally slash dmg up"
-    ]
-  },
-  {
-    "entry": "party pierce dmg up",
-    "aliases":[
-      "pierce dmg up",
-      "ally pierce dmg up"
-    ]
-  },
-  {
-    "entry": "party blunt dmg up",
-    "aliases":[
-      "blunt dmg up",
-      "ally blunt dmg up"
-    ]
-  },
-  {
-    "entry": "party sloth power up",
-    "aliases":[
-      "sloth power up",
-      "ally sloth power up"
-    ]
-  },
-  {
-    "entry": "party sin dmg up",
-    "aliases":[
-      "sin dmg up",
-      "ally sin dmg up",
-      "party wrath dmg up",
-      "party lust dmg up",
-      "party sloth dmg up",
-      "party gluttony dmg up",
-      "party gloom dmg up",
-      "party pride dmg up",
-      "party envy dmg up"
-    ]
-  },
-  {
-    "entry": "party wrath dmg up",
-    "aliases":[
-      "wrath dmg up",
-      "ally wrath dmg up"
-    ]
-  },
-  {
-    "entry": "party lust dmg up",
-    "aliases":[
-      "lust dmg up",
-      "ally lust dmg up"
-    ]
-  },
-  {
-    "entry": "party sloth dmg up",
-    "aliases":[
-      "sloth dmg up",
-      "ally sloth dmg up"
-    ]
-  },
-  {
-    "entry": "party gluttony dmg up",
-    "aliases":[
-      "gluttony dmg up",
-      "ally gluttony dmg up"
-    ]
-  },
-  {
-    "entry": "party gloom dmg up",
-    "aliases":[
-      "gloom dmg up",
-      "ally gloom dmg up"
-    ]
-  },
-  {
-    "entry": "party pride dmg up",
-    "aliases":[
-      "pride dmg up",
-      "ally pride dmg up"
-    ]
-  },
-  {
-    "entry": "party envy dmg up",
-    "aliases":[
-      "envy dmg up",
-      "ally envy dmg up"
-    ]
-  },
-  {
-    "entry": "party wrath fragility",
-    "aliases":[
-      "self wrath fragility",
-      "ally wrath fragility"
-    ]
-  },
-  {
-    "entry": "wrath resistance down",
-    "aliases":[
-      "resistance down"
-    ]
-  },
-  {
-    "entry": "pierce resistance down",
-    "aliases":[
-      "resistance down"
-    ]
-  },
-  {
-    "entry": "self pierce resistance down",
-    "aliases":[
-      "self resistance down"
-    ]
-  },
-  {
-    "entry": "burn count",
-    "aliases": [
-      "burn"
-    ]
-  },
-  {
-    "entry": "unique burn",
-    "aliases": [
-      "burn"
-    ]
-  },
-  {
-    "entry": "bleed count",
-    "aliases": [
-      "bleed"
-    ]
-  },
-  {
-    "entry": "unique bleed",
-    "aliases": [
-      "bleed"
-    ]
-  },
-  {
-    "entry": "tremor count",
-    "aliases": [
-      "tremor"
-    ]
-  },
-  {
-    "entry": "unique tremor",
-    "aliases": [
-      "tremor"
-    ]
-  },
-  {
-    "entry": "rupture count",
-    "aliases": [
-      "rupture"
-    ]
-  },
-  {
-    "entry": "unique rupture",
-    "aliases": [
-      "rupture"
-    ]
-  },
-  {
-    "entry": "sinking count",
-    "aliases": [
-      "sinking"
-    ]
-  },
-  {
-    "entry": "unique sinking",
-    "aliases": [
-      "sinking"
-    ]
-  },
-  {
-    "entry": "poise count",
-    "aliases": [
-      "poise"
-    ]
-  },
-  {
-    "entry": "unique poise",
-    "aliases": [
-      "poise"
-    ]
-  },
-  {
-    "entry": "charge",
-    "aliases": [
-      "charge count"
-    ]
-  },
-  {
-    "entry": "unique charge",
-    "aliases": [
-      "charge count"
-    ]
-  },
-  {
-    "entry": "spend ammo",
-    "aliases":[
-      "ammo"
-    ]
-  },
-  {
-    "entry": "unique ammo",
-    "aliases": [
-      "ammo"
-    ]
-  },
-  {
-    "entry": "charge count limit increase",
-    "aliases":[
-      "limit increase"
-    ]
-  },
-  {
-    "entry": "ally charge count",
-    "aliases": [
-      "charge support"
-    ]
-  },
-  {
-    "entry": "party charge count",
-    "aliases": [
-      "charge support"
-    ]
-  },
-  {
-    "entry": "charge barrier",
-    "aliases": [
-      "charge count"
-    ]
-  },
-  {
-    "entry": "ally charge barrier",
-    "aliases": [
-      "ally charge count"
-    ]
-  },
-  {
-    "entry": "gaze",
-    "aliases": [
-      "party pierce damage amp",
-      "party blunt damage amp"
-    ]
-  },
-  {
-    "entry": "nails",
-    "aliases": [
-      "unique bleed",
-      "bleed",
-      "bleed count"
-    ]
-  },
-  {
-    "entry": "talisman",
-    "aliases": [
-      "rupture"
-    ]
-  },
-  {
-    "entry": "heated gas harpoon",
-    "aliases": [
-      "burn"
-    ]
-  },
-  {
-    "entry": "overheated gas harpoon",
-    "aliases": [
-      "burn"
-    ]
-  },
-  {
-    "entry": "amplitude entanglement",
-    "aliases":[
-      "tremor - superposition"
-    ]
-  },
-  {
-    "entry": "tremor - decay",
-    "aliases":[
-      "unique tremor",
-      "defense level down"
-    ]
-  },
-  {
-    "entry": "tremor - fracture",
-    "aliases":[
-      "unique tremor"
-    ]
-  },
-  {
-    "entry": "tremor - reverb",
-    "aliases":[
-      "unique tremor"
-    ]
-  },
-  {
-    "entry": "tremor - everlasting",
-    "aliases":[
-      "unique tremor"
-    ]
-  },
-  {
-    "entry": "tremor - chain",
-    "aliases":[
-      "unique tremor"
-    ]
-  },
-  {
-    "entry": "curse",
-    "aliases": [
-      "attack power down",
-      "defense power down",
-      "offense level down",
-      "defense level down"
-    ]
-  },
-  {
-    "entry": "spark discharge",
-    "aliases": [
-      "rupture count",
-      "ally charge count",
-      "charge support"
-    ]
-  },
-  {
-    "entry": "maggots",
-    "aliases": [
-      "bleed"
-    ]
-  },
-  {
-    "entry": "dark flame",
-    "aliases": [
-      "unique burn"
-    ]
-  },
-  {
-    "entry": "red plum blossom",
-    "aliases":[
-      "unique bleed"
-    ]
-  },
-  {
-    "entry": "pink ribbons",
-    "aliases": [
-      "bind"
-    ]
-  },
-  {
-    "entry": "dimensional rift",
-    "aliases": [
-      "rupture count"
-    ]
-  },
-  {
-    "entry": "weakness analyzed",
-    "aliases": [
-      "resistance down"
-    ]
-  },
-  {
-    "entry": "echoes of the manor",
-    "aliases":[
-      "sinking count",
-      "change panic type"
-    ]
-  },
-  {
-    "entry": "volatile passion",
-    "aliases":[
-      "burn",
-      "sp damage"
-    ]
-  },
-  {
-    "entry": "random negative status",
-    "aliases": [
-      "burn",
-      "bleed",
-      "tremor",
-      "rupture",
-      "sinking"
-    ]
-  },
-  {
-    "entry": "random negative status count",
-    "aliases":[
-      "burn count",
-      "bleed count",
-      "tremor count",
-      "rupture count",
-      "sinking count"
-    ]
-  },
-  {
-    "entry": "random positive status",
-    "aliases":[
-      "poise count",
-      "charge count",
-      "haste",
-      "offense level up",
-      "defense level up"
-    ]
-  },
-  {
-    "entry": "ally random positive status",
-    "aliases":[
-      "ally poise count",
-      "ally charge count",
-      "ally haste",
-      "ally offense level up",
-      "ally defense level up"
-    ]
-  },
-  {
-    "entry": "blubberbubble",
-    "aliases":[
-      "shield management",
-      "sinking",
-      "sinking count"
-    ]
-  },
-  {
-    "entry": "ally blubberbubble",
-    "aliases":[
-      "ally shield management",
-      "sinking",
-      "sinking count"
-    ]
-  },
-  {
-    "entry": "borrowed time",
-    "aliases":[
-      "haste",
-      "clash power up",
-      "self fragile",
-      "self stagger",
-      "self bind"
-    ]
-  },
-  {
-    "entry": "erudition",
-    "aliases": [
-      "shield",
-      "clash power up"
-    ]
-  },
-  {
-    "entry": "ally erudition",
-    "aliases": [
-      "ally shield",
-      "ally clash power"
-    ]
-  },
-  {
-    "entry": "gaze of contempt",
-    "aliases": [
-      "damage amp",
-      "contempt of the gaze"
-    ]
-  },
-  {
-    "entry": "contempt of the gaze",
-    "aliases": [
-      "protection",
-      "self damage down",
-      "aggro"
-    ]
-  },
-  {
-    "entry": "photoelectricity",
-    "aliases": [
-      "charge count",
-      "ally charge count"
-    ]
-  },
-  {
-    "entry": "clashable counter",
-    "aliases":[
-      "counter"
-    ]
-  },
-  {
-    "entry": "coffin",
-    "aliases": [
-      "damage up",
-      "min speed",
-      "clash power up"
-    ]
-  },
-  {
-    "entry": "ally wild hunt",
-    "aliases": [
-      "ally guts",
-      "gain resources",
-      "sinking"
-    ]
-  },
-  {
-    "entry": "dullahan",
-    "aliases": [
-      "self defense level down",
-      "offense level up",
-      "min speed",
-      "max speed",
-      "self sp damage"
-    ]
-  },
-  {
-    "entry": "impending ruin",
-    "aliases": [
-      "change panic type",
-      "sinking",
-      "sinking count",
-      "clash power down"
-    ]
-  },
-  {
-    "entry": "red eyes",
-    "aliases": [
-      "unique charge",
-      "bleed"
-    ]
-  },
-  {
-    "entry": "penitence",
-    "aliases": [
-      "unique charge",
-      "heal sp",
-      "shield"
-    ]
-  },
-  {
-    "entry": "only ashes remain",
-    "aliases": [
-      "status block",
-      "heal hp",
-      "ally heal hp",
-      "heal sp",
-      "ally heal sp"
-    ]
-  },
-  {
-    "entry": "the living & the departed",
-    "aliases": [
-      "unique ammo"
-    ]
-  },
-  {
-    "entry": "butterfly",
-    "aliases": [
-      "unique sinking",
-      "heal sp"
-    ]
-  },
-  {
-    "entry": "reload",
-    "aliases": [
-      "self sp damage",
-      "the living & the departed"
-    ]
-  },
-  {
-    "entry": "strategic r&r mode",
-    "aliases": [
-      "stagger recovery",
-      "status cleanse",
-      "retreat"
-    ]
-  },
-  {
-    "entry": "courier trunk",
-    "aliases": [
-      "min speed",
-      "max speed",
-      "clash power up",
-      "slash power up",
-      "self hp damage",
-      "self sp damage"
-    ]
-  },
-  {
-    "entry": "the uninvited",
-    "aliases": [
-      "ally heal sp",
-      "heal sp"
-    ]
-  },
-  {
-    "entry": "defensive stance",
-    "aliases": [
-      "defense level up",
-      "aggro",
-      "tremor burst",
-      "nullify stagger"
-    ]
-  },
-  {
-    "entry": "blood-tinged scissorblades",
-    "aliases": [
-      "offense level up",
-      "self defense level down"
-    ]
-  },
-  {
-    "entry": "lasso",
-    "aliases": [
-      "rupture",
-      "bind"
-    ]
-  },
-  {
-    "entry": "rose wedge",
-    "aliases": [
-      "bleed",
-      "bleed count",
-      "bloodfeast"
-    ]
-  },
-  {
-    "entry": "ailing heart",
-    "aliases": [
-      "defense level up",
-      "heal hp"
-    ]
-  },
-  {
-    "entry": "bloodied hand",
-    "aliases": [
-      "offense level up",
-      "rupture",
-      "bleed"
-    ]
-  },
-  {
-    "entry": "blooming thorn",
-    "aliases": [
-      "defense level up",
-      "bleed",
-      "rupture"
-    ]
-  },
-  {
-    "entry": "ally blooming thorn",
-    "aliases": [
-      "ally defense level up"
-    ]
-  },
-  {
-    "entry": "courier trunk - rodion",
-    "aliases": [
-      "courier trunk",
-      "min speed",
-      "max speed",
-      "clash power up",
-      "slash dmg up",
-      "self hp damage",
-      "self sp damage"
-    ]
-  },
-  {
-    "entry": "courier trunk - sinclair",
-    "aliases": [
-      "courier trunk",
-      "min speed",
-      "max speed",
-      "clash power up",
-      "blunt dmg up",
-      "self hp damage",
-      "self sp damage"
-    ]
-  },
-  {
-    "entry": "hardblood",
-    "aliases": [
-      "min speed",
-      "max speed",
-      "offense level up",
-      "defense level up"
-    ]
-  },
-  {
-    "entry": "ally shimmering [bloodfiend]",
-    "aliases": [
-      "ally shield"
-    ]
-  },
-  {
-    "entry": "responsibility",
-    "aliases": [
-      "clash power up",
-      "damage amp",
-      "damage taken amp"
-    ]
-  },
-  {
-    "entry": "dhyāna",
-    "aliases":[
-      "damage amp"
-    ]
-  },
-  {
-    "entry": "assist attack",
-    "aliases":[
-      "follow up"
-    ]
-  },
-  {
-    "entry": "target spotted",
-    "aliases":[
-      "follow up"
-    ]
-  },
-  {
-    "entry": "melee support",
-    "aliases":[
-      "follow up"
-    ]
-  },
-  {
-    "entry": "overwatch assignment",
-    "aliases":[
-      "stagger recovery",
-      "status cleanse",
-      "retreat"
-    ]
-  },
-  {
-    "entry": "the magic bullet",
-    "aliases":[
-      "the first magic bullet",
-      "the second magic bullet",
-      "the third magic bullet",
-      "the fourth magic bullet",
-      "the fifth magic bullet",
-      "the sixth magic bullet",
-      "the seventh magic bullet"
-    ]
-  },
-  {
-    "entry": "the first magic bullet",
-    "aliases": [
-      "raise stagger threshold"
-    ]
-  },
-  {
-    "entry": "the second magic bullet",
-    "aliases": [
-      "paralyze"
-    ]
-  },
-  {
-    "entry": "the third magic bullet",
-    "aliases": [
-      "attack weight increase",
-      "attack power down",
-      "burn"
-    ]
-  },
-  {
-    "entry": "the fourth magic bullet",
-    "aliases": [
-      "attack weight increase",
-      "raise stagger threshold",
-      "fragile"
-    ]
-  },
-  {
-    "entry": "the fifth magic bullet",
-    "aliases": [
-      "attack weight increase",
-      "burn",
-      "offense level down",
-      "defense level down"
-    ]
-  },
-  {
-    "entry": "the sixth magic bullet",
-    "aliases": [
-      "attack weight increase",
-      "burn"
-    ]
-  },
-  {
-    "entry": "the seventh magic bullet",
-    "aliases": [
-      "pierce resistance down",
-      "self pierce resistance down",
-      "self instant death"
-    ]
-  },
-  {
-    "entry": "requested target",
-    "aliases": [
-      "resistance down",
-      "gain resources",
-      "heal sp"
-    ]
-  },
-  {
-    "entry": "fairy lure",
-    "aliases": [
-      "aggro",
-      "rupture"
-    ]
-  },
-  {
-    "entry": "deep inhale",
-    "aliases":[
-      "spend poise"
-    ]
-  },
-  {
-    "entry": "nebulizer ß",
-    "aliases":[
-      "ally poise",
-      "ally poise count"
-    ]
-  },
-  {
-    "entry": "dark cloud blade",
-    "aliases":[
-      "slash power up",
-      "bleed"
-    ]
-  },
-  {
-    "entry": "battle ready",
-    "aliases":[
-      "bleed",
-      "bleed count",
-      "slash power up",
-      "slash dmg up"
-    ]
-  },
-  {
-    "entry": "ally dark cloud",
-    "aliases":[
-      "ally unbreakable coin",
-      "ally bleed",
-      "ally final power"
-    ]
-  },
-  {
-    "entry": "cumulus wall",
-    "aliases":[
-      "defense power up"
-    ]
-  },
-  {
-    "entry": "faction buff: the pequod",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: blade lineage",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: kurokumo clan",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: n corp. fanatics",
-    "aliases":[
-      "faction buff",
-      "faction buff: n corp. fanatic",
-      "faction buff: n corp. inquisition"
-    ]
-  },
-  {
-    "entry": "faction buff: technology liberation alliance",
-    "aliases":[
-      "faction buff",
-      "faction buff: tla"
-    ]
-  },
-  {
-    "entry": "faction buff: shi association",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: yurodivy",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: w corp.",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: multicrack office",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: seven association",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: zwei association",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: cinq association",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: the middle",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "faction buff: limbus company",
-    "aliases":[
-      "faction buff"
-    ]
-  },
-  {
-    "entry": "nebulizer α",
-    "aliases":[
-      "party poise",
-      "party poise count"
-    ]
-  },
-  {
-    "entry": "strider [mao]",
-    "aliases":[
-      "haste"
-    ]
-  },
-  {
-    "entry": "deathrite [haste]",
-    "aliases":[
-      "deathrite",
-      "rupture count"
-    ]
-  },
-  {
-    "entry": "book of vengeance",
-    "aliases":[
-      "blunt dmg up",
-      "max speed",
-      "power up"
-    ]
-  },
-  {
-    "entry": "vendetta mark",
-    "aliases":[
-      "ally damage amp",
-      "sibling vengeance mark"
-    ]
-  },
-  {
-    "entry": "sibling vengeance mark",
-    "aliases":[
-      "vengeance mark"
-    ]
-  },
-  {
-    "entry": "searing birdcage",
-    "aliases":[
-      "wrath resistance down",
-      "bind"
-    ]
-  },
-  {
-    "entry": "serpent arm",
-    "aliases":[
-      "poise",
-      "poise count"
-    ]
-  },
-  {
-    "entry": "deathrite [venom]",
-    "aliases":[
-      "deathrite",
-      "offense level down",
-      "defense level down"
-    ]
-  },
-  {
-    "entry": "tianjiu star's blade",
-    "aliases":[
-      "haste"
-    ]
-  },
-  {
-    "entry": "deathrite [fissure]",
-    "aliases":[
-      "deathrite",
-      "bind"
-    ]
-  },
-  {
-    "entry": "twisted curse talisman",
-    "aliases":[
-      "rupture count",
-      "attack power down"
-    ]
-  },
-  {
-    "entry": "centipede venom",
-    "aliases":[
-      "defense level down"
-    ]
-  },
-  {
-    "entry": "flower-burying wedge [埋花櫼]",
-    "aliases":[
-      "offense level up",
-      "defense level down",
-      "unrelenting",
-      "tarnished blood",
-      "skill change"
-    ]
-  },
-  {
-    "entry": "tarnished blood",
-    "aliases":[
-      "self hp damage"
-    ]
-  },
-  {
-    "entry": "flower-burying pin [埋花針]",
-    "aliases":[
-      "offense level up",
-      "rupture"
-    ]
-  },
-  {
-    "entry": "denial [不許]",
-    "aliases":[
-      "unrelenting",
-      "nullify stagger"
-    ]
-  },
-  {
-    "entry": "ally assist [援]",
-    "aliases": [
-      "ally clash power",
-      "ally damage amp"
-    ]
-  },
-  {
-    "entry": "battlefield retreat",
-    "aliases": [
-      "stagger recovery",
-      "status cleanse",
-      "retreat"
-    ]
-  },
-  {
-    "entry": "ally battlefield retreat",
-    "aliases": [
-      "ally stagger recovery",
-      "ally status cleanse",
-      "ally retreat"
-    ]
-  },
-  {
-    "entry": "spend scorch propellant ammo",
-    "aliases": [
-      "spend ammo"
-    ]
-  },
-  {
-    "entry": "scorch propellant ammo",
-    "aliases": [
-      "ammo",
-      "unique ammo"
-    ]
-  },
-  {
-    "entry": "tremor - scorch",
-    "aliases": [
-      "unique tremor"
-    ]
-  },
-  {
-    "entry": "unrelenting spirit [剛氣]",
-    "aliases": [
-      "min speed",
-      "max speed"
-    ]
-  },
-  {
-    "entry": "unrelenting spirit - shin [剛氣-心]",
-    "aliases": [
-      "min speed",
-      "max speed"
-    ]
-  },
-  {
-    "entry": "overheat",
-    "aliases": [
-      "min speed",
-      "max speed",
-      "protection"
-    ]
-  },
-  {
-    "entry": "fell bullet",
-    "aliases": [
-      "bleed",
-      "poise",
-      "poise count"
-    ]
-  },
-  {
-    "entry": "party self-resonance circuitry",
-    "aliases": [
-      "party damage amp",
-      "party offense level up"
-    ]
-  },
-  {
-    "entry": "near-light superbattery",
-    "aliases": [
-      "charge count limit increase",
-      "damage amp",
-      "resistance down"
-    ]
-  },
-  {
-    "entry": "gluttonous thorn",
-    "aliases": [
-      "bleed count",
-      "bloodfeast",
-      "defense level down"
-    ]
-  }
+	{
+		"entry": "target lowest hp ally",
+		"aliases": [
+			"target ally"
+		]
+	},
+	{
+		"entry": "party heal sp",
+		"aliases": [
+			"heal sp",
+			"ally heal sp"
+		]
+	},
+	{
+		"entry": "party heal hp",
+		"aliases": [
+			"heal hp",
+			"ally heal hp"
+		]
+	},
+	{
+		"entry": "party burn",
+		"aliases": [
+			"self burn",
+			"ally burn"
+		]
+	},
+	{
+		"entry": "party poise",
+		"aliases": [
+			"poise",
+			"ally poise"
+		]
+	},
+	{
+		"entry": "party poise count",
+		"aliases": [
+			"poise count",
+			"ally poise count"
+		]
+	},
+	{
+		"entry": "party protection",
+		"aliases": [
+			"protection",
+			"ally protection"
+		]
+	},
+	{
+		"entry": "party haste",
+		"aliases": [
+			"haste",
+			"ally haste"
+		]
+	},
+	{
+		"entry": "party e.g.o resource amp",
+		"aliases": [
+			"e.g.o resource amp",
+			"ally e.g.o resource amp"
+		]
+	},
+	{
+		"entry": "party sp loss efficiency down",
+		"aliases": [
+			"sp loss efficiency down",
+			"ally sp loss efficiency down"
+		]
+	},
+	{
+		"entry": "party offense level up",
+		"aliases": [
+			"offense level up",
+			"ally offense level up"
+		]
+	},
+	{
+		"entry": "party defense level up",
+		"aliases": [
+			"defense level up",
+			"ally defense level up"
+		]
+	},
+	{
+		"entry": "party defense power up",
+		"aliases": [
+			"defense power up",
+			"ally defense power up"
+		]
+	},
+	{
+		"entry": "party damage amp",
+		"aliases": [
+			"damage amp",
+			"ally damage amp"
+		]
+	},
+	{
+		"entry": "party damage type dmg up",
+		"aliases": [
+			"damage type dmg up",
+			"ally damage type dmg up",
+			"party slash dmg up",
+			"party pierce dmg up",
+			"party blunt dmg up"
+		]
+	},
+	{
+		"entry": "party slash dmg up",
+		"aliases": [
+			"slash dmg up",
+			"ally slash dmg up"
+		]
+	},
+	{
+		"entry": "party pierce dmg up",
+		"aliases": [
+			"pierce dmg up",
+			"ally pierce dmg up"
+		]
+	},
+	{
+		"entry": "party blunt dmg up",
+		"aliases": [
+			"blunt dmg up",
+			"ally blunt dmg up"
+		]
+	},
+	{
+		"entry": "party sloth power up",
+		"aliases": [
+			"sloth power up",
+			"ally sloth power up"
+		]
+	},
+	{
+		"entry": "party sin dmg up",
+		"aliases": [
+			"sin dmg up",
+			"ally sin dmg up",
+			"party wrath dmg up",
+			"party lust dmg up",
+			"party sloth dmg up",
+			"party gluttony dmg up",
+			"party gloom dmg up",
+			"party pride dmg up",
+			"party envy dmg up"
+		]
+	},
+	{
+		"entry": "party wrath dmg up",
+		"aliases": [
+			"wrath dmg up",
+			"ally wrath dmg up"
+		]
+	},
+	{
+		"entry": "party lust dmg up",
+		"aliases": [
+			"lust dmg up",
+			"ally lust dmg up"
+		]
+	},
+	{
+		"entry": "party sloth dmg up",
+		"aliases": [
+			"sloth dmg up",
+			"ally sloth dmg up"
+		]
+	},
+	{
+		"entry": "party gluttony dmg up",
+		"aliases": [
+			"gluttony dmg up",
+			"ally gluttony dmg up"
+		]
+	},
+	{
+		"entry": "party gloom dmg up",
+		"aliases": [
+			"gloom dmg up",
+			"ally gloom dmg up"
+		]
+	},
+	{
+		"entry": "party pride dmg up",
+		"aliases": [
+			"pride dmg up",
+			"ally pride dmg up"
+		]
+	},
+	{
+		"entry": "party envy dmg up",
+		"aliases": [
+			"envy dmg up",
+			"ally envy dmg up"
+		]
+	},
+	{
+		"entry": "party wrath fragility",
+		"aliases": [
+			"self wrath fragility",
+			"ally wrath fragility"
+		]
+	},
+	{
+		"entry": "wrath resistance down",
+		"aliases": [
+			"resistance down"
+		]
+	},
+	{
+		"entry": "pierce resistance down",
+		"aliases": [
+			"resistance down"
+		]
+	},
+	{
+		"entry": "self pierce resistance down",
+		"aliases": [
+			"self resistance down"
+		]
+	},
+	{
+		"entry": "burn count",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
+		"entry": "unique burn",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
+		"entry": "bleed count",
+		"aliases": [
+			"bleed"
+		]
+	},
+	{
+		"entry": "unique bleed",
+		"aliases": [
+			"bleed"
+		]
+	},
+	{
+		"entry": "tremor count",
+		"aliases": [
+			"tremor"
+		]
+	},
+	{
+		"entry": "unique tremor",
+		"aliases": [
+			"tremor"
+		]
+	},
+	{
+		"entry": "rupture count",
+		"aliases": [
+			"rupture"
+		]
+	},
+	{
+		"entry": "unique rupture",
+		"aliases": [
+			"rupture"
+		]
+	},
+	{
+		"entry": "sinking count",
+		"aliases": [
+			"sinking"
+		]
+	},
+	{
+		"entry": "unique sinking",
+		"aliases": [
+			"sinking"
+		]
+	},
+	{
+		"entry": "poise count",
+		"aliases": [
+			"poise"
+		]
+	},
+	{
+		"entry": "unique poise",
+		"aliases": [
+			"poise"
+		]
+	},
+	{
+		"entry": "charge",
+		"aliases": [
+			"charge count"
+		]
+	},
+	{
+		"entry": "unique charge",
+		"aliases": [
+			"charge count"
+		]
+	},
+	{
+		"entry": "spend ammo",
+		"aliases": [
+			"ammo"
+		]
+	},
+	{
+		"entry": "unique ammo",
+		"aliases": [
+			"ammo"
+		]
+	},
+	{
+		"entry": "charge count limit increase",
+		"aliases": [
+			"limit increase"
+		]
+	},
+	{
+		"entry": "ally charge count",
+		"aliases": [
+			"charge support"
+		]
+	},
+	{
+		"entry": "party charge count",
+		"aliases": [
+			"charge support"
+		]
+	},
+	{
+		"entry": "charge barrier",
+		"aliases": [
+			"charge count"
+		]
+	},
+	{
+		"entry": "ally charge barrier",
+		"aliases": [
+			"ally charge count"
+		]
+	},
+	{
+		"entry": "gaze",
+		"aliases": [
+			"party pierce damage amp",
+			"party blunt damage amp"
+		]
+	},
+	{
+		"entry": "nails",
+		"aliases": [
+			"unique bleed",
+			"bleed",
+			"bleed count"
+		]
+	},
+	{
+		"entry": "talisman",
+		"aliases": [
+			"rupture"
+		]
+	},
+	{
+		"entry": "heated gas harpoon",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
+		"entry": "overheated gas harpoon",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
+		"entry": "amplitude entanglement",
+		"aliases": [
+			"tremor - superposition"
+		]
+	},
+	{
+		"entry": "tremor - decay",
+		"aliases": [
+			"unique tremor",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "tremor - fracture",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "tremor - reverb",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "tremor - everlasting",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "tremor - chain",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "curse",
+		"aliases": [
+			"attack power down",
+			"defense power down",
+			"offense level down",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "spark discharge",
+		"aliases": [
+			"rupture count",
+			"ally charge count",
+			"charge support"
+		]
+	},
+	{
+		"entry": "maggots",
+		"aliases": [
+			"bleed"
+		]
+	},
+	{
+		"entry": "dark flame",
+		"aliases": [
+			"unique burn"
+		]
+	},
+	{
+		"entry": "red plum blossom",
+		"aliases": [
+			"unique bleed"
+		]
+	},
+	{
+		"entry": "pink ribbons",
+		"aliases": [
+			"bind"
+		]
+	},
+	{
+		"entry": "dimensional rift",
+		"aliases": [
+			"rupture count"
+		]
+	},
+	{
+		"entry": "weakness analyzed",
+		"aliases": [
+			"resistance down"
+		]
+	},
+	{
+		"entry": "echoes of the manor",
+		"aliases": [
+			"sinking count",
+			"change panic type"
+		]
+	},
+	{
+		"entry": "volatile passion",
+		"aliases": [
+			"burn",
+			"sp damage"
+		]
+	},
+	{
+		"entry": "random negative status",
+		"aliases": [
+			"burn",
+			"bleed",
+			"tremor",
+			"rupture",
+			"sinking"
+		]
+	},
+	{
+		"entry": "random negative status count",
+		"aliases": [
+			"burn count",
+			"bleed count",
+			"tremor count",
+			"rupture count",
+			"sinking count"
+		]
+	},
+	{
+		"entry": "random positive status",
+		"aliases": [
+			"poise count",
+			"charge count",
+			"haste",
+			"offense level up",
+			"defense level up"
+		]
+	},
+	{
+		"entry": "ally random positive status",
+		"aliases": [
+			"ally poise count",
+			"ally charge count",
+			"ally haste",
+			"ally offense level up",
+			"ally defense level up"
+		]
+	},
+	{
+		"entry": "blubberbubble",
+		"aliases": [
+			"shield management",
+			"sinking",
+			"sinking count"
+		]
+	},
+	{
+		"entry": "ally blubberbubble",
+		"aliases": [
+			"ally shield management",
+			"sinking",
+			"sinking count"
+		]
+	},
+	{
+		"entry": "borrowed time",
+		"aliases": [
+			"haste",
+			"clash power up",
+			"self fragile",
+			"self stagger",
+			"self bind"
+		]
+	},
+	{
+		"entry": "erudition",
+		"aliases": [
+			"shield",
+			"clash power up"
+		]
+	},
+	{
+		"entry": "ally erudition",
+		"aliases": [
+			"ally shield",
+			"ally clash power"
+		]
+	},
+	{
+		"entry": "gaze of contempt",
+		"aliases": [
+			"damage amp",
+			"contempt of the gaze"
+		]
+	},
+	{
+		"entry": "contempt of the gaze",
+		"aliases": [
+			"protection",
+			"self damage down",
+			"aggro"
+		]
+	},
+	{
+		"entry": "photoelectricity",
+		"aliases": [
+			"charge count",
+			"ally charge count"
+		]
+	},
+	{
+		"entry": "clashable counter",
+		"aliases": [
+			"counter"
+		]
+	},
+	{
+		"entry": "coffin",
+		"aliases": [
+			"damage up",
+			"min speed",
+			"clash power up"
+		]
+	},
+	{
+		"entry": "ally wild hunt",
+		"aliases": [
+			"ally guts",
+			"gain resources",
+			"sinking"
+		]
+	},
+	{
+		"entry": "dullahan",
+		"aliases": [
+			"self defense level down",
+			"offense level up",
+			"min speed",
+			"max speed",
+			"self sp damage"
+		]
+	},
+	{
+		"entry": "impending ruin",
+		"aliases": [
+			"change panic type",
+			"sinking",
+			"sinking count",
+			"clash power down"
+		]
+	},
+	{
+		"entry": "red eyes",
+		"aliases": [
+			"unique charge",
+			"bleed"
+		]
+	},
+	{
+		"entry": "penitence",
+		"aliases": [
+			"unique charge",
+			"heal sp",
+			"shield"
+		]
+	},
+	{
+		"entry": "only ashes remain",
+		"aliases": [
+			"status block",
+			"heal hp",
+			"ally heal hp",
+			"heal sp",
+			"ally heal sp"
+		]
+	},
+	{
+		"entry": "the living & the departed",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "butterfly",
+		"aliases": [
+			"unique sinking",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "reload",
+		"aliases": [
+			"self sp damage",
+			"the living & the departed"
+		]
+	},
+	{
+		"entry": "strategic r&r mode",
+		"aliases": [
+			"stagger recovery",
+			"status cleanse",
+			"retreat"
+		]
+	},
+	{
+		"entry": "courier trunk",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"clash power up",
+			"slash power up",
+			"self hp damage",
+			"self sp damage"
+		]
+	},
+	{
+		"entry": "the uninvited",
+		"aliases": [
+			"ally heal sp",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "defensive stance",
+		"aliases": [
+			"defense level up",
+			"aggro",
+			"tremor burst",
+			"nullify stagger"
+		]
+	},
+	{
+		"entry": "blood-tinged scissorblades",
+		"aliases": [
+			"offense level up",
+			"self defense level down"
+		]
+	},
+	{
+		"entry": "lasso",
+		"aliases": [
+			"rupture",
+			"bind"
+		]
+	},
+	{
+		"entry": "rose wedge",
+		"aliases": [
+			"bleed",
+			"bleed count",
+			"bloodfeast"
+		]
+	},
+	{
+		"entry": "ailing heart",
+		"aliases": [
+			"defense level up",
+			"heal hp"
+		]
+	},
+	{
+		"entry": "bloodied hand",
+		"aliases": [
+			"offense level up",
+			"rupture",
+			"bleed"
+		]
+	},
+	{
+		"entry": "blooming thorn",
+		"aliases": [
+			"defense level up",
+			"bleed",
+			"rupture"
+		]
+	},
+	{
+		"entry": "ally blooming thorn",
+		"aliases": [
+			"ally defense level up"
+		]
+	},
+	{
+		"entry": "courier trunk - rodion",
+		"aliases": [
+			"courier trunk",
+			"min speed",
+			"max speed",
+			"clash power up",
+			"slash dmg up",
+			"self hp damage",
+			"self sp damage"
+		]
+	},
+	{
+		"entry": "courier trunk - sinclair",
+		"aliases": [
+			"courier trunk",
+			"min speed",
+			"max speed",
+			"clash power up",
+			"blunt dmg up",
+			"self hp damage",
+			"self sp damage"
+		]
+	},
+	{
+		"entry": "hardblood",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"offense level up",
+			"defense level up"
+		]
+	},
+	{
+		"entry": "ally shimmering [bloodfiend]",
+		"aliases": [
+			"ally shield"
+		]
+	},
+	{
+		"entry": "responsibility",
+		"aliases": [
+			"clash power up",
+			"damage amp",
+			"damage taken amp"
+		]
+	},
+	{
+		"entry": "dhyāna",
+		"aliases": [
+			"damage amp"
+		]
+	},
+	{
+		"entry": "assist attack",
+		"aliases": [
+			"follow up"
+		]
+	},
+	{
+		"entry": "target spotted",
+		"aliases": [
+			"follow up"
+		]
+	},
+	{
+		"entry": "melee support",
+		"aliases": [
+			"follow up"
+		]
+	},
+	{
+		"entry": "overwatch assignment",
+		"aliases": [
+			"stagger recovery",
+			"status cleanse",
+			"retreat"
+		]
+	},
+	{
+		"entry": "the magic bullet",
+		"aliases": [
+			"the first magic bullet",
+			"the second magic bullet",
+			"the third magic bullet",
+			"the fourth magic bullet",
+			"the fifth magic bullet",
+			"the sixth magic bullet",
+			"the seventh magic bullet"
+		]
+	},
+	{
+		"entry": "the first magic bullet",
+		"aliases": [
+			"raise stagger threshold"
+		]
+	},
+	{
+		"entry": "the second magic bullet",
+		"aliases": [
+			"paralyze"
+		]
+	},
+	{
+		"entry": "the third magic bullet",
+		"aliases": [
+			"attack weight increase",
+			"attack power down",
+			"burn"
+		]
+	},
+	{
+		"entry": "the fourth magic bullet",
+		"aliases": [
+			"attack weight increase",
+			"raise stagger threshold",
+			"fragile"
+		]
+	},
+	{
+		"entry": "the fifth magic bullet",
+		"aliases": [
+			"attack weight increase",
+			"burn",
+			"offense level down",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "the sixth magic bullet",
+		"aliases": [
+			"attack weight increase",
+			"burn"
+		]
+	},
+	{
+		"entry": "the seventh magic bullet",
+		"aliases": [
+			"pierce resistance down",
+			"self pierce resistance down",
+			"self instant death"
+		]
+	},
+	{
+		"entry": "requested target",
+		"aliases": [
+			"resistance down",
+			"gain resources",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "fairy lure",
+		"aliases": [
+			"aggro",
+			"rupture"
+		]
+	},
+	{
+		"entry": "deep inhale",
+		"aliases": [
+			"spend poise"
+		]
+	},
+	{
+		"entry": "nebulizer ß",
+		"aliases": [
+			"ally poise",
+			"ally poise count"
+		]
+	},
+	{
+		"entry": "dark cloud blade",
+		"aliases": [
+			"slash power up",
+			"bleed"
+		]
+	},
+	{
+		"entry": "battle ready",
+		"aliases": [
+			"bleed",
+			"bleed count",
+			"slash power up",
+			"slash dmg up"
+		]
+	},
+	{
+		"entry": "ally dark cloud",
+		"aliases": [
+			"ally unbreakable coin",
+			"ally bleed",
+			"ally final power"
+		]
+	},
+	{
+		"entry": "cumulus wall",
+		"aliases": [
+			"defense power up"
+		]
+	},
+	{
+		"entry": "faction buff: the pequod",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: blade lineage",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: kurokumo clan",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: n corp. fanatics",
+		"aliases": [
+			"faction buff",
+			"faction buff: n corp. fanatic",
+			"faction buff: n corp. inquisition"
+		]
+	},
+	{
+		"entry": "faction buff: technology liberation alliance",
+		"aliases": [
+			"faction buff",
+			"faction buff: tla"
+		]
+	},
+	{
+		"entry": "faction buff: shi association",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: yurodivy",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: w corp.",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: multicrack office",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: seven association",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: zwei association",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: cinq association",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: the middle",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: limbus company",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "nebulizer α",
+		"aliases": [
+			"party poise",
+			"party poise count"
+		]
+	},
+	{
+		"entry": "strider [mao]",
+		"aliases": [
+			"haste"
+		]
+	},
+	{
+		"entry": "deathrite [haste]",
+		"aliases": [
+			"deathrite",
+			"rupture count"
+		]
+	},
+	{
+		"entry": "book of vengeance",
+		"aliases": [
+			"blunt dmg up",
+			"max speed",
+			"power up"
+		]
+	},
+	{
+		"entry": "vendetta mark",
+		"aliases": [
+			"ally damage amp",
+			"sibling vengeance mark"
+		]
+	},
+	{
+		"entry": "sibling vengeance mark",
+		"aliases": [
+			"vengeance mark"
+		]
+	},
+	{
+		"entry": "searing birdcage",
+		"aliases": [
+			"wrath resistance down",
+			"bind"
+		]
+	},
+	{
+		"entry": "serpent arm",
+		"aliases": [
+			"poise",
+			"poise count"
+		]
+	},
+	{
+		"entry": "deathrite [venom]",
+		"aliases": [
+			"deathrite",
+			"offense level down",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "tianjiu star's blade",
+		"aliases": [
+			"haste"
+		]
+	},
+	{
+		"entry": "deathrite [fissure]",
+		"aliases": [
+			"deathrite",
+			"bind"
+		]
+	},
+	{
+		"entry": "twisted curse talisman",
+		"aliases": [
+			"rupture count",
+			"attack power down"
+		]
+	},
+	{
+		"entry": "centipede venom",
+		"aliases": [
+			"defense level down"
+		]
+	},
+	{
+		"entry": "flower-burying wedge [埋花櫼]",
+		"aliases": [
+			"offense level up",
+			"defense level down",
+			"unrelenting",
+			"tarnished blood",
+			"skill change"
+		]
+	},
+	{
+		"entry": "tarnished blood",
+		"aliases": [
+			"self hp damage"
+		]
+	},
+	{
+		"entry": "flower-burying pin [埋花針]",
+		"aliases": [
+			"offense level up",
+			"rupture"
+		]
+	},
+	{
+		"entry": "denial [不許]",
+		"aliases": [
+			"unrelenting",
+			"nullify stagger"
+		]
+	},
+	{
+		"entry": "ally assist [援]",
+		"aliases": [
+			"ally clash power",
+			"ally damage amp"
+		]
+	},
+	{
+		"entry": "battlefield retreat",
+		"aliases": [
+			"stagger recovery",
+			"status cleanse",
+			"retreat"
+		]
+	},
+	{
+		"entry": "ally battlefield retreat",
+		"aliases": [
+			"ally stagger recovery",
+			"ally status cleanse",
+			"ally retreat"
+		]
+	},
+	{
+		"entry": "spend scorch propellant ammo",
+		"aliases": [
+			"spend ammo"
+		]
+	},
+	{
+		"entry": "scorch propellant ammo",
+		"aliases": [
+			"ammo",
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "tremor - scorch",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "unrelenting spirit [剛氣]",
+		"aliases": [
+			"min speed",
+			"max speed"
+		]
+	},
+	{
+		"entry": "unrelenting spirit - shin [剛氣-心]",
+		"aliases": [
+			"min speed",
+			"max speed"
+		]
+	},
+	{
+		"entry": "overheat",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"protection"
+		]
+	},
+	{
+		"entry": "fell bullet",
+		"aliases": [
+			"bleed",
+			"poise",
+			"poise count"
+		]
+	},
+	{
+		"entry": "party self-resonance circuitry",
+		"aliases": [
+			"party damage amp",
+			"party offense level up"
+		]
+	},
+	{
+		"entry": "near-light superbattery",
+		"aliases": [
+			"charge count limit increase",
+			"damage amp",
+			"resistance down"
+		]
+	},
+	{
+		"entry": "gluttonous thorn",
+		"aliases": [
+			"bleed count",
+			"bloodfeast",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "magical arcana",
+		"aliases": [
+			"heal sp"
+		]
+	},
+	{
+		"entry": "love/hate",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "blessing",
+		"aliases": [
+			"protecting sword",
+			"sinking"
+		]
+	},
+	{
+		"entry": "protecting sword",
+		"aliases": [
+			"defense level up",
+			"aggro"
+		]
+	},
+	{
+		"entry": "despair",
+		"aliases": [
+			"piercing sword",
+			"sinking count"
+		]
+	},
+	{
+		"entry": "piercing sword",
+		"aliases": [
+			"offense level up",
+			"aggro down"
+		]
+	},
+	{
+		"entry": "tear-sharpened",
+		"aliases": [
+			"deep tears",
+			"self sp damage",
+			"clash power up",
+			"pierce power up"
+		]
+	},
+	{
+		"entry": "deep tears",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "ally magical girl's chant",
+		"aliases": [
+			"ally attack power up",
+			"ally damage up",
+			"ally final power",
+			"ally damage amp"
+		]
+	}
 ]
