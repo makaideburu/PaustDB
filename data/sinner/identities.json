@@ -8555,7 +8555,7 @@
 					],
 					"AltSkill": {
 						"Name": "Ascendant Sancho Hardblood Arts - La Sangre",
-						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 20%)\n[On Use] Base Power +1 for every 10 Hardblood (Max 3)\n[On Use] Coin Power +1 for every 5 Bleed on target (Max 2)\n[On Use] Deal +5% damage for every Bleed on target (Max 50%)\n[On Use] Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[After Attack] Consume 10 Hardblood for every 10 Hardblood\n[After Attack] If target is defeated, increase Bloodfeast by 100; regain half of Hardblood consumed by this Skill (Once per Skill)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 8 Bleed and +4 Bleed Count\n[After Attack] If target is defeated, inflict 5 Bleed and +1 Bleed Count against all enemies",
+						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 20)\n[On Use] Base Power +1 for every 10 Hardblood (Max 3)\n[On Use] Coin Power +1 for every 5 Bleed on target (Max 2)\n[On Use] Deal +5% damage for every Bleed on target (Max 50%)\n[On Use] Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[After Attack] Consume 10 Hardblood for every 10 Hardblood\n[After Attack] If target is defeated, increase Bloodfeast by 100; regain half of Hardblood consumed by this Skill (Once per Skill)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 8 Bleed and +4 Bleed Count\n[After Attack] If target is defeated, inflict 5 Bleed and +1 Bleed Count against all enemies",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 5,
@@ -8822,7 +8822,7 @@
 					],
 					"AltSkill": {
 						"Name": "Ascendant Sancho Hardblood Arts - La Sangre",
-						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 20%)\n[On Use] Base Power +1 for every 10 Hardblood (Max 2)\n[On Use] If target has 10+ Bleed, Coin Power +1\n[On Use] Deal +5% damage for every Bleed on target (Max 50%)\n[On Use] Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[After Attack] Consume 10 Hardblood for every 10 Hardblood\n[After Attack] If target is defeated, increase Bloodfeast by 50; regain half of Hardblood consumed by this Skill (Once per Skill)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +4 Bleed Count\n[After Attack] If target is defeated, inflict 5 Bleed and +1 Bleed Count against all enemies",
+						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 20)\n[On Use] Base Power +1 for every 10 Hardblood (Max 2)\n[On Use] If target has 10+ Bleed, Coin Power +1\n[On Use] Deal +5% damage for every Bleed on target (Max 50%)\n[On Use] Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[After Attack] Consume 10 Hardblood for every 10 Hardblood\n[After Attack] If target is defeated, increase Bloodfeast by 50; regain half of Hardblood consumed by this Skill (Once per Skill)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +4 Bleed Count\n[After Attack] If target is defeated, inflict 5 Bleed and +1 Bleed Count against all enemies",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 4,
