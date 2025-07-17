@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.8.1 (2025-07-17)",
+        "```fix for calc error with modified minus coins (did not matter until now)```"
+      ],
+      [
         "2.8.0 (2025-07-14)",
         "```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.6.2 (2025-05-15)",
         "```Inconsequential backend stuff that should be inconsequential for real```"
-      ],
-      [
-        "2.6.1 (2025-04-30)",
-        "```nothing happened here```"
       ]
     ],
     "OldItems": [
@@ -332,6 +332,10 @@
       [
         "2.6.0 (2025-04-28)",
         "```:crab: THE IMAGE DUPE BUG IS GONE :crab:\nIt could've been squashed like, a year ago but it took this long to realize what the correct solution was.```"
+      ],
+      [
+        "2.6.1 (2025-04-30)",
+        "```nothing happened here```"
       ]
     ],
     "HelpFooter": ""
