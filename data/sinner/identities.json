@@ -28011,7 +28011,7 @@
 						"BasePowerModifier": 4,
 						"FinalPowerModifier": 4,
 						"CoinModifier": 0,
-						"CoinCountModifier": 0,
+						"CoinCountModifier": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -28282,7 +28282,7 @@
 						"BasePowerModifier": 1,
 						"FinalPowerModifier": 2,
 						"CoinModifier": 0,
-						"CoinCountModifier": 0,
+						"CoinCountModifier": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
