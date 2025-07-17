@@ -3039,48 +3039,48 @@
     ]
   },
   {
-    "Id": 3000,
+    "Id": 3402,
     "Sinner": "Don Quixote",
     "Grade": "WAW",
-    "Sanity": 0,
-    "CorrosionSanity": 0,
+    "Sanity": 30,
+    "CorrosionSanity": 30,
     "Abnormality": "The Queen of Hatred",
     "SinResist": {
-      "Wrath": -100,
-      "Lust": -100,
-      "Sloth": -100,
-      "Gluttony": -100,
-      "Gloom": -100,
-      "Pride": -100,
-      "Envy": -100
+      "Wrath": 0.5,
+      "Lust": 2,
+      "Sloth": 1,
+      "Gluttony": 2,
+      "Gloom": 1,
+      "Pride": 0.5,
+      "Envy": 0.75
     },
     "Cost": {
-      "Wrath": 0,
+      "Wrath": 2,
       "Lust": 0,
       "Sloth": 0,
       "Gluttony": 0,
-      "Gloom": 0,
-      "Pride": 0,
-      "Envy": 0
+      "Gloom": 2,
+      "Pride": 2,
+      "Envy": 6
     },
     "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
           "Name": "In the Name of Love and Hate",
-          "Description": "[Before Attack] Apply Magical Girl's Change to (X + (Envy Res / Y)) random other allies\n$If this unit has Here Comes Magical Girl!, apply Magical Girl's Change to (Z + (Envy Res / W) random other allies instead\n[Before Attack] Gain (Charge - X) Atk Weight\n$If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead\nConsume all Charge Count on self to heal (X + (Envy Res / Y)) allies with the least HP by (Charge Count consumed)% HP\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain Charge Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - X) Rupture\n$If this unit has Here Comes Magical Girl!, inflict Rupture Count",
+          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Res / 2)) random other allies (Max 4)\n$If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Res / 2)) allies with the least HP by (Charge Count consumed)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 16,
+          "CoinPower": 5,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 3,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 5,
+          "AttackWeightMod": 10,
           "MiscTags": [
 						"Ally Magical Girl's Chant",
 						"Attack Weight Increase",
@@ -3097,19 +3097,19 @@
         },
         "Corrosion": {
           "Name": "In the Name of Love and Hate",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge\n$If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + X) instead\n[Before Attack] Consume all Charge Count and deal more damage for every Charge Count consumed\n[Before Attack] If target has Mark of Villainy, deal more damage for every Charge\n$If unit has Hysteria, deal even more damage for every Charge instead\n[Before Attack] Deal more damage for every X Envy Res\n[Before Attack] Lose Base Power for every Cracked Coin\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain Charge Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - X) Sinking\n$If this unit has Regressive Transformation - Reversed, inflict Sinking Count",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count consumed (Max 50%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$If unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Res (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 31,
+          "CoinPower": -12,
           "CoinCount": 2,
-          "Level": 0,
+          "Level": 5,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 5,
+          "AttackWeightMod": 10,
           "MiscTags": [
 						"Attack Weight Increase",
 						"Spend Charge Count",
@@ -3122,7 +3122,72 @@
         },
         "Passive": {
           "Name": "Arcana Aptitude Circuit",
-          "Description": "Gain Charge every time this unit consumes X cumulative Charge Count\n$If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$This unit's Base Attack Skills that consume Charge Count deal more damage for every Charge on self\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain additional Skill 3 use",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
+          "MiscTags": [
+						"Charge",
+						"Skill Draw"
+          ]
+        }
+      },
+			{
+        "Tier": 3,
+        "Awakening": {
+          "Name": "In the Name of Love and Hate",
+          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Res / 3)) random other allies (Max 3)\n$If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Res / 2)) allies with the least HP by (Charge Count consumed)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 16,
+          "CoinPower": 5,
+          "CoinCount": 2,
+          "Level": 3,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 5,
+          "AttackWeightMod": 10,
+          "MiscTags": [
+						"Ally Magical Girl's Chant",
+						"Attack Weight Increase",
+						"Spend Charge Count",
+						"Ally Heal HP",
+						"Heal HP",
+						"Magical Arcana",
+						"Unbreakable Coin",
+						"Charge Count",
+						"Mark of Villainy",
+						"Rupture",
+						"Rupture Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "In the Name of Love and Hate",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count consumed (Max 40%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$If unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Res (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
+          "DamageType": "Blunt",
+          "SinType": "Envy",
+          "BasePower": 31,
+          "CoinPower": -12,
+          "CoinCount": 2,
+          "Level": 5,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 5,
+          "AttackWeightMod": 10,
+          "MiscTags": [
+						"Attack Weight Increase",
+						"Spend Charge Count",
+						"Hysteria",
+						"Unbreakable Coin",
+						"Charge Count",
+						"Sinking",
+						"Sinking Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Arcana Aptitude Circuit",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
           "MiscTags": [
 						"Charge",
 						"Skill Draw"

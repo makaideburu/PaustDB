@@ -2476,14 +2476,13 @@
 	},
 	{
 		"Name": "Magical Arcana",
-		"Description": "Max Stack: 3\nBase Attack Skills deal more damage\n$Turn End: At X Stack and Y+ SP, change SP to Y",
+		"Description": "Max Stack: 3\nBase Attack Skills deal +(Stack x 5)% damage\n$Turn End: At 3 Stack and -25 or higher SP, change SP to -25",
 		"Tags": [
-			"Heal SP"
 		]
 	},
 	{
 		"Name": "Mark of Villainy",
-		"Description": "Take more damage from Don Quixote\nApplies only to the first target to receive this effect each turn",
+		"Description": "Take +10% damage from Don Quixote\nApplies only to the first target to receive this effect each turn",
 		"Tags": []
 	},
 	{
@@ -2505,7 +2504,7 @@
 	},
 	{
 		"Name": "Blessing",
-		"Description": "Turn Start: Gain Piercing Sword for every X SP\nWhen Clash ends, inflict Sinking\nWhen hit, inflict Sinking on the attacker\nFor every X SP, inflict Y more Sinking with above effects\nReplace this unit's Base Skills with Plus Coin Skills",
+		"Description": "Turn Start: Gain 1 Protecting Sword for every 8 SP (Max 5)\nWhen Clash ends, inflict 2 Sinking (Once per turn)\nWhen hit, inflict 2 Sinking on the attacker (Once per turn)\nFor every 20 SP, inflict +1 Sinking with above effects (Max 2)\nReplace this unit's Base Skills with Plus Coin Skills",
 		"Tags": [
 			"Protecting Sword",
 			"Sinking"
@@ -2513,7 +2512,7 @@
 	},
 	{
 		"Name": "Protecting Sword",
-		"Description": "Max Stack: 5\nTurn Start: Gain Defense Level Up for every Stack\nTurn Start: +(Stack x X) Aggro to the leftmost Skill Slot on the Dashboard\nExpires at Turn End",
+		"Description": "Max Stack: 5\nTurn Start: Gain 1 Defense Level Up for every Stack\nTurn Start: +(Stack x 3) Aggro to the leftmost Skill Slot on the Dashboard\nExpires at Turn End",
 		"Tags": [
 			"Defense Level Up",
 			"Aggro"
@@ -2521,7 +2520,7 @@
 	},
 	{
 		"Name": "Despair",
-		"Description": "Turn Start: Gain Piercing Sword for every X SP\nWhen Clash ends, inflict Sinking Count\nOn Hit with the first Coin of a Base Attack Skill, inflict Sinking Count\nFor every X SP, inflict Y more Sinking Count with above effects\nReplace this unit's Base Attack Skills with Minus Coin Skills",
+		"Description": "Turn Start: Gain Piercing Sword for every -8 SP (Max 5)\nWhen Clash ends, inflict +1 Sinking Count (Once per turn)\nOn Hit with the first Coin of a Base Attack Skill, inflict +1 Sinking Count\nFor every -20 SP, inflict +1 Sinking Count with above effects (Max 2)\nReplace this unit's Base Attack Skills with Minus Coin Skills",
 		"Tags": [
 			"Piercing Sword",
 			"Sinking Count"
@@ -2529,7 +2528,7 @@
 	},
 	{
 		"Name": "Piercing Sword",
-		"Description": "Max Stack: 5\nTurn Start: Gain 1 Offense Level Up for every Stack\nTurn Start: -(Stack x X) Aggro to this unit's Skill Slots on the Dashboard\n$Reduces Aggro by the following range: 0 <= X < 1)\nExpires at Turn End",
+		"Description": "Max Stack: 5\nTurn Start: Gain 1 Offense Level Up for every Stack\nTurn Start: -(Stack x 0.15) Aggro to this unit's Skill Slots on the Dashboard (Max -0.75)\nExpires at Turn End",
 		"Tags": [
 			"Offense Level Up",
 			"Aggro Down"
@@ -2537,7 +2536,7 @@
 	},
 	{
 		"Name": "Tear-sharpened",
-		"Description": "Max Stack: 3\nTurn Start: Gain Deep Tears\n$At 3 Stack, gain additional Deep Tears\nTurn End: Lose (Stack x X) SP\nBase Attack Skills deal +(Stack x X)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
+		"Description": "Max Stack: 3\nTurn Start: Gain 5 Deep Tears\n$At 3 Stack, gain additional 5 Deep Tears\nTurn End: Lose (Stack x 15) SP\nBase Attack Skills deal +(Stack x 10)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
 		"Tags": [
 			"Deep Tears",
 			"Self SP Damage",
@@ -2554,7 +2553,7 @@
 	},
 	{
 		"Name": "Magical Girl's Chant",
-		"Description": "Max Stack: 2\nWhen this unit gains this effet, gain Attack Power Up and Damage Up\nThis unit's Attack Skills that gain or consume Charge Count gain Final Power and deal more damage\nReduced at Turn End",
+		"Description": "Max Stack: 2\nWhen this unit gains this effet, gain 1 Attack Power Up and 1 Damage Up\nThis unit's Attack Skills that gain or consume Charge Count gain +1 Final Power and deal +10% damage\nReduced at Turn End",
 		"Tags": [
 			"Attack Power Up",
 			"Damage Up",

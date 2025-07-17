@@ -9219,32 +9219,32 @@
 		]
 	},
 	{
-		"Id": 3000,
+		"Id": 3307,
 		"Sinner": "Don Quixote",
 		"Identity": "Lobotomy E.G.O::In the Name of Love and Hate",
 		"World": "",
-		"Speed": "???",
+		"Speed": "4-7",
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 2,
+			"Pierce": 0.5,
+			"Blunt": 1
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "By Manager Esquire's Orders, I Am Here!",
-					"Description": "[On Use] Consume X Love/Hate Count to gain Coin Power\n[On Use] Coin Power +X for every Love/Hate\n[On Use] Gain Love/Hate Count\n<2>[On Hit] Gain Love/Hate Count\n[On Hit] Inflict Rupture",
+					"Description": "[On Use] Consume 5 Love/Hate Count to gain Coin Power +1\n[On Use] Coin Power +1 for every Love/Hate (Max 2)\n[On Use] Gain +3 Love/Hate Count\n<2>[On Hit] Gain +3 Love/Hate Count\n[On Hit] Inflict 3 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -9255,14 +9255,14 @@
 					],
 					"AltSkill": {
 						"Name": "Where are... the villains...?",
-						"Description": "Deal more damage for every Hysteria on self\n[On Use] Consume X Love/Hate Count to gain Coin Power\n[On Use] Base Power +X for every Y Love/Hate\n[On Use] Gain Love/Hate Count\n[On Use] Lose SP\n<2>[On Hit] Gain Love/Hate Count\n[On Hit] Inflict Sinking",
+						"Description": "Deal +5% damage for every Hysteria on self\n[On Use] Consume 5 Love/Hate Count to gain Base Power +1\n[On Use] Base Power +1 for every 2 Love/Hate (Max 2)\n[On Use] Gain +3 Love/Hate Count\n[On Use] Lose 5 SP\n<2>[On Hit] Gain +3 Love/Hate Count\n[On Hit] Inflict 3 Sinking",
 						"DamageType": "Blunt",
 						"SinType": "Wrath",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 12,
+						"CoinPower": -2,
 						"CoinCount": 2,
-						"Level": 0,
-						"BasePowerModifier": 0,
+						"Level": 3,
+						"BasePowerModifier": 3,
 						"FinalPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -9278,16 +9278,16 @@
 				},
 				"SkillTwo": {
 					"Name": "With Love! Hyah!",
-					"Description": "[On Use] Deal more damage for every Love/Hate on self\n[On Use] Consume X Love/Hate Count to gain Coin Power\n[On Use] Gain Love/Hate Count\n<1>[On Hit] Gain Love/Hate Count\n<2>\n<2>[On Hit] Inflict Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
+					"Description": "[On Use] Deal +10% damage for every Love/Hate on self (Max 50%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +5 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 6,
+					"CoinPower": 5,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -9299,19 +9299,19 @@
 					],
 					"AltSkill": {
 						"Name": "Get out of my head....",
-						"Description": "Base Power +X for every Hysteria\n$At X Hysteria, Atk Weight +Y\n$Deal less damage against sub-targets\n[On Use] Consume X Love/Hate Count to gain Base Power\n[On Use] Gain Love/Hate Count\n[On Use] Lose SP\n<1>[On Hit] Gain Love/Hate Count\n<2>[On Hit] Inflict Sinking\n[On Hit] Inflict Mark of Villainy against main target next turn",
+						"Description": "Base Power +1 for every Hysteria (Max 2)\n$At 3 Hysteria, Atk Weight +1\n$Deal -50% damage against sub-targets\n[On Use] Consume 6 Love/Hate Count to gain Base Power +1\n[On Use] Gain +5 Love/Hate Count\n[On Use] Lose 8 SP\n<1>[On Hit] Gain +3 Love/Hate Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict Mark of Villainy against main target next turn",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 15,
+						"CoinPower": -6,
 						"CoinCount": 2,
-						"Level": 0,
-						"BasePowerModifier": 0,
+						"Level": 4,
+						"BasePowerModifier": 3,
 						"FinalPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeightMod": 2,
 						"MiscTags": [
 							"Spend Love/Hate Count",
 							"Love/Hate Count",
@@ -9323,16 +9323,16 @@
 				},
 				"SkillThree": {
 					"Name": "Arcana Beats!! / Minor Arcana Slave",
-					"Description": "Deal more damage for every Magical Arcana\n[On Use] At X+ Love/Hate, deal +(Love/Hate x Y)% damage\n[On Use] At X+ Love/Hate, Base Power +Y\n[On Use] Coin Power +X for every Love/Hate Count consumed\n[On Use] Gain Love/Hate Count\n[After Attack] Gain Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict Rupture",
+					"Description": "Deal +30% damage for every Magical Arcana\n[On Use] At 3+ Love/Hate, deal +(Love/Hate x 20)% damage (Max 100%)\n[On Use] At 3+ Love/Hate, Base Power +2\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 4)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 3,
+					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -9344,19 +9344,19 @@
 					],
 					"AltSkill": {
 						"Name": "Reversed Beats / Reversed Arcana Slave",
-						"Description": "Deal less damage against sub-targets\n[On Use] Consume all Hysteria; Clash Power +X for every Stack consumed\n[On Use] Clash Power +X for every Y Love/Hate Count consumed\n[On Use] Deal more damage for every Love/Hate\n[Before Attack] Consume all Magical Arcana; Atk Weight +X for every Stack consumed\n$If X Hysteria was spent, Atk Weight +Y\n[Before Attack] If this Skill only has one target, deal +(X x (Atk Weight- Y))% damage\n[Before Attack] Base Power -X for every Cracked Coin\n[Turn End] If this unit is between X and Y SP, heal SP. Heal more SP the lower this unit's SP is from Y\n[On Use] Lose SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict Sinking",
+						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria; Clash Power +1 for every Stack consumed\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 5 Count consumed, max 4)\n[On Use] Deal +24% damage for every Love/Hate (Max 120%)\n[Before Attack] Consume all Magical Arcana; Atk Weight +1 for every Stack consumed\n$If 3 Hysteria was spent, Atk Weight +1\n[Before Attack] If this Skill only has one target, deal +(20 x (Atk Weight - 1))% damage (Max 80%)\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 20,
+						"CoinPower": -6,
 						"CoinCount": 3,
-						"Level": 0,
+						"Level": 5,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeightMod": 5,
 						"MiscTags": [
 							"Spend Hysteria",
 							"Spend Magical Arcana",
@@ -9370,14 +9370,14 @@
 				},
 				"SkillDefense": {
 					"Name": "Rapid Chant",
-					"Description": "[Clashable Guard]\n[On Use] Base Power +X for every Hysteria\n[On Use] Gain Love/Hate Count\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[On Use] Base Power +1 for every Hysteria (Max 3)\n[On Use] Gain +4 Love/Hate Count (2 times per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 2,
+					"CoinPower": 10,
 					"CoinCount": 1,
 					"Level": 0,
-					"BasePowerModifier": 0,
+					"BasePowerModifier": 3,
 					"FinalPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -9390,7 +9390,7 @@
 				"InstallPassives": [
 					{
 						"Name": "In the Name of Love and Hate - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
-						"Description": "Gain Love/Hate every time this unit consumes X cumulative Love/Hate Count in this Encounter\nEncounter Start: If this unit does not have Hysteria and/or Love/Hate, gain Hysteria and/or Love/Hate\nTurn Start:\n$At 0+ SP, gain Here Comes Magical Girl! and lose Regressive Transformation - Reversed\n$At less than 0 SP, gain Regressive Transformation - Reversed and lose Here Comes Magical Girl!\nThis unit's SP cannot drop below X due to SP loss effects from this unit's Base Attack Skills",
+						"Description": "Gain 1 Love/Hate every time this unit consumes 10 cumulative Love/Hate Count in this Encounter\nEncounter Start: If this unit does not have Hysteria and/or Love/Hate, gain Hysteria and/or Love/Hate\nTurn Start:\n$At 0+ SP, gain Here Comes Magical Girl! and lose Regressive Transformation - Reversed\n$At less than 0 SP, gain Regressive Transformation - Reversed and lose Here Comes Magical Girl!\nThis unit's SP cannot drop below -40 due to SP loss effects from this unit's Base Attack Skills",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -9409,28 +9409,235 @@
 				],
 				"PassiveSkill": {
 					"Name": "Magical Girl of Love / Queen of Hatred",
-					"Description": "Deal more damage for every Love/Hate\nCombat Start: Gain Magical Arcana",
+					"Description": "Deal +2% damage for every Love/Hate (Max 10%)\nCombat Start: Gain 1 Magical Arcana",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Magical Arcana"
 					]
 				},
 				"SupportSkill": {
 					"Name": "Magical Girl Charging Support",
-					"Description": "If, among allies that gain Charge Count with their Base Attack Skills, 1 ally with the least Charge Count uses a Base Attack Skill that gains Charge Count, they gain Charge Count\n$At 0+ SP, heal (Charge on target x X) HP\n$At less than 0 SP, heal (Charge on target) SP",
+					"Description": "If, among allies that gain Charge Count with their Base Attack Skills, 1 ally with the least Charge Count uses a Base Attack Skill that gains Charge Count, they gain +2 Charge Count\n$At 0+ SP, heal (Charge on target x 2) HP (Max 10; up to 20 per turn)\n$At less than 0 SP, heal (Charge on target) SP (Max 5; up to 10 per turn)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Charge Count",
+						"Ally Heal HP",
+						"Ally Heal SP"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "By Manager Esquire's Orders, I Am Here!",
+					"Description": "[On Use] Consume 5 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +3 Love/Hate Count\n<2>[On Hit] Gain +2 Love/Hate Count\n[On Hit] Inflict 2 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Love/Hate Count",
+						"Love/Hate Count",
+						"Rupture"
+					],
+					"AltSkill": {
+						"Name": "Where are... the villains...?",
+						"Description": "Deal +4% damage for every Hysteria on self\n[On Use] Consume 5 Love/Hate Count to gain Base Power +1\n[On Use] Gain +3 Love/Hate Count\n[On Use] Lose 5 SP\n<2>[On Hit] Gain +2 Love/Hate Count\n[On Hit] Inflict 2 Sinking",
+						"DamageType": "Blunt",
+						"SinType": "Wrath",
+						"BasePower": 11,
+						"CoinPower": -4,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Love/Hate Count",
+							"Love/Hate Count",
+							"Self SP Damage",
+							"Sinking"
+						]
+					}
+				},
+				"SkillTwo": {
+					"Name": "With Love! Hyah!",
+					"Description": "[On Use] Deal +6% damage for every Love/Hate on self (Max 30%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +3 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Love/Hate Count",
+						"Love/Hate Count",
+						"Rupture",
+						"Mark of Villainy"
+					],
+					"AltSkill": {
+						"Name": "Get out of my head....",
+						"Description": "If unit has Hysteria, Base Power +1\n[On Use] Consume 6 Love/Hate Count to gain Base Power +1\n[On Use] Gain +3 Love/Hate Count\n[On Use] Lose 8 SP\n<1>[On Hit] Gain +3 Love/Hate Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict Mark of Villainy against main target next turn",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 13,
+						"CoinPower": -6,
+						"CoinCount": 2,
+						"Level": 4,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Love/Hate Count",
+							"Love/Hate Count",
+							"Self SP Damage",
+							"Sinking",
+							"Mark of Villainy"
+						]
+					}
+				},
+				"SkillThree": {
+					"Name": "Arcana Beats!! / Minor Arcana Slave",
+					"Description": "Deal +15% damage for every Magical Arcana\n[On Use] At 3+ Love/Hate, deal +(Love/Hate x 15)% damage (Max 75%)\n[On Use] At 3+ Love/Hate, Base Power +1\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 2)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Love/Hate Count",
+						"Magical Arcana",
+						"Unbreakable Coin",
+						"Rupture"
+					],
+					"AltSkill": {
+						"Name": "Reversed Beats / Reversed Arcana Slave",
+						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria to gain Clash Power +1\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 8 Count consumed, max 2)\n[On Use] Deal +12% damage for every Love/Hate (Max 60%)\n[Before Attack] Consume all Magical Arcana to gain Atk Weight +1\n[Before Attack] If this Skill only has one target but 2+ Atk Weight, +20% damage\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 20,
+						"CoinPower": -7,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 2,
+						"MiscTags": [
+							"Spend Hysteria",
+							"Spend Magical Arcana",
+							"Attack Weight Increase",
+							"Heal SP",
+							"Self SP Damage",
+							"Unbreakable Coin",
+							"Sinking"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Rapid Chant",
+					"Description": "[Clashable Guard]\n[On Use] Base Power +1 for every Hysteria (Max 2)\n[On Use] Gain +2 Love/Hate Count (2 times per turn)\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 2,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 3,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "In the Name of Love and Hate - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
+						"Description": "Gain 1 Love/Hate every time this unit consumes 10 cumulative Love/Hate Count in this Encounter\nEncounter Start: If this unit does not have Hysteria and/or Love/Hate, gain Hysteria and/or Love/Hate\nTurn Start:\n$At 0+ SP, gain Here Comes Magical Girl! and lose Regressive Transformation - Reversed\n$At less than 0 SP, gain Regressive Transformation - Reversed and lose Here Comes Magical Girl!\nThis unit's SP cannot drop below -40 due to SP loss effects from this unit's Base Attack Skills",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Status Replace",
+							"Love/Hate",
+							"Hysteria",
+							"Here Comes Magical Girl!",
+							"Regressive Transformation - Reversed"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Magical Girl of Love / Queen of Hatred",
+					"Description": "Deal +2% damage for every Love/Hate (Max 10%)\nCombat Start: Gain 1 Magical Arcana",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Magical Arcana"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Magical Girl Charging Support",
+					"Description": "If, among allies that gain Charge Count with their Base Attack Skills, 1 ally with the least Charge Count uses a Base Attack Skill that gains Charge Count, they gain +2 Charge Count\n$At 0+ SP, heal (Charge on target x 2) HP (Max 10; up to 20 per turn)\n$At less than 0 SP, heal (Charge on target) SP (Max 5; up to 10 per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Charge Count",
 						"Ally Heal HP",
@@ -27671,29 +27878,29 @@
 		]
 	},
 	{
-		"Id": 9000,
+		"Id": 9308,
 		"Sinner": "Rodion",
 		"Identity": "Lobotomy E.G.O::The Sword Sharpened with Tears",
 		"World": "",
-		"Speed": "???",
+		"Speed": "4-7",
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "The Knight's Sanctuary",
-					"Description": "If target has X+ Sinking, Coin Power +Y\nAt X+ Protecting Sword, Clash Power +Y\n<1>[On Hit] Inflict Sinking\n<2>[On Hit] Inflict Sinking\n[On Hit] Gain Deep Tears\n$Gain additional Deep Tears for every X Protecting Sword",
+					"Description": "If target has 6+ Sinking, Coin Power +1\nAt 3+ Protecting Sword, Clash Power +1\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Gain 2 Deep Tears\n$Gain +1 Deep Tears for every 2 Protecting Sword (Max 2)",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27706,15 +27913,15 @@
 					],
 					"AltSkill": {
 						"Name": "Faded Faith",
-						"Description": "Final Power +X for every Y Sinking on target\n[On Use] Lose SP\n<1>[On Hit] Inflict Sinking\n<2>[On Hit] Inflict Sinking\n[On Hit] Gain Deep Tears\n$Combat Start: Gain additional Deep Tears for every X Piercing Sword",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 3)\n[On Use] Lose 7 SP\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Gain 2 Deep Tears\n$Combat Start: Gain +1 Deep Tears for every 2 Piercing Sword at Combat Start (Max 2)",
 						"DamageType": "Pierce",
 						"SinType": "Gloom",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 10,
+						"CoinPower": -4,
 						"CoinCount": 2,
-						"Level": 0,
+						"Level": 3,
 						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
+						"FinalPowerModifier": 3,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -27728,13 +27935,13 @@
 				},
 				"SkillTwo": {
 					"Name": "With the Power of Justice",
-					"Description": "If target has X+ Sinking, Coin Power +Y\nClash Power +X for every Y Protecting Sword\n[On Use] At X+ Deep Tears, consume X Deep Tears to deal more damage\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Sinking\n[On Hit] Gain Deep Tears\n$Gain additional Deep Tears equal to Protecting Sword",
+					"Description": "If target has 6+ Sinking, Coin Power +1\nClash Power +1 for every 2 Protecting Sword (Max 2)\n[On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +15% damage\n<2>[On Hit] Inflict 3 Sinking\n<3>[On Hit] Inflict +2 Sinking Count\n[On Hit] Gain 3 Deep Tears\n$Gain additional Deep Tears equal to Protecting Sword (Max 5)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27744,19 +27951,20 @@
 					"MiscTags": [
 						"Spend Deep Tears",
 						"Sinking",
+						"Sinking Count",
 						"Deep Tears"
 					],
 					"AltSkill": {
 						"Name": "With the Tear-sharpened Sword",
-						"Description": "Final Power +X for every Y Sinking on target\n[On Use] Lose SP\n[On Use] At X+ Deep Tears, consume Y Deep Tears to deal more damage\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Sinking and Sinking Count\n[On Hit] Gain Deep Tears\n$Combat Start: Gain additional Deep Tears equal to Piercing Sword at Combat Start",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 3)\n[On Use] Lose 10 SP\n[On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +20% damage\n<2>[On Hit] Inflict 3 Sinking\n<3>[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Gain 3 Deep Tears\n$Combat Start: Gain additional Deep Tears equal to Piercing Sword at Combat Start (Max 5)",
 						"DamageType": "Pierce",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 16,
+						"CoinPower": -4,
 						"CoinCount": 3,
-						"Level": 0,
+						"Level": 4,
 						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
+						"FinalPowerModifier": 3,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -27772,16 +27980,16 @@
 				},
 				"SkillThree": {
 					"Name": "Arcana Pierce",
-					"Description": "If target has X+ Sinking, Coin Power +Y\nClash Power +X for every Y Protecting Sword\n[On Use] At X+ Deep Tears, consume up to Y Deep Tears\n$Deal +(Stack consumed x X)% damage\n$Base Power +X for every Y Stack consumed\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict Sinking Count\n<3>If this unit has Tear-sharpened or consumed it with this Coin, deal more damage\n[On Hit] Inflict Sinking equal to Protecting Sword",
+					"Description": "If target has 6+ Sinking, Coin Power +1\nClash Power +1 for every Protecting Sword (Max 5)\n[On Use] At 10+ Deep Tears, consume up to 20 Deep Tears\n$Deal +(Stack consumed x 1.5)% damage\n$Base Power +1 for every 5 Stack consumed\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict +3 Sinking Count\n<3>If this unit has Tear-sharpened or consumed it with this Coin, deal +20% damage\n[On Hit] Inflict Sinking equal to Protecting Sword",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 3,
+					"BasePowerModifier": 4,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -27793,15 +28001,15 @@
 					],
 					"AltSkill": {
 						"Name": "Arcana: Tear and Pierce",
-						"Description": "Final Power +X for every Y Sinking on target\n[On Use] Lose SP\n[On Use] At X+ Deep Tears, consume up to Y Deep Tears\n$Deal +(Stack consumed x X)% damage\n$Base Power +X for every Y Stack consumed\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict Sinking Count\n<3>[On Hit] Inflict Sinking\n[On Hit] If this Coin consumed Tear-sharpened, Reuse Coin once",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 4)\n[On Use] Lose 15 SP\n[On Use] At 10+ Deep Tears, consume up to 20 Deep Tears\n$Deal +(Stack consumed x 3)% damage\n$Base Power +1 for every 5 Stack consumed\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict +4 Sinking Count\n<3>[On Hit] Inflict 5 Sinking (Once per Skill)\n[On Hit] If this Coin consumed Tear-sharpened, Reuse Coin once (Once per turn)",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 20,
+						"CoinPower": -5,
 						"CoinCount": 3,
-						"Level": 0,
-						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
+						"Level": 5,
+						"BasePowerModifier": 4,
+						"FinalPowerModifier": 4,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -27817,13 +28025,284 @@
 				},
 				"SkillDefense": {
 					"Name": "The Knight's Faith",
-					"Description": "[Clashable Guard]\n[Combat Start] Coin Power +X for every Y Protecting Sword\n[Combat Start] Gain Shield equal to (SP / X)% of this unit's Max HP\n[On Use] Gain Deep Tears\n[Turn End] At less than 3 Tear-sharpened, lose SP and gain Tear-sharpened\n$If this unit has Tear-sharpened, lose (Tear-sharpened Stack x X) more SP\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[Combat Start] Coin Power +1 for every 2 Protecting Sword (Max 2)\n[Combat Start] Gain Shield equal to (SP / 3)% of this unit's Max HP (Once per turn)\n[On Use] Gain 5 Deep Tears (2 times per turn)\n[Turn End] At less than 3 Tear-sharpened, lose 15 SP and gain 1 Tear-sharpened (Once per turn)\n$If this unit has Tear-sharpened, lose (Tear-sharpened Stack x 15) more SP\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 10,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Shield",
+						"Deep Tears",
+						"Self SP Damage",
+						"Tear-sharpened",
+						"Unbreakable Coin"
+					],
+					"AltSkill": {
+						"Name": "Weathered Pride",
+						"Description": "[Clashable Counter]\n[Combat Start] Final Power +1 for every 2 Piercing Sword (Max 2)\n[On Use] Gain 5 Deep Tears (2 times per turn)\n[Turn End] At less than 3 Tear-sharpened, lose 15 SP and gain 1 Tear-sharpened (Once per turn)\n$If this unit has tear-sharpened, lose (Tear-sharpened x 15) more SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking",
+						"DamageType": "Pierce",
+						"SinType": "Gloom",
+						"BasePower": 12,
+						"CoinPower": -4,
+						"CoinCount": 2,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Deep Tears",
+							"Self SP Damage",
+							"Tear-sharpened",
+							"Unbreakable Coin",
+							"Sinking"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Sword Sharpened with Tears - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
+						"Description": "Turn Start: At 0+ SP, gain Blessing\n$Uses Plus Coin Skills as Base Skills\nAt less than 0 SP, gain Despair\n$Uses Minus Coin Skills as Base Skills\nWhen gaining Charge Count, gain Deep Tears instead\n$Deep Tears is unaffected by Charge Potency",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Status Replace",
+							"Blessing",
+							"Despair",
+							"Deep Tears"
+						]
+					},
+					{
+						"Name": "Whispers of the Betrayed Knight",
+						"Description": "This unit's SP does not drop below -40 from the following effects:\n$SP loss effects on this unit's Base Attack Skills\n$SP loss effects from allied units' Support Passives\n$SP loss effects from Tear-sharpened\n$SP loss effects from ally death in this unit's 'Base factors decreasing Sanity'\nIn an Encounter, when this unit takes damage that brings its SP to -45, maintain this unit's SP at -44 for that turn (Once per Encounter)\n$Applies only to SP damage; does not apply to SP changes or SP consuming abilities like E.G.O Skills",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"SP Unrelenting"
+						]
+					},
+					{
+						"Name": "Break, Tear, and Pierce",
+						"Description": "If this unit has Piercing Sword: Before hitting an enemy with a Base Attack Skill, consume 1 Piercing Sword to inflict 1 Sinking\n$If this unit has 2+ Piercing Sword before this turn's final Base Attack Skill's final Coin hits, consume all of it to inflict it as Sinking\nIf this unit has 3 Tear-sharpened: Before hitting an enemy with the final Coin of a Base Attack Skill, consume all Tear-sharpened to inflict 3 Sinking and +3 Sinking Count, and deal +50% damage with that Coin\n$If this effect activated, reset SP to 0 if this unit has less than 0 SP at Turn End (When in Panic or E.G.O Corrosion, recover). Then, heal 30 SP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Spend Piercing Sword",
+							"Sinking",
+							"Spend Tear-sharpened",
+							"Sinking Count",
+							"Nullify Panic",
+							"Heal SP"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Magical Girl of Justice / Knight of Despair",
+					"Description": "When in Blessing state:\n$Take -(SP / 2)% HP damage from attacks (Max 20%)\n$Combat Start: At 3+ Protecting Sword, gain 1 Protection\n$Combat Start At 5 Protecting Sword, gain 2 Protection and 1 Clash Power Up instead\nWhen in Despair state:\n$Deal +(-SP / 2)% damage with Base Skills (Max 20%)\n$Combat Start: At 3+ Piercing Sword, gain 1 Damage Up\n$Combat Start: At 5 Piercing Sword, gain 2 Damage Up and 1 Power Up instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Damage Reduction",
+						"Protection",
+						"Clash Power Up",
+						"Damage Up",
+						"Power Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "For All Those Who Despair...",
+					"Description": "Combat Start: Applies to the ally with the earliest Deployment Order\n$At -15 or less SP, Minus Coin Skills gain +1 Final Power\n$At -30 or less SP, Minus Coin Skills gain +1 Final Power and deal +15% damage",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Final Power",
+						"Ally Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "The Knight's Sanctuary",
+					"Description": "If target has 6+ Sinking, Coin Power +1\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Gain 2 Deep Tears",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Sinking",
+						"Deep Tears"
+					],
+					"AltSkill": {
+						"Name": "Faded Faith",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 2)\n[On Use] Lose 7 SP\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Gain 2 Deep Tears",
+						"DamageType": "Pierce",
+						"SinType": "Gloom",
+						"BasePower": 10,
+						"CoinPower": -4,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Self SP Damage",
+							"Sinking",
+							"Deep Tears"
+						]
+					}
+				},
+				"SkillTwo": {
+					"Name": "With the Power of Justice",
+					"Description": "If target has 6+ Sinking, Coin Power +1\nClash Power +1 for every 2 Protecting Sword (Max 2)\n[On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +15% damage\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict +2 Sinking Count\n[On Hit] Gain 3 Deep Tears\n$Gain +1 Deep Tears for every 2 Protecting Sword (Max 2)",
+					"DamageType": "Pierce",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Deep Tears",
+						"Sinking",
+						"Sinking Count",
+						"Deep Tears"
+					],
+					"AltSkill": {
+						"Name": "With the Tear-sharpened Sword",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 2)\n[On Use] Lose 10 SP\n[On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +20% damage\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict +2 Sinking Count\n[On Hit] Gain 3 Deep Tears\n$Combat Start: Gain +1 Deep Tears for every 2 Piercing Sword at Combat Start (Max 2)",
+						"DamageType": "Pierce",
+						"SinType": "Envy",
+						"BasePower": 16,
+						"CoinPower": -4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Self SP Damage",
+							"Spend Deep Tears",
+							"Sinking",
+							"Sinking Count",
+							"Deep Tears"
+						]
+					}
+				},
+				"SkillThree": {
+					"Name": "Arcana Pierce",
+					"Description": "If target has 6+ Sinking, Coin Power +1\nClash Power +1 for every 2 Protecting Sword (Max 2)\n[On Use] At 10+ Deep Tears, consume up to 20 Deep Tears\n$Deal +(Stack consumed x 1.5)% damage\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict +2 Sinking Count\n<3>[On Hit] Inflict Sinking equal to Protecting Sword (Max 3)",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Deep Tears",
+						"Deep Tears",
+						"Sinking Count",
+						"Sinking"
+					],
+					"AltSkill": {
+						"Name": "Arcana: Tear and Pierce",
+						"Description": "Final Power +1 for every 3 Sinking on target (Max 2)\n[On Use] Lose 15 SP\n[On Use] At 10+ Deep Tears, consume up to 20 Deep Tears\n$Deal +(Stack consumed x 3)% damage\n[After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill\n<2>[On Hit] Inflict +3 Sinking Count\n<3>[On Hit] Inflict 3 Sinking (Once per Skill)\n[On Hit] If this Coin consumed Tear-sharpened, Reuse Coin once (Once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 18,
+						"CoinPower": -6,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 2,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Self SP Damage",
+							"Spend Deep Tears",
+							"Deep Tears",
+							"Sinking Count",
+							"Sinking"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "The Knight's Faith",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain Shield equal to (SP / 5)% of this unit's Max HP (Once per turn)\n[On Use] Gain 3 Deep Tears (2 times per turn)\n[Turn End] At less than 3 Tear-sharpened, lose 15 SP and gain 1 Tear-sharpened (Once per turn)\n$If this unit has Tear-sharpened, lose (Tear-sharpened Stack x 15) more SP\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27840,13 +28319,13 @@
 					],
 					"AltSkill": {
 						"Name": "Weathered Pride",
-						"Description": "[Clashable Counter]\n[Combat Start] Final Power +X for every Piercing Sword\n[On Use] Gain Deep Tears\n[Turn End] At less than 3 Tear-sharpened, lose SP and gain Tear-sharpened\n$If this unit has tear-sharpened, lose (Tear-sharpened x X) more SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict Sinking",
+						"Description": "[Clashable Counter]\n[On Use] Gain 3 Deep Tears (2 times per turn)\n[Turn End] At less than 3 Tear-sharpened, lose 15 SP and gain 1 Tear-sharpened (Once per turn)\n$If this unit has tear-sharpened, lose (Tear-sharpened x 15) more SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking",
 						"DamageType": "Pierce",
 						"SinType": "Gloom",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 10,
+						"CoinPower": -4,
 						"CoinCount": 2,
-						"Level": 0,
+						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"CoinModifier": 0,
@@ -27897,7 +28376,7 @@
 					},
 					{
 						"Name": "Break, Tear, and Pierce",
-						"Description": "If this unit has Piercing Sword: Before hitting an enemy with a Base Attack Skill, consume Piercing Sword to inflict Sinking\n$If this unit has X+ Piercing Sword before this turn's final Base Attack Skill's final Coin hits, consume all of it to inflict it as Sinking\nIf this unit has 3 Tear-sharpened: Before hitting an enemy with the final Coin of a Base Attack Skill, consume all Tear-sharpened to inflict Sinking and Sinking Count, and eal more damage with that Coin\n$If this effect activated, reset SP to 0 if this unit has less than 0 SP at Turn End (When in Panic or E.G.O Corrosion, recover). Then, heal SP",
+						"Description": "If this unit has Piercing Sword: Before hitting an enemy with a Base Attack Skill, consume 1 Piercing Sword to inflict 1 Sinking\n$If this unit has 2+ Piercing Sword before this turn's final Base Attack Skill's final Coin hits, consume all of it to inflict it as Sinking\nIf this unit has 3 Tear-sharpened: Before hitting an enemy with the final Coin of a Base Attack Skill, consume all Tear-sharpened to inflict 3 Sinking and +3 Sinking Count, and deal +50% damage with that Coin\n$If this effect activated, reset SP to 0 if this unit has less than 0 SP at Turn End (When in Panic or E.G.O Corrosion, recover). Then, heal 30 SP",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -27917,32 +28396,32 @@
 				],
 				"PassiveSkill": {
 					"Name": "Magical Girl of Justice / Knight of Despair",
-					"Description": "When in Blessing state:\n$Take -(SP / X)% HP damage from attacks\n$Combat Start: At X+ Protecting Sword, gain Protection\n$Combat Start At 5 Protecting Sword, gain more Protection and Clash Power Up instead\nWhen in Despair state:\n$Deal +(SP / X)% damage with Base Skills\n$Combat Start: At X+ Piercing Sword, gain Damage Up\n$Combat Start: At 5 Piercing Sword, gain more Damage Up and Power Up instead",
+					"Description": "When in Blessing state:\n$Take -(SP / 2)% HP damage from attacks (Max 20%)\nWhen in Despair state:\n$Deal +(-SP / 2)% damage with Base Skills (Max 20%)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
-						"Damage Reduction",
-						"Protection",
-						"Clash Power Up",
-						"Damage Up",
-						"Power Up"
+						"Damage Reduction"
 					]
 				},
 				"SupportSkill": {
 					"Name": "For All Those Who Despair...",
-					"Description": "Combat Start: Applies to the ally with the earliest Deployment Order\n$At X- SP, Minus Coin Skills gain Final Power\n$At Y- SP, Minus Coin Skills gain Final Power and deal more damage",
+					"Description": "Combat Start: Applies to the ally with the earliest Deployment Order\n$At -15 or less SP, Minus Coin Skills gain +1 Final Power",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gloom",
+							"ResourceCount": 5
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Final Power",
 						"Ally Damage Amp"
