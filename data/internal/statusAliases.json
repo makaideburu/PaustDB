@@ -1264,6 +1264,12 @@
 	{
 		"entry": "love/hate",
 		"aliases": [
+			"charge"
+		]
+	},
+	{
+		"entry": "love/hate count",
+		"aliases": [
 			"unique charge"
 		]
 	},
@@ -1317,6 +1323,20 @@
 			"ally damage up",
 			"ally final power",
 			"ally damage amp"
+		]
+	},
+	{
+		"entry": "accumulated past",
+		"aliases": [
+			"clash power up",
+			"offense level up"
+		]
+	},
+	{
+		"entry": "blessing",
+		"aliases": [
+			"protection",
+			"resistance up"
 		]
 	}
 ]

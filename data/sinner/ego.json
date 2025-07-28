@@ -5214,6 +5214,98 @@
     ]
   },
   {
+    "Id": 5000,
+    "Sinner": "Meursault",
+    "Grade": "WAW",
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "Steam Transport Machine",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "Name": "Crushbound Past",
+					"Description": "[Before Attack] If main target has X+ (Tremor + Tremor Count), Atk Weight +Y\n$At Z+, gain more Atk Weight instead\n[Before Attack] For every X highest Res, inflict Tremor on all targets\n[After Attack] For 3 turns, lose SP at Turn End\n[After Attack] Heal (Accumulated Past x X)% HP\n[After Attack] When activating odd-numbered Sloth Res in odd-numbered turns, or even-numbered Sloth Res in even-numbered turns, heal SP\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Inflict +(Sloth Res / X) Tremor Count\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n<2>[On Hit] Inflict Tremor\n<3>[Coin Start] Deal more damage for every Tremor on main target\n<4>[Coin Start] Deal more damage for every (Tremor + Tremor Count) on main target\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this coin's effects increased damage by X%+, trigger Tremor Burst\n$At Y%+ Trigger Tremor Burst; reduce target's Tremor Count",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 4,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+						"Attack Weight Increase",
+						"Tremor",
+						"Self SP Damage",
+						"Heal HP",
+						"Heal SP",
+						"Tremor Count",
+						"Amplitude Entanglement",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Crushbound Past",
+          "Description": "[Indiscriminate] Targets randomly\nDeal more damage for every highest Res\n$If highest Res was Sloth Res, deal even more damage\n[Before Attack] If main target has X+ (Tremor + Tremor Count), Atk Weight +Y\n[Before Attack]When activating even-numbered Sloth Res in odd-numbered turns, or odd-numbered Sloth Res in even-numbered turns, deal more damage\n[After Attack] Heal (Accumulated Past x X)% HP\n<1>[Coin Start] Deal more damage for every X (Tremor + Tremor Count) on main target\n[On Hit] Inflict Tremor and Tremor Count\n[On Hit] Inflict (Sloth Res) Tremor Count\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this Coin's effects raised damage by X%+, trigger Tremor Burst; reduce target's Tremor Count",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+						"Attack Weight Increase",
+						"Heal HP",
+						"Tremor",
+						"Tremor Count",
+						"Amplitude Entanglement",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Metronome",
+          "Description": "Turn Start: In odd-numbered turns, gain Damage Up; in even-numbered turns, gain Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain Accumulated Past next turn\n$Gain Accumulated Past at every subsequent Turn End",
+          "MiscTags": [
+						"Damage Up",
+						"Protection",
+						"Accumulated Past"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 6101,
     "Sinner": "Hong Lu",
     "Grade": "ZAYIN",

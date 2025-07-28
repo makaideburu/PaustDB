@@ -8279,6 +8279,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Heal HP",
+						"Nullify Stagger",
 						"Aggro"
 					]
 				},
@@ -8401,6 +8402,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Heal HP",
+						"Nullify Stagger",
 						"Aggro"
 					]
 				},
@@ -20705,7 +20707,7 @@
 				},
 				"SkillThree": {
 					"Name": "Requiem",
-					"Description": "[Clash Win] Heal 10 SP\n[Before Use] If this unit has Dullahan, activate 'Lament, Mourn and Despair' instead\n[On Use] Coin Power +1 for every 3 Sinking on target (Max 4)\n[On Use] Deal +12% damage for every Coffin on self (Max 120%)\n[On Use] Gain 1 Coffin\n[After Attack] If this Skill kills the target, gain 2 Coffin\n<1>[On Hit] Inflict +4 Sinking Count\n[On Hit] If the target has Impending Ruin, inflict +2 Sinking Count\n<2>[On Hit] Inflict 3 Sinking\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 5)",
+					"Description": "[Clash Win] Heal 10 SP\n[Before Use] If this unit has Dullahan, activate 'Lament, Mourn, and Despair' instead\n[On Use] Coin Power +1 for every 3 Sinking on target (Max 4)\n[On Use] Deal +12% damage for every Coffin on self (Max 120%)\n[On Use] Gain 1 Coffin\n[After Attack] If this Skill kills the target, gain 2 Coffin\n<1>[On Hit] Inflict +4 Sinking Count\n[On Hit] If the target has Impending Ruin, inflict +2 Sinking Count\n<2>[On Hit] Inflict 3 Sinking\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 5)",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 8,
@@ -20727,7 +20729,7 @@
 						"Sinking Spread"
 					],
 					"AltSkill": {
-						"Name": "Lament, Mourn and Despair",
+						"Name": "Lament, Mourn, and Despair",
 						"Description": "[On Use] Lose 15 SP\n[On Use] Base Power +1 for every 5 Sinking on target (Max 4)\n[On Use] Deal more damage the lower this unit's SP is from 45 (+0.3% damage per SP, max 21%)\n[On Use] Deal +10% damage for every Coffin (Max 100%)\n[On Use] Deal +20% damage for every Dullahan (Max 60%)\n[On Use] Gain 2 Coffin\n[After Attack] If this Skill kills the target, gain 3 Coffin\n[After Attack] At less than 0 SP, heal 10 SP, heal more SP the further this unit's SP is from 0 (2 additional SP for every missing SP; max 50)\n[Turn End] Lose Dullahan\n<1>[On Hit] Inflict 5 Sinking and +2 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 30% of damage dealt\n<2>[On Hit] Deal Gloom damage equal to Sinking on target (Max 30)\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 8)\n[On Kill] Heal 15 SP",
 						"DamageType": "Blunt",
 						"SinType": "Gloom",
@@ -20876,7 +20878,7 @@
 				},
 				"SkillThree": {
 					"Name": "Requiem",
-					"Description": "[Clash Win] Heal 10 SP\n[Before Use] If this unit has Dullahan, activate 'Lament, Mourn and Despair' instead\n[On Use] Coin Power +1 for every 6 Sinking on target (Max 2)\n[On Use] Deal +7% damage for every Coffin on self (Max 70%)\n[On Use] Gain 1 Coffin\n[After Attack] If this Skill kills the target, gain 2 Coffin\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] If the target has Impending Ruin, inflict +2 Sinking Count\n<2>[On Hit] Inflict 2 Sinking\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 3)",
+					"Description": "[Clash Win] Heal 10 SP\n[Before Use] If this unit has Dullahan, activate 'Lament, Mourn, and Despair' instead\n[On Use] Coin Power +1 for every 6 Sinking on target (Max 2)\n[On Use] Deal +7% damage for every Coffin on self (Max 70%)\n[On Use] Gain 1 Coffin\n[After Attack] If this Skill kills the target, gain 2 Coffin\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] If the target has Impending Ruin, inflict +2 Sinking Count\n<2>[On Hit] Inflict 2 Sinking\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 3)",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 5,
@@ -20898,7 +20900,7 @@
 						"Sinking Spread"
 					],
 					"AltSkill": {
-						"Name": "Lament, Mourn and Despair",
+						"Name": "Lament, Mourn, and Despair",
 						"Description": "[On Use] Lose 15 SP\n[On Use] Base Power +1 for every 5 Sinking on target (Max 2)\n[On Use] Deal more damage the lower this unit's SP is from 45 (+0.3% damage per SP, max 21%)\n[On Use] Deal +7% damage for every Coffin (Max 70%)\n[On Use] Deal +10% damage for every Dullahan (Max 30%)\n[On Use] Gain 1 Coffin\n[After Attack] If this Skill kills the target, gain 2 Coffin\n[After Attack] At less than 0 SP, heal 10 SP, heal more SP the further this unit's SP is from 0 (1 additional SP for every missing SP; max 25)\n[Turn End] Lose Dullahan\n<1>[On Hit] Inflict 3 Sinking and +1 Sinking Count\n[On Hit] Raise target's Stagger Threshold by 20% of damage dealt\n<2>[On Hit] Deal Gloom damage equal to Sinking on target (Max 15)\n[On Kill] Inflict (Sinking on killed target / 2) Sinking on 2 random enemies (Max 4)\n[On Kill] Heal 15 SP",
 						"DamageType": "Blunt",
 						"SinType": "Gloom",
@@ -25798,7 +25800,8 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Heal HP"
+						"Heal HP",
+						"Nullify Stagger"
 					]
 				},
 				"SupportSkill": {
@@ -25913,7 +25916,8 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Heal HP"
+						"Heal HP",
+						"Nullify Stagger"
 					]
 				},
 				"SupportSkill": {
@@ -34708,7 +34712,7 @@
 				}
 			},
 			{
-				"Tier": 4,
+				"Tier": 3,
 				"SkillOne": {
 					"Name": "Blinkstep",
 					"Description": "[On Use] If target has 4+ Rupture, Coin Power +1\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] At 12+ Speed, Reuse Coin (Once per Skill)",
@@ -34814,6 +34818,150 @@
 					"MiscTags": [
 						"Ally Damage Amp",
 						"Ally Haste"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 12000,
+		"Sinner": "Outis",
+		"Identity": "T Corp. Class 3 VDCU Staff",
+		"World": "",
+		"Speed": "???",
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Prepare to Collect",
+					"Description": "[On Use] Gain Tremor Count\n[On Use] If target has X+ Tremor, Coin Power +Y\n<1>[On Hit] Inflict Tremor Count\n<2>[On Hit] Inflict Tremor Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Tremor Count",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "T Corp. Microcavity Module",
+					"Description": "[On Use] Gain Tremor Count\n[On Use] If target has X+ Tremor, Coin Power +Y\n<1>[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Tremor\n[On Hit] If target has X+ Tremor, consume X Tremor on target to apply Tremor Count on self and target\n<3>If target is in Amplitude Conversion or Amplitude Entanglement, deal more damage\n[On Hit] If target isn't in Ampltiude Conversion or Amplitude Entanglement, consume Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If target has X+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Tremor Count",
+						"Tremor",
+						"Spend Enemy Tremor",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Chain",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"Name": "T-3 Collector Mace Max Activation",
+					"Description": "If target is in Amplitude Conversion or Amplitude Entanglement, deal more damage\nIf target has Time Moratorium, deal more damage\n[On Use] Coin Power +X for every Y Tremor on target\n[On Use] If target has Bind, Coin Power +X\n[After Attack] Lose Borrowed Time\n[After Attack] Gain Violent Collections\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Consume Tremor on target\n$Gain (Tremor consumed x X) Tremor Count\n$Inflict (Tremor consumed - Y) Bind next turn\n<2>[On Hit] If target has X+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count\n<3>[Coin Start] Consume all Tremor Count on self\n$Coin Power +X for every Y Tremor Count consumed\n$Deal more damage for every Z Tremor Count consumed\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this unit has Borrowed Time, trigger Tremor Burst\n[On Hit] If this unit has Borrowed Time, inflict Time Moratorium",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Borrowed Time",
+						"Violent Collections",
+						"Tremor Count",
+						"Spend Enemy Tremor",
+						"Self Tremor Count",
+						"Bind",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Spend Self Tremor Count",
+						"Time Moratorium"
+					]
+				},
+				"SkillDefense": {
+					"Name": "Borrowed Time - Microcavity",
+					"Description": "[Clashable Guard]\n[Combat Start] If this unit is not in Borrowed Time state, gain Borrowed Time at Turn End\n[Clash Win] Apply Tremor Count to self and target\n[Clash Lose] Gain Tremor Count\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Borrowed Time",
+						"Self Tremor Count",
+						"Tremor Count",
+						"Unbreakable Coin"
+					]
+				},
+				"PassiveSkill": {
+					"Name": "Golden Time - Microcavity",
+					"Description": "Turn End: If unit's HP is between X% ~ Y%, instantly heal Z% of this unit's max HP, and recover from Stagger\nIf unit has Borrowed Time, Skills gain Final Power",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Heal HP",
+						"Nullify Stagger"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Expeditious Execution of Official Duties",
+					"Description": "1 ally with the fastest Speed deals more damage when attacking a Staggered target",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Damage Amp"
 					]
 				}
 			}

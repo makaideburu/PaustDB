@@ -2559,5 +2559,32 @@
 			"Damage Up",
 			"Final Power"
 		]
+	},
+	{
+		"Name": "Violent Collections",
+		"Description": "When this unit has Haste, gain more Tremor Count from Base Skills\nIf unit's Speed is faster than target's, deal more damage based on the Speed difference",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Accumulated Past",
+		"Description": "Max Stack: 12\nTurn Start: Gain Clash Power Up and Offense Level Up for every X Stack",
+		"Tags": [
+			"Clash Power Up",
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Blessing",
+		"Description": "Turn Start: Gain 2 Protection\nAdjust any Attack Type Resistances exceeding 1 to 1 (Unless Staggered)",
+		"Tags": [
+			"Protection",
+			"Resistance Up"
+		]
+	},
+	{
+		"Name": "Trauma Shield",
+		"Description": "Reduce SP damage from enemies by 80%\nReduce Sinking damage taken by 80%\nReduced by 1 at Turn End",
+		"Tags": []
 	}
 ]

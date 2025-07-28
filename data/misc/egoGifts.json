@@ -8986,5 +8986,150 @@
     "Availability": [
       "MD6"
     ]
+  },
+  {
+    "Name": "Sword Sharpened with Tears",
+    "Tag": "Sinking",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 254,
+    "Upgrades": [
+      {
+        "Description": "When an ally hits with a Skill, if target has -30 or less SP, deal Gloom damage equal to Sinking on target (Once per Skill)\nIf it was a Pierce Skill, deal (Sinking Count on target / 2) bonus fixed damage (Once per Skill)",
+        "Rank": 1,
+        "MiscTags": [
+					"HP Damage"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Ashen Constellation's Blessing",
+    "Tag": "Keywordless",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 251,
+    "Upgrades": [
+      {
+        "Description": "[Effects apply to #1 Deployed Identity]\nGain Blessing at Encounter Start",
+        "Rank": 1,
+        "MiscTags": [
+					"Blessing"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "The Unchosen",
+    "Tag": "Sinking",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Envy",
+    "Tier": 2,
+    "Cost": 197,
+    "Upgrades": [
+      {
+        "Description": "Whenever an ally takes a hit, inflict 3 Sinking on the attacker\nWhenever an ally is killed, all allies gain 2 Attack Power Up next turn",
+        "Rank": 1,
+        "MiscTags": [
+					"Sinking",
+					"Attack Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Magical Girl's Lovely Gift",
+    "Tag": "Charge",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "When an ally hits with a Skill that gains or consumes Charge Count or Unique Charge, a random ally's HP or SP heals by 3 (Once per Coin; excludes allies with max HP or SP)\nWhen an ally recovers from Panic or E.G.O Corrosion, heal 20 SP",
+        "Rank": 1,
+        "MiscTags": [
+					"Heal HP",
+					"Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Spent Use, Forming Hate",
+    "Tag": "Charge",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 247,
+    "Upgrades": [
+      {
+        "Description": "When consuming Charge Count with Attack Skills, gain (Charge Count consumed / 2) Offense Level Up next turn (10 per turn, including Unique Charge)\nTurn End: If any ally lost SP this turn, said ally gains 1 Attack Power Up and 1 Fragile next turn",
+        "Rank": 1,
+        "MiscTags": [
+					"Offense Level Up",
+					"Attack Power Up",
+					"Self Fragile"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Trauma Shield",
+    "Tag": "Keywordless",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 205,
+    "Upgrades": [
+      {
+        "Description": "Encounter Start: All allies gain 2 Trauma Shield",
+        "Rank": 1,
+        "MiscTags": [
+					"Trauma Shield"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Value Disposal",
+    "Tag": "Keywordless",
+    "Abnormality": "**Hatred and Despair**",
+    "Affinity": "Sloth",
+    "Tier": 2,
+    "Cost": 203,
+    "Upgrades": [
+      {
+        "Description": "When an ally dies in an Encounter, gain 2 E.G.O Resources for all affinities\nCombat Start: If there are any allies who Subtituted in this turn, heal 10 SP for 2 allies with the least SP (Once per turn; unless they are in Panic or E.G.O Corrosion)",
+        "Rank": 1,
+        "MiscTags": [
+					"Gain Resources",
+					"Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
   }
 ]
