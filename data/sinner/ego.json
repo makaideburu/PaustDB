@@ -5214,48 +5214,48 @@
     ]
   },
   {
-    "Id": 5000,
+    "Id": 5402,
     "Sinner": "Meursault",
     "Grade": "WAW",
-    "Sanity": 0,
-    "CorrosionSanity": 0,
+    "Sanity": 10,
+    "CorrosionSanity": 30,
     "Abnormality": "Steam Transport Machine",
     "SinResist": {
-      "Wrath": -100,
-      "Lust": -100,
-      "Sloth": -100,
-      "Gluttony": -100,
-      "Gloom": -100,
-      "Pride": -100,
-      "Envy": -100
+      "Wrath": 2,
+      "Lust": 1,
+      "Sloth": 0.5,
+      "Gluttony": 2,
+      "Gloom": 0.5,
+      "Pride": 1,
+      "Envy": 0.75
     },
     "Cost": {
-      "Wrath": 0,
-      "Lust": 0,
-      "Sloth": 0,
+      "Wrath": 2,
+      "Lust": 2,
+      "Sloth": 6,
       "Gluttony": 0,
       "Gloom": 0,
       "Pride": 0,
-      "Envy": 0
+      "Envy": 1
     },
     "ThreadspinTiers": [
       {
         "Tier": 4,
         "Awakening": {
           "Name": "Crushbound Past",
-					"Description": "[Before Attack] If main target has X+ (Tremor + Tremor Count), Atk Weight +Y\n$At Z+, gain more Atk Weight instead\n[Before Attack] For every X highest Res, inflict Tremor on all targets\n[After Attack] For 3 turns, lose SP at Turn End\n[After Attack] Heal (Accumulated Past x X)% HP\n[After Attack] When activating odd-numbered Sloth Res in odd-numbered turns, or even-numbered Sloth Res in even-numbered turns, heal SP\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Inflict +(Sloth Res / X) Tremor Count\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n<2>[On Hit] Inflict Tremor\n<3>[Coin Start] Deal more damage for every Tremor on main target\n<4>[Coin Start] Deal more damage for every (Tremor + Tremor Count) on main target\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this coin's effects increased damage by X%+, trigger Tremor Burst\n$At Y%+ Trigger Tremor Burst; reduce target's Tremor Count",
+					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Res, inflict 1 Tremor on all targets (Max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Res in odd turns, or even Sloth Res in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Res / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 4,
+          "CoinPower": 4,
           "CoinCount": 4,
-          "Level": 0,
+          "Level": 2,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 6,
+          "AttackWeightMod": 9,
           "MiscTags": [
 						"Attack Weight Increase",
 						"Tremor",
@@ -5270,19 +5270,19 @@
         },
         "Corrosion": {
           "Name": "Crushbound Past",
-          "Description": "[Indiscriminate] Targets randomly\nDeal more damage for every highest Res\n$If highest Res was Sloth Res, deal even more damage\n[Before Attack] If main target has X+ (Tremor + Tremor Count), Atk Weight +Y\n[Before Attack]When activating even-numbered Sloth Res in odd-numbered turns, or odd-numbered Sloth Res in even-numbered turns, deal more damage\n[After Attack] Heal (Accumulated Past x X)% HP\n<1>[Coin Start] Deal more damage for every X (Tremor + Tremor Count) on main target\n[On Hit] Inflict Tremor and Tremor Count\n[On Hit] Inflict (Sloth Res) Tremor Count\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this Coin's effects raised damage by X%+, trigger Tremor Burst; reduce target's Tremor Count",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Res (Max 100%)\n$If highest Res was Sloth Res, deal +20% damage for every highest Res instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Res in odd turns, or odd Sloth Res in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Res) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
-          "BasePower": 0,
-          "CoinPower": 0,
+          "BasePower": 30,
+          "CoinPower": -10,
           "CoinCount": 1,
           "Level": 0,
           "BasePowerModifier": 0,
           "FinalPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
-          "AttackWeight": 1,
-          "AttackWeightMod": 1,
+          "AttackWeight": 7,
+          "AttackWeightMod": 9,
           "MiscTags": [
 						"Attack Weight Increase",
 						"Heal HP",
@@ -5295,7 +5295,71 @@
         },
         "Passive": {
           "Name": "Metronome",
-          "Description": "Turn Start: In odd-numbered turns, gain Damage Up; in even-numbered turns, gain Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain Accumulated Past next turn\n$Gain Accumulated Past at every subsequent Turn End",
+          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$Gain 1 Accumulated Past at every subsequent Turn End",
+          "MiscTags": [
+						"Damage Up",
+						"Protection",
+						"Accumulated Past"
+          ]
+        }
+      },
+			{
+        "Tier": 3,
+        "Awakening": {
+          "Name": "Crushbound Past",
+					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Res in odd turns, or even Sloth Res in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Res / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 4,
+          "CoinPower": 3,
+          "CoinCount": 4,
+          "Level": 2,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 6,
+          "AttackWeightMod": 9,
+          "MiscTags": [
+						"Attack Weight Increase",
+						"Tremor",
+						"Self SP Damage",
+						"Heal HP",
+						"Heal SP",
+						"Tremor Count",
+						"Amplitude Entanglement",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+          ]
+        },
+        "Corrosion": {
+          "Name": "Crushbound Past",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Res (Max 100%)\n$If highest Res was Sloth Res, deal +20% damage for every highest Res instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Res in odd turns, or odd Sloth Res in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Res) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "DamageType": "Blunt",
+          "SinType": "Sloth",
+          "BasePower": 30,
+          "CoinPower": -12,
+          "CoinCount": 1,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 7,
+          "AttackWeightMod": 9,
+          "MiscTags": [
+						"Attack Weight Increase",
+						"Heal HP",
+						"Tremor",
+						"Tremor Count",
+						"Amplitude Entanglement",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+          ]
+        },
+        "Passive": {
+          "Name": "Metronome",
+          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$Gain 1 Accumulated Past at every subsequent Turn End",
           "MiscTags": [
 						"Damage Up",
 						"Protection",

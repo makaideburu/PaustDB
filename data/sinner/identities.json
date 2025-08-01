@@ -9280,7 +9280,7 @@
 				},
 				"SkillTwo": {
 					"Name": "With Love! Hyah!",
-					"Description": "[On Use] Deal +10% damage for every Love/Hate on self (Max 50%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +5 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
+					"Description": "[On Use] Deal +12.5% damage for every Love/Hate on self (Max 75%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +5 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 6,
@@ -9325,7 +9325,7 @@
 				},
 				"SkillThree": {
 					"Name": "Arcana Beats!! / Minor Arcana Slave",
-					"Description": "Deal +30% damage for every Magical Arcana\n[On Use] At 3+ Love/Hate, deal +(Love/Hate x 20)% damage (Max 100%)\n[On Use] At 3+ Love/Hate, Base Power +2\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 4)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
+					"Description": "Deal +30% damage for every Magical Arcana\n[On Use] At 2+ Love/Hate, deal +(Love/Hate x 25)% damage (Max 125%)\n[On Use] At 2+ Love/Hate, Base Power +2\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 4)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -9346,7 +9346,7 @@
 					],
 					"AltSkill": {
 						"Name": "Reversed Beats / Reversed Arcana Slave",
-						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria; Clash Power +1 for every Stack consumed\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 5 Count consumed, max 4)\n[On Use] Deal +24% damage for every Love/Hate (Max 120%)\n[Before Attack] Consume all Magical Arcana; Atk Weight +1 for every Stack consumed\n$If 3 Hysteria was spent, Atk Weight +1\n[Before Attack] If this Skill only has one target, deal +(20 x (Atk Weight - 1))% damage (Max 80%)\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
+						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria; Clash Power +1 for every Stack consumed\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 5 Count consumed, max 4)\n[On Use] Deal +30% damage for every Love/Hate (Max 150%)\n[Before Attack] Consume all Magical Arcana; Atk Weight +1 for every Stack consumed\n$If 3 Hysteria was spent, Atk Weight +1\n[Before Attack] If this Skill only has one target, deal +(20 x (Atk Weight - 1))% damage (Max 80%)\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 20,
@@ -9487,7 +9487,7 @@
 				},
 				"SkillTwo": {
 					"Name": "With Love! Hyah!",
-					"Description": "[On Use] Deal +6% damage for every Love/Hate on self (Max 30%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +3 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
+					"Description": "[On Use] Deal +7.5% damage for every Love/Hate on self (Max 30%)\n[On Use] Consume 6 Love/Hate Count to gain Coin Power +1\n[On Use] Gain +3 Love/Hate Count\n<1>[On Hit] Gain +4 Love/Hate Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict Mark of Villainy against main target next turn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -9532,7 +9532,7 @@
 				},
 				"SkillThree": {
 					"Name": "Arcana Beats!! / Minor Arcana Slave",
-					"Description": "Deal +15% damage for every Magical Arcana\n[On Use] At 3+ Love/Hate, deal +(Love/Hate x 15)% damage (Max 75%)\n[On Use] At 3+ Love/Hate, Base Power +1\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 2)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
+					"Description": "Deal +15% damage for every Magical Arcana\n[On Use] At 2+ Love/Hate, deal +(Love/Hate x 20)% damage (Max 80%)\n[On Use] At 2+ Love/Hate, Base Power +1\n[On Use] Consume Love/Hate Count to gain Coin Power (Coin Power +1 for every 5 Count consumed, max 2)\n[On Use] Gain +6 Love/Hate Count\n[After Attack] Gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -9553,7 +9553,7 @@
 					],
 					"AltSkill": {
 						"Name": "Reversed Beats / Reversed Arcana Slave",
-						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria to gain Clash Power +1\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 8 Count consumed, max 2)\n[On Use] Deal +12% damage for every Love/Hate (Max 60%)\n[Before Attack] Consume all Magical Arcana to gain Atk Weight +1\n[Before Attack] If this Skill only has one target but 2+ Atk Weight, +20% damage\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
+						"Description": "Deal -50% damage against sub-targets\n[On Use] Consume all Hysteria to gain Clash Power +1\n[On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 8 Count consumed, max 2)\n[On Use] Deal +15% damage for every Love/Hate (Max 60%)\n[Before Attack] Consume all Magical Arcana to gain Atk Weight +1\n[Before Attack] If this Skill only has one target but 2+ Atk Weight, +20% damage\n[Before Attack] Base Power -6 for every Cracked Coin (Max -18)\n[Turn End] If this unit is between 0 and -44 SP, heal SP. Heal more SP the lower this unit's SP is from 0 (2 SP for every missing SP, max 50)\n[On Use] Lose 10 SP\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Sinking",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 20,
@@ -34824,32 +34824,32 @@
 		]
 	},
 	{
-		"Id": 12000,
+		"Id": 12308,
 		"Sinner": "Outis",
 		"Identity": "T Corp. Class 3 VDCU Staff",
 		"World": "",
-		"Speed": "???",
+		"Speed": "4-7",
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "Prepare to Collect",
-					"Description": "[On Use] Gain Tremor Count\n[On Use] If target has X+ Tremor, Coin Power +Y\n<1>[On Hit] Inflict Tremor Count\n<2>[On Hit] Inflict Tremor Count",
+					"Description": "[On Use] Gain +3 Tremor Count\n[On Use] If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Inflict +1 Tremor Count",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 1,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -34860,16 +34860,16 @@
 				},
 				"SkillTwo": {
 					"Name": "T Corp. Microcavity Module",
-					"Description": "[On Use] Gain Tremor Count\n[On Use] If target has X+ Tremor, Coin Power +Y\n<1>[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Tremor\n[On Hit] If target has X+ Tremor, consume X Tremor on target to apply Tremor Count on self and target\n<3>If target is in Amplitude Conversion or Amplitude Entanglement, deal more damage\n[On Hit] If target isn't in Ampltiude Conversion or Amplitude Entanglement, consume Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If target has X+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count",
+					"Description": "[On Use] Gain +4 Tremor Count\n[On Use] If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>If target is in Amplitude Conversion or Amplitude Entanglement, deal +60% damage\n[On Hit] If target isn't in Ampltiude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 5,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -34886,17 +34886,22 @@
 				},
 				"SkillThree": {
 					"Name": "T-3 Collector Mace Max Activation",
-					"Description": "If target is in Amplitude Conversion or Amplitude Entanglement, deal more damage\nIf target has Time Moratorium, deal more damage\n[On Use] Coin Power +X for every Y Tremor on target\n[On Use] If target has Bind, Coin Power +X\n[After Attack] Lose Borrowed Time\n[After Attack] Gain Violent Collections\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Consume Tremor on target\n$Gain (Tremor consumed x X) Tremor Count\n$Inflict (Tremor consumed - Y) Bind next turn\n<2>[On Hit] If target has X+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count\n<3>[Coin Start] Consume all Tremor Count on self\n$Coin Power +X for every Y Tremor Count consumed\n$Deal more damage for every Z Tremor Count consumed\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this unit has Borrowed Time, trigger Tremor Burst\n[On Hit] If this unit has Borrowed Time, inflict Time Moratorium",
+					"Description": "If target is in Amplitude Conversion or Amplitude Entanglement, deal +30% damage\nIf target has Time Moratorium, deal +30% damage\n[On Use] Coin Power +1 for every 6 Tremor on target (Max 2)\n[On Use] If target has Bind, Clash Power +1\n[After Attack] Lose Borrowed Time\n[After Attack] Gain Violent Collections (Once per Encounter)\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Consume up to 3 Tremor on target\n$Gain (Tremor consumed x 2) Tremor Count\n$Inflict (Tremor consumed - 1) Bind next turn\n<2>[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[Coin Start] Consume all Tremor Count on self\n$Coin Power +1 for every 4 Tremor Count consumed (Max 5)\n$Deal +2% damage for every Tremor Count consumed (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this unit has Borrowed Time, trigger Tremor Burst\n[On Hit] If this unit has Borrowed Time, inflict 2 Time Moratorium",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 5,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"CoinOverride": [
+						6,
+						6,
+						11
+					],
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -34914,15 +34919,15 @@
 				},
 				"SkillDefense": {
 					"Name": "Borrowed Time - Microcavity",
-					"Description": "[Clashable Guard]\n[Combat Start] If this unit is not in Borrowed Time state, gain Borrowed Time at Turn End\n[Clash Win] Apply Tremor Count to self and target\n[Clash Lose] Gain Tremor Count\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[Combat Start] If this unit is not in Borrowed Time state, gain 4 Borrowed Time at Turn End\n[Clash Win] Apply +2 Tremor Count to self and target\n[Clash Lose] Gain +4 Tremor Count\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Sloth",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 10,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -34937,14 +34942,14 @@
 				},
 				"PassiveSkill": {
 					"Name": "Golden Time - Microcavity",
-					"Description": "Turn End: If unit's HP is between X% ~ Y%, instantly heal Z% of this unit's max HP, and recover from Stagger\nIf unit has Borrowed Time, Skills gain Final Power",
+					"Description": "Turn End: If unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger (Once per Encounter)\nIf unit has Borrowed Time, Skills gain Final Power +1",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Sloth",
+							"ResourceCount": 5
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Heal HP",
 						"Nullify Stagger"
@@ -34952,14 +34957,148 @@
 				},
 				"SupportSkill": {
 					"Name": "Expeditious Execution of Official Duties",
-					"Description": "1 ally with the fastest Speed deals more damage when attacking a Staggered target",
+					"Description": "1 ally with the fastest Speed deals +10% damage when attacking a Staggered target",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Sloth",
+							"ResourceCount": 5
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Prepare to Collect",
+					"Description": "[On Use] Gain +2 Tremor Count\n[On Use] If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Inflict +1 Tremor Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Tremor Count",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "T Corp. Microcavity Module",
+					"Description": "[On Use] Gain +3 Tremor Count\n[On Use] If target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>[On Hit] If target isn't in Ampltiude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 3,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Tremor Count",
+						"Tremor",
+						"Spend Enemy Tremor",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Chain",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"Name": "T-3 Collector Mace Max Activation",
+					"Description": "If target is in Amplitude Conversion or Amplitude Entanglement, deal +30% damage\n[On Use] If target has 6+ Tremor, Coin Power +1\n[After Attack] Lose Borrowed Time\n[After Attack] Gain Violent Collections (Once per Encounter)\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Consume up to 3 Tremor on target\n$Gain (Tremor consumed x 2) Tremor Count\n$Inflict (Tremor consumed - 1) Bind next turn\n<2>[On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[Coin Start] Consume all Tremor Count on self\n$Coin Power +1 for every 5 Tremor Count consumed (Max 5)\n$Deal +1% damage for every Tremor Count consumed (Max 50%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this unit has Borrowed Time, trigger Tremor Burst\n[On Hit] If this unit has Borrowed Time, inflict 2 Time Moratorium",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"CoinOverride": [
+						5,
+						5,
+						10
+					],
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Borrowed Time",
+						"Violent Collections",
+						"Tremor Count",
+						"Spend Enemy Tremor",
+						"Self Tremor Count",
+						"Bind",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Spend Self Tremor Count",
+						"Time Moratorium"
+					]
+				},
+				"SkillDefense": {
+					"Name": "Borrowed Time - Microcavity",
+					"Description": "[Clashable Guard]\n[Combat Start] If this unit is not in Borrowed Time state, gain 4 Borrowed Time at Turn End\n[Clash Win] Apply +2 Tremor Count to self and target\n[Clash Lose] Gain +4 Tremor Count\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 2,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Borrowed Time",
+						"Self Tremor Count",
+						"Tremor Count",
+						"Unbreakable Coin"
+					]
+				},
+				"PassiveSkill": {
+					"Name": "Golden Time - Microcavity",
+					"Description": "Turn End: If unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger (Once per Encounter)\nIf unit has Borrowed Time, Skills gain Final Power +1",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Heal HP",
+						"Nullify Stagger"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Expeditious Execution of Official Duties",
+					"Description": "1 ally with the fastest Speed deals +10% damage when attacking a Staggered target",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
 					]

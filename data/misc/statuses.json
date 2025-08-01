@@ -2562,13 +2562,13 @@
 	},
 	{
 		"Name": "Violent Collections",
-		"Description": "When this unit has Haste, gain more Tremor Count from Base Skills\nIf unit's Speed is faster than target's, deal more damage based on the Speed difference",
+		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (Max 15%)",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Accumulated Past",
-		"Description": "Max Stack: 12\nTurn Start: Gain Clash Power Up and Offense Level Up for every X Stack",
+		"Description": "Max Stack: 12\nTurn Start: Gain 1 Clash Power Up and 1 Offense Level Up for every 3 Stack",
 		"Tags": [
 			"Clash Power Up",
 			"Offense Level Up"
