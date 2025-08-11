@@ -2455,7 +2455,7 @@
 	},
 	{
 		"Name": "Reflux",
-		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n$Take (Sinking x Stack) Gloom damage\n$Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
+		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n└Take (Sinking x Stack) Gloom damage\n└Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
 		"Tags": [
 			"Sinking"
 		]
@@ -2476,7 +2476,7 @@
 	},
 	{
 		"Name": "Magical Arcana",
-		"Description": "Max Stack: 3\nBase Attack Skills deal +(Stack x 5)% damage\n$Turn End: At 3 Stack and -25 or higher SP, change SP to -25",
+		"Description": "Max Stack: 3\nBase Attack Skills deal +(Stack x 5)% damage\n└Turn End: At 3 Stack and -25 or higher SP, change SP to -25",
 		"Tags": [
 		]
 	},
@@ -2492,7 +2492,7 @@
 	},
 	{
 		"Name": "Hysteria",
-		"Description": "Base Stack: 0\nMax Stack: 3\nTurn End:\n$At 0+ SP, lose 1 Stack\n$At less than 0 SP, gain 1 Stack",
+		"Description": "Base Stack: 0\nMax Stack: 3\nTurn End:\n└At 0+ SP, lose 1 Stack\n└At less than 0 SP, gain 1 Stack",
 		"Tags": []
 	},
 	{
@@ -2536,7 +2536,7 @@
 	},
 	{
 		"Name": "Tear-sharpened",
-		"Description": "Max Stack: 3\nTurn Start: Gain 5 Deep Tears\n$At 3 Stack, gain additional 5 Deep Tears\nTurn End: Lose (Stack x 15) SP\nBase Attack Skills deal +(Stack x 10)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
+		"Description": "Max Stack: 3\nTurn Start: Gain 5 Deep Tears\n└At 3 Stack, gain additional 5 Deep Tears\nTurn End: Lose (Stack x 15) SP\nBase Attack Skills deal +(Stack x 10)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
 		"Tags": [
 			"Deep Tears",
 			"Self SP Damage",
@@ -2586,5 +2586,84 @@
 		"Name": "Trauma Shield",
 		"Description": "Reduce SP damage from enemies by 80%\nReduce Sinking damage taken by 80%\nReduced by 1 at Turn End",
 		"Tags": []
+	},
+	{
+		"Name": "Tremor - Distribution",
+		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (Max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Tags": [
+			"Unique Tremor",
+			"Offense level Up"
+		]
+	},
+	{
+		"Name": "Microprecision Time Acceleration",
+		"Description": "This unit gains base Min and Max Speed by Stack\nSkills that inflict Tremor, Tremor Count or trigger Tremor Burst gain Base Power +(Stack), deal +(Stack x 10)% damage against enemies, and when raising Stagger Threshold via Tremor Burst, increase the amount raised by (Stack x 10)% (including E.G.O Skills)\nReduced by 1 at Turn End\nAt 1 Stack, the Stack does not drop below 1 and is maintained through the Encounter",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Base Power"
+		]
+	},
+	{
+		"Name": "Life from Death",
+		"Description": "Max Stack: 5\nTurn Start:\n└Gain Offense Level Up for every X Stack\n└Gain Damage Up for every X Stack\n└Gain Attack Power Up at X+ Stack",
+		"Tags": [
+			"Offense Level Up",
+			"Damage Up",
+			"Attack Power Up"
+		]
+	},
+	{
+		"Name": "Exalted Command",
+		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if unit B's Skill 3 is not unlocked",
+		"Tags": [
+			"Follow Up"
+		]
+	},
+	{
+		"Name": "Unrelenting Storm",
+		"Description": "Number of times this unit activated combo with The Lord of Hongyuan Hong Lu\nMax Stack: 2\nTurn Start: Gain Offense Level Up and Defense Level Up for every X Stack",
+		"Tags": [
+			"Offense Level Up",
+			"Defense Level Up"
+		]
+	},
+	{
+		"Name": "Your Will Guides My Blade.",
+		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End.\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills",
+		"Tags": [
+			"Follow Up"
+		]
+	},
+	{
+		"Name": "Lordsguard",
+		"Description": "Unique Assist Defense\nMax Stack: 1\nWhen The Lord of Hongyuan Hong Lu is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; copy and use The Lord of Hongyuan Hong Lu's 'Lordsguard' Skill\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nThis effect counts as Assist Defense, and is counted toward Assist Defense Stacks\nExpires at Turn End",
+		"Tags": [
+			"Assist Defense"
+		]
+	},
+	{
+		"Name": "Leash-holder of All Heishou",
+		"Description": "Max Stack: 11\nGain the following based on Stack:\nFor every X Stack, gain Max Speed and deal more damage with Skills\nFor every X Stack, gain Min Speed and Defense Level Up\nFor every X Stack, gain Offense Level Up\nAt X+ Stack, gain Damage Up and apply Offense Level Up to all Heishou Pack Identities",
+		"Tags": [
+			"Max Speed",
+			"Min Speed",
+			"Defense Level Up",
+			"Offense Level Up",
+			"Damage Up",
+			"Ally Offense Level Up"
+		]
+	},
+	{
+		"Name": "Heishou Bolus Contamination",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take less damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal more damage\nMao Outis: Inflict Rupture Count On Hit with Unopposed Attacks\nSi Rodion: Inflict Rupture On Critical Hit\nSi Gregor: Gain Poise Count when dealing Rupture damage",
+		"Tags": [
+			"Max Speed",
+			"Min Speed",
+			"Defense Level Up",
+			"Offense Level Up",
+			"Damage Up",
+			"Ally Offense Level Up"
+		]
 	}
 ]

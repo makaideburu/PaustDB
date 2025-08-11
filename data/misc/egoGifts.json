@@ -433,21 +433,21 @@
     "Cost": 200,
     "Upgrades": [
       {
-        "Description": "Skills deal +10% damage to Staggered enemies.\nIf the Skill's affinity was Sloth, deal +20% damage instead.",
+        "Description": "Skills deal +10% damage to Staggered enemies.\nWhen using a Sloth Skill, or a Skill that inflicts Tremor, Tremor Count, triggers Amplitude Entanglement, Tremor Burst, or Amplitude Conversion, deal +20% damage instead.",
         "Rank": 1,
         "MiscTags": [
           "Damage Amp"
         ]
       },
       {
-        "Description": "Skills deal +12.5% damage to Staggered enemies.\nIf the Skill's affinity was Sloth, deal +25% damage instead.",
+        "Description": "Skills deal +12.5% damage to Staggered enemies.\nWhen using a Sloth Skill, or a Skill that inflicts Tremor, Tremor Count, triggers Amplitude Entanglement, Tremor Burst, or Amplitude Conversion, deal +25% damage instead.",
         "Rank": 2,
         "MiscTags": [
           "Damage Amp"
         ]
       },
       {
-        "Description": "Skills deal +15% damage to Staggered enemies.\nIf the Skill's affinity was Sloth, deal +30% damage instead.",
+        "Description": "Skills deal +15% damage to Staggered enemies.\nWhen using a Sloth Skill, or a Skill that inflicts Tremor, Tremor Count, triggers Amplitude Entanglement, Tremor Burst, or Amplitude Conversion, deal +30% damage instead.",
         "Rank": 3,
         "MiscTags": [
           "Damage Amp"
@@ -2396,7 +2396,7 @@
         ]
       },
       {
-        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +6 Charge Count.\nTurn Start: All allies gain +3 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
+        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +6 Charge Count.\nTurn Start: All allies gain +3 Charge Count.\n#1 Deployed Identity gains 10 Near-light Superbattery",
         "Rank": 2,
         "MiscTags": [
           "Charge Count Limit Increase",
@@ -2405,7 +2405,7 @@
         ]
       },
       {
-        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +8 Charge Count.\nTurn Start: All allies gain +4 Charge Count.\n#1 Deployed Identity gains 1 Near-light Superbattery",
+        "Description": "Max Charge Count +10.\nEncounter Start: All allies gain +8 Charge Count.\nTurn Start: All allies gain +4 Charge Count.\n#1 Deployed Identity gains 20 Near-light Superbattery",
         "Rank": 3,
         "MiscTags": [
           "Charge Count Limit Increase",
@@ -5635,7 +5635,7 @@
   },
   {
     "Name": "Warning Notice",
-    "Tag": "Tremor",
+    "Tag": "Keywordless",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Pride",
     "Tier": 2,
@@ -5752,7 +5752,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor triggers Amplitude Conversion on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
+        "Description": "Activates when there are 5+ Identities that have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor effects. (Not counting E.G.O Skills)\nTo allies' Skill 3s that inflict Tremor, Tremor Count, or Unique Tremor: Coin Power +2 and deal +25% damage.\nWhen an ally that inflicts Tremor, Tremor Count, or Unique Tremor triggers Amplitude Conversion or Amplitude Entanglement on an enemy with Attack Skills (including E.G.O Skills): multiply the Tremor and Tremor Count by 1.5 (only when actually Converting them into different Tremor types) and inflict 5 Defense Level Down next turn. (Once per turn)\nFirst Turn Start of a Wave: Inflict (12 - current Speed) Tremor (Min 6) to 3 enemies with the slowest Speed.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -6780,7 +6780,8 @@
     "Cost": 405,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, counts Identities on field. Counts, but excludes Self-Tremor Identities from effects)\nOn Clash Win with a Skill that inflicts Tremor/Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor; if they did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, counts Identities on field. Counts, but excludes Self-Tremor Identities from effects)\nOn Clash Win with a Skill that inflicts Tremor/Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins; Max 3) Tremor Count; if they did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)",
+				"DescriptionContd": "When target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor Superposition, extend the Tremor - Superposition on target to the next turn",
         "Rank": 1,
         "MiscTags": [
           "Tremor",
@@ -9125,6 +9126,144 @@
         "MiscTags": [
 					"Gain Resources",
 					"Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Interlinked Time",
+    "Tag": "Tremor",
+    "Abnormality": "**Timekilling Time BokGak**",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 147,
+    "Upgrades": [
+      {
+        "Description": "When triggering Amplitude Conversion or Amplitude Entanglement, trigger Tremor Burst on target (Once per turn per Identity)",
+        "Rank": 1,
+        "MiscTags": [
+					"Tremor Burst"
+        ]
+      },
+      {
+        "Description": "When triggering Amplitude Conversion or Amplitude Entanglement, trigger Tremor Burst on target (2 times per turn per Identity)",
+        "Rank": 2,
+        "MiscTags": [
+					"Tremor Burst"
+        ]
+      },
+      {
+        "Description": "When triggering Amplitude Conversion or Amplitude Entanglement, trigger Tremor Burst on target (2 times per turn per Identity)",
+        "Rank": 3,
+        "MiscTags": [
+					"Tremor Burst"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Emergency Investigator Badge",
+    "Tag": "Keywordless",
+    "Abnormality": "**Timekilling Time BokGak**",
+    "Affinity": "Envy",
+    "Tier": 2,
+    "Cost": 172,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #3 Deployed Identity]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +10% damage with Attack Skills",
+        "Rank": 1,
+        "MiscTags": [
+					"Unrelenting",
+					"Heal HP",
+					"Nullify Stagger",
+					"Attack Power Up",
+					"Self Fragile"
+        ]
+      },
+      {
+        "Description": "[Effect applies to #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +12.5% damage with Attack Skills",
+        "Rank": 2,
+        "MiscTags": [
+					"Unrelenting",
+					"Heal HP",
+					"Nullify Stagger",
+					"Attack Power Up",
+					"Self Fragile"
+        ]
+      },
+      {
+        "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 2 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +15% damage with Attack Skills",
+        "Rank": 3,
+        "MiscTags": [
+					"Unrelenting",
+					"Heal HP",
+					"Nullify Stagger",
+					"Attack Power Up",
+					"Self Fragile"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Entanglement Override Sequencer",
+    "Tag": "Tremor",
+    "Abnormality": "**Timekilling Time BokGak**",
+    "Affinity": "Sloth",
+    "Tier": 3,
+    "Cost": 243,
+    "Upgrades": [
+      {
+        "Description": "At Turn Start, for 1 Identity with the most Tremor Count, trigger Amplitude Entanglement into Tremor - Distribution",
+        "Rank": 1,
+        "MiscTags": [
+					"Self Amplitude Entanglement",
+					"Tremor - Distribution"
+        ]
+      },
+      {
+        "Description": "At Turn Start, for 2 Identities with the most Tremor Count, trigger Amplitude Entanglement into Tremor - Distribution",
+        "Rank": 2,
+        "MiscTags": [
+					"Self Amplitude Entanglement",
+					"Tremor - Distribution"
+        ]
+      },
+      {
+        "Description": "At Turn Start, for 3 Identities with the most Tremor Count, trigger Amplitude Entanglement into Tremor - Distribution",
+        "Rank": 3,
+        "MiscTags": [
+					"Self Amplitude Entanglement",
+					"Tremor - Distribution"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Microprecision Time Accelerator",
+    "Tag": "Tremor",
+    "Abnormality": "**Timekilling Time BokGak**",
+    "Affinity": "Sloth",
+    "Tier": 4,
+    "Cost": 393,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #1 Deployed Identity]\nApplies to Identities with Skills that inflict Tremor, Tremor Count, or trigger Tremor Burst.\nEncounter Start: Gain 5 Microprecision Time Acceleration",
+        "Rank": 1,
+        "MiscTags": [
+					"Self Amplitude Entanglement",
+					"Tremor - Distribution"
         ]
       }
     ],
