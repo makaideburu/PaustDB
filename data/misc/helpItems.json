@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.9.0 (2025-08-11)",
+        "```cover yourself in alt skills```"
+      ],
+      [
         "2.8.1 (2025-07-17)",
         "```fix for calc error with modified minus coins (did not matter until now)```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.6.2.1 (2025-05-19)",
         "```oh no not again```"
-      ],
-      [
-        "2.6.2 (2025-05-15)",
-        "```Inconsequential backend stuff that should be inconsequential for real```"
       ]
     ],
     "OldItems": [
@@ -336,6 +336,10 @@
       [
         "2.6.1 (2025-04-30)",
         "```nothing happened here```"
+      ],
+      [
+        "2.6.2 (2025-05-15)",
+        "```Inconsequential backend stuff that should be inconsequential for real```"
       ]
     ],
     "HelpFooter": ""

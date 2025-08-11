@@ -1803,7 +1803,7 @@
     "Cost": 184,
     "Upgrades": [
       {
-        "Description": "This Gift activates when an ally has 15+ Charge Count at Turn Start.\nCombat Start: The ally with 15+ Charge Count loses 3 Charge Count and gains 5 Offense Level for the turn.",
+        "Description": "This Gift activates when an ally has 15+ Charge Count at Turn Start (Including Unique Charge)\nCombat Start: The ally with 15+ Charge Count loses 3 Charge Count and gains 5 Offense Level for the turn.",
         "Rank": 1,
         "MiscTags": [
           "Spend Charge Count",
@@ -3175,7 +3175,7 @@
     "Cost": 406,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (Maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain ((Charge Count + Unique Charge) / 5 + 1) Damage Up (Max 9; rounded up)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (Maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they conume 10 Charge Count (5 times per Identity per Encounter; Unique Charge deos not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (Max 2)",
+        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (Maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (Max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (Maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they conume 10 Charge Count (5 times per Identity per Encounter; Unique Charge deos not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (Max 2)",
         "Rank": 1,
         "MiscTags": [
           "Charge Barrier",
@@ -6443,7 +6443,7 @@
     "Cost": 207,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nTurn Start: All allies gain ((Charge Count + Unique Charge) / 10) Damage Up. (Max 2, rounded up)\nTurn End: Allies without Charge Barrier gain 1 Charge Barrier",
+        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nTurn Start: All allies gain (Charge Count / 10) Damage Up. (Max 2, rounded up; including Unique Charge)\nTurn End: Allies without Charge Barrier gain 1 Charge Barrier",
         "Rank": 1,
         "MiscTags": [
           "Damage Up",
@@ -6846,7 +6846,7 @@
     "Cost": 406,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, counts Identities on field)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (Max 6)\nWhen inflicting Rupture with Skill effects, inflict 2 Rupture and +1 Rupture Count; if target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (Min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, counts Identities on field)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (Max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (Min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
         "Rank": 1,
         "MiscTags": [
           "Rupture",
@@ -7004,7 +7004,7 @@
     "Cost": 205,
     "Upgrades": [
       {
-        "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count",
+        "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count (Including Unique Charge)",
         "Rank": 1,
         "MiscTags": [
           "Charge Count"
@@ -8838,7 +8838,7 @@
     ]
   },
   {
-    "Name": "Lightening Axe",
+    "Name": "Lightning Axe",
     "Tag": "Charge",
     "Abnormality": "**Four Houses and Greed**",
     "Affinity": "Envy",
@@ -8913,7 +8913,7 @@
     "Cost": 396,
     "Upgrades": [
       {
-        "Description": "Activates when 3+ Identities have Skills that consume Bloodfeast (Except E.G.O Skills, except Backup Units)\nBefore using Skills that consume Bloodfeast, if target has 30+ Bleed, reduce their Bleed to 15. Then, increase Bloodfeast equal to the Bleed reduced. (Once per turn for the enemy group as a whole; activates only against the main target with 2+ Atk Weight Skills)\nFor Identities with Skills that consume Bloodfeast: Apply 1 Power Up and 1 Damage Up for every 10 Bloodfeast generated with the above effect (Max 4)",
+        "Description": "Activates when 3+ Identities have Skills that consume Bloodfeast (Except E.G.O Skills, except Backup Units)\nCombat Start: If a target is getting attacked by an Identity that consumes Bloodfeast has 30+ Bleed, reduce their Bleed to 15. Then, increase Bloodfeast equal to the Bleed reduced. (Once per turn for the enemy group as a whole; activates only against the main target with 2+ Atk Weight Skills)\nFor Identities with Skills that consume Bloodfeast: Apply 1 Power Up and 1 Damage Up for every 10 Bloodfeast generated with the above effect (Max 4)",
         "Rank": 1,
         "MiscTags": [
           "Spend Enemy Bleed",

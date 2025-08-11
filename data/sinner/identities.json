@@ -18612,7 +18612,7 @@
 					},
 					"BLTSkill": {
 						"Name": "Lonesome Stand: Sacrifice to Claim The Garden",
-						"Description": "Deal more damage for every Life from Death\nDeal more damage for every X% (missing HP% on target + missing HP% on self)\n[On Use]At X+ Life from Death, Atk Weight +Y\n[On Use] Coin Power +X for every Y (target's Rupture + Poise on self)\n[On Use] Deal more damage for every X negative effects on target\n[On Use] Deal more damage for every X Heishou Bolus Contamination\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n<3>Deal more damage for every X negative effects on target\n[On Hit] Inflict Rupture\n[On Hit] Inflict Slash Resist Down next turn\n[On Kill] Gain Attack Power Up next turn",
+						"Description": "Deal more damage for every Life from Death\nDeal more damage for every X% (missing HP% on target + missing HP% on self)\n[On Use] At X+ Life from Death, Atk Weight +Y\n[On Use] Coin Power +X for every Y (target's Rupture + Poise on self)\n[On Use] Deal more damage for every X negative effects on target\n[On Use] Deal more damage for every X Heishou Bolus Contamination\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n<3>Deal more damage for every X negative effects on target\n[On Hit] Inflict Rupture\n[On Hit] Inflict Slash Resist Down next turn\n[On Kill] Gain Attack Power Up next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
 						"BasePower": 0,
