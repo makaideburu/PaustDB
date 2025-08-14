@@ -18540,7 +18540,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Tarnished Blood's Absolute Cleaver of Ambitions",
-					"Description": "[Combat Start] Apply 1 Gluttony DMG Up to an other ally that has a Gluttony Skill equipped this turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +2 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture",
+					"Description": "[Combat Start] Apply 1 Gluttony DMG Up to all other allies that have a Gluttony Skill equipped this turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +2 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
