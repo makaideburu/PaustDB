@@ -18507,28 +18507,28 @@
 		"Sinner": "Hong Lu",
 		"Identity": "The Lord of Hongyuan",
 		"World": "",
-		"Speed": "???",
+		"Speed": "4-8",
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 0.5,
+			"Pierce": 1,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "I Wish to Open the Path",
-					"Description": "[Combat Start] Apply Defense Level Up to 1 + (Highest Res / X) other allies (Prioritizes allies with Assist Defense\n[On Use] At X+ (target's Rupture + self Poise), Coin Power +Y\n[On Use] If target has X+ negative effects, Clash Power +Y\n<1>[On Hit] Gain Poise Count\n<2>[On Hit] Inflict Rupture Count",
+					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Res / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[On Hit] Gain +3 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -18540,16 +18540,16 @@
 				},
 				"SkillTwo": {
 					"Name": "Tarnished Blood's Absolute Cleaver of Ambitions",
-					"Description": "[Combat Start] Apply Gluttony DMG Up to an other ally that has a Gluttony Skill equipped this turn\n[On Use] Coin Power +X for every Y (target's Rupture + self Poise)\n[On Use] Gain Poise\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Gain Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n<4>[Unbreakable Coin] Deal more damage\nDeal more damage on Critical Hit\n[On Hit] Inflict Rupture",
+					"Description": "[Combat Start] Apply 1 Gluttony DMG Up to an other ally that has a Gluttony Skill equipped this turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +2 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -18564,16 +18564,16 @@
 				},
 				"SkillThree": {
 					"Name": "Answer Me, Heishou Packs",
-					"Description": "Does not trigger Defense Skills\n[On Use] Coin Power +X for every Y (target's Rupture + self Poise)\n[On Use] Gain Poise and Poise Count\n[After Attack] Among ally Heishou units that can act, choose 1 unit with the least Unrelenting Storm and apply Unrelenting Storm; bestow Exalted Command\n$After Exalted Command is complete, this unit activates'I Carve the Path of a Lord'\n$If Exalted Command did not activate, or the combo Identity is Staggered or defeated before completion, use 'Lonesome Stand: Sacrifice to Claim The Garden' instead\n<1>[Unbreakable Coin]\n[On Hit] Inflict Offense Level Down for every X negative effects on target\n[On Hit] Inflict Defense Level Down for every X Deathrites on target",
+					"Description": "Does not trigger Defense Skills\n[On Use] Coin Power +1 for every 4 (target's Rupture + self Poise) (Max 3)\n[On Use] Gain 5 Poise and +3 Poise Count\n[After Attack] Among ally Heishou units that can act, 1 unit with the least Unrelenting Storm gains Unrelenting Storm and Exalted Command (Once per turn)\n$After Exalted Command is complete, activate 'I Carve the Path of a Lord'\n$If Exalted Command was not applied or failed, use 'Lonesome Stand: Sacrifice to Claim The Garden' instead\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Offense Level Down for every 2 negative effects on target (Max 3)\n[On Hit] Inflict 1 Defense Level Down for every Deathrite on target (Max 3)",
 					"DamageType": "Slash",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 10,
+					"CoinPower": 12,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -18588,16 +18588,16 @@
 					],
 					"AltSkill": {
 						"Name": "I Carve the Path of a Lord",
-						"Description": "[On Use] If this unit activated a combo with a Heishou Pack Adept Identity, Base Power +X and Coin Power +Y\nDeal more damage for every X% (missing HP% on target + missing HP% on self)\n[On Use] Coin Power +X for every Y (target's Rupture + self Poise)\n[On Use] Deal more damage for every X negative effects on target\n[On Use] Deal more damage for every X Heishou Bolus Contamination\n[After Attack] Gain Heishou Bolus Contamination for the Heishou Pack Identity given Exalted Command\n<1>[On Hit] Inflict Rupture Count\n<2>Deal more damage on Critical Hit\n[On Hit] Inflict Rupture\n[On Hit] Inflict Slash Resist Down next turn\n[On Kill] For the Heishou Pack Identity with the least SP, heal SP and apply Attack Power Up next turn",
+						"Description": "[On Use] If this skill combos with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\nDeal +1% damage for every 1% (missing HP% on target + self) (Max 50%)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 3)\n[On Use] Deal +10% damage for every 2 negative effects on target (Max 30%)\n[On Use] Deal +10% damage for every Heishou Bolus Contamination\n[After Attack] Gain Heishou Bolus Contamination for the comboing Heishou Pack Identity\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 1 Slash Resist Down next turn (Once per turn)\n[On Kill] 2 Heishou Pack Identities with the least SP heal 10 SP and apply 1 Attack Power Up next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 6,
+						"CoinPower": 4,
 						"CoinCount": 2,
-						"Level": 0,
-						"BasePowerModifier": 0,
+						"Level": 3,
+						"BasePowerModifier": 1,
 						"FinalPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 4,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
@@ -18612,19 +18612,19 @@
 					},
 					"BLTSkill": {
 						"Name": "Lonesome Stand: Sacrifice to Claim The Garden",
-						"Description": "Deal more damage for every Life from Death\nDeal more damage for every X% (missing HP% on target + missing HP% on self)\n[On Use] At X+ Life from Death, Atk Weight +Y\n[On Use] Coin Power +X for every Y (target's Rupture + Poise on self)\n[On Use] Deal more damage for every X negative effects on target\n[On Use] Deal more damage for every X Heishou Bolus Contamination\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture\n<3>Deal more damage for every X negative effects on target\n[On Hit] Inflict Rupture\n[On Hit] Inflict Slash Resist Down next turn\n[On Kill] Gain Attack Power Up next turn",
+						"Description": "Deal +10% damage for every Life from Death\nDeal +1% damage for every 1% (missing HP% on target + self) (Max 50%)\n[On Use] At 3+ Life from Death, Atk Weight +1\n[On Use] Coin Power +1 for every 6 (target's Rupture + Poise on self) (Max 3)\n[On Use] Deal +10% damage for every 2 negative effects on target (Max 30%)\n[On Use] Deal +10% damage for every Heishou Bolus Contamination\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>Deal +10% damage for every negative effect on target (Max 50%)\n[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Slash Resist Down next turn (Once per turn)\n[On Kill] Gain 2 Attack Power Up next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 6,
+						"CoinPower": 4,
 						"CoinCount": 3,
-						"Level": 0,
+						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 3,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeightMod": 2,
 						"MiscTags": [
 							"Attack Weight Increase",
 							"Rupture",
@@ -18635,11 +18635,11 @@
 				},
 				"SkillDefense": {
 					"Name": "Heishou Keenclaw",
-					"Description": "[Clashable Counter]\n[Combat Start] Apply Slash Power Up to (Highest Res) ally Heishou Identities\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal their HP on retreat\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply Attack Power Up to 1 ally Heishou with the least HP%\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Res) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 6,
+					"CoinPower": 7,
 					"CoinCount": 1,
 					"Level": 0,
 					"BasePowerModifier": 0,
@@ -18658,11 +18658,11 @@
 					],
 					"AltSkill": {
 						"Name": "Lordsguard",
-						"Description": "[Clashable Counter]\n[On Use] If target has X+ negative effects, Clash Power +y\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Counter]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 2,
+						"CoinPower": 8,
 						"CoinCount": 1,
 						"Level": 0,
 						"BasePowerModifier": 0,
@@ -18680,7 +18680,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Heishou Lord",
-						"Description": "When an other ally unit has Subtituted in or Returned to the battlefield, they heal SP; at Combat Start, command them to use Skill 1 as an Unopposed Attack against a random enemy\n$If said ally is a Heishou Pack or Jia Family unit, instead heal more SP; at Combat Start, command them to use Skill 3 as an Unopposed Attack against a random enemy\nEncounter Start: Gain Leash-holder of All Heishou for every Heishou Pack Identity in the Team, including Backup Units\nWhen Heishou Units are killed in the Encounter, heal SP and gain Life from Death (even while this unit is Retreated)\nDeal more damage for every X Heishou Bolus Contamination",
+						"Description": "When an other ally unit has Subtituted in or Returned to the battlefield, they heal 10 SP; at Combat Start, command them to use Skill 1 as an Unopposed Attack against a random enemy\n$If said ally is a Heishou Pack or Jia Family unit, instead heal 20 SP; at Combat Start, command them to use Skill 3 as an Unopposed Attack against a random enemy (2 times per Encounter per Identity)\nEncounter Start: Gain 1 Leash-holder of All Heishou for every Heishou Pack Identity in the Team, including Backup Units\nWhen Heishou Units are killed in the Encounter, heal 20 SP and gain 1 Life from Death (even while this unit is Retreated)\nDeal +5% damage for every Heishou Bolus Contamination",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -18698,14 +18698,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
-					"Description": "Combat Start: If this unit did not equip a Defense Skill and is about to take an Unopposed Attack, apply Lordguard to (Highest Res / X) random Heishou Pack allies with the least Assist Defense (Once per Identity; excludes Identities with Skills that gain Assist Defense)\nIn this Encounter, when this unit takes fatal damage, nullify that damage; this unit's HP cannot drop below 1 for the turn and gain 1 Tarnished Blood\nDeal more damage for every Tarnished Blood\nWhen activating the E.G.O Skill 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack effects; instead heal X% HP. Starting next turn, gain Damage Up at every Turn Start",
+					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Res / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 5
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Lordsguard",
 						"Unrelenting",
@@ -18716,14 +18716,226 @@
 				},
 				"SupportSkill": {
 					"Name": "Please be traceless in your deeds.",
-					"Description": "1 ally with the least HP%: Deal more damage against the enemy proportional to the types of Deathrites on the enemy",
+					"Description": "1 ally with the least HP%: Deal +(Deathrites on target x 3)% damage against enemies (Max 15%)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 6
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "I Wish to Open the Path",
+					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Res / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Ally Defense Level Up",
+						"Poise Count",
+						"Rupture Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Tarnished Blood's Absolute Cleaver of Ambitions",
+					"Description": "[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +1 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\n[On Hit] Inflict 2 Rupture",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise",
+						"Rupture Count",
+						"Poise Count",
+						"Unbreakable Coin",
+						"Rupture"
+					]
+				},
+				"SkillThree": {
+					"Name": "Answer Me, Heishou Packs",
+					"Description": "Does not trigger Defense Skills\n[On Use] Gain 3 Poise and +1 Poise Count\n[After Attack] Among ally Heishou units that can act, 1 unit with the least Unrelenting Storm gains Unrelenting Storm and Exalted Command (Once per turn)\n$After Exalted Command is complete, activate 'I Carve the Path of a Lord'\n$If Exalted Command was not applied or failed, use 'Lonesome Stand: Sacrifice to Claim The Garden' instead\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Offense Level Down for every 2 negative effects on target (Max 3)\n[On Hit] Inflict 1 Defense Level Down for every Deathrite on target (Max 3)",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 10,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise",
+						"Poise Count",
+						"Ally Unrelenting Storm",
+						"Exalted Command",
+						"Unbreakable Coin",
+						"Offense Level Down",
+						"Defense Level Down"
+					],
+					"AltSkill": {
+						"Name": "I Carve the Path of a Lord",
+						"Description": "[On Use] If this skill combos with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] Deal +5% damage for every Heishou Bolus Contamination\n[After Attack] Gain Heishou Bolus Contamination for the comboing Heishou Pack Identity\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n[On Kill] 2 Heishou Pack Identities with the least SP heal 10 SP and apply 1 Attack Power Up next turn",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 6,
+						"CoinPower": 3,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Heishou Bolus Contamination",
+							"Rupture Count",
+							"Rupture",
+							"Ally Heal SP",
+							"Ally Attack Power Up"
+						]
+					},
+					"BLTSkill": {
+						"Name": "Lonesome Stand: Sacrifice to Claim The Garden",
+						"Description": "Deal +10% damage for every Life from Death\nDeal +1% damage for every 1% (missing HP% on target + self) (Max 50%)\n[On Use] At 3+ Life from Death, Atk Weight +1\n[On Use] At 6+ (target's Rupture + Poise on self), Coin Power +1\n[On Use] Deal +10% damage for every Heishou Bolus Contamination\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>Deal +10% damage for every negative effect on target (Max 50%)\n[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Slash Resist Down next turn (Once per turn)\n[On Kill] Gain 1 Attack Power Up next turn",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 6,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 1,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 2,
+						"MiscTags": [
+							"Attack Weight Increase",
+							"Rupture",
+							"Slash Resist Down",
+							"Attack Power Up"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Heishou Keenclaw",
+					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Res) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Ally Slash Power Up",
+						"Your Will Guides My Blade.",
+						"Ally Battlefield Retreat",
+						"Ally Attack Power Up",
+						"Unbreakable Coin"
+					],
+					"AltSkill": {
+						"Name": "Lordsguard",
+						"Description": "[Clashable Counter]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
+						"DamageType": "Defend",
+						"SinType": "Gluttony",
+						"BasePower": 2,
+						"CoinPower": 8,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Guard",
+							"Unbreakable Coin"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Heishou Lord",
+						"Description": "When an other ally unit has Subtituted in or Returned to the battlefield, they heal 10 SP; at Combat Start, command them to use Skill 1 as an Unopposed Attack against a random enemy\n$If said ally is a Heishou Pack or Jia Family unit, instead heal 20 SP; at Combat Start, command them to use Skill 3 as an Unopposed Attack against a random enemy (2 times per Encounter per Identity)\nEncounter Start: Gain 1 Leash-holder of All Heishou for every Heishou Pack Identity in the Team, including Backup Units\nWhen Heishou Units are killed in the Encounter, heal 20 SP and gain 1 Life from Death (even while this unit is Retreated)\nDeal +5% damage for every Heishou Bolus Contamination",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Ally Heal SP",
+							"Follow Up",
+							"Leash-holder of All Heishou",
+							"Life from Death"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
+					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Res / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Lordsguard",
+						"Unrelenting",
+						"Tarnished Blood",
+						"Heal HP",
+						"Damage Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Please be traceless in your deeds.",
+					"Description": "1 ally with the least HP%: Deal +(Deathrites on target x 3)% damage against enemies (Max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 6
+						}
+					],
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
 					]

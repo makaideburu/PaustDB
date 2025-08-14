@@ -2606,7 +2606,7 @@
 	},
 	{
 		"Name": "Life from Death",
-		"Description": "Max Stack: 5\nTurn Start:\n└Gain Offense Level Up for every X Stack\n└Gain Damage Up for every X Stack\n└Gain Attack Power Up at X+ Stack",
+		"Description": "Max Stack: 5\nTurn Start:\n└Gain 1 Offense Level Up for every Stack\n└Gain 1 Damage Up for every 2 Stack\n└Gain 1 Attack Power Up at 3+ Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Damage Up",
@@ -2622,7 +2622,7 @@
 	},
 	{
 		"Name": "Unrelenting Storm",
-		"Description": "Number of times this unit activated combo with The Lord of Hongyuan Hong Lu\nMax Stack: 2\nTurn Start: Gain Offense Level Up and Defense Level Up for every X Stack",
+		"Description": "Number of times this unit activated combo with The Lord of Hongyuan Hong Lu\nMax Stack: 2\nTurn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Up"
@@ -2644,7 +2644,7 @@
 	},
 	{
 		"Name": "Leash-holder of All Heishou",
-		"Description": "Max Stack: 11\nGain the following based on Stack:\nFor every X Stack, gain Max Speed and deal more damage with Skills\nFor every X Stack, gain Min Speed and Defense Level Up\nFor every X Stack, gain Offense Level Up\nAt X+ Stack, gain Damage Up and apply Offense Level Up to all Heishou Pack Identities",
+		"Description": "Max Stack: 11\nGain the following based on Stack:\nFor every Stack, gain 1 Max Speed (Max 5) and deal +1% damage with Skills\nFor every 2 Stack, gain 1 Min Speed (Max 2) and 1 Defense Level Up\nFor every 3 Stack, gain 1 Offense Level Up\nAt 5+ Stack, gain 1 Damage Up and apply 1 Offense Level Up to all Heishou Pack Identities",
 		"Tags": [
 			"Max Speed",
 			"Min Speed",
@@ -2656,7 +2656,7 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take less damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal more damage\nMao Outis: Inflict Rupture Count On Hit with Unopposed Attacks\nSi Rodion: Inflict Rupture On Critical Hit\nSi Gregor: Gain Poise Count when dealing Rupture damage",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)",
 		"Tags": [
 			"Max Speed",
 			"Min Speed",
