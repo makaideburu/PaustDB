@@ -3244,6 +3244,207 @@
 		]
 	},
 	{
+		"Id": 1000,
+		"Sinner": "Yi Sang",
+		"Identity": "Heishou Pack - Wu Branch Adept",
+		"World": "",
+		"Speed": "???",
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Cut Down and Trample",
+					"Description": "If unit's Speed is faster than target's, Coin Power +X\n[On Use] If target has X+ (Rupture + Tremor), Coin Power +X\n[Clash Win] Inflict Bind next turn\n<1>[On Hit] Inflict Rupture\n<2>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bind",
+						"Rupture",
+						"Rupture Count",
+						"Tremor"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Crescent Blade Strike",
+					"Description": "If unit's Speed is faster than target's\n$Coin Power +X\n$If by X+, deal +(Linebreaker x Y)% damage\n[On Use] Coin Power +X for every Y (Rupture + Tremor) on target\n[On Use] Gain Haste next turn\n<1>[On Hit] Inflict Rupture Count\n[On Hit] Inflict Tremor\n<2>[On Hit] Trigger Tremor Burst, reduce target's Tremor Count\n[On Hit] If target has no Deathrite, inflict Concussion\n[On Hit] If target has Deathrite, inflict Rupture",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Haste",
+						"Rupture Count",
+						"Tremor",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Concussion",
+						"Rupture"
+					]
+				},
+				"SkillThree": {
+					"Name": "Cavalry's Vanguard Charge",
+					"Description": "If unit's Speed is faster than target's\n$Final Power +X\n$Deal +(Linebreaker x X)% damage\nDeal +(Shield HP on self x X)% damage\n[Before Use] At X Linebreaker, consume all Stacks to activate 'Obsidian Stormrider's Crescent Decapitator' instead\n[On Use] Gain Strider [Wu]\n[On Use] Coin Power +X for every Y (Rupture + Tremor) on target\n[On Use] At X+ Linebreaker, convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict Rupture\n[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Bind next turn\n$At X+ Linebreaker, inflict additional Bind\n[On Hit] Inflict Tremor Count\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] At X+ Strider [Wu] Inflict Concussion",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Linebreaker",
+						"Strider [Wu]",
+						"Unbreakable Coin",
+						"Rupture",
+						"Tremor",
+						"Bind",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Concussion"
+					],
+					"AltSkill": {
+						"Name": "Obsidian Stormrider's Crescent Decapitator",
+						"Description": "If unit's Speed is faster than target's, Final Power +X\n[On Use] Apply Commanding Cry to all other allies next turn\n[On Use] Gain Strider [Wu]\n[On Use] Coin Power +X for every Y (Rupture + Tremor) on target\n[Clash Win] If unit's Speed is faster than target's, deal more damage\n[Clash Win] Inflict Concussion against main target\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n[On Hit] Inflict Tremor\n<2>[Unbreakable Coin] Inflict Rupture Count\n[On Hit] Inflict Tremor Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Concussion\n<4>[Unbreakable Coin\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Gluttony",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 4,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Ally Commanding Cry",
+							"Strider [Wu]",
+							"Concussion",
+							"Rupture",
+							"Tremor",
+							"Rupture Count",
+							"Tremor Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Preparation Afore the Charge.",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain Strider [Wu] next turn\n[Turn End] Remove 1 random removable negative effect on self\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Strider [Wu]",
+						"Status Cleanse",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Obsidian Stormrider",
+						"Description": "Gain Linebreaker when meeting one of the following conditions:\n$Unit's Speed is faster than target's by X+ upon starting attack\n$Unit triggers Tremor Burst twice with its Skills (including E.G.O Skills)\n$Unit wins a Clash while having Strider [Wu]\nWhen unit has Shield, gain (Shield HP / X) Defense Level",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Linebreaker",
+							"Defense Level Up"
+						]
+					},
+					{
+						"Name": "The Steed's Houndlike Loyalty",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination:\n$On Hit with a Base Skill's Final Coin, trigger Tremor Burst\nIf Family Hierarch Candidate Ishmael is an Actively participating unit, activate the following:\nWhen Ishmael inflicts Rupture or Rupture Count with Skill effects, that unit gains Poise\n$Turn Start: Apply Attack Power Up to Ishmael, if Ishmael has X+ Poise, apply more Attack Power Up\n$After this unit uses 'Obsidian Stormrider's Crescent Decapitator', Ishmael uses 'Crimson Spring' as Assist Attack",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Adept Vanguard",
+					"Description": "When applying Commanding Cry, gain Offense Level Up this turn and next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Offense Level Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Obsidian exoskeleton shall rend and protect my flesh",
+					"Description": "Apply the following to 1 ally with the highest HP:\n$Combat Start: Gain (unit's Speed difference between this and last turn x X) Defense Level\n$Combat Start: If affected unit is at less than X% HP, and Speed difference between this and last turn is Y+, heal HP",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Defense Level Up",
+						"Ally Heal HP"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 2101,
 		"Sinner": "Faust",
 		"Identity": "LCB Sinner",
@@ -32327,6 +32528,167 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Ammo"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 11000,
+		"Sinner": "Sinclair",
+		"Identity": "Heishou Pack - You Branch",
+		"World": "",
+		"Speed": "???",
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Oh, Let the Smell of Burning Blood...",
+					"Description": "[On Use] If target has X+ (Burn + Rupture), Coin Power +X\n<2>[On Hit] Inflict Rupture\n[Heads Hit] Inflict Burn\n<3>[On Hit] Inflict Burn Count\n[Heads Hit] Inflict Rupture Count",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Rupture",
+						"Burn",
+						"Burn Count",
+						"Rupture Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "...Fuel My Rampage.",
+					"Description": "[On Use] If target has X+ (Burn + Rupture), Coin Power +X\n<1>[On Hit] Inflict Rupture\n[Heads Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Burn\n[Heads Hit] Inflict Rupture Count\n<3>[Heads Hit] If unit has Bloodflame or less than X% HP, Reuse Coin\n[Heads Hit] Deal (X% of this Coin's final damage) bonus Wrath damage",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Rupture",
+						"Rupture Count",
+						"Burn"
+					]
+				},
+				"SkillThree": {
+					"Name": "Bloodflame Massacre",
+					"Description": "[Unfocused Volley]\nDeal more damage for every X% (Missing HP% on target + self)\n[Combat Start] If unit has Bloodflame or less than X% HP, convert all Coins into Unbreakable Coins\n[On Use] Gain Bloodflame\n[On Use] Coin Power +X for every Y (Burn + Rupture) on target\n[On Use] Clash Power +X for every X% missing HP on self\n[Clash Lose] Apply Burn to target and self\n<2>[On Hit] Inflict Burn Count\n[On Hit] Inflict Rupture Count\n<3>[On Hit] Inflict Burn\n[On Hit] Inflict Rupture\n[Heads Hit] Deal (X% of this Coin's final damage) bonus Gluttony damage\n<4>[On Hit] Inflict Burn\n[On Hit] Inflict Rupture\nDeal (X% of this Coin's final damage) bonus Gluttony damage against all targets",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unfocused Volley",
+						"Unbreakable Coin",
+						"Bloodflame",
+						"Burn",
+						"Self Burn",
+						"Burn Count",
+						"Rupture Count",
+						"Rupture"
+					]
+				},
+				"SkillDefense": {
+					"Name": "Rooster's Deathstrike",
+					"Description": "[Clashable Counter]\n[On Use] Gain Bloodflame next turn\n[On Use] If target has X+ (Burn + Rupture), Base Power +Y\n[On Use] If target has Bloodflame, Coin Power +X\n[On Use] Deal more damage for every X% HP this unit cumulatively lost in this Encounter\n[Clash Lose] Apply Burn to target and self\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Burn",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Bloodflame",
+						"Burn",
+						"Self Burn",
+						"Rupture Count",
+						"Burn"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Gamefowl",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination:\n$When using a Skill to inflict Rupture or Rupture Count, inflict Burn\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain Bloodflame in the same turn this unit Subtitutes or Returns in",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bloodflame"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Let's Get Battle-drunk",
+					"Description": "On Hit against targets with X+ Rupture, (Highest Res x Y)% chance to inflict Burn\nCombat End: If unit has Burn, gain Bloodflame, Wrath DMG Up and Gluttony DMG Up at next Turn Start\nCombat Start: Gain Offense Level Up and Defense Level Up for every X% missing HP on self",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Burn",
+						"Bloodflame",
+						"Gluttony DMG Up",
+						"Wrath DMG Up",
+						"Offense Level Up",
+						"Defense Level Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Bloodflame Blade",
+					"Description": "When an ally with the fastest Speed inflicts Burn or Rupture with its Skills, inflict Burn and Rupture",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Burn",
+						"Rupture"
 					]
 				}
 			}

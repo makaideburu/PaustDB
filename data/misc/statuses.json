@@ -2264,7 +2264,7 @@
 	},
 	{
 		"Name": "Le Regole (Low Morale)",
-		"Description": "If this unit inflicted 2+ Tremor last turn, gain 1 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 1 Wrath DMG Up\nIf this unit failed to inflict anything, gain 2 Defense level Down",
+		"Description": "If this unit inflicted 2+ Tremor last turn, gain 1 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 1 Wrath DMG Up\nIf this unit failed to inflict anything, gain 2 Defense Level Down",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -2272,7 +2272,7 @@
 	},
 	{
 		"Name": "Le Regole (Panic)",
-		"Description": "If this unit inflicted 2+ Tremor last turn, gain 2 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 2 Wrath DMG Up\nIf this unit failed to inflict anything, gain 3 Defense level Down",
+		"Description": "If this unit inflicted 2+ Tremor last turn, gain 2 Sloth DMG Up\nIf this unit inflicted 2+ Burn last turn, gain 2 Wrath DMG Up\nIf this unit failed to inflict anything, gain 3 Defense Level Down",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -2592,7 +2592,7 @@
 		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (Max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
-			"Offense level Up"
+			"Offense Level Up"
 		]
 	},
 	{
@@ -2656,14 +2656,53 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)\nWu Adept Yi Sang: On Hit with a Base Skill's Final Coin, trigger Tremor Burst\nYou Sinclair: When using a Skill to inflict Ruputre or Rupture Count, inflict Burn",
 		"Tags": [
-			"Max Speed",
-			"Min Speed",
-			"Defense Level Up",
+			"Rupture Count",
+			"Rupture",
+			"Poise Count",
+			"Tremor Burst",
+			"Burn"
+		]
+	},
+	{
+		"Name": "Strider [Wu]",
+		"Description": "Max Stack: 3\nTurn End: Gain Haste and (Stack x X) Aggro next turn\nBefore Attack: Inflict (Stack) Tremor against main target\nLose 1 Stack at Turn End",
+		"Tags": [
+			"Haste",
+			"Aggro",
+			"Tremor"
+		]
+	},
+	{
+		"Name": "Linebreaker",
+		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x X) Shield this turn\nAt max Stack, Final Power +X\nWhen hit, if unit took X+ damage from a single Skill, gain Protection after Skill End",
+		"Tags": [
+			"Shield",
+			"Final Power",
+			"Protection"
+		]
+	},
+	{
+		"Name": "Concussion",
+		"Description": "Max Stack: 2\nMultiply the Stagger Threshold raised and Rupture damage dealt against this unit by X (Rounded down)\nLose 1 Stack at Turn End",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Commanding Cry",
+		"Description": "Gain Clash Power and Defense Level\nExpires at Turn End",
+		"Tags": [
+			"Clash Power Up",
+			"Defense Level Up"
+		]
+	},
+	{
+		"Name": "Bloodflame",
+		"Description": "Max Stack: 3\nThis unit inflicts more Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal SP upon Staggering or killing an enemy\n└If unit's SP is at max when the above effect activates, gain Offense Level Up and Haste next turn\nLose 1 Stack at Turn End",
+		"Tags": [
 			"Offense Level Up",
-			"Damage Up",
-			"Ally Offense Level Up"
+			"Haste"
 		]
 	}
 ]

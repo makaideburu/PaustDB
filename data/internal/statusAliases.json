@@ -1397,5 +1397,38 @@
 			"damage up",
 			"ally offense level up"
 		]
+	},
+	{
+		"entry": "heishou bolus contamination",
+		"aliases": [
+			"rupture count",
+			"rupture",
+			"poise count",
+			"tremor burst",
+			"burn"
+		]
+	},
+	{
+		"entry": "strider [wu]",
+		"aliases": [
+			"haste",
+			"aggro",
+			"tremor"
+		]
+	},
+	{
+		"entry": "linebreaker",
+		"aliases": [
+			"shield",
+			"final power",
+			"protection"
+		]
+	},
+	{
+		"entry": "ally commanding cry",
+		"aliases": [
+			"ally clash power up",
+			"ally defense level up"
+		]
 	}
 ]
