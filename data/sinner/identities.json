@@ -3334,7 +3334,7 @@
 					],
 					"AltSkill": {
 						"Name": "Obsidian Stormrider's Crescent Decapitator",
-						"Description": "If unit's Speed is faster than target's, Final Power +X\n[On Use] Apply Commanding Cry to all other allies next turn\n[On Use] Gain Strider [Wu]\n[On Use] Coin Power +X for every Y (Rupture + Tremor) on target\n[Clash Win] If unit's Speed is faster than target's, deal more damage\n[Clash Win] Inflict Concussion against main target\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n[On Hit] Inflict Tremor\n<2>[Unbreakable Coin] Inflict Rupture Count\n[On Hit] Inflict Tremor Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Concussion\n<4>[Unbreakable Coin\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count",
+						"Description": "If unit's Speed is faster than target's, Final Power +X\n[On Use] Apply Commanding Cry to all other allies next turn\n[On Use] Gain Strider [Wu]\n[On Use] Coin Power +X for every Y (Rupture + Tremor) on target\n[Clash Win] If unit's Speed is faster than target's, deal more damage\n[Clash Win] Inflict Concussion against main target\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n[On Hit] Inflict Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict Rupture Count\n[On Hit] Inflict Tremor Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Concussion\n<4>[Unbreakable Coin\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count\n[On Hit] Trigger Tremor Burst, reduce target's Tremor Count",
 						"DamageType": "Slash",
 						"SinType": "Gluttony",
 						"BasePower": 0,
