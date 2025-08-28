@@ -2656,7 +2656,7 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)\nWu Adept Yi Sang: On Hit with a Base Skill's Final Coin, trigger Tremor Burst\nYou Sinclair: When using a Skill to inflict Ruputre or Rupture Count, inflict Burn",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)\nWu Adept Yi Sang: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\nYou Sinclair: When using a Skill to inflict Ruputre or Rupture Count, inflict 1 Burn (3 times per turn)",
 		"Tags": [
 			"Rupture Count",
 			"Rupture",
@@ -2667,7 +2667,7 @@
 	},
 	{
 		"Name": "Strider [Wu]",
-		"Description": "Max Stack: 3\nTurn End: Gain Haste and (Stack x X) Aggro next turn\nBefore Attack: Inflict (Stack) Tremor against main target\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 3\nTurn End: Gain 2 Haste and (Stack x 2) Aggro next turn\nBefore Attack: Inflict (Stack) Tremor against main target (Max 6 per turn)\nLose 1 Stack at Turn End",
 		"Tags": [
 			"Haste",
 			"Aggro",
@@ -2676,7 +2676,7 @@
 	},
 	{
 		"Name": "Linebreaker",
-		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x X) Shield this turn\nAt max Stack, Final Power +X\nWhen hit, if unit took X+ damage from a single Skill, gain Protection after Skill End",
+		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x 10) Shield this turn\nAt max Stack, Final Power +2\nWhen hit, if unit took 100+ damage from a single Skill, gain 1 Protection after Skill End (2 times per turn; includes Shield HP damage; does not count Keyword damage)",
 		"Tags": [
 			"Shield",
 			"Final Power",
@@ -2685,13 +2685,13 @@
 	},
 	{
 		"Name": "Concussion",
-		"Description": "Max Stack: 2\nMultiply the Stagger Threshold raised and Rupture damage dealt against this unit by X (Rounded down)\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 2\nMultiply the Stagger Threshold raised and Rupture damage dealt against this unit by 1.2 (Rounded down)\nLose 1 Stack at Turn End",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Commanding Cry",
-		"Description": "Gain Clash Power and Defense Level\nExpires at Turn End",
+		"Description": "Gain 1 Clash Power and 2 Defense Level\nExpires at Turn End",
 		"Tags": [
 			"Clash Power Up",
 			"Defense Level Up"
@@ -2699,7 +2699,7 @@
 	},
 	{
 		"Name": "Bloodflame",
-		"Description": "Max Stack: 3\nThis unit inflicts more Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal SP upon Staggering or killing an enemy\n└If unit's SP is at max when the above effect activates, gain Offense Level Up and Haste next turn\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 3\nThis unit inflicts +1 Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n└If unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\nLose 1 Stack at Turn End",
 		"Tags": [
 			"Offense Level Up",
 			"Haste"
