@@ -3031,7 +3031,34 @@
 						"Unbreakable Coin",
 						"Bleed",
 						"Bleed Count"
-					]
+					],
+					"BLTSkill": {
+						"Name": "I Shall Fire / Anytime",
+						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +X for every Y Torn Memory\n[On Use] Coin Power +X for every Y Poise\n[On Use] Base Power +X for every Y Poise Count\n[On Use] Gain Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x X) SP\n[After Attack] At X Torn Memory at Combat Start, lose them all; heal X SP\n<1>[Unbreakable Coin] Targets main target\n<2>[Unbreakable Coin] Targets sub-targets\n$If first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +X% damage for every Torn Memory\nDeal +X% damage on Critical Hit for every Poise\nDeal +X% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict Bleed and Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Special Targeting",
+							"Target Specific Ally",
+							"Attack Weight Increase",
+							"Spend Torn Memory",
+							"Self SP Damage",
+							"Heal SP",
+							"Unbreakable Coin",
+							"Bleed",
+							"Bleed Count"
+						]
+					}
 				},
 				"SkillDefense": {
 					"Name": "Front Line Support",
@@ -3244,7 +3271,7 @@
 		]
 	},
 	{
-		"Id": 1000,
+		"Id": 1308,
 		"Sinner": "Yi Sang",
 		"Identity": "Heishou Pack - Wu Branch Adept",
 		"World": "",
@@ -12724,6 +12751,215 @@
 				"SupportSkill": {
 					"Name": "Partial Heishou Mutation Training",
 					"Description": "Turn End: 1 ally with the fastest Speed gains 2 Haste next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Haste"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 4000,
+		"Sinner": "Ryōshū",
+		"Identity": "N Corp. E.G.O::Contempt, Awe",
+		"World": "",
+		"Speed": "???",
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Contemptuous Thing",
+					"Description": "[On Use] If target has Gaze or Contempt, Clash Power +X\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on target\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Gaze",
+					"DamageType": "Pierce",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor Count",
+						"Bleed Count",
+						"Gaze"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Be Awed",
+					"Description": "[On Use] If target has Gaze or Contempt, Clash Power +X\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on target\n<1>[On Hit] Inflict Tremor\n[On Hit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Bleed Count\n[On Hit] Inflict Gaze\n[On Hit] If target has X+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor",
+						"Bleed",
+						"Unbreakable Coin",
+						"Tremor Count",
+						"Bleed Count",
+						"Gaze",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"Name": "Awe, Contempt",
+					"Description": "If target has Gaze, inflict more Bleed and Tremor\n[Before Use] At X+ Gaze on all enemies or Y+ Contempt on all enemies, activate 'Gaze of Awe Cascading Beneath Contempt' instead\n[On Use] Coin Power +X for every Y (Bleed + Tremor on target)\n[On Use] Deal more damage for every Y (Bleed + Tremor) on target\n<1>[On Hit] Inflict Tremor\n[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Tremor Count\n[On Hit] Inflict Bleed Count\n<3>[Unbreakable Coin]\nDeal more damage for every Y Gaze on target\n[On Hit] Inflict Gaze\n[On Hit without Cracking] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Tremor",
+						"Bleed",
+						"Tremor Count",
+						"Bleed Count",
+						"Unbreakable Coin",
+						"Gaze",
+						"Amplitude Conversion",
+						"Tremor - Hemorrhage",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"Name": "Cascading Gaze of Awe Underneath Contempt",
+						"Description": "External effects cannot trigger Skill Reuse\nPrioritizes enemies with Gaze or Contempt as sub-targets\n$Deal less damage against sub-targets\n$Deal more damage against a single target\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on main target\n[On Use] Deal more damage for every Y (Bleed + Tremor) on main target\n[On Use] Deal more damage for every X (Gaze on all targets)\n[After Attack] Consume Gaze or Contempt on all targets that were hit\n<1>[Unbreakable Coin]\nIf target has Contempt, deal more damage\n[On Hit] Inflict Tremor and Tremor Count\n[On Hit] Inflict Bleed and Bleed Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Enemy Gaze",
+							"Spend Enemy Contempt",
+							"Unbreakable Coin",
+							"Tremor",
+							"Tremor Count",
+							"Bleed",
+							"Bleed Count",
+							"Amplitude Conversion",
+							"Tremor - Hemorrhage",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "To Grasp",
+					"Description": "[Combat Start] If unit does not have Contempt of the Gaze, and at X+ Gaze on all enemies or Y+ Contempt on all enemies, gain Contempt of the Gaze\n[On Use] If unit has Contempt of the Gaze, Final Power +X\n[On Use] When hit during this Skill, inflict Bleed Count against the attacker",
+					"DamageType": "Defend",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Contempt of the Gaze",
+						"Bleed Count"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Grasp that Forbids Falling",
+						"Description": "When Staggered, gain Protection and Contempt of the Gaze next turn\nOn Death, apply the following against 3 enemies with the most Gaze or Contempt (in descending order, in Focused Encounters, Parts)\n$Inflict Bind next turn\n$Inflict Bleed and Bleed Count\n$Inflict Tremor and Tremor Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Protection",
+							"Contempt of the Gaze",
+							"Bind",
+							"Bleed",
+							"Bleed Count",
+							"Tremor",
+							"Tremor Count"
+						]
+					},
+					{
+						"Name": "Let me show everyone something very interesting",
+						"Description": "Combat Start: N Corp. E.G.O::Fell Bullet Yi Sang's 'Target Readjustment Fire' Skill gains:\n$Before using the Skill, if N Corp. E.G.O::Contempt, Awe Ryōshū has Contempt of the Gaze and can use her base Skills, use 'I Shall Fire / Anytime' against Ryōshū\n$Before using the Skill, if the main target isn't Ryōshū, and she can use her base Skills, Ryōshū uses her Skill 1 as an unopposed Attack against the main target (Indiscriminate, deals less damage and does not kill)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Ally Skill Change",
+							"Follow Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "@#$'s Hand I Let Slip",
+					"Description": "On Hit against enemies, inflict Gaze\n$If unit has Gaze of Contempt, inflict more Gaze\nWhen hit by an enemy, inflict Gaze against the attacker\nIf unit has Contempt of the Gaze, when hit by the attacker's final Coin, inflict (X% of that Coin's final damage) Sloth damage\nIf unit used its Base Attack Skills to consume Gaze or Contempt on an enemy, next turn, gain ((Gaze consumed / X) + (Contempt consumed x Y)) Gaze of Contempt",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Gaze",
+						"Gaze of Contempt"
+					]
+				},
+				"SupportSkill": {
+					"Name": "It flows and cries",
+					"Description": "If the ally with the earliest Deployment order hits an enemy with its attack, inflict Bleed\n$If target has Bleed, inflict Bleed Count as well\nIf the ally with the earliest Deployment order is hit by an enemy, inflict Tremor against the attacker\n$If the attacker has Tremor, inflict Tremor Count as well",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -32714,7 +32950,7 @@
 		]
 	},
 	{
-		"Id": 11000,
+		"Id": 11308,
 		"Sinner": "Sinclair",
 		"Identity": "Heishou Pack - You Branch",
 		"World": "",
@@ -32784,8 +33020,8 @@
 					"FinalPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
-					"AttackWeight": 1,
-					"AttackWeightMod": 1,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
 					"MiscTags": [
 						"Unfocused Volley",
 						"Unbreakable Coin",
@@ -32935,8 +33171,8 @@
 					"FinalPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
-					"AttackWeight": 1,
-					"AttackWeightMod": 1,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
 					"MiscTags": [
 						"Unfocused Volley",
 						"Unbreakable Coin",

@@ -727,7 +727,7 @@
 		]
 	},
 	{
-		"Name": "Gaze",
+		"Name": "Gaze (The One Who Grips Faust)",
 		"Description": "Take +20% damage from Pierce and Blunt skills for one turn. The ally that defeats the marked unit heals 10 SP. If the ally is from N Corp, also apply 1 Fanatic next turn.",
 		"Tags": [
 			"Pierce Damage Amp",
@@ -2703,6 +2703,27 @@
 		"Tags": [
 			"Offense Level Up",
 			"Haste"
+		]
+	},
+	{
+		"Name": "Tremor - Hemorrhage",
+		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / X), and lose Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
+		"Tags": [
+			"Unique Tremor"
+		]
+	},
+	{
+		"Name": "Gaze (N Corp. E.G.O::Contempt, Awe Ryōshū)",
+		"Description": "Max Stack: 7\nTake and deal more damage from and against Ryōshū for every X Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At X Stack, convert into Contempt next turn",
+		"Tags": [
+			"Contempt"
+		]
+	},
+	{
+		"Name": "Contempt",
+		"Description": "Max Stack: 1\nTake and deal less damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain Gaze next turn",
+		"Tags": [
+			"Gaze"
 		]
 	}
 ]

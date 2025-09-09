@@ -4540,6 +4540,8 @@
         "MiscTags": [
           "Clash Power",
           "Haste",
+          "Max HP Limit",
+          "Self HP Healing Down",
           "Faction Buff: Shi Association"
         ]
       },
@@ -4549,6 +4551,8 @@
         "MiscTags": [
           "Clash Power",
           "Haste",
+          "Max HP Limit",
+          "Self HP Healing Down",
           "Faction Buff: Shi Association"
         ]
       },
@@ -4558,6 +4562,8 @@
         "MiscTags": [
           "Final Power",
           "Haste",
+          "Max HP Limit",
+          "Self HP Healing Down",
           "Faction Buff: Shi Association"
         ]
       }
@@ -9264,6 +9270,178 @@
         "MiscTags": [
 					"Self Amplitude Entanglement",
 					"Tremor - Distribution"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Bloodflame Sword",
+    "Tag": "Burn",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Wrath",
+    "Tier": 2,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "First Turn start of an Encounter: Identities with Base Attack Skills that gain Burn gain 5 Burn and heal 8 SP\nFor Heishou Pack - You Branch Identities: HP gets capped to 49% of Max HP; in return, take 50% less damage and receive 50% reduced healing",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: Heishou Pack - You Branch",
+          "Self Burn",
+          "Heal SP",
+          "Max HP Limit",
+          "Self HP Healing Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Red Cloth that Closes the Heart",
+    "Tag": "Slash",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 299,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #1 Deployed Identity]\nWhen other allies use an Unopposed Attack to hit an enemy, gain 1 Offense Level Up next turn (Once per turn per Identity; up to 6 times per turn)\nWhen other allies Battlefield Retreat, gain 1 Slash Power Up and 1 Slash DMG Up next turn (Once per turn)\nWhen all above conditions are met, gain 1 Power Up next turn (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up",
+          "Slash Power Up",
+          "Slash DMG Up",
+          "Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Virtue - Zhi",
+    "Tag": "Rupture",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Gloom",
+    "Tier": 2,
+    "Cost": 202,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #6 Deployed Identity]\nWhen using an Attack Skill (including E.G.O Skills) that inflict Rupture or Rupture Count to win a clash, gain 2 Defense Level Up next turn (Once per turn)\nIf this unit is a Family Hierarch Candidate: also gain 1 Haste next turn",
+        "Rank": 1,
+        "MiscTags": [
+          "Defense Level Up",
+          "Haste"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Virtue - Yong",
+    "Tag": "Rupture",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 202,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #6 Deployed Identity]\nWhen using an Attack Skill (including E.G.O Skills) that inflict Rupture or Rupture Count to win a clash, gain 2 Offense Level Up next turn (Once per turn)\nIf this unit is a Family Hierarch Candidate: also gain 3 Offense Level Up next turn",
+        "Rank": 1,
+        "MiscTags": [
+          "Offense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Virtue - Ren",
+    "Tag": "Rupture",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 202,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #6 Deployed Identity]\nWhen using an Attack Skill (including E.G.O Skills) that inflict Rupture or Rupture Count to win a clash, heal 15 HP (Once per turn)\nIf this unit is a Family Hierarch Candidate: also gain 1 Protection next turn",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal HP",
+          "Protection"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Blackiron Barding",
+    "Tag": "Tremor",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 205,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Apply (Defense Level / 3) Shield to 1 ally with the highest Defense Level (Prioritizes Heishou - Wu Identities; Max 15 Shield)\nWhen allies with Shield win a Clash, inflict (Speed / 2) Tremor; then gain 2 Haste and 2 Defense Level Up next turn (Once per turn per Identity)",
+        "Rank": 1,
+        "MiscTags": [
+          "Shield",
+          "Haste",
+          "Defense Level Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Shaoxing Wine",
+    "Tag": "Keywordless",
+    "Abnormality": "**Spring Cultivation**",
+    "Affinity": "Gluttony",
+    "Tier": 2,
+    "Cost": 199,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #2 Deployed Identity]\nDeal +1% damage for every 1% missing HP on self (Max 10%)",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Cultivation: Cut, File, Carve, Polish",
+    "Tag": "Rupture",
+    "Abnormality": "Fusion: ||Virtue - Zhi + Virtue - Yong + Virute - Ren||",
+    "Affinity": "Gloom",
+    "Tier": 4,
+    "Cost": 399,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to #6 Deployed Identity]\nWhen using an Attack Skill (including E.G.O Skills) that inflict Rupture or Rupture Count to win a clash, heal 20 HP; gain 3 Offense Level Up and 3 Defense Level Up next turn (Once per turn)\nIf this unit is a Family Hierarch Candidate: also apply 1 Haste, 1 Protection, and 3 Offense Level Up to all allies (including this unit)",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal SP",
+          "Protection"
         ]
       }
     ],
