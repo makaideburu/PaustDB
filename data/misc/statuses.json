@@ -861,12 +861,12 @@
 		"Tags": []
 	},
 	{
-		"Name": "Sword of the Homeland - Rending",
+		"Name": "Sword of the Homeland └Rending",
 		"Description": "Skill 1 gains Final Power by the effect's Count for this turn.",
 		"Tags": []
 	},
 	{
-		"Name": "Sword of the Homeland - Penetrating",
+		"Name": "Sword of the Homeland └Penetrating",
 		"Description": "Skill 2 gains Final Power by the effect's Count for this turn.",
 		"Tags": []
 	},
@@ -876,7 +876,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor - Decay",
+		"Name": "Tremor └Decay",
 		"Description": "Lose 1 Defense Level for every 4 Tremor on self.\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -884,7 +884,7 @@
 	},
 	{
 		"Name": "Echoes of the Manor",
-		"Description": "- 50% chance to gain +1 Sinking Count when gaining Sinking or Sinking Count from Skill or Coin effects\n- Units with SP Change Panic Type to Echoes of the Manor. When this unit Panics, inflict Echoes of the Manor to 2 random other allies of this unit\n- Units without SP: -10`% chance to flip Heads\n- Reduce by 1 at Turn End\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the 'Units without SP' conditional to certain enemies that have SP but can't change their Panic Types",
+		"Description": "└50% chance to gain +1 Sinking Count when gaining Sinking or Sinking Count from Skill or Coin effects\n└Units with SP Change Panic Type to Echoes of the Manor. When this unit Panics, inflict Echoes of the Manor to 2 random other allies of this unit\n└Units without SP: -10`% chance to flip Heads\n└Reduce by 1 at Turn End\n└This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n└Apply the 'Units without SP' conditional to certain enemies that have SP but can't change their Panic Types",
 		"Tags": [
 			"Sinking Count",
 			"Change Panic Type"
@@ -1131,7 +1131,7 @@
 		]
 	},
 	{
-		"Name": "Tremor - Fracture",
+		"Name": "Tremor └Fracture",
 		"Description": "When Staggered, and when the sum of Tremor and Tremor Count adds up to 20 or higher, raise Stagger Level by 1\nCannot exceed maximum Stagger Level with this effect\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -1166,7 +1166,7 @@
 		]
 	},
 	{
-		"Name": "Tremor - Reverb",
+		"Name": "Tremor └Reverb",
 		"Description": "On Tremor Burst, take Sloth damage equal to Tremor on self\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1174,11 +1174,11 @@
 	},
 	{
 		"Name": "Amplitude Entanglement",
-		"Description": "- Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\n- Potency and Count values do not change over Entanglement\n- When triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\n- Turn End: Converted into Tremor",
+		"Description": "└Combine the Entangling Tremor effect and the target's Tremor type under Tremor └Superposition\n└Potency and Count values do not change over Entanglement\n└When triggering Amplitude Conversion for Tremor └Superposition, activates as Amplitude Entanglement instead\n└Turn End: Converted into Tremor",
 		"Tags": []
 	},
 	{
-		"Name": "Tremor - Everlasting",
+		"Name": "Tremor └Everlasting",
 		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (Max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1186,7 +1186,7 @@
 	},
 	{
 		"Name": "Borrowed Time",
-		"Description": "Turn End at 2+ Count:\n- Gain (Stack - 1) Haste, Clash Power Up, and Fragile next turn\n- If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\nTurn End: At 1 Count, gain 2 x (Stack - 1) Bind\nTurn End: Gain 1 Stack, lose 1 Count",
+		"Description": "Turn End at 2+ Count:\n└Gain (Stack └1) Haste, Clash Power Up, and Fragile next turn\n└If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\nTurn End: At 1 Count, gain 2 x (Stack └1) Bind\nTurn End: Gain 1 Stack, lose 1 Count",
 		"Tags": [
 			"Haste",
 			"Clash Power Up",
@@ -1200,7 +1200,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor - Chain",
+		"Name": "Tremor └Chain",
 		"Description": "Lose 1 Clash Power for every 10 Tremor on self (Max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1224,7 +1224,7 @@
 	},
 	{
 		"Name": "Erudition",
-		"Description": "Max Value: 6\n- When Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\n- If this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (Once per turn)\n- Reduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\n- Expires when Staggered",
+		"Description": "Max Value: 6\n└When Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\n└If this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (Once per turn)\n└Reduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\n└Expires when Staggered",
 		"Tags": [
 			"Shield",
 			"Clash Power Up"
@@ -1232,14 +1232,14 @@
 	},
 	{
 		"Name": "Gaze of Contempt",
-		"Description": "Max Value: 7\n- Deal +7% damage for every Gaze of Contempt on self\n- Turn End: This effect expires\n- Turn End: At 7 Gaze of Contempt, convert to Contempt of the Gaze next turn instead of expiring",
+		"Description": "Max Value: 7\n└Deal +7% damage for every Gaze of Contempt on self\n└Turn End: This effect expires\n└Turn End: At 7 Gaze of Contempt, convert to Contempt of the Gaze next turn instead of expiring",
 		"Tags": [
 			"Damage Amp"
 		]
 	},
 	{
 		"Name": "Contempt of the Gaze",
-		"Description": "- Gain 7 Protection\n- Gain 7 Damage Down\n- One of this unit's Skill Slots gains +20 Aggro\n- Cannot gain Gaze of Contempt as long as Contempt of the Gaze is active\n- Turn End: This effect expires",
+		"Description": "└Gain 7 Protection\n└Gain 7 Damage Down\n└One of this unit's Skill Slots gains +20 Aggro\n└Cannot gain Gaze of Contempt as long as Contempt of the Gaze is active\n└Turn End: This effect expires",
 		"Tags": [
 			"Protection",
 			"Self Damage Down",
@@ -1258,7 +1258,7 @@
 	},
 	{
 		"Name": "Photoelectricity",
-		"Description": "Max Value: 3\nWhen this unit is hit, the Attacker gains Charge Count equal to the value (Once per Skill)\nIf the Attacker has 5- Charge Count, gain +3 additional Charge Count\nTurn End: This effect expires",
+		"Description": "Max Value: 3\nWhen this unit is hit, the Attacker gains Charge Count equal to the value (Once per Skill)\nIf the Attacker has 5└Charge Count, gain +3 additional Charge Count\nTurn End: This effect expires",
 		"Tags": [
 			"Charge",
 			"Charge Support"
@@ -1266,7 +1266,7 @@
 	},
 	{
 		"Name": "Coffin",
-		"Description": "Max Value: 10\nAt Turn End:\n- Gain 2 Damage Up next turn for every 3 Value (Max 6)\n- Raise minimum Speed by 1 for every 4 value next turn (Max 2)\n- Gain 1 Clash Power Up for every 5 value next turn (Max 2)",
+		"Description": "Max Value: 10\nAt Turn End:\n└Gain 2 Damage Up next turn for every 3 Value (Max 6)\n└Raise minimum Speed by 1 for every 4 value next turn (Max 2)\n└Gain 1 Clash Power Up for every 5 value next turn (Max 2)",
 		"Tags": [
 			"Damage Up",
 			"Min Speed",
@@ -1284,7 +1284,7 @@
 	},
 	{
 		"Name": "Dullahan",
-		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (At -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 - (Coffin / 2)) SP (Min 10)",
+		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (At -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 └(Coffin / 2)) SP (Min 10)",
 		"Tags": [
 			"Self Defense Level Down",
 			"Offense Level Up",
@@ -1334,7 +1334,7 @@
 	},
 	{
 		"Name": "Red Eyes",
-		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n- Stage 1 (1 ~ 7): Red Eyes\n- Stage 2 (8 ~ 15): Red Eyes - Alert\n- Stage 3 (16 ~ 20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
+		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n└Stage 1 (1 ~ 7): Red Eyes\n└Stage 2 (8 ~ 15): Red Eyes └Alert\n└Stage 3 (16 ~ 20): Red Eyes └Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
 		"Tags": [
 			"Unique Charge",
 			"Bleed"
@@ -1342,7 +1342,7 @@
 	},
 	{
 		"Name": "Penitence",
-		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n- Stage 1 (1 ~ 7): Penitence\n- Stage 2 (8 ~ 15): Penitence - Periphery\n- Stage 3 (16 ~ 20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
+		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n└Stage 1 (1 ~ 7): Penitence\n└Stage 2 (8 ~ 15): Penitence └Periphery\n└Stage 3 (16 ~ 20): Penitence └Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
 		"Tags": [
 			"Unique Charge",
 			"Heal SP",
@@ -1378,7 +1378,7 @@
 	},
 	{
 		"Name": "Reload [Lobotomy E.G.O::Solemn Lament Yi Sang]",
-		"Description": "Effect applied to The Living & The Departed\nConsume (30 - The Living + The Departed on self) / 2 SP\nReset both The Living & The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly'\nOn Reload, gain at least 1 of The Living and The Departed",
+		"Description": "Effect applied to The Living & The Departed\nConsume (30 └The Living + The Departed on self) / 2 SP\nReset both The Living & The Departed values on self to 0, and gain the max value of their sum based on the probabilities listed in the Passive 'ISeeTheDyingButterfly'\nOn Reload, gain at least 1 of The Living and The Departed",
 		"Tags": []
 	},
 	{
@@ -1391,8 +1391,8 @@
 		]
 	},
 	{
-		"Name": "Courier Trunk - Rodion",
-		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\nAt 30+ Stack:\n - On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n - On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
+		"Name": "Courier Trunk └Rodion",
+		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\nAt 30+ Stack:\n └On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n └On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
 		"Tags": [
 			"Courier Trunk",
 			"Min Speed",
@@ -1471,7 +1471,7 @@
 	},
 	{
 		"Name": "Ailing Heart",
-		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt 50%- HP, gain 1 Defense Level Up for every 3 Stack\nAt 40%- HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (Min 1; rounded down; heal up to 30 HP per Skill)",
+		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt 50%└HP, gain 1 Defense Level Up for every 3 Stack\nAt 40%└HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (Min 1; rounded down; heal up to 30 HP per Skill)",
 		"Tags": [
 			"Defense Level Up",
 			"Heal HP"
@@ -1568,7 +1568,7 @@
 	},
 	{
 		"Name": "Blooming Thorn",
-		"Description": "Max Value: 10\nGain 1 Defense Level Up for every 2 Stack (Max 5)\nWhen hit, inflict 1 Bleed against attacker and lose 1 Stack\n\nThe Princess of La Manchaland Rodion Only:\nAt max Stack, convert into the next Stage effect\nInflict +(Stage - 1) more Bleed and Rupture with Base Attack Skills On Hit",
+		"Description": "Max Value: 10\nGain 1 Defense Level Up for every 2 Stack (Max 5)\nWhen hit, inflict 1 Bleed against attacker and lose 1 Stack\n\nThe Princess of La Manchaland Rodion Only:\nAt max Stack, convert into the next Stage effect\nInflict +(Stage └1) more Bleed and Rupture with Base Attack Skills On Hit",
 		"Tags": [
 			"Defense Level Up",
 			"Bleed",
@@ -1585,8 +1585,8 @@
 		]
 	},
 	{
-		"Name": "Courier Trunk - Sinclair",
-		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\nAt 30+ Stack:\n - On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n - On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
+		"Name": "Courier Trunk └Sinclair",
+		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\nAt 30+ Stack:\n └On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n └On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
 		"Tags": [
 			"Courier Trunk",
 			"Min Speed",
@@ -1598,7 +1598,7 @@
 		]
 	},
 	{
-		"Name": "Tremor - Clockwinding",
+		"Name": "Tremor └Clockwinding",
 		"Description": "Max Speed +1\nConsume Tremor Count on self to inflict +1 Tremor or Tremor Count when inflicting them with this unit's Skill or Coin effects\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -1650,7 +1650,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Ammo - Atelier Logic",
+		"Name": "Ammo └Atelier Logic",
 		"Description": "Unique Ammo\nAtelier Logic Special Ammo\nThis Ammo's count cannot be gained or lostdue to external effects",
 		"Tags": [
 			"Unique Ammo"
@@ -1885,7 +1885,7 @@
 	},
 	{
 		"Name": "District 12 Fuel",
-		"Description": "Max Stack: 100\nConsumed by certain Skills\nAt 50- Stack, becomes Overheated Fuel",
+		"Description": "Max Stack: 100\nConsumed by certain Skills\nAt 50└Stack, becomes Overheated Fuel",
 		"Tags": []
 	},
 	{
@@ -2188,7 +2188,7 @@
 	},
 	{
 		"Name": "Flower-burying Wedge [埋花櫼]",
-		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End' next turn based on this unit's Speed.",
+		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood └The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood └The End' next turn based on this unit's Speed.",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Down",
@@ -2375,7 +2375,7 @@
 		]
 	},
 	{
-		"Name": "Tremor - Scorch",
+		"Name": "Tremor └Scorch",
 		"Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
 		"Tags": [
 			"Unique Tremor"
@@ -2390,28 +2390,28 @@
 	},
 	{
 		"Name": "Tigermark Round",
-		"Description": "Max Capacity: 12\nUnique Ammo\nAt 8+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+		"Description": "Max Capacity: 12\nUnique Ammo\nAt 8+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit └Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
 		"Tags": [
 			"Unique Ammo"
 		]
 	},
 	{
 		"Name": "Savage Tigermark Round",
-		"Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+		"Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit └Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
 		"Tags": [
 			"Unique Ammo"
 		]
 	},
 	{
 		"Name": "Unrelenting Spirit [剛氣]",
-		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Unrelenting Spirit - Shin [剛氣-心] next turn at Turn End",
+		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Unrelenting Spirit └Shin [剛氣-心] next turn at Turn End",
 		"Tags": [
 			"Min Speed",
 			"Max Speed"
 		]
 	},
 	{
-		"Name": "Unrelenting Spirit - Shin [剛氣-心]",
+		"Name": "Unrelenting Spirit └Shin [剛氣-心]",
 		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (Max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
 		"Tags": [
 			"Min Speed",
@@ -2486,7 +2486,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Regressive Transformation - Reversed",
+		"Name": "Regressive Transformation └Reversed",
 		"Description": "For this turn, this unit uses Minus Coin Attack Skills",
 		"Tags": []
 	},
@@ -2588,7 +2588,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor - Distribution",
+		"Name": "Tremor └Distribution",
 		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (Max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -2706,22 +2706,22 @@
 		]
 	},
 	{
-		"Name": "Tremor - Hemorrhage",
-		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / X), and lose Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
+		"Name": "Tremor └Hemorrhage",
+		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / 2), and lose 1 Bleed Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
 		"Tags": [
 			"Unique Tremor"
 		]
 	},
 	{
 		"Name": "Gaze (N Corp. E.G.O::Contempt, Awe Ryōshū)",
-		"Description": "Max Stack: 7\nTake and deal more damage from and against Ryōshū for every X Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At X Stack, convert into Contempt next turn",
+		"Description": "Max Stack: 7\nTake and deal +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
 		"Tags": [
 			"Contempt"
 		]
 	},
 	{
 		"Name": "Contempt",
-		"Description": "Max Stack: 1\nTake and deal less damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain Gaze next turn",
+		"Description": "Max Stack: 1\nTake and deal -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
 		"Tags": [
 			"Gaze"
 		]
