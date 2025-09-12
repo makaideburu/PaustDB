@@ -876,7 +876,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor └Decay",
+		"Name": "Tremor - Decay",
 		"Description": "Lose 1 Defense Level for every 4 Tremor on self.\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1131,7 +1131,7 @@
 		]
 	},
 	{
-		"Name": "Tremor └Fracture",
+		"Name": "Tremor - Fracture",
 		"Description": "When Staggered, and when the sum of Tremor and Tremor Count adds up to 20 or higher, raise Stagger Level by 1\nCannot exceed maximum Stagger Level with this effect\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -1166,7 +1166,7 @@
 		]
 	},
 	{
-		"Name": "Tremor └Reverb",
+		"Name": "Tremor - Reverb",
 		"Description": "On Tremor Burst, take Sloth damage equal to Tremor on self\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1174,11 +1174,11 @@
 	},
 	{
 		"Name": "Amplitude Entanglement",
-		"Description": "└Combine the Entangling Tremor effect and the target's Tremor type under Tremor └Superposition\n└Potency and Count values do not change over Entanglement\n└When triggering Amplitude Conversion for Tremor └Superposition, activates as Amplitude Entanglement instead\n└Turn End: Converted into Tremor",
+		"Description": "└Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\n└Potency and Count values do not change over Entanglement\n└When triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\n└Turn End: Converted into Tremor",
 		"Tags": []
 	},
 	{
-		"Name": "Tremor └Everlasting",
+		"Name": "Tremor - Everlasting",
 		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (Max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1200,7 +1200,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor └Chain",
+		"Name": "Tremor - Chain",
 		"Description": "Lose 1 Clash Power for every 10 Tremor on self (Max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor"
@@ -1598,7 +1598,7 @@
 		]
 	},
 	{
-		"Name": "Tremor └Clockwinding",
+		"Name": "Tremor - Clockwinding",
 		"Description": "Max Speed +1\nConsume Tremor Count on self to inflict +1 Tremor or Tremor Count when inflicting them with this unit's Skill or Coin effects\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -2375,7 +2375,7 @@
 		]
 	},
 	{
-		"Name": "Tremor └Scorch",
+		"Name": "Tremor - Scorch",
 		"Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
 		"Tags": [
 			"Unique Tremor"
@@ -2588,7 +2588,7 @@
 		"Tags": []
 	},
 	{
-		"Name": "Tremor └Distribution",
+		"Name": "Tremor - Distribution",
 		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (Max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"Tags": [
 			"Unique Tremor",
@@ -2706,7 +2706,7 @@
 		]
 	},
 	{
-		"Name": "Tremor └Hemorrhage",
+		"Name": "Tremor - Hemorrhage",
 		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / 2), and lose 1 Bleed Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
 		"Tags": [
 			"Unique Tremor"
