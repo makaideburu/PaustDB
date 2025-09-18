@@ -2725,5 +2725,32 @@
 		"Tags": [
 			"Gaze"
 		]
+	},
+	{
+		"Name": "Backup Candy",
+		"Description": "Turn End: At less than 60% HP:\n└Heal 30% HP, heal 15 SP, lose 1 Backup Candy and 1 Hunger\nAt 0 Stack, apply 1 Incandescent Indulgence, then expires",
+		"Tags": [
+			"Heal HP",
+			"Heal SP",
+			"Incandescent Indulgence"
+		]
+	},
+	{
+		"Name": "Hunger",
+		"Description": "Max Stack: 3\nTurn End: Gain 2 Offense Level Up and 1 Damage Up next turn for every Stack\nAt Max Stack (3), lose 5% HP at Turn End",
+		"Tags": [
+			"Offense Level Up",
+			"Damage Up",
+			"Self HP Damage"
+		]
+	},
+	{
+		"Name": "Incandescent Indulgence",
+		"Description": "Gain 30% base HP for this Encounter\nTurn Start: Fully heal HP and SP (Once per Encounter)",
+		"Tags": [
+			"Max HP Up",
+			"Heal HP",
+			"Heal SP"
+		]
 	}
 ]

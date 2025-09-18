@@ -9448,5 +9448,108 @@
     "Availability": [
       "MD6"
     ]
+  },
+  {
+    "Name": "The Family's Resentment",
+    "Tag": "Bleed",
+    "Abnormality": "Hidden Boss: ||La Manchaland's Don Quixote||",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nDoubles the amount of Bloodfeast generated in the Stage\nSkills that inflict Bleed, Bleed Count, or Unique Bleed: After Attack, heal 30% of the HP damage dealt. (Max 20)\n$If a unit healed with the above effect, gain 1 Attack Power Up next turn (Max 2)\nFor every 50 Bloodfeast Consumed (Shared), all allies gain 1 Offense Level Up at next Turn Start (Max 5)\nLa Manchaland units also gain 1 Offense Level Up for every Bloodfeast Consumed by each unit (Max 3)",
+        "Rank": 1,
+        "MiscTags": [
+          "Plus Coin Boost",
+          "Final Power",
+          "Bloodfeast",
+          "Heal HP",
+          "Attack Power Up",
+          "Offense Level Up",
+          "Faction Buff: La Manchaland"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "For the Capo",
+    "Tag": "Tremor",
+    "Abnormality": "Hidden Boss: ||Lei Heng||",
+    "Affinity": "Wrath",
+    "Tier": 4,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\n[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$Gain 3 Haste next turn (Once per turn)\n$On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$On Hit after Clash Win: If target has both Burn and Tremor (Including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
+        "Rank": 1,
+        "MiscTags": [
+          "Plus Coin Boost",
+          "Final Power",
+          "Haste",
+          "Tremor Burst",
+          "Spend Enemy Tremor Count",
+          "HP Damage",
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Rules of the Middle",
+    "Tag": "Blunt",
+    "Abnormality": "Hidden Boss: ||Ricardo||",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nBlunt Attack Base Skills: Coin Power +1; The Middle Identities gain Coin Power +2 instead\nWhen an ally is hit, all allies gain 2 Offense Level Up next turn (3 times per turn)\nWhen 3+ The Middle Identities are in the Encounter:\n$Combat Start: Gain 1 Attack Power Up and 1 Protection for every Envy Res (Max 3)\n$When The Middle Identity uses an Envy Base Attack Skill, convert its Coins to Unbreakable Coins, they take -50% damage, and gain 2 Blunt DMG Up this turn and next turn",
+        "Rank": 1,
+        "MiscTags": [
+          "Plus Coin Boost",
+          "Final Power",
+          "Faction Buff: The Middle",
+          "Offense Level Up",
+          "Attack Power Up",
+          "Protection",
+          "Unbreakable Coin",
+          "Damage Reduction",
+          "Blunt DMG Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Kkomi's Mini-Gift",
+    "Tag": "Keywordless",
+    "Abnormality": "Hidden Boss: ||Kkomi and Vergilius?||",
+    "Affinity": "Gluttony",
+    "Tier": 4,
+    "Cost": 201,
+    "Upgrades": [
+      {
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nOn the first Turn Start of the Encounter, and on all allies who Subtitute in, apply 3 Backup Candy\nIf they did not consume Backup Candy in the previous turn, apply 1 Hunger at Turn Start",
+        "Rank": 1,
+        "MiscTags": [
+          "Plus Coin Boost",
+          "Final Power",
+          "Backup Candy",
+          "Hunger"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
   }
 ]

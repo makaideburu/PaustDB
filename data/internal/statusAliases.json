@@ -1438,15 +1438,51 @@
 		]
 	},
 	{
+		"entry": "tremor - distribution",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
 		"entry": "gaze",
 		"aliases": [
 			"contempt"
 		]
 	},
 	{
-		"entry": "faction buff - heishou pack: you branch",
+		"entry": "faction buff: heishou pack: you branch",
 		"aliases": [
 			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: la manchaland",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "backup candy",
+		"aliases": [
+			"heal hp",
+			"heal sp",
+			"incandescent indulgence"
+		]
+	},
+	{
+		"entry": "hunger",
+		"aliases": [
+			"offense level up",
+			"damage up",
+			"self hp damage"
+		]
+	},
+	{
+		"entry": "incandescent indulgence",
+		"aliases": [
+			"max hp up",
+			"heal hp",
+			"heal sp"
 		]
 	}
 ]
