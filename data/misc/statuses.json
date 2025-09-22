@@ -2776,5 +2776,13 @@
 			"Offense Level Up",
 			"Defense Level Up"
 		]
+	},
+	{
+		"Name": "Man in Scabbard",
+		"Description": "For every (Stack / X), gain Aggro\nFor every (Stack / Y), gain Protection\nGain X at Turn End",
+		"Tags": [
+			"Aggro",
+			"Protection"
+		]
 	}
 ]
