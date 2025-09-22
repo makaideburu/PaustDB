@@ -2470,7 +2470,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Solemn Lament for the Living",
-					"Description": "At 10+ The Living & The Departed, Clash Power +1\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) The Living & The Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) The Living & The Departed (Max 12)\nIf said Res was at 4+ A-Res, Reload instead\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
+					"Description": "At 10+ The Living & The Departed, Clash Power +1\nCoin Power +1 for every 6 (Sinking + All Butterfly) (Max 2)\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Reson) The Living & The Departed (Max 6)\nIf said Reson was an A-Reson, gain (Highest Reson x 2) The Living & The Departed (Max 12)\nIf said Reson was at 4+ A-Reson, Reload instead\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -2602,7 +2602,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Solemn Lament for the Living",
-					"Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Res) The Living & The Departed (Max 6)\nIf said Res was an A-Res, gain (Highest Res x 2) The Living & The Departed (Max 12)\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
+					"Description": "If (Sinking + All Butterfly) is 6 or higher, Coin Power +1\n[Clash Win] Inflict +1 Sinking Count\n[After Attack] Gain (Highest Reson) The Living & The Departed (Max 6)\nIf said Reson was an A-Reson, gain (Highest Reson x 2) The Living & The Departed (Max 12)\n<1>Spend 5 The Living & The Departed\n[On Hit] Inflict Butterfly equal to The Living & The Departed spent\n<2>Spend 1 The Living & The Departed\nInflict Butterfly equal to The Living & The Departed spent",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -2808,7 +2808,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Inner Ardor",
-					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Res) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP\nAt 4+ Wrath Res, heal 1 additional ally",
+					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP\nAt 4+ Wrath Reson, heal 1 additional ally",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -2919,7 +2919,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Inner Ardor",
-					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Res) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP",
+					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -3007,7 +3007,7 @@
 				},
 				"SkillThree": {
 					"Name": "Target Readjustment Fire",
-					"Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal +7% damage for every Torn Memory\n$Deal +3% damage on Critical Hit for every Poise (Max 60%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +20% damage for every Torn Memory; if ally was killed, deal +40% instead\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 3 Bleed; if ally was killed, 5 Bleed and +2 Bleed Count instead",
+					"Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Resist becomes Fatal for the attack\n$Deal +7% damage for every Torn Memory\n$Deal +3% damage on Critical Hit for every Poise (Max 60%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +20% damage for every Torn Memory; if ally was killed, deal +40% instead\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 3 Bleed; if ally was killed, 5 Bleed and +2 Bleed Count instead",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -3174,7 +3174,7 @@
 				},
 				"SkillThree": {
 					"Name": "Target Readjustment Fire",
-					"Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Res becomes Fatal for the attack\n$Deal +5% damage for every Torn Memory\n$Deal +2% damage on Critical Hit for every Poise (Max 40%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +15% damage for every Torn Memory; if ally was killed, deal +30% instead\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 2 Bleed; if ally was killed, 3 Bleed and +1 Bleed Count instead",
+					"Description": "[Combat Start] Targets lowest HP unit\n$At 7 Torn Memory, prioritize 1 ally\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; if an ally is killed, heal 20 SP\n<1>[Unbreakable Coin] Targets main target\nIf an ally:\n$Pierce Resist becomes Fatal for the attack\n$Deal +5% damage for every Torn Memory\n$Deal +2% damage on Critical Hit for every Poise (Max 40%)\n<2>[Unbreakable Coin] Targets sub-targets\n$If main target was an enemy, target them\n$If ally was not killed, target 1 sub-target\nDeal +15% damage for every Torn Memory; if ally was killed, deal +30% instead\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 2 Bleed; if ally was killed, 3 Bleed and +1 Bleed Count instead",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -5836,7 +5836,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Charge Countercurrent",
-					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<3>At 3+ Res including this Skill, consume all Charge Count and deal +(Charge + 4)% damage for every Charge Count consumed by this Skill (Max 180%)",
+					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 4)% damage for every Charge Count consumed by this Skill (Max 180%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -5949,7 +5949,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Charge Countercurrent",
-					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<3>At 3+ Res including this Skill, consume all Charge Count and deal +(Charge + 3)% damage for every Charge Count consumed by this Skill (Max 120%)",
+					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 3)% damage for every Charge Count consumed by this Skill (Max 120%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -7054,7 +7054,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Prepared Mind",
-					"Description": "Gain Haste by (Wrath Res / 3) next turn.",
+					"Description": "Gain Haste by (Wrath Reson / 3) next turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -7158,7 +7158,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Prepared Mind",
-					"Description": "Gain Haste by (Wrath Res / 3) next turn.",
+					"Description": "Gain Haste by (Wrath Reson / 3) next turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -7988,7 +7988,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Quick Recharge",
-					"Description": "At the start of the combat phase, gain Charge Count by (Gloom Res / 3).",
+					"Description": "At the start of the combat phase, gain Charge Count by (Gloom Reson / 3).",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -8097,7 +8097,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Quick Recharge",
-					"Description": "At the start of the combat phase, gain Charge Count by (Gloom Res/3).",
+					"Description": "At the start of the combat phase, gain Charge Count by (Gloom Reson/3).",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -8393,7 +8393,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Proof of Loyalty",
-					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Res/2)(Max 6)\nIf the highest A-Res is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\nGain double the Offense Level from the above effects in Focused Encoutners with 7 or fewer Participant Limit\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 1 Damage Down",
+					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Reson/2)(Max 6)\nIf the highest A-Reson is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\nGain double the Offense Level from the above effects in Focused Encoutners with 7 or fewer Participant Limit\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 1 Damage Down",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -8413,7 +8413,7 @@
 				},
 				"SkillThree": {
 					"Name": "A Just Vengeance",
-					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Res/2)(Max 6)\nIf the highest A-Res is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\nGain double the Offense Level from the above effects in Focused Encoutners with 7 or fewer Participant Limit\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[After Attack] If target is defeated, 1 ally with the least SP heals 6 SP",
+					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Reson/2)(Max 6)\nIf the highest A-Reson is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\nGain double the Offense Level from the above effects in Focused Encoutners with 7 or fewer Participant Limit\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[After Attack] If target is defeated, 1 ally with the least SP heals 6 SP",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -8433,7 +8433,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Multifold Retribution",
-					"Description": "[Combat Start] If at 6+ sum of Envy A-Res including this skill, use 'A Just Vengeance' as Counter\nUpon activating the above effect, the Skill's affinity is changed to Envy.\nLeftmost 'Multifold Retribution' is activated first, activates 2 times per turn\n<1>[On Hit] Lower user's Stagger Threshold by 5\n<2>[On Hit] Lower user's Stagger Threshold by 5",
+					"Description": "[Combat Start] If at 6+ sum of Envy A-Reson including this skill, use 'A Just Vengeance' as Counter\nUpon activating the above effect, the Skill's affinity is changed to Envy.\nLeftmost 'Multifold Retribution' is activated first, activates 2 times per turn\n<1>[On Hit] Lower user's Stagger Threshold by 5\n<2>[On Hit] Lower user's Stagger Threshold by 5",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -8506,7 +8506,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Proof of Loyalty",
-					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Res/3)(Max 4)\nIf the highest A-Res is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\n<2>[On Hit] Inflict 3 Bleed\n[Heads Hit] Inflict 1 Damage Down",
+					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Reson/3)(Max 4)\nIf the highest A-Reson is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\n<2>[On Hit] Inflict 3 Bleed\n[Heads Hit] Inflict 1 Damage Down",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -8526,7 +8526,7 @@
 				},
 				"SkillThree": {
 					"Name": "A Just Vengeance",
-					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Res/2)(Max 6)\nIf the highest A-Res is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[After Attack] If target is defeated, 1 ally with the least SP heals 6 SP",
+					"Description": "[Combat Start] This skill gains 1 Offense Level by (Highest A-Reson/2)(Max 6)\nIf the highest A-Reson is Envy, boost the Offense Level gained by the above effect by 50% (rounded down)\n<1>[Heads Hit] Inflict 1 Bleed\n<2>[Heads Hit] Inflict 1 Bleed\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[After Attack] If target is defeated, 1 ally with the least SP heals 6 SP",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -9041,7 +9041,7 @@
 					],
 					"AltSkill": {
 						"Name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-						"Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 10)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
+						"Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Reson / 2)) allies with the least HP: apply (1 + (Hardblood / 10)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 6,
@@ -9308,7 +9308,7 @@
 					],
 					"AltSkill": {
 						"Name": "Variant Sancho Hardblood Arts 15 - Buildup to Finale",
-						"Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Res / 2)) allies with the least HP: apply (1 + (Hardblood / 15)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
+						"Description": "[Clashable Counter]\n[Combat Start] On (3 + (Highest Reson / 2)) allies with the least HP: apply (1 + (Hardblood / 15)) Shimmering [Bloodfiend] for every 40 Bloodfeast Consumed (Shared); consume half of Hardblood (Once per ally; rounded down)\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -12279,7 +12279,7 @@
 					],
 					"AltSkill": {
 						"Name": "Serious Skullbuster",
-						"Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +4% damage for every Red Eyes and Penitence consumed (Max 160%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
+						"Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +4% damage for every Red Eyes and Penitence consumed (Max 160%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Reson (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Reson (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
 						"BasePower": 5,
@@ -12451,7 +12451,7 @@
 					],
 					"AltSkill": {
 						"Name": "Serious Skullbuster",
-						"Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +2.5% damage for every Red Eyes and Penitence consumed (Max 100%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Res (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
+						"Description": "[On Use] Consume all Red Eyes and Penitence on self\nCoin Power +1 for every 5 Red Eyes consumed (Max 4)\nBase Power +1 for every 5 Penitence consumed (Max 4)\n[After Attack] Lose 15 SP and gain Only Ashes Remain next turn\n<1>[On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) (Max 5)\n<3>Deal +2.5% damage for every Red Eyes and Penitence consumed (Max 100%)\n[On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP\nHeal 1 additional ally for every 2 highest Reson (Max +2 allies)\n[On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP\n$ Heal 1 additional ally for every 2 highest Reson (Max +2 allies)\n[On Hit] Inflict 3 Bind and 2 Attack Power Down next turn",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
 						"BasePower": 5,
@@ -13954,7 +13954,7 @@
 				},
 				"SkillThree": {
 					"Name": "Recording",
-					"Description": "At 4+ Envy Res, Coin Power +1\nAt 6+ Envy A-Res, Coin Power +1\n<1>[On Hit] If target has Vengeance Mark, inflict 1 Plus Coin Drop next turn\n<3>[On Hit] If target has Vengeance Mark, inflict 2 Envy Fragility next turn",
+					"Description": "At 4+ Envy Reson, Coin Power +1\nAt 6+ Envy A-Reson, Coin Power +1\n<1>[On Hit] If target has Vengeance Mark, inflict 1 Plus Coin Drop next turn\n<3>[On Hit] If target has Vengeance Mark, inflict 2 Envy Fragility next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -13974,7 +13974,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Multifold Retribution",
-					"Description": "If at 4+ Envy Res, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed",
+					"Description": "If at 4+ Envy Reson, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -14067,7 +14067,7 @@
 				},
 				"SkillThree": {
 					"Name": "Recording",
-					"Description": "At 4+ Envy Res, Coin Power +1\n<1>[On Hit] If target has Vengeance Mark, inflict 1 Plus Coin Drop next turn\n<3>[On Hit] If target has Vengeance Mark, inflict 1 Envy Fragility next turn",
+					"Description": "At 4+ Envy Reson, Coin Power +1\n<1>[On Hit] If target has Vengeance Mark, inflict 1 Plus Coin Drop next turn\n<3>[On Hit] If target has Vengeance Mark, inflict 1 Envy Fragility next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -15111,7 +15111,7 @@
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "Draw of the Sword",
-					"Description": "At 5+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+					"Description": "At 5+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Reson) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -15132,7 +15132,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Acupuncture",
-					"Description": "At 7+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +3 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+60% damage on Critical Hit",
+					"Description": "At 7+ Poise, Coin Power +1\n[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Reson) other Blade Lineage allies in ascending order of Speeds (Max 2)\nIf there are 6 or more Blade Lineage IDs in the encounter, apply 2 instead\n[On Use] Gain +3 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+60% damage on Critical Hit",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -15262,7 +15262,7 @@
 				"Tier": 3,
 				"SkillOne": {
 					"Name": "Draw of the Sword",
-					"Description": "[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
+					"Description": "[Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Reson) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Gain 1 Poise",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -15283,7 +15283,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Acupuncture",
-					"Description": "[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Res) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+40% damage on Critical Hit",
+					"Description": "[Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Reson) other Blade Lineage allies in ascending order of Speeds (Max 2)\n[On Use] Gain +2 Poise Count\n[Clash Win] Gain 1 Slash Power Up next turn\n<1>[On Hit] Gain 3 Poise\n<3>+40% damage on Critical Hit",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -17783,7 +17783,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Gaiety",
-					"Description": "Heal (2x Gluttony Res) SP next turn.",
+					"Description": "Heal (2x Gluttony Reson) SP next turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -17888,7 +17888,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Gaiety",
-					"Description": "Heal (2x Gluttony Res) SP next turn.",
+					"Description": "Heal (2x Gluttony Reson) SP next turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -18694,7 +18694,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Target Marked",
-					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Res of Highest Res adds 25% chance to activate Target Spotted\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn",
+					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of Highest Reson adds 25% chance to activate Target Spotted\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -18766,7 +18766,7 @@
 					],
 					"AltSkill": {
 						"Name": "Combo: Full-Stop to Life",
-						"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Win] Gain +2 Poise Count\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Bind\n[On Hit] Inflict 2 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +50% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage",
+						"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Win] Gain +2 Poise Count\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 15)% damage\n[On Hit] Raise target's Stagger Threshold by 15% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Bind\n[On Hit] Inflict 2 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +50% damage on Critical Hit\nDeal +(Target's Pierce Resist x 50)% damage",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 7,
@@ -18918,7 +18918,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Target Marked",
-					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Res of Highest Res adds 20% chance to activate Target Spotted\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n<3>[On Hit] Inflict 1 Attack Power Down next turn",
+					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of Highest Reson adds 20% chance to activate Target Spotted\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n<3>[On Hit] Inflict 1 Attack Power Down next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -18990,7 +18990,7 @@
 					],
 					"AltSkill": {
 						"Name": "Combo: Full-Stop to Life",
-						"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 1 Bind\n[On Hit] Inflict 1 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +30% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage",
+						"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] Gain 5 Poise\n[Clash Lose] Final Power +5\n<1>Spend 1 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<2>Spend up to 2 Ammo\nDeal +(Ammo spent x 10)% damage\n[On Hit] Raise target's Stagger Threshold by 10% of damage dealt\n<3> If target is Staggered, deal +30% damage on Critical Hit\n[On Hit] Inflict 1 Bind\n[On Hit] Inflict 1 Pierce Fragility\n<4>[Unbreakable Coin]\nDeal +30% damage on Critical Hit\nDeal +(Target's Pierce Resist x 50)% damage",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 6,
@@ -19363,7 +19363,7 @@
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "I Wish to Open the Path",
-					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Res / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[On Hit] Gain +3 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
+					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Reson / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[On Hit] Gain +3 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -19479,7 +19479,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Heishou Keenclaw",
-					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Res) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Reson) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 6,
@@ -19542,7 +19542,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
-					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Res / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
+					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Reson / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -19577,7 +19577,7 @@
 				"Tier": 3,
 				"SkillOne": {
 					"Name": "I Wish to Open the Path",
-					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Res / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
+					"Description": "[Combat Start] Apply 1 Defense Level Up to 1 + (Highest Reson / 3) other allies (Once per turn; max 3; prioritizes allies with Assist Defense)\n[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n<1>[On Hit] Gain +2 Poise Count\n<2>[On Hit] Inflict +2 Rupture Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 3,
@@ -19691,7 +19691,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Heishou Keenclaw",
-					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Res) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Counter]\n[Combat Start] Apply 1 Slash Power Up to (Highest Reson) ally Heishou Identities (Once per turn)\n[Combat Start] If there are Backup Units, select 1 ally Heishou with the least HP%:\n$Upon using this Skill, apply Your Will Guides My Blade. to the selected ally; command Battlefield Retreat and heal 10% of their max HP on retreat (Once per turn)\n$The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the return line than non-Heishou Pack Identities\n[Combat Start] If there are no Backup Units, apply 2 Attack Power Up to 1 ally Heishou with the least HP% (Once per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 5,
@@ -19754,7 +19754,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
-					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Res / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
+					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (Highest Reson / 3) random Heishou Pack allies with the least Assist Defense (Max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (Once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (Once per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -21055,7 +21055,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Raring to Graze",
-					"Description": "Gain (Wrath Res) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and 1 Attack Power Up\nAlways Activate: At the start of the stage, gain +3 Ammo",
+					"Description": "Gain (Wrath Reson) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and 1 Attack Power Up\nAlways Activate: At the start of the stage, gain +3 Ammo",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -21167,7 +21167,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Raring to Graze",
-					"Description": "Gain (Wrath Res) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and 1 Attack Power Up",
+					"Description": "Gain (Wrath Reson) Charge Count next turn.\nAt 5+ Charge Count, gain 1 Haste and 1 Attack Power Up",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -21519,7 +21519,7 @@
 				},
 				"SkillThree": {
 					"Name": "Sever Knot",
-					"Description": "At 3+ Envy Res, Clash Power +1\nAt 4+ Envy Res, Coin Power +1\nAt 6+ Envy A-Res, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 75% HP, inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 75% HP, inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<4>[On Crit] +50% damage on Critical Hit",
+					"Description": "At 3+ Envy Reson, Clash Power +1\nAt 4+ Envy Reson, Coin Power +1\nAt 6+ Envy A-Reson, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 75% HP, inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 75% HP, inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<4>[On Crit] +50% damage on Critical Hit",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -21633,7 +21633,7 @@
 				},
 				"SkillThree": {
 					"Name": "Sever Knot",
-					"Description": "At 3+ Envy Res, Clash Power +1\nAt 4+ Envy Res, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<4>[On Crit] +30% damage on Critical Hit",
+					"Description": "At 3+ Envy Reson, Clash Power +1\nAt 4+ Envy Reson, Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] At less than 50% HP, inflict 1 Bleed\n<4>[On Crit] +30% damage on Critical Hit",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -22349,7 +22349,7 @@
 				},
 				"SkillThree": {
 					"Name": "Goin' for the Bullseye",
-					"Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+					"Description": "[Before Attack] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverization Round' instead\nIf unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper]; gain (Value consumed x 2) Poise and deal +(Value consumed x 12.5)% damage\n[After Attack] Gain +2 Poise Count\n<1>Spend 1 Ammo\nDeal +80% damage on Critical Hit\nDeal +(Target's Pierce Resist x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 12,
@@ -22372,7 +22372,7 @@
 					],
 					"AltSkill": {
 						"Name": "AL-HV Pulverization Round",
-						"Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Res x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
+						"Description": "If unit's Speed is faster than target's, deal +10% damage for every 1 Speed difference (Max 50%)\n[On Use] Gain 5 Poise\n[On Use] Consume all Concentration [Sniper] on self; gain (Value consumed x 2) Poise and deal +(Value consumed x 25)% damage\n[After Attack] Gain +5 Poise Count\n<1>Spend 1 Ammo - Atelier Logic\nDeal +130% damage on Critical Hit\nDeal +(Target's Pierce Resist x 50)% damage on Critical Hit\n[On Crit] At 30+ Poise, consume up to 10 excess Poise; deal +(Poise consumed x 10)% damage",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 15,
@@ -24242,7 +24242,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Brainwave Focus",
-					"Description": "At the start of the combat phase, gain (Gloom Res / 3) Attack Power Up.\nIf this unit fails to deal damage this turn, lose 15 SP at the end of the turn.",
+					"Description": "At the start of the combat phase, gain (Gloom Reson / 3) Attack Power Up.\nIf this unit fails to deal damage this turn, lose 15 SP at the end of the turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -24354,7 +24354,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Brainwave Focus",
-					"Description": "At the start of the combat phase, lose 15 SP. Gain (Gloom Res / 3) Attack Power Up next turn.",
+					"Description": "At the start of the combat phase, lose 15 SP. Gain (Gloom Reson / 3) Attack Power Up next turn.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -24887,7 +24887,7 @@
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "To Me!",
-					"Description": "[Combat Start] Apply 2 Defense Level Up to 2 allies adjacent to this unit on the Dashboard\n[On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(Highest Res) Aggro (Once per turn)\nAt 4+ Highest A-Res, apply 1 Protection to the ally next turn when they gain Aggro (Once per turn)\n<2>[On Hit] Inflict 2 Bleed",
+					"Description": "[Combat Start] Apply 2 Defense Level Up to 2 allies adjacent to this unit on the Dashboard\n[On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(Highest Reson) Aggro (Once per turn)\nAt 4+ Highest A-Reson, apply 1 Protection to the ally next turn when they gain Aggro (Once per turn)\n<2>[On Hit] Inflict 2 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -24908,7 +24908,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Pursue Them to the End!",
-					"Description": "[Combat Start] Apply 3 Offense Level Up to 2 allies adjacent to this unit on the Dashboard\n[On Use] Every Res of the highest Res adds 20% chance that this unit orders the ally on its immediate right(on the Dashboard) to use Assist Attack this turn.\nAt 4+ Highest A-Res, apply 2 Damage Up to the ally\nAt 4+ Pride A-Res, apply 2 additional Pride Power Up\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 1 Burn",
+					"Description": "[Combat Start] Apply 3 Offense Level Up to 2 allies adjacent to this unit on the Dashboard\n[On Use] Every Reson of the highest Reson adds 20% chance that this unit orders the ally on its immediate right(on the Dashboard) to use Assist Attack this turn.\nAt 4+ Highest A-Reson, apply 2 Damage Up to the ally\nAt 4+ Pride A-Reson, apply 2 additional Pride Power Up\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 1 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -24931,7 +24931,7 @@
 				},
 				"SkillThree": {
 					"Name": "Harpoon of Obsession",
-					"Description": "Deal more damage based on target's missing HP (+0.3% damage per 1% missing HP, max +30%\nCoin Power +1 for every 5 Bleed on target (Max 2)\n[After Attack] If the target is Staggered or defeated, (1+(Highest A-Res/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count. (4 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
+					"Description": "Deal more damage based on target's missing HP (+0.3% damage per 1% missing HP, max +30%\nCoin Power +1 for every 5 Bleed on target (Max 2)\n[After Attack] If the target is Staggered or defeated, (1+(Highest A-Reson/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count. (4 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -25023,7 +25023,7 @@
 				"Tier": 3,
 				"SkillOne": {
 					"Name": "To Me!",
-					"Description": "[On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(Highest Res) Aggro (Once per turn)\nAt 4+ Highest A-Res, apply 1 Protection to the ally next turn when they gain Aggro (Once per turn)\n<2>[On Hit] Inflict 2 Bleed",
+					"Description": "[On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(Highest Reson) Aggro (Once per turn)\nAt 4+ Highest A-Reson, apply 1 Protection to the ally next turn when they gain Aggro (Once per turn)\n<2>[On Hit] Inflict 2 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 3,
@@ -25044,7 +25044,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Pursue Them to the End!",
-					"Description": "[On Use] Every Res of the highest Res adds 15% chance that this unit orders the ally on its immediate right(on the Dashboard) to use Assist Attack this turn.\nAt 4+ Highest A-Res, apply 1 Damage Up to the ally\nAt 4+ Pride A-Res, apply 1 additional Pride Power Up\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Burn",
+					"Description": "[On Use] Every Reson of the highest Reson adds 15% chance that this unit orders the ally on its immediate right(on the Dashboard) to use Assist Attack this turn.\nAt 4+ Highest A-Reson, apply 1 Damage Up to the ally\nAt 4+ Pride A-Reson, apply 1 additional Pride Power Up\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -25067,7 +25067,7 @@
 				},
 				"SkillThree": {
 					"Name": "Harpoon of Obsession",
-					"Description": "Deal more damage based on target's missing HP (+0.2% damage per 1% missing HP, max +20%\n[After Attack] If the target is Staggered or defeated, (1+(Highest A-Res/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count. (2 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
+					"Description": "Deal more damage based on target's missing HP (+0.2% damage per 1% missing HP, max +20%\n[After Attack] If the target is Staggered or defeated, (1+(Highest A-Reson/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count. (2 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -25498,7 +25498,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Scattering Slash",
-					"Description": "[Combat Start] Gain 1 Protection (Once per turn)\n[Combat Start] Apply 2 Defense Power Up to (2 + Highest Res) fastest allied Kurokumo Clan Identities (Including this unit; once per turn)",
+					"Description": "[Combat Start] Gain 1 Protection (Once per turn)\n[Combat Start] Apply 2 Defense Power Up to (2 + Highest Reson) fastest allied Kurokumo Clan Identities (Including this unit; once per turn)",
 					"DamageType": "Evade",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -25535,7 +25535,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Gathering Dark Clouds",
-					"Description": "Combat Start: If there are 2+ allied Kurokumo Clan Identities participating in this Encounter, Gain 1 Dark Cloud Blade\nCombat Start: Apply 1 Dark Cloud to Kurokumo Clan Identities adjacent to this unit on the Dashboard\nAt 4+ Lust Res, Apply 1 Dark Cloud to all other Kurokumo Clan allies",
+					"Description": "Combat Start: If there are 2+ allied Kurokumo Clan Identities participating in this Encounter, Gain 1 Dark Cloud Blade\nCombat Start: Apply 1 Dark Cloud to Kurokumo Clan Identities adjacent to this unit on the Dashboard\nAt 4+ Lust Reson, Apply 1 Dark Cloud to all other Kurokumo Clan allies",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -28061,7 +28061,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Burning Passion",
-					"Description": "Deal +10% more damage for every 6 Burn on target (Max 30%)\nCombat Start: If all enemies/parts have 6+ Burn, apply 1 Wrath DMG Up to (highest A-Res) allies in deployment order\nIf the ally is a Liu Association Fixer, apply 1 Attack Power Up",
+					"Description": "Deal +10% more damage for every 6 Burn on target (Max 30%)\nCombat Start: If all enemies/parts have 6+ Burn, apply 1 Wrath DMG Up to (highest A-Reson) allies in deployment order\nIf the ally is a Liu Association Fixer, apply 1 Attack Power Up",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -28174,7 +28174,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Burning Passion",
-					"Description": "Deal +5% more damage for every 6 Burn on target (Max 15%)\nCombat Start: If all enemies/parts have 6+ Burn, apply 1 Wrath DMG Up to (highest A-Res) allies in deployment order",
+					"Description": "Deal +5% more damage for every 6 Burn on target (Max 15%)\nCombat Start: If all enemies/parts have 6+ Burn, apply 1 Wrath DMG Up to (highest A-Reson) allies in deployment order",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -28596,7 +28596,7 @@
 				},
 				"SkillThree": {
 					"Name": "The Festival Will End",
-					"Description": "[Before Use] At 25+ Blooming Thorn, activate 'Ascendant Don Quixote Hardblood Arts - The Finale' instead\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Res) allies: Apply (3 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 3 Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed",
+					"Description": "[Before Use] At 25+ Blooming Thorn, activate 'Ascendant Don Quixote Hardblood Arts - The Finale' instead\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Reson) allies: Apply (3 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Reson) allies: Apply 3 Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -28620,7 +28620,7 @@
 					],
 					"AltSkill": {
 						"Name": "Ascendant Don Quixote Hardblood Arts - The Finale",
-						"Description": "[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Res) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +2 Rupture Count\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
+						"Description": "[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Self and (Highest Reson) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Reson) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +2 Rupture Count\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -28780,7 +28780,7 @@
 				},
 				"SkillThree": {
 					"Name": "The Festival Will End",
-					"Description": "[Before Use] At 25+ Blooming Thorn, activate 'Ascendant Don Quixote Hardblood Arts - The Finale' instead\n[On Use] Self and (Highest Res) allies: Apply (3 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 3 Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed",
+					"Description": "[Before Use] At 25+ Blooming Thorn, activate 'Ascendant Don Quixote Hardblood Arts - The Finale' instead\n[On Use] Self and (Highest Reson) allies: Apply (3 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Reson) allies: Apply 3 Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -28804,7 +28804,7 @@
 					],
 					"AltSkill": {
 						"Name": "Ascendant Don Quixote Hardblood Arts - The Finale",
-						"Description": "[On Use] Self and (Highest Res) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Res) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
+						"Description": "[On Use] Self and (Highest Reson) allies: Apply (5 + (1 for every 50 Bloodfeast Consumed)) Festive Fever this turn and next turn (Max 10)\n[On Use] Self and (Highest Reson) allies: Apply 5 Blooming Thorn\n[On Use] Deal +1% damage for every Bloodfeast Consumed (Max 50%)\n[After Attack] Consume all Blooming Thorn\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Bleed",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 3,
@@ -30043,7 +30043,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Júbilo Hedonista",
-					"Description": "After a successful evade, lower Stagger Threshold by the evade skill's Power at a (5 x Gloom Res)% chance.",
+					"Description": "After a successful evade, lower Stagger Threshold by the evade skill's Power at a (5 x Gloom Reson)% chance.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -30151,7 +30151,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Júbilo Hedonista",
-					"Description": "After a successful evade, lower Stagger Threshold by the evade skill's Power at a (5 x Gloom Res)% chance.",
+					"Description": "After a successful evade, lower Stagger Threshold by the evade skill's Power at a (5 x Gloom Reson)% chance.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gloom",
@@ -30753,7 +30753,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Wishing Talisman",
-					"Description": "At the start of the combat phase, give (Highest Res x 2) Talisman to the ally with the most HP.",
+					"Description": "At the start of the combat phase, give (Highest Reson x 2) Talisman to the ally with the most HP.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -32066,7 +32066,7 @@
 					],
 					"AltSkill": {
 						"Name": "Blazing Strike",
-						"Description": "Coin Power +2 for every 4 (sum of Burn Potency on all enemies) (Max 8)\n[Clash Win] Heal 10 SP\n[Clash Lose] Lose 30 SP\nDeal +10% damage for every Wrath Res (Max 60%)\nAt 4+ highest Wrath A-Res, deal +20% damage for every Wrath Res (Max 120%) instead\n[After Attack] Lose 15 SP\n<1>Deal +4% damage for every 1 Burn on target (Max 120%)\n[On Hit] If the target has 10+ Burn, inflict 2 Burn against (# of highest Res) random enemies\nIf the above Res was a Wrath Res, inflict +1 Burn Count as well\n[On Hit] Inflict 10 Burn\n[On Kill] Randomly inflict (Burn Potency on the defeated target) Burn between all enemies (Max 10; in Focused Encounters, between all Parts)",
+						"Description": "Coin Power +2 for every 4 (sum of Burn Potency on all enemies) (Max 8)\n[Clash Win] Heal 10 SP\n[Clash Lose] Lose 30 SP\nDeal +10% damage for every Wrath Reson (Max 60%)\nAt 4+ highest Wrath A-Reson, deal +20% damage for every Wrath Reson (Max 120%) instead\n[After Attack] Lose 15 SP\n<1>Deal +4% damage for every 1 Burn on target (Max 120%)\n[On Hit] If the target has 10+ Burn, inflict 2 Burn against (# of highest Reson) random enemies\nIf the above Reson was a Wrath Reson, inflict +1 Burn Count as well\n[On Hit] Inflict 10 Burn\n[On Kill] Randomly inflict (Burn Potency on the defeated target) Burn between all enemies (Max 10; in Focused Encounters, between all Parts)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 13,
@@ -32221,7 +32221,7 @@
 					],
 					"AltSkill": {
 						"Name": "Blazing Strike",
-						"Description": "Coin Power +1 for every 4 (sum of Burn Potency on all enemies) (Max 8)\n[Clash Win] Heal 10 SP\n[Clash Lose] Lose 30 SP\nDeal +5% damage for every Wrath Res (Max 30%)\n[After Attack] Lose 15 SP\n<1>Deal +2.5% damage for every 1 Burn on target (Max 100%)\n[On Hit] If the target has 10+ Burn, inflict 2 Burn against (# of highest Res) random enemies\n[On Hit] Inflict 10 Burn\n[On Kill] Randomly inflict (Burn Potency on the defeated target) Burn between all enemies (Max 10; in Focused Encounters, between all Parts)",
+						"Description": "Coin Power +1 for every 4 (sum of Burn Potency on all enemies) (Max 8)\n[Clash Win] Heal 10 SP\n[Clash Lose] Lose 30 SP\nDeal +5% damage for every Wrath Reson (Max 30%)\n[After Attack] Lose 15 SP\n<1>Deal +2.5% damage for every 1 Burn on target (Max 100%)\n[On Hit] If the target has 10+ Burn, inflict 2 Burn against (# of highest Reson) random enemies\n[On Hit] Inflict 10 Burn\n[On Kill] Randomly inflict (Burn Potency on the defeated target) Burn between all enemies (Max 10; in Focused Encounters, between all Parts)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 13,
@@ -32678,7 +32678,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Payback with Interest",
-					"Description": "If target has 6+ Bleed, Coin Power +1\n[On Use] This Skill Slot gains +5 Aggro next turn\n[Combat Start] This Skill gains (Highest Res / 2) Offense Level (Max 3, rounded down)\nIf said Res includes an A-Res, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict 2 Bleed\n<3>At 3+ Res that includes this Skill, deal +20% damage",
+					"Description": "If target has 6+ Bleed, Coin Power +1\n[On Use] This Skill Slot gains +5 Aggro next turn\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3, rounded down)\nIf said Reson includes an A-Reson, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict 2 Bleed\n<3>At 3+ Reson that includes this Skill, deal +20% damage",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -32698,7 +32698,7 @@
 				},
 				"SkillThree": {
 					"Name": "Write 'em all down",
-					"Description": "Deal +1% damage for every Book of Vengeance [Sinclair] (Max 30%)\nCoin Power +1 for every 6 Bleed on target (Max 2)\n[Combat Start] This Skill gains (Highest Res / 2) Offense Level (Max 3, rounded down)\nIf said Res includes an A-Res, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict 4 Bleed\n<3>Deal +5% damage for every Res that includes this Skill (Max 30%)\nDeal +15% damage for every 10 Book of Vengeance [Sinclair] (Max 45%)",
+					"Description": "Deal +1% damage for every Book of Vengeance [Sinclair] (Max 30%)\nCoin Power +1 for every 6 Bleed on target (Max 2)\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3, rounded down)\nIf said Reson includes an A-Reson, double the Offense Level gained from the above effect\n<2>[On Hit] Inflict 4 Bleed\n<3>Deal +5% damage for every Reson that includes this Skill (Max 30%)\nDeal +15% damage for every 10 Book of Vengeance [Sinclair] (Max 45%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -32717,7 +32717,7 @@
 				},
 				"SkillDefense": {
 					"Name": "Warmup in the East",
-					"Description": "[Combat Start] Skill behavior changes based on the sum of Envy A-Res\nAt 4+ sum of A-Res, use 'Payback with Interest' as Counter\nAt 6+ sum of A-Res, use 'Write 'em all Down' as Counter\n(Activates from leftmost Skill Slot, activates 2 times per turn)\n[Combat Start] Gain 30% of missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed",
+					"Description": "[Combat Start] Skill behavior changes based on the sum of Envy A-Reson\nAt 4+ sum of A-Reson, use 'Payback with Interest' as Counter\nAt 6+ sum of A-Reson, use 'Write 'em all Down' as Counter\n(Activates from leftmost Skill Slot, activates 2 times per turn)\n[Combat Start] Gain 30% of missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -32794,7 +32794,7 @@
 				},
 				"SkillTwo": {
 					"Name": "Payback with Interest",
-					"Description": "If target has 6+ Bleed, Coin Power +1\n[On Use] This Skill Slot gains +3 Aggro next turn\n[Combat Start] This Skill gains (Highest Res / 2) Offense Level (Max 3, rounded down)\n<2>[On Hit] Inflict 2 Bleed\n<3>At 4+ Res that includes this Skill, deal +15% damage",
+					"Description": "If target has 6+ Bleed, Coin Power +1\n[On Use] This Skill Slot gains +3 Aggro next turn\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3, rounded down)\n<2>[On Hit] Inflict 2 Bleed\n<3>At 4+ Reson that includes this Skill, deal +15% damage",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -32814,7 +32814,7 @@
 				},
 				"SkillThree": {
 					"Name": "Write 'em all down",
-					"Description": "Deal +1% damage for every 2 Book of Vengeance [Sinclair] (Max 15%)\nIf target has 6+ Bleed, Coin Power +1\n[Combat Start] This Skill gains (Highest Res / 2) Offense Level (Max 3, rounded down)\n<2>[On Hit] Inflict 3 Bleed\n<3>Deal +2.5% damage for every Res that includes this Skill (Max 15%)\nDeal +7.5% damage for every 10 Book of Vengeance [Sinclair] (Max 22.5%)",
+					"Description": "Deal +1% damage for every 2 Book of Vengeance [Sinclair] (Max 15%)\nIf target has 6+ Bleed, Coin Power +1\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3, rounded down)\n<2>[On Hit] Inflict 3 Bleed\n<3>Deal +2.5% damage for every Reson that includes this Skill (Max 15%)\nDeal +7.5% damage for every 10 Book of Vengeance [Sinclair] (Max 22.5%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -33302,7 +33302,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Let's Get Battle-drunk",
-					"Description": "On Hit against targets with 7+ Rupture, (Highest Res x 15)% chance to inflict 1 Burn (4 times per turn)\nCombat End: If unit has Burn, gain 1 Bloodflame, 1 Wrath DMG Up and 1 Gluttony DMG Up at next Turn Start\nCombat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)",
+					"Description": "On Hit against targets with 7+ Rupture, (Highest Reson x 15)% chance to inflict 1 Burn (4 times per turn)\nCombat End: If unit has Burn, gain 1 Bloodflame, 1 Wrath DMG Up and 1 Gluttony DMG Up at next Turn Start\nCombat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -33453,7 +33453,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Let's Get Battle-drunk",
-					"Description": "On Hit against targets with 7+ Rupture, (Highest Res x 15)% chance to inflict 1 Burn (4 times per turn)\nCombat End: If unit has Burn, gain 1 Bloodflame, 1 Wrath DMG Up and 1 Gluttony DMG Up at next Turn Start\nCombat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)",
+					"Description": "On Hit against targets with 7+ Rupture, (Highest Reson x 15)% chance to inflict 1 Burn (4 times per turn)\nCombat End: If unit has Burn, gain 1 Bloodflame, 1 Wrath DMG Up and 1 Gluttony DMG Up at next Turn Start\nCombat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -35709,7 +35709,7 @@
 				},
 				"SkillThree": {
 					"Name": "Rip Dimension",
-					"Description": "[Combat Start] To self and (Highest Res) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +2\n[On Use] Consume 15 Charge Count to gain Coin Power +2\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 3 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
+					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +2\n[On Use] Consume 15 Charge Count to gain Coin Power +2\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 3 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -35826,7 +35826,7 @@
 				},
 				"SkillThree": {
 					"Name": "Rip Dimension",
-					"Description": "[Combat Start] To self and (Highest Res) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +1\n[On Use] Consume 15 Charge Count to gain Coin Power +1\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 2 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
+					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +1\n[On Use] Consume 15 Charge Count to gain Coin Power +1\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 2 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,

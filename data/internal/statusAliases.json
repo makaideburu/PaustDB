@@ -1484,5 +1484,26 @@
 			"heal hp",
 			"heal sp"
 		]
+	},
+	{
+		"entry": "hardened shell-barrier",
+		"aliases": [
+			"defense level up",
+			"protection"
+		]
+	},
+	{
+		"entry": "thunderer",
+		"aliases": [
+			"offense level up",
+			"defense level up"
+		]
+	},
+	{
+		"entry": "higher thunderer",
+		"aliases": [
+			"offense level up",
+			"defense level up"
+		]
 	}
 ]

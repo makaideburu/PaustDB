@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "2.10.0 (2025-09-22)",
+        "```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
+      ],
+      [
         "2.9.0 (2025-08-11)",
         "```cover yourself in alt skills```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.7 (2025-05-29)",
         "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
-      ],
-      [
-        "2.6.2.1 (2025-05-19)",
-        "```oh no not again```"
       ]
     ],
     "OldItems": [
@@ -340,6 +340,10 @@
       [
         "2.6.2 (2025-05-15)",
         "```Inconsequential backend stuff that should be inconsequential for real```"
+      ],
+      [
+        "2.6.2.1 (2025-05-19)",
+        "```oh no not again```"
       ]
     ],
     "HelpFooter": ""

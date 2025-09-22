@@ -2188,7 +2188,7 @@
 	},
 	{
 		"Name": "Flower-burying Wedge [埋花櫼]",
-		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood └The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood └The End' next turn based on this unit's Speed.",
+		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood └The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood └The End' next turn based on this unit's Speed.",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Down",
@@ -2751,6 +2751,30 @@
 			"Max HP Up",
 			"Heal HP",
 			"Heal SP"
+		]
+	},
+	{
+		"Name": "Hardened Shell-Barrier",
+		"Description": "Turn Start: Gain (Stack / X) Defense Level Up\nImmediately before taking a hit from an enemy, consume X Hardened Shell-Barrier and gain Protection equal to the Stack consumed\nTurn End: Lose Stack",
+		"Tags": [
+			"Defense Level Up",
+			"Protection"
+		]
+	},
+	{
+		"Name": "Thunderer",
+		"Description": "Turn Start: Gain Offense Level Up and Defense Level Up\nTurn End: Lose Stack",
+		"Tags": [
+			"Offense Level Up",
+			"Defense Level Up"
+		]
+	},
+	{
+		"Name": "Higher Thunderer",
+		"Description": "Turn Start: Gain Offense Level Up and Defense Level Up\nTurn End: Lose Stack",
+		"Tags": [
+			"Offense Level Up",
+			"Defense Level Up"
 		]
 	}
 ]
