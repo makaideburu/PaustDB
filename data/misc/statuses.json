@@ -2755,7 +2755,7 @@
 	},
 	{
 		"Name": "Hardened Shell-Barrier",
-		"Description": "Turn Start: Gain (Stack / X) Defense Level Up\nImmediately before taking a hit from an enemy, consume X Hardened Shell-Barrier and gain Protection equal to the Stack consumed\nTurn End: Lose Stack",
+		"Description": "Max Stack: 10\nTurn Start: Gain (Stack / 3) Defense Level Up (Max 3; rounded down)\nImmediately before taking a hit from an enemy, consume half of Hardened Shell-Barrier and gain Protection equal to the Stack consumed (Once per turn; rounded up)\nTurn End: Lose 3 Stack",
 		"Tags": [
 			"Defense Level Up",
 			"Protection"
@@ -2763,7 +2763,7 @@
 	},
 	{
 		"Name": "Thunderer",
-		"Description": "Turn Start: Gain Offense Level Up and Defense Level Up\nTurn End: Lose Stack",
+		"Description": "Max Stack: 5\nTurn Start: Gain 1 Offense Level Up and 1 Defense Level Up\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Up"
@@ -2771,7 +2771,7 @@
 	},
 	{
 		"Name": "Higher Thunderer",
-		"Description": "Turn Start: Gain Offense Level Up and Defense Level Up\nTurn End: Lose Stack",
+		"Description": "Max Stack: 5\nTurn Start: Gain 2 Offense Level Up and 3 Defense Level Up\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Up"
@@ -2779,7 +2779,7 @@
 	},
 	{
 		"Name": "Man in Scabbard",
-		"Description": "For every (Stack / X), gain Aggro\nFor every (Stack / Y), gain Protection\nGain X at Turn End",
+		"Description": "Max Stack: 40\nFor every (Stack / 8), gain 1 Aggro (Max 5; rounded down; leftmost Slot on the Dashboard)\nFor every (Stack / 20), gain 1 Protection (Max 2; rounded down)\nGain 10 Stacks at Turn End\nCan gain up to 20 per turn",
 		"Tags": [
 			"Aggro",
 			"Protection"
