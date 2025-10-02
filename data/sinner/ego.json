@@ -1844,7 +1844,7 @@
     ]
   },
   {
-    "Id": 2000,
+    "Id": 2304,
     "Sinner": "Faust",
     "Grade": "HE",
     "Sanity": 20,
@@ -6476,7 +6476,7 @@
     ]
   },
   {
-    "Id": 6000,
+    "Id": 6303,
     "Sinner": "Hong Lu",
     "Grade": "HE",
     "Sanity": 20,
@@ -6649,7 +6649,7 @@
       {
         "Tier": 4,
         "Awakening": {
-          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
           "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -6693,7 +6693,7 @@
           }
         },
         "Corrosion": {
-          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n$At 6+ Highest Reson, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -6726,7 +6726,7 @@
       {
         "Tier": 3,
         "Awakening": {
-          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
           "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -6770,7 +6770,7 @@
           }
         },
         "Corrosion": {
-          "Name": "Tears of the Tarnished Blood - Inception [始]",
+          "Name": "Tears of the Tarnished Blood [汚血泣涙]",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -9014,7 +9014,7 @@
     ]
   },
   {
-    "Id": 8000,
+    "Id": 8304,
     "Sinner": "Ishmael",
     "Grade": "HE",
     "Sanity": 20,
@@ -13668,7 +13668,7 @@
     ]
   },
   {
-    "Id": 13000,
+    "Id": 13402,
     "Sinner": "Gregor",
     "Grade": "WAW",
     "Sanity": 30,

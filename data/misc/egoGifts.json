@@ -9551,5 +9551,194 @@
     "Availability": [
       "MD6"
     ]
+  },
+  {
+    "Name": "Sea Terror Notes",
+    "Tag": "Keywordless",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Envy",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "Deal +10% damage against enemies\nDeal +1% additional damage for every enemy defeated or Part broken during this Encounter (Max +20% additional damage)\nCam activate the above effect by breaking the same Part repeatedly\nIf there are Sea Terror among enemies, the above effect activates at maximum potential regardless of the conditions",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Goldforged Compass",
+    "Tag": "Keywordless",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Gluttony",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "When using a Plus Coin Skill, heal 5 SP; when using a Minus Coin Skill, lose 5 SP (Each unit's SP cannot drop below -40 from this effect, once per turn per Identity)\nTurn Start: At Max SP, or -30 or less SP, gain 1 Power Up and 2 Protection",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal SP",
+          "Self SP Damage",
+          "Power Up",
+          "Protection"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Silver Key Bundle",
+    "Tag": "Keywordless",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Sloth",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "In boss fights, gain 1 E.G.O resource for the 3 least-owned Affinities at the start of the turn\nTurn End: If E.G.O Skill was used this turn, gain 3 E.G.O resource for the least-owned Affinity (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Gain Resources"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Sea Terror Jerky",
+    "Tag": "Keywordless",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Inflict 3 Defense Level Down to all enemies (in Focused Encounters, all Parts)\nIf Sea Terrors are featured among enemies, inflict 7 Defense Level Down instead",
+        "Rank": 1,
+        "MiscTags": [
+          "Defense Level Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Brilliant Lamplight",
+    "Tag": "Keywordless",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Envy",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "[Effect applies to the earliest Deployed Identity]\nEvery turn, the first Attack Skill to be used gains Final Power +3\nIf the Attack Skill was an E.G.O Skill, it gains Final Power +4 and deals +25% damage instead\nCombat Start: If this unit has Nervous Impairment Stacks, consume up to 4 Stacks, but gain (Stacks consumed x 2) Burn",
+        "Rank": 1,
+        "MiscTags": [
+          "Final Power",
+          "Damage Amp",
+          "Self Burn"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Aged Sheet Music",
+    "Tag": "Sinking",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Gloom",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "When using an Attack Skill (Including E.G.O Skills) against a single target (or Abnormalities, a single Part), deal +10% damage\nIf the Skill inflicts Sinking, Sinking Count, or Unique Sinking, deal +25% damage instead\n[Tidal Elegy Ishmael E.G.O Exclusive Effect]\nIf this E.G.O Skill targets only a single enemy, the final Coin gains +4 Coin Power and deals +20% daamge",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Metal Construct",
+    "Tag": "Rupture",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Gluttony",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: All allies gain 2 HP Healing Boost\nFor Identities with Attack Skills that inflict Rupture or Rupture Count: Gain 4 HP Healing Boost instead\n[Command : Meltdown Faust E.G.O Exclusive Effect]\nAny excess HP healing due to this E.G.O Skill or its Passive's effects is converted to Shield",
+        "Rank": 1,
+        "MiscTags": [
+          "HP Healing Boost"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Moonmirror Wine Cup",
+    "Tag": "Poise",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: All allies heal 5 SP. At Max SP, gain Poise equal to excess SP healed (Max 5)\nWhen using an Attack Skill that gains Poise or Poise Count, gain +2 Poise Count (Once per Identity per turn)\n[To Remain Oneself Hong Lu E.G.O Exclusive Effect]\n$Awakening: When using this E.G.O Skill, instead of consuming SP, heal the amount of SP it would've consumed\n$Corrosion: When using this E.G.O Skill, -50% to SP consumed",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal SP",
+          "Poise",
+          "Poise Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
+  },
+  {
+    "Name": "Classical-design Letter Opener",
+    "Tag": "Tremor",
+    "Abnormality": "**Pilgrimage of Compassion**",
+    "Affinity": "Sloth",
+    "Tier": 4,
+    "Cost": 400,
+    "Upgrades": [
+      {
+        "Description": "Skills with 2+ Atk Weight deal +15% damage\nSkills that inflict Tremor, Tremor Count, or Unique Tremor deal +(15 + Atk Weight x 5)% damage instead (Max 50%)\n[Unbrilliant Glory Gregor E.G.O Exclusive Effect]\n$Awakening: Deal +20% damage with every E.G.O Skill Coin Reuse (Max 60%)\n$Corrosion: Before attacking, gain Damage Up for every 10 Man in Scabbard consumed (Max 4)",
+        "Rank": 1,
+        "MiscTags": [
+          "Final Power",
+          "Damage Amp",
+          "Self Burn"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD6"
+    ]
   }
 ]

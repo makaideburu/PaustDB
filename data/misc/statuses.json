@@ -2784,5 +2784,117 @@
 			"Aggro",
 			"Protection"
 		]
+	},
+	{
+		"Name": "Catching Breath (Low Morale)",
+		"Description": "Turn Start: Gain 2 Defense Level Up and lose 2 Poise",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Catching Breath (Panic)",
+		"Description": "Turn Start: Gain 5 Defense Level Up and lose 5 Poise",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Shadow Arm (Low Morale)",
+		"Description": "Clash Power -1; take -10% damage",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Shadow Arm (Panic)",
+		"Description": "Clash Power -2; take -20% damage",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Unbridled Steed (Low Morale)",
+		"Description": "Turn Start: Gain 2 Offense Level Up and 1 Fragile",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Unbridled Steed (Panic)",
+		"Description": "Turn Start: Gain 1 Max Speed, gain 2 Offense Level Up and 2 Fragile",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Night Drifter of the Drunken Palm (Low Morale)",
+		"Description": "Take +10% damage from Jia Xichun; deal +30% damage with Counterattacks",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Night Drifter of the Drunken Palm (Panic)",
+		"Description": "Final Power +1; take +20% damage from Jia Xichun; deal +50% damage with Counterattacks",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Call of the Bloodkin (Low Morale)",
+		"Description": "Turn End: Consume 3% HP to apply 1 Attack Power Up and 1 Fragile to all allies",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Call of the Bloodkin (Panic)",
+		"Description": "Turn End: Consume 5% HP and gain 1 Fragile to apply 1 Attack Power Up and 1 Fragile to all allies",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Hive Mind (Low Morale)",
+		"Description": "All Resistances change to 'Normal'",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Hive Mind (Panic)",
+		"Description": "All Resistances change to 'Normal'\nDouble the amount of Burn, Bleed, Tremor, and Rupture Potency gained due to Skill effects",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Heart of Compassion (Low Morale)",
+		"Description": "Deal +(Nervous Impairment on target / 2)% damage (Max 15%)\nTurn Start: Gain 1 Damage Up and 2 Fragile",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Heart of Compassion (Panic)",
+		"Description": "Deal +(Nervous Impairment on target)% damage (Max 30%)\nTurn Start: Gain 2 Damage Up and 3 Fragile",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
 	}
 ]
