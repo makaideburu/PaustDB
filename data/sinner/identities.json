@@ -6743,6 +6743,381 @@
 		]
 	},
 	{
+		"Id": 2000,
+		"Sinner": "Faust",
+		"Identity": "Shi Association East Section 3",
+		"World": "",
+		"Speed": "3-7",
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Cleave",
+					"Description": "[On Use] At 4+ (Poise on self + Bleed on target), Coin Power +1\n[On Use] Gain 2 Poise\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise",
+						"Bleed"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Positioning Maneuver",
+					"Description": "[On Use] Clash Power +1 for every 4 (Poise on self + Bleed on target) (Max 4)\n[On Use] Deal +11% damage for every 4 Poise (Max 44%)\n[On Use] Deal +11% damage for every Arrow - Shi spent (Max 44%)\n[On Use] Gain +1 Poise Count\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Bleed Count",
+						"Poise",
+						"Bleed"
+					]
+				},
+				"SkillThree": {
+					"Name": "Glimmering Bow",
+					"Description": "[On Use] Coin Power +1 for every 4 (Poise on self + Bleed on target) (Max 2)\n[On Use] Deal +11% damage for every 4 Poise (Max 44%)\n[On Use] Deal +11% damage for every Arrow - Shi spent (Max 44%)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n[On Crit] Gain +1 Poise Count\n<2>[On Hit] Inflict +2 Bleed Count\n[On Crit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 4 Bleed\n<4>[On Crit] Inflict 2 Defense Level Down next turn (Once per turn)",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise",
+						"Bleed Count",
+						"Bleed",
+						"Defense Level Down"
+					],
+					"AltSkill": {
+						"Name": "Bow's Glimmer",
+						"Description": "[Unclashable]\nCannot trigger Skill Reuse\nDeal +48% damage for every Target Aim (Max 144%)\nDeal +48% damage on Critical Hit for every Target Aim (Max 144%)\n$At 4 Target Aim, instead of the above two effects, deal +444% damage on Critical Hit\n[On Use] Base Power +2 for every 4 Poise (Max 10)\n[On Use] Coin Power +4 for every Target Aim (Max 10)\n[On Use] Gain 5 Poise for every Target Aim\n[After Attack] Lose ((Target Aim - 1) x 5) Poise\n[After Attack] Remove Ready to Loose and Target Aim\n<1>[On Hit] Inflict 1 Lodged Arrow; if inflicted, lose 1 Arrow - Shi\n[On Kill] Gain Liferender next turn\n[On Crit Kill Against Enemy] Gain +4 Poise Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 5,
+						"BasePowerModifier": 14,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 14,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise",
+							"Spend Poise",
+							"Spend Ready to Loose",
+							"Spend Target Aim",
+							"Lodged Arrow",
+							"Spend Arrow - Shi",
+							"Liferender",
+							"Poise Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Unfold Bowblade",
+					"Description": "If unit does not have Arrow - Shi, activate 'Evade' instead\n[Combat Start] If unit is about to use 'Bow's Glimmer', convert to 'Evade' instead\n[Combat Start] If unit has Ready to Loose, gain (60 / Target Aim) Shield for the turn (Once per turn)\n[Turn End] If unit has Ready to Loose and did not use an Attack Skill this turn, gain 1 Target Aim next turn (Once per turn)\n[Turn End] If unit does not have Ready to Loose and has 1+ Arrow - Shi, gain Ready to Loose and 1 Target Aim next turn",
+					"DamageType": "Defend",
+					"SinType": "Lust",
+					"BasePower": 14,
+					"CoinPower": 4,
+					"CoinCount": 1,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Shield",
+						"Target Aim",
+						"Ready to Loose"
+					],
+					"AltSkill": {
+						"Name": "Evade",
+						"Description": "[On Evade] Gain +1 Poise Count (3 times per turn)",
+						"DamageType": "Evade",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 10,
+						"CoinCount": 1,
+						"Level": 1,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Snipe - Archery",
+						"Description": "If unit is in Ready to Loose state, convert the leftmost Base Attack Skill equipped on the Dashboard to 'Bow's Glimmer', then use it at Combat Start\n$If, at max Target Aim Stack, the Skill 'Glimmering Bow' is on neither the Dashboard or upcoming list of Skills when this effect activates, the Defense Skill equipped on the leftmost Skill Slot counts as a Skill 3, and will be used to activate 'Bow's Glimmer'\nGain the following effects based on which Base Attack Skill was converted (Sin Affinity carries over from the Converted Skill)\n$Skill 1: Base Power +1 and deal +11% damage\n$Skill 2: Base Power +1, Coin Power +1, and deal +22% damage\n$Skill 3: Base Power +4, Coin Power +4, and deal +44% damage",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Skill Change"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Shi-no-Yumi",
+					"Description": "At 4 Arrow - Shi Stack: When this unit gains Poise Potency from Base Attack Skill effects, gain +1 Poise Count (3 times per Encounter; per-Encounter cap resets when Arrow - Shi drops to 3)\nIf this unit used 'Bow's Glimmer' Skill at 2+ Target Aim, gain 2 Slash DMG Up next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Poise Count",
+						"Slash DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Aiming for the Bullseye",
+					"Description": "Turn End: Apply 1 Pierce DMG Up to the ally who inflicted the most Bleed Potency to enemies with its Skills and Passives (Including E.G.O Skills; prioritizes earliest Deployment; does not activate if no Bleed was inflicted)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Pierce DMG Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Cleave",
+					"Description": "[On Use] At 4+ (Poise on self + Bleed on target), Coin Power +1\n[On Use] Gain 2 Poise\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise",
+						"Bleed"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Positioning Maneuver",
+					"Description": "[On Use] Clash Power +1 for every 4 (Poise on self + Bleed on target) (Max 2)\n[On Use] Deal +11% damage for every 4 Poise (Max 44%)\n[On Use] Gain +1 Poise Count\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Bleed Count",
+						"Poise",
+						"Bleed"
+					]
+				},
+				"SkillThree": {
+					"Name": "Glimmering Bow",
+					"Description": "[On Use] Coin Power +1 for every 4 (Poise on self + Bleed on target) (Max 2)\n[On Use] Deal +11% damage for every 4 Poise (Max 44%)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 1 Poise\n[On Crit] Gain +1 Poise Count\n<2>[On Hit] Inflict +1 Bleed Count\n[On Crit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 4 Bleed\n<4>[On Crit] Inflict 2 Defense Level Down next turn (Once per turn)",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 2,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise",
+						"Bleed Count",
+						"Bleed",
+						"Defense Level Down"
+					],
+					"AltSkill": {
+						"Name": "Bow's Glimmer",
+						"Description": "[Unclashable]\nCannot trigger Skill Reuse\nDeal +24% damage for every Target Aim (Max 72%)\nDeal +24% damage on Critical Hit for every Target Aim (Max 72%)\n$At 4 Target Aim, instead of the above two effects, deal +444% damage on Critical Hit\n[On Use] At 4+ Poise, Base Power +2\n[On Use] Coin Power +2 for every Target Aim (Max 4)\n[On Use] Gain 5 Poise for every Target Aim\n[After Attack] Lose (Target Aim x 5) Poise\n[After Attack] Remove Ready to Loose and Target Aim\n<1>[On Hit] Inflict 1 Lodged Arrow; if inflicted, lose 1 Arrow - Shi\n[On Kill] Gain Liferender next turn",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 5,
+						"BasePowerModifier": 6,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 8,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise",
+							"Spend Poise",
+							"Spend Ready to Loose",
+							"Spend Target Aim",
+							"Lodged Arrow",
+							"Spend Arrow - Shi",
+							"Liferender",
+							"Poise Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Unfold Bowblade",
+					"Description": "If unit does not have Arrow - Shi, activate 'Evade' instead\n[Combat Start] If unit is about to use 'Bow's Glimmer', convert to 'Evade' instead\n[Combat Start] If unit has Ready to Loose, gain (36 / Target Aim) Shield for the turn (Once per turn)\n[Turn End] If unit has Ready to Loose and did not use an Attack Skill this turn, gain 1 Target Aim next turn (Once per turn)\n[Turn End] If unit does not have Ready to Loose and has 1+ Arrow - Shi, gain Ready to Loose and 1 Target Aim next turn",
+					"DamageType": "Defend",
+					"SinType": "Lust",
+					"BasePower": 14,
+					"CoinPower": 4,
+					"CoinCount": 1,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Shield",
+						"Target Aim",
+						"Ready to Loose"
+					],
+					"AltSkill": {
+						"Name": "Evade",
+						"Description": "[On Evade] Gain +1 Poise Count (2 times per turn)",
+						"DamageType": "Evade",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 10,
+						"CoinCount": 1,
+						"Level": 1,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Snipe - Archery",
+						"Description": "If unit is in Ready to Loose state, convert the leftmost Base Attack Skill equipped on the Dashboard to 'Bow's Glimmer', then use it at Combat Start\n$If, at max Target Aim Stack, the Skill 'Glimmering Bow' is on neither the Dashboard or upcoming list of Skills when this effect activates, the Defense Skill equipped on the leftmost Skill Slot counts as a Skill 3, and will be used to activate 'Bow's Glimmer'\nGain the following effects based on which Base Attack Skill was converted (Sin Affinity carries over from the Converted Skill)\n$Skill 1: Base Power +1 and deal +11% damage\n$Skill 2: Base Power +1, Coin Power +1, and deal +22% damage\n$Skill 3: Base Power +4, Coin Power +4, and deal +44% damage",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Skill Change"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Shi-no-Yumi",
+					"Description": "At 4 Arrow - Shi Stack: When this unit gains Poise Potency from Base Attack Skill effects, gain +1 Poise Count (2 times per Encounter; per-Encounter cap resets when Arrow - Shi drops to 3)\nIf this unit used 'Bow's Glimmer' Skill at 2+ Target Aim, gain 1 Slash DMG Up next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Poise Count",
+						"Slash DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Aiming for the Bullseye",
+					"Description": "Turn End: Apply 1 Pierce DMG Up to the ally who inflicted the most Bleed Potency to enemies with its Skills and Passives (Including E.G.O Skills; prioritizes earliest Deployment; does not activate if no Bleed was inflicted)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Pierce DMG Up"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 3101,
 		"Sinner": "Don Quixote",
 		"Identity": "LCB Sinner",

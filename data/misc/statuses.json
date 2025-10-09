@@ -2896,5 +2896,41 @@
 			"Panic",
 			"Panic Type"
 		]
+	},
+	{
+		"Name": "Arrow - Shi",
+		"Description": "Min Capacity: 0\nMax Capacity: 4\nArrows spent by certain Skills",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Lodged Arrow",
+		"Description": "Max Stack: 4\nTurn Start: Gain Bleed equal to Stack\nLose Defense Level equal to Stack\nTurn End: At 2+ Stack, gain Fragile next turn\nExpires on Death, Retreat, buff removal/expiration. When it expires, Apply Arrow - Shi to Shi East Section 3 Faust equal to Stack",
+		"Tags": [
+			"Bleed",
+			"Defense Level Down",
+			"Fragile"
+		]
+	},
+	{
+		"Name": "Target Aim",
+		"Description": "Max Stack: 4\nExpires if this unit does not have Ready to Loose",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Ready to Loose",
+		"Description": "When this unit has this effect:\n└Converts the leftmost Base Attack Skill on the Dashboard to 'Bow's Glimmer', then uses it at Combat Start\n└Unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n└Does not trigger Assist Attack while this unit has this buff\nRemoved if an E.G.O Skill was equipped at Combat Start",
+		"Tags": [
+			"Nullify Stagger"
+		]
+	},
+	{
+		"Name": "Liferender",
+		"Description": "Offense Level +2\nFinal Power +1\nExpires at Turn End",
+		"Tags": [
+			"Offense Level Up",
+			"Final Power"
+		]
 	}
 ]

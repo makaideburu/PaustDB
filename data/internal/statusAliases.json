@@ -1512,5 +1512,26 @@
 			"aggro",
 			"protection"
 		]
+	},
+	{
+		"entry": "lodged arrow",
+		"aliases": [
+			"bleed",
+			"defense level down",
+			"fragile"
+		]
+	},
+	{
+		"entry": "ready to loose",
+		"aliases": [
+			"nullify stagger"
+		]
+	},
+	{
+		"entry": "liferender",
+		"aliases": [
+			"offense level up",
+			"final power"
+		]
 	}
 ]
