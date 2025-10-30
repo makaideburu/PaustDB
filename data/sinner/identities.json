@@ -4,7 +4,14 @@
 		"Sinner": "Yi Sang",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "4-8",
+		"Speed": "4~8",
+		"BaseHP": 72,
+		"GrowthHP": 2.48,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -231,8 +238,14 @@
 		"Id": 1201,
 		"Sinner": "Yi Sang",
 		"Identity": "Seven Association South Section 6",
-		"World": "the Seven Association Southern Branch",
-		"Speed": "5-8",
+		"World": "The Seven Association Southern Branch",
+		"Speed": "5~8",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -459,7 +472,14 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Molar Office Fixer",
 		"World": "Molar Office",
-		"Speed": "4-7",
+		"Speed": "4~7",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -714,7 +734,14 @@
 		"Sinner": "Yi Sang",
 		"Identity": "The Pequod First Mate",
 		"World": "U Corp.",
-		"Speed": "4-7",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -952,8 +979,14 @@
 		"Id": 1204,
 		"Sinner": "Yi Sang",
 		"Identity": "Dieci Association South Section 4",
-		"World": "the Dieci Association Southern Branch",
-		"Speed": "4-6",
+		"World": "The Dieci Association Southern Branch",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -1201,8 +1234,13 @@
 		"Id": 1205,
 		"Sinner": "Yi Sang",
 		"Identity": "LCE E.G.O::Lantern",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The LCE",
+		"Speed": "4~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -1259,7 +1297,7 @@
 					]
 				},
 				"SkillThree": {
-					"Name": "the idiosyncrasies of the source may be utilized with greater flexibility",
+					"Name": "The idiosyncrasies of the source may be utilized with greater flexibility",
 					"Description": "Deal +0.8% damage for every 1% missing HP on self\n[Combat Start] Base Power +(# of Skills targetting this Unit) (Max 3)\n[On Use] Gain 3 Fairy Lure (Once per turn)\n[On Use] Gain +8 Aggro\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects; instead gain Base Power +1\n[After Attack] Heal 30 SP\n<1>[On Hit] Inflict +3 Rupture Count\n[On Hit] Inflict 2 Bind next turn\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
@@ -1383,7 +1421,7 @@
 					]
 				},
 				"SkillThree": {
-					"Name": "the idiosyncrasies of the source may be utilized with greater flexibility",
+					"Name": "The idiosyncrasies of the source may be utilized with greater flexibility",
 					"Description": "Deal +0.5% damage for every 1% missing HP on self\n[Combat Start] Base Power +(# of Skills targetting this Unit) (Max 2)\n[On Use] Gain 2 Fairy Lure (Once per turn)\n[On Use] Gain +6 Aggro\n[On Use] If target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects; instead gain Base Power +1\n[After Attack] Heal 30 SP\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict `2` Bind next turn\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
@@ -1464,8 +1502,15 @@
 		"Id": 1301,
 		"Sinner": "Yi Sang",
 		"Identity": "Blade Lineage Salsu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "3-7",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -1693,7 +1738,14 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Effloresced E.G.O::Spicebush",
 		"World": "K Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -1930,7 +1982,13 @@
 		"Sinner": "Yi Sang",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2173,8 +2231,15 @@
 		"Id": 1304,
 		"Sinner": "Yi Sang",
 		"Identity": "The Ring Pointilist Student",
-		"World": "the Ring",
-		"Speed": "3-7",
+		"World": "The Ring",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2436,8 +2501,15 @@
 		"Id": 1305,
 		"Sinner": "Yi Sang",
 		"Identity": "Lobotomy E.G.O::Solemn Lament",
-		"World": "",
-		"Speed": "3-8",
+		"World": "Lobotomy Corporation Headquarters - 1",
+		"Speed": "3~8",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			60,
+			30,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2715,8 +2787,15 @@
 		"Id": 1306,
 		"Sinner": "Yi Sang",
 		"Identity": "Liu Association South Section 3",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "4~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -2952,8 +3031,15 @@
 		"Id": 1307,
 		"Sinner": "Yi Sang",
 		"Identity": "N Corp. E.G.O::Fell Bullet",
-		"World": "",
-		"Speed": "4-7",
+		"World": "N Corp.",
+		"Speed": "4~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			30,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -3301,8 +3387,14 @@
 		"Id": 1308,
 		"Sinner": "Yi Sang",
 		"Identity": "Heishou Pack - Wu Branch Adept",
-		"World": "",
-		"Speed": "4-7",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 66,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -3683,7 +3775,14 @@
 		"Sinner": "Faust",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "2-4",
+		"Speed": "2~4",
+		"BaseHP": 84,
+		"GrowthHP": 2.9,
+		"StaggerThresholds": [
+			60,
+			30,
+			15
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -3904,7 +4003,14 @@
 		"Sinner": "Faust",
 		"Identity": "Lobotomy Corp. Remnant",
 		"World": "L Corp.",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -4130,7 +4236,13 @@
 		"Sinner": "Faust",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "2-4",
+		"Speed": "2~4",
+		"BaseHP": 88,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -4362,8 +4474,14 @@
 		"Id": 2203,
 		"Sinner": "Faust",
 		"Identity": "Zwei Association South Section 4",
-		"World": "the Zwei Association Southern Branch",
-		"Speed": "4-6",
+		"World": "The Zwei Association Southern Branch",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			55,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -4595,7 +4713,14 @@
 		"Sinner": "Faust",
 		"Identity": "Wuthering Heights Butler",
 		"World": "Wuthering Heights",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.7,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -4819,8 +4944,15 @@
 		"Id": 2301,
 		"Sinner": "Faust",
 		"Identity": "The One Who Grips",
-		"World": "N Corp.",
-		"Speed": "4-7",
+		"World": "N Corp. Fanatics",
+		"Speed": "4~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -5066,8 +5198,15 @@
 		"Id": 2302,
 		"Sinner": "Faust",
 		"Identity": "Seven Association South Section 4",
-		"World": "the Seven Association Southern Branch",
-		"Speed": "4-7",
+		"World": "The Seven Association Southern Branch",
+		"Speed": "4~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -5308,7 +5447,13 @@
 		"Sinner": "Faust",
 		"Identity": "Lobotomy E.G.O::Regret",
 		"World": "Lobotomy Corporation Headquarters - 1",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -5564,8 +5709,15 @@
 		"Id": 2304,
 		"Sinner": "Faust",
 		"Identity": "Blade Lineage Salsu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "3-8",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "3~8",
+		"BaseHP": 76,
+		"GrowthHP": 2.5,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -5803,8 +5955,15 @@
 		"Id": 2305,
 		"Sinner": "Faust",
 		"Identity": "MultiCrack Office Rep.",
-		"World": "",
-		"Speed": "3-7",
+		"World": "MultiCrack Office",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -6043,8 +6202,14 @@
 		"Id": 2306,
 		"Sinner": "Faust",
 		"Identity": "LCE E.G.O::Ardor Blossom Star",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The LCE",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -6369,8 +6534,13 @@
 		"Id": 2307,
 		"Sinner": "Faust",
 		"Identity": "Heishou Pack - Mao Branch Adept",
-		"World": "",
-		"Speed": "4-7",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 76,
+		"GrowthHP": 3.19,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -6743,11 +6913,18 @@
 		]
 	},
 	{
-		"Id": 2000,
+		"Id": 2308,
 		"Sinner": "Faust",
 		"Identity": "Shi Association East Section 3",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The Shi Association Eastern Branch",
+		"Speed": "3~7",
+		"BaseHP": 60,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			70,
+			50,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -7122,7 +7299,14 @@
 		"Sinner": "Don Quixote",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -7342,8 +7526,14 @@
 		"Id": 3201,
 		"Sinner": "Don Quixote",
 		"Identity": "Shi Association South Section 5 Director",
-		"World": "the Shi Association Southern Branch",
-		"Speed": "3-6",
+		"World": "The Shi Association Southern Branch",
+		"Speed": "3~6",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			80,
+			60
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -7566,8 +7756,14 @@
 		"Id": 3202,
 		"Sinner": "Don Quixote",
 		"Identity": "N Corp. Mittelhammer",
-		"World": "N Corp.",
-		"Speed": "2-5",
+		"World": "N Corp. Fanatics",
+		"Speed": "2~5",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -7798,7 +7994,13 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Lobotomy E.G.O::Lantern",
 		"World": "Lobotomy Corporation Headquarters - 1",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -8036,8 +8238,15 @@
 		"Id": 3204,
 		"Sinner": "Don Quixote",
 		"Identity": "Blade Lineage Salsu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "4-8",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "4~8",
+		"BaseHP": 73,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -8273,7 +8482,14 @@
 		"Sinner": "Don Quixote",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -8505,8 +8721,15 @@
 		"Id": 3302,
 		"Sinner": "Don Quixote",
 		"Identity": "Cinq Association South Section 5 Director",
-		"World": "the Cinq Association Southern Branch",
-		"Speed": "4-7",
+		"World": "The Cinq Association Southern Branch",
+		"Speed": "4~7",
+		"BaseHP": 72,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -8735,8 +8958,14 @@
 		"Id": 3303,
 		"Sinner": "Don Quixote",
 		"Identity": "The Middle Little Sister",
-		"World": "U Corp.",
-		"Speed": "4-6",
+		"World": "The Middle",
+		"Speed": "4~6",
+		"BaseHP": 86,
+		"GrowthHP": 2.95,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -8975,8 +9204,13 @@
 		"Id": 3304,
 		"Sinner": "Don Quixote",
 		"Identity": "T Corp. Class 3 Collection Staff",
-		"World": "",
-		"Speed": "4-7",
+		"World": "T Corp.",
+		"Speed": "4~7",
+		"BaseHP": 95,
+		"GrowthHP": 3.26,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -9237,8 +9471,15 @@
 		"Id": 3305,
 		"Sinner": "Don Quixote",
 		"Identity": "The Manager of La Manchaland",
-		"World": "",
-		"Speed": "4-7",
+		"World": "La Manchaland",
+		"Speed": "4~7",
+		"BaseHP": 63,
+		"GrowthHP": 2.17,
+		"StaggerThresholds": [
+			65,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -9787,8 +10028,15 @@
 		"Id": 3306,
 		"Sinner": "Don Quixote",
 		"Identity": "Cinq Association East Section 3",
-		"World": "",
-		"Speed": "4-7",
+		"World": "The Cinq Association Eastern Branch",
+		"Speed": "4~7",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -10034,8 +10282,15 @@
 		"Id": 3307,
 		"Sinner": "Don Quixote",
 		"Identity": "Lobotomy E.G.O::In the Name of Love and Hate",
-		"World": "",
-		"Speed": "4-7",
+		"World": "Lobotomy Corporation Headquarters - 1",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -10464,7 +10719,14 @@
 		"Sinner": "Ryōshū",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -10683,8 +10945,15 @@
 		"Id": 4201,
 		"Sinner": "Ryōshū",
 		"Identity": "Seven Association South Section 6",
-		"World": "the Seven Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Seven Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 63,
+		"GrowthHP": 2.17,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -10911,8 +11180,14 @@
 		"Id": 4202,
 		"Sinner": "Ryōshū",
 		"Identity": "LCCB Assistant Manager",
-		"World": "the LCCB",
-		"Speed": "4-7",
+		"World": "The LCCB",
+		"Speed": "4~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -11154,8 +11429,15 @@
 		"Id": 4203,
 		"Sinner": "Ryōshū",
 		"Identity": "Liu Association South Section 4",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -11383,8 +11665,15 @@
 		"Id": 4204,
 		"Sinner": "Ryōshū",
 		"Identity": "District 20 Yurodivy",
-		"World": "",
-		"Speed": "4-7",
+		"World": "The District 20 Backstreets",
+		"Speed": "4~7",
+		"BaseHP": 71,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -11624,8 +11913,15 @@
 		"Id": 4301,
 		"Sinner": "Ryōshū",
 		"Identity": "Kurokumo Clan Wakashu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "3-6",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "3~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -11853,8 +12149,15 @@
 		"Id": 4302,
 		"Sinner": "Ryōshū",
 		"Identity": "R.B. Chef de Cuisine",
-		"World": "the District 23 Backstreets",
-		"Speed": "3-6",
+		"World": "The District 23 Backstreets",
+		"Speed": "3~6",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -12092,7 +12395,14 @@
 		"Sinner": "Ryōshū",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -12327,7 +12637,14 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Edgar Family Chief Butler",
 		"World": "Wuthering Heights",
-		"Speed": "3-8",
+		"Speed": "3~8",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -12572,8 +12889,14 @@
 		"Id": 4305,
 		"Sinner": "Ryōshū",
 		"Identity": "Lobotomy E.G.O::Red Eyes & Penitence",
-		"World": "",
-		"Speed": "3-7",
+		"World": "Lobotomy Corporation Headquarters - 1",
+		"Speed": "3~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.34,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -12932,8 +13255,14 @@
 		"Id": 4306,
 		"Sinner": "Ryōshū",
 		"Identity": "Heishou Pack - Mao Branch",
-		"World": "",
-		"Speed": "4-7",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.34,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -13171,8 +13500,13 @@
 		"Id": 4307,
 		"Sinner": "Ryōshū",
 		"Identity": "N Corp. E.G.O::Contempt, Awe",
-		"World": "",
-		"Speed": "4-7",
+		"World": "N Corp.",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -13581,7 +13915,13 @@
 		"Sinner": "Meursault",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "2-3",
+		"Speed": "2~3",
+		"BaseHP": 90,
+		"GrowthHP": 3.1,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -13811,8 +14151,15 @@
 		"Id": 5201,
 		"Sinner": "Meursault",
 		"Identity": "Liu Association South Section 6",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "2-5",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "2~5",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -14043,7 +14390,13 @@
 		"Sinner": "Meursault",
 		"Identity": "Rosespanner Workshop Fixer",
 		"World": "K Corp.",
-		"Speed": "3-8",
+		"Speed": "3~8",
+		"BaseHP": 76,
+		"GrowthHP": 2.7,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -14275,8 +14628,14 @@
 		"Id": 5203,
 		"Sinner": "Meursault",
 		"Identity": "The Middle Little Brother",
-		"World": "U Corp.",
-		"Speed": "4-6",
+		"World": "The Middle",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -14517,7 +14876,13 @@
 		"Sinner": "Meursault",
 		"Identity": "Dead Rabbits Boss",
 		"World": "Wuthering Heights",
-		"Speed": "4-7",
+		"Speed": "4~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -14750,7 +15115,13 @@
 		"Sinner": "Meursault",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "4-8",
+		"Speed": "4~8",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -14984,8 +15355,13 @@
 		"Id": 5302,
 		"Sinner": "Meursault",
 		"Identity": "N Corp. Großhammer",
-		"World": "N Corp.",
-		"Speed": "3-5",
+		"World": "N Corp. Fanatics",
+		"Speed": "3~5",
+		"BaseHP": 99,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -15235,7 +15611,12 @@
 		"Sinner": "Meursault",
 		"Identity": "R Corp. 4th Pack Rhino",
 		"World": "R Corp.",
-		"Speed": "3-5",
+		"Speed": "3~5",
+		"BaseHP": 95,
+		"GrowthHP": 3,
+		"StaggerThresholds": [
+			40
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -15473,8 +15854,14 @@
 		"Id": 5304,
 		"Sinner": "Meursault",
 		"Identity": "Blade Lineage Mentor",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "4-6",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			80,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -15786,8 +16173,14 @@
 		"Id": 5305,
 		"Sinner": "Meursault",
 		"Identity": "Dieci Association South Section 4 Director",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Dieci Association Southern Branch",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -16040,8 +16433,14 @@
 		"Id": 5306,
 		"Sinner": "Meursault",
 		"Identity": "Cinq Association West Section 3",
-		"World": "",
-		"Speed": "4-7",
+		"World": "The Cinq Association Western Branch",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -16291,8 +16690,13 @@
 		"Id": 5307,
 		"Sinner": "Meursault",
 		"Identity": "The Thumb East Capo IIII",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Thumb",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -16315,7 +16719,7 @@
 					"FinalPowerModifier": 3,
 					"CoinOverride": [
 						4,
-						5
+						6
 					],
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -16339,8 +16743,8 @@
 					"FinalPowerModifier": 4,
 					"CoinOverride": [
 						4,
-						5,
-						5
+						6,
+						6
 					],
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -16366,7 +16770,11 @@
 					"Level": 5,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 3,
+					"CoinOverride": [
+						6,
+						7,
+						7
+					],
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -16393,7 +16801,13 @@
 						"Level": 6,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
-						"CoinModifier": 4,
+						"CoinOverride": [
+							5,
+							5,
+							7,
+							7,
+							7
+						],
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
@@ -16670,11 +17084,444 @@
 		]
 	},
 	{
+		"Id": 5308,
+		"Sinner": "Meursault",
+		"Identity": "The Prince of La Manchaland",
+		"World": "Fallen La Manchaland",
+		"Speed": "4~7",
+		"BaseHP": 88,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [
+			65
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 0.5,
+			"Pierce": 1,
+			"Blunt": 2
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "March Conductor",
+					"Description": "[On Use] Self and lowest max HP ally: Consume up to 10 Bloodfeast; apply 1 Hardblood Armor for every 5 Bloodfeast that was consumed (Once per turn; excludes max Stack allies)\n$Prioritizes <La Manchaland> and <Bloodfiend>(Highest Kindred) allies\n$<La Manchaland> allies gain +1 Hardblood Armor\nIf no Bloodfeast was consumed, gain 10 Bleed\n[On Use] If target has 4+ Bleed, Coin Power +1\n[On Use] If target has 3+ Bleed Count, Final Power +1\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bloodfeast",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Self Bleed",
+						"Rupture",
+						"Bleed Count",
+						"Bleed"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Responsibility to Rebuild",
+					"Description": "[On Use] Self and highest max HP ally: Consume up to 10 Bloodfeast; apply 1 Hardblood Armor for every 5 Bloodfeast that was consumed (Once per turn; excludes max Stack allies)\n$Prioritizes <La Manchaland> and <Bloodfiend>(Highest Kindred) allies\n$<La Manchaland> allies gain +1 Hardblood Armor\nIf no Bloodfeast was consumed, gain 10 Bleed\n[On Use] Coin Power +1 for every 4 Bleed on target (Max 2)\n[On Use] Final Power +1 for every 3 Bleed Count on target (Max 2)\n[On Use] Deal +10% damage for every Hardblood Armor on self (Max 30%)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 1 Lust Fragility next turn (2 times per turn)",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bloodfeast",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Self Bleed",
+						"Bleed Count",
+						"Rupture Count",
+						"Bleed",
+						"Rupture",
+						"Lust Fragility"
+					]
+				},
+				"SkillThree": {
+					"Name": "Let us wear the coagulated mantle of blood.",
+					"Description": "On Hit with Skill: Heal 40% of HP damage dealt (Max 80 per Skill)\n[Before Use] At 5 Hardblood Armor, activate 'Ouvertüre' instead\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 1 Hardblood Armor to self and (highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred); excludes max Stack)\n$If Lust Reson, 2 Hardblood Armor to 2 lowest max HP allies as well\n[After Attack] If target is defeated, increase Bloodfeast by 20 (Once per turn)\n<1>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 La Mancha Parade\n[On Hit without Cracking] Inflict 1 La Mancha Parade next turn",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Heal HP",
+						"Skill Change",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Bloodfeast",
+						"Bleed Count",
+						"Rupture Count",
+						"Bleed",
+						"Rupture",
+						"Unbreakable Coin",
+						"La Mancha Parade"
+					],
+					"AltSkill": {
+						"Name": "Ouvertüre",
+						"Description": "On Hit with Skill: Heal 50% of HP damage dealt (Max 100 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred); excludes max Stack)\n$If Lust Reson, +1 Hardblood Armor\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n$At 2+ Focused Performance, inflict +2 La Mancha Parade to 1 target (Once per turn)\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Heal HP",
+							"Hardblood Armor",
+							"Ally Hardblood Armor",
+							"Spend Hardblood Armor",
+							"Bloodfeast",
+							"Bleed Count",
+							"Rupture Count",
+							"Bleed",
+							"Rupture",
+							"Unbreakable Coin",
+							"La Mancha Parade"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Coagulation",
+					"Description": "[Clashable Counter]\n2 allies, including this unit: Apply 5 Bleed and activate it once (Once per turn; prioritizes allies with the most Hardblood Armor; does not target Higher Kindreds; does not reduce allies' HP below 1)\n[Clash Win] Gain 1 Hardblood Armor (2 times per turn)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Self Bleed",
+						"Ally Bleed",
+						"Self Bleed Proc",
+						"Ally Bleed Proc",
+						"Hardblood Armor",
+						"Bleed"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Bloodfeast",
+						"Description": "If this unit is on the field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of Bleed damage collectively received by every unit.",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bloodfeast"
+						]
+					},
+					{
+						"Name": "Responsibility of a Former Prince",
+						"Description": "Turn Start: For La Manchaland Identities with max Hardblood Armor Stack:\n$Gain 1 Focused Performance\n$When Staggered due to damage, recover from Stagger; consume all Hardblood Armor on self (Once per Stage per Identity; except forced Stagger)\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Focused Performance",
+							"Ally Focused Performance",
+							"Stagger Recovery",
+							"Ally Stagger Recovery"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "'Bloodied, Masked, and as Blood Commands'",
+					"Description": "Combat Start: If unit has Hardblood Armor:\n$At 3+: Gain 2 Offense Level Up and 2 Defense Level Up\n$At 4+: Gain 2 Haste next turn\nCombat Start: If this unit has Focused Performance, inflict 1 La Mancha Parade On Hit against enemies (2 times per turn; including E.G.O Skills)\nOn Hit against enemies with Bleed: If this unit has less than 30% HP, heal 30% HP (Once per Encounter; rounded down)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Offense Level Up",
+						"Defense Level Up",
+						"Haste",
+						"La Mancha Parade"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Flood the Chalice",
+					"Description": "For the turn, multiply the amount of Bloodfeast generated by 1.5 (2 times per Encounter; rounded down)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Bloodfeast"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "March Conductor",
+					"Description": "[On Use] Self and lowest max HP ally: Consume up to 10 Bloodfeast; apply 1 Hardblood Armor for every 5 Bloodfeast that was consumed (Once per turn; excludes max Stack allies)\n$Prioritizes <La Manchaland> and <Bloodfiend>(Highest Kindred) allies\n$<La Manchaland> allies gain +1 Hardblood Armor\nIf no Bloodfeast was consumed, gain 10 Bleed\n[On Use] If target has 4+ Bleed, Coin Power +1\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 1 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bloodfeast",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Self Bleed",
+						"Rupture",
+						"Bleed Count",
+						"Bleed"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Responsibility to Rebuild",
+					"Description": "[On Use] Self and highest max HP ally: Consume up to 10 Bloodfeast; apply 1 Hardblood Armor for every 5 Bloodfeast that was consumed (Once per turn; excludes max Stack allies)\n$Prioritizes <La Manchaland> and <Bloodfiend>(Highest Kindred) allies\n$<La Manchaland> allies gain +1 Hardblood Armor\nIf no Bloodfeast was consumed, gain 10 Bleed\n[On Use] Coin Power +1 for every 4 Bleed on target (Max 2)\n[On Use] If target has 3+ Bleed Count, Final Power +1\n<1>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Rupture",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bloodfeast",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Self Bleed",
+						"Bleed Count",
+						"Rupture Count",
+						"Bleed",
+						"Rupture"
+					]
+				},
+				"SkillThree": {
+					"Name": "Let us wear the coagulated mantle of blood.",
+					"Description": "On Hit with Skill: Heal 40% of HP damage dealt (Max 50 per Skill)\n[Before Use] At 5 Hardblood Armor, activate 'Ouvertüre' instead\n[On Use] Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Use] Apply 1 Hardblood Armor to self and (highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred); excludes max Stack)\n[After Attack] If target is defeated, increase Bloodfeast by 20 (Once per turn)\n<1>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n[On Hit without Cracking] Inflict 1 La Mancha Parade next turn",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Heal HP",
+						"Skill Change",
+						"Hardblood Armor",
+						"Ally Hardblood Armor",
+						"Bloodfeast",
+						"Bleed Count",
+						"Rupture Count",
+						"Bleed",
+						"Rupture",
+						"Unbreakable Coin",
+						"La Mancha Parade"
+					],
+					"AltSkill": {
+						"Name": "Ouvertüre",
+						"Description": "On Hit with Skill: Heal 50% of HP damage dealt (Max 85 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred); excludes max Stack)\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Heal HP",
+							"Hardblood Armor",
+							"Ally Hardblood Armor",
+							"Spend Hardblood Armor",
+							"Bloodfeast",
+							"Bleed Count",
+							"Rupture Count",
+							"Bleed",
+							"Rupture",
+							"Unbreakable Coin",
+							"La Mancha Parade"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Coagulation",
+					"Description": "[Clashable Counter]\n[Clash Win] Gain 1 Hardblood Armor (2 times per turn)\n<1>[On Hit] Inflict 1 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Hardblood Armor",
+						"Bleed"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Bloodfeast",
+						"Description": "If this unit is on the field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of Bleed damage collectively received by every unit.",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bloodfeast"
+						]
+					},
+					{
+						"Name": "Responsibility of a Former Prince",
+						"Description": "Turn Start: For La Manchaland Identities with max Hardblood Armor Stack:\n$Gain 1 Focused Performance\n$When Staggered due to damage, recover from Stagger; consume all Hardblood Armor on self (Once per Stage per Identity; except forced Stagger)\nIf The Princess of La Manchaland Rodion is on the field, she and The Prince of La Manchaland Meursault both deal +15% damage with their Skill 3 (including Empowered Skills)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Focused Performance",
+							"Ally Focused Performance",
+							"Stagger Recovery",
+							"Ally Stagger Recovery"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "'Bloodied, Masked, and as Blood Commands'",
+					"Description": "Combat Start: If unit has Hardblood Armor:\n$At 3+: Gain 1 Offense Level Up and 1 Defense Level Up\n$At 4+: Gain 1 Haste next turn\nOn Hit against enemies with Bleed: If this unit has less than 30% HP, heal 30% HP (Once per Encounter; rounded down)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Offense Level Up",
+						"Defense Level Up",
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Flood the Chalice",
+					"Description": "For the turn, multiply the amount of Bloodfeast generated by 1.5 (2 times per Encounter; rounded down)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Bloodfeast"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 6101,
 		"Sinner": "Hong Lu",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -16902,8 +17749,15 @@
 		"Id": 6201,
 		"Sinner": "Hong Lu",
 		"Identity": "Kurokumo Clan Wakashu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "3-7",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -17129,8 +17983,14 @@
 		"Id": 6202,
 		"Sinner": "Hong Lu",
 		"Identity": "Liu Association South Section 5",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "3-6",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "3~6",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -17363,7 +18223,13 @@
 		"Sinner": "Hong Lu",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -17597,8 +18463,15 @@
 		"Id": 6204,
 		"Sinner": "Hong Lu",
 		"Identity": "Hook Office Fixer",
-		"World": "the Former Library Guests - 1",
-		"Speed": "3-7",
+		"World": "The Former Library Guests - 1",
+		"Speed": "3~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.38,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -17834,8 +18707,15 @@
 		"Id": 6205,
 		"Sinner": "Hong Lu",
 		"Identity": "Fanghunt Office Fixer",
-		"World": "the Former Library Guests - 1",
-		"Speed": "3-6",
+		"World": "Fanghunt Office",
+		"Speed": "3~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -18071,8 +18951,15 @@
 		"Id": 6301,
 		"Sinner": "Hong Lu",
 		"Identity": "Tingtang Gang Gangleader",
-		"World": "the J Corp. Backstreets",
-		"Speed": "3-6",
+		"World": "The J Corp. Backstreets",
+		"Speed": "3~6",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -18297,7 +19184,12 @@
 		"Sinner": "Hong Lu",
 		"Identity": "K Corp. Class 3 Excision Staff",
 		"World": "K Corp.",
-		"Speed": "2-6",
+		"Speed": "2~6",
+		"BaseHP": 99,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -18535,8 +19427,14 @@
 		"Id": 6303,
 		"Sinner": "Hong Lu",
 		"Identity": "Dieci Association South Section 4",
-		"World": "the Dieci Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Dieci Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 79,
+		"GrowthHP": 2.49,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -18772,8 +19670,15 @@
 		"Id": 6304,
 		"Sinner": "Hong Lu",
 		"Identity": "District 20 Yurodivy",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The District 20 Backstreets",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -19015,8 +19920,14 @@
 		"Id": 6305,
 		"Sinner": "Hong Lu",
 		"Identity": "Full-Stop Office Rep",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The Former Library Guests - 2",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -19478,8 +20389,15 @@
 		"Id": 6306,
 		"Sinner": "Hong Lu",
 		"Identity": "R Corp. 4th Pack Reindeer",
-		"World": "",
-		"Speed": "3-6",
+		"World": "R Corp.",
+		"Speed": "3~6",
+		"BaseHP": 65,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -19725,8 +20643,14 @@
 		"Id": 6307,
 		"Sinner": "Hong Lu",
 		"Identity": "The Lord of Hongyuan",
-		"World": "",
-		"Speed": "4-8",
+		"World": "H Corp.",
+		"Speed": "4~8",
+		"BaseHP": 62,
+		"GrowthHP": 2.17,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -20167,7 +21091,14 @@
 		"Sinner": "Heathcliff",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "2-5",
+		"Speed": "2~5",
+		"BaseHP": 78,
+		"GrowthHP": 2.69,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -20398,8 +21329,14 @@
 		"Id": 7201,
 		"Sinner": "Heathcliff",
 		"Identity": "Shi Association South Section 5",
-		"World": "the Shi Association Southern Branch",
-		"Speed": "2-5",
+		"World": "The Shi Association Southern Branch",
+		"Speed": "2~5",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			80,
+			60
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -20629,8 +21566,15 @@
 		"Id": 7202,
 		"Sinner": "Heathcliff",
 		"Identity": "N Corp. Kleinhammer",
-		"World": "N Corp.",
-		"Speed": "2-5",
+		"World": "N Corp. Fanatics",
+		"Speed": "2~5",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -20857,8 +21801,15 @@
 		"Id": 7203,
 		"Sinner": "Heathcliff",
 		"Identity": "Seven Association South Section 4",
-		"World": "the Seven Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Seven Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.7,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -21088,8 +22039,15 @@
 		"Id": 7204,
 		"Sinner": "Heathcliff",
 		"Identity": "MultiCrack Office Fixer",
-		"World": "",
-		"Speed": "4-7",
+		"World": "MultiCrack Office",
+		"Speed": "4~7",
+		"BaseHP": 75,
+		"GrowthHP": 2.55,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -21338,7 +22296,14 @@
 		"Sinner": "Heathcliff",
 		"Identity": "R Corp. 4th Pack Rabbit",
 		"World": "R Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -21578,7 +22543,13 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Lobotomy E.G.O::Sunshower",
 		"World": "K Corp.",
-		"Speed": "3-5",
+		"Speed": "3~5",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -21840,7 +22811,12 @@
 		"Sinner": "Heathcliff",
 		"Identity": "The Pequod Harpooner",
 		"World": "U Corp.",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 99,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			80
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -22082,8 +23058,14 @@
 		"Id": 7304,
 		"Sinner": "Heathcliff",
 		"Identity": "Öufi Association South Section 3",
-		"World": "the Öufi Association Southern Branch",
-		"Speed": "3-6",
+		"World": "The Öufi Association Southern Branch",
+		"Speed": "3~6",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -22313,8 +23295,15 @@
 		"Id": 7305,
 		"Sinner": "Heathcliff",
 		"Identity": "Wild Hunt",
-		"World": "",
-		"Speed": "3-8",
+		"World": "Wuthering Heights",
+		"Speed": "3~8",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			65,
+			35,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -22668,8 +23657,15 @@
 		"Id": 7306,
 		"Sinner": "Heathcliff",
 		"Identity": "Full-Stop Office Fixer",
-		"World": "",
-		"Speed": "3-8",
+		"World": "The Former Library Guests - 2",
+		"Speed": "3~8",
+		"BaseHP": 70,
+		"GrowthHP": 2.3,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -23057,8 +24053,14 @@
 		"Id": 7307,
 		"Sinner": "Heathcliff",
 		"Identity": "Kurokumo Clan Wakashu",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The Kurokumo Clan",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 3.19,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -23339,11 +24341,320 @@
 		]
 	},
 	{
+		"Id": 7308,
+		"Sinner": "Heathcliff",
+		"Identity": "W Corp. L4 Cleanup Agent - CCA",
+		"World": "W Corp.",
+		"Speed": "4~6",
+		"BaseHP": 99,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			50
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Congestion Cleanup",
+					"Description": "[On Use] At 3+ Charge, Coin Power +1\n[On Use] Clash Power +1 for every 5 Charge Count (Max 2)\n<1>[On Hit] Gain +4 Charge Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Count",
+						"Rupture Count",
+						"Rupture"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Boost: Elbow Blade",
+					"Description": "[Combat Start] Gain Charge Barrier equal to (2 + Charge) (Max 6; once per turn)\n[On Use] Consume 6 Charge Count to gain Coin Power +1\n[On Use] At 3+ Charge, Coin Power +1\n<1>[On Hit] Gain +6 Charge Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 3 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 5,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Barrier",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Count",
+						"Rupture"
+					]
+				},
+				"SkillThree": {
+					"Name": "Rip Space - CCA Overdrive",
+					"Description": "[Combat Start] At 3+ Charge or less than 50% HP, convert all Coins into Unbreakable Coins\n$If this unit loses a Clash while this effect is active, Final Power +3\n[On Use] At 10+ Charge Count, consume 10 Charge Count to gain Coin Power +4\n[On Use] Gain Clash Power equal to Charge on self (Max 5)\n<1>[Heads Hit] Gain +1 Charge Count\n<2>[On Hit] Gain +1 Charge Count\n<3>[On Hit] Gain +2 Charge Count\n<4>[Coin Start] Consume up to 10 Charge Count to gain Coin Power for this Coin equal to (Charge Count consumed for this Coin)\n[On Hit] Inflict 2 Rupture\n[On Hit] Deal Slash Damage equal to (Charge x 10)% of this Coin's final damage (Max 50%)",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 3,
+					"CoinPower": 2,
+					"CoinCount": 4,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinOverride": [
+						6,
+						6,
+						6,
+						16
+					],
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture"
+					]
+				},
+				"SkillDefense": {
+					"Name": "CCA Overcharge",
+					"Description": "[Clashable Guard]\n[Combat Start] At less than 15 Charge Count:\n$Gain Overcharge next turn (1 per turn)\nTurn End: Remove this unit's first Stagger Threshold (Once per Encounter)\nTurn End: Add 1 'Rip Space - CCA Overdrive' to the list of Skills for the next upcoming turn\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Envy",
+					"BasePower": 3,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Overcharge",
+						"Nullify Stagger",
+						"Skill Draw",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Defense-Oriented Charge",
+						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nTurn End: Gain Defense Level Up equal to Charge on self (Max 6)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Charge",
+							"Defense Level Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Congestion Cleaning Armor",
+					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for eevry Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Shield"
+					]
+				},
+				"SupportSkill": {
+					"Name": "One day I'll wear me Armour for Cancelled Trains",
+					"Description": "Combat Start: If the unit with the earliest Deployment Order gains Charge Count past the Max Charge Count Cap by using a Skill, the unit gains 1 Charge Barrier next turn for every Charge Count that exceeds the Max Charge Count Cap (Max 3, including E.G.O Skills)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Charge Barrier"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Congestion Cleanup",
+					"Description": "At 6+ Charge Count, Clash Power +1\n<1>[On Hit] Gain +4 Charge Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Count",
+						"Rupture Count",
+						"Rupture"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Boost: Elbow Blade",
+					"Description": "[Combat Start] Gain Charge Barrier equal to (2 + Charge) (Max 6; once per turn)\n[On Use] Consume 6 Charge Count to gain Coin Power +1\n<1>[On Hit] Gain +5 Charge Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 3 Rupture",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 5,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Barrier",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Count",
+						"Rupture"
+					]
+				},
+				"SkillThree": {
+					"Name": "Rip Space - CCA Overdrive",
+					"Description": "[Combat Start] At 3+ Charge or less than 50% HP, convert all Coins into Unbreakable Coins\n$If this unit loses a Clash while this effect is active, Final Power +3\n[On Use] At 10+ Charge Count, consume 10 Charge Count to gain Coin Power +4\n<3>[On Hit] Gain +2 Charge Count\n<4>[Coin Start] Consume up to 10 Charge Count to gain Coin Power for this Coin equal to (Charge Count consumed for this Coin)\n[On Hit] Inflict 2 Rupture\n[On Hit] Deal Slash Damage equal to (Charge x 5)% of this Coin's final damage (Max 25%)",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 2,
+					"CoinCount": 4,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinOverride": [
+						6,
+						6,
+						6,
+						16
+					],
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture"
+					]
+				},
+				"SkillDefense": {
+					"Name": "CCA Overcharge",
+					"Description": "[Clashable Guard]\n[Combat Start] At less than 15 Charge Count:\n$Gain Overcharge next turn (1 per turn)\nTurn End: Remove this unit's first Stagger Threshold (Once per Encounter)\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Overcharge",
+						"Nullify Stagger",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Defense-Oriented Charge",
+						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nTurn End: Gain Defense Level Up equal to Charge on self (Max 6)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Charge",
+							"Defense Level Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Congestion Cleaning Armor",
+					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for eevry Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Shield"
+					]
+				},
+				"SupportSkill": {
+					"Name": "One day I'll wear me Armour for Cancelled Trains",
+					"Description": "Combat Start: If the unit with the earliest Deployment Order gains Charge Count past the Max Charge Count Cap by using a Skill, the unit gains 1 Charge Barrier next turn for every Charge Count that exceeds the Max Charge Count Cap (Max 3, including E.G.O Skills)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Charge Barrier"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 8101,
 		"Sinner": "Ishmael",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "5-8",
+		"Speed": "5~8",
+		"BaseHP": 78,
+		"GrowthHP": 2.69,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -23568,8 +24879,14 @@
 		"Id": 8201,
 		"Sinner": "Ishmael",
 		"Identity": "Shi Association South Section 5",
-		"World": "the Shi Association Southern Branch",
-		"Speed": "2-5",
+		"World": "The Shi Association Southern Branch",
+		"Speed": "2~5",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			80,
+			60
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -23801,8 +25118,14 @@
 		"Id": 8202,
 		"Sinner": "Ishmael",
 		"Identity": "LCCB Assistant Manager",
-		"World": "the LCCB",
-		"Speed": "2-6",
+		"World": "The LCCB",
+		"Speed": "2~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -24044,7 +25367,13 @@
 		"Sinner": "Ishmael",
 		"Identity": "Lobotomy E.G.O::Sloshing",
 		"World": "K Corp.",
-		"Speed": "2-7",
+		"Speed": "2~7",
+		"BaseHP": 90,
+		"GrowthHP": 3.1,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -24282,7 +25611,14 @@
 		"Sinner": "Ishmael",
 		"Identity": "Edgar Family Butler",
 		"World": "Wuthering Heights",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -24523,7 +25859,13 @@
 		"Sinner": "Ishmael",
 		"Identity": "R Corp. 4th Pack Reindeer",
 		"World": "R Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 79,
+		"GrowthHP": 2.69,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -24763,8 +26105,15 @@
 		"Id": 8302,
 		"Sinner": "Ishmael",
 		"Identity": "Liu Association South Section 4",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "3-6",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "3~6",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -24998,8 +26347,15 @@
 		"Id": 8303,
 		"Sinner": "Ishmael",
 		"Identity": "Molar Boatworks Fixer",
-		"World": "the District 21 Backstreets",
-		"Speed": "3-6",
+		"World": "The District 21 Backstreets",
+		"Speed": "3~6",
+		"BaseHP": 70,
+		"GrowthHP": 2.4,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -25250,7 +26606,14 @@
 		"Sinner": "Ishmael",
 		"Identity": "The Pequod Captain",
 		"World": "U Corp.",
-		"Speed": "4-7",
+		"Speed": "4~7",
+		"BaseHP": 68,
+		"GrowthHP": 2.3,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -25533,8 +26896,13 @@
 		"Id": 8305,
 		"Sinner": "Ishmael",
 		"Identity": "Zwei Association West Section 3",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Zwei Association Western Branch",
+		"Speed": "4~6",
+		"BaseHP": 93,
+		"GrowthHP": 3.21,
+		"StaggerThresholds": [
+			55
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -25794,8 +27162,15 @@
 		"Id": 8306,
 		"Sinner": "Ishmael",
 		"Identity": "Kurokumo Clan Captain",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Kurokumo Clan",
+		"Speed": "4~6",
+		"BaseHP": 93,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -26079,8 +27454,15 @@
 		"Id": 8307,
 		"Sinner": "Ishmael",
 		"Identity": "Family Hierarch Candidate",
-		"World": "",
-		"Speed": "3-7",
+		"World": "H Corp.",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -26423,7 +27805,14 @@
 		"Sinner": "Rodion",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "2-5",
+		"Speed": "2~5",
+		"BaseHP": 78,
+		"GrowthHP": 2.69,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -26652,8 +28041,15 @@
 		"Id": 9201,
 		"Sinner": "Rodion",
 		"Identity": "LCCB Assistant Manager",
-		"World": "the LCCB",
-		"Speed": "3-7",
+		"World": "The LCCB",
+		"Speed": "3~7",
+		"BaseHP": 63,
+		"GrowthHP": 2.17,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -26877,8 +28273,15 @@
 		"Id": 9202,
 		"Sinner": "Rodion",
 		"Identity": "N Corp. Mittelhammer",
-		"World": "N Corp.",
-		"Speed": "3-7",
+		"World": "N Corp. Fanatics",
+		"Speed": "3~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -27118,8 +28521,14 @@
 		"Id": 9203,
 		"Sinner": "Rodion",
 		"Identity": "Zwei Association South Section 5",
-		"World": "the Zwei Association Southern Branch",
-		"Speed": "2-4",
+		"World": "The Zwei Association Southern Branch",
+		"Speed": "2~4",
+		"BaseHP": 88,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -27351,8 +28760,15 @@
 		"Id": 9204,
 		"Sinner": "Rodion",
 		"Identity": "T Corp. Class 2 Collection Staff",
-		"World": "",
-		"Speed": "4-7",
+		"World": "T Corp.",
+		"Speed": "4~7",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -27601,8 +29017,14 @@
 		"Id": 9301,
 		"Sinner": "Rodion",
 		"Identity": "Kurokumo Clan Wakashu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "2-5",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "2~5",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -27839,7 +29261,14 @@
 		"Sinner": "Rodion",
 		"Identity": "Rosespanner Workshop Rep.",
 		"World": "K Corp.",
-		"Speed": "3-6",
+		"Speed": "3~6",
+		"BaseHP": 73,
+		"GrowthHP": 2.51,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -28089,8 +29518,13 @@
 		"Id": 9303,
 		"Sinner": "Rodion",
 		"Identity": "Dieci Association South Section 4",
-		"World": "the Dieci Association Southern Branch",
-		"Speed": "4-6",
+		"World": "The Dieci Association Southern Branch",
+		"Speed": "4~6",
+		"BaseHP": 88,
+		"GrowthHP": 3.1,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -28344,8 +29778,15 @@
 		"Id": 9304,
 		"Sinner": "Rodion",
 		"Identity": "Liu Association South Section 4 Director",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 79,
+		"GrowthHP": 2.74,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -28583,8 +30024,14 @@
 		"Id": 9305,
 		"Sinner": "Rodion",
 		"Identity": "Devyat' Association North Section 3",
-		"World": "",
-		"Speed": "4-7",
+		"World": "The Devyat' Association Northern Branch",
+		"Speed": "4~7",
+		"BaseHP": 81,
+		"GrowthHP": 2.88,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -28906,8 +30353,14 @@
 		"Id": 9306,
 		"Sinner": "Rodion",
 		"Identity": "The Princess of La Manchaland",
-		"World": "",
-		"Speed": "4-7",
+		"World": "La Manchaland",
+		"Speed": "4~7",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -29289,8 +30742,15 @@
 		"Id": 9307,
 		"Sinner": "Rodion",
 		"Identity": "Heishou Pack - Si Branch",
-		"World": "",
-		"Speed": "3-7",
+		"World": "H Corp.",
+		"Speed": "3~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -29545,8 +31005,13 @@
 		"Id": 9308,
 		"Sinner": "Rodion",
 		"Identity": "Lobotomy E.G.O::The Sword Sharpened with Tears",
-		"World": "",
-		"Speed": "4-7",
+		"World": "Lobotomy Corporation Headquarters - 1",
+		"Speed": "4~7",
+		"BaseHP": 90,
+		"GrowthHP": 3.14,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -30099,7 +31564,14 @@
 		"Sinner": "Sinclair",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 60,
+		"GrowthHP": 2.07,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -30325,8 +31797,13 @@
 		"Id": 11201,
 		"Sinner": "Sinclair",
 		"Identity": "Los Mariachis Jefe",
-		"World": "the J Corp. Backstreets",
-		"Speed": "2-3",
+		"World": "The J Corp. Backstreets",
+		"Speed": "2~3",
+		"BaseHP": 95,
+		"GrowthHP": 3.26,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -30559,8 +32036,14 @@
 		"Id": 11202,
 		"Sinner": "Sinclair",
 		"Identity": "Zwei Association South Section 6",
-		"World": "the Zwei Association Southern Branch",
-		"Speed": "2-4",
+		"World": "The Zwei Association Southern Branch",
+		"Speed": "2~4",
+		"BaseHP": 88,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [
+			55,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -30800,7 +32283,13 @@
 		"Sinner": "Sinclair",
 		"Identity": "Lobotomy E.G.O::Red Sheet",
 		"World": "K Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.7,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -31147,8 +32636,15 @@
 		"Id": 11204,
 		"Sinner": "Sinclair",
 		"Identity": "Molar Boatworks Fixer",
-		"World": "the District 21 Backstreets",
-		"Speed": "4-6",
+		"World": "The District 21 Backstreets",
+		"Speed": "4~6",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -31392,8 +32888,13 @@
 		"Id": 11205,
 		"Sinner": "Sinclair",
 		"Identity": "Zwei Association West Section 3",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The Zwei Association Western Branch",
+		"Speed": "3~7",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			60
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -31653,8 +33154,14 @@
 		"Id": 11301,
 		"Sinner": "Sinclair",
 		"Identity": "Blade Lineage Salsu",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "2-5",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "2~5",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			60,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -31889,8 +33396,14 @@
 		"Id": 11302,
 		"Sinner": "Sinclair",
 		"Identity": "The One Who Shall Grip",
-		"World": "N Corp.",
-		"Speed": "3-8",
+		"World": "N Corp. Fanatics",
+		"Speed": "3~8",
+		"BaseHP": 79,
+		"GrowthHP": 2.73,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -32134,8 +33647,14 @@
 		"Id": 11303,
 		"Sinner": "Sinclair",
 		"Identity": "Cinq Association South Section 4 Director",
-		"World": "the Cinq Association Southern Branch",
-		"Speed": "4-8",
+		"World": "The Cinq Association Southern Branch",
+		"Speed": "4~8",
+		"BaseHP": 79,
+		"GrowthHP": 2.71,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -32366,8 +33885,15 @@
 		"Id": 11304,
 		"Sinner": "Sinclair",
 		"Identity": "Dawn Office Fixer",
-		"World": "the Former Library Guests - 1",
-		"Speed": "3-7",
+		"World": "The Former Library Guests - 1",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -32690,8 +34216,15 @@
 		"Id": 11305,
 		"Sinner": "Sinclair",
 		"Identity": "Devyat' Association North Section 3",
-		"World": "",
-		"Speed": "3-7",
+		"World": "The Devyat' Association Northern Branch",
+		"Speed": "3~7",
+		"BaseHP": 73,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -33019,8 +34552,14 @@
 		"Id": 11306,
 		"Sinner": "Sinclair",
 		"Identity": "The Middle Little Brother",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Middle",
+		"Speed": "4~6",
+		"BaseHP": 92,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [
+			50,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -33265,8 +34804,15 @@
 		"Id": 11307,
 		"Sinner": "Sinclair",
 		"Identity": "The Thumb East Soldato II",
-		"World": "",
-		"Speed": "4-6",
+		"World": "The Thumb",
+		"Speed": "4~6",
+		"BaseHP": 79,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -33556,7 +35102,14 @@
 		"Sinner": "Sinclair",
 		"Identity": "Heishou Pack - You Branch",
 		"World": "",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 75,
+		"GrowthHP": 2.5,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -33876,7 +35429,14 @@
 		"Sinner": "Outis",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 60,
+		"GrowthHP": 2.07,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -34094,8 +35654,14 @@
 		"Id": 12201,
 		"Sinner": "Outis",
 		"Identity": "G Corp. Head Manager",
-		"World": "the Former G Corp.",
-		"Speed": "4-8",
+		"World": "The Former G Corp.",
+		"Speed": "4~8",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -34329,8 +35895,15 @@
 		"Id": 12202,
 		"Sinner": "Outis",
 		"Identity": "Blade Lineage Cutthroat",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "2-5",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "2~5",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -34554,8 +36127,13 @@
 		"Id": 12203,
 		"Sinner": "Outis",
 		"Identity": "Cinq Association South Section 4",
-		"World": "the Cinq Association Southern Branch",
-		"Speed": "4-7",
+		"World": "The Cinq Association Southern Branch",
+		"Speed": "4~7",
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -34798,8 +36376,15 @@
 		"Id": 12204,
 		"Sinner": "Outis",
 		"Identity": "The Ring Pointilist Student",
-		"World": "the Ring",
-		"Speed": "3-6",
+		"World": "The Ring",
+		"Speed": "3~6",
+		"BaseHP": 69,
+		"GrowthHP": 2.26,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -35058,8 +36643,13 @@
 		"Id": 12301,
 		"Sinner": "Outis",
 		"Identity": "Seven Association South Section 6 Director",
-		"World": "the Seven Association Southern Branch",
-		"Speed": "5-8",
+		"World": "The Seven Association Southern Branch",
+		"Speed": "5~8",
+		"BaseHP": 86,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [
+			60
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -35297,7 +36887,14 @@
 		"Sinner": "Outis",
 		"Identity": "Molar Office Fixer",
 		"World": "Molar Office",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 68,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -35546,7 +37143,14 @@
 		"Sinner": "Outis",
 		"Identity": "Lobotomy E.G.O::Magic Bullet",
 		"World": "Lobotomy Corporation Headquarters - 1",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -35795,7 +37399,14 @@
 		"Sinner": "Outis",
 		"Identity": "Wuthering Heights Chief Butler",
 		"World": "Wuthering Heights",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -36029,8 +37640,15 @@
 		"Id": 12305,
 		"Sinner": "Outis",
 		"Identity": "W Corp. L3 Cleanup Captain",
-		"World": "",
-		"Speed": "3-7",
+		"World": "W Corp.",
+		"Speed": "3~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.32,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -36278,8 +37896,15 @@
 		"Id": 12306,
 		"Sinner": "Outis",
 		"Identity": "The Barber of La Manchaland",
-		"World": "",
-		"Speed": "3-7",
+		"World": "La Manchaland",
+		"Speed": "3~7",
+		"BaseHP": 73,
+		"GrowthHP": 2.23,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -36571,8 +38196,15 @@
 		"Id": 12307,
 		"Sinner": "Outis",
 		"Identity": "Heishou Pack - Mao Branch",
-		"World": "",
-		"Speed": "4-7",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.34,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -36807,8 +38439,15 @@
 		"Id": 12308,
 		"Sinner": "Outis",
 		"Identity": "T Corp. Class 3 VDCU Staff",
-		"World": "",
-		"Speed": "4-7",
+		"World": "T Corp.",
+		"Speed": "4~7",
+		"BaseHP": 70,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -37091,7 +38730,13 @@
 		"Sinner": "Gregor",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 72,
+		"GrowthHP": 2.48,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -37319,8 +38964,15 @@
 		"Id": 13201,
 		"Sinner": "Gregor",
 		"Identity": "Liu Association South Section 6",
-		"World": "the Liu Association Southern Branch",
-		"Speed": "3-7",
+		"World": "The Liu Association Southern Branch",
+		"Speed": "3~7",
+		"BaseHP": 63,
+		"GrowthHP": 2.17,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -37546,8 +39198,14 @@
 		"Id": 13202,
 		"Sinner": "Gregor",
 		"Identity": "R.B. Sous Chef",
-		"World": "the District 23 Backstreets",
-		"Speed": "3-7",
+		"World": "The District 23 Backstreets",
+		"Speed": "3~7",
+		"BaseHP": 76,
+		"GrowthHP": 2.7,
+		"StaggerThresholds": [
+			70,
+			30
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -37782,7 +39440,14 @@
 		"Sinner": "Gregor",
 		"Identity": "Rosespanner Workshop Fixer",
 		"World": "K Corp.",
-		"Speed": "4-6",
+		"Speed": "4~6",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -38024,8 +39689,15 @@
 		"Id": 13204,
 		"Sinner": "Gregor",
 		"Identity": "Kurokumo Clan Captain",
-		"World": "the Kurokumo Clan and Blade Lineage",
-		"Speed": "4-6",
+		"World": "The Kurokumo Clan and Blade Lineage",
+		"Speed": "4~6",
+		"BaseHP": 76,
+		"GrowthHP": 2.6,
+		"StaggerThresholds": [
+			65,
+			35,
+			15
+		],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -38259,8 +39931,15 @@
 		"Id": 13301,
 		"Sinner": "Gregor",
 		"Identity": "G Corp. Manager Corporal",
-		"World": "the Former G Corp.",
-		"Speed": "3-7",
+		"World": "The Former G Corp.",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -38486,8 +40165,13 @@
 		"Id": 13302,
 		"Sinner": "Gregor",
 		"Identity": "Zwei Association South Section 4",
-		"World": "the Zwei Association Southern Branch",
-		"Speed": "4-8",
+		"World": "The Zwei Association Southern Branch",
+		"Speed": "4~8",
+		"BaseHP": 90,
+		"GrowthHP": 3,
+		"StaggerThresholds": [
+			50
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -38722,7 +40406,14 @@
 		"Sinner": "Gregor",
 		"Identity": "Twinhook Pirates First Mate",
 		"World": "U Corp.",
-		"Speed": "3-7",
+		"Speed": "3~7",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -38966,7 +40657,14 @@
 		"Sinner": "Gregor",
 		"Identity": "Edgar Family Heir",
 		"World": "Wuthering Heights",
-		"Speed": "3-8",
+		"Speed": "3~8",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -39204,8 +40902,13 @@
 		"Id": 13305,
 		"Sinner": "Gregor",
 		"Identity": "The Priest of La Manchaland",
-		"World": "",
-		"Speed": "4-6",
+		"World": "La Manchaland",
+		"Speed": "4~6",
+		"BaseHP": 108,
+		"GrowthHP": 3.41,
+		"StaggerThresholds": [
+			80
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -39503,8 +41206,14 @@
 		"Id": 13306,
 		"Sinner": "Gregor",
 		"Identity": "Firefist Office Survivor",
-		"World": "",
-		"Speed": "4-6",
+		"World": "Firefist Office",
+		"Speed": "4~6",
+		"BaseHP": 82,
+		"GrowthHP": 2.95,
+		"StaggerThresholds": [
+			70,
+			0
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -39784,8 +41493,15 @@
 		"Id": 13307,
 		"Sinner": "Gregor",
 		"Identity": "Heishou Pack - Si Branch",
-		"World": "",
-		"Speed": "3-7",
+		"World": "H Corp.",
+		"Speed": "3~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
+		"StaggerThresholds": [
+			70,
+			40,
+			20
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,

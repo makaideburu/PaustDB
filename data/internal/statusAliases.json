@@ -1533,5 +1533,49 @@
 			"offense level up",
 			"final power"
 		]
+	},
+	{
+		"entry": "overcharge",
+		"aliases": [
+			"self immobilize",
+			"damage reduction",
+			"charge barrier",
+			"charge count",
+			"attack power up",
+			"aggro",
+			"load"
+		]
+	},
+	{
+		"entry": "hardblood armor",
+		"aliases": [
+			"heal hp"
+		]
+	},
+	{
+		"entry": "ally hardblood armor",
+		"aliases": [
+			"ally heal hp"
+		]
+	},
+	{
+		"entry": "focused performance",
+		"aliases": [
+			"final power"
+		]
+	},
+	{
+		"entry": "ally focused performance",
+		"aliases": [
+			"ally final power",
+			"ally damage amp"
+		]
+	},
+	{
+		"entry": "la mancha parade",
+		"aliases": [
+			"party damage amp",
+			"party damage reduction"
+		]
 	}
 ]

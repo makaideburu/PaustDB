@@ -2932,5 +2932,41 @@
 			"Offense Level Up",
 			"Final Power"
 		]
+	},
+	{
+		"Name": "Overcharge",
+		"Description": "Become Immobilized\nTake -(10 + (Charge x 5))% damage (Max 25%)\nTurn Start: Gain Charge Barrier based on Charge on self (Max 5)\nTurn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\nGain Aggro to this unit's leftmost Skill based on Charge on self (Max 5)\nWhen hit, gain +1 Charge Count and 1 Load next turn (Max 5 per turn)\nIf this unit is in Panic or in E.G.O Corrosion at Turn Start, or this unit is Staggered, lose this effect",
+		"Tags": [
+			"Self Immobilize",
+			"Damage Reduction",
+			"Charge Barrier",
+			"Charge Count",
+			"Attack Power Up",
+			"Aggro",
+			"Load"
+		]
+	},
+	{
+		"Name": "Hardblood Armor",
+		"Description": "Max Stack: 5\nIf unit isn't at max HP: After Skill attack, heal 10% of HP damage dealt (Once per turn; max 40)\nAfter Attack: If unit dealt HP damage, lose 1 Stack (Once per turn)\nIf Lust Reson activated, halve the HP healed, but do not lose any Hardblood Armor stack",
+		"Tags": [
+			"Heal HP"
+		]
+	},
+	{
+		"Name": "Focused Performance",
+		"Description": "Max Stack: 3\n<La Manchaland> Identities only; includes empowered Skills\nSkill 1 and Skill 2 gain Final Power +1; deal +5% damage for every Stack\nSkill 3 gains Final Power +2; deal +10% damage for every Stack\nAfter attacking with Skill 3, or at Turn Start without Hardblood Armor, lose 1 Stack",
+		"Tags": [
+			"Final Power",
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "La Mancha Parade",
+		"Description": "Max Stack: 4\nTake +10% damage from Lust Skills\nIf target is a <La Manchaland> Identity, take +20% damage regardless of Skill Affinity\nAt max Stack, deal -20% damage against <La Manchaland> Identities\nLose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
+		"Tags": [
+			"Focused Damage Amp",
+			"Focused Damage Reduction"
+		]
 	}
 ]
