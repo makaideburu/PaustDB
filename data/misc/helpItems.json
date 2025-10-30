@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.0.0 (2025-10-30)",
+        "```stuff and things\nhopefully less ugliness in general now```"
+      ],
+      [
         "2.10.0 (2025-09-22)",
         "```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.7.1 (2025-07-08)",
         "```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
-      ],
-      [
-        "2.7 (2025-05-29)",
-        "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
       ]
     ],
     "OldItems": [
@@ -344,6 +344,10 @@
       [
         "2.6.2.1 (2025-05-19)",
         "```oh no not again```"
+      ],
+      [
+        "2.7 (2025-05-29)",
+        "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
       ]
     ],
     "HelpFooter": ""
