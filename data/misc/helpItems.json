@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.0.1 (2025-11-03)",
+        "```did you know captain ishmael is every heishou, all at once\ni do now```"
+      ],
+      [
         "3.0.0 (2025-10-30)",
         "```stuff and things\nhopefully less ugliness in general now```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.8.0 (2025-07-14)",
         "```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
-      ],
-      [
-        "2.7.1 (2025-07-08)",
-        "```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
       ]
     ],
     "OldItems": [
@@ -348,6 +348,10 @@
       [
         "2.7 (2025-05-29)",
         "```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
+      ],
+      [
+        "2.7.1 (2025-07-08)",
+        "```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
       ]
     ],
     "HelpFooter": ""

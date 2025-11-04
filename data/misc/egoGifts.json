@@ -2,7 +2,7 @@
   {
     "Id": 0,
     "Name": "Hellterfly's Dream",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Ardor Blossom Moth",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -12,21 +12,21 @@
         "Description": "When applying Burn or Unique Burn to an enemy with Burn or Unique Burn, randomly inflict a total of 3 Burn between all enemies.\nWhen Activating Wrath A-Res, randomly inflict a total of 5 Burn between all enemies at Combat Start.",
         "Rank": 1,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When applying Burn or Unique Burn to an enemy with Burn or Unique Burn, randomly inflict a total of 4 Burn between all enemies.\nWhen Activating Wrath A-Res, randomly inflict a total of 6 Burn between all enemies at Combat Start.",
         "Rank": 2,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When applying Burn or Unique Burn to an enemy with Burn or Unique Burn, randomly inflict a total of 5 Burn between all enemies.\nWhen Activating Wrath Res, randomly inflict a total of 8 Burn between all enemies at Combat Start.",
         "Rank": 3,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -64,7 +64,7 @@
   {
     "Id": 2,
     "Name": "Ashes to Ashes",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Rising Ashes",
     "Affinity": "Wrath",
     "Tier": 1,
@@ -74,21 +74,21 @@
         "Description": "Combat start: If all enemies (or all Abnormality parts) have Burn or Unique Burn, inflict 2 Burn on all enemies (or all Abnormality parts)",
         "Rank": 1,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "Combat start: Inflicts 2 Burn on all enemies (or all Abnormality parts) with Burn or Unique Burn.",
         "Rank": 2,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "Combat Start: Inflict 3 Burn on all enemies (or all Abnormality parts).",
         "Rank": 3,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -126,7 +126,7 @@
   {
     "Id": 4,
     "Name": "Wound Clerid",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Wailing Coffin",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -136,21 +136,21 @@
         "Description": "When hitting an enemy with a Skill that inflicts Bleed or Unique Bleed, inflict 4 Bleed.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed"
+          "Bleed Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Skill that inflicts Bleed, Unique Bleed, or a Wrath affinity Skill, inflict 5 Bleed.",
         "Rank": 2,
         "MiscTags": [
-          "Bleed"
+          "Bleed Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Skill that inflicts Bleed, Unique Bleed, or a Wrath affinity Skill, inflict 5 Bleed and +1 Bleed Count.",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -213,7 +213,7 @@
   {
     "Id": 7,
     "Name": "Grimy Iron Stake",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Hurting Teddy Bear",
     "Affinity": "Lust",
     "Tier": 1,
@@ -223,7 +223,7 @@
         "Description": "When hitting an enemy using a single-Coin Skill, inflict 1 Bleed. Inflict 2 Defense Level Down until the end of the next turn.\nIf the target already has Bleed or Unique Bleed, inflict 3 Bleed instead.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Defense Level Down"
         ]
       }
@@ -238,7 +238,7 @@
   {
     "Id": 8,
     "Name": "Fiery Down",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Skin Prophet",
     "Affinity": "Lust",
     "Tier": 2,
@@ -248,21 +248,21 @@
         "Description": "When hitting an enemy with a Lust Affinity Skill or a Skill that inflicts Burn Potency or Unique Burn, inflict 3 Burn.\nTurn Start: If the enemy has 20+ Burn, double the amount of Burn.",
         "Rank": 1,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Lust Affinity Skill or a Skill that inflicts Burn Potency or Unique Burn, inflict 4 Burn.\nTurn Start: If the enemy has 20+ Burn, double the amount of Burn.",
         "Rank": 2,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Lust Affinity Skill or a Skill that inflicts Burn Potency or Unique Burn, inflict 4 Burn.\nTurn Start: If the enemy has 20+ Burn, 2.5x the amount of Burn.",
         "Rank": 3,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -362,7 +362,7 @@
   {
     "Id": 12,
     "Name": "Talisman Bundle",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "So That No One Will Cry",
     "Affinity": "Sloth",
     "Tier": 1,
@@ -372,21 +372,21 @@
         "Description": "Whenever an ally deals 12+ HP damage to an enemy with a Skill, inflict 2 Rupture on target.\nWhen using a Slash Skill, inflict 4 Rupture instead.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       },
       {
         "Description": "Whenever an ally deals 12+ HP damage to an enemy with a Skill, inflict 3 Rupture on target.\nWhen using a Slash Skill, inflict 5 Rupture instead.",
         "Rank": 2,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       },
       {
         "Description": "Whenever an ally deals 1+ HP damage to an enemy with a Skill, inflict 3 Rupture on target.\nWhen using a Slash Skill, inflict 5 Rupture and +1 Rupture Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -426,7 +426,7 @@
   {
     "Id": 14,
     "Name": "Blood, Sweat, and Tears",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Drunkard",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -464,7 +464,7 @@
   {
     "Id": 15,
     "Name": "Green Spirit",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fairy Gentleman",
     "Affinity": "Gluttony",
     "Tier": 1,
@@ -474,21 +474,21 @@
         "Description": "After hitting a non-Staggered enemy by using a Gluttony Affinity Skill, or inflicting Tremor using Skill effects, randomly inflict a total of 4 Tremor between all enemies (or all Abnormality parts).",
         "Rank": 1,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "After hitting a non-Staggered enemy by using a Gluttony Affinity Skill, or inflicting Tremor using Skill effects, randomly inflict a total of 6 Tremor between all enemies (or all Abnormality parts).",
         "Rank": 2,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "After hitting a non-Staggered enemy by using a Gluttony Affinity Skill, or inflicting Tremor using Skill effects, randomly inflict a total of 8 Tremor between all enemies (or all Abnormality parts).",
         "Rank": 3,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -526,7 +526,7 @@
   {
     "Id": 17,
     "Name": "Crown of Roses",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Sign of Roses",
     "Affinity": "Gluttony",
     "Tier": 1,
@@ -536,21 +536,21 @@
         "Description": "Turn Start: Inflict 4 Rupture on a random enemy (or all Abnormality parts).\nWhen activating Gluttony A-Res, inflict 2 Rupture on all enemies at Combat Start.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       },
       {
         "Description": "Turn Start: Inflict 4 Rupture on 2 random enemies (or all Abnormality parts).\nWhen activating Gluttony A-Res, inflict 3 Rupture on all enemies at Combat Start.",
         "Rank": 2,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       },
       {
         "Description": "Turn Start: Inflict 4 Rupture on 3 random enemies (or all Abnormality parts).\nWhen activating Gluttony A-Res, inflict 4 Rupture on all enemies at Combat Start.",
         "Rank": 3,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       }
     ],
@@ -588,7 +588,7 @@
   {
     "Id": 19,
     "Name": "White Gossypium",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Drenched Gossypium",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -598,7 +598,7 @@
         "Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (8 + Stagger LV x 4) Bleed and (8 + Stagger LV x 4)/2 Offense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Offense Level Down"
         ]
       },
@@ -606,7 +606,7 @@
         "Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (10 + Stagger LV x 5) Bleed and (10 + Stagger LV x 5) Offense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
         "Rank": 2,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Offense Level Down"
         ]
       },
@@ -614,7 +614,7 @@
         "Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (12 + Stagger LV x 6) Bleed and (12 + Stagger LV x 6) Offense Level Down and Defense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Defense Level Down",
           "Offense Level Down"
         ]
@@ -679,7 +679,7 @@
   {
     "Id": 22,
     "Name": "Thunderbranch",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Monkey Tree",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -689,7 +689,7 @@
         "Description": "When inflicting Rupture with Skill effects, inflict 1 Rupture and +1 Rupture Count on target.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -697,7 +697,7 @@
         "Description": "When inflicting Rupture with Skill effects, inflict 2 Rupture and +1 Rupture Count on target.",
         "Rank": 2,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -705,7 +705,7 @@
         "Description": "When inflicting Rupture with Skill effects, inflict 3 Rupture and +1 Rupture Count on target.\nIf the Skill's affinity is Gloom, inflict 3 Rupture and +2 Rupture Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -720,7 +720,7 @@
   {
     "Id": 23,
     "Name": "Melted Eyeball",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Blubbering Toad",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -860,7 +860,7 @@
   {
     "Id": 28,
     "Name": "Little and To-be-Naughty Plushie",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Pride",
     "Tier": 2,
@@ -909,7 +909,7 @@
   {
     "Id": 30,
     "Name": "Nixie Divergence",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Steam Transport Machine",
     "Affinity": "Envy",
     "Tier": 1,
@@ -919,7 +919,7 @@
         "Description": "First Turn Start of an Encounter: Inflict 4 Tremor and +4 Tremor Count to all enemies (or all Abnormality Parts).\nWhen hitting an enemy with an Envy Affinity Skill, inflict 2 Tremor on target.",
         "Rank": 1,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       },
@@ -927,7 +927,7 @@
         "Description": "First Turn Start of a Wave: Inflict 4 Tremor and +4 Tremor Count to all enemies (or all Abnormality Parts).\nWhen hitting an enemy with an Envy Affinity Skill, inflict 2 Tremor on target.",
         "Rank": 2,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       },
@@ -935,7 +935,7 @@
         "Description": "First Turn Start of a Wave: Inflict 5 Tremor and +5 Tremor Count to all enemies (or all Abnormality Parts).\nWhen hitting an enemy with an Envy Affinity Skill, inflict 3 Tremor on target.",
         "Rank": 3,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       }
@@ -976,7 +976,7 @@
   {
     "Id": 32,
     "Name": "Standard-duty Battery",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Shock Centipede",
     "Affinity": "Envy",
     "Tier": 3,
@@ -986,7 +986,7 @@
         "Description": "When hitting an enemy with a Skill, inflict 3 Rupture on target.\nIf the Skill's Affinity was Envy, inflict 5 Rupture on target instead.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       }
     ],
@@ -1000,7 +1000,7 @@
   {
     "Id": 33,
     "Name": "Pinpoint Logic Circuit",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "kqe-1j-23",
     "Affinity": "Envy",
     "Tier": 2,
@@ -1010,7 +1010,7 @@
         "Description": "When hitting an enemy with an Envy Affinity Skill or a Skill that inflicts Burn or Unique Burn, inflict additional Burn by half the Skill's total Coins. (Rounded up)",
         "Rank": 1,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -1199,7 +1199,7 @@
   {
     "Id": 40,
     "Name": "Red Order",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Centipede Apostle",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -1236,7 +1236,7 @@
   {
     "Id": 41,
     "Name": "Smokes and Wires",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "4th Front of the Smoke War",
     "Affinity": "Wrath",
     "Tier": 3,
@@ -1246,7 +1246,7 @@
         "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 2 Speed next turn.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Speed Down"
         ]
       },
@@ -1254,7 +1254,7 @@
         "Description": "Allies inflict 2x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
         "Rank": 2,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Speed Down"
         ]
       },
@@ -1262,7 +1262,7 @@
         "Description": "Allies inflict 2.5x Bleed against enemies with Skill effects.\nTurn End: Enemies with Bleed or Unique Bleed lose 3 Speed next turn.",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Speed Down"
         ]
       }
@@ -1319,7 +1319,7 @@
   {
     "Id": 43,
     "Name": "Oscillating Bracelet",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -1329,21 +1329,21 @@
         "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 2 Tremor instead.",
         "Rank": 1,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Skill, inflict 1 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 3 Tremor instead.",
         "Rank": 2,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "When hitting an enemy with a Skill, inflict 2 Tremor next turn.\nIf the Skill's Affinity was Wrath, inflict 4 Tremor instead.",
         "Rank": 3,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -1356,7 +1356,7 @@
   {
     "Id": 44,
     "Name": "Glimpse of Flames",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Wrath",
     "Tier": 4,
@@ -1368,7 +1368,7 @@
         "MiscTags": [
           "HP Damage",
           "Defense Level Down",
-          "Spend Burn"
+          "Spend Burn Count"
         ]
       },
       {
@@ -1377,7 +1377,7 @@
         "MiscTags": [
           "HP Damage",
           "Defense Level Down",
-          "Spend Burn"
+          "Spend Burn Count"
         ]
       },
       {
@@ -1386,7 +1386,7 @@
         "MiscTags": [
           "HP Damage",
           "Defense Level Down",
-          "Spend Burn"
+          "Spend Burn Count"
         ]
       }
     ],
@@ -1399,7 +1399,7 @@
   {
     "Id": 45,
     "Name": "Cigarette Holder",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 2,
@@ -1422,7 +1422,7 @@
   {
     "Id": 46,
     "Name": "Barbed Lasso",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Rose Hunter",
     "Affinity": "Lust",
     "Tier": 2,
@@ -1432,7 +1432,7 @@
         "Description": "Turn End: Inflict Rupture on all enemies equal to their current Speed values.\nWhen activating Lust A-Res, apply 3 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -1440,7 +1440,7 @@
         "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 1).\nWhen activating Lust A-Res, apply 4 Rupture and +3 Rupture Count to a random enemy at Combat Start.",
         "Rank": 2,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -1448,7 +1448,7 @@
         "Description": "Turn End: Inflict Rupture on all enemies equal to (their current Speed values + 2).\nWhen activating Lust A-Res, apply 5 Rupture and +4 Rupture Count to a random enemy at Combat Start.",
         "Rank": 3,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -1462,7 +1462,7 @@
   {
     "Id": 47,
     "Name": "Rusted Cutting Knife",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 3,
@@ -1472,7 +1472,7 @@
         "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 1 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       },
@@ -1480,7 +1480,7 @@
         "Description": "When inflicting Bleed or Unique Bleed with Skill effects against non-Staggered enemies, inflict 2 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +1 Bleed Count instead.",
         "Rank": 2,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       },
@@ -1488,7 +1488,7 @@
         "Description": "When inflicting Bleed or Unique Bleed with Skill effects, inflict 3 Bleed and +1 Bleed Count.\nIf the Skill's Affinity was Lust, inflict 3 Bleed and +2 Bleed Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -1502,7 +1502,7 @@
   {
     "Id": 48,
     "Name": "Thorny Path",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Heavenly Commander's Throne",
     "Affinity": "Lust",
     "Tier": 1,
@@ -1512,7 +1512,7 @@
         "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust A-Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
         "Rank": 1,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       },
@@ -1520,7 +1520,7 @@
         "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 3 Sinking and +2 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 2 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
         "Rank": 2,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       },
@@ -1528,7 +1528,7 @@
         "Description": "When hitting and dealing HP damage to an enemy with a Skill that inflicts Sinking Potency or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End, (Once per enemy per turn)\nWhen activating Gloom or Lust Res, inflict 3 Sinking and +3 Sinking Count to all enemies (for Abnormalities, a random part) at Combat Start.",
         "Rank": 3,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       }
@@ -1542,7 +1542,7 @@
   {
     "Id": 49,
     "Name": "Red-stained Gossypium",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 4,
@@ -1552,7 +1552,7 @@
         "Description": "First Turn Start of an Encounter: Inflict 1 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Offense Level Down",
           "Defense Level Down"
@@ -1562,7 +1562,7 @@
         "Description": "First Turn Start of a Wave: Inflict 2 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
         "Rank": 2,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Offense Level Down",
           "Defense Level Down"
@@ -1572,7 +1572,7 @@
         "Description": "First Turn Start of a Wave: Inflict 4 Bleed and +20 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 2) Offense Level and Defense Level for the turn. (Maxes out at 30 Bleed)",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Offense Level Down",
           "Defense Level Down"
@@ -1588,7 +1588,7 @@
   {
     "Id": 50,
     "Name": "Stone Tomb",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Pagoda Veneration",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -1598,7 +1598,7 @@
         "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy with a Sloth Affinity Skill, they gain 2 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -1606,7 +1606,7 @@
         "Description": "Allies gain 1.5x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 3 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -1614,7 +1614,7 @@
         "Description": "Allies gain 2x Poise from Skill effects.\nWhen an ally defeats an enemy, they gain 4 Poise and +2 Poise Count at the next Turn Start. (Once per turn)",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -1665,7 +1665,7 @@
   {
     "Id": 52,
     "Name": "Dust to Dust",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 3,
@@ -1675,7 +1675,7 @@
         "Description": "First Turn Start of a wave: inflict 5 Burn and +3 Burn Count to all enemies. (For Abnormalities, one random part)\nWhen activating Sloth A-Res, inflict 3 Burn and +2 Burn Count to all enemies (for Abnormalities, one random part), at Combat Start.",
         "Rank": 1,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Burn Count"
         ]
       },
@@ -1683,7 +1683,7 @@
         "Description": "At the start of the battle, inflict 6 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +2 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
         "Rank": 2,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Burn Count"
         ]
       },
@@ -1691,7 +1691,7 @@
         "Description": "At the start of the battle, inflict 8 Burn and +3 Burn Count on all enemies. (For Abnormalities, one random part)\nWhen activating Sloth Res, inflict 4 Burn and +3 Burn Count on all enemies (for Abnormalities, one random part) at Combat Start.",
         "Rank": 3,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Burn Count"
         ]
       }
@@ -1705,7 +1705,7 @@
   {
     "Id": 53,
     "Name": "Melted Spring",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Time Duck",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -1729,7 +1729,7 @@
   {
     "Id": 54,
     "Name": "Downpour",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -1739,7 +1739,7 @@
         "Description": "Turn Start: Inflict (Current Turn Count x 2) Tremor and +2 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
         "Rank": 1,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Tremor Burst"
         ]
@@ -1748,7 +1748,7 @@
         "Description": "Turn Start: Inflict (3 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
         "Rank": 2,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Tremor Burst"
         ]
@@ -1757,7 +1757,7 @@
         "Description": "Turn Start: Inflict (5 + Current Turn Count x 2) Tremor and +3 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger 2 Tremor Burst on all enemies (or all Abnormality parts).",
         "Rank": 3,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Tremor Burst"
         ]
@@ -1772,7 +1772,7 @@
   {
     "Id": 55,
     "Name": "Four-leaf Clover",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fairy-Long-Legs",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -1782,7 +1782,7 @@
         "Description": "When an ally with Poise at Combat Start Critical Hits an enemy, gain 5 Poise and +2 Poise Count at the next Turn Start. (Once per turn)\nIf the Skill's Affinity was Gluttony, gain 7 Poise and +3 Poise Count instead at the next Turn Start.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -1843,7 +1843,7 @@
   {
     "Id": 58,
     "Name": "Midwinter Nightmare",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Faelantern",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -1853,7 +1853,7 @@
         "Description": "When hitting and dealing HP damage to an enemy with a Skill, inflict 3 Sinking.\nIf the Skill's Affinity was Gluttony, inflict 5 Sinking instead.",
         "Rank": 1,
         "MiscTags": [
-          "Sinking"
+          "Sinking Potency"
         ]
       }
     ],
@@ -1866,7 +1866,7 @@
   {
     "Id": 59,
     "Name": "Thrill",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -1876,7 +1876,7 @@
         "Description": "Turn Start: Inflict 3 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "HP Damage",
           "Spend Rupture Count"
@@ -1886,7 +1886,7 @@
         "Description": "Turn Start: Inflict 4 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
         "Rank": 2,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "HP Damage",
           "Spend Rupture Count"
@@ -1896,7 +1896,7 @@
         "Description": "Turn Start: Inflict 6 Rupture and +3 Rupture Count on all enemies. (Or all Abnormality parts)\nTurn End: Inflict (Rupture x Rupture Count) Gluttony damage to all enemies (for Abnormalities, all parts) (Counts up to 5 Rupture Count)",
         "Rank": 3,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "HP Damage"
         ]
@@ -1911,7 +1911,7 @@
   {
     "Id": 60,
     "Name": "Skeletal Crumbs",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Tomb of Bone",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -1975,7 +1975,7 @@
   {
     "Id": 62,
     "Name": "Pendant of Nostalgia",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Der Fluchschütze",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -1985,7 +1985,7 @@
         "Description": "Combat Start: A random ally gains 3 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 3 Poise and +2 Poise Count.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -1993,7 +1993,7 @@
         "Description": "Combat Start: A random ally gains 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -2001,7 +2001,7 @@
         "Description": "Combat Start: 2 random allies gain 4 Poise. (Prioritizes Identities with Attack Skills that gain Poise Count)\nPrioritizes allies with Gloom Affinity Attack Skills; those allies gain 4 Poise and +3 Poise Count.",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -2015,7 +2015,7 @@
   {
     "Id": 63,
     "Name": "Broken Revolver",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -2038,7 +2038,7 @@
   {
     "Id": 64,
     "Name": "Artistic Sense",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "None",
     "Affinity": "Pride",
     "Tier": 4,
@@ -2075,7 +2075,7 @@
   {
     "Id": 65,
     "Name": "Nebulizer",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Sleeping Bag of a Bygone Day",
     "Affinity": "Pride",
     "Tier": 2,
@@ -2085,7 +2085,7 @@
         "Description": "First Turn Start of an Encounter: All allies gain 4 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 2 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -2093,7 +2093,7 @@
         "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +4 Poise Count.\nWhen activating Pride A-Res, all allies gain 3 Poise and +2 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -2101,7 +2101,7 @@
         "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nWhen activating Pride Res, all allies gain 3 Poise and +3 Poise Count at Combat Start.\nWhen Thoracalgia Ryōshū's E.G.O Passive [Breath] is active, the above effect does not activate.",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -2198,7 +2198,7 @@
   {
     "Id": 69,
     "Name": "Clear Mirror, Calm Water",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 4,
@@ -2238,7 +2238,7 @@
   {
     "Id": 70,
     "Name": "Charred Disk",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 3,
@@ -2248,7 +2248,7 @@
         "Description": "When an enemy with Burn is defeated (for Abnormalities, when the Core is defeated), inflict half of the Burn on the defeated enemy to an enemy with the least Burn at the next Turn Start.\nTurn Start: Inflict 4 Offense Level Down to enemies with Burn for the turn.",
         "Rank": 1,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Offense Level Down"
         ]
       }
@@ -2302,7 +2302,7 @@
   {
     "Id": 72,
     "Name": "Endorphin Kit",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Dream-Devouring Siltcurrent",
     "Affinity": "Envy",
     "Tier": 3,
@@ -2312,7 +2312,7 @@
         "Description": "When gaining Poise from Skill effects, gain 1 Poise and +1 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 2 Poise and +2 Poise Count instead.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -2320,7 +2320,7 @@
         "Description": "When gaining Poise from Skill effects, gain 2 Poise and +2 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 3 Poise and +3 Poise Count instead.",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -2328,7 +2328,7 @@
         "Description": "When gaining Poise from Skill effects, gain 3 Poise and +3 Poise Count.\nIf the Skill's Affinity was Envy, the ally gains 4 Poise and +4 Poise Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -2342,7 +2342,7 @@
   {
     "Id": 73,
     "Name": "Headless Portrait",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Portrait of a Certain Day",
     "Affinity": "Envy",
     "Tier": 1,
@@ -2352,21 +2352,21 @@
         "Description": "Combat Start: Inflict 2 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 1 Sinking between all enemies next turn. (For Abnormalities, one random part)",
         "Rank": 1,
         "MiscTags": [
-          "Sinking"
+          "Sinking Potency"
         ]
       },
       {
         "Description": "Combat Start: Inflict 3 Sinking on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 2 Sinking between all enemies next turn. (For Abnormalities, one random part)",
         "Rank": 2,
         "MiscTags": [
-          "Sinking"
+          "Sinking Potency"
         ]
       },
       {
         "Description": "Combat Start: Inflict 4 Sinking and +1 Sinking Count on all enemies with less than 0 SP. (For Abnormalities, one random part)\nFor each Envy Affinity Skill used, randomly inflict 3 Sinking between all enemies next turn. (For Abnormalities, one random part)",
         "Rank": 3,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       }
@@ -2643,7 +2643,7 @@
   },
   {
     "Name": "Black Sheet Music",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Fusion: ||Midwinter Nightmare + Headless Portrait + Tangled Bones||",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -2653,7 +2653,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, counts Identities on field)\nOn Hit against an enemy with a Skill, inflict 5 Sinking.\nTurn Start: All enemies (or all Abnormality parts) regain (Sinking Count each enemy lost On Hit last turn / 2) Sinking Count\nOn Hit with a Base Attack Skill: Deal (Sinking on target / 10) Gloom damage (Min 1; rounded down)\nOn Hit with an Attack Skill: If target's SP is below 0, deal more damage the further the target's SP is from 0 (+1% per SP); if target is Panicked, deal +50% damage instead\nIf target does not have SP, deal +1% damage for every 2 Sinking on target; if target has 90+ Sinking, deal +50% instead",
         "Rank": 1,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count",
           "Damage Amp"
         ]
@@ -2666,7 +2666,7 @@
   },
   {
     "Name": "Bloody Mist",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Fusion: ||Smokes and Wires + Rusted Muzzle + Devotion||",
     "Affinity": "Wrath",
     "Tier": 4,
@@ -2676,7 +2676,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Bleed, Bleed Count, or Unique Bleed. (Except E.G.O Skills, counts Identities on field)\nAllies inflict double the amount of Bleed and Bleed Count with Skill effects.\nThe Ally highest in Deployment Order's Skills that inflict Bleed, Bleed Count, or Unique Bleed: Coin Power +2, damage dealt +100%. If the enemy attacked by or Clashed with said ally dies, inflict remaining Bleed on the enemy randomly between all enemies. (Focused Encounters, parts)",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Coin Power",
           "Damage Amp"
         ]
@@ -2689,7 +2689,7 @@
   },
   {
     "Name": "Coupled Oscillation",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Nixie Divergence + Bell of Truth + Interlocked Cogs||",
     "Affinity": "Lust",
     "Tier": 4,
@@ -2699,7 +2699,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Tremor, Tremor Count, or Unique Tremor. (Except E.G.O Skills, counts Identities on field)\nFirst Turn start of a Wave: Inflict 5 Tremor and +5 Tremor Count to all enemies. (or all Abnormality parts)\nApply 5 Tremor and 2 Fragile this turn and next turn to enemies affected by Tremor Burst. (Activates once per Attack Skill that triggers Tremor Burst)\nAfter triggering 3 Tremor Bursts to a target this turn, Stagger the target at next Turn Start and add a new Stagger Threshold at 66% and 33% marks of the target's current HP. (Once per Encounter)\nWhen triggering Amplitude Conversion or Amplitude Entanglement, inflict 1 Fragile (3 times per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Fragile",
           "Stagger",
@@ -2737,7 +2737,7 @@
   },
   {
     "Name": "Enrapturing Trance",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Talisman Bundle + Standard-duty Battery + Thorny Rope Cuffs||",
     "Affinity": "Wrath",
     "Tier": 4,
@@ -2747,7 +2747,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, counts Identities on field)\nWhen hitting an enemy with a Skill, inflict 5 Rupture.\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count. (This effect ends when Rupture drops below 10)\nIf target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count. (3 times per Encounter)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -2759,7 +2759,7 @@
   },
   {
     "Name": "Fragment of Allurement",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Pride",
     "Tier": 4,
@@ -2781,7 +2781,7 @@
   },
   {
     "Name": "Fragment of Conceit",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 4,
@@ -2803,7 +2803,7 @@
   },
   {
     "Name": "Fragment of Decay",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -2825,7 +2825,7 @@
   },
   {
     "Name": "Fragment of Desire",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -2869,7 +2869,7 @@
   },
   {
     "Name": "Fragment of Hellfire",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 4,
@@ -2891,7 +2891,7 @@
   },
   {
     "Name": "Fragment of Inertia",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -2913,7 +2913,7 @@
   },
   {
     "Name": "Guiding Gas Lamp",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fusion: ||Harpoon Prosthetic Leg + Nebulizer||",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -2923,7 +2923,7 @@
         "Description": "First Turn Start of a Wave: All allies gain 5 Poise and +5 Poise Count.\nTurn End: 1 ally with the highest sum of Poise and Poise Count gains 2 Haste, 3 Offense Level Up, and 3 Damage Up next turn.\nThe Pequod Identities gain Skill Power +2 and Max Speed +2.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count",
           "Haste",
           "Offense Level Up",
@@ -2940,7 +2940,7 @@
   },
   {
     "Name": "Handheld Mirror",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Chief Butler's Secret Arts + Mirror Tactile Synaesthesia||",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -2953,7 +2953,7 @@
           "Bind",
           "Defense Level Down",
           "Add Stagger Threshold",
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -2963,7 +2963,7 @@
   },
   {
     "Name": "Hoarfrost Footprint",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Fusion: ||Haunted Shoes + Frozen Cries||",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -2975,7 +2975,7 @@
         "MiscTags": [
           "Self Sinking Count",
           "Clash Power",
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       }
@@ -2986,7 +2986,7 @@
   },
   {
     "Name": "Lucky Pouch",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fusion: ||Four-leaf Clover + Ornamental Horseshoe + Reminiscence||",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -2996,7 +2996,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that gain Poise. (Except E.G.O Skills, counts Identities on field)\nCombat Start: If a random ally with Poise Critical Hits on an enemy with a Skill, all allies gain 7 Poise and +7 Poise Count at the next Turn Start. (Once per turn)\nSkill 3 of Identities with Skills that apply or gain Poise or Poise Count: Final Power +3, Coin Power +(12/# of Coins), damage dealt +(50/# of coins)%\nCombat Start: a random ally gains 3 Poise. (Prioritizes Identities that apply or gain Poise or Poise Count with their Attack Skills\nPrioritizes allies with Gloom Affinity Attack Skills; they gain 3 Poise and +2 Poise Count.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count",
           "Final Power",
           "Coin Power",
@@ -3077,7 +3077,7 @@
   },
   {
     "Name": "Ragged Bamboo Hat",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Yield My Flesh to Claim Their Bones*",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -3097,7 +3097,7 @@
   },
   {
     "Name": "Soothe the Dead",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Fusion: ||Ashes to Ashes + Dust to Dust + Secret Cookbook||",
     "Affinity": "Pride",
     "Tier": 4,
@@ -3107,7 +3107,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn. (Except E.G.O Skills, counts Identities on field)\nFirst Turn Start of a Wave: Inflict 3 Burn Count to all enemies (or all Abnormality parts); randomly inflict a total of 15 Burn between all enemies (or all Abnormality parts).\nTo Skills that inflict Burn, Burn Count, or Unique Burn: Final Power +1, Coin Power +1, inflicted Burn +1, inflicted Burn Count +1.\nWhen winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins + 1) Burn to the target",
         "Rank": 1,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Burn Count",
           "Final Power",
           "Coin Power"
@@ -3134,7 +3134,7 @@
           "Faction Buff: Kurokumo Clan",
           "Slash Power Up",
           "Slash Damage Amp",
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -3181,7 +3181,7 @@
           "Charge Barrier",
           "Offense Level Up",
           "Damage Up",
-          "Charge",
+          "Charge Potency",
           "Attack Power Up"
         ]
       }
@@ -3216,7 +3216,7 @@
   },
   {
     "Name": "Unmailed Letter",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Ragged Umbrella + Broken Glasses||",
     "Affinity": "Envy",
     "Tier": 4,
@@ -3226,7 +3226,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nWhen winning a Clash with an Attack Skill that inflicts Rupture or Rupture Count, inflict 5 Rupture and +3 Rupture Count against the target. (Once per turn)\nWhen Clashing against an enemy with a slower Speed, gain Final Power +1 and deal +25% damage.\nWhen winning a Clash against an enemy with Offense Level Up buff, gain 3 Offense Level Up for the next turn, and inflict 3 Offense Level Down on the enemy that lost the Clash. (Absolute value 9)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "Final Power",
           "Damage Amp",
@@ -3266,7 +3266,7 @@
   },
   {
     "Name": "Ardent Flower",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Ardor Blossom Moth",
     "Affinity": "Pride",
     "Tier": 3,
@@ -3286,7 +3286,7 @@
   },
   {
     "Name": "Bell of Truth",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Clockwork-Time-Roly-Poly",
     "Affinity": "Envy",
     "Tier": 3,
@@ -3321,7 +3321,7 @@
   },
   {
     "Name": "Broken Blade",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Yield My Flesh to Claim Their Bones*",
     "Affinity": "Pride",
     "Tier": 3,
@@ -3341,7 +3341,7 @@
   },
   {
     "Name": "Broken Compass",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Explorer on a Bereaved Road",
     "Affinity": "Pride",
     "Tier": 3,
@@ -3432,7 +3432,7 @@
   },
   {
     "Name": "Clockwork Spring",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Steam Transport Machine",
     "Affinity": "Pride",
     "Tier": 3,
@@ -3453,7 +3453,7 @@
   },
   {
     "Name": "Contained Maggots",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*The Outcast*",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -3473,7 +3473,7 @@
   },
   {
     "Name": "Deathseeker",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -3495,7 +3495,7 @@
   },
   {
     "Name": "Distant Star",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 3,
@@ -3516,7 +3516,7 @@
   },
   {
     "Name": "Dry-to-the-Bone Breast",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*Hell's Chicken*",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -3536,7 +3536,7 @@
   },
   {
     "Name": "Finifugality",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Pride",
     "Tier": 3,
@@ -3557,7 +3557,7 @@
   },
   {
     "Name": "Fractured Blade",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*Yield My Flesh to Claim Their Bones*",
     "Affinity": "Lust",
     "Tier": 3,
@@ -3568,7 +3568,7 @@
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Kurokumo Clan",
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -3579,7 +3579,7 @@
   },
   {
     "Name": "Hot 'n Juicy Drumstick",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "*Hell's Chicken*",
     "Affinity": "Wrath",
     "Tier": 3,
@@ -3792,7 +3792,7 @@
   },
   {
     "Name": "Respite",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Sign of Roses",
     "Affinity": "Envy",
     "Tier": 3,
@@ -3898,7 +3898,7 @@
   },
   {
     "Name": "Trash Crab Brain Wine",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*S.E.A.*",
     "Affinity": "Lust",
     "Tier": 3,
@@ -3919,7 +3919,7 @@
   },
   {
     "Name": "Awe",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Spiral of Contempt",
     "Affinity": "Envy",
     "Tier": 2,
@@ -4055,7 +4055,7 @@
   },
   {
     "Name": "Contaminated Needle & Thread",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*Hell's Chicken*",
     "Affinity": "Lust",
     "Tier": 2,
@@ -4065,7 +4065,7 @@
         "Description": "The following effect applies to the first Skill to deal damage to an enemy.\nInflict (damage dealt/3) Bleed.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed"
+          "Bleed Potency"
         ]
       }
     ],
@@ -4075,7 +4075,7 @@
   },
   {
     "Name": "Ebony Brooch",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*The Outcast*",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -4085,7 +4085,7 @@
         "Description": "First Turn Start of an Encounter: Inflict 2 Rupture and Rupture Count to all enemies.\nInflict 2 Bind next turn at Turn End to all enemies for 3 turns.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "Bind"
         ]
@@ -4097,7 +4097,7 @@
   },
   {
     "Name": "Fluorescent Lamp",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Dream-Devouring Siltcurrent",
     "Affinity": "Pride",
     "Tier": 2,
@@ -4135,7 +4135,7 @@
   },
   {
     "Name": "Frozen Cries",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "*The Unloving*",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -4145,7 +4145,7 @@
         "Description": "Applies to 1 Identity with the slowest Speed at Turn Start.\nIf the said ally wins a Clash or is hit by an enemy, inflict 3 Sinking against the enemy.",
         "Rank": 1,
         "MiscTags": [
-          "Sinking"
+          "Sinking Potency"
         ]
       }
     ],
@@ -4155,7 +4155,7 @@
   },
   {
     "Name": "Grandeur",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "My Form Empties",
     "Affinity": "Lust",
     "Tier": 2,
@@ -4165,7 +4165,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nWhen dealing damage with an Attack Skill that inflicts Sinking, Sinking Count, or Unique Sinking against targets with 10+ (Sinking + Sinking Count), inflict 2 Sinking and +2 Sinking Count After Attack. (2 times per Identity)\nIn Focused Encounters: Inflict 4 Sinking and +2 Sinking Count instead. (Once per turn per Identity)",
         "Rank": 1,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       },
@@ -4173,7 +4173,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen dealing damage with an Attack Skill that inflicts Sinking, Sinking Count, or Unique Sinking against targets with 8+ (Sinking + Sinking Count), inflict 3 Sinking and +2 Sinking Count After Attack. (2 times per Identity)\nIn Focused Encounters: Inflict 5 Sinking and +2 Sinking Count instead. (Once per turn per Identity)",
         "Rank": 2,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       },
@@ -4181,7 +4181,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen dealing damage with an Attack Skill that inflicts Sinking, Sinking Count, or Unique Sinking against targets with 5+ (Sinking + Sinking Count), inflict 3 Sinking and +3 Sinking Count After Attack. (2 times per Identity)\nIn Focused Encounters: Inflict 5 Sinking and +3 Sinking Count instead. (Once per turn per Identity)",
         "Rank": 3,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       }
@@ -4192,7 +4192,7 @@
   },
   {
     "Name": "Harpoon Prosthetic Leg",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*The Evil Defined*",
     "Affinity": "Pride",
     "Tier": 2,
@@ -4216,7 +4216,7 @@
   },
   {
     "Name": "Haunted Shoes",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "*Automated Factory*",
     "Affinity": "Lust",
     "Tier": 2,
@@ -4239,7 +4239,7 @@
   },
   {
     "Name": "Huge Gift Sack",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Miracle in District 20*",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -4249,7 +4249,7 @@
         "Description": "Turn Start: Apply 2 Poise, 2 Poise Count, and 2 Protection to the ally with the least HP.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count",
           "Protection"
         ]
@@ -4261,7 +4261,7 @@
   },
   {
     "Name": "Made-to-Order",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "*Automated Factory*",
     "Affinity": "Pride",
     "Tier": 2,
@@ -4284,7 +4284,7 @@
   },
   {
     "Name": "Mirror Tactile Synaesthesia",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Lost Mind",
     "Affinity": "Pride",
     "Tier": 2,
@@ -4294,7 +4294,7 @@
         "Description": "When an ally Staggers an enemy with an Attack Skill (Except E.G.O Skills) that applies (including on self) Tremor or Tremor Count, randomly apply 1/3 of the Tremor on a target between other enemies (or a random Abnormality Part) next turn.\nIf there are no other enemies to apply the above effect to, multiply Tremor on target by 1.5 next turn.",
         "Rank": 1,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -4304,7 +4304,7 @@
   },
   {
     "Name": "Nagel und Hammer Scriptures",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*Faith & Erosion*",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -4326,7 +4326,7 @@
   },
   {
     "Name": "Old Wooden Doll",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "So That No One Will Cry",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -4417,7 +4417,7 @@
   },
   {
     "Name": "Pain of Stifled Rage",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Brazen Bull",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -4491,7 +4491,7 @@
   },
   {
     "Name": "Ragged Umbrella",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Drifting Fox",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -4501,7 +4501,7 @@
         "Description": "[Effect applies to #1, #2 Deployed Identities]\nWhen winning a Clash using a Skill that inflicts Rupture or Rupture Count, inflict +2 Rupture Count against the target. (Once per turn per Identity)\nIf the target doesn't have any Rupture, inflict 3 Rupture and +2 Rupture Count instead.",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -4509,7 +4509,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen winning a Clash using a Skill that inflicts Rupture or Rupture Count, inflict 2 Rupture and +2 Rupture Count against the target. (Once per turn per Identity)\nIf the target doesn't have any Rupture, inflict 4 Rupture and +2 Rupture Count instead.",
         "Rank": 2,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       },
@@ -4517,7 +4517,7 @@
         "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen winning a Clash using a Skill that inflicts Rupture or Rupture Count, inflict 4 Rupture and +2 Rupture Count against the target. (Once per turn per Identity)\nIf the target doesn't have any Rupture, inflict 6 Rupture and +3 Rupture Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -4574,7 +4574,7 @@
   },
   {
     "Name": "Reverberation",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -4634,7 +4634,7 @@
   },
   {
     "Name": "Smoking Gunpowder",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Pride",
     "Tier": 2,
@@ -4671,7 +4671,7 @@
   },
   {
     "Name": "Sour Liquor Aroma",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fairy Gentleman",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -4708,7 +4708,7 @@
   },
   {
     "Name": "Squalidity",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*The Unconfronting*",
     "Affinity": "Sloth",
     "Tier": 2,
@@ -4861,7 +4861,7 @@
   },
   {
     "Name": "Arrested Hymn",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 1,
@@ -4898,7 +4898,7 @@
   },
   {
     "Name": "Bio-venom Vial",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Ambling Pearl",
     "Affinity": "Sloth",
     "Tier": 1,
@@ -4932,7 +4932,7 @@
   },
   {
     "Name": "Bone Stake",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 1,
@@ -4987,7 +4987,7 @@
   },
   {
     "Name": "Burning Intellect",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Sloth",
     "Tier": 1,
@@ -5090,7 +5090,7 @@
   },
   {
     "Name": "Devil's Share",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Lust",
     "Tier": 1,
@@ -5100,14 +5100,14 @@
         "Description": "Turn End: Apply 1 Haste next turn to 1 ally with the highest Poise and 1 ally with the highest Poise Count. (Both effects can apply on the same Identity)\nIf the ally has Lust Affinity Attack Skills, apply 2 Haste instead. (Not counting E.G.O Skills)",
         "Rank": 1,
         "MiscTags": [
-          "Poise"
+          "Poise Potency"
         ]
       },
       {
         "Description": "Turn End: Apply 1 Haste and 1 Offense Level Up next turn to 1 ally with the highest Poise and 1 ally with the highest Poise Count. (Both effects can apply on the same Identity)\nIf the ally has Lust Affinity Attack Skills, apply 2 Haste and 2 Offense Level Up instead. (Not counting E.G.O Skills)",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Offense Level Up"
         ]
       },
@@ -5115,7 +5115,7 @@
         "Description": "Turn End: Apply 1 Haste, 1 Offense Level Up, and 1 Damage Up next turn to 1 ally with the highest Poise and 1 ally with the highest Poise Count. (Both effects can apply on the same Identity)\nIf the ally has Lust Affinity Attack Skills, apply 2 Haste, 2 Offense Level Up, and 2 Damage Up instead. (Not counting E.G.O Skills)",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Offense Level Up",
           "Damage Up"
         ]
@@ -5127,7 +5127,7 @@
   },
   {
     "Name": "Eldtree Snare",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Faelantern",
     "Affinity": "Gluttony",
     "Tier": 1,
@@ -5167,7 +5167,7 @@
   },
   {
     "Name": "Emerald Elytra",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fairy-Long-Legs",
     "Affinity": "Envy",
     "Tier": 1,
@@ -5177,7 +5177,7 @@
         "Description": "First Turn Start of a Wave: 1 Fastest ally gains 3 Poise and +2 Poise Count\nIf the ally has Envy Affinity Attack Skills, gain 4 Poise and +3 Poise Count instead.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -5185,7 +5185,7 @@
         "Description": "First Turn Start of a Wave: 1 Fastest ally gains 4 Poise and +4 Poise Count\nIf the ally has Envy Affinity Attack Skills, gain 5 Poise and +5 Poise Count instead.",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -5193,7 +5193,7 @@
         "Description": "Turn Start: 1 Fastest ally gains 4 Poise and +4 Poise Count\nIf the ally has Envy Affinity Attack Skills, gain 5 Poise and +5 Poise Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -5204,7 +5204,7 @@
   },
   {
     "Name": "Melted Paraffin",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Skin Prophet",
     "Affinity": "Lust",
     "Tier": 1,
@@ -5214,21 +5214,21 @@
         "Description": "When winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins/2) Burn on the target.",
         "Rank": 1,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins/2 + 1) Burn on the target.",
         "Rank": 2,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       },
       {
         "Description": "When winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins + 1) Burn on the target.",
         "Rank": 3,
         "MiscTags": [
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -5238,7 +5238,7 @@
   },
   {
     "Name": "Oil-gunked Spanner",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "*S.E.A.*",
     "Affinity": "Wrath",
     "Tier": 1,
@@ -5249,7 +5249,7 @@
         "Rank": 1,
         "MiscTags": [
           "Blunt Damage Amp",
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -5259,7 +5259,7 @@
   },
   {
     "Name": "Ornamental Horseshoe",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "None",
     "Affinity": "Wrath",
     "Tier": 1,
@@ -5269,7 +5269,7 @@
         "Description": "Turn Start: Apply 2 Poise to 1 random ally without Poise.\nWhen all allies have Poise, apply 1 Poise Count to all allies instead.",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -5277,7 +5277,7 @@
         "Description": "Turn Start: Apply 3 Poise to 1 random ally without Poise.\nWhen all allies have Poise, apply 2 Poise Count to all allies instead.",
         "Rank": 2,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       },
@@ -5285,7 +5285,7 @@
         "Description": "Turn Start: Apply 3 Poise to 2 random allies without Poise.\nWhen all allies have Poise, apply 3 Poise Count to all allies instead.",
         "Rank": 3,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -5297,7 +5297,7 @@
   },
   {
     "Name": "Polarization",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "None",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -5331,7 +5331,7 @@
   },
   {
     "Name": "Pom-pom Hat",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Miracle in District 20*",
     "Affinity": "Sloth",
     "Tier": 1,
@@ -5341,7 +5341,7 @@
         "Description": "Turn End: Gain 1 Poise next turn for every Attack Skill that dealt damage before Turn End.\nIn Focused Encounters: Gain 3 Poise for every Attack Skill that dealt damage before Turn End instead.",
         "Rank": 1,
         "MiscTags": [
-          "Poise"
+          "Poise Potency"
         ]
       }
     ],
@@ -5351,7 +5351,7 @@
   },
   {
     "Name": "Rags",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "None",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -5385,7 +5385,7 @@
   },
   {
     "Name": "Rusted Muzzle",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 1,
@@ -5395,21 +5395,21 @@
         "Description": "When hitting and dealing 12+ HP damage to an enemy with a Skill, inflict 2 Bleed.\nWhen using a Slash Skill, inflict 4 Bleed instead.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed"
+          "Bleed Potency"
         ]
       },
       {
         "Description": "When hitting and dealing 12+ HP damage to an enemy with a Skill, inflict 3 Bleed.\nWhen using a Slash Skill, inflict 5 Bleed instead.",
         "Rank": 2,
         "MiscTags": [
-          "Bleed"
+          "Bleed Potency"
         ]
       },
       {
         "Description": "When hitting and dealing 1+ HP damage to an enemy with a Skill, inflict 3 Bleed.\nWhen using a Slash Skill, inflict 5 Bleed and +1 Bleed Count instead.",
         "Rank": 3,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -5455,7 +5455,7 @@
   },
   {
     "Name": "Tangled Bundle",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Drenched Gossypium",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -5563,7 +5563,7 @@
   },
   {
     "Name": "Venomous Skin",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Blubbering Toad",
     "Affinity": "Pride",
     "Tier": 1,
@@ -5573,21 +5573,21 @@
         "Description": "When winning a Clash with a Skill that applies (including on self) Tremor or Tremor Count, inflict (# of remaining Coins/2) Tremor on the target.",
         "Rank": 1,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "When winning a Clash with a Skill that applies (including on self) Tremor or Tremor Count, inflict (# of remaining Coins) Tremor on the target.",
         "Rank": 2,
         "MiscTags": [
-          "Tremor"
+          "Tremor Potency"
         ]
       },
       {
         "Description": "When winning a Clash with a Skill that applies (including on self) Tremor or Tremor Count, inflict (# of remaining Coins) Tremor and (# of remaining Coins/2) Tremor Count on the target.",
         "Rank": 3,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       }
@@ -5598,7 +5598,7 @@
   },
   {
     "Name": "Silver Watch Case",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Lust",
     "Tier": 2,
@@ -5619,7 +5619,7 @@
   },
   {
     "Name": "Faded Watch Case",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -5630,7 +5630,7 @@
         "Rank": 1,
         "MiscTags": [
           "Clash Power",
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       }
@@ -5662,7 +5662,7 @@
   },
   {
     "Name": "Etched Clock Hands",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -5673,7 +5673,7 @@
         "Rank": 1,
         "MiscTags": [
           "Damage Amp",
-          "Tremor"
+          "Tremor Potency"
         ]
       }
     ],
@@ -5683,7 +5683,7 @@
   },
   {
     "Name": "Rusted Clock Hands",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Envy",
     "Tier": 2,
@@ -5694,7 +5694,7 @@
         "Rank": 1,
         "MiscTags": [
           "Damage Reduction",
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       }
@@ -5705,7 +5705,7 @@
   },
   {
     "Name": "Chalice of Trickle-down",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time**",
     "Affinity": "Envy",
     "Tier": 3,
@@ -5715,7 +5715,7 @@
         "Description": "When an ally with Attack Skills (not E.G.O Skills) that inflict Tremor, Tremor Count, or Unique Tremor wins a Clash, inflict 2 Tremor and +2 Tremor Count. (2 times per turn)\nYurodivy Identities: Inflict 3 Tremor and +3 Tremor Count instead. (3 times per turn)\nIf the affected Identity Clashes against targets with higher Offense Levels, Clash Power +2; deal +20% damage when attacking after winning the Clash.",
         "Rank": 1,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Faction Buff: Yurodivy",
           "Clash Power",
@@ -5751,7 +5751,7 @@
   },
   {
     "Name": "Pocket Watch: Type L",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Silver Watch Case + Etched Clock Hands||",
     "Affinity": "Lust",
     "Tier": 4,
@@ -5763,7 +5763,7 @@
         "MiscTags": [
           "Coin Power",
           "Damage Amp",
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Defense Level Down"
         ]
@@ -5775,7 +5775,7 @@
   },
   {
     "Name": "Pocket Watch: Type E",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Silver Watch Case + Rusted Clock Hands||",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -5788,7 +5788,7 @@
           "Coin Power",
           "Damage Amp",
           "Defense Level Down",
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count"
         ]
       }
@@ -5799,7 +5799,7 @@
   },
   {
     "Name": "Pocket Watch: Type Y",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Faded Watch Case + Etched Clock Hands||",
     "Affinity": "Envy",
     "Tier": 4,
@@ -5822,7 +5822,7 @@
   },
   {
     "Name": "Pocket Watch: Type P",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Faded Watch Case + Rusted Clock Hands||",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -6109,7 +6109,7 @@
   },
   {
     "Name": "Filial Love",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "**The Noon of Violet**",
     "Affinity": "Lust",
     "Tier": 2,
@@ -6151,7 +6151,7 @@
   },
   {
     "Name": "Mental Corruption Boosting Gas",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**The Noon of Violet**",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -6161,7 +6161,7 @@
         "Description": "When engaging in a Clash using an Attack Skill that inflicts Sinking Potency, Count, or Unique Sinking, then dealing damage with said Attack Skill: On Hit, inflict Sinking Potency equal to the number of Clashes (Max 3; 3 times per turn)",
         "Rank": 1,
         "MiscTags": [
-          "Sinking"
+          "Sinking Potency"
         ]
       }
     ],
@@ -6171,7 +6171,7 @@
   },
   {
     "Name": "Leaked Enkaphalin",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**The Noon of Violet**",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -6235,7 +6235,7 @@
   },
   {
     "Name": "Rest",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**The Noon of Violet**",
     "Affinity": "Pride",
     "Tier": 3,
@@ -6256,7 +6256,7 @@
   },
   {
     "Name": "Decamillenial Stewpot",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Basilisoup",
     "Affinity": "Lust",
     "Tier": 2,
@@ -6276,7 +6276,7 @@
   },
   {
     "Name": "Secret Cookbook",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Fusion: ||Melted Paraffin + Decamillenial Stewpot||",
     "Affinity": "Lust",
     "Tier": 3,
@@ -6287,7 +6287,7 @@
         "Rank": 1,
         "MiscTags": [
           "Final Power",
-          "Burn"
+          "Burn Potency"
         ]
       }
     ],
@@ -6297,7 +6297,7 @@
   },
   {
     "Name": "Millarca",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Four-hundred Roses",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -6317,7 +6317,7 @@
   },
   {
     "Name": "Devotion",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Fusion: ||Arrested Hymn + Millarca||",
     "Affinity": "Lust",
     "Tier": 3,
@@ -6339,7 +6339,7 @@
   },
   {
     "Name": "Interlocked Cogs",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Envy",
     "Tier": 2,
@@ -6360,7 +6360,7 @@
   },
   {
     "Name": "Thorny Rope Cuffs",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Rose Hunter",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -6380,7 +6380,7 @@
   },
   {
     "Name": "Tangled Bones",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Tomb of Bone",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -6400,7 +6400,7 @@
   },
   {
     "Name": "Recollection of a Certain Day",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Portrait of a Certain Day",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -6420,7 +6420,7 @@
   },
   {
     "Name": "Reminiscence",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fusion: ||Pendant of Nostalgia + Recollection of a Certain Day||",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -6431,7 +6431,7 @@
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -6630,7 +6630,7 @@
   },
   {
     "Name": "Decamillenial Hearthflame",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Basilisoup",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -6650,7 +6650,7 @@
   },
   {
     "Name": "Purloined Flame",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "Fusion: ||Burning Intellect + Decamillenial Hearthflame + Charred Disk||",
     "Affinity": "Wrath",
     "Tier": 4,
@@ -6661,7 +6661,7 @@
         "Rank": 1,
         "MiscTags": [
           "Burn Proc",
-          "Burn",
+          "Burn Potency",
           "Offense Level Down",
           "Damage Up"
         ]
@@ -6673,7 +6673,7 @@
   },
   {
     "Name": "Ruptured Blood Sac",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Headless Icthys",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -6693,7 +6693,7 @@
   },
   {
     "Name": "Hemorrhagic Shock",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Fusion: ||Grimy Iron Stake + Ruptured Blood Sac + Rusted Cutting Knife||",
     "Affinity": "Lust",
     "Tier": 4,
@@ -6705,7 +6705,7 @@
         "MiscTags": [
           "Bleed Proc",
           "Defense Level Down",
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count"
         ]
       }
@@ -6716,7 +6716,7 @@
   },
   {
     "Name": "Gemstone Oscillator",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "None",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -6736,7 +6736,7 @@
   },
   {
     "Name": "Wobbling Keg",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Drunkard",
     "Affinity": "Pride",
     "Tier": 2,
@@ -6757,7 +6757,7 @@
   },
   {
     "Name": "Epicenter",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Gemstone Oscillator + Wobbling Keg||",
     "Affinity": "Sloth",
     "Tier": 3,
@@ -6779,7 +6779,7 @@
   },
   {
     "Name": "Omnivibro-octovacti-bell",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Fusion: ||Venomous Skin + Clockwork Spring + Epicenter||",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -6790,7 +6790,7 @@
 				"DescriptionContd": "When target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor Superposition, extend the Tremor - Superposition on target to the next turn",
         "Rank": 1,
         "MiscTags": [
-          "Tremor",
+          "Tremor Potency",
           "Tremor Count",
           "Clash Power",
           "Self Tremor Count",
@@ -6804,7 +6804,7 @@
   },
   {
     "Name": "Shard of Apocalypse",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Doomsday Calendar",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -6814,7 +6814,7 @@
         "Description": "If target has 15- Rupture, inflict +1 Potency when inflicting Rupture",
         "Rank": 1,
         "MiscTags": [
-          "Rupture"
+          "Rupture Potency"
         ]
       }
     ],
@@ -6824,7 +6824,7 @@
   },
   {
     "Name": "Eerie Effigy",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Bone Stake + Shard of Apocalypse||",
     "Affinity": "Sloth",
     "Tier": 3,
@@ -6834,7 +6834,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, counts Identities on field)\nRupture effects deal +100% damage against enemy Shield\nIf target has 15- Rupture, inflict +2 Potency when inflicting Rupture\nIf Rupture cannot be applied due to Skill effects, Coin Power +1 instead",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Coin Power"
         ]
       }
@@ -6845,7 +6845,7 @@
   },
   {
     "Name": "Ruin",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Broken Revolver + Thunderbranch + Eerie Effigy||",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -6855,7 +6855,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, counts Identities on field)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (Max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (Min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Offense Level Down",
           "Defense Level Down",
           "Coin Power",
@@ -6869,7 +6869,7 @@
   },
   {
     "Name": "Cantabile",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Funeral of a Dying Butterfly",
     "Affinity": "Gloom",
     "Tier": 1,
@@ -6889,7 +6889,7 @@
   },
   {
     "Name": "Faded Overcoat",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "None",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -6909,7 +6909,7 @@
   },
   {
     "Name": "Surging Globe",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Fusion: ||Cantabile + Faded Overcoat||",
     "Affinity": "Envy",
     "Tier": 3,
@@ -6930,7 +6930,7 @@
   },
   {
     "Name": "Impending Wave",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "Fusion: ||Thorny Path + Distant Star + Surging Globe||",
     "Affinity": "Envy",
     "Tier": 4,
@@ -6941,7 +6941,7 @@
         "DescriptionContd": "\nTurn Start: Randomly inflict 1 Reflux to an enemy\nOn Kill, Reflux Stack transfers to the highest, not maxed Reflux Stack\nCoin Power +1 to Plus Coins that inflict Sinking, Sinking Count, or Unique Sinking\nBase Power +(4/# of Coins) (Min 1; rounded down) to Minus Coins that inflict Sinking, Sinking Count, or Unique Sinking",
         "Rank": 1,
         "MiscTags": [
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count",
           "Heal SP",
           "Defense Level Down",
@@ -6958,7 +6958,7 @@
   },
   {
     "Name": "Angel's Cut",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Drunkard",
     "Affinity": "Pride",
     "Tier": 2,
@@ -6979,7 +6979,7 @@
   },
   {
     "Name": "Cask Spirits",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fusion: ||Devil's Share + Angel's Cut + Endorphin Kit||",
     "Affinity": "Pride",
     "Tier": 4,
@@ -7148,7 +7148,7 @@
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
-          "Poise"
+          "Poise Potency"
         ]
       },
       {
@@ -7159,7 +7159,7 @@
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
-          "Poise"
+          "Poise Potency"
         ]
       },
       {
@@ -7170,7 +7170,7 @@
           "Offense Level Down",
           "Faction Buff: Kurokumo Clan",
           "Power Up",
-          "Poise"
+          "Poise Potency"
         ]
       }
     ],
@@ -7241,7 +7241,7 @@
           "Bind",
           "Faction Buff: Cinq Association",
           "Haste",
-          "Poise"
+          "Poise Potency"
         ]
       },
       {
@@ -7251,7 +7251,7 @@
           "Bind",
           "Faction Buff: Cinq Association",
           "Haste",
-          "Poise"
+          "Poise Potency"
         ]
       },
       {
@@ -7261,7 +7261,7 @@
           "Bind",
           "Faction Buff: Cinq Association",
           "Haste",
-          "Poise"
+          "Poise Potency"
         ]
       }
     ],
@@ -7484,7 +7484,7 @@
   },
   {
     "Name": "Cetacean Heart",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Crawling Abyss*",
     "Affinity": "Pride",
     "Tier": 4,
@@ -7494,7 +7494,7 @@
         "Description": "On Hit against enemies with Bleed with an Attack Skill, gain 1 Poise (3 times per Identity)\nOn Crit, 50% chance to not consume Poise Count (Once per turn per Identity; including E.G.O Skills and Counter Skills)\nOn Crit Heads Hit with a Base Skill: Inflict +1 negative effects with that Coin (Once per turn per Identity, including E.G.O Skills and Counter Skills)",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Freeze Poise Count"
         ]
       }
@@ -7544,7 +7544,7 @@
   },
   {
     "Name": "Manor-shaped Music Box",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "*Dregs of the Manor*",
     "Affinity": "Lust",
     "Tier": 3,
@@ -7555,7 +7555,7 @@
         "Rank": 1,
         "MiscTags": [
           "Stagger Recovery",
-          "Sinking",
+          "Sinking Potency",
           "Sinking Count"
         ]
       }
@@ -7603,7 +7603,7 @@
   },
   {
     "Name": "Refraction Glass Pod",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "*Dregs of the Manor*",
     "Affinity": "Envy",
     "Tier": 4,
@@ -7623,7 +7623,7 @@
   },
   {
     "Name": "La Manchaland All-day Pass",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*La Manchaland Re-opening*",
     "Affinity": "Sloth",
     "Tier": 3,
@@ -7633,7 +7633,7 @@
         "Description": "On Hit against targets with 10+ (Bleed + Unique Bleed + Rupture): gain 1 Poise and +1 Poise Count (2 times per Skill)",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -7644,7 +7644,7 @@
   },
   {
     "Name": "Token of Victory",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*La Manchaland Re-opening*",
     "Affinity": "Pride",
     "Tier": 3,
@@ -7685,7 +7685,7 @@
   },
   {
     "Name": "Mask of the Parade",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "*The Infinite Procession*",
     "Affinity": "Envy",
     "Tier": 4,
@@ -7695,7 +7695,7 @@
         "Description": "In Encounters where backup enemies appear: When new enemies enter the battle, inflict 3 Bleed and +2 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
         "Rank": 1,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Bleed Proc"
         ]
@@ -7704,7 +7704,7 @@
         "Description": "In Encounters where backup enemies appear: When new enemies enter the battle, inflict 5 Bleed and +3 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
         "Rank": 2,
         "MiscTags": [
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Bleed Proc"
         ]
@@ -7901,7 +7901,7 @@
   },
   {
     "Name": "Unhatched Embers",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "*Line 3*",
     "Affinity": "Wrath",
     "Tier": 4,
@@ -8115,7 +8115,7 @@
   },
   {
     "Name": "Jolly Plushie",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "Fusion: ||Pom-pom Hat + Huge Gift Sack + Sad Plushie||",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -8125,7 +8125,7 @@
         "Description": "Gain 2 Poise next turn based on number of allied Attack Skills that dealt damage by Turn End\nIn Focused Encounters, gain 4 Poise instead\nTurn Start: Apply 2 Poise, +2 Poise Count, and 2 Protection to the ally with the least HP\nDeal +(absolute value of SP)% damage (Min 0%)\nWhen an ally with Plus Coin Skills recovers from Stagger, fully heal SP (unless Corroded)\nAllies with all Minus Coin Skills: Gain 5 Paralyze at Turn Start",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count",
           "Protection",
           "Damage Amp",
@@ -8172,7 +8172,7 @@
         "MiscTags": [
           "Attack Power Up",
           "Self Fragile",
-          "Poise",
+          "Poise Potency",
           "Pierce Damage Amp"
         ]
       }
@@ -8183,7 +8183,7 @@
   },
   {
     "Name": "Gear Shrapnel",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Full-Stopped by a Bullet*",
     "Affinity": "Lust",
     "Tier": 2,
@@ -8226,7 +8226,7 @@
   },
   {
     "Name": "CQC Manual",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "*Full-Stopped by a Bullet*",
     "Affinity": "Wrath",
     "Tier": 3,
@@ -8238,7 +8238,7 @@
         "MiscTags": [
           "Attack Power Up",
           "Damage Amp",
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -8271,7 +8271,7 @@
   },
   {
     "Name": "Combustion Gloves",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Envy",
     "Tier": 3,
@@ -8281,7 +8281,7 @@
         "Description": "On Clash Win with a Base Attack Skill that inflicts Burn or Unique Burn, inflict 2 Burn (2 times per turn per Identity)\nOn Clash Win with a Base Attack Skill that inflicts Burn Count, inflict +2 Burn Count (3 times per turn per enemy)\nBase Attack Skills that inflict Burn, Burn Count, or Unique Burn: Each Skill gains Offense Level equal to the number of copies of each Skill (Max 3)\nIf a Skill has 3+ copies, gain 2 additional Offense Level",
         "Rank": 1,
         "MiscTags": [
-          "Burn",
+          "Burn Potency",
           "Burn Count",
           "Offense Level Up"
         ]
@@ -8293,7 +8293,7 @@
   },
   {
     "Name": "Spiked Combat Boots",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -8314,7 +8314,7 @@
   },
   {
     "Name": "Re-ignition Plug",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Lust",
     "Tier": 3,
@@ -8336,7 +8336,7 @@
   },
   {
     "Name": "Enhancer Mk.4",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Wrath",
     "Tier": 3,
@@ -8358,7 +8358,7 @@
   },
   {
     "Name": "Embers",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Wrath",
     "Tier": 3,
@@ -8379,7 +8379,7 @@
   },
   {
     "Name": "Twigs",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "*LCB Regular Check-Up*",
     "Affinity": "Gluttony",
     "Tier": 3,
@@ -8535,7 +8535,7 @@
   },
   {
     "Name": "Resplendence",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Fusion: ||Fractured Blade + Worn Hilt||",
     "Affinity": "Lust",
     "Tier": 4,
@@ -8549,7 +8549,7 @@
           "Slash Power Up",
           "Faction Buff: Kurokumo Clan",
           "Plus Coin Boost",
-          "Bleed",
+          "Bleed Potency",
           "Bleed Count",
           "Damage Amp",
           "Nullify Stagger",
@@ -8587,7 +8587,7 @@
   },
   {
     "Name": "Harestride",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Nocturnal Sweeping**",
     "Affinity": "Pride",
     "Tier": 2,
@@ -8597,7 +8597,7 @@
         "Description": "If an ally's Speed is faster than target's, the ally inflicts (Speed difference / 3) additional Rupture or Rupture Count when inflicting them with Skills. (Max 3)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -8653,7 +8653,7 @@
   },
   {
     "Name": "Strange Glyph Talisman",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Nocturnal Sweeping**",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -8663,7 +8663,7 @@
         "Description": "When defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on the target between all enemies (Focused Encounters, all Parts) (Max 2 per enemy, rounded down)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on the target between all enemies (Focused Encounters, all Parts) (Max 2 per enemy, rounded down)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count"
         ]
       }
@@ -8674,7 +8674,7 @@
   },
   {
     "Name": "Strange Glyph Inscription",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Nocturnal Sweeping**",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -8763,7 +8763,7 @@
   },
   {
     "Name": "Glyph of Glass Shards",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Strange Glyph Talisman + Strange Glyph Inscriptions||",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -8773,7 +8773,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills)\nWhen defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (Max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (Max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (Max 2)\nWhen clashing against targets with Deathrite [Haste], gain (Rupture / 10) Coin Power instead (Max 2)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "Clash Power",
           "Coin Power",
@@ -8852,10 +8852,10 @@
     "Cost": 202,
     "Upgrades": [
       {
-        "Description": "On Hit with Skills that consume Charge Count: Inflict 1 Rupture (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Charge that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$At 6+: When dealing Rupture damage to enemies, gain +1 Charge Count (3 times per turn)\n$At 8+: On Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill)",
+        "Description": "On Hit with Skills that consume Charge Count: Inflict 1 Rupture (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Charge that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When dealing Rupture damage to enemies, gain +1 Charge Count (3 times per turn)\n$ At 8+: On Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Charge Count",
           "Rupture Count"
         ]
@@ -8867,17 +8867,17 @@
   },
   {
     "Name": "Flower in the Mirror",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**The Surrendered Witnessing**",
     "Affinity": "Gluttony",
     "Tier": 3,
     "Cost": 255,
     "Upgrades": [
       {
-        "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormailities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
+        "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormailities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$ At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
         "Rank": 1,
         "MiscTags": [
-          "Rupture",
+          "Rupture Potency",
           "Rupture Count",
           "Poise Count"
         ]
@@ -8889,17 +8889,17 @@
   },
   {
     "Name": "Moon in the Water",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "**The Surrendered Witnessing**",
     "Affinity": "Gluttony",
     "Tier": 3,
     "Cost": 261,
     "Upgrades": [
       {
-        "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$On Hit with a Skill: If target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (Once per turn per Identity)",
+        "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$ On Hit with a Skill: If target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$ At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (Once per turn per Identity)",
         "Rank": 1,
         "MiscTags": [
-          "Poise",
+          "Poise Potency",
           "Poise Count",
           "Critical Damage Amp",
           "Status Cleanse"
@@ -8912,7 +8912,7 @@
   },
   {
     "Name": "A Drop",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "**The Dream Ending**",
     "Affinity": "Lust",
     "Tier": 4,
@@ -8956,7 +8956,7 @@
   },
   {
     "Name": "Sorrowful Exhale",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "**Line 5**",
     "Affinity": "Pride",
     "Tier": 4,
@@ -8976,7 +8976,7 @@
   },
   {
     "Name": "Coveting Thorn",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "**Line 5**",
     "Affinity": "Lust",
     "Tier": 4,
@@ -8996,7 +8996,7 @@
   },
   {
     "Name": "Sword Sharpened with Tears",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**Hatred and Despair**",
     "Affinity": "Gloom",
     "Tier": 3,
@@ -9036,7 +9036,7 @@
   },
   {
     "Name": "The Unchosen",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**Hatred and Despair**",
     "Affinity": "Envy",
     "Tier": 2,
@@ -9046,7 +9046,7 @@
         "Description": "Whenever an ally takes a hit, inflict 3 Sinking on the attacker\nWhenever an ally is killed, all allies gain 2 Attack Power Up next turn",
         "Rank": 1,
         "MiscTags": [
-					"Sinking",
+					"Sinking Potency",
 					"Attack Power Up"
         ]
       }
@@ -9141,7 +9141,7 @@
   },
   {
     "Name": "Interlinked Time",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time BokGak**",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -9221,7 +9221,7 @@
   },
   {
     "Name": "Entanglement Override Sequencer",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time BokGak**",
     "Affinity": "Sloth",
     "Tier": 3,
@@ -9258,7 +9258,7 @@
   },
   {
     "Name": "Microprecision Time Accelerator",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Timekilling Time BokGak**",
     "Affinity": "Sloth",
     "Tier": 4,
@@ -9279,7 +9279,7 @@
   },
   {
     "Name": "Bloodflame Sword",
-    "Tag": "Burn",
+    "Tag": "Burn Potency",
     "Abnormality": "**Spring Cultivation**",
     "Affinity": "Wrath",
     "Tier": 2,
@@ -9290,7 +9290,7 @@
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Heishou Pack - You Branch",
-          "Self Burn",
+          "Self Burn Potency",
           "Heal SP",
           "Max HP Limit",
           "Self HP Healing Down"
@@ -9326,7 +9326,7 @@
   },
   {
     "Name": "Virtue - Zhi",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Spring Cultivation**",
     "Affinity": "Gloom",
     "Tier": 2,
@@ -9347,7 +9347,7 @@
   },
   {
     "Name": "Virtue - Yong",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Spring Cultivation**",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -9367,7 +9367,7 @@
   },
   {
     "Name": "Virtue - Ren",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Spring Cultivation**",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -9388,7 +9388,7 @@
   },
   {
     "Name": "Blackiron Barding",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Spring Cultivation**",
     "Affinity": "Gluttony",
     "Tier": 2,
@@ -9430,7 +9430,7 @@
   },
   {
     "Name": "Cultivation: Cut, File, Carve, Polish",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "Fusion: ||Virtue - Zhi + Virtue - Yong + Virute - Ren||",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -9451,14 +9451,14 @@
   },
   {
     "Name": "The Family's Resentment",
-    "Tag": "Bleed",
+    "Tag": "Bleed Potency",
     "Abnormality": "Hidden Boss: ||La Manchaland's Don Quixote||",
     "Affinity": "Lust",
     "Tier": 4,
     "Cost": 201,
     "Upgrades": [
       {
-        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nDoubles the amount of Bloodfeast generated in the Stage\nSkills that inflict Bleed, Bleed Count, or Unique Bleed: After Attack, heal 30% of the HP damage dealt. (Max 20)\n$If a unit healed with the above effect, gain 1 Attack Power Up next turn (Max 2)\nFor every 50 Bloodfeast Consumed (Shared), all allies gain 1 Offense Level Up at next Turn Start (Max 5)\nLa Manchaland units also gain 1 Offense Level Up for every Bloodfeast Consumed by each unit (Max 3)",
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nDoubles the amount of Bloodfeast generated in the Stage\nSkills that inflict Bleed, Bleed Count, or Unique Bleed: After Attack, heal 30% of the HP damage dealt. (Max 20)\n$ If a unit healed with the above effect, gain 1 Attack Power Up next turn (Max 2)\nFor every 50 Bloodfeast Consumed (Shared), all allies gain 1 Offense Level Up at next Turn Start (Max 5)\nLa Manchaland units also gain 1 Offense Level Up for every Bloodfeast Consumed by each unit (Max 3)",
         "Rank": 1,
         "MiscTags": [
           "Plus Coin Boost",
@@ -9477,14 +9477,14 @@
   },
   {
     "Name": "For the Capo",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "Hidden Boss: ||Lei Heng||",
     "Affinity": "Wrath",
     "Tier": 4,
     "Cost": 201,
     "Upgrades": [
       {
-        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\n[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$Gain 3 Haste next turn (Once per turn)\n$On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$On Hit after Clash Win: If target has both Burn and Tremor (Including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\n[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$ Gain 3 Haste next turn (Once per turn)\n$ On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$ On Hit after Clash Win: If target has both Burn and Tremor (Including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$ Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
         "Rank": 1,
         "MiscTags": [
           "Plus Coin Boost",
@@ -9510,7 +9510,7 @@
     "Cost": 201,
     "Upgrades": [
       {
-        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nBlunt Attack Base Skills: Coin Power +1; The Middle Identities gain Coin Power +2 instead\nWhen an ally is hit, all allies gain 2 Offense Level Up next turn (3 times per turn)\nWhen 3+ The Middle Identities are in the Encounter:\n$Combat Start: Gain 1 Attack Power Up and 1 Protection for every Envy Res (Max 3)\n$When The Middle Identity uses an Envy Base Attack Skill, convert its Coins to Unbreakable Coins, they take -50% damage, and gain 2 Blunt DMG Up this turn and next turn",
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nBlunt Attack Base Skills: Coin Power +1; The Middle Identities gain Coin Power +2 instead\nWhen an ally is hit, all allies gain 2 Offense Level Up next turn (3 times per turn)\nWhen 3+ The Middle Identities are in the Encounter:\n$ Combat Start: Gain 1 Attack Power Up and 1 Protection for every Envy Res (Max 3)\n$ When The Middle Identity uses an Envy Base Attack Skill, convert its Coins to Unbreakable Coins, they take -50% damage, and gain 2 Blunt DMG Up this turn and next turn",
         "Rank": 1,
         "MiscTags": [
           "Plus Coin Boost",
@@ -9649,7 +9649,7 @@
         "MiscTags": [
           "Final Power",
           "Damage Amp",
-          "Self Burn"
+          "Self Burn Potency"
         ]
       }
     ],
@@ -9659,7 +9659,7 @@
   },
   {
     "Name": "Aged Sheet Music",
-    "Tag": "Sinking",
+    "Tag": "Sinking Potency",
     "Abnormality": "**Pilgrimage of Compassion**",
     "Affinity": "Gloom",
     "Tier": 4,
@@ -9679,7 +9679,7 @@
   },
   {
     "Name": "Metal Construct",
-    "Tag": "Rupture",
+    "Tag": "Rupture Potency",
     "Abnormality": "**Pilgrimage of Compassion**",
     "Affinity": "Gluttony",
     "Tier": 4,
@@ -9699,18 +9699,18 @@
   },
   {
     "Name": "Moonmirror Wine Cup",
-    "Tag": "Poise",
+    "Tag": "Poise Potency",
     "Abnormality": "**Pilgrimage of Compassion**",
     "Affinity": "Pride",
     "Tier": 4,
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Turn Start: All allies heal 5 SP. At Max SP, gain Poise equal to excess SP healed (Max 5)\nWhen using an Attack Skill that gains Poise or Poise Count, gain +2 Poise Count (Once per Identity per turn)\n[To Remain Oneself Hong Lu E.G.O Exclusive Effect]\n$Awakening: When using this E.G.O Skill, instead of consuming SP, heal the amount of SP it would've consumed\n$Corrosion: When using this E.G.O Skill, -50% to SP consumed",
+        "Description": "Turn Start: All allies heal 5 SP. At Max SP, gain Poise equal to excess SP healed (Max 5)\nWhen using an Attack Skill that gains Poise or Poise Count, gain +2 Poise Count (Once per Identity per turn)\n[To Remain Oneself Hong Lu E.G.O Exclusive Effect]\n$ Awakening: When using this E.G.O Skill, instead of consuming SP, heal the amount of SP it would've consumed\n$ Corrosion: When using this E.G.O Skill, -50% to SP consumed",
         "Rank": 1,
         "MiscTags": [
           "Heal SP",
-          "Poise",
+          "Poise Potency",
           "Poise Count"
         ]
       }
@@ -9721,19 +9721,19 @@
   },
   {
     "Name": "Classical-design Letter Opener",
-    "Tag": "Tremor",
+    "Tag": "Tremor Potency",
     "Abnormality": "**Pilgrimage of Compassion**",
     "Affinity": "Sloth",
     "Tier": 4,
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "Skills with 2+ Atk Weight deal +15% damage\nSkills that inflict Tremor, Tremor Count, or Unique Tremor deal +(15 + Atk Weight x 5)% damage instead (Max 50%)\n[Unbrilliant Glory Gregor E.G.O Exclusive Effect]\n$Awakening: Deal +20% damage with every E.G.O Skill Coin Reuse (Max 60%)\n$Corrosion: Before attacking, gain Damage Up for every 10 Man in Scabbard consumed (Max 4)",
+        "Description": "Skills with 2+ Atk Weight deal +15% damage\nSkills that inflict Tremor, Tremor Count, or Unique Tremor deal +(15 + Atk Weight x 5)% damage instead (Max 50%)\n[Unbrilliant Glory Gregor E.G.O Exclusive Effect]\n$ Awakening: Deal +20% damage with every E.G.O Skill Coin Reuse (Max 60%)\n$ Corrosion: Before attacking, gain Damage Up for every 10 Man in Scabbard consumed (Max 4)",
         "Rank": 1,
         "MiscTags": [
           "Final Power",
           "Damage Amp",
-          "Self Burn"
+          "Self Burn Potency"
         ]
       }
     ],

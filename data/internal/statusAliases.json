@@ -22,15 +22,15 @@
 	{
 		"entry": "party burn",
 		"aliases": [
-			"self burn",
+			"self burn potency",
 			"ally burn"
 		]
 	},
 	{
-		"entry": "party poise",
+		"entry": "party poise potency",
 		"aliases": [
-			"poise",
-			"ally poise"
+			"poise potency",
+			"ally poise potency"
 		]
 	},
 	{
@@ -223,15 +223,69 @@
 		]
 	},
 	{
+		"entry": "burn potency",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
 		"entry": "burn count",
 		"aliases": [
 			"burn"
 		]
 	},
 	{
-		"entry": "unique burn",
+		"entry": "spend burn potency",
 		"aliases": [
-			"burn"
+			"spend burn"
+		]
+	},
+	{
+		"entry": "spend burn count",
+		"aliases": [
+			"spend burn"
+		]
+	},
+	{
+		"entry": "self burn potency",
+		"aliases": [
+			"self burn"
+		]
+	},
+	{
+		"entry": "self burn count",
+		"aliases": [
+			"self burn"
+		]
+	},
+	{
+		"entry": "ally burn potency",
+		"aliases": [
+			"ally burn"
+		]
+	},
+	{
+		"entry": "ally burn count",
+		"aliases": [
+			"ally burn"
+		]
+	},
+	{
+		"entry": "party burn potency",
+		"aliases": [
+			"party burn"
+		]
+	},
+	{
+		"entry": "party burn count",
+		"aliases": [
+			"party burn"
+		]
+	},
+	{
+		"entry": "bleed potency",
+		"aliases": [
+			"bleed"
 		]
 	},
 	{
@@ -241,9 +295,57 @@
 		]
 	},
 	{
-		"entry": "unique bleed",
+		"entry": "spend bleed potency",
 		"aliases": [
-			"bleed"
+			"spend bleed"
+		]
+	},
+	{
+		"entry": "spend bleed count",
+		"aliases": [
+			"spend bleed"
+		]
+	},
+	{
+		"entry": "self bleed potency",
+		"aliases": [
+			"self bleed"
+		]
+	},
+	{
+		"entry": "self bleed count",
+		"aliases": [
+			"self bleed"
+		]
+	},
+	{
+		"entry": "ally bleed potency",
+		"aliases": [
+			"ally bleed"
+		]
+	},
+	{
+		"entry": "ally bleed count",
+		"aliases": [
+			"ally bleed"
+		]
+	},
+	{
+		"entry": "party bleed potency",
+		"aliases": [
+			"party bleed"
+		]
+	},
+	{
+		"entry": "party bleed count",
+		"aliases": [
+			"party bleed"
+		]
+	},
+	{
+		"entry": "tremor potency",
+		"aliases": [
+			"tremor"
 		]
 	},
 	{
@@ -253,9 +355,57 @@
 		]
 	},
 	{
-		"entry": "unique tremor",
+		"entry": "spend tremor potency",
 		"aliases": [
-			"tremor"
+			"spend tremor"
+		]
+	},
+	{
+		"entry": "spend tremor count",
+		"aliases": [
+			"spend tremor"
+		]
+	},
+	{
+		"entry": "self tremor potency",
+		"aliases": [
+			"self tremor"
+		]
+	},
+	{
+		"entry": "self tremor count",
+		"aliases": [
+			"self tremor"
+		]
+	},
+	{
+		"entry": "ally tremor potency",
+		"aliases": [
+			"ally tremor"
+		]
+	},
+	{
+		"entry": "ally tremor count",
+		"aliases": [
+			"ally tremor"
+		]
+	},
+	{
+		"entry": "party tremor potency",
+		"aliases": [
+			"party tremor"
+		]
+	},
+	{
+		"entry": "party tremor count",
+		"aliases": [
+			"party tremor"
+		]
+	},
+	{
+		"entry": "rupture potency",
+		"aliases": [
+			"rupture"
 		]
 	},
 	{
@@ -265,9 +415,57 @@
 		]
 	},
 	{
-		"entry": "unique rupture",
+		"entry": "spend rupture potency",
 		"aliases": [
-			"rupture"
+			"spend rupture"
+		]
+	},
+	{
+		"entry": "spend rupture count",
+		"aliases": [
+			"spend rupture"
+		]
+	},
+	{
+		"entry": "self rupture potency",
+		"aliases": [
+			"self rupture"
+		]
+	},
+	{
+		"entry": "self rupture count",
+		"aliases": [
+			"self rupture"
+		]
+	},
+	{
+		"entry": "ally rupture potency",
+		"aliases": [
+			"ally rupture"
+		]
+	},
+	{
+		"entry": "ally rupture count",
+		"aliases": [
+			"ally rupture"
+		]
+	},
+	{
+		"entry": "party rupture potency",
+		"aliases": [
+			"party rupture"
+		]
+	},
+	{
+		"entry": "party rupture count",
+		"aliases": [
+			"party rupture"
+		]
+	},
+	{
+		"entry": "sinking potency",
+		"aliases": [
+			"sinking"
 		]
 	},
 	{
@@ -277,9 +475,69 @@
 		]
 	},
 	{
-		"entry": "unique sinking",
+		"entry": "spend sinking potency",
 		"aliases": [
-			"sinking"
+			"spend sinking"
+		]
+	},
+	{
+		"entry": "spend sinking count",
+		"aliases": [
+			"spend sinking"
+		]
+	},
+	{
+		"entry": "spend self sinking potency",
+		"aliases": [
+			"spend self sinking"
+		]
+	},
+	{
+		"entry": "spend self sinking count",
+		"aliases": [
+			"spend self sinking"
+		]
+	},
+	{
+		"entry": "self sinking potency",
+		"aliases": [
+			"self sinking"
+		]
+	},
+	{
+		"entry": "self sinking count",
+		"aliases": [
+			"self sinking"
+		]
+	},
+	{
+		"entry": "ally sinking potency",
+		"aliases": [
+			"ally sinking"
+		]
+	},
+	{
+		"entry": "ally sinking count",
+		"aliases": [
+			"ally sinking"
+		]
+	},
+	{
+		"entry": "party sinking potency",
+		"aliases": [
+			"party sinking"
+		]
+	},
+	{
+		"entry": "party sinking count",
+		"aliases": [
+			"party sinking"
+		]
+	},
+	{
+		"entry": "poise potency",
+		"aliases": [
+			"poise"
 		]
 	},
 	{
@@ -289,21 +547,99 @@
 		]
 	},
 	{
+		"entry": "spend poise potency",
+		"aliases": [
+			"spend poise"
+		]
+	},
+	{
+		"entry": "spend poise count",
+		"aliases": [
+			"spend poise"
+		]
+	},
+	{
+		"entry": "ally poise potency",
+		"aliases": [
+			"ally poise"
+		]
+	},
+	{
+		"entry": "ally poise count",
+		"aliases": [
+			"ally poise"
+		]
+	},
+	{
+		"entry": "party poise potency",
+		"aliases": [
+			"party poise"
+		]
+	},
+	{
+		"entry": "party poise count",
+		"aliases": [
+			"party poise"
+		]
+	},
+	{
 		"entry": "unique poise",
 		"aliases": [
 			"poise"
 		]
 	},
 	{
-		"entry": "charge",
+		"entry": "charge potency",
 		"aliases": [
-			"charge count"
+			"charge"
+		]
+	},
+	{
+		"entry": "charge count",
+		"aliases": [
+			"charge"
+		]
+	},
+	{
+		"entry": "spend charge potency",
+		"aliases": [
+			"spend charge"
+		]
+	},
+	{
+		"entry": "spend charge count",
+		"aliases": [
+			"spend charge"
+		]
+	},
+	{
+		"entry": "ally charge potency",
+		"aliases": [
+			"ally charge"
+		]
+	},
+	{
+		"entry": "ally charge count",
+		"aliases": [
+			"ally charge"
+		]
+	},
+	{
+		"entry": "party charge potency",
+		"aliases": [
+			"party charge"
+		]
+	},
+	{
+		"entry": "party charge count",
+		"aliases": [
+			"party charge"
 		]
 	},
 	{
 		"entry": "unique charge",
 		"aliases": [
-			"charge count"
+			"charge"
 		]
 	},
 	{
@@ -359,26 +695,26 @@
 		"entry": "nails",
 		"aliases": [
 			"unique bleed",
-			"bleed",
+			"bleed potency",
 			"bleed count"
 		]
 	},
 	{
 		"entry": "talisman",
 		"aliases": [
-			"rupture"
+			"rupture potency"
 		]
 	},
 	{
 		"entry": "heated gas harpoon",
 		"aliases": [
-			"burn"
+			"burn potency"
 		]
 	},
 	{
 		"entry": "overheated gas harpoon",
 		"aliases": [
-			"burn"
+			"burn potency"
 		]
 	},
 	{
@@ -438,7 +774,7 @@
 	{
 		"entry": "maggots",
 		"aliases": [
-			"bleed"
+			"bleed potency"
 		]
 	},
 	{
@@ -481,18 +817,18 @@
 	{
 		"entry": "volatile passion",
 		"aliases": [
-			"burn",
+			"burn potency",
 			"sp damage"
 		]
 	},
 	{
 		"entry": "random negative status",
 		"aliases": [
-			"burn",
-			"bleed",
-			"tremor",
-			"rupture",
-			"sinking"
+			"burn potency",
+			"bleed potency",
+			"tremor potency",
+			"rupture potency",
+			"sinking potency"
 		]
 	},
 	{
@@ -529,7 +865,7 @@
 		"entry": "blubberbubble",
 		"aliases": [
 			"shield management",
-			"sinking",
+			"sinking potency",
 			"sinking count"
 		]
 	},
@@ -537,7 +873,7 @@
 		"entry": "ally blubberbubble",
 		"aliases": [
 			"ally shield management",
-			"sinking",
+			"sinking potency",
 			"sinking count"
 		]
 	},
@@ -606,7 +942,7 @@
 		"aliases": [
 			"ally guts",
 			"gain resources",
-			"sinking"
+			"sinking potency"
 		]
 	},
 	{
@@ -623,7 +959,7 @@
 		"entry": "impending ruin",
 		"aliases": [
 			"change panic type",
-			"sinking",
+			"sinking potency",
 			"sinking count",
 			"clash power down"
 		]
@@ -632,7 +968,7 @@
 		"entry": "red eyes",
 		"aliases": [
 			"unique charge",
-			"bleed"
+			"bleed potency"
 		]
 	},
 	{
@@ -718,14 +1054,14 @@
 	{
 		"entry": "lasso",
 		"aliases": [
-			"rupture",
+			"rupture potency",
 			"bind"
 		]
 	},
 	{
 		"entry": "rose wedge",
 		"aliases": [
-			"bleed",
+			"bleed potency",
 			"bleed count",
 			"bloodfeast"
 		]
@@ -741,16 +1077,16 @@
 		"entry": "bloodied hand",
 		"aliases": [
 			"offense level up",
-			"rupture",
-			"bleed"
+			"rupture potency",
+			"bleed potency"
 		]
 	},
 	{
 		"entry": "blooming thorn",
 		"aliases": [
 			"defense level up",
-			"bleed",
-			"rupture"
+			"bleed potency",
+			"rupture potency"
 		]
 	},
 	{
@@ -867,7 +1203,7 @@
 		"aliases": [
 			"attack weight increase",
 			"attack power down",
-			"burn"
+			"burn potency"
 		]
 	},
 	{
@@ -882,7 +1218,7 @@
 		"entry": "the fifth magic bullet",
 		"aliases": [
 			"attack weight increase",
-			"burn",
+			"burn potency",
 			"offense level down",
 			"defense level down"
 		]
@@ -891,7 +1227,7 @@
 		"entry": "the sixth magic bullet",
 		"aliases": [
 			"attack weight increase",
-			"burn"
+			"burn potency"
 		]
 	},
 	{
@@ -914,7 +1250,7 @@
 		"entry": "fairy lure",
 		"aliases": [
 			"aggro",
-			"rupture"
+			"rupture potency"
 		]
 	},
 	{
@@ -926,7 +1262,7 @@
 	{
 		"entry": "nebulizer ß",
 		"aliases": [
-			"ally poise",
+			"ally poise potency",
 			"ally poise count"
 		]
 	},
@@ -934,13 +1270,13 @@
 		"entry": "dark cloud blade",
 		"aliases": [
 			"slash power up",
-			"bleed"
+			"bleed potency"
 		]
 	},
 	{
 		"entry": "battle ready",
 		"aliases": [
-			"bleed",
+			"bleed potency",
 			"bleed count",
 			"slash power up",
 			"slash dmg up"
@@ -1050,7 +1386,7 @@
 	{
 		"entry": "nebulizer α",
 		"aliases": [
-			"party poise",
+			"party poise potency",
 			"party poise count"
 		]
 	},
@@ -1098,7 +1434,7 @@
 	{
 		"entry": "serpent arm",
 		"aliases": [
-			"poise",
+			"poise potency",
 			"poise count"
 		]
 	},
@@ -1156,7 +1492,7 @@
 		"entry": "flower-burying pin [埋花針]",
 		"aliases": [
 			"offense level up",
-			"rupture"
+			"rupture potency"
 		]
 	},
 	{
@@ -1233,8 +1569,8 @@
 	{
 		"entry": "fell bullet",
 		"aliases": [
-			"bleed",
-			"poise",
+			"bleed potency",
+			"poise potency",
 			"poise count"
 		]
 	},
@@ -1264,7 +1600,7 @@
 	{
 		"entry": "love/hate",
 		"aliases": [
-			"charge"
+			"charge potency"
 		]
 	},
 	{
@@ -1277,7 +1613,7 @@
 		"entry": "blessing",
 		"aliases": [
 			"protecting sword",
-			"sinking"
+			"sinking potency"
 		]
 	},
 	{
@@ -1355,7 +1691,7 @@
 		]
 	},
 	{
-		"entry": "life from death",
+		"entry": "life from death [死中求活]",
 		"aliases": [
 			"offense level up",
 			"damage up",
@@ -1399,13 +1735,13 @@
 		]
 	},
 	{
-		"entry": "heishou bolus contamination",
+		"entry": "Heishou Bolus Contamination [黑獸丸染]",
 		"aliases": [
 			"rupture count",
-			"rupture",
+			"rupture potency",
 			"poise count",
 			"tremor burst",
-			"burn"
+			"burn potency"
 		]
 	},
 	{
@@ -1413,7 +1749,7 @@
 		"aliases": [
 			"haste",
 			"aggro",
-			"tremor"
+			"tremor potency"
 		]
 	},
 	{
@@ -1516,7 +1852,7 @@
 	{
 		"entry": "lodged arrow",
 		"aliases": [
-			"bleed",
+			"bleed potency",
 			"defense level down",
 			"fragile"
 		]
@@ -1576,6 +1912,27 @@
 		"aliases": [
 			"party damage amp",
 			"party damage reduction"
+		]
+	},
+	{
+		"entry": "open wound",
+		"aliases": [
+			"deep wound",
+			"bind"
+		]
+	},
+	{
+		"entry": "deep wound",
+		"aliases": [
+			"bleed count",
+			"bind"
+		]
+	},
+	{
+		"entry": "fatal wound",
+		"aliases": [
+			"bleed count",
+			"bind"
 		]
 	}
 ]

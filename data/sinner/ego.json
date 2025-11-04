@@ -158,7 +158,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Bind"
           ]
         },
@@ -179,7 +179,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Attack Weight Increase",
-            "Sinking",
+            "Sinking Potency",
             "Bind"
           ]
         },
@@ -207,7 +207,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Bind"
           ]
         },
@@ -228,7 +228,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Sinking",
+            "Sinking Potency",
             "Bind"
           ]
         },
@@ -420,7 +420,7 @@
           "AttackWeight": 5,
           "AttackWeightMod": 5,
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -439,14 +439,14 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Passive": {
           "Name": "Ember",
           "Description": "On clash win, inflict Burn by (Wrath A-Reson / 2) (Once per skill)",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       },
@@ -468,7 +468,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -487,14 +487,14 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Passive": {
           "Name": "Ember",
           "Description": "On clash win, inflict Burn by (Wrath A-Reson / 2) (Once per skill)",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       }
@@ -569,7 +569,7 @@
           "MiscTags": [
             "Spend Charge Count",
             "Dimensional Rift",
-            "Rupture",
+            "Rupture Potency",
             "Spend Enemy Rupture"
           ]
         },
@@ -625,7 +625,7 @@
           "MiscTags": [
             "Spend Charge Count",
             "Dimensional Rift",
-            "Rupture",
+            "Rupture Potency",
             "Spend Enemy Rupture"
           ]
         },
@@ -687,10 +687,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Torn Memory",
-            "Poise",
-            "Ally Poise",
+            "Poise Potency",
+            "Ally Poise Potency",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -712,10 +712,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Torn Memory",
-            "Poise",
-            "Ally Poise",
+            "Poise Potency",
+            "Ally Poise Potency",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Passive": {
@@ -747,10 +747,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Torn Memory",
-            "Poise",
-            "Ally Poise",
+            "Poise Potency",
+            "Ally Poise Potency",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -772,10 +772,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Torn Memory",
-            "Poise",
-            "Ally Poise",
+            "Poise Potency",
+            "Ally Poise Potency",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Passive": {
@@ -1211,7 +1211,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn",
+            "Burn Potency",
             "Convert Burn",
             "Defense Level Down"
           ]
@@ -1234,7 +1234,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Bind",
-            "Burn",
+            "Burn Potency",
             "Convert Burn",
             "Defense Level Down"
           ]
@@ -1243,7 +1243,7 @@
           "Name": "Flamebrand",
           "Description": "On Heads hit with a Lust affinity Skill, inflict 1 Burn on target (6 times per turn)",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       },
@@ -1266,7 +1266,7 @@
           "AttackWeightMod": 2,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn",
+            "Burn Potency",
             "Convert Burn",
             "Defense Level Down"
           ]
@@ -1289,7 +1289,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Bind",
-            "Burn",
+            "Burn Potency",
             "Convert Burn",
             "Defense Level Down"
           ]
@@ -1298,7 +1298,7 @@
           "Name": "Flamebrand",
           "Description": "On Heads hit with a Lust affinity Skill, inflict 1 Burn on target (6 times per turn)",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       }
@@ -1351,7 +1351,7 @@
             "Attack Weight Increase",
             "Haste",
             "Rupture Count",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -1373,7 +1373,7 @@
             "Haste",
             "Gluttony Power Up",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Lasso"
           ]
         },
@@ -1406,7 +1406,7 @@
             "Attack Weight Increase",
             "Haste",
             "Rupture Count",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -1427,7 +1427,7 @@
           "MiscTags": [
             "Haste",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Lasso"
           ]
         },
@@ -1753,7 +1753,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Party Poise",
+            "Party Poise Potency",
             "Party Poise Count",
             "Party Shallow Exhale"
           ]
@@ -1774,7 +1774,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Party Poise",
+            "Party Poise Potency",
             "Party Poise Count",
             "Party Shallow Exhale"
           ]
@@ -1806,7 +1806,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Party Poise",
+            "Party Poise Potency",
             "Party Poise Count",
             "Party Shallow Exhale"
           ]
@@ -1827,7 +1827,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Party Poise",
+            "Party Poise Potency",
             "Party Poise Count",
             "Party Shallow Exhale"
           ]
@@ -1873,7 +1873,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Command : Meltdown",
-          "Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 25%)\n$If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
+          "Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 25%)\n$ If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 17,
@@ -1892,13 +1892,13 @@
             "Ally Heal HP",
             "Heal SP",
             "Ally Heal SP",
-            "Rupture",
-            "Burn"
+            "Rupture Potency",
+            "Burn Potency"
           ]
         },
         "Corrosion": {
           "Name": "Command : Meltdown",
-          "Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 6 (Rupture + Rupture Count) on main target (Max 2)\n[Before Attack] Atk Weight +1 for every 3 highest Reson (Max 2)\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect x 2) Shield\n$This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n[Unbreakable Coin]\n[Coin Start] If this Skill's damage did not Stagger or kill any target, deal +30% damage\n[On Hit] Inflict 3 Burn",
+          "Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 6 (Rupture + Rupture Count) on main target (Max 2)\n[Before Attack] Atk Weight +1 for every 3 highest Reson (Max 2)\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect x 2) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n[Unbreakable Coin]\n[Coin Start] If this Skill's damage did not Stagger or kill any target, deal +30% damage\n[On Hit] Inflict 3 Burn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 3,
@@ -1916,15 +1916,15 @@
             "Self HP Damage",
             "Shield",
             "Damage Up",
-            "Rupture",
+            "Rupture Potency",
             "Unbreakable Coin",
             "Rupture Count",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Passive": {
           "Name": "Doctor",
-          "Description": "Turn Start: Heal self and 1 ally with the lowest HP percentage by (Hardened Shell-Barrier Stack)% of this unit's max HP\n$If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n$If the heal-receiving units are at 25% or lower HP or are Staggered, boost the amount healed from this effect by 1.5\nTurn End: If the last E.G.O Skill Faust used during this Encounter was Command : Meltdown, lose only 1 Stack of Hardened Shell-Barrier at Turn End\n$Activates the same turn the E.G.O Skill is used",
+          "Description": "Turn Start: Heal self and 1 ally with the lowest HP percentage by (Hardened Shell-Barrier Stack)% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n$ If the heal-receiving units are at 25% or lower HP or are Staggered, boost the amount healed from this effect by 1.5\nTurn End: If the last E.G.O Skill Faust used during this Encounter was Command : Meltdown, lose only 1 Stack of Hardened Shell-Barrier at Turn End\n$ Activates the same turn the E.G.O Skill is used",
           "MiscTags": [
             "Heal HP",
             "Ally Heal HP"
@@ -1935,7 +1935,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Command : Meltdown",
-          "Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 15%)\n$If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
+          "Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 15%)\n$ If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 14,
@@ -1954,13 +1954,13 @@
             "Ally Heal HP",
             "Heal SP",
             "Ally Heal SP",
-            "Rupture",
-            "Burn"
+            "Rupture Potency",
+            "Burn Potency"
           ]
         },
         "Corrosion": {
           "Name": "Command : Meltdown",
-          "Description": "[Indiscriminate] Targets randomly\nIf target has 6+ (Rupture + Rupture Count), Base Power +1\n[Before Attack] At 3+ highest Reson, Atk Weight +1\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect) Shield\n$This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Rupture Count\n[Unbreakable Coin]\n[On Hit] Inflict 2 Burn",
+          "Description": "[Indiscriminate] Targets randomly\nIf target has 6+ (Rupture + Rupture Count), Base Power +1\n[Before Attack] At 3+ highest Reson, Atk Weight +1\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Rupture Count\n[Unbreakable Coin]\n[On Hit] Inflict 2 Burn",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 2,
@@ -1978,15 +1978,15 @@
             "Self HP Damage",
             "Shield",
             "Damage Up",
-            "Rupture",
+            "Rupture Potency",
             "Unbreakable Coin",
             "Rupture Count",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Passive": {
           "Name": "Doctor",
-          "Description": "Turn Start: Heal self and 1 ally with the lowest HP percentage by (Hardened Shell-Barrier Stack)% of this unit's max HP\n$If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n$If the heal-receiving units are at 25% or lower HP or are Staggered, boost the amount healed from this effect by 1.5\nTurn End: If the last E.G.O Skill Faust used during this Encounter was Command : Meltdown, lose only 1 Stack of Hardened Shell-Barrier at Turn End\n$Activates the same turn the E.G.O Skill is used",
+          "Description": "Turn Start: Heal self and 1 ally with the lowest HP percentage by (Hardened Shell-Barrier Stack)% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies with the lowest HP percentages instead\n$ If the heal-receiving units are at 25% or lower HP or are Staggered, boost the amount healed from this effect by 1.5\nTurn End: If the last E.G.O Skill Faust used during this Encounter was Command : Meltdown, lose only 1 Stack of Hardened Shell-Barrier at Turn End\n$ Activates the same turn the E.G.O Skill is used",
           "MiscTags": [
             "Heal HP",
             "Ally Heal HP"
@@ -2039,7 +2039,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "SP Damage",
             "Amplitude Entanglement",
@@ -2065,7 +2065,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Entanglement",
             "Tremor - Everlasting",
@@ -2100,7 +2100,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "SP Damage",
             "Amplitude Entanglement",
@@ -2126,7 +2126,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Entanglement",
             "Tremor - Everlasting",
@@ -2188,7 +2188,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Heal HP"
           ]
         },
@@ -2218,7 +2218,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Heal HP"
           ]
         },
@@ -2301,7 +2301,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2324,7 +2324,7 @@
             "Special Targeting",
             "Target Highest HP",
             "Spend Additional Resources",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2354,7 +2354,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2377,7 +2377,7 @@
             "Special Targeting",
             "Target Highest HP",
             "Spend Additional Resources",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2436,7 +2436,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Bleed Count",
-            "Tremor",
+            "Tremor Potency",
             "Paralyze"
           ]
         },
@@ -2457,7 +2457,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Tremor Burst",
-            "Bleed",
+            "Bleed Potency",
             "Spend Enemy Tremor Count"
           ]
         },
@@ -2465,7 +2465,7 @@
           "Name": "Fallen Stone Pagoda",
           "Description": "Gain 2 Poise and +2 Poise Count when defeating an enemy with Bleed (3 times per turn)",
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count"
           ]
         }
@@ -2489,7 +2489,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Bleed Count",
-            "Tremor",
+            "Tremor Potency",
             "Paralyze"
           ]
         },
@@ -2510,7 +2510,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Tremor Burst",
-            "Bleed",
+            "Bleed Potency",
             "Spend Enemy Tremor Count"
           ]
         },
@@ -2518,7 +2518,7 @@
           "Name": "Fallen Stone Pagoda",
           "Description": "Gain 2 Poise and +2 Poise Count when defeating an enemy with Bleed (3 times per turn)",
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count"
           ]
         }
@@ -2703,7 +2703,7 @@
           "MiscTags": [
             "Tremor Burst",
             "SP Damage",
-            "Sinking"
+            "Sinking Potency"
           ]
         },
         "Corrosion": {
@@ -2722,8 +2722,8 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
-            "Sinking"
+            "Tremor Potency",
+            "Sinking Potency"
           ]
         },
         "Passive": {
@@ -2772,8 +2772,8 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Tremor",
-            "Sinking"
+            "Tremor Potency",
+            "Sinking Potency"
           ]
         },
         "Passive": {
@@ -2963,7 +2963,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Twisted Curse Talisman",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -2984,7 +2984,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Twisted Curse Talisman",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -3015,7 +3015,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Twisted Curse Talisman",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -3036,7 +3036,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Twisted Curse Talisman",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -3094,7 +3094,7 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Self SP Damage",
             "Unbreakable Coin",
             "Polydipsic Rose"
@@ -3116,8 +3116,8 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Bleed",
-            "Self Bleed",
+            "Bleed Potency",
+            "Self Bleed Potency",
             "Self Bleed Proc",
             "Spend Self Bleed",
             "Polydipsic Rose",
@@ -3150,7 +3150,7 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Self SP Damage",
             "Unbreakable Coin",
             "Polydipsic Rose"
@@ -3172,8 +3172,8 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Bleed",
-            "Self Bleed",
+            "Bleed Potency",
+            "Self Bleed Potency",
             "Self Bleed Proc",
             "Spend Self Bleed",
             "Polydipsic Rose",
@@ -3220,7 +3220,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "In the Name of Love and Hate",
-          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 2)) random other allies (Max 4)\n$If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
+          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 2)) random other allies (Max 4)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$ If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$ If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 16,
@@ -3243,13 +3243,13 @@
             "Unbreakable Coin",
             "Charge Count",
             "Mark of Villainy",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
         "Corrosion": {
           "Name": "In the Name of Love and Hate",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count spent (Max 50%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$If unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Reson (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count spent (Max 50%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Reson (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$ If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 31,
@@ -3268,15 +3268,15 @@
             "Hysteria",
             "Unbreakable Coin",
             "Charge Count",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
         "Passive": {
           "Name": "Arcana Aptitude Circuit",
-          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
           "MiscTags": [
-            "Charge",
+            "Charge Potency",
             "Skill Draw"
           ]
         }
@@ -3285,7 +3285,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "In the Name of Love and Hate",
-          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 3)) random other allies (Max 3)\n$If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
+          "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 3)) random other allies (Max 3)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 16,
@@ -3308,13 +3308,13 @@
             "Unbreakable Coin",
             "Charge Count",
             "Mark of Villainy",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
         "Corrosion": {
           "Name": "In the Name of Love and Hate",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count spent (Max 40%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$If unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Reson (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count spent (Max 40%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Reson (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
           "DamageType": "Blunt",
           "SinType": "Envy",
           "BasePower": 31,
@@ -3333,15 +3333,15 @@
             "Hysteria",
             "Unbreakable Coin",
             "Charge Count",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
         "Passive": {
           "Name": "Arcana Aptitude Circuit",
-          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
+          "Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
           "MiscTags": [
-            "Charge",
+            "Charge Potency",
             "Skill Draw"
           ]
         }
@@ -3391,7 +3391,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Fragile"
           ]
         },
@@ -3419,7 +3419,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Fragile"
           ]
         },
@@ -3500,7 +3500,7 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Gain Resources",
             "Party Heal SP"
           ]
@@ -3521,7 +3521,7 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Party E.G.O Resource Amp",
             "Party Haste"
           ]
@@ -3552,7 +3552,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Gain Resources",
             "Party Heal SP"
           ]
@@ -3573,7 +3573,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Party E.G.O Resource Amp",
             "Party Haste"
           ]
@@ -3764,7 +3764,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Charge Count"
           ]
         },
@@ -3784,7 +3784,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Spend Charge Count",
             "Charge Count"
@@ -3816,7 +3816,7 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Charge Count"
           ]
         },
@@ -3836,7 +3836,7 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Spend Charge Count",
             "Charge Count"
@@ -3897,7 +3897,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Power Up",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -3917,8 +3917,8 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Power Up",
-            "Burn",
-            "Self Burn"
+            "Burn Potency",
+            "Self Burn Potency"
           ]
         },
         "Passive": {
@@ -3926,7 +3926,7 @@
           "Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks.",
           "MiscTags": [
             "Final Power",
-            "Burn"
+            "Burn Potency"
           ]
         }
       },
@@ -3949,7 +3949,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Attack Power Up",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -3969,8 +3969,8 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Attack Power Up",
-            "Burn",
-            "Self Burn"
+            "Burn Potency",
+            "Self Burn Potency"
           ]
         },
         "Passive": {
@@ -3978,7 +3978,7 @@
           "Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks.",
           "MiscTags": [
             "Final Power",
-            "Burn"
+            "Burn Potency"
           ]
         }
       }
@@ -4156,7 +4156,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Deep Inhale"
           ]
@@ -4180,10 +4180,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Self HP Damage",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Deep Inhale",
-            "Ally Poise",
+            "Ally Poise Potency",
             "Ally Poise Count",
             "Heal SP",
             "Gain Resources"
@@ -4215,7 +4215,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Deep Inhale"
           ]
@@ -4239,10 +4239,10 @@
             "Special Targeting",
             "Target Lowest HP Ally",
             "Self HP Damage",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Deep Inhale",
-            "Ally Poise",
+            "Ally Poise Potency",
             "Ally Poise Count",
             "Heal SP"
           ]
@@ -4304,7 +4304,7 @@
             "Gaze of Contempt",
             "SP Damage",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -4325,7 +4325,7 @@
           "MiscTags": [
             "Gaze of Contempt",
             "Gain Resources",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Count"
           ]
         },
@@ -4358,7 +4358,7 @@
             "Gaze of Contempt",
             "SP Damage",
             "Gain Resources",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -4379,7 +4379,7 @@
           "MiscTags": [
             "Gaze of Contempt",
             "Gain Resources",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Count"
           ]
         },
@@ -4835,7 +4835,7 @@
             "Ally Charge Count",
             "Envy DMG Up",
             "Ally Envy DMG Up",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -4857,7 +4857,7 @@
             "Attack Weight Increase",
             "Spend Charge Count",
             "Paralyze",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
@@ -4893,7 +4893,7 @@
             "Ally Charge Count",
             "Envy DMG Up",
             "Ally Envy DMG Up",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -4915,7 +4915,7 @@
             "Attack Weight Increase",
             "Spend Charge Count",
             "Paralyze",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
@@ -5112,8 +5112,8 @@
             "Haste",
             "Wrath Power Up",
             "Blunt Power Up",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Burn Spread",
             "Tremor Burst"
           ]
@@ -5137,8 +5137,8 @@
             "Haste",
             "Wrath Power Up",
             "Blunt Power Up",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Burn Spread",
             "Tremor Burst",
             "Indiscriminate Burn",
@@ -5149,7 +5149,7 @@
           "Name": "Untempered Agitation",
           "Description": "At the start of the combat phase, if targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Base Power"
           ]
         }
@@ -5175,8 +5175,8 @@
             "Haste",
             "Wrath Power Up",
             "Blunt Power Up",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Burn Spread",
             "Tremor Burst"
           ]
@@ -5200,8 +5200,8 @@
             "Haste",
             "Wrath Power Up",
             "Blunt Power Up",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Burn Spread",
             "Tremor Burst",
             "Indiscriminate Burn",
@@ -5212,7 +5212,7 @@
           "Name": "Untempered Agitation",
           "Description": "At the start of the combat phase, if targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Base Power"
           ]
         }
@@ -5264,7 +5264,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Self SP Damage",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Proc",
             "Rose Wedge"
           ]
@@ -5289,8 +5289,8 @@
             "Ally Bleed",
             "Ally Bleed Proc",
             "Heal HP",
-            "Bleed",
-            "Self Bleed",
+            "Bleed Potency",
+            "Self Bleed Potency",
             "Bleed Proc",
             "Self Bleed Proc",
             "Rose Wedge"
@@ -5301,7 +5301,7 @@
           "Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
           "MiscTags": [
             "Heal HP",
-            "Bleed"
+            "Bleed Potency"
           ]
         }
       },
@@ -5324,7 +5324,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Self SP Damage",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Proc",
             "Rose Wedge"
           ]
@@ -5349,8 +5349,8 @@
             "Ally Bleed",
             "Ally Bleed Proc",
             "Heal HP",
-            "Bleed",
-            "Self Bleed",
+            "Bleed Potency",
+            "Self Bleed Potency",
             "Rose Wedge"
           ]
         },
@@ -5359,7 +5359,7 @@
           "Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
           "MiscTags": [
             "Heal HP",
-            "Bleed"
+            "Bleed Potency"
           ]
         }
       }
@@ -5395,7 +5395,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Crushbound Past",
-          "Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (Max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$ At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (Max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 4,
@@ -5410,7 +5410,7 @@
           "AttackWeightMod": 9,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Self SP Damage",
             "Heal HP",
             "Heal SP",
@@ -5422,7 +5422,7 @@
         },
         "Corrosion": {
           "Name": "Crushbound Past",
-          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 30,
@@ -5438,7 +5438,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Heal HP",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Entanglement",
             "Tremor Burst",
@@ -5447,7 +5447,7 @@
         },
         "Passive": {
           "Name": "Metronome",
-          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$Gain 1 Accumulated Past at every subsequent Turn End",
+          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$ Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$ Gain 1 Accumulated Past at every subsequent Turn End",
           "MiscTags": [
             "Damage Up",
             "Protection",
@@ -5459,7 +5459,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Crushbound Past",
-          "Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 4,
@@ -5474,7 +5474,7 @@
           "AttackWeightMod": 9,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Self SP Damage",
             "Heal HP",
             "Heal SP",
@@ -5486,7 +5486,7 @@
         },
         "Corrosion": {
           "Name": "Crushbound Past",
-          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+          "Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
           "DamageType": "Blunt",
           "SinType": "Sloth",
           "BasePower": 30,
@@ -5502,7 +5502,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Heal HP",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Entanglement",
             "Tremor Burst",
@@ -5511,7 +5511,7 @@
         },
         "Passive": {
           "Name": "Metronome",
-          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$Gain 1 Accumulated Past at every subsequent Turn End",
+          "Description": "Turn Start: In odd turns, gain 1 Damage Up; in even turns, gain 1 Protection\n$ Does not stack with the Metronome E.G.O Gift. If enhanced, its effect subtracts values gained from this effect\nWhen using this E.G.O Skill, gain 1 Accumulated Past next turn (Once per Encounter)\n$ Gain 1 Accumulated Past at every subsequent Turn End",
           "MiscTags": [
             "Damage Up",
             "Protection",
@@ -5564,7 +5564,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Party SP Loss Efficiency Down"
           ]
         },
@@ -5594,7 +5594,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking"
+            "Sinking Potency"
           ]
         },
         "Passive": {
@@ -5833,7 +5833,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Bind",
-            "Tremor"
+            "Tremor Potency"
           ]
         },
         "Passive": {
@@ -5885,7 +5885,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Bind",
-            "Tremor"
+            "Tremor Potency"
           ]
         },
         "Passive": {
@@ -5942,7 +5942,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Reverb",
@@ -5966,7 +5966,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Reverb",
@@ -6001,7 +6001,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Reverb",
@@ -6025,7 +6025,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Reverb",
@@ -6092,8 +6092,8 @@
             "Lasso",
             "HP Healing Down",
             "Rupture Count",
-            "Bleed",
-            "Rupture"
+            "Bleed Potency",
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -6150,8 +6150,8 @@
             "Haste",
             "Lasso",
             "Rupture Count",
-            "Bleed",
-            "Rupture"
+            "Bleed Potency",
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -6380,7 +6380,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Rupture",
+            "Rupture Potency",
             "Gluttony Fragility",
             "Bind"
           ]
@@ -6413,7 +6413,7 @@
           "Name": "Green Slime",
           "Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
           "MiscTags": [
-            "Rupture"
+            "Rupture Potency"
           ]
         }
       },
@@ -6436,7 +6436,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Weight Increase",
-            "Rupture",
+            "Rupture Potency",
             "Gluttony Fragility",
             "Bind"
           ]
@@ -6469,7 +6469,7 @@
           "Name": "Green Slime",
           "Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
           "MiscTags": [
-            "Rupture"
+            "Rupture Potency"
           ]
         }
       }
@@ -6504,8 +6504,8 @@
       {
         "Tier": 4,
         "Awakening": {
-          "Name": "To Remain Oneself",
-          "Description": "[On Use] Gain 4 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit does not have Thunderer or Higher Thunderer, recuperate half of E.G.O resources and SP spent by this Skill (Rounded down)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +25% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +45% damage\n[After Attack] Gain 5 Thunderer\n$If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 3 Sinking",
+          "Name": "To Remain Oneself [宁作吾]",
+          "Description": "[On Use] Gain 4 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit does not have Thunderer or Higher Thunderer, recuperate half of E.G.O resources and SP spent by this Skill (Rounded down)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +25% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +45% damage\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 3 Sinking",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 10,
@@ -6519,16 +6519,16 @@
           "AttackWeight": 4,
           "AttackWeightMod": 6,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Attack Weight Increase",
             "Thunderer",
             "Higher Thunderer",
-            "Sinking"
+            "Sinking Potency"
           ]
         },
         "Corrosion": {
-          "Name": "To Remain Oneself",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 4 Poise and +4 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +2, Base Power +2, Coin Power +2\n[After Attack] Gain 5 Thunderer\n$If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
+          "Name": "To Remain Oneself [宁作吾]",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 4 Poise and +4 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +2, Base Power +2, Coin Power +2\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 4,
@@ -6542,13 +6542,13 @@
           "AttackWeight": 5,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Attack Weight Increase",
             "Thunderer",
             "Higher Thunderer",
             "Unbreakable Coin",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -6562,8 +6562,8 @@
       },{
         "Tier": 3,
         "Awakening": {
-          "Name": "To Remain Oneself",
-          "Description": "[On Use] Gain 3 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +15% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +27% damage\n[After Attack] Gain 5 Thunderer\n$If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 2 Sinking",
+          "Name": "To Remain Oneself [宁作吾]",
+          "Description": "[On Use] Gain 3 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +15% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +27% damage\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 2 Sinking",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 8,
@@ -6577,16 +6577,16 @@
           "AttackWeight": 4,
           "AttackWeightMod": 6,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Attack Weight Increase",
             "Thunderer",
             "Higher Thunderer",
-            "Sinking"
+            "Sinking Potency"
           ]
         },
         "Corrosion": {
-          "Name": "To Remain Oneself",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 3 Poise and +3 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +1, Base Power +1, Coin Power +1\n[After Attack] Gain 5 Thunderer\n$If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise / 2)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +((Poise + Poise Count_ / 2)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
+          "Name": "To Remain Oneself [宁作吾]",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 3 Poise and +3 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +1, Base Power +1, Coin Power +1\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise / 2)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +((Poise + Poise Count_ / 2)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
           "DamageType": "Pierce",
           "SinType": "Pride",
           "BasePower": 2,
@@ -6600,13 +6600,13 @@
           "AttackWeight": 5,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Attack Weight Increase",
             "Thunderer",
             "Higher Thunderer",
             "Unbreakable Coin",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -6650,7 +6650,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
-          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
+          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 20,
@@ -6670,7 +6670,7 @@
           ],
           "AltSkill": {
             "Name": "Tears of the Tarnished Blood - The End [終]",
-            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n$At 3+: Atk Weight +1; Base Power +1\n$At 4+: Atk Weight +2; Base Power +2\n$At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n$ At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
             "DamageType": "Pierce",
             "SinType": "Gluttony",
             "BasePower": 4,
@@ -6688,13 +6688,13 @@
               "Attack Weight Increase",
               "Self Instant Death",
               "Rupture Count",
-              "Rupture"
+              "Rupture Potency"
             ]
           }
         },
         "Corrosion": {
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n$At 6+ Highest Reson, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n$ At 6+ Highest Reson, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 12,
@@ -6711,12 +6711,12 @@
             "Attack Weight Increase",
             "Flower-burying Wedge [埋花櫼]",
             "Rupture Count",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
           "Name": "Crying Tears",
-          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$Gain 2 Haste next turn\n$All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$Inflict 1 Attack Power Down to all enemies next turn",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
           "MiscTags": [
             "Party Sin DMG Up",
             "Party Damage Type DMG Up"
@@ -6727,7 +6727,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
-          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$This damage does not Stagger or reduce this unit's HP below 1",
+          "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
           "BasePower": 20,
@@ -6747,7 +6747,7 @@
           ],
           "AltSkill": {
             "Name": "Tears of the Tarnished Blood - The End [終]",
-            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n$At 3+: Atk Weight +1; Base Power +1\n$At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+            "Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
             "DamageType": "Pierce",
             "SinType": "Gluttony",
             "BasePower": 4,
@@ -6765,7 +6765,7 @@
               "Attack Weight Increase",
               "Self Instant Death",
               "Rupture Count",
-              "Rupture"
+              "Rupture Potency"
             ]
           }
         },
@@ -6788,12 +6788,12 @@
             "Attack Weight Increase",
             "Flower-burying Wedge [埋花櫼]",
             "Rupture Count",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
           "Name": "Crying Tears",
-          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$Gain 2 Haste next turn\n$All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$Inflict 1 Attack Power Down to all enemies next turn",
+          "Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
           "MiscTags": [
             "Party Sin DMG Up",
             "Party Damage Type DMG Up"
@@ -6990,7 +6990,7 @@
           "Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\nInflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
           "MiscTags": [
             "Random Negative Status",
-            "Poise",
+            "Poise Potency",
             "Charge Count"
           ]
         }
@@ -7043,7 +7043,7 @@
           "Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n Inflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
           "MiscTags": [
             "Random Negative Status",
-            "Poise",
+            "Poise Potency",
             "Charge Count"
           ]
         }
@@ -7233,10 +7233,10 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Torn Memory",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
-            "Bleed",
-            "Sinking",
+            "Bleed Potency",
+            "Sinking Potency",
             "Ammo"
           ]
         },
@@ -7258,17 +7258,17 @@
           "MiscTags": [
             "Torn Memory",
             "Attack Weight Increase",
-            "Poise",
+            "Poise Potency",
             "Spend Poise",
-            "Bleed",
-            "Sinking"
+            "Bleed Potency",
+            "Sinking Potency"
           ]
         },
         "Passive": {
           "Name": "Crushed Pendant",
           "Description": "Combat Start: At 3+ Highest Reson, gain 3 Poise",
           "MiscTags": [
-            "Poise"
+            "Poise Potency"
           ]
         }
       },
@@ -7291,9 +7291,9 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Torn Memory",
-            "Poise",
-            "Bleed",
-            "Sinking",
+            "Poise Potency",
+            "Bleed Potency",
+            "Sinking Potency",
             "Ammo"
           ]
         },
@@ -7315,17 +7315,17 @@
           "MiscTags": [
             "Torn Memory",
             "Attack Weight Increase",
-            "Poise",
+            "Poise Potency",
             "Spend Poise",
-            "Bleed",
-            "Sinking"
+            "Bleed Potency",
+            "Sinking Potency"
           ]
         },
         "Passive": {
           "Name": "Crushed Pendant",
           "Description": "Combat Start: At 3+ Highest Reson, gain 3 Poise",
           "MiscTags": [
-            "Poise"
+            "Poise Potency"
           ]
         }
       }
@@ -7647,7 +7647,7 @@
             "Self Tremor Count",
             "Self Amplitude Conversion",
             "Tremor - Clockwinding",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
@@ -7673,7 +7673,7 @@
             "Self Tremor Count",
             "Self Amplitude Conversion",
             "Tremor - Clockwinding",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
@@ -7709,7 +7709,7 @@
             "Self Tremor Count",
             "Self Amplitude Conversion",
             "Tremor - Clockwinding",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
@@ -7735,7 +7735,7 @@
             "Self Tremor Count",
             "Self Amplitude Conversion",
             "Tremor - Clockwinding",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
@@ -7801,8 +7801,8 @@
             "Before the King in Binds",
             "Attack Power Up",
             "Bind",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -7829,8 +7829,8 @@
             "Ally Attack Power Up",
             "Ally Gloom DMG Up",
             "Bind",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -7868,8 +7868,8 @@
             "Before the King",
             "Attack Power Up",
             "Bind",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -7896,8 +7896,8 @@
             "Ally Attack Power Up",
             "Ally Gloom DMG Up",
             "Bind",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -7960,7 +7960,7 @@
             "Special Targeting",
             "Target Rearmost",
             "Bind",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -7991,7 +7991,7 @@
             "Special Targeting",
             "Target Rearmost",
             "Bind",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst"
           ]
         },
@@ -8073,8 +8073,8 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Centipede Venom",
-            "Sinking",
-            "Rupture"
+            "Sinking Potency",
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -8094,13 +8094,13 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Centipede Venom",
-            "Sinking",
-            "Rupture"
+            "Sinking Potency",
+            "Rupture Potency"
           ]
         },
         "Passive": {
           "Name": "Reversal Death by Gu Poison",
-          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$At 3+ A-Reson, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$ At 3+ A-Reson, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
           "MiscTags": [
             "Offense Level Up"
           ]
@@ -8125,8 +8125,8 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Centipede Venom",
-            "Sinking",
-            "Rupture"
+            "Sinking Potency",
+            "Rupture Potency"
           ]
         },
         "Corrosion": {
@@ -8146,13 +8146,13 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Centipede Venom",
-            "Sinking",
-            "Rupture"
+            "Sinking Potency",
+            "Rupture Potency"
           ]
         },
         "Passive": {
           "Name": "Reversal Death by Gu Poison",
-          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$At 3+ A-Reson, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
+          "Description": "Whenever this unit inflicts Sinking, Sinking Count, or Unique Sinking using its Attack Skills, gain 1 Offense Level Up next turn (Max 2)\n$ At 3+ A-Reson, with the same conditionals, gain 1 Offense Level Up next turn instead (Max 3)",
           "MiscTags": [
             "Offense Level Up"
           ]
@@ -8345,7 +8345,7 @@
           "AttackWeightMod": 2,
           "MiscTags": [
             "Party Wrath DMG Up",
-            "Burn",
+            "Burn Potency",
             "SP Damage"
           ]
         },
@@ -8397,7 +8397,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Party Wrath DMG Up",
-            "Burn",
+            "Burn Potency",
             "SP Damage"
           ]
         },
@@ -8628,7 +8628,7 @@
             "Special Targeting",
             "Target Rearmost",
             "Raise Stagger Threshold",
-            "Burn",
+            "Burn Potency",
             "Burn Spread"
           ]
         },
@@ -8650,7 +8650,7 @@
           "MiscTags": [
             "Self HP Damage",
             "Party Burn",
-            "Burn",
+            "Burn Potency",
             "Raise Stagger Threshold"
           ]
         },
@@ -8658,7 +8658,7 @@
           "Name": "Shower of Fire",
           "Description": "On hit, if the target had Burn, inflict 1 Burn on 3 random enemies.",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Burn Spread"
           ]
         }
@@ -8684,7 +8684,7 @@
             "Special Targeting",
             "Target Rearmost",
             "Raise Stagger Threshold",
-            "Burn",
+            "Burn Potency",
             "Burn Spread"
           ]
         },
@@ -8706,7 +8706,7 @@
           "MiscTags": [
             "Self HP Damage",
             "Party Burn",
-            "Burn",
+            "Burn Potency",
             "Raise Stagger Threshold"
           ]
         },
@@ -8714,7 +8714,7 @@
           "Name": "Shower of Fire",
           "Description": "On hit, if the target had Burn, inflict 1 Burn on 3 random enemies.",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Burn Spread"
           ]
         }
@@ -8769,7 +8769,7 @@
             "Ally Heal HP",
             "SP Damage",
             "Gluttony Fragility",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -8794,7 +8794,7 @@
             "Attack Power Up",
             "Haste",
             "Offense Level Up",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Passive": {
@@ -8827,7 +8827,7 @@
             "Ally Heal HP",
             "SP Damage",
             "Gluttony Fragility",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Corrosion": {
@@ -8852,7 +8852,7 @@
             "Attack Power Up",
             "Haste",
             "Offense Level Up",
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Passive": {
@@ -8912,7 +8912,7 @@
             "Self Tremor Count",
             "Heal SP",
             "Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
           ]
@@ -8937,7 +8937,7 @@
             "Heal HP",
             "Heal SP",
             "Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -8972,7 +8972,7 @@
             "Self Tremor Count",
             "Heal SP",
             "Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
           ]
@@ -8997,7 +8997,7 @@
             "Heal HP",
             "Heal SP",
             "Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -9043,7 +9043,7 @@
         "Tier": 4,
         "Awakening": {
           "Name": "Tidal Elegy",
-          "Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on main target (Max 2)\n[Before Attack] If main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (Max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (Max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on main target (Max 2)\n[Before Attack] If main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (Max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (Max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 8,
@@ -9057,9 +9057,9 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Unbreakable Coin",
-            "Tremor",
+            "Tremor Potency",
             "Bind",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -9067,7 +9067,7 @@
         },
         "Corrosion": {
           "Name": "Tidal Elegy",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (Max 3)\n[Before Attack] For every 3 highest Reson:\n(If Gloom Reson, for every 2 highest Reson)\n$Atk Weight +1 (Max 2)\n$Deal +15% damage (Max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$If Reson was Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (Once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (Max 3)\n[Before Attack] For every 3 highest Reson:\n(If Gloom Reson, for every 2 highest Reson)\n$ Atk Weight +1 (Max 2)\n$ Deal +15% damage (Max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If Reson was Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (Once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 13,
@@ -9086,8 +9086,8 @@
             "Blunt DMG Up",
             "Ally Gloom DMG Up",
             "Gloom DMG Up",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Gloom Fragility",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -9107,7 +9107,7 @@
         "Tier": 3,
         "Awakening": {
           "Name": "Tidal Elegy",
-          "Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] If main target has 4+ Sinking, Clash Power +1\n[Before Attack] If main target has >1 Gloom Resist, deal +3% damage for every 0.1 Gloom Resist past 1 (Max 15%)\n[Before Attack] At 2+ Gloom Reson, deal +8% damage for every Gloom Reson (Max 32%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] If main target has 4+ Sinking, Clash Power +1\n[Before Attack] If main target has >1 Gloom Resist, deal +3% damage for every 0.1 Gloom Resist past 1 (Max 15%)\n[Before Attack] At 2+ Gloom Reson, deal +8% damage for every Gloom Reson (Max 32%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 8,
@@ -9121,9 +9121,9 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Sinking",
+            "Sinking Potency",
             "Unbreakable Coin",
-            "Tremor",
+            "Tremor Potency",
             "Bind",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -9131,7 +9131,7 @@
         },
         "Corrosion": {
           "Name": "Tidal Elegy",
-          "Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (Max 2)\n[Before Attack] For every 3 highest Reson:\n$Atk Weight +1 (Max 2)\n$Deal +15% damage (Max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$If Reson was Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (Once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+          "Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (Max 2)\n[Before Attack] For every 3 highest Reson:\n$ Atk Weight +1 (Max 2)\n$ Deal +15% damage (Max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If Reson was Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (Once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 13,
@@ -9150,8 +9150,8 @@
             "Blunt DMG Up",
             "Ally Gloom DMG Up",
             "Gloom DMG Up",
-            "Sinking",
-            "Tremor",
+            "Sinking Potency",
+            "Tremor Potency",
             "Gloom Fragility",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
@@ -9237,7 +9237,7 @@
           "AttackWeightMod": 7,
           "MiscTags": [
             "Heal HP",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Pride Fragility",
             "Ally Damage Up"
@@ -9247,7 +9247,7 @@
           "Name": "Temeritous Voyage",
           "Description": "At the end of the turn, inflict 5 Sinking to 1 other ally with the lowest HP.\nApply 1 Haste and 3 Offense Level Up next turn.",
           "MiscTags": [
-            "Ally Sinking",
+            "Ally Sinking Potency",
             "Ally Haste",
             "Ally Offense Level Up"
           ]
@@ -9295,7 +9295,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Heal HP",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
             "Pride Fragility",
             "Ally Damage Up"
@@ -9305,7 +9305,7 @@
           "Name": "Temeritous Voyage",
           "Description": "At the end of the turn, inflict 5 Sinking to 1 other ally with the lowest HP.\nApply 1 Haste and 3 Offense Level Up next turn.",
           "MiscTags": [
-            "Ally Sinking",
+            "Ally Sinking Potency",
             "Ally Haste",
             "Ally Offense Level Up"
           ]
@@ -9356,7 +9356,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "SP Heal Efficiency Up",
             "SP Loss Efficiency Down"
           ]
@@ -9388,7 +9388,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Bleed"
+            "Bleed Potency"
           ]
         },
         "Passive": {
@@ -9472,7 +9472,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Tremor Burst",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -9495,7 +9495,7 @@
             "Special Targeting",
             "Target Highest HP",
             "Tremor Burst",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -9527,7 +9527,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Tremor Burst",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -9548,7 +9548,7 @@
           "AttackWeightMod": 1,
           "MiscTags": [
             "Tremor Burst",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count"
           ]
         },
@@ -9608,7 +9608,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Bind",
             "Tremor Burst"
@@ -9663,7 +9663,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Bind",
             "Tremor Burst"
@@ -9744,7 +9744,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Wrath Fragility"
           ]
         },
@@ -9764,7 +9764,7 @@
           "AttackWeight": 5,
           "AttackWeightMod": 5,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Wrath Fragility"
           ]
         },
@@ -9794,7 +9794,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Wrath Fragility"
           ]
         },
@@ -9814,7 +9814,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Wrath Fragility"
           ]
         },
@@ -10008,7 +10008,7 @@
           "MiscTags": [
             "Heal HP",
             "Ally Heal HP",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails"
           ]
@@ -10031,7 +10031,7 @@
           "MiscTags": [
             "Ally Heal HP",
             "Ally Offense Level Up",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Count",
             "Curse",
             "Nails"
@@ -10042,7 +10042,7 @@
           "Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
           "MiscTags": [
             "Defense Level Down",
-            "Bleed",
+            "Bleed Potency",
             "Curse"
           ]
         }
@@ -10067,7 +10067,7 @@
           "MiscTags": [
             "Heal HP",
             "Ally Heal HP",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails"
           ]
@@ -10090,7 +10090,7 @@
           "MiscTags": [
             "Ally Heal HP",
             "Ally Offense Level Up",
-            "Bleed",
+            "Bleed Potency",
             "Bleed Count",
             "Curse",
             "Nails"
@@ -10101,7 +10101,7 @@
           "Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
           "MiscTags": [
             "Defense Level Down",
-            "Bleed",
+            "Bleed Potency",
             "Curse"
           ]
         }
@@ -10180,7 +10180,7 @@
           "Name": "Obsession",
           "Description": "This unit's leftmost Skill on the Dashboard inflicts double the Bleed Potency (Once per turn)",
           "MiscTags": [
-            "Bleed"
+            "Bleed Potency"
           ]
         }
       },
@@ -10230,7 +10230,7 @@
           "Name": "Obsession",
           "Description": "This unit's leftmost Skill on the Dashboard inflicts double the Bleed Potency (Once per turn)",
           "MiscTags": [
-            "Bleed"
+            "Bleed Potency"
           ]
         }
       }
@@ -10283,7 +10283,7 @@
             "Attack Weight Increase",
             "Ally Heal HP",
             "Self SP Damage",
-            "Burn",
+            "Burn Potency",
             "Searing Birdcage"
           ]
         },
@@ -10305,7 +10305,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Unbreakable Coin",
-            "Burn",
+            "Burn Potency",
             "Burn Count",
             "Searing Birdcage",
             "Ally Wrath DMG Up",
@@ -10343,7 +10343,7 @@
             "Attack Weight Increase",
             "Ally Heal HP",
             "Self SP Damage",
-            "Burn",
+            "Burn Potency",
             "Searing Birdcage"
           ]
         },
@@ -10365,7 +10365,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Unbreakable Coin",
-            "Burn",
+            "Burn Potency",
             "Searing Birdcage",
             "Ally Wrath DMG Up",
             "Ally Wrath Power Up"
@@ -10426,7 +10426,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Rupture",
+            "Rupture Potency",
             "Self SP Damage",
             "Attack Power Up",
             "Heal SP",
@@ -10460,7 +10460,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Rupture",
+            "Rupture Potency",
             "Self SP Damage",
             "Heal SP"
           ]
@@ -10570,7 +10570,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Aggro",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count",
             "Blubberbubble",
             "Shield"
@@ -10627,7 +10627,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Aggro",
-            "Sinking",
+            "Sinking Potency",
             "Sinking Count",
             "Blubberbubble",
             "Shield"
@@ -10707,7 +10707,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Self Bleed",
+            "Self Bleed Potency",
             "Attack Power Up"
           ]
         },
@@ -10757,7 +10757,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Self Bleed",
+            "Self Bleed Potency",
             "Attack Power Up"
           ]
         },
@@ -10818,7 +10818,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Ally Heal HP",
-            "Burn",
+            "Burn Potency",
             "Ally Burn",
             "Ally Haste",
             "Ally E.G.O Resource Amp"
@@ -10843,7 +10843,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Spend Additional Resources",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -10851,7 +10851,7 @@
           "Name": "Stew Spillage",
           "Description": "Tails Coins inflict 1 Burn on hitting an enemy.",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       },
@@ -10876,7 +10876,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Ally Heal HP",
-            "Burn",
+            "Burn Potency",
             "Ally Burn",
             "Ally Haste",
             "Ally E.G.O Resource Amp"
@@ -10901,7 +10901,7 @@
             "Special Targeting",
             "Target Lowest HP",
             "Spend Additional Resources",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -10909,7 +10909,7 @@
           "Name": "Stew Spillage",
           "Description": "Tails Coins inflict 1 Burn on hitting an enemy.",
           "MiscTags": [
-            "Burn"
+            "Burn Potency"
           ]
         }
       }
@@ -10961,7 +10961,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Curse Proc",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails",
             "Clash Power Down",
@@ -10985,7 +10985,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Curse Proc",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails",
             "Clash Power Down",
@@ -11023,7 +11023,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Curse Proc",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails",
             "Bind"
@@ -11046,7 +11046,7 @@
           "AttackWeightMod": 3,
           "MiscTags": [
             "Curse Proc",
-            "Bleed",
+            "Bleed Potency",
             "Curse",
             "Nails",
             "Bind"
@@ -11109,7 +11109,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Attack Weight Increase",
-            "Rupture",
+            "Rupture Potency",
             "Ally Heal HP"
           ]
         },
@@ -11132,7 +11132,7 @@
             "Attack Weight Increase",
             "Special Targeting",
             "Target Highest HP",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count",
             "Defense Level Down",
             "Heal HP"
@@ -11165,7 +11165,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Rupture",
+            "Rupture Potency",
             "Ally Heal HP"
           ]
         },
@@ -11188,7 +11188,7 @@
             "Attack Weight Increase",
             "Special Targeting",
             "Target Highest HP",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count",
             "Defense Level Down",
             "Heal HP"
@@ -11249,7 +11249,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn",
+            "Burn Potency",
             "Attack Power Down",
             "Defense Power Down"
           ]
@@ -11271,7 +11271,7 @@
           "AttackWeightMod": 5,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn",
+            "Burn Potency",
             "Lust Fragility"
           ]
         },
@@ -11304,7 +11304,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -11324,7 +11324,7 @@
           "AttackWeightMod": 4,
           "MiscTags": [
             "Attack Weight Increase",
-            "Burn",
+            "Burn Potency",
             "Lust Fragility"
           ]
         },
@@ -11390,7 +11390,7 @@
             "Nullify Stagger",
             "Self SP Damage",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Self Instant Death"
           ]
         },
@@ -11415,7 +11415,7 @@
             "Self HP Damage",
             "Nullify Stagger",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Skill Reuse",
             "Self Instant Death"
           ]
@@ -11453,7 +11453,7 @@
             "Nullify Stagger",
             "Self SP Damage",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Self Instant Death"
           ]
         },
@@ -11478,7 +11478,7 @@
             "Self HP Damage",
             "Nullify Stagger",
             "Rupture Count",
-            "Rupture",
+            "Rupture Potency",
             "Skill Reuse",
             "Self Instant Death"
           ]
@@ -11537,7 +11537,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Rupture",
+            "Rupture Potency",
             "Ally Attack Power Up"
           ]
         },
@@ -11567,7 +11567,7 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
@@ -11781,9 +11781,9 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
-            "Sinking",
+            "Sinking Potency",
             "Bind",
             "Tremor Burst",
             "Sinking Count"
@@ -11807,13 +11807,13 @@
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
-            "Sinking",
+            "Sinking Potency",
             "Bind",
             "Tremor Burst",
             "Sinking Count",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -11821,7 +11821,7 @@
           "Name": "Breath of the Hunt",
           "Description": "After a clash, gain 2 Poise.\nWhen staggered, gain 2 Protection; when recovering from stagger, gain 5 Poise",
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Protection"
           ]
         }
@@ -11844,9 +11844,9 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Poise Count",
-            "Sinking",
+            "Sinking Potency",
             "Bind",
             "Tremor Burst",
             "Sinking Count"
@@ -11870,13 +11870,13 @@
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP",
-            "Poise",
+            "Poise Potency",
             "Poise Count",
-            "Sinking",
+            "Sinking Potency",
             "Bind",
             "Tremor Burst",
             "Sinking Count",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         },
@@ -11884,7 +11884,7 @@
           "Name": "Breath of the Hunt",
           "Description": "After a clash, gain 2 Poise.\nWhen staggered, gain 2 Protection; when recovering from stagger, gain 5 Poise",
           "MiscTags": [
-            "Poise",
+            "Poise Potency",
             "Protection"
           ]
         }
@@ -11935,8 +11935,8 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Rupture",
-            "Bleed",
+            "Rupture Potency",
+            "Bleed Potency",
             "Gluttony Fragility"
           ]
         },
@@ -11956,8 +11956,8 @@
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
-            "Rupture",
-            "Bleed",
+            "Rupture Potency",
+            "Bleed Potency",
             "Gluttony Fragility"
           ]
         },
@@ -11967,7 +11967,7 @@
           "MiscTags": [
             "Pierce DMG Up",
             "Bind",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         }
@@ -11990,8 +11990,8 @@
           "AttackWeight": 5,
           "AttackWeightMod": 5,
           "MiscTags": [
-            "Rupture",
-            "Bleed",
+            "Rupture Potency",
+            "Bleed Potency",
             "Gluttony Fragility"
           ]
         },
@@ -12011,8 +12011,8 @@
           "AttackWeight": 5,
           "AttackWeightMod": 5,
           "MiscTags": [
-            "Rupture",
-            "Bleed",
+            "Rupture Potency",
+            "Bleed Potency",
             "Gluttony Fragility"
           ]
         },
@@ -12022,7 +12022,7 @@
           "MiscTags": [
             "Pierce DMG Up",
             "Bind",
-            "Rupture",
+            "Rupture Potency",
             "Rupture Count"
           ]
         }
@@ -12360,7 +12360,7 @@
             "Magic Bullet",
             "The Magic Bullet",
             "Dark Flame",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -12382,7 +12382,7 @@
             "Magic Bullet",
             "The Magic Bullet",
             "Dark Flame",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -12390,7 +12390,7 @@
           "Name": "Seven Bullets",
           "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Dark Flame"
           ]
         }
@@ -12416,7 +12416,7 @@
             "Magic Bullet",
             "The Magic Bullet",
             "Dark Flame",
-            "Burn"
+            "Burn Potency"
           ]
         },
         "Corrosion": {
@@ -12438,7 +12438,7 @@
             "Magic Bullet",
             "The Magic Bullet",
             "Dark Flame",
-            "Burn",
+            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -12446,7 +12446,7 @@
           "Name": "Seven Bullets",
           "Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
           "MiscTags": [
-            "Burn",
+            "Burn Potency",
             "Dark Flame"
           ]
         }
@@ -12499,7 +12499,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Self SP Damage",
-            "Tremor",
+            "Tremor Potency",
             "Amplitude Conversion",
             "Tremor - Fracture",
             "Tremor Burst"
@@ -12522,7 +12522,7 @@
           "AttackWeightMod": 7,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Fracture",
@@ -12555,7 +12555,7 @@
           "MiscTags": [
             "Attack Weight Increase",
             "Self SP Damage",
-            "Tremor",
+            "Tremor Potency",
             "Amplitude Conversion",
             "Tremor - Fracture",
             "Tremor Burst"
@@ -12576,7 +12576,7 @@
           "AttackWeightMod": 7,
           "MiscTags": [
             "Attack Weight Increase",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Count",
             "Amplitude Conversion",
             "Tremor - Fracture",
@@ -12755,7 +12755,7 @@
           "MiscTags": [
             "Tremor Burst",
             "Paralyze",
-            "Tremor"
+            "Tremor Potency"
           ]
         },
         "Corrosion": {
@@ -12774,7 +12774,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Paralyze",
             "Maggots"
           ]
@@ -12807,7 +12807,7 @@
           "MiscTags": [
             "Tremor Burst",
             "Paralyze",
-            "Tremor"
+            "Tremor Potency"
           ]
         },
         "Corrosion": {
@@ -12826,7 +12826,7 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Bleed",
+            "Bleed Potency",
             "Paralyze",
             "Maggots"
           ]
@@ -12907,7 +12907,7 @@
             "Special Targeting",
             "Target Highest HP",
             "Heal HP",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
@@ -12958,7 +12958,7 @@
             "Special Targeting",
             "Target Highest HP",
             "Heal HP",
-            "Rupture"
+            "Rupture Potency"
           ]
         },
         "Passive": {
@@ -13018,7 +13018,7 @@
             "Heal SP",
             "Ally Heal SP",
             "Spend Enemy Sinking Count",
-            "Sinking",
+            "Sinking Potency",
             "Curse"
           ]
         },
@@ -13072,7 +13072,7 @@
             "Heal SP",
             "Ally Heal SP",
             "Spend Enemy Sinking Count",
-            "Sinking",
+            "Sinking Potency",
             "Curse"
           ]
         },
@@ -13419,11 +13419,11 @@
           "MiscTags": [
             "Heal SP",
             "Attack Power Up",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
             "Heal HP",
-            "Sinking",
+            "Sinking Potency",
             "Attack Power Down",
             "Sin Fragility"
           ]
@@ -13447,10 +13447,10 @@
             "Heal HP",
             "Heal SP",
             "Attack Power Up",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Attack Power Down",
             "Sin Fragility"
           ]
@@ -13484,11 +13484,11 @@
           "MiscTags": [
             "Heal SP",
             "Attack Power Up",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
             "Heal HP",
-            "Sinking",
+            "Sinking Potency",
             "Attack Power Down"
           ]
         },
@@ -13511,10 +13511,10 @@
             "Heal HP",
             "Heal SP",
             "Attack Power Up",
-            "Tremor",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count",
-            "Sinking",
+            "Sinking Potency",
             "Attack Power Down"
           ]
         },
@@ -13606,7 +13606,7 @@
           "Name": "Crown of Roses",
           "Description": "Turn Start: Inflict 2 Rupture on a random enemy (in Focused Encounters, all parts)\nWhen activating A-Reson, inflict 2 Rupture on all enemies at Combat Start",
           "MiscTags": [
-            "Rupture"
+            "Rupture Potency"
           ]
         }
       },
@@ -13661,7 +13661,7 @@
           "Name": "Crown of Roses",
           "Description": "Turn Start: Inflict 2 Rupture on a random enemy (in Focused Encounters, all parts)\nWhen activating A-Reson, inflict 2 Rupture on all enemies at Combat Start",
           "MiscTags": [
-            "Rupture"
+            "Rupture Potency"
           ]
         }
       }
@@ -13721,7 +13721,7 @@
           ],
           "AltSkill": {
             "Name": "Unbrilliant Glory - Incandescence",
-            "Description": "[Unclashable]\nCannot Reuse Skill\nAt 40 Man in Scabbard, Clashable; cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, for every:\n$20, recuperate 1 E.G.O resource (Pride, then Wrath)\n$10, Atk Weight +1 (Max 4)\n$10, 1 Defense Level Up (Once per turn)\n$40, deal +100% damage on 4th Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every Stagger or kill by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was not spent, leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If Coin isn't Cracked and has 3+ targets, +20% damage to final Coin\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] Final Coin: If target has 15+ Tremor, Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
+            "Description": "[Unclashable]\nCannot Reuse Skill\nAt 40 Man in Scabbard, Clashable; cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, for every:\n$ 20, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ 10, Atk Weight +1 (Max 4)\n$ 10, 1 Defense Level Up (Once per turn)\n$ 40, deal +100% damage on 4th Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every Stagger or kill by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was not spent, leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If Coin isn't Cracked and has 3+ targets, +20% damage to final Coin\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] Final Coin: If target has 15+ Tremor, Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
             "DamageType": "Slash",
             "SinType": "Sloth",
             "BasePower": 10,
@@ -13743,8 +13743,8 @@
               "Man in Scabbard",
               "Aggro",
               "Unbreakable Coin",
-              "Burn",
-              "Tremor",
+              "Burn Potency",
+              "Tremor Potency",
               "Tremor Burst",
               "Spend Enemy Tremor Count"
             ]
@@ -13752,7 +13752,7 @@
         },
         "Corrosion": {
           "Name": "Unbrilliant Glory",
-          "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +30% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$10, gain Defense Level Up (Once per turn)\n$40, deal +160% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+          "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +30% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$ 10, gain Defense Level Up (Once per turn)\n$ 40, deal +160% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 20,
@@ -13772,15 +13772,15 @@
             "Man in Scabbard",
             "Aggro",
             "Unbreakable Coin",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
           ]
         },
         "Passive": {
           "Name": "Wanderer",
-          "Description": "Gain Man in Scabbard:\n$1 for every 3 HP damage taken from getting hit\n$1 for every 5 Shield HP damage taken from getting hit\n$10 per Staggered ally when allies become Staggered\n$20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
+          "Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
           "MiscTags": [
             "Man in Scabbard",
             "Nullify Stagger"
@@ -13814,7 +13814,7 @@
           ],
           "AltSkill": {
             "Name": "Unbrilliant Glory - Incandescence",
-            "Description": "[Unclashable]\nCannot Reuse Skill\nAt 40 Man in Scabbard, Clashable; cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, for every:\n$20, recuperate 1 E.G.O resource (Pride, then Wrath)\n$10, Atk Weight +1 (Max 4)\n$10, 1 Defense Level Up (Once per turn)\n$40, deal +80% damage on 4th Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every Stagger or kill by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was not spent, leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If Coin isn't Cracked and has 3+ targets, +10% damage to final Coin\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] Final Coin: If target has 15+ Tremor, Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
+            "Description": "[Unclashable]\nCannot Reuse Skill\nAt 40 Man in Scabbard, Clashable; cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, for every:\n$ 20, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ 10, Atk Weight +1 (Max 4)\n$ 10, 1 Defense Level Up (Once per turn)\n$ 40, deal +80% damage on 4th Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every Stagger or kill by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was not spent, leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If Coin isn't Cracked and has 3+ targets, +10% damage to final Coin\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] Final Coin: If target has 15+ Tremor, Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
             "DamageType": "Slash",
             "SinType": "Sloth",
             "BasePower": 10,
@@ -13836,8 +13836,8 @@
               "Man in Scabbard",
               "Aggro",
               "Unbreakable Coin",
-              "Burn",
-              "Tremor",
+              "Burn Potency",
+              "Tremor Potency",
               "Tremor Burst",
               "Spend Enemy Tremor Count"
             ]
@@ -13845,7 +13845,7 @@
         },
         "Corrosion": {
           "Name": "Unbrilliant Glory",
-          "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +25% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$10, gain Defense Level Up (Once per turn)\n$40, deal +130% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+          "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +25% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$ 10, gain Defense Level Up (Once per turn)\n$ 40, deal +130% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Sloth",
           "BasePower": 20,
@@ -13865,15 +13865,15 @@
             "Man in Scabbard",
             "Aggro",
             "Unbreakable Coin",
-            "Burn",
-            "Tremor",
+            "Burn Potency",
+            "Tremor Potency",
             "Tremor Burst",
             "Spend Enemy Tremor Count"
           ]
         },
         "Passive": {
           "Name": "Wanderer",
-          "Description": "Gain Man in Scabbard:\n$1 for every 3 HP damage taken from getting hit\n$1 for every 5 Shield HP damage taken from getting hit\n$10 per Staggered ally when allies become Staggered\n$20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
+          "Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
           "MiscTags": [
             "Man in Scabbard",
             "Nullify Stagger"
