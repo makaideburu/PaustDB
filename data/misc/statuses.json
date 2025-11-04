@@ -1949,8 +1949,6 @@
 		"Name": "Unfocused Volley",
 		"Description": "When this Skill flips Coins, each Coin flips against a random enemy among its targets\nThe first Coin always targets the main target\nAll 'On Hit' effects and all damage dealt by each Coins are inflicted only against the random target the Coin selected",
 		"Tags": [
-			"Wrath Resistance Down",
-			"Bind"
 		]
 	},
 	{
@@ -3022,6 +3020,22 @@
 		"Tags": [
 			"Bleed Count",
 			"Bind"
+		]
+	},
+	{
+		"Name": "Hardblood Cast",
+		"Description": "Max Stack: 3\nWhen clashing against enemies with Bleed or Unique Bleed, Clash Power +1\nWhen consuming Bloodfeast with an Attack Skill, if there isn't enough Bloodfeast, consume 1 HP for every 1 missing Bloodfeast to generate it before consuming it (The damage from this effect does not Stagger or reduce this unit's HP below 1)\nReduced by 1 at Turn End",
+		"Tags": [
+			"Clash Power Up",
+			"Self HP Damage",
+			"Bloodfeast"
+		]
+	},
+	{
+		"Name": "Emergency Barrier Battery",
+		"Description": "Max Stack: 7\nWhen Staggered, consume all Emergency Barrier Battery Stack and gain Charge Barrier by the Stack consumed",
+		"Tags": [
+			"Charge Barrier"
 		]
 	}
 ]

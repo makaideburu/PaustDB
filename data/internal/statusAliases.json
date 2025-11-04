@@ -223,6 +223,18 @@
 		]
 	},
 	{
+		"entry": "gloom resist down",
+		"aliases": [
+			"resistance down"
+		]
+	},
+	{
+		"entry": "envy resist down",
+		"aliases": [
+			"resistance down"
+		]
+	},
+	{
 		"entry": "burn potency",
 		"aliases": [
 			"burn"
@@ -1933,6 +1945,20 @@
 		"aliases": [
 			"bleed count",
 			"bind"
+		]
+	},
+	{
+		"entry": "hardblood cast",
+		"aliases": [
+			"clash power up",
+			"self hp damage",
+			"bloodfeast"
+		]
+	},
+	{
+		"entry": "emergency barrier battery",
+		"aliases": [
+			"charge barrier"
 		]
 	}
 ]
