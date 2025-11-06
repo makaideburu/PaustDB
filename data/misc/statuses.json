@@ -2969,14 +2969,14 @@
 	},
 	{
 		"Name": "Bright [光]",
-		"Description": "Potency: Base 0, Max 5\nCount: Base 3, Max 3\nTurn Start: Gain Offense Level Up based on Potency\nTurn Start: Lose Count",
+		"Description": "Potency: Base 0, Max 5\nCount: Base 3, Max 3\nTurn Start: Gain 1 Offense Level Up for every Potency\nTurn Start: Lose 1 Count",
 		"Tags": [
 			"Offense Level Up"
 		]
 	},
 	{
 		"Name": "Hand - Pine Crane Suit",
-		"Description": "Skill 1 gains Base Power\nWhen this unit equips and uses a Wrath Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
+		"Description": "Skill 1 gains Base Power +2\nWhen this unit equips and uses a Wrath Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
 		"Tags": [
 			"Base Power Up",
 			"Forming a Hand"
@@ -2984,7 +2984,7 @@
 	},
 	{
 		"Name": "Hand - Susuki Grass Suit",
-		"Description": "Skill 2 gains Base Power\nWhen this unit equips and uses a Sloth Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
+		"Description": "Skill 2 gains Base Power +1\nWhen this unit equips and uses a Sloth Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
 		"Tags": [
 			"Base Power Up",
 			"Forming a Hand"
@@ -2992,7 +2992,7 @@
 	},
 	{
 		"Name": "Hand - Blue Sakura Suit",
-		"Description": "Skill 3 gains Base Power\nWhen this unit equips and uses a Gloom Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
+		"Description": "Skill 3 gains Base Power +1\nWhen this unit equips and uses a Gloom Base Attack Skill or E.G.O Skill on its leftmost Skill Slot, activate the 'forming a Hand' effects on the 'Koi-Koi' Passive",
 		"Tags": [
 			"Base Power Up",
 			"Forming a Hand"
@@ -3000,7 +3000,7 @@
 	},
 	{
 		"Name": "Open Wound",
-		"Description": "Max Stack: 2\nTurn End: Gain Bind next turn\nTurn End: At X Stack, replace this effect with Deep Wound next turn",
+		"Description": "Max Stack: 2\nTurn End: Gain 1 Bind next turn\nTurn End: At 2 Stack, replace this effect with Deep Wound next turn",
 		"Tags": [
 			"Bind",
 			"Deep Wound"
@@ -3008,7 +3008,7 @@
 	},
 	{
 		"Name": "Deep Wound",
-		"Description": "Max Stack: 3\nWhen Tremor Burst is triggered on this unit, gain Bleed Count\nCannot gain Open Wound (in Focused Encounters, the Part)\nTurn End: Gain (Stack - Y) Bind next turn\nTurn End: Reduce Stack",
+		"Description": "Max Stack: 3\nWhen Tremor Burst is triggered on this unit, gain +1 Bleed Count (2 times per turn)\nCannot gain Open Wound (in Focused Encounters, the Part)\nTurn End: Gain (Stack - 1) Bind next turn\nTurn End: Reduce Stack by 1",
 		"Tags": [
 			"Bleed Count",
 			"Bind"
@@ -3016,7 +3016,7 @@
 	},
 	{
 		"Name": "Fatal Wound",
-		"Description": "Max Stack: 3\nWhen Tremor Burst is triggered on this unit, gain Bleed Count\nCannot gain Open Wound (in Focused Encounters, the Part)\nTurn End: Gain (Stack) Bind next turn\nTurn End: Reduce Stack",
+		"Description": "Max Stack: 3\nWhen Tremor Burst is triggered on this unit, gain +3 Bleed Count (2 times per turn)\nCannot gain Open Wound (in Focused Encounters, the Part)\nTurn End: Gain (Stack) Bind next turn\nTurn End: Reduce Stack by 1",
 		"Tags": [
 			"Bleed Count",
 			"Bind"

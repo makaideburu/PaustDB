@@ -27805,7 +27805,7 @@
 		"Sinner": "Ishmael",
 		"Identity": "Jeong's Office Rep",
 		"World": "???",
-		"Speed": "???",
+		"Speed": "3~8",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -27813,25 +27813,25 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 0.5,
+			"Pierce": 1,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "Tsuru-giri [鶴斬り]",
-					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n<1>[On Use] Inflict Sinking Count\n[Heads Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Tremor Count\n[Heads Hit] Inflict Tremor Count",
+					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (Max 2)\n<1>[On Use] Inflict +1 Sinking Count\n[Heads Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict +1 Tremor Count\n[Heads Hit] Inflict +1 Tremor Count",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 2,
+					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -27843,16 +27843,16 @@
 				},
 				"SkillTwo": {
 					"Name": "Susuki Misdirection",
-					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n<1>[On Hit] Inflict Sinking\n[Heads Hit] Inflict Sinking\n<2>[On Hit] Inflict Tremor\n[Heads Hit] Inflict Tremor\n<3>[On Hit] Heal SP",
+					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Sinking\n[Heads Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Tremor\n[Heads Hit] Inflict 1 Tremor\n<3>[On Hit] Heal 5 SP",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 3,
+					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -27865,16 +27865,16 @@
 				},
 				"SkillThree": {
 					"Name": "Sakura-sen [桜閃]",
-					"Description": "Deal more damage based on Bright [光] on self\n[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Inflict Sinking Count\n[Heads Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Sinking\n[Heads Hit] Inflict Tremor Count\n<3>If target is in Amplitude Conversion or Amplitude Entanglement, this Coin deals more damage\n[On Hit] If target isn't in Amplitude Conversion, trigger Amplitude Conversion into Tremor - Decay",
+					"Description": "Deal +10% damage for every Bright [光]\n[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (Max 3)\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Sinking Count\n[Heads Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict 3 Sinking\n[Heads Hit] Inflict +1 Tremor Count\n<3>If target is in Amplitude Conversion or Amplitude Entanglement, this Coin deals +48% damage\n[On Hit] If target isn't in Amplitude Conversion, trigger Amplitude Conversion into Tremor - Decay",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 4,
+					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -27889,17 +27889,17 @@
 					],
 					"AltSkill": {
 						"Name": "Kōzan [光新]",
-						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or external Reuse effects\n[On Use] At less than 3 Bright [光], cancel the Skill and gain Attack Power Up next turn\n[On Use] At 3+ Bright [光]:\n$ Deal more damage per Bright [光]\n$ At 4+, Base Power +X\n$ At 5, On Hit with the final Reuse Coin, trigger Tremor Burst; reduce target's Tremor Count\n[Skill End] All Bright [光] on self expires\n[Skill End] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills\n[Skill End] Gain Bright [光] next turn equal to # of Coins that weren't used\n<1>Reuse this Coin (Bright [光] - 1) times\n[On Hit] Inflict Tremor Count\n[On Hit] Inflict Sinking Count\n[Heads Hit] Inflict Defense Level Down",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or external Reuse effects\n[On Use] At less than 3 Bright [光], cancel the Skill and gain 2 Attack Power Up next turn\n[On Use] At 3+ Bright [光]:\n$ Deal +10% damage per Bright [光]\n$ At 4+, Base Power +1\n$ At 5, On Hit with the final Reuse Coin, trigger Tremor Burst 2 times; reduce target's Tremor Count by 1\n[Skill End] All Bright [光] on self expires\n[Skill End] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills\n[Skill End] Gain Bright [光] next turn equal to # of Coins that weren't used\n<1>Reuse this Coin (Bright [光] - 1) times (Max 4 times)\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Sinking Count\n[Heads Hit] Inflict 1 Defense Level Down",
 						"DamageType": "Slash",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 4,
+						"CoinPower": 5,
 						"CoinCount": 1,
-						"Level": 0,
-						"BasePowerModifier": 0,
+						"Level": 5,
+						"BasePowerModifier": 1,
 						"FinalPowerModifier": 0,
 						"CoinModifier": 0,
-						"CoinCountModifier": 0,
+						"CoinCountModifier": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -27917,13 +27917,13 @@
 				},
 				"SkillDefense": {
 					"Name": "Shuffle Hands - Floral Deck",
-					"Description": "[Clashable Counter]\n[Combat Start] Discard X Skills of the lowest rank in all of this unit's Skill Slots\n[Combat Start] If this Skill was equipped on the leftmost Skill Slot, next turn, convert the Suit in this unit's Hand to a random Card Suit that corresponds to one of this unit's Base Attack Skills\n[Combat Start] X% chance to gain Bright [光]\n[On Use] Coin Power +X for every Y Bright [光] on self\n<1>[On Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Tremor",
+					"Description": "[Clashable Counter]\n[Combat Start] Discard 2 Skills of the lowest rank in all of this unit's Skill Slots (Once per turn)\n[Combat Start] If this Skill was equipped on the leftmost Skill Slot, next turn, convert the Suit in this unit's Hand to a random Card Suit that corresponds to one of this unit's Base Attack Skills (Once per turn; excluding the Suit already in Hand)\n[Combat Start] 50% chance to gain 1 Bright [光] (Once per turn)\n[On Use] Coin Power +1 for every 2 Bright [光] on self\n<1>[On Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 2 Tremor",
 					"DamageType": "Slash",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27940,7 +27940,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Koi-Koi [こいこい]",
-						"Description": "Turn Start: If unit does not have Bright [光], gain 0 Bright [光] and +3 Bright [光] Count\nTurn Start: If unit does not have a Suit in Hand, gain a random Suit (Hand - Pine Crane Suit, Hand - Susuki Grass Suit, Hand - Blue Sakura Suit) that corresponds ot a Base Attack Skill on this unit's leftmost Skill Slot\n\nCombat Start: When this unit uses a Base Attack Skill or E.G.O Skill on its leftmost Skill Slot:\n$ Next turn, convert the Hand on self corresponding to the Skill's Affinity\n$ If the Skill was 'Sakura-sen' or an E.G.O Skill, gain Bright [光]\n$ If the Skill's Affinity matches the current Hand's (forming a Hand):\n$$ Gain Bright [光]\n$$ If a Hand was formed last turn and this turn in succession, gain Bright [光]\n$$ On Hit: trigger Tremor Burst; reduce target's Tremor Count\n$$ X% chance to gain the corresponding E.G.O Resource\n$ At Skill End: At 5 Bright [光] or 0 Bright [光] Count, use 'Kōzan'",
+						"Description": "Turn Start: If unit does not have Bright [光], gain 0 Bright [光] and +3 Bright [光] Count\nTurn Start: If unit does not have a Suit in Hand, gain a random Suit (Hand - Pine Crane Suit, Hand - Susuki Grass Suit, Hand - Blue Sakura Suit) that corresponds ot a Base Attack Skill on this unit's leftmost Skill Slot\n\nCombat Start: When this unit uses a Base Attack Skill or E.G.O Skill on its leftmost Skill Slot:\n$ Next turn, convert the Hand on self corresponding to the Skill's Affinity\n$ If the Skill was 'Sakura-sen' or an E.G.O Skill, gain 1 Bright [光]\n$ If the Skill's Affinity matches the current Hand's (forming a Hand):\n$- Gain 1 Bright [光]\n$- If a Hand was formed last turn and this turn in succession, gain 1 Bright [光]\n$- On Hit: trigger Tremor Burst; reduce target's Tremor Count by 1\n$- 25% chance to gain the corresponding E.G.O Resource\n$ At Skill End: At 5 Bright [光] or 0 Bright [光] Count, use 'Kōzan'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -27959,25 +27959,207 @@
 				],
 				"PassiveSkill": {
 					"Name": "Stacking the Deck",
-					"Description": "On Tails Hit, heal SP\nDeal more damage against targets in Low Morale or Panic states",
+					"Description": "On Tails Hit, heal 5 SP (Once per turn)\nDeal +10% damage against targets in Low Morale or Panic states",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 2
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Heal SP"
 					]
 				},
 				"SupportSkill": {
 					"Name": "Relay",
-					"Description": "Combat Start: When 1 ally with the least SP uses a Base Attack Skill to Heads Hit, they heal SP",
+					"Description": "Combat Start: When 1 ally with the least SP uses a Base Attack Skill to Heads Hit, they heal 5 SP (2 times per turn; excluding allies at -40 or lower SP)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Heal SP"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Tsuru-giri [鶴斬り]",
+					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] If target has 6+ (Tremor + Sinking), Coin Power +1\n<1>[On Use] Inflict +1 Sinking Count\n[Heads Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict +1 Tremor Count\n[Heads Hit] Inflict +1 Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 2,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Discard",
+						"Sinking Count",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Susuki Misdirection",
+					"Description": "[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] If target has 6+ (Tremor + Sinking), Coin Power +1\n<1>[On Hit] Inflict 2 Sinking\n[Heads Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Tremor\n[Heads Hit] Inflict 1 Tremor",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Discard",
+						"Sinking Potency",
+						"Tremor Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Sakura-sen [桜閃]",
+					"Description": "Deal +5% damage for every Bright [光]\n[On Use] If the other Skill in this Skill Slot is a different Skill, Discard that Skill\n[On Use] If target has 6+ (Tremor + Sinking), Coin Power +1\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Sinking Count\n[Heads Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict 3 Sinking\n[Heads Hit] Inflict +1 Tremor Count\n<3>[On Hit] If target isn't in Amplitude Conversion, trigger Amplitude Conversion into Tremor - Decay",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 3,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Discard",
+						"Tremor Count",
+						"Sinking Count",
+						"Tremor Potency",
+						"Sinking Potency",
+						"Amplitude Conversion",
+						"Tremor - Decay"
+					],
+					"AltSkill": {
+						"Name": "Kōzan [光新]",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or external Reuse effects\n[On Use] At less than 3 Bright [光], cancel the Skill and gain 2 Attack Power Up next turn\n[On Use] At 3+ Bright [光]:\n$ Deal +10% damage per Bright [光]\n$ At 4+, Base Power +1\n$ At 5, On Hit with the final Reuse Coin, trigger Tremor Burst 2 times; reduce target's Tremor Count by 1\n[Skill End] All Bright [光] on self expires\n[Skill End] Next turn, convert the Suit in this unit's Hand to a random Suit that corresponds to one of this unit's Base Attack Skills\n[Skill End] Gain Bright [光] next turn equal to # of Coins that weren't used\n<1>Reuse this Coin (Bright [光] - 1) times (Max 4 times)\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Envy",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 5,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Attack Power Up",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Spend Bright [光]",
+							"Bright [光]",
+							"Tremor Count",
+							"Sinking Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Shuffle Hands - Floral Deck",
+					"Description": "[Clashable Counter]\n[Combat Start] Discard 2 Skills of the lowest rank in all of this unit's Skill Slots (Once per turn)\n[Combat Start] If this Skill was equipped on the leftmost Skill Slot, next turn, convert the Suit in this unit's Hand to a random Card Suit that corresponds to one of this unit's Base Attack Skills (Once per turn; excluding the Suit already in Hand)\n[Combat Start] 50% chance to gain 1 Bright [光] (Once per turn)\n[On Use] Coin Power +1 for every 2 Bright [光] on self\n<1>[On Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 2 Tremor",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Discard",
+						"Bright [光]",
+						"Sinking Count",
+						"Tremor Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Koi-Koi [こいこい]",
+						"Description": "Turn Start: If unit does not have Bright [光], gain 0 Bright [光] and +3 Bright [光] Count\nTurn Start: If unit does not have a Suit in Hand, gain a random Suit (Hand - Pine Crane Suit, Hand - Susuki Grass Suit, Hand - Blue Sakura Suit) that corresponds ot a Base Attack Skill on this unit's leftmost Skill Slot\n\nCombat Start: When this unit uses a Base Attack Skill or E.G.O Skill on its leftmost Skill Slot:\n$ Next turn, convert the Hand on self corresponding to the Skill's Affinity\n$ If the Skill was 'Sakura-sen' or an E.G.O Skill, gain 1 Bright [光]\n$ If the Skill's Affinity matches the current Hand's (forming a Hand):\n$- Gain 1 Bright [光]\n$- If a Hand was formed last turn and this turn in succession, gain 1 Bright [光]\n$- On Hit: trigger Tremor Burst; reduce target's Tremor Count by 1\n$- 25% chance to gain the corresponding E.G.O Resource\n$ At Skill End: At 5 Bright [光] or 0 Bright [光] Count, use 'Kōzan'",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bright [光]",
+							"Bright [光] Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Follow Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Stacking the Deck",
+					"Description": "On Tails Hit, heal 5 SP (Once per turn)\nDeal +10% damage against targets in Low Morale or Panic states",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Heal SP"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Relay",
+					"Description": "Combat Start: When 1 ally with the least SP uses a Base Attack Skill to Heads Hit, they heal 5 SP (2 times per turn; excluding allies at -40 or lower SP)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
 						}
 					],
 					"ResourceType": "None",
@@ -41942,7 +42124,7 @@
 		"Sinner": "Gregor",
 		"Identity": "Night Awls Capitano",
 		"World": "???",
-		"Speed": "???",
+		"Speed": "3~6",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -41950,25 +42132,25 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "Gap Attack",
-					"Description": "[On Use] Gain Haste next turn\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on target\n<1>[On Hit] Inflict Tremor\n[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Open Wound",
+					"Description": "[On Use] Gain 1 Haste next turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n<1>[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 1 Open Wound",
 					"DamageType": "Pierce",
 					"SinType": "Sloth",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -41980,20 +42162,21 @@
 					],
 					"AltSkill": {
 						"Name": "Mercé",
-						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +X for every Y% missing HP on enemy (Core)\nDeal more damage based on enemy's (Core) HP lost\n$If enemy's (Core) HP is less than Z%, deal more damage\n[On Use] Gain Haste next turn\n<1>[On Hit] Inflict Bleed\n[On Hit] Inflict Tremor\n[On Hit] Inflict Open Wound",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 4)\nDeal +1% damage for every 1% missing HP on enemy's (Core)\n$ If enemy's (Core) has 20%- HP, deal +120% damage instead\n[On Use] Gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Open Wound",
 						"DamageType": "Pierce",
 						"SinType": "Sloth",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 4,
+						"CoinPower": 6,
 						"CoinCount": 1,
-						"Level": 0,
+						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 4,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
+							"Unclashable",
 							"Haste",
 							"Bleed Potency",
 							"Tremor Potency",
@@ -42003,16 +42186,16 @@
 				},
 				"SkillTwo": {
 					"Name": "Stiletto Doppio",
-					"Description": "[On Use] If target has X+ (Bleed + Tremor), Coin Power +Y\n[Clash Win] Inflict Tremor and trigger Tremor Burst; reduce target's Tremor Count\n<1>[On Hit] Inflict Tremor Count\n[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Open Wound\n<3>[On Hit] If enemy's (Core) HP is less than X%, or if target has Fatal Wound, use 'Mercé'",
+					"Description": "[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has 20%- HP, or has Fatal Wound, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -42028,16 +42211,16 @@
 				},
 				"SkillThree": {
 					"Name": "Execution",
-					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead\n[On Use] If target has X+ (Bleed + Tremor), Coin Power +Y\n[Clash Win] Inflict Tremor and trigger Tremor Burst; redue target's Tremor Count\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Tremor and Tremor Count\n<3>[On Hit] Inflict Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has less than X% HP, use 'Mercé'",
+					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor and trigger Tremor Burst; redue target's Tremor Count by 1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Tremor and +1 Tremor Count\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -42055,16 +42238,16 @@
 					],
 					"AltSkill": {
 						"Name": "The Night's Awl",
-						"Description": "Deal more damage for every X (Haste on self + Bind on target)\nIf target has Shield, deal more damage (Core or Parts)\nDeal more damage based on enemy's (Core) HP lost\n%If enemy (Core)'s HP is less than X%, deal even more damage\n[On Use] Inflict Defense Level Down\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on target\n[Clash Win] Inflict Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bleed and Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Tremor and Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Conver target's Deep Wound into Fatal Wound next turn",
+						"Description": "Deal +15% damage for every (Haste on self + Bind on target) (Max 60%)\nIf target has Shield, deal +30% damage (Core or Parts)\nDeal +1% damage for every 1% missing HP on enemy (Core)\n%If enemy (Core) has 20%- HP, deal +100% damage instead\n[On Use] Inflict 5 Defense Level Down\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 3)\n[Clash Win] Inflict 4 Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +1 Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 4,
+						"CoinPower": 3,
 						"CoinCount": 4,
-						"Level": 0,
+						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 3,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
@@ -42085,16 +42268,16 @@
 				},
 				"SkillDefense": {
 					"Name": "Dire Straits",
-					"Description": "[Clashable Guard]\n[Combat Start] For this turn, increase the number of times 'Mercé' can be used when triggered by the effects of 'Purge Enforcer of the Famiglie' to 2 per turn\n[Combat Start] Gain Haste next turn\n[On Use] Coin Power +X for every Y (Bleed + Tremor) on target\n[Clash Win] Inflict Tremor\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[Combat Start] For this turn, increase the number of times 'Mercé' can be used when triggered by the effects of 'Purge Enforcer of the Famiglie' to 2 per turn\n[Combat Start] Gain 1 Haste next turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 10,
 					"CoinCount": 1,
 					"Level": 0,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -42121,14 +42304,18 @@
 				],
 				"PassiveSkill": {
 					"Name": "Purge Enforcer of the Famiglie",
-					"Description": "When this unit kills an enemy or breaks a Part, gain Pierce Power Up next turn\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target based on Speed difference\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) HP is less than X%, use 'Mercé' on the target\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 2 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 2 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on the target (Once per turn)\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Pierce Power Up",
 						"Defense Power Down",
@@ -42137,14 +42324,206 @@
 				},
 				"SupportSkill": {
 					"Name": "Aim for the Gap",
-					"Description": "1 ally with the highest Speed: When using a Base Attack Skill, if unit's Speed is faster than main target's, inflict Defense Power Down on target based on Speed difference",
+					"Description": "1 ally with the highest Speed: When using a Base Attack Skill, if unit's Speed is faster than main target's, inflict Defense Power Down on target for every 3 Speed difference (Max 2 per turn)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Defense Power Down"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Gap Attack",
+					"Description": "[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Open Wound",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor Potency",
+						"Bleed Potency",
+						"Open Wound"
+					],
+					"AltSkill": {
+						"Name": "Mercé",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 2)\nIf enemy's (Core) has 20%- HP, deal +80% damage\n[On Hit] Inflict 1 Open Wound",
+						"DamageType": "Pierce",
+						"SinType": "Sloth",
+						"BasePower": 3,
+						"CoinPower": 6,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Open Wound"
+						]
+					}
+				},
+				"SkillTwo": {
+					"Name": "Stiletto Doppio",
+					"Description": "[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has 20%- HP, use 'Mercé'",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Tremor Count",
+						"Bleed Count",
+						"Open Wound",
+						"Follow Up"
+					]
+				},
+				"SkillThree": {
+					"Name": "Execution",
+					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Trigger Tremor Burst; redue target's Tremor Count by 1\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Bleed Potency",
+						"Open Wound",
+						"Amplitude Conversion",
+						"Tremor - Hemorrhage",
+						"Follow Up"
+					],
+					"AltSkill": {
+						"Name": "The Night's Awl",
+						"Description": "Deal +10% damage for every (Haste on self + Bind on target) (Max 40%)\n%If enemy (Core) has 20%- HP, deal +50% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +1 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 3,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Tremor Burst",
+							"Unbreakable Coin",
+							"Bleed Potency",
+							"Tremor Potency",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Hemorrhage",
+							"Spend Enemy Tremor Count",
+							"Fatal Wound"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "Dire Straits",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain 1 Haste next turn (Once per turn)\n[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 2,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Haste",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Painless Mercy",
+						"Description": "Unless Reused via external effects, Night Awl Capitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": []
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Purge Enforcer of the Famiglie",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 1 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 1 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on the target (Once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Pierce Power Up",
+						"Defense Power Down",
+						"Follow Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Aim for the Gap",
+					"Description": "1 ally with the highest Speed: When using a Base Attack Skill, if unit's Speed is faster than main target's, inflict Defense Power Down on target for every 3 Speed difference (Max 2 per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Defense Power Down"
 					]
