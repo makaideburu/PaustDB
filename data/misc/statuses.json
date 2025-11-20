@@ -1774,7 +1774,7 @@
 		"Name": "Deep Breath",
 		"Description": "Max Stack: 20\nOn Crit: At 15+ Poise and 5+ Poise Count, consume (Poise / 5) Poise to deal +(Poise Consumed x 4)% more damage on Critical Hit; then lose 1 Stack",
 		"Tags": [
-			"Spend Poise"
+			"Spend Poise Potency"
 		]
 	},
 	{
@@ -2654,13 +2654,14 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination [黑獸丸染]",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)\nWu Adept Yi Sang: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\nYou Sinclair: When using a Skill to inflict Ruputre or Rupture Count, inflict 1 Burn (3 times per turn)",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\nMao Adept Faust: Take -5% damage from skills\nMao Ryōshū: If this unit's Speed is faster than target's, deal +5% damage\nMao Outis: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\nSi Rodion: Inflict 1 Rupture On Critical Hit\nSi Gregor: Gain +1 Poise Count when dealing Rupture damage (Once per turn)\nWu Adept Yi Sang: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\nYou Adept Heathcliff: On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nYou Sinclair: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\nWei Don Quixote: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)",
 		"Tags": [
 			"Rupture Count",
 			"Rupture Potency",
 			"Poise Count",
 			"Tremor Burst",
-			"Burn Potency"
+			"Burn Potency",
+			"Sinking Potency"
 		]
 	},
 	{
@@ -3036,6 +3037,45 @@
 		"Description": "Max Stack: 7\nWhen Staggered, consume all Emergency Barrier Battery Stack and gain Charge Barrier by the Stack consumed",
 		"Tags": [
 			"Charge Barrier"
+		]
+	},
+	{
+		"Name": "Shattermark",
+		"Description": "Take +10% damage from Gluttony and Gloom Skills\nUnits with SP change their Panic Type to Shattermark\nUnits without SP gain Clash Power -1\nTurn End: Reduce 1 Stack\nEffect is not cumulative; inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Tags": [
+			"Change Panic Type",
+			"Clash Power Down"
+		]
+	},
+	{
+		"Name": "Shattermark (Low Morale)",
+		"Description": "Clash Power -1, Defense Level -2 on self",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Shattermark (Panic)",
+		"Description": "Clash Power -2, Defense Level -3 on self",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Burgeoning of Horns [-]",
+		"Description": "Max Stack: 3\nThis unit's Base Skill inflict +1 Rupture and Sinking Potency\nTurn End: Lose 1 Stack",
+		"Tags": [
+			"Rupture Potency",
+			"Sinking Potency"
+		]
+	},
+	{
+		"Name": "Battleblood Instinct",
+		"Description": "Max Stack: 20\nFor every Stack, deal +0.75% damage\nFor every 10 Stack, gain 1 Haste next turn",
+		"Tags": [
+			"Haste"
 		]
 	}
 ]

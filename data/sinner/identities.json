@@ -7015,7 +7015,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Poise Potency",
-							"Spend Poise",
+							"Spend Poise Potency",
 							"Spend Ready to Loose",
 							"Spend Target Aim",
 							"Lodged Arrow",
@@ -7195,7 +7195,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Poise Potency",
-							"Spend Poise",
+							"Spend Poise Potency",
 							"Spend Ready to Loose",
 							"Spend Target Aim",
 							"Lodged Arrow",
@@ -10451,7 +10451,8 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Clashable Guard"
+						"Clashable Guard",
+						"Love/Hate Count"
 					]
 				},
 				"InstallPassives": [
@@ -10658,7 +10659,8 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Clashable Guard"
+						"Clashable Guard",
+						"Love/Hate Count"
 					]
 				},
 				"InstallPassives": [
@@ -10709,6 +10711,318 @@
 						"Ally Charge Count",
 						"Ally Heal HP",
 						"Ally Heal SP"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 3000,
+		"Sinner": "Don Quixote",
+		"Identity": "Heishou Pack - Wei Branch",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 0.5,
+			"Pierce": 2,
+			"Blunt": 1
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Breakthrough",
+					"Description": "If target has Shattermark, deal +25% damage\nCoin Power +1 for every 6 (Rupture + Sinking) on target (Max 2)\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Seize the  Momentum, Shatter the Wall",
+					"Description": "Coin Power +1 for every 6 (Rupture + Sinking) on target (Max 2)\n[Combat Start] If unit has Burgeoning of Horns [-], convert the last Coin of this Skill into Unbreakable Coin; last Coin deals +5% damage for every Burgeoning of Horns [-]\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict +1 Sinking Count\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Sinking\n[On Hit] If this unit has Burgeoning of Horns [-], deal Slash damage equal to 10% of this Coin's final damage for every Burgeoning of Horns [-]",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Crushing Horns [-]",
+					"Description": "Coin Power +1 for every 6 (Rupture + Sinking) on target (Max 2)\n[Combat Start] If unit has Burgeoning of Horns [-], convert all Coins into Unbreakable Coins; deal +10% damage for every Burgeoning of Horns [-]\n[On Use] Gain 3 Burgeoning of Horns [-]\n<2>[On Hit] Inflict +2 Rupture Count\n[On Hit] Inflict +2 Sinking Count\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Sinking\n<4>If target has any Panic type changing effects, +10% damage for every Stack (Max 30%)\n[On Hit] Deal (25% of this Coin's final damage) Slash damage\n$If target has Shattermark, deal (50% of this Coin's final damage) Slash damage instead\n[On Hit] Inflict 3 Shattermark next turn\n$If target has any Panic type changing effects, inflict +3 Sinking Count (Once per turn)",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Burgeoning of Horns [-]",
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency",
+						"Shattermark"
+					]
+				},
+				"SkillDefense": {
+					"Name": "I shall crush all that standeth in our way!",
+					"Description": "[Clashable Counter]\nFinal Power +1 for every 3 (Rupture + Sinking) on target (Max 3)\n[On Use] Gain 3 Burgeoning of Horns [-] next turn\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Burgeoning of Horns [-]",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Lament of the Lost Sheep [-]",
+						"Description": "Upon activating Exalted Command with this unit, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\nOn the turn this unit Subtituted or Returned to the field, gain 3 Burgeoning of Horns [-]",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Burgeoning of Horns [-]"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Explosive Battering Ram",
+					"Description": "Deal +(-Target's SP / 3)% damage against targets with less than 0 SP (Max 15%; rounded down)\nDeal +1% damage for every 2 (Rupture + Sinking) on target (Max 15%)\n$Double this effect and max value against targets without SP\nIf unit has Burgeoning of Horns [-], the last Coin of this unit's Base Skills deal +15% damage\n$When attacking a Skill Slot equipped with a Defense Skill, deal +30% damage with the last Coin instead\n$When Clashing with a Clashable Guard Skill, Clash Power +3",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+					]
+				},
+				"SupportSkill": {
+					"Name": "Flesh-Rending Horn Growth",
+					"Description": "Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ Rupture Count or Sinking Count, inflict 1 Defense Level Down (2 times per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Defense Level Down"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Breakthrough",
+					"Description": "If target has 6+ (Rupture + Sinking), Coin Power +1\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Sinking Count\n<2>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Seize the  Momentum, Shatter the Wall",
+					"Description": "If target has 6+ (Rupture + Sinking), Coin Power +1\n[Combat Start] If unit has Burgeoning of Horns [-], convert the last Coin of this Skill into Unbreakable Coin\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict +1 Sinking Count\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 1 Sinking\n[On Hit] If unit has Burgeoning of Horns [-], deal Slash damage equal to 5% of this Coin's final damage for every Burgeoning of Horns [-]",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Crushing Horns [-]",
+					"Description": "If target has 6+ (Rupture + Sinking), Coin Power +1\n[Combat Start] If unit has Burgeoning of Horns [-], convert all Coins into Unbreakable Coins\n[On Use] Gain 3 Burgeoning of Horns [-]\n<2>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict +1 Sinking Count\n<3>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Sinking\n<4>If target has any Panic type changing effects, +5% damage for every Stack (Max 15%)\n[On Hit] Deal (25% of this Coin's final damage) Slash damage\n[On Hit] Inflict 3 Shattermark next turn",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Burgeoning of Horns [-]",
+						"Rupture Count",
+						"Sinking Count",
+						"Rupture Potency",
+						"Sinking Potency",
+						"Shattermark"
+					]
+				},
+				"SkillDefense": {
+					"Name": "I shall crush all that standeth in our way!",
+					"Description": "[Clashable Counter]\n[On Use] Gain 3 Burgeoning of Horns [-] next turn\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Burgeoning of Horns [-]",
+						"Rupture Potency",
+						"Sinking Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Lament of the Lost Sheep [-]",
+						"Description": "Upon activating Exalted Command with this unit, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\nOn the turn this unit Subtituted or Returned to the field, gain 3 Burgeoning of Horns [-]",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Burgeoning of Horns [-]"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Explosive Battering Ram",
+					"Description": "Deal +1% damage for every 2 (Rupture + Sinking) on target (Max 15%)\n$Double this effect and max value against targets without SP\nIf unit has Burgeoning of Horns [-], the last Coin of this unit's Base Skills deal +10% damage\n$When attacking a Skill Slot equipped with a Defense Skill, deal +20% damage with the last Coin instead\n$When Clashing with a Clashable Guard Skill, Clash Power +1",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+					]
+				},
+				"SupportSkill": {
+					"Name": "Flesh-Rending Horn Growth",
+					"Description": "Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ Rupture Count or Sinking Count, inflict 1 Defense Level Down (2 times per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Defense Level Down"
 					]
 				}
 			}
@@ -23739,7 +24053,7 @@
 						"Spend Concentration [Sniper]",
 						"Poise Count",
 						"Spend Ammo",
-						"Spend Poise"
+						"Spend Poise Potency"
 					],
 					"AltSkill": {
 						"Name": "AL-HV Pulverization Round",
@@ -23761,7 +24075,7 @@
 							"Spend Concentration [Sniper]",
 							"Poise Count",
 							"Spend Ammo - Atelier Logic",
-							"Spend Poise"
+							"Spend Poise Potency"
 						]
 					}
 				},
@@ -23927,7 +24241,7 @@
 						"Poise Potency",
 						"Spend Concentration [Sniper]",
 						"Spend Ammo",
-						"Spend Poise"
+						"Spend Poise Potency"
 					],
 					"AltSkill": {
 						"Name": "AL-HV Pulverization Round",
@@ -23948,7 +24262,7 @@
 							"Poise Potency",
 							"Spend Concentration [Sniper]",
 							"Spend Ammo - Atelier Logic",
-							"Spend Poise"
+							"Spend Poise Potency"
 						]
 					}
 				},
@@ -24638,6 +24952,416 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Charge Barrier"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 7000,
+		"Sinner": "Heathcliff",
+		"Identity": "Heishou Pack - You Branch Adept",
+		"World": "H Corp.",
+		"Speed": "4~7",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 0.5,
+			"Pierce": 1,
+			"Blunt": 2
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Peck 'em",
+					"Description": "[On Use] If target has 6+ (Burn + Rupture), Coin Power +1\n[On Use] Clash Power +1 for every 10 Burn on self (Max 2)\n[Clash Start] Apply 1 Burn and +1 Burn Count to target and self\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Burn\n[Heads Hit] Inflict +1 Rupture Count",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Self Burn Potency",
+						"Burn Count",
+						"Self Burn Count",
+						"Rupture Potency",
+						"Rupture Count"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Mutilating Talons",
+					"Description": "[On Use] If target has 6+ (Burn + Rupture), Coin Power +1\n[On Use] Clash Power +1 for every 10 Burn on self (Max 2)\n[Clash Start] Apply 1 Burn and +1 Burn Count to target and self\n<1>[On Hit] Inflict 1 Rupture\n[Heads Hit] Inflict +1 Burn Count\n<2>[On Hit] Inflict 1 Burn\n[Heads Hit] Inflict +1 Rupture Count\n<3>[On Hit] Gain 3 Burn and +1 Burn Count\n[On Hit] Deal ((Burn on self x 2)% of this Coin's final damage) Wrath damage (Max 20%)\n[Heads Hit] If this unit has Bloodflame [血炎] or less than 50% HP, Reuse this Coin (Once per Skill)",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Self Burn Potency",
+						"Burn Count",
+						"Self Burn Count",
+						"Rupture Potency",
+						"Rupture Count"
+					]
+				},
+				"SkillThree": {
+					"Name": "Bloodflame Massacre [血炎亂舞]",
+					"Description": "[Unfocused Volley]\nDeal +1.5% damage for every Burn on self (Max 30%)\n[Combat Start] If unit has Bloodflame [血炎] or less than 50% HP, convert all Coins to Unbreakable Coins\n[Before Use] At 20 Battleblood Instinct, activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven' instead\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[After Attack] Gain +2 Burn Count\n<1>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<2>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<3>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<4>[On Hit] Inflict +3 Rupture Count\n[On Hit] Deal ((Burn on self + Burn on target)% of this Coin's final damage) Gluttony damage against all targets (Max 20%)",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"MiscTags": [
+						"Unfocused Volley",
+						"Unbreakable Coin",
+						"Skill Change",
+						"Bloodflame [血炎]",
+						"Self Burn Count",
+						"Burn Potency",
+						"Self Burn Potency",
+						"Self HP Damage",
+						"Rupture Count"
+					],
+					"AltSkill": {
+						"Name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [-]",
+						"Description": "[Unfocused Volley]\nDeal +3% damage for every Burn on self (Max 60%)\nDeal +1% damage for every 2% (missing HP% on self + missing HP% on target) (Max 50%)\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)\n[On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets\n%If this is the final Coin, heal HP by the damage the above effect dealt",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Unfocused Volley",
+							"Unbreakable Coin",
+							"Bloodflame [血炎]",
+							"Self Burn Potency",
+							"Spend Battleblood Instinct",
+							"Spend Self Burn Potency",
+							"Heal HP",
+							"Rupture Count",
+							"Burn Count",
+							"Rupture Potency",
+							"Burn Potency"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "More Grub for Us",
+					"Description": "[Clashable Counter]\n[On Use] Gain 3 Bloodflame [血炎] next turn\n[On Use] If target has 10+ (Burn + Rupture), Base Power +1\n[On Use] If unit has Bloodflame [血炎], Coin Power +1\n[On Use] Deal +1% damage for every 3% HP this unit cumulatively lost this Encounter (Max 30%)\n[Clash Start] Gain +3 Burn Count (Once per turn)\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 1 Burn",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Bloodflame [血炎]",
+						"Self Burn Count",
+						"Rupture Count",
+						"Burn"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Gamefowl",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Subtitutes or Returns in",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bloodflame [血炎]",
+							"Self Burn Count"
+						]
+					},
+					{
+						"Name": "Flame Rooster's Death Defiance [-]",
+						"Description": "In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn\nAt next Turn Start, heal (20 + Burn on self)% HP, and remove all Burn on self (Max 49%; once per Encounter)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Unrelenting",
+							"Spend Self Burn Potency"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Bloody Storm of Blades",
+					"Description": "Combat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)\nGain Battleblood Instinct when meeting one of the following (10 per turn):\n$Gain 3 at Clash Start\n$Gain 1 when this unit hits with a Base Attack Skill or taking Burn damage\n$- At less than 50% HP, gain +1 Battleblood Instinct\n$Gain 5 On Kill",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Offense Level Up",
+						"Defense Level Up",
+						"Battleblood Instinct"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Backed Against a River",
+					"Description": "Turn End: If an ally with the lowest current HP percentage has less than 50% HP, that unit gains 1 Clash Power Up next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Clash Power"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Peck 'em",
+					"Description": "[On Use] If target has 6+ (Burn + Rupture), Coin Power +1\n[Clash Start] Apply 1 Burn and +1 Burn Count to target and self\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Burn",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Self Burn Potency",
+						"Burn Count",
+						"Self Burn Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Mutilating Talons",
+					"Description": "[On Use] If target has 6+ (Burn + Rupture), Coin Power +1\n[Clash Start] Apply 1 Burn and +1 Burn Count to target and self\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Burn\n<3>[On Hit] Gain 3 Burn and +1 Burn Count\n[Heads Hit] If this unit has Bloodflame [血炎] or less than 50% HP, Reuse this Coin (Once per Skill)",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Self Burn Potency",
+						"Burn Count",
+						"Self Burn Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Bloodflame Massacre [血炎亂舞]",
+					"Description": "[Unfocused Volley]\n[Combat Start] If unit has Bloodflame [血炎] or less than 50% HP, convert all Coins to Unbreakable Coins\n[Before Use] At 20 Battleblood Instinct, activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven' instead\n[On Use] Gain 3 Bloodflame [血炎]\n[After Attack] Gain +2 Burn Count\n<1>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<2>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<3>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<4>[On Hit] Inflict +3 Rupture Count",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"MiscTags": [
+						"Unfocused Volley",
+						"Unbreakable Coin",
+						"Skill Change",
+						"Bloodflame [血炎]",
+						"Self Burn Count",
+						"Burn Potency",
+						"Self Burn Potency",
+						"Self HP Damage",
+						"Rupture Count"
+					],
+					"AltSkill": {
+						"Name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [-]",
+						"Description": "[Unfocused Volley]\n[On Use] Gain 3 Bloodflame [血炎]\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Unfocused Volley",
+							"Unbreakable Coin",
+							"Bloodflame [血炎]",
+							"Self Burn Potency",
+							"Spend Battleblood Instinct",
+							"Spend Self Burn Potency",
+							"Heal HP",
+							"Rupture Count",
+							"Burn Count",
+							"Rupture Potency",
+							"Burn Potency"
+						]
+					}
+				},
+				"SkillDefense": {
+					"Name": "More Grub for Us",
+					"Description": "[Clashable Counter]\n[On Use] Gain 3 Bloodflame [血炎] next turn\n[On Use] If unit has Bloodflame [血炎], Coin Power +1\n[Clash Start] Gain +3 Burn Count (Once per turn)\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 1 Burn",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Bloodflame [血炎]",
+						"Self Burn Count",
+						"Rupture Count",
+						"Burn"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Gamefowl",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Subtitutes or Returns in",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bloodflame [血炎]",
+							"Self Burn Count"
+						]
+					},
+					{
+						"Name": "Flame Rooster's Death Defiance [-]",
+						"Description": "In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn\nAt next Turn Start, heal (20 + Burn on self)% HP, and remove all Burn on self (Max 49%; once per Encounter)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Unrelenting",
+							"Spend Self Burn Potency"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Bloody Storm of Blades",
+					"Description": "Combat Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (Max 3)\nGain Battleblood Instinct when meeting one of the following (10 per turn):\n$Gain 3 at Clash Start\n$Gain 1 when this unit hits with a Base Attack Skill or taking Burn damage\n$- At less than 50% HP, gain +1 Battleblood Instinct\n$Gain 5 On Kill",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 5
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Offense Level Up",
+						"Defense Level Up",
+						"Battleblood Instinct"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Backed Against a River",
+					"Description": "Turn End: If an ally with the lowest current HP percentage has less than 50% HP, that unit gains 1 Clash Power Up next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Clash Power"
 					]
 				}
 			}
@@ -27806,10 +28530,11 @@
 		"Identity": "Jeong's Office Rep",
 		"World": "???",
 		"Speed": "3~8",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 88,
+		"GrowthHP": 2.28,
 		"StaggerThresholds": [
-			0
+			65,
+			35
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -42125,10 +42850,12 @@
 		"Identity": "Night Awls Capitano",
 		"World": "???",
 		"Speed": "3~6",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
 		"StaggerThresholds": [
-			0
+			70,
+			40,
+			20
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -42238,7 +42965,7 @@
 					],
 					"AltSkill": {
 						"Name": "The Night's Awl",
-						"Description": "Deal +15% damage for every (Haste on self + Bind on target) (Max 60%)\nIf target has Shield, deal +30% damage (Core or Parts)\nDeal +1% damage for every 1% missing HP on enemy (Core)\n%If enemy (Core) has 20%- HP, deal +100% damage instead\n[On Use] Inflict 5 Defense Level Down\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 3)\n[Clash Win] Inflict 4 Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +1 Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
+						"Description": "Deal +15% damage for every (Haste on self + Bind on target) (Max 60%)\nIf target has Shield, deal +30% damage (Core or Parts)\nDeal +1% damage for every 1% missing HP on enemy (Core)\n$ If enemy (Core) has 20%- HP, deal +100% damage instead\n[On Use] Inflict 5 Defense Level Down\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 3)\n[Clash Win] Inflict 4 Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +1 Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 4,
@@ -42433,7 +43160,7 @@
 					],
 					"AltSkill": {
 						"Name": "The Night's Awl",
-						"Description": "Deal +10% damage for every (Haste on self + Bind on target) (Max 40%)\n%If enemy (Core) has 20%- HP, deal +50% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +1 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
+						"Description": "Deal +10% damage for every (Haste on self + Bind on target) (Max 40%)\n$ If enemy (Core) has 20%- HP, deal +50% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +1 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 3,

@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.0.2 (2025-11-20)",
+        "```did you know ego gifts have tiers?```"
+      ],
+      [
         "3.0.1 (2025-11-03)",
         "```did you know captain ishmael is every heishou, all at once\ni do now```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.8.1 (2025-07-17)",
         "```fix for calc error with modified minus coins (did not matter until now)```"
-      ],
-      [
-        "2.8.0 (2025-07-14)",
-        "```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
       ]
     ],
     "OldItems": [
@@ -352,6 +352,10 @@
       [
         "2.7.1 (2025-07-08)",
         "```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
+      ],
+      [
+        "2.8.0 (2025-07-14)",
+        "```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
       ]
     ],
     "HelpFooter": ""

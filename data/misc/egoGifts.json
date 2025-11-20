@@ -6968,7 +6968,7 @@
         "Description": "Turn End: When an ally has 20+ Poise, said unit consumes 1 Poise to gain +1 Poise Count",
         "Rank": 1,
         "MiscTags": [
-          "Spend Poise",
+          "Spend Poise Potency",
           "Poise Count"
         ]
       }
@@ -6989,7 +6989,7 @@
         "Description": "Activates when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count. (Except E.G.O Skills, counts Identities on field)\nTurn End: If an ally has 20+ Poise, the ally consumes 1 Poise to gain +1 Poise Count\nTurn End: 1 ally with the highest Poise and 1 ally with the highest Poise Count gain 2 Haste and 1 Offense Level Up (Can be the same ally)\nWhen gaining Poise from Skill effects, gain +2 Poise and +2 Poise Count. At less than 20 (Poise + Poise Count), gain +3 Poise and +3 Poise Count instead.\nTurn End: At 40- Poise, consume 15 Poise to Discard 1 lowest rank Skill. (Once per turn per ally)",
         "Rank": 1,
         "MiscTags": [
-          "Spend Poise",
+          "Spend Poise Potency",
           "Poise Count",
           "Haste",
           "Offense Level Up",
@@ -8577,7 +8577,7 @@
           "Slash Power Up",
           "Faction Buff: Blade Lineage",
           "HP Damage",
-          "Spend Poise"
+          "Spend Poise Potency"
         ]
       }
     ],
