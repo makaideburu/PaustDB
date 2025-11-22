@@ -17568,6 +17568,7 @@
 						4,
 						6
 					],
+					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17595,6 +17596,7 @@
 						6,
 						6
 					],
+					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17626,6 +17628,7 @@
 						7,
 						7
 					],
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17661,6 +17664,7 @@
 							7,
 							7
 						],
+						"CoinModifier": 2,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
@@ -17771,6 +17775,7 @@
 						4,
 						6
 					],
+					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17798,6 +17803,7 @@
 						6,
 						6
 					],
+					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17829,6 +17835,7 @@
 						7,
 						7
 					],
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -17864,6 +17871,7 @@
 							6,
 							6
 						],
+						"CoinModifier": 1,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
@@ -22167,6 +22175,8 @@
 						8,
 						10
 					],
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -22279,6 +22289,8 @@
 						6,
 						8
 					],
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -25528,6 +25540,7 @@
 						6,
 						16
 					],
+					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -25674,6 +25687,7 @@
 						6,
 						16
 					],
+					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -36510,6 +36524,8 @@
 						6,
 						10
 					],
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -36672,6 +36688,8 @@
 						5,
 						7
 					],
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -40860,14 +40878,14 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 1,
-					"CoinModifier": 0,
-					"CoinCountModifier": 0,
 					"ClashesWithCoinOverride": false,
 					"CoinOverride": [
 						6,
 						6,
 						11
 					],
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -40999,14 +41017,14 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
-					"CoinCountModifier": 0,
 					"ClashesWithCoinOverride": false,
 					"CoinOverride": [
 						5,
 						5,
 						10
 					],
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
