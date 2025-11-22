@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.1.1 (2025-11-22)",
+        "```sorts now respect usage of -mod in display```"
+      ],
+      [
         "3.1.0 (2025-11-22)",
         "```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.10.0 (2025-09-22)",
         "```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
-      ],
-      [
-        "2.9.0 (2025-08-11)",
-        "```cover yourself in alt skills```"
       ]
     ],
     "OldItems": [
@@ -360,6 +360,10 @@
       [
         "2.8.1 (2025-07-17)",
         "```fix for calc error with modified minus coins (did not matter until now)```"
+      ],
+      [
+        "2.9.0 (2025-08-11)",
+        "```cover yourself in alt skills```"
       ]
     ],
     "HelpFooter": ""

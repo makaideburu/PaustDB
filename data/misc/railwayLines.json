@@ -67,7 +67,7 @@
     "Stops": [
       {
         "Id": 1,
-        "Name": "First Stop - Contact",
+        "Name": "First Stop: Contact",
         "Waves": [
           {
             "WaveNumber": 1,
@@ -136,6 +136,112 @@
         ]
       },
       {
+        "Id": 2,
+        "Name": "Station #2: Restoration",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "Los Mariachis",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.75
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Tieqiu Crew",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.75
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "Los Mariachis",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.75
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Tieqiu Crew",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 2,
+                  "Blunt": 0.75
+                },
+                "SinResist": {
+                  "Wrath": 0.75,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.75,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Aida",
+                "Count": 1,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 1,
+                  "Blunt": 0.5
+                },
+                "SinResist": {
+                  "Wrath": 0.5,
+                  "Lust": 1.5,
+                  "Sloth": 1,
+                  "Gluttony": 2,
+                  "Gloom": 0.5,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
         "Id": 3,
         "Name": "Station #3 - Sinkage",
         "Waves": [
@@ -144,7 +250,7 @@
             "Abnormalities": [
               {
                 "Name": "Blubbering Toad",
-                "Refraction": "No Status Refractions",
+                "Refraction": "",
                 "Count": 1,
                 "Parts": [
                   {
@@ -199,6 +305,958 @@
                       "Gloom": 0.5,
                       "Pride": 0.75,
                       "Envy": 1.5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Name": "Station #4: Reunion",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "N Corp. Inquisitors",
+                "Count": 5,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 2,
+                  "Gluttony": 1.5,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "N Corp. Inquisitors",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 0.75,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.75,
+                  "Sloth": 2,
+                  "Gluttony": 1.5,
+                  "Gloom": 1,
+                  "Pride": 0.75,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "Guido",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 0.5,
+                  "Pierce": 1,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 0.5,
+                  "Sloth": 2,
+                  "Gluttony": 1.5,
+                  "Gloom": 1,
+                  "Pride": 0.5,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Name": "Station #5: Insulation",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Alleyway Watchdog",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.5,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 2,
+                      "Envy": 0.5
+                    }
+                  },
+                  {
+                    "Name": "Telepole",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.5,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Person",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.75,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.75,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Name": "Station #6: Pickup",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "kqe-1j-23",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 0.5
+                    }
+                  }
+                ]
+              }
+            ],
+            "Enemies": [
+              {
+                "Name": "Heart of the Townsfolk",
+                "Count": -1,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 1.5,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 1,
+                  "Lust": 1,
+                  "Sloth": 1,
+                  "Gluttony": 1,
+                  "Gloom": 1.5,
+                  "Pride": 1,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Name": "Station #7: Headlessness",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Headless Ichthys",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Right Leg",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Left Leg",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Tail",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Name": "Station #8: Existence",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Proceeding Inquisitor",
+                "Refraction": "",
+                "Count": 2,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.75,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 0.75,
+                      "Envy": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Everything There of an Inquisitor",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.5,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.75,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 0.75,
+                      "Envy": 2
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Name": "Station #9: Serum",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Enemies": [
+              {
+                "Name": "K Corp. Checkpoint Security",
+                "Count": 4,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.75,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 2,
+            "Enemies": [
+              {
+                "Name": "K Corp. Checkpoint Security",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 1,
+                  "Pierce": 0.75,
+                  "Blunt": 2
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              },
+              {
+                "Name": "K Corp. Class 3 Staff",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.75,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              }
+            ]
+          },
+          {
+            "WaveNumber": 3,
+            "Enemies": [
+              {
+                "Name": "K Corp. Class 3 Empowered Staff",
+                "Count": 2,
+                "DamageResist": {
+                  "Slash": 2,
+                  "Pierce": 0.75,
+                  "Blunt": 1
+                },
+                "SinResist": {
+                  "Wrath": 2,
+                  "Lust": 1,
+                  "Sloth": 1.5,
+                  "Gluttony": 1,
+                  "Gloom": 1,
+                  "Pride": 2,
+                  "Envy": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 10,
+        "Name": "Station #10: Forked Tongue",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Four-Legged Beast",
+                "Refraction": "",
+                "Count": 2,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 2,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 2,
+                      "Lust": 1,
+                      "Sloth": 0.75,
+                      "Gluttony": 0.75,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Slithering Inquisitor",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Left Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Right Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 11,
+        "Name": "Station #11: Energization",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Refracted Alleyway Watchdog",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.5,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 2,
+                      "Envy": 0.5
+                    }
+                  },
+                  {
+                    "Name": "Telepole",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.5,
+                      "Blunt": 1.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Person",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.75,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  },
+                  {
+                    "Name": "Head",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1.5,
+                      "Pierce": 0.75,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.5,
+                      "Pride": 2,
+                      "Envy": 0.75
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Refracted Headless Ichthys",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1.5,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 0.75,
+                      "Lust": 1.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Right Leg",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Left Leg",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 0.75,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Tail",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 1.5,
+                      "Gluttony": 1,
+                      "Gloom": 0.75,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 12,
+        "Name": "Station #12: Purity",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "Kromer",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Kromer the Dreamer of Human Wholeness",
+                "Refraction": "",
+                "Count": -1,
+                "Parts": [
+                  {
+                    "Name": "Maw",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 2,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Left Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.75,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Right Arm",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 0.75,
+                      "Blunt": 0.5
+                    },
+                    "SinResist": {
+                      "Wrath": 1.5,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1.5,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 13,
+        "Name": "Last Stop: Non-self",
+        "Waves": [
+          {
+            "WaveNumber": 1,
+            "Abnormalities": [
+              {
+                "Name": "My Form Empties",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Buddha Mūrti",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 2
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 2,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  },
+                  {
+                    "Name": "Stone Seat",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 1,
+                      "Blunt": 2
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 2,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Lured Guido",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 0.75,
+                      "Pierce": 1,
+                      "Blunt": 2
+                    },
+                    "SinResist": {
+                      "Wrath": 2,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Lured Aida",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 1,
+                      "Pierce": 2,
+                      "Blunt": 0.75
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 0.5,
+                      "Sloth": 1,
+                      "Gluttony": 1,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 2
+                    }
+                  }
+                ]
+              },
+              {
+                "Name": "Lured Festered G Corp. H. Manager",
+                "Refraction": "",
+                "Count": 1,
+                "Parts": [
+                  {
+                    "Name": "Body",
+                    "Count": 1,
+                    "DamageResist": {
+                      "Slash": 2,
+                      "Pierce": 0.75,
+                      "Blunt": 1
+                    },
+                    "SinResist": {
+                      "Wrath": 1,
+                      "Lust": 1,
+                      "Sloth": 2,
+                      "Gluttony": 0.75,
+                      "Gloom": 1,
+                      "Pride": 1,
+                      "Envy": 1
                     }
                   }
                 ]
