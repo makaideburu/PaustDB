@@ -87,7 +87,7 @@
       ],
       [
         "Notice on sorting",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though."
+        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential, maxclash, minclash` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power (Ryoshu's 4th Match Flame).\nUnique to E.G.O, sorting by a sin (i.e. wrath, lust, envy) will sort by sin resists. Only one at a time though."
       ]
     ]
   },
@@ -109,7 +109,7 @@
       ],
       [
         "Notice on sorting",
-        "`-sort` will accept `maxpower, minpower, maxpotential, minpotential` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power or coin reuse."
+        "`-sort` will accept `maxpower, minpower, maxsum, minsum, maxclash, minclash` as modifiers in descending order. Do -sort asc 'whatever' to go the other direction.\nAdding `-mod` will attempt to include additional coin modifiers, such as conditional coin power or coin reuse."
       ]
     ],
     "HelpFooter": "The skill query is particularly volatile, and the number of results is subject to change at any given time."
@@ -172,6 +172,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.1.0 (2025-11-22)",
+        "```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
+      ],
+      [
         "3.0.2 (2025-11-20)",
         "```did you know ego gifts have tiers?```"
       ],
@@ -190,10 +194,6 @@
       [
         "2.9.0 (2025-08-11)",
         "```cover yourself in alt skills```"
-      ],
-      [
-        "2.8.1 (2025-07-17)",
-        "```fix for calc error with modified minus coins (did not matter until now)```"
       ]
     ],
     "OldItems": [
@@ -356,6 +356,10 @@
       [
         "2.8.0 (2025-07-14)",
         "```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
+      ],
+      [
+        "2.8.1 (2025-07-17)",
+        "```fix for calc error with modified minus coins (did not matter until now)```"
       ]
     ],
     "HelpFooter": ""
