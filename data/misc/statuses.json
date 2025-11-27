@@ -831,7 +831,7 @@
 		"Name": "Assist Attack",
 		"Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End.\nThe Skill used as an Assist Attack does not affect Unit B's upcoming Skills list.",
 		"Tags": [
-			"Follow Up"
+			"Ally Follow Up"
 		]
 	},
 	{
@@ -1641,7 +1641,7 @@
 		"Name": "Target Spotted",
 		"Description": "If Unit A applies this effect to Unit B:\nUnit B follows up with an Unoppose Attck with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End\nThe Skill used due to this effect does not affect Unit B's upcoming Skill list",
 		"Tags": [
-			"Follow Up"
+			"Ally Follow Up"
 		]
 	},
 	{
@@ -1665,7 +1665,7 @@
 		"Name": "Melee Support",
 		"Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with 'Melee Suport' against the same enemy that attacked Unit A\nActivates at Unit A's Skill End\nThe Skill used due to Melee Support does not affect Unit B's upcoming Skill list",
 		"Tags": [
-			"Follow Up"
+			"Ally Follow Up"
 		]
 	},
 	{
@@ -2615,7 +2615,7 @@
 		"Name": "Exalted Command",
 		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if unit B's Skill 3 is not unlocked",
 		"Tags": [
-			"Follow Up"
+			"Ally Follow Up"
 		]
 	},
 	{
@@ -2630,7 +2630,7 @@
 		"Name": "Your Will Guides My Blade.",
 		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End.\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills",
 		"Tags": [
-			"Follow Up"
+			"Ally Follow Up"
 		]
 	},
 	{

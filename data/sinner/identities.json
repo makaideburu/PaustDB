@@ -21837,7 +21837,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Ally Heal SP",
-							"Follow Up",
+							"Ally Follow Up",
 							"Leash-holder of All Heishou",
 							"Life from Death [死中求活]"
 						]
@@ -22056,7 +22056,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Ally Heal SP",
-							"Follow Up",
+							"Ally Follow Up",
 							"Leash-holder of All Heishou",
 							"Life from Death [死中求活]"
 						]
@@ -44315,7 +44315,7 @@
 				},
 				"SkillThree": {
 					"Name": "Execution",
-					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor and trigger Tremor Burst; redue target's Tremor Count by 1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Tremor and +1 Tremor Count\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
+					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Tremor and +1 Tremor Count\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -44517,7 +44517,7 @@
 				},
 				"SkillThree": {
 					"Name": "Execution",
-					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Trigger Tremor Burst; redue target's Tremor Count by 1\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
+					"Description": "[Before Use] If target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] If target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 3,

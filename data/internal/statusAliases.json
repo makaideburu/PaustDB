@@ -1163,19 +1163,19 @@
 	{
 		"entry": "assist attack",
 		"aliases": [
-			"follow up"
+			"ally follow up"
 		]
 	},
 	{
 		"entry": "target spotted",
 		"aliases": [
-			"follow up"
+			"ally follow up"
 		]
 	},
 	{
 		"entry": "melee support",
 		"aliases": [
-			"follow up"
+			"ally follow up"
 		]
 	},
 	{
@@ -1344,7 +1344,15 @@
 	{
 		"entry": "faction buff: shi association",
 		"aliases": [
-			"faction buff"
+			"faction buff",
+			"faction buff: shi"
+		]
+	},
+	{
+		"entry": "faction buff: dieci association",
+		"aliases": [
+			"faction buff",
+			"faction buff: dieci"
 		]
 	},
 	{
@@ -1354,9 +1362,17 @@
 		]
 	},
 	{
+		"entry": "faction buff: t corp.",
+		"aliases": [
+			"faction buff",
+			"faction buff: t corp"
+		]
+	},
+	{
 		"entry": "faction buff: w corp.",
 		"aliases": [
-			"faction buff"
+			"faction buff",
+			"faction buff: w corp"
 		]
 	},
 	{
@@ -1713,7 +1729,7 @@
 	{
 		"entry": "exalted command",
 		"aliases": [
-			"follow up"
+			"ally follow up"
 		]
 	},
 	{
@@ -1726,7 +1742,7 @@
 	{
 		"entry": "your will guides my blade.",
 		"aliases": [
-			"follow up"
+			"ally follow up"
 		]
 	},
 	{
