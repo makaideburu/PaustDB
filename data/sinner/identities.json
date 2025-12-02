@@ -4,6 +4,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "4~8",
 		"BaseHP": 72,
 		"GrowthHP": 2.48,
@@ -247,6 +252,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Seven Association South Section 6",
 		"World": "The Seven Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Seven Association"
+		],
 		"Speed": "5~8",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -488,6 +498,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Molar Office Fixer",
 		"World": "Molar Office",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Molar Office"
+		],
 		"Speed": "4~7",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -758,6 +773,10 @@
 		"Sinner": "Yi Sang",
 		"Identity": "The Pequod First Mate",
 		"World": "U Corp.",
+		"Season": 3,  
+		"Traits": [
+			"The Pequod"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -1012,6 +1031,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Dieci Association South Section 4",
 		"World": "The Dieci Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Dieci Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -1275,6 +1299,12 @@
 		"Sinner": "Yi Sang",
 		"Identity": "LCE E.G.O::Lantern",
 		"World": "The LCE",
+		"Season": 5,  
+		"Traits": [
+			"Limbus Company",
+			"LCE",
+			"E.G.O Gear"
+		],
 		"Speed": "4~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -1543,6 +1573,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Blade Lineage Salsu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -1786,6 +1821,10 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Effloresced E.G.O::Spicebush",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Technology Liberation Alliance"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -2038,6 +2077,10 @@
 		"Sinner": "Yi Sang",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -2,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "3~7",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -2296,6 +2339,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "The Ring Pointilist Student",
 		"World": "The Ring",
+		"Season": -4,  
+		"Traits": [
+			"Syndicate",
+			"The Ring"
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -2574,6 +2622,12 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Lobotomy E.G.O::Solemn Lament",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 4,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "3~8",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -2868,6 +2922,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Liu Association South Section 3",
 		"World": "The Liu Association Southern Branch",
+		"Season": -5,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 66,
 		"GrowthHP": 2.73,
@@ -3120,6 +3179,11 @@
 		"Sinner": "Yi Sang",
 		"Identity": "N Corp. E.G.O::Fell Bullet",
 		"World": "N Corp.",
+		"Season": 6,  
+		"Traits": [
+			"N Corp.",
+			"E.G.O Gear"
+		],
 		"Speed": "4~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -3486,6 +3550,14 @@
 		"Sinner": "Yi Sang",
 		"Identity": "Heishou Pack - Wu Branch Adept",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Jia Family",
+			"Heishou Pack",
+			"Heishou Pack Adept",
+			"Heishou Pack - Wu Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 66,
 		"GrowthHP": 3.41,
@@ -3883,6 +3955,11 @@
 		"Sinner": "Faust",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "2~4",
 		"BaseHP": 84,
 		"GrowthHP": 2.9,
@@ -4119,6 +4196,11 @@
 		"Sinner": "Faust",
 		"Identity": "Lobotomy Corp. Remnant",
 		"World": "L Corp.",
+		"Season": 1,  
+		"Traits": [
+			"Fixer",
+			"Lobootmy Corp. Branch"
+		],
 		"Speed": "3~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -4360,6 +4442,10 @@
 		"Sinner": "Faust",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -1,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "2~4",
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
@@ -4607,6 +4693,11 @@
 		"Sinner": "Faust",
 		"Identity": "Zwei Association South Section 4",
 		"World": "The Zwei Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -4853,6 +4944,11 @@
 		"Sinner": "Faust",
 		"Identity": "Wuthering Heights Butler",
 		"World": "Wuthering Heights",
+		"Season": 5,  
+		"Traits": [
+			"Fixer",
+			"Wuthering Heights"
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
@@ -5093,6 +5189,11 @@
 		"Sinner": "Faust",
 		"Identity": "The One Who Grips",
 		"World": "N Corp. Fanatics",
+		"Season": 1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "4~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -5355,6 +5456,11 @@
 		"Sinner": "Faust",
 		"Identity": "Seven Association South Section 4",
 		"World": "The Seven Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Seven Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.4,
@@ -5611,6 +5717,9 @@
 		"Sinner": "Faust",
 		"Identity": "Lobotomy E.G.O::Regret",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 1,
+		"IsWalpurgis": true,  
+		"Traits": [],
 		"Speed": "3~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -5882,6 +5991,11 @@
 		"Sinner": "Faust",
 		"Identity": "Blade Lineage Salsu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "3~8",
 		"BaseHP": 76,
 		"GrowthHP": 2.5,
@@ -6136,6 +6250,12 @@
 		"Sinner": "Faust",
 		"Identity": "MultiCrack Office Rep.",
 		"World": "MultiCrack Office",
+		"Season": 4,  
+		"Traits": [
+			"Fixer",
+			"MultiCrack Office",
+			"Mechanical Amalgam"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -6391,6 +6511,12 @@
 		"Sinner": "Faust",
 		"Identity": "LCE E.G.O::Ardor Blossom Star",
 		"World": "The LCE",
+		"Season": 5,  
+		"Traits": [
+			"Limbus Company",
+			"LCE",
+			"E.G.O Gear"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -6733,6 +6859,13 @@
 		"Sinner": "Faust",
 		"Identity": "Heishou Pack - Mao Branch Adept",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack Adept",
+			"Heishou Pack - Mao Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 76,
 		"GrowthHP": 3.19,
@@ -7127,6 +7260,11 @@
 		"Sinner": "Faust",
 		"Identity": "Shi Association East Section 3",
 		"World": "The Shi Association Eastern Branch",
+		"Season": -6,  
+		"Traits": [
+			"Fixer",
+			"Shi Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 60,
 		"GrowthHP": 2.82,
@@ -7523,6 +7661,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~6",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -7759,6 +7902,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Shi Association South Section 5 Director",
 		"World": "The Shi Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Shi Association"
+		],
 		"Speed": "3~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -7997,6 +8145,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "N Corp. Mittelhammer",
 		"World": "N Corp. Fanatics",
+		"Season": 1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "2~5",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -8242,6 +8395,12 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Lobotomy E.G.O::Lantern",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 2,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -8495,6 +8654,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Blade Lineage Salsu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "4~8",
 		"BaseHP": 73,
 		"GrowthHP": 2.4,
@@ -8746,6 +8910,10 @@
 		"Sinner": "Don Quixote",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -1,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "3~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -8994,6 +9162,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Cinq Association South Section 5 Director",
 		"World": "The Cinq Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Cinq Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 72,
 		"GrowthHP": 2.28,
@@ -9239,6 +9412,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "The Middle Little Sister",
 		"World": "The Middle",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"The Middle"
+		],
 		"Speed": "4~6",
 		"BaseHP": 86,
 		"GrowthHP": 2.95,
@@ -9493,6 +9671,10 @@
 		"Sinner": "Don Quixote",
 		"Identity": "T Corp. Class 3 Collection Staff",
 		"World": "T Corp.",
+		"Season": -4,  
+		"Traits": [
+			"T Corp."
+		],
 		"Speed": "4~7",
 		"BaseHP": 95,
 		"GrowthHP": 3.26,
@@ -9768,6 +9950,12 @@
 		"Sinner": "Don Quixote",
 		"Identity": "The Manager of La Manchaland",
 		"World": "La Manchaland",
+		"Season": 5,  
+		"Traits": [
+			"La Manchaland",
+			"Bloodfiend",
+			"Second Kindred"
+		],
 		"Speed": "4~7",
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
@@ -10341,6 +10529,11 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Cinq Association East Section 3",
 		"World": "The Cinq Association Eastern Branch",
+		"Season": -5,  
+		"Traits": [
+			"Fixer",
+			"Cinq Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -10603,6 +10796,12 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Lobotomy E.G.O::In the Name of Love and Hate",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 6,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -11055,6 +11254,12 @@
 		"Sinner": "Don Quixote",
 		"Identity": "Heishou Pack - Wei Branch",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - Wei Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -11376,6 +11581,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~6",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -11611,6 +11821,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Seven Association South Section 6",
 		"World": "The Seven Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Seven Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
@@ -11854,6 +12069,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "LCCB Assistant Manager",
 		"World": "The LCCB",
+		"Season": 3,  
+		"Traits": [
+			"Limbus Company",
+			"LCC"
+		],
 		"Speed": "4~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -12111,6 +12331,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Liu Association South Section 4",
 		"World": "The Liu Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -12355,6 +12580,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "District 20 Yurodivy",
 		"World": "The District 20 Backstreets",
+		"Season": 4,  
+		"Traits": [
+			"Syndicate",
+			"Yurodivye"
+		],
 		"Speed": "4~7",
 		"BaseHP": 71,
 		"GrowthHP": 2.4,
@@ -12611,6 +12841,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Kurokumo Clan Wakashu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "3~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -12855,6 +13090,12 @@
 		"Sinner": "Ryōshū",
 		"Identity": "R.B. Chef de Cuisine",
 		"World": "The District 23 Backstreets",
+		"Season": 1,  
+		"Traits": [
+			"The Backstreets",
+			"Syndicate",
+			"R.B."
+		],
 		"Speed": "3~6",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -13108,6 +13349,10 @@
 		"Sinner": "Ryōshū",
 		"Identity": "W Corp. L3 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -2,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "3~6",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -13358,6 +13603,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Edgar Family Chief Butler",
 		"World": "Wuthering Heights",
+		"Season": 4, 
+		"Traits": [
+			"Fixer",
+			"Edgar Family"
+		],
 		"Speed": "3~8",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -13619,6 +13869,12 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Lobotomy E.G.O::Red Eyes & Penitence",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 4,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "3~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
@@ -13995,6 +14251,12 @@
 		"Sinner": "Ryōshū",
 		"Identity": "Heishou Pack - Mao Branch",
 		"World": "H Corp.",
+		"Season": 5,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - Mao Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
@@ -14248,6 +14510,11 @@
 		"Sinner": "Ryōshū",
 		"Identity": "N Corp. E.G.O::Contempt, Awe",
 		"World": "N Corp.",
+		"Season": 6,  
+		"Traits": [
+			"N Corp.",
+			"E.G.O Gear"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -14668,10 +14935,176 @@
 		]
 	},
 	{
+		"Id": 4000,
+		"Sinner": "Ryōshū",
+		"Identity": "Drifting Blade of Hongyuan",
+		"World": "???",
+		"Season": 6,  
+		"Traits": [],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"Name": "Hey, Back Off",
+					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n[On Unopposed Attack] Inflict Rupture Count\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Rupture Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Engraved in Flesh and Bone [-]",
+					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Gain Poise based on Rupture on target\n<3>Deal more damage on Critical Hit\n[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Rupture Count",
+						"Poise Potency",
+						"Rupture Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Aiding Strike [-]",
+					"Description": "[On Use] Gain Protector's Stance\n[On Use] If target has X+ negative effects, Final Power +Y\n[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n[On Use] Gain Poise\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture\n<3>[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture\n<4>[Coin Start] Deal more damage on Critical Hit based on (Poise on self + Rupture on target)\n[On Hit] Inflict Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Protector's Stance",
+						"Poise Count",
+						"Poise Potency",
+						"Rupture Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillDefense": {
+					"Name": "Sentinel",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain Protector's Stance\n[On Use] This Skill gains X Defense Level for every Y% HP this unit cumulatively lost in this Encounter\n[Clash Win] Gain Poise equal to Rupture on target\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Protector's Stance",
+						"Poise Potency",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "I.L.T.L.T (I would've Liked to walk The Lord's path Together)",
+						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Follow Up",
+							"Protector's Stance"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Loyal Warrior",
+					"Description": "If an ally is killed by enemy attack, or if the attacked ally's HP is less than X% after the attack, Drifting Blade of Hongyuan Ryōshū uses 'Aiding Strike' as an Unopposed Attack against that enemy After the enemy's Attack\n$ The Lord of Hongyuan Hong Lu may activate this effect past its usage limit\nIf 'Hey, Back Off' is activated via the passive 'I.L.T.L.T.', the Skill deals more damage on Critical Hit. Heal X SP for 1 other ally with the lowest SP",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Follow Up",
+						"Ally Heal SP"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Drifter",
+					"Description": "Combat Start: The ally with the earliest Deployment order gains X Shield for every Y Poise on self",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Shield"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 5101,
 		"Sinner": "Meursault",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "2~3",
 		"BaseHP": 90,
 		"GrowthHP": 3.1,
@@ -14917,6 +15350,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Liu Association South Section 6",
 		"World": "The Liu Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "2~5",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -15163,6 +15601,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Rosespanner Workshop Fixer",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Rosespanner Workshop"
+		],
 		"Speed": "3~8",
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
@@ -15410,6 +15853,11 @@
 		"Sinner": "Meursault",
 		"Identity": "The Middle Little Brother",
 		"World": "The Middle",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"The Middle"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -15665,6 +16113,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Dead Rabbits Boss",
 		"World": "Wuthering Heights",
+		"Season": 4,  
+		"Traits": [
+			"Syndicate",
+			"The Dead Rabbits"
+		],
 		"Speed": "4~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -15912,6 +16365,10 @@
 		"Sinner": "Meursault",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -1,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "4~8",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -16161,6 +16618,11 @@
 		"Sinner": "Meursault",
 		"Identity": "N Corp. Großhammer",
 		"World": "N Corp. Fanatics",
+		"Season": -1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "3~5",
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
@@ -16424,6 +16886,10 @@
 		"Sinner": "Meursault",
 		"Identity": "R Corp. 4th Pack Rhino",
 		"World": "R Corp.",
+		"Season": -2,  
+		"Traits": [
+			"R Corp."
+		],
 		"Speed": "3~5",
 		"BaseHP": 95,
 		"GrowthHP": 3,
@@ -16676,6 +17142,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Blade Lineage Mentor",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.73,
@@ -17005,6 +17476,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Dieci Association South Section 4 Director",
 		"World": "The Dieci Association Southern Branch",
+		"Season": -4,  
+		"Traits": [
+			"Fixer",
+			"Dieci Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -17273,6 +17749,11 @@
 		"Sinner": "Meursault",
 		"Identity": "Cinq Association West Section 3",
 		"World": "The Cinq Association Western Branch",
+		"Season": 5,  
+		"Traits": [
+			"Fixer",
+			"Cinq Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -17538,6 +18019,11 @@
 		"Sinner": "Meursault",
 		"Identity": "The Thumb East Capo IIII",
 		"World": "The Thumb",
+		"Season": 6,  
+		"Traits": [
+			"Syndicate",
+			"The Thumb"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -17971,6 +18457,12 @@
 		"Sinner": "Meursault",
 		"Identity": "The Prince of La Manchaland",
 		"World": "Fallen La Manchaland",
+		"Season": 6,  
+		"Traits": [
+			"La Manchaland",
+			"Bloodfiend",
+			"Third Kindred"
+		],
 		"Speed": "4~7",
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
@@ -18407,6 +18899,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~6",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -18651,6 +19148,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Kurokumo Clan Wakashu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -18893,6 +19395,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Liu Association South Section 5",
 		"World": "The Liu Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "3~6",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -19140,6 +19647,10 @@
 		"Sinner": "Hong Lu",
 		"Identity": "W Corp. L2 Cleanup Agent",
 		"World": "W Corp.",
+		"Season": -2,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -19389,6 +19900,13 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Hook Office Fixer",
 		"World": "The Former Library Guests - 1",
+		"Season": 1,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"The Backstreets",
+			"Syndicate",
+			"Hook Office"
+		],
 		"Speed": "3~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.38,
@@ -19641,6 +20159,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Fanghunt Office Fixer",
 		"World": "Fanghunt Office",
+		"Season": 5,  
+		"Traits": [
+			"Fixer",
+			"Fanghunt Office"
+		],
 		"Speed": "3~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -19893,6 +20416,12 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Tingtang Gang Gangleader",
 		"World": "The J Corp. Backstreets",
+		"Season": 1,  
+		"Traits": [
+			"The Backstreets",
+			"Syndicate",
+			"Tingtang Gang"
+		],
 		"Speed": "3~6",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -20133,6 +20662,10 @@
 		"Sinner": "Hong Lu",
 		"Identity": "K Corp. Class 3 Excision Staff",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"K Corp."
+		],
 		"Speed": "2~6",
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
@@ -20385,6 +20918,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Dieci Association South Section 4",
 		"World": "The Dieci Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Dieci Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 79,
 		"GrowthHP": 2.49,
@@ -20636,6 +21174,11 @@
 		"Sinner": "Hong Lu",
 		"Identity": "District 20 Yurodivy",
 		"World": "The District 20 Backstreets",
+		"Season": 5,  
+		"Traits": [
+			"Syndicate",
+			"Yurodivye"
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -20894,6 +21437,12 @@
 		"Sinner": "Hong Lu",
 		"Identity": "Full-Stop Office Rep",
 		"World": "The Former Library Guests - 2",
+		"Season": 5,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Fixer",
+			"Full-Stop Office"
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -21379,6 +21928,10 @@
 		"Sinner": "Hong Lu",
 		"Identity": "R Corp. 4th Pack Reindeer",
 		"World": "R Corp.",
+		"Season": -5,  
+		"Traits": [
+			"R Corp."
+		],
 		"Speed": "3~6",
 		"BaseHP": 65,
 		"GrowthHP": 2.39,
@@ -21641,6 +22194,13 @@
 		"Sinner": "Hong Lu",
 		"Identity": "The Lord of Hongyuan",
 		"World": "H Corp.",
+		"Season": 6,
+		"NullTraits":[
+			"Jia Family"
+		],
+		"Traits": [
+			"H Corp."
+		],
 		"Speed": "4~8",
 		"BaseHP": 62,
 		"GrowthHP": 2.17,
@@ -22102,6 +22662,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "2~5",
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
@@ -22353,6 +22918,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Shi Association South Section 5",
 		"World": "The Shi Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Shi Association"
+		],
 		"Speed": "2~5",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -22598,6 +23168,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "N Corp. Kleinhammer",
 		"World": "N Corp. Fanatics",
+		"Season": 1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "2~5",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -22841,6 +23416,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Seven Association South Section 4",
 		"World": "The Seven Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Seven Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
@@ -23087,6 +23667,12 @@
 		"Sinner": "Heathcliff",
 		"Identity": "MultiCrack Office Fixer",
 		"World": "MultiCrack Office",
+		"Season": 4,  
+		"Traits": [
+			"Fixer",
+			"MultiCrack Office",
+			"Mechanical Amalgam"
+		],
 		"Speed": "4~7",
 		"BaseHP": 75,
 		"GrowthHP": 2.55,
@@ -23351,6 +23937,10 @@
 		"Sinner": "Heathcliff",
 		"Identity": "R Corp. 4th Pack Rabbit",
 		"World": "R Corp.",
+		"Season": -1,  
+		"Traits": [
+			"R Corp."
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -23606,6 +24196,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Lobotomy E.G.O::Sunshower",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Technology Liberation Alliance",
+			"E.G.O Gear"
+		],
 		"Speed": "3~5",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -23882,6 +24477,10 @@
 		"Sinner": "Heathcliff",
 		"Identity": "The Pequod Harpooner",
 		"World": "U Corp.",
+		"Season": 3,  
+		"Traits": [
+			"The Pequod"
+		],
 		"Speed": "4~6",
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
@@ -24138,6 +24737,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Öufi Association South Section 3",
 		"World": "The Öufi Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Öufi Association"
+		],
 		"Speed": "3~6",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -24383,6 +24987,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Wild Hunt",
 		"World": "Wuthering Heights",
+		"Season": 4,  
+		"Traits": [
+			"Wuthering Heights",
+			"The Wild Hunt"
+		],
 		"Speed": "3~8",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -24755,6 +25364,12 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Full-Stop Office Fixer",
 		"World": "The Former Library Guests - 2",
+		"Season": 5,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Fixer",
+			"Full-Stop Office"
+		],
 		"Speed": "3~8",
 		"BaseHP": 70,
 		"GrowthHP": 2.3,
@@ -25163,6 +25778,11 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Kurokumo Clan Wakashu",
 		"World": "The Kurokumo Clan",
+		"Season": 5,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 3.19,
@@ -25462,6 +26082,10 @@
 		"Sinner": "Heathcliff",
 		"Identity": "W Corp. L4 Cleanup Agent - CCA",
 		"World": "W Corp.",
+		"Season": 6,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "4~6",
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
@@ -25776,6 +26400,13 @@
 		"Sinner": "Heathcliff",
 		"Identity": "Heishou Pack - You Branch Adept",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack Adept",
+			"Heishou Pack - You Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 92,
 		"GrowthHP": 2.51,
@@ -26196,6 +26827,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "5~8",
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
@@ -26436,6 +27072,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Shi Association South Section 5",
 		"World": "The Shi Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Shi Association"
+		],
 		"Speed": "2~5",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -26684,6 +27325,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "LCCB Assistant Manager",
 		"World": "The LCCB",
+		"Season": 1,  
+		"Traits": [
+			"Limbus Company",
+			"LCC"
+		],
 		"Speed": "2~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -26940,6 +27586,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Lobotomy E.G.O::Sloshing",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Technology Liberation Alliance",
+			"E.G.O Gear"
+		],
 		"Speed": "2~7",
 		"BaseHP": 90,
 		"GrowthHP": 3.1,
@@ -27192,6 +27843,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Edgar Family Butler",
 		"World": "Wuthering Heights",
+		"Season": 4,  
+		"Traits": [
+			"Fixer",
+			"Edgar Family"
+		],
 		"Speed": "4~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -27448,6 +28104,10 @@
 		"Sinner": "Ishmael",
 		"Identity": "R Corp. 4th Pack Reindeer",
 		"World": "R Corp.",
+		"Season": -1,  
+		"Traits": [
+			"R Corp."
+		],
 		"Speed": "3~7",
 		"BaseHP": 79,
 		"GrowthHP": 2.69,
@@ -27703,6 +28363,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Liu Association South Section 4",
 		"World": "The Liu Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "3~6",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -27953,6 +28618,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Molar Boatworks Fixer",
 		"World": "The District 21 Backstreets",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Molar Office"
+		],
 		"Speed": "3~6",
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
@@ -28219,6 +28889,10 @@
 		"Sinner": "Ishmael",
 		"Identity": "The Pequod Captain",
 		"World": "U Corp.",
+		"Season": 3,  
+		"Traits": [
+			"The Pequod"
+		],
 		"Speed": "4~7",
 		"BaseHP": 68,
 		"GrowthHP": 2.3,
@@ -28518,6 +29192,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Zwei Association West Section 3",
 		"World": "The Zwei Association Western Branch",
+		"Season": -4,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 93,
 		"GrowthHP": 3.21,
@@ -28792,6 +29471,11 @@
 		"Sinner": "Ishmael",
 		"Identity": "Kurokumo Clan Captain",
 		"World": "The Kurokumo Clan",
+		"Season": 5,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "4~6",
 		"BaseHP": 93,
 		"GrowthHP": 2.28,
@@ -29092,6 +29776,12 @@
 		"Sinner": "Ishmael",
 		"Identity": "Family Hierarch Candidate",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Family Hierarch Candidate",
+			"Jia Family"
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.28,
@@ -29451,7 +30141,14 @@
 		"Id": 8308,
 		"Sinner": "Ishmael",
 		"Identity": "Jeong's Office Rep",
-		"World": "???",
+		"World": "The Former Library Guests - 3",
+		"Season": 7,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Fixer",
+			"Associate Office - Öufi",
+			"Jeong's Office"
+		],
 		"Speed": "3~8",
 		"BaseHP": 88,
 		"GrowthHP": 2.28,
@@ -29833,6 +30530,11 @@
 		"Sinner": "Rodion",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "2~5",
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
@@ -30078,6 +30780,11 @@
 		"Sinner": "Rodion",
 		"Identity": "LCCB Assistant Manager",
 		"World": "The LCCB",
+		"Season": 1,  
+		"Traits": [
+			"Limbus Company",
+			"LCC"
+		],
 		"Speed": "3~7",
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
@@ -30318,6 +31025,11 @@
 		"Sinner": "Rodion",
 		"Identity": "N Corp. Mittelhammer",
 		"World": "N Corp. Fanatics",
+		"Season": 1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "3~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -30574,6 +31286,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Zwei Association South Section 5",
 		"World": "The Zwei Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "2~4",
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
@@ -30821,6 +31538,10 @@
 		"Sinner": "Rodion",
 		"Identity": "T Corp. Class 2 Collection Staff",
 		"World": "T Corp.",
+		"Season": 4,  
+		"Traits": [
+			"T Corp."
+		],
 		"Speed": "4~7",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -31086,6 +31807,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Kurokumo Clan Wakashu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "2~5",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -31337,6 +32063,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Rosespanner Workshop Rep.",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Rosespanner Workshop"
+		],
 		"Speed": "3~6",
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
@@ -31603,6 +32334,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Dieci Association South Section 4",
 		"World": "The Dieci Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Dieci Association"
+		],
 		"Speed": "4~6",
 		"BaseHP": 88,
 		"GrowthHP": 3.1,
@@ -31871,6 +32607,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Liu Association South Section 4 Director",
 		"World": "The Liu Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 79,
 		"GrowthHP": 2.74,
@@ -32125,6 +32866,11 @@
 		"Sinner": "Rodion",
 		"Identity": "Devyat' Association North Section 3",
 		"World": "The Devyat' Association Northern Branch",
+		"Season": -4,  
+		"Traits": [
+			"Fixer",
+			"Devyat' Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 81,
 		"GrowthHP": 2.88,
@@ -32464,6 +33210,12 @@
 		"Sinner": "Rodion",
 		"Identity": "The Princess of La Manchaland",
 		"World": "La Manchaland",
+		"Season": 5,  
+		"Traits": [
+			"La Manchaland",
+			"Bloodfiend",
+			"Second Kindred"
+		],
 		"Speed": "4~7",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -32863,6 +33615,12 @@
 		"Sinner": "Rodion",
 		"Identity": "Heishou Pack - Si Branch",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - Si Branch"
+		],
 		"Speed": "3~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -33134,6 +33892,12 @@
 		"Sinner": "Rodion",
 		"Identity": "Lobotomy E.G.O::The Sword Sharpened with Tears",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 6,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "4~7",
 		"BaseHP": 90,
 		"GrowthHP": 3.14,
@@ -33708,6 +34472,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~7",
 		"BaseHP": 60,
 		"GrowthHP": 2.07,
@@ -33949,6 +34718,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Los Mariachis Jefe",
 		"World": "The J Corp. Backstreets",
+		"Season": 1,  
+		"Traits": [
+			"Syndicate",
+			"Los Mariachis"
+		],
 		"Speed": "2~3",
 		"BaseHP": 95,
 		"GrowthHP": 3.26,
@@ -34196,6 +34970,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Zwei Association South Section 6",
 		"World": "The Zwei Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "2~4",
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
@@ -34450,6 +35229,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Lobotomy E.G.O::Red Sheet",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Technology Liberation Alliance",
+			"E.G.O Gear"
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
@@ -34816,6 +35600,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Molar Boatworks Fixer",
 		"World": "The District 21 Backstreets",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Molar Office"
+		],
 		"Speed": "4~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -35076,6 +35865,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Zwei Association West Section 3",
 		"World": "The Zwei Association Western Branch",
+		"Season": 5,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -35350,6 +36144,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Blade Lineage Salsu",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "2~5",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -35600,6 +36399,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "The One Who Shall Grip",
 		"World": "N Corp. Fanatics",
+		"Season": 1,  
+		"Traits": [
+			"N Corp.",
+			"N Corp. Fanatic"
+		],
 		"Speed": "3~8",
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
@@ -35859,6 +36663,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Cinq Association South Section 4 Director",
 		"World": "The Cinq Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Cinq Association"
+		],
 		"Speed": "4~8",
 		"BaseHP": 79,
 		"GrowthHP": 2.71,
@@ -36105,6 +36914,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Dawn Office Fixer",
 		"World": "The Former Library Guests - 1",
+		"Season": 3,  
+		"Traits": [
+			"Fixer",
+			"Dawn Office"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -36446,6 +37260,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "Devyat' Association North Section 3",
 		"World": "The Devyat' Association Northern Branch",
+		"Season": -5,  
+		"Traits": [
+			"Fixer",
+			"Devyat' Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 73,
 		"GrowthHP": 2.39,
@@ -36796,6 +37615,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "The Middle Little Brother",
 		"World": "The Middle",
+		"Season": -5,  
+		"Traits": [
+			"Syndicate",
+			"The Middle"
+		],
 		"Speed": "4~6",
 		"BaseHP": 92,
 		"GrowthHP": 3.05,
@@ -37056,6 +37880,11 @@
 		"Sinner": "Sinclair",
 		"Identity": "The Thumb East Soldato II",
 		"World": "The Thumb",
+		"Season": 6,  
+		"Traits": [
+			"Syndicate",
+			"The Thumb"
+		],
 		"Speed": "4~6",
 		"BaseHP": 79,
 		"GrowthHP": 2.96,
@@ -37360,7 +38189,13 @@
 		"Id": 11308,
 		"Sinner": "Sinclair",
 		"Identity": "Heishou Pack - You Branch",
-		"World": "",
+		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - You Branch"
+		],
 		"Speed": "4~6",
 		"BaseHP": 75,
 		"GrowthHP": 2.5,
@@ -37696,6 +38531,11 @@
 		"Sinner": "Outis",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~7",
 		"BaseHP": 60,
 		"GrowthHP": 2.07,
@@ -37930,6 +38770,10 @@
 		"Sinner": "Outis",
 		"Identity": "G Corp. Head Manager",
 		"World": "The Former G Corp.",
+		"Season": 1,  
+		"Traits": [
+			"G Corp."
+		],
 		"Speed": "4~8",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -38179,6 +39023,11 @@
 		"Sinner": "Outis",
 		"Identity": "Blade Lineage Cutthroat",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": -1,  
+		"Traits": [
+			"Syndicate",
+			"Blade Lineage"
+		],
 		"Speed": "2~5",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -38419,6 +39268,11 @@
 		"Sinner": "Outis",
 		"Identity": "Cinq Association South Section 4",
 		"World": "The Cinq Association Southern Branch",
+		"Season": -3,  
+		"Traits": [
+			"Fixer",
+			"Cinq Association"
+		],
 		"Speed": "4~7",
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
@@ -38676,6 +39530,11 @@
 		"Sinner": "Outis",
 		"Identity": "The Ring Pointilist Student",
 		"World": "The Ring",
+		"Season": -4,  
+		"Traits": [
+			"Syndicate",
+			"The Ring"
+		],
 		"Speed": "3~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.26,
@@ -38951,6 +39810,11 @@
 		"Sinner": "Outis",
 		"Identity": "Seven Association South Section 6 Director",
 		"World": "The Seven Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Seven Association"
+		],
 		"Speed": "5~8",
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
@@ -39202,6 +40066,11 @@
 		"Sinner": "Outis",
 		"Identity": "Molar Office Fixer",
 		"World": "Molar Office",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Molar Office"
+		],
 		"Speed": "3~7",
 		"BaseHP": 68,
 		"GrowthHP": 2.39,
@@ -39466,6 +40335,12 @@
 		"Sinner": "Outis",
 		"Identity": "Lobotomy E.G.O::Magic Bullet",
 		"World": "Lobotomy Corporation Headquarters - 1",
+		"Season": 2,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Lobotomy Corp. Headquarters",
+			"E.G.O Gear"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -39730,6 +40605,11 @@
 		"Sinner": "Outis",
 		"Identity": "Wuthering Heights Chief Butler",
 		"World": "Wuthering Heights",
+		"Season": 4,  
+		"Traits": [
+			"Fixer",
+			"Wuthering Heights"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -39980,6 +40860,10 @@
 		"Sinner": "Outis",
 		"Identity": "W Corp. L3 Cleanup Captain",
 		"World": "W Corp.",
+		"Season": -4,  
+		"Traits": [
+			"W Corp."
+		],
 		"Speed": "3~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.32,
@@ -40244,6 +41128,12 @@
 		"Sinner": "Outis",
 		"Identity": "The Barber of La Manchaland",
 		"World": "La Manchaland",
+		"Season": 5,  
+		"Traits": [
+			"La Manchaland",
+			"Bloodfiend",
+			"Third Kindred"
+		],
 		"Speed": "3~7",
 		"BaseHP": 73,
 		"GrowthHP": 2.23,
@@ -40552,6 +41442,12 @@
 		"Sinner": "Outis",
 		"Identity": "Heishou Pack - Mao Branch",
 		"World": "H Corp.",
+		"Season": 5,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - Mao Branch"
+		],
 		"Speed": "4~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
@@ -40803,6 +41699,10 @@
 		"Sinner": "Outis",
 		"Identity": "T Corp. Class 3 VDCU Staff",
 		"World": "T Corp.",
+		"Season": -6,  
+		"Traits": [
+			"T Corp."
+		],
 		"Speed": "4~7",
 		"BaseHP": 70,
 		"GrowthHP": 2.39,
@@ -41103,6 +42003,11 @@
 		"Sinner": "Gregor",
 		"Identity": "LCB Sinner",
 		"World": "Limbus Company",
+		"Season": -1,  
+		"Traits": [
+			"Limbus Company",
+			"LCB"
+		],
 		"Speed": "3~7",
 		"BaseHP": 72,
 		"GrowthHP": 2.48,
@@ -41346,6 +42251,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Liu Association South Section 6",
 		"World": "The Liu Association Southern Branch",
+		"Season": -1,  
+		"Traits": [
+			"Fixer",
+			"Liu Association"
+		],
 		"Speed": "3~7",
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
@@ -41588,6 +42498,12 @@
 		"Sinner": "Gregor",
 		"Identity": "R.B. Sous Chef",
 		"World": "The District 23 Backstreets",
+		"Season": 2,  
+		"Traits": [
+			"The Backstreets",
+			"Syndicate",
+			"R.B."
+		],
 		"Speed": "3~7",
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
@@ -41837,6 +42753,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Rosespanner Workshop Fixer",
 		"World": "K Corp.",
+		"Season": 2,  
+		"Traits": [
+			"Fixer",
+			"Rosespanner Workshop"
+		],
 		"Speed": "4~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -42095,6 +43016,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Kurokumo Clan Captain",
 		"World": "The Kurokumo Clan and Blade Lineage",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"Kurokumo Clan"
+		],
 		"Speed": "4~6",
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
@@ -42345,6 +43271,10 @@
 		"Sinner": "Gregor",
 		"Identity": "G Corp. Manager Corporal",
 		"World": "The Former G Corp.",
+		"Season": 1,  
+		"Traits": [
+			"G Corp."
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -42587,6 +43517,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Zwei Association South Section 4",
 		"World": "The Zwei Association Southern Branch",
+		"Season": -2,  
+		"Traits": [
+			"Fixer",
+			"Zwei Association"
+		],
 		"Speed": "4~8",
 		"BaseHP": 90,
 		"GrowthHP": 3,
@@ -42835,6 +43770,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Twinhook Pirates First Mate",
 		"World": "U Corp.",
+		"Season": 3,  
+		"Traits": [
+			"Syndicate",
+			"Twinhook Pirates"
+		],
 		"Speed": "3~7",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -43094,6 +44034,11 @@
 		"Sinner": "Gregor",
 		"Identity": "Edgar Family Heir",
 		"World": "Wuthering Heights",
+		"Season": 4,  
+		"Traits": [
+			"Fixer",
+			"Edgar Family"
+		],
 		"Speed": "3~8",
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
@@ -43348,6 +44293,12 @@
 		"Sinner": "Gregor",
 		"Identity": "The Priest of La Manchaland",
 		"World": "La Manchaland",
+		"Season": 5,  
+		"Traits": [
+			"La Manchaland",
+			"Bloodfiend",
+			"Third Kindred"
+		],
 		"Speed": "4~6",
 		"BaseHP": 108,
 		"GrowthHP": 3.41,
@@ -43660,6 +44611,10 @@
 		"Sinner": "Gregor",
 		"Identity": "Firefist Office Survivor",
 		"World": "Firefist Office",
+		"Season": 5,  
+		"Traits": [
+			"Fixer"
+		],
 		"Speed": "4~6",
 		"BaseHP": 82,
 		"GrowthHP": 2.95,
@@ -43955,6 +44910,12 @@
 		"Sinner": "Gregor",
 		"Identity": "Heishou Pack - Si Branch",
 		"World": "H Corp.",
+		"Season": 6,  
+		"Traits": [
+			"H Corp.",
+			"Heishou Pack",
+			"Heishou Pack - Si Branch"
+		],
 		"Speed": "3~7",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
@@ -44222,7 +45183,13 @@
 		"Id": 13308,
 		"Sinner": "Gregor",
 		"Identity": "Night Awls Capitano",
-		"World": "???",
+		"World": "The Former Library Guests - 3",
+		"Season": 7,
+		"IsWalpurgis": true,  
+		"Traits": [
+			"Syndicate",
+			"Night Awls"
+		],
 		"Speed": "3~6",
 		"BaseHP": 69,
 		"GrowthHP": 2.39,

@@ -2203,7 +2203,7 @@
 		]
 	},
 	{
-		"Name": "Flower-Burying Pin [埋花針]",
+		"Name": "Flower-burying Pin [埋花針]",
 		"Description": "Max Stack: 20\n-Gain 1 Stack at Turn End or when hit\n-Gain 1 Offense Level per 5 Stack\nIf the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\nExpires on death or Retreat",
 		"Tags": [
 			"Offense Level Up",
@@ -3076,6 +3076,16 @@
 		"Description": "Max Stack: 20\nFor every Stack, deal +0.75% damage\nFor every 10 Stack, gain 1 Haste next turn",
 		"Tags": [
 			"Haste"
+		]
+	},
+	{
+		"Name": "Protector's Stance",
+		"Description": "Max Stack: 2\nTake less damage\nTurn Start: Gain Shield by Poise on self\nTurn End: Gain Poise and Poise Count; this unit's leftmost Skill Slot gains Aggro next turn\nTurn End: Lose 1 Stack",
+		"Tags": [
+			"Shield",
+			"Poise Potency",
+			"Poise Count",
+			"Aggro"
 		]
 	}
 ]
