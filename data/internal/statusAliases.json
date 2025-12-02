@@ -247,6 +247,12 @@
 		]
 	},
 	{
+		"entry": "unique burn",
+		"aliases": [
+			"burn"
+		]
+	},
+	{
 		"entry": "spend burn potency",
 		"aliases": [
 			"spend burn"
@@ -302,6 +308,12 @@
 	},
 	{
 		"entry": "bleed count",
+		"aliases": [
+			"bleed"
+		]
+	},
+	{
+		"entry": "unique bleed",
 		"aliases": [
 			"bleed"
 		]
@@ -367,6 +379,12 @@
 		]
 	},
 	{
+		"entry": "unique tremor",
+		"aliases": [
+			"tremor"
+		]
+	},
+	{
 		"entry": "spend tremor potency",
 		"aliases": [
 			"spend tremor"
@@ -427,6 +445,12 @@
 		]
 	},
 	{
+		"entry": "unique rupture",
+		"aliases": [
+			"rupture"
+		]
+	},
+	{
 		"entry": "spend rupture potency",
 		"aliases": [
 			"spend rupture"
@@ -482,6 +506,12 @@
 	},
 	{
 		"entry": "sinking count",
+		"aliases": [
+			"sinking"
+		]
+	},
+	{
+		"entry": "unique sinking",
 		"aliases": [
 			"sinking"
 		]
@@ -559,6 +589,12 @@
 		]
 	},
 	{
+		"entry": "unique poise",
+		"aliases": [
+			"poise"
+		]
+	},
+	{
 		"entry": "spend poise potency",
 		"aliases": [
 			"spend poise"
@@ -595,12 +631,6 @@
 		]
 	},
 	{
-		"entry": "unique poise",
-		"aliases": [
-			"poise"
-		]
-	},
-	{
 		"entry": "charge potency",
 		"aliases": [
 			"charge"
@@ -608,6 +638,12 @@
 	},
 	{
 		"entry": "charge count",
+		"aliases": [
+			"charge"
+		]
+	},
+	{
+		"entry": "unique charge",
 		"aliases": [
 			"charge"
 		]
@@ -646,12 +682,6 @@
 		"entry": "party charge count",
 		"aliases": [
 			"party charge"
-		]
-	},
-	{
-		"entry": "unique charge",
-		"aliases": [
-			"charge"
 		]
 	},
 	{
