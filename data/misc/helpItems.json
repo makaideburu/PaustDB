@@ -62,7 +62,11 @@
       ],
       [
         "Special Parameters",
-        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins."
+        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' or 'guard' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins.\n-world will search for a ids from that Mirror World by name.\n-trait searches for traits by name.\n-season searches for the season. Add an 'r' to search for release season (i.e. R Corp. Ishmael is Standard Fare, but released in Season 1) or 'w' to search for Walpurgisnacht.\n-keyword searches for IDs as defined by certain E.G.O gifts (Base Attack Skills). Example, Blade Lineage Mentor Meursault is not a 'Bleed' ID as his only Bleed is on what is considered a Defense Skill."
+      ],
+      [
+        "Sorts",
+        "`IDs can be sorted by max HP. That's all."
       ]
     ]
   },
@@ -83,7 +87,7 @@
       ],
       [
         "More Special Parameters",
-        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION"
+        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION\n-season searches for the season. Add an 'r' to search for release season (i.e. Lantern Gregor is Standard Fare, but released in Season 1) or 'w' to search for Walpurgisnacht."
       ],
       [
         "Notice on sorting",
@@ -172,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.1 (2025-12-02)",
+        "```season query was supposed to be in this update```"
+      ],
+      [
         "3.2.0 (2025-12-02)",
         "```fancy stuff\nuse -sortby hp to sort id results by hp\nuse -keyword to filter by the seven keyword souls\nuse -trait to sort by traits```"
       ],
@@ -190,10 +198,6 @@
       [
         "3.0.1 (2025-11-03)",
         "```did you know captain ishmael is every heishou, all at once\ni do now```"
-      ],
-      [
-        "3.0.0 (2025-10-30)",
-        "```stuff and things\nhopefully less ugliness in general now```"
       ]
     ],
     "OldItems": [
@@ -368,6 +372,10 @@
       [
         "2.10.0 (2025-09-22)",
         "```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
+      ],
+      [
+        "3.0.0 (2025-10-30)",
+        "```stuff and things\nhopefully less ugliness in general now```"
       ]
     ],
     "HelpFooter": ""
