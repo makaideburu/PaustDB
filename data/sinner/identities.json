@@ -14940,33 +14940,35 @@
 		"Identity": "Drifting Blade of Hongyuan",
 		"World": "???",
 		"Season": 6,  
-		"Traits": [],
-		"Speed": "???",
+		"Traits": [
+			"H Corp."
+		],
+		"Speed": "4~7",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 2,
+			"Pierce": 0.5,
+			"Blunt": 1
 		},
 		"UptieTiers": [
 			{
 				"Tier": 4,
 				"SkillOne": {
 					"Name": "Hey, Back Off",
-					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n[On Unopposed Attack] Inflict Rupture Count\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture",
+					"Description": "[On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (Max 2)\n[On Use] Gain +1 Poise Count\n[On Unopposed Attack] Inflict +1 Rupture Count\n<1>Deal +20% damage on Critical Hit\n[On Hit] Inflict 2 Rupture\n[On Crit] Inflict 1 Rupture",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 6,
+					"CoinPower": 7,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -14978,17 +14980,17 @@
 				},
 				"SkillTwo": {
 					"Name": "Engraved in Flesh and Bone [-]",
-					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Gain Poise based on Rupture on target\n<3>Deal more damage on Critical Hit\n[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture",
+					"Description": "[On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Gain Poise equal to ((Rupture on target / 5) + 2) (Max 6; rounded down)\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 2 Rupture\n[On Crit] Inflict 1 Rupture",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -15001,17 +15003,17 @@
 				},
 				"SkillThree": {
 					"Name": "Aiding Strike [-]",
-					"Description": "[On Use] Gain Protector's Stance\n[On Use] If target has X+ negative effects, Final Power +Y\n[On Use] Coin Power +X for every Y (Poise on self + Rupture on target)\n[On Use] Gain Poise Count\n[On Use] Gain Poise\n<1>[On Hit] Inflict Rupture Count\n<2>[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture\n<3>[On Hit] Inflict Rupture\n[On Crit] Inflict Rupture\n<4>[Coin Start] Deal more damage on Critical Hit based on (Poise on self + Rupture on target)\n[On Hit] Inflict Rupture",
+					"Description": "[On Use] Gain 2 Protector's Stance\n[On Use] If target has 3+ negative effects, Final Power +1\n[On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (Max 2)\n[On Use] Gain +3 Poise Count\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Crit] Inflict 1 Rupture\n<4>[Coin Start] Deal +2% damage on Critical Hit for every (Poise on self + Rupture on target) (Max 120%)\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 5,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -15025,13 +15027,13 @@
 				},
 				"SkillDefense": {
 					"Name": "Sentinel",
-					"Description": "[Clashable Guard]\n[Combat Start] Gain Protector's Stance\n[On Use] This Skill gains X Defense Level for every Y% HP this unit cumulatively lost in this Encounter\n[Clash Win] Gain Poise equal to Rupture on target\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain 2 Protector's Stance\n[On Use] This Skill gains +1 Defense Level for every 10% HP this unit cumulatively lost in this Encounter (Max 6; at time of activation)\n[Clash Win] Gain Poise equal to Rupture on target (Max 5; once per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 10,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
@@ -15049,7 +15051,7 @@
 				"InstallPassives": [
 					{
 						"Name": "I.L.T.L.T (I would've Liked to walk The Lord's path Together)",
-						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
+						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -15065,14 +15067,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "Loyal Warrior",
-					"Description": "If an ally is killed by enemy attack, or if the attacked ally's HP is less than X% after the attack, Drifting Blade of Hongyuan Ryōshū uses 'Aiding Strike' as an Unopposed Attack against that enemy After the enemy's Attack\n$ The Lord of Hongyuan Hong Lu may activate this effect past its usage limit\nIf 'Hey, Back Off' is activated via the passive 'I.L.T.L.T.', the Skill deals more damage on Critical Hit. Heal X SP for 1 other ally with the lowest SP",
+					"Description": "If an ally is killed by enemy attack, or if the attacked ally's HP is less than 25% after the attack, Drifting Blade of Hongyuan Ryōshū uses 'Aiding Strike' as an Unopposed Attack against that enemy After the enemy's Attack (Once per Encounter)\n$ The Lord of Hongyuan Hong Lu may activate this effect 1 more time past its usage limit\nIf 'Hey, Back Off' is activated via the passive 'I.L.T.L.T.', the Skill deals +30% damage on Critical Hit. Heal 2~4 SP for 1 other ally with the lowest SP (Once per turn, excludes allies at -40 or lower SP)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Follow Up",
 						"Ally Heal SP"
@@ -15080,14 +15082,163 @@
 				},
 				"SupportSkill": {
 					"Name": "Drifter",
-					"Description": "Combat Start: The ally with the earliest Deployment order gains X Shield for every Y Poise on self",
+					"Description": "Combat Start: The ally with the earliest Deployment order gains 1 Shield for every Poise on self (Max 10)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Shield"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"Name": "Hey, Back Off",
+					"Description": "[On Use] At 6+ (Poise on self + Rupture on target), Coin Power +1\n[On Use] Gain +1 Poise Count\n[On Unopposed Attack] Inflict +1 Rupture Count\n<1>[On Hit] Inflict 2 Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 6,
+					"CoinPower": 6,
+					"CoinCount": 1,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Rupture Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillTwo": {
+					"Name": "Engraved in Flesh and Bone [-]",
+					"Description": "[On Use] At 6+ (Poise on self + Rupture on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Gain Poise equal to ((Rupture on target / 5) + 1) (Max 6; rounded down)\n<3>[On Hit] Inflict 2 Rupture\n[On Crit] Inflict 1 Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Rupture Count",
+						"Poise Potency",
+						"Rupture Potency"
+					]
+				},
+				"SkillThree": {
+					"Name": "Aiding Strike [-]",
+					"Description": "[On Use] Gain 2 Protector's Stance\n[On Use] If target has 3+ negative effects, Final Power +1\n[On Use] At 6+ (Poise on self + Rupture on target), Coin Power +1\n[On Use] Gain +3 Poise Count\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Crit] Inflict 1 Rupture\n<4>[Coin Start] Deal +2% damage on Critical Hit for every (Poise on self + Rupture on target) (Max 100%)\n[On Hit] Inflict 2 Rupture",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Protector's Stance",
+						"Poise Count",
+						"Poise Potency",
+						"Rupture Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillDefense": {
+					"Name": "Sentinel",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain 2 Protector's Stance\n[On Use] This Skill gains +1 Defense Level for every 10% HP this unit cumulatively lost in this Encounter (Max 6; at time of activation)\n[Clash Win] Gain Poise equal to Rupture on target (Max 5; once per turn)\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 2,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Protector's Stance",
+						"Poise Potency",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "I.L.T.L.T (I would've Liked to walk The Lord's path Together)",
+						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Follow Up",
+							"Protector's Stance"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Loyal Warrior",
+					"Description": "If an ally is killed by enemy attack, or if the attacked ally's HP is less than 25% after the attack, Drifting Blade of Hongyuan Ryōshū uses 'Aiding Strike' as an Unopposed Attack against that enemy After the enemy's Attack (Once per Encounter)\n$ The Lord of Hongyuan Hong Lu may activate this effect 1 more time past its usage limit\nIf 'Hey, Back Off' is activated via the passive 'I.L.T.L.T.', the Skill deals +30% damage on Critical Hit. Heal 2~4 SP for 1 other ally with the lowest SP (Once per turn, excludes allies at -40 or lower SP)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Follow Up",
+						"Ally Heal SP"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Drifter",
+					"Description": "Combat Start: The ally with the earliest Deployment order gains 1 Shield for every Poise on self (Max 10)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Shield"
 					]

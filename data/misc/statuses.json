@@ -3080,7 +3080,7 @@
 	},
 	{
 		"Name": "Protector's Stance",
-		"Description": "Max Stack: 2\nTake less damage\nTurn Start: Gain Shield by Poise on self\nTurn End: Gain Poise and Poise Count; this unit's leftmost Skill Slot gains Aggro next turn\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 2\nTake -(Stack x 10)% damage\nTurn Start: Gain Shield by Poise on self (Max 20)\nTurn End: Gain 3 Poise and +3 Poise Count; this unit's leftmost Skill Slot gains +5 Aggro next turn\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Shield",
 			"Poise Potency",

@@ -18,3 +18,15 @@ floored
 -
  (
 (
+equal to
+=
+Poise on self + Rupture on target
+self Poise + target Rupture
+Poise on self + Rupture on main target
+self Poise + main target Rupture
+damage on Critical Hit
+Crit damage
+If unit's Speed is faster than target's
+If unit outspeeds target
+ or more
++
