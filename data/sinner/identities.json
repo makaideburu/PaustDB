@@ -12134,7 +12134,7 @@
 				},
 				"SkillThree": {
 					"Name": "O.O.F.",
-					"Description": "[On Use] Gain 4 Poise\nGain +1 Coin Power for every 7 Poise on self (Max 2)\n<1>[On Crit] Gain +1 Poise Count\n<2>[On Crit] Gain +1 Poise Count\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor (Count) & Rupture (Count)\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Rupture and +2 Rupture Count\n[On Hit] Trigger Tremor Burst",
+					"Description": "[On Use] Gain 4 Poise\nGain +1 Coin Power for every 7 Poise on self (Max 2)\n<1>[On Crit] Gain +1 Poise Count\n<2>[On Crit] Gain +1 Poise Count\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor/Tremor Count and Rupture/Rupture Count\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Rupture and +2 Rupture Count\n[On Hit] Trigger Tremor Burst",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -12254,7 +12254,7 @@
 				},
 				"SkillThree": {
 					"Name": "O.O.F.",
-					"Description": "[On Use] Gain 4 Poise\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor & Rupture Potency and Count\n[On Hit] Inflict 2 Tremor and +1 Tremor Count\n[On Hit] Inflict 2 Rupture and +1 Rupture Count\n[Heads Hit] Trigger Tremor Burst",
+					"Description": "[On Use] Gain 4 Poise\n<3>Spend 1 Ammo\n[On Crit] Double the application of Tremor/Tremor Count and Rupture/Rupture Count\n[On Hit] Inflict 2 Tremor and +1 Tremor Count\n[On Hit] Inflict 2 Rupture and +1 Rupture Count\n[Heads Hit] Trigger Tremor Burst",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -14935,7 +14935,7 @@
 		]
 	},
 	{
-		"Id": 4000,
+		"Id": 4308,
 		"Sinner": "Ryōshū",
 		"Identity": "Drifting Blade of Hongyuan",
 		"World": "???",
@@ -14944,9 +14944,11 @@
 			"H Corp."
 		],
 		"Speed": "4~7",
-		"BaseHP": 0,
-		"GrowthHP": 0,
-		"StaggerThresholds": [],
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [
+			30
+		],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -15051,7 +15053,7 @@
 				"InstallPassives": [
 					{
 						"Name": "I.L.T.L.T (I would've Liked to walk The Lord's path Together)",
-						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
+						"Description": "When another ally's Skill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -15196,7 +15198,7 @@
 				"InstallPassives": [
 					{
 						"Name": "I.L.T.L.T (I would've Liked to walk The Lord's path Together)",
-						"Description": "When another ally's SKill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
+						"Description": "When another ally's Skill hits an enemy: After that Attack, use 'Hey, Back Off' as an Unopposed Attack against the enemy (Once per turn)\nIn the same turn this unit Subtituted in or Returned to the Battlefield, gain 2 Protector's Stance\nWhen his unit activates Unopposed Attack due to The Lord of Hongyuan Hong Lu's 'The Heishou Lord' Passive, treat this unit as if it has 'Heishou Pack' or 'Jia Family' Trait Keywords",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
