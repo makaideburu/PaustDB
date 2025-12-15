@@ -22804,6 +22804,8 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"MiscTags": [
+						"Self Sinking Potency",
+						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
 						"Attack Weight Increase",
@@ -22928,6 +22930,8 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"MiscTags": [
+						"Self Sinking Potency",
+						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
 						"Attack Weight Increase",
@@ -35724,7 +35728,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Mind Whip - 'Ahaha... Look, Everyone! We're the Fireworks this Christmas!'",
-					"Description": "Deal more damage for every Charge\n[On Use] At X~Y Charge Count,\n$ Gain Sinking and Charge Count\n$ This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +X\n$ [Before Use] At X+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] At X+ Charge Count, consume all Charge Count to gain:\n$ Coin Power +X\n$ Deal more damage for every X excess Charge Count consumed past Y\n<1>[On Hit] Inflict Sinking Count\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n$ At Y+ Charge, raise Stagger Threshold by Z% of damage dealt instead\n<2>[On Hit] Inflict Sinking Count\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n<3>[On Hit] Inflict Sinking Count\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n<4>[On Hit] Inflict Sinking Count\n[On Hit] Raise Stagger Threshold by X% of damage dealt",
+					"Description": "Deal more damage for every Charge\n[On Use] At X~Y Charge Count,\n$ Gain Sinking and Charge Count\n$ This Skill gains [Indiscriminate], [Unfocused Volley], and Atk Weight +X\n$ [Before Use] At X+ Charge, this Skill does not gain [Indiscriminate]\n[On Use] At X+ Charge Count, consume all Charge Count to gain:\n$ Coin Power +X\n$ Deal more damage for every X excess Charge Count consumed past Y\n<1>[On Hit] Inflict Sinking Count\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n$ At Y+ Charge, raise Stagger Threshold by Z% of damage dealt instead\n<2>[On Hit] Inflict Sinking\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n<3>[On Hit] Inflict Sinking\n[On Hit] Raise Stagger Threshold by X% of damage dealt\n<4>[On Hit] Inflict Sinking\n[On Hit] Raise Stagger Threshold by X% of damage dealt",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 0,
