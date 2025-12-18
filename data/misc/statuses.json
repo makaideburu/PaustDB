@@ -884,7 +884,7 @@
 	},
 	{
 		"Name": "Echoes of the Manor",
-		"Description": "└50% chance to gain +1 Sinking Count when gaining Sinking or Sinking Count from Skill or Coin effects\n└Units with SP Change Panic Type to Echoes of the Manor. When this unit Panics, inflict Echoes of the Manor to 2 random other allies of this unit\n└Units without SP: -10`% chance to flip Heads\n└Reduce by 1 at Turn End\n└This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n└Apply the 'Units without SP' conditional to certain enemies that have SP but can't change their Panic Types",
+		"Description": "└ 50% chance to gain +1 Sinking Count when gaining Sinking or Sinking Count from Skill or Coin effects\n└ Units with SP Change Panic Type to Echoes of the Manor. When this unit Panics, inflict Echoes of the Manor to 2 random other allies of this unit\n└ Units without SP: -10`% chance to flip Heads\n└ Reduce by 1 at Turn End\n└ This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n└ Apply the 'Units without SP' conditional to certain enemies that have SP but can't change their Panic Types",
 		"Tags": [
 			"Sinking Count",
 			"Change Panic Type"
@@ -1174,7 +1174,7 @@
 	},
 	{
 		"Name": "Amplitude Entanglement",
-		"Description": "└Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\n└Potency and Count values do not change over Entanglement\n└When triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\n└Turn End: Converted into Tremor",
+		"Description": "└ Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\n└ Potency and Count values do not change over Entanglement\n└ When triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\n└ Turn End: Converted into Tremor",
 		"Tags": []
 	},
 	{
@@ -1186,7 +1186,7 @@
 	},
 	{
 		"Name": "Borrowed Time",
-		"Description": "Turn End at 2+ Count:\n└Gain (Stack - 1) Haste, Clash Power Up, and Fragile next turn\n└If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\nTurn End: At 1 Count, gain 2 x (Stack - 1) Bind\nTurn End: Gain 1 Stack, lose 1 Count",
+		"Description": "Turn End at 2+ Count:\n└ Gain (Stack - 1) Haste, Clash Power Up, and Fragile next turn\n└ If this unit is set to gain more Bind than Haste next turn, the Borrowed Time effect expires at the next Turn Start, and this unit gets Staggered\nTurn End: At 1 Count, gain 2 x (Stack - 1) Bind\nTurn End: Gain 1 Stack, lose 1 Count",
 		"Tags": [
 			"Haste",
 			"Clash Power Up",
@@ -1224,7 +1224,7 @@
 	},
 	{
 		"Name": "Erudition",
-		"Description": "Max Value: 6\n└When Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\n└If this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (Once per turn)\n└Reduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\n└Expires when Staggered",
+		"Description": "Max Value: 6\n└ When Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\n└ If this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (Once per turn)\n└ Reduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\n└ Expires when Staggered",
 		"Tags": [
 			"Shield",
 			"Clash Power Up"
@@ -1232,14 +1232,14 @@
 	},
 	{
 		"Name": "Gaze of Contempt",
-		"Description": "Max Value: 7\n└Deal +7% damage for every Gaze of Contempt on self\n└Turn End: This effect expires\n└Turn End: At 7 Gaze of Contempt, convert to Contempt of the Gaze next turn instead of expiring",
+		"Description": "Max Value: 7\n└ Deal +7% damage for every Gaze of Contempt on self\n└ Turn End: This effect expires\n└ Turn End: At 7 Gaze of Contempt, convert to Contempt of the Gaze next turn instead of expiring",
 		"Tags": [
 			"Damage Amp"
 		]
 	},
 	{
 		"Name": "Contempt of the Gaze",
-		"Description": "└Gain 7 Protection\n└Gain 7 Damage Down\n└One of this unit's Skill Slots gains +20 Aggro\n└Cannot gain Gaze of Contempt as long as Contempt of the Gaze is active\n└Turn End: This effect expires",
+		"Description": "└ Gain 7 Protection\n└ Gain 7 Damage Down\n└ One of this unit's Skill Slots gains +20 Aggro\n└ Cannot gain Gaze of Contempt as long as Contempt of the Gaze is active\n└ Turn End: This effect expires",
 		"Tags": [
 			"Protection",
 			"Self Damage Down",
@@ -1266,7 +1266,7 @@
 	},
 	{
 		"Name": "Coffin",
-		"Description": "Max Value: 10\nAt Turn End:\n└Gain 2 Damage Up next turn for every 3 Value (Max 6)\n└Raise minimum Speed by 1 for every 4 value next turn (Max 2)\n└Gain 1 Clash Power Up for every 5 value next turn (Max 2)",
+		"Description": "Max Value: 10\nAt Turn End:\n└ Gain 2 Damage Up next turn for every 3 Value (Max 6)\n└ Raise minimum Speed by 1 for every 4 value next turn (Max 2)\n└ Gain 1 Clash Power Up for every 5 value next turn (Max 2)",
 		"Tags": [
 			"Damage Up",
 			"Min Speed",
@@ -1334,7 +1334,7 @@
 	},
 	{
 		"Name": "Red Eyes",
-		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n└Stage 1 (1 ~ 7): Red Eyes\n└Stage 2 (8 ~ 15): Red Eyes - Alert\n└Stage 3 (16 ~ 20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
+		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n└ Stage 1 (1 ~ 7): Red Eyes\n└ Stage 2 (8 ~ 15): Red Eyes - Alert\n└ Stage 3 (16 ~ 20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
 		"Tags": [
 			"Unique Charge",
 			"Bleed Potency"
@@ -1342,7 +1342,7 @@
 	},
 	{
 		"Name": "Penitence",
-		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n└Stage 1 (1 ~ 7): Penitence\n└Stage 2 (8 ~ 15): Penitence - Periphery\n└Stage 3 (16 ~ 20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
+		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n└ Stage 1 (1 ~ 7): Penitence\n└ Stage 2 (8 ~ 15): Penitence - Periphery\n└ Stage 3 (16 ~ 20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
 		"Tags": [
 			"Unique Charge",
 			"Heal SP",
@@ -1392,7 +1392,7 @@
 	},
 	{
 		"Name": "Courier Trunk - Rodion",
-		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\nAt 30+ Stack:\n└On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n└On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
+		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Slash Damage Up\nAt 30+ Stack:\n└ On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n└ On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
 		"Tags": [
 			"Courier Trunk",
 			"Min Speed",
@@ -1586,7 +1586,7 @@
 	},
 	{
 		"Name": "Courier Trunk - Sinclair",
-		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\nAt 30+ Stack:\n└On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n└On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
+		"Description": "Base Value: 0\nTurn Start: Gain 3 Stack\nStack does not expire upon Retreat\nAt 10+ Stack: Raise Min & Max Speed values by 1\nAt 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\nAt 30+ Stack:\n└ On Skill Use, take (Stack / 3)% HP Damage and (Stack / 3) SP Damage\n└ On Turn End, take (Stack / 2)% HP Damage and (Stack / 2) SP Damage (applies before retreat)",
 		"Tags": [
 			"Courier Trunk",
 			"Min Speed",
@@ -2453,7 +2453,7 @@
 	},
 	{
 		"Name": "Reflux",
-		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n└Take (Sinking x Stack) Gloom damage\n└Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
+		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n└ Take (Sinking x Stack) Gloom damage\n└ Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
 		"Tags": [
 			"Sinking Potency"
 		]
@@ -2474,7 +2474,7 @@
 	},
 	{
 		"Name": "Magical Arcana",
-		"Description": "Max Stack: 3\nBase Attack Skills deal +(Stack x 5)% damage\n└Turn End: At 3 Stack and -25 or higher SP, change SP to -25",
+		"Description": "Max Stack: 3\nBase Attack Skills deal +(Stack x 5)% damage\n└ Turn End: At 3 Stack and -25 or higher SP, change SP to -25",
 		"Tags": [
 		]
 	},
@@ -2490,7 +2490,7 @@
 	},
 	{
 		"Name": "Hysteria",
-		"Description": "Base Stack: 0\nMax Stack: 3\nTurn End:\n└At 0+ SP, lose 1 Stack\n└At less than 0 SP, gain 1 Stack",
+		"Description": "Base Stack: 0\nMax Stack: 3\nTurn End:\n└ At 0+ SP, lose 1 Stack\n└ At less than 0 SP, gain 1 Stack",
 		"Tags": []
 	},
 	{
@@ -2534,7 +2534,7 @@
 	},
 	{
 		"Name": "Tear-sharpened",
-		"Description": "Max Stack: 3\nTurn Start: Gain 5 Deep Tears\n└At 3 Stack, gain additional 5 Deep Tears\nTurn End: Lose (Stack x 15) SP\nBase Attack Skills deal +(Stack x 10)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
+		"Description": "Max Stack: 3\nTurn Start: Gain 5 Deep Tears\n└ At 3 Stack, gain additional 5 Deep Tears\nTurn End: Lose (Stack x 15) SP\nBase Attack Skills deal +(Stack x 10)% damage\nIf this unit has Blessing, gain Clash Power Up by the effect's Stack\nIf this unit has Despair, gain Pierce Power Up by the effect's Stack",
 		"Tags": [
 			"Deep Tears",
 			"Self SP Damage",
@@ -2604,7 +2604,7 @@
 	},
 	{
 		"Name": "Life from Death [死中求活]",
-		"Description": "Max Stack: 5\nTurn Start:\n└Gain 1 Offense Level Up for every Stack\n└Gain 1 Damage Up for every 2 Stack\n└Gain 1 Attack Power Up at 3+ Stack",
+		"Description": "Max Stack: 5\nTurn Start:\n└ Gain 1 Offense Level Up for every Stack\n└ Gain 1 Damage Up for every 2 Stack\n└ Gain 1 Attack Power Up at 3+ Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Damage Up",
@@ -2698,7 +2698,7 @@
 	},
 	{
 		"Name": "Bloodflame [血炎]",
-		"Description": "Max Stack: 3\nThis unit inflicts +1 Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n└If unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 3\nThis unit inflicts +1 Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n└ If unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\nLose 1 Stack at Turn End",
 		"Tags": [
 			"Offense Level Up",
 			"Haste"
@@ -2727,7 +2727,7 @@
 	},
 	{
 		"Name": "Backup Candy",
-		"Description": "Turn End: At less than 60% HP:\n└Heal 30% HP, heal 15 SP, lose 1 Backup Candy and 1 Hunger\nAt 0 Stack, apply 1 Incandescent Indulgence, then expires",
+		"Description": "Turn End: At less than 60% HP:\n└ Heal 30% HP, heal 15 SP, lose 1 Backup Candy and 1 Hunger\nAt 0 Stack, apply 1 Incandescent Indulgence, then expires",
 		"Tags": [
 			"Heal HP",
 			"Heal SP",
@@ -2919,7 +2919,7 @@
 	},
 	{
 		"Name": "Ready to Loose",
-		"Description": "When this unit has this effect:\n└Converts the leftmost Base Attack Skill on the Dashboard to 'Bow's Glimmer', then uses it at Combat Start\n└Unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n└Does not trigger Assist Attack while this unit has this buff\nRemoved if an E.G.O Skill was equipped at Combat Start",
+		"Description": "When this unit has this effect:\n└ Converts the leftmost Base Attack Skill on the Dashboard to 'Bow's Glimmer', then uses it at Combat Start\n└ Unit cannot be Staggered from taking damage, Tremor Burst, or raised Stagger Threshold\n└ Does not trigger Assist Attack while this unit has this buff\nRemoved if an E.G.O Skill was equipped at Combat Start",
 		"Tags": [
 			"Nullify Stagger"
 		]
