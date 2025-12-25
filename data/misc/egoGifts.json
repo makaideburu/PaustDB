@@ -8259,7 +8259,7 @@
     "Cost": 249,
     "Upgrades": [
       {
-        "Description": "Turn End: If any allies Retreated this turn, 1 ally with the fastest Speed gains 2 Attack Power Up and 1 Damage Up at next Turn Start\nCombat Start: If any allies were Subtituted in this turn, allies that were Subtituted in gain 2 Attack Power Up and 2 Defense Power Up",
+        "Description": "Turn End: If any allies Retreated this turn, 1 ally with the fastest Speed gains 2 Attack Power Up and 1 Damage Up at next Turn Start\nCombat Start: If any allies were Substituted in this turn, allies that were Substituted in gain 2 Attack Power Up and 2 Defense Power Up",
         "Rank": 1,
         "MiscTags": [
           "Attack Power Up",
@@ -9131,7 +9131,7 @@
     "Cost": 203,
     "Upgrades": [
       {
-        "Description": "When an ally dies in an Encounter, gain 2 E.G.O Resources for all affinities\nCombat Start: If there are any allies who Subtituted in this turn, heal 10 SP for 2 allies with the least SP (Once per turn; unless they are in Panic or E.G.O Corrosion)",
+        "Description": "When an ally dies in an Encounter, gain 2 E.G.O Resources for all affinities\nCombat Start: If there are any allies who Substituted in this turn, heal 10 SP for 2 allies with the least SP (Once per turn; unless they are in Panic or E.G.O Corrosion)",
         "Rank": 1,
         "MiscTags": [
 					"Gain Resources",

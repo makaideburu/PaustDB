@@ -1639,7 +1639,7 @@
 	},
 	{
 		"Name": "Target Spotted",
-		"Description": "If Unit A applies this effect to Unit B:\nUnit B follows up with an Unoppose Attck with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End\nThe Skill used due to this effect does not affect Unit B's upcoming Skill list",
+		"Description": "If Unit A applies this effect to Unit B:\nUnit B follows up with an Unopposed Attack with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End\nThe Skill used due to this effect does not affect Unit B's upcoming Skill list",
 		"Tags": [
 			"Ally Follow Up"
 		]
@@ -1663,14 +1663,14 @@
 	},
 	{
 		"Name": "Melee Support",
-		"Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with 'Melee Suport' against the same enemy that attacked Unit A\nActivates at Unit A's Skill End\nThe Skill used due to Melee Support does not affect Unit B's upcoming Skill list",
+		"Description": "If Unit A applies this effect to Unit B: Unit B follows up with an Unopposed Attack with 'Melee Support' against the same enemy that attacked Unit A\nActivates at Unit A's Skill End\nThe Skill used due to Melee Support does not affect Unit B's upcoming Skill list",
 		"Tags": [
 			"Ally Follow Up"
 		]
 	},
 	{
 		"Name": "Overwatch Assignment",
-		"Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Subtituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
+		"Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Substituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
 		"Tags": [
 			"Stagger Recovery",
 			"Status Cleanse",
@@ -1755,7 +1755,7 @@
 	},
 	{
 		"Name": "Requested Target",
-		"Description": "+0.2 Resistance to Attack Types with 1.5 or less Resistance.\nIf the target with this effect is defeated, gain 1 E.G.O Resource for all Affinities, and the unit that defeated the targt heals 10 SP",
+		"Description": "+0.2 Resistance to Attack Types with 1.5 or less Resistance.\nIf the target with this effect is defeated, gain 1 E.G.O Resource for all Affinities, and the unit that defeated the target heals 10 SP",
 		"Tags": [
 			"Resistance Down",
 			"Gain Resources",
@@ -2238,7 +2238,7 @@
 	},
 	{
 		"Name": "Battlefield Retreat",
-		"Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Subtituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
+		"Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Substituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
 		"Tags": [
 			"Retreat",
 			"Nullify Stagger"

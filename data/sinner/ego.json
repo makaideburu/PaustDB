@@ -4440,7 +4440,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 2 additional Poise per ally targeted (Max 4)\n[After Attack] If the target is defeated, gain 3 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +4 Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource spent\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 7 Deep Inhale (Once per turn)",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 2 additional Poise per ally targeted (Max 4)\n[After Attack] If the target is defeated, gain 3 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies substituted in due to the defeated ally gain 4 Poise and +4 Poise Count; recover SP used by this Skill and regain 1 of each E.G.O resource spent\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 40%)\n[On Hit] Gain 7 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 24,
@@ -4503,7 +4503,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Thoracalgia",
-          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 1 additional Poise per ally targeted (Max 2)\n[After Attack] If the target is defeated, gain 2 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies subtituted in due to the defeated ally gain 4 Poise and +2 Poise Count; recover half of SP used by this Skill\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 4 Deep Inhale (Once per turn)",
+          "Description": "[Indiscriminate] Prioritizes targets with least HP (Prioritizes allies)\nIf an ally is among targets, deal +30% damage\n[Before Attack] At less than 15 Poise, consume 10% HP to gain 5 Poise and +5 Poise Count\nCannot be Staggered or defeated due to this effect\nGain 1 additional Poise per ally targeted (Max 2)\n[After Attack] If the target is defeated, gain 2 Deep Inhale next turn (Once per turn)\nIf an ally is defeated, allies substituted in due to the defeated ally gain 4 Poise and +2 Poise Count; recover half of SP used by this Skill\n<2>Deal +(Poise + Poise Count)% more damage on Critical Hit (Max 20%)\n[On Hit] Gain 4 Deep Inhale (Once per turn)",
           "DamageType": "Slash",
           "SinType": "Pride",
           "BasePower": 20,
@@ -6675,7 +6675,7 @@
         },
         "Passive": {
           "Name": "Entangled Phenomena Restoration",
-          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% max HP)",
+          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proportion to the amount spent. (Cannot heal over 25% max HP)",
           "MiscTags": [
             "Charge Count",
             "Revive",
@@ -6738,7 +6738,7 @@
         },
         "Passive": {
           "Name": "Entangled Phenomena Restoration",
-          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proporation to the amount spent. (Cannot heal over 25% max HP)",
+          "Description": "When hitting an enemy with negative status effects, this unit gains +1 Charge Count. (Max +4 per turn)\nWhen HP falls to 0 for the first time during battle, spend all Charge Count and heal in proportion to the amount spent. (Cannot heal over 25% max HP)",
           "MiscTags": [
             "Charge Count",
             "Revive",
@@ -8321,7 +8321,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Binds",
-          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Next turn, gain 20 Bind, 1 Before the King, and 3 Attack Power Up\n[After Attack] Next turn, apply 20 Bind, 3 Attack Power Up, and 2 Gloom DMG Up to 2 other allies in order of Depoyment\nThe number of affected allies grows by (highest Gloom or Pride Reson - 2) (Max 4)\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] Inflict 4 Sinking\n[On Hit] Inflict 4 Tremor\n[On Hit] Trigger Tremor Burst",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Next turn, gain 20 Bind, 1 Before the King, and 3 Attack Power Up\n[After Attack] Next turn, apply 20 Bind, 3 Attack Power Up, and 2 Gloom DMG Up to 2 other allies in order of Deployment\nThe number of affected allies grows by (highest Gloom or Pride Reson - 2) (Max 4)\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] Inflict 4 Sinking\n[On Hit] Inflict 4 Tremor\n[On Hit] Trigger Tremor Burst",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 35,
@@ -8392,7 +8392,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Binds",
-          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Next turn, gain 20 Bind, 1 Before the King, and 3 Attack Power Up\n[After Attack] Next turn, apply 20 Bind, 3 Attack Power Up, and 1 Gloom DMG Up to 2 other allies in order of Depoyment\nThe number of affected allies grows by (highest Gloom or Pride Reson - 2) (Max 3)\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] Inflict 4 Sinking\n[On Hit] Inflict 4 Tremor\n[On Hit] Trigger Tremor Burst",
+          "Description": "[Indiscriminate] Targets randomly\n[After Attack] Next turn, gain 20 Bind, 1 Before the King, and 3 Attack Power Up\n[After Attack] Next turn, apply 20 Bind, 3 Attack Power Up, and 1 Gloom DMG Up to 2 other allies in order of Deployment\nThe number of affected allies grows by (highest Gloom or Pride Reson - 2) (Max 3)\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] Inflict 4 Sinking\n[On Hit] Inflict 4 Tremor\n[On Hit] Trigger Tremor Burst",
           "DamageType": "Blunt",
           "SinType": "Gloom",
           "BasePower": 32,
@@ -9690,7 +9690,7 @@
         },
         "Passive": {
           "Name": "Abyssal Dance",
-          "Description": "Combat Start: If there is just a single enemy, this unit's leftmost Skill on the Dashboard gains Clash Power +1 and deals +11.5% damage On Hit after Clash Win\nFor turns in which this unit Returned or Subtituted in: Min & Max Speed +1, Clash Power +1",
+          "Description": "Combat Start: If there is just a single enemy, this unit's leftmost Skill on the Dashboard gains Clash Power +1 and deals +11.5% damage On Hit after Clash Win\nFor turns in which this unit Returned or Substituted in: Min & Max Speed +1, Clash Power +1",
           "MiscTags": [
             "Clash Power Up",
             "Min Speed",
@@ -9758,7 +9758,7 @@
         },
         "Passive": {
           "Name": "Abyssal Dance",
-          "Description": "Combat Start: If there is just a single enemy, this unit's leftmost Skill on the Dashboard gains Clash Power +1 and deals +11.5% damage On Hit after Clash Win\nFor turns in which this unit Returned or Subtituted in: Min & Max Speed +1, Clash Power +1",
+          "Description": "Combat Start: If there is just a single enemy, this unit's leftmost Skill on the Dashboard gains Clash Power +1 and deals +11.5% damage On Hit after Clash Win\nFor turns in which this unit Returned or Substituted in: Min & Max Speed +1, Clash Power +1",
           "MiscTags": [
             "Clash Power Up",
             "Min Speed",

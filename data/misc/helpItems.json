@@ -53,7 +53,7 @@
     "HelpDescription": "Used for searching for Sinner Identities.",
     "HelpItems": [
       [
-        "Basic Paramters",
+        "Basic Parameters",
         "Specific IDs can be searched with just the Identity and Sinner's names.```/limbus id spicebush yi sang```IDs can be searched via -i```/limbus id -i zwei south```Sinners can be searched via -s```/limbus id -s sinclair```Uptie 3 information is available by adding -t 3```/limbus id -i w corp -s meursault -t 3```"
       ],
       [
@@ -62,7 +62,7 @@
       ],
       [
         "Special Parameters",
-        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' or 'guard' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins.\n-world will search for a ids from that Mirror World by name.\n-trait searches for traits by name.\n-season searches for the season. Add an 'r' to search for release season (i.e. R Corp. Ishmael is Standard Fare, but released in Season 1) or 'w' to search for Walpurgisnacht.\n-keyword searches for IDs as defined by certain E.G.O gifts (Base Attack Skills). Example, Blade Lineage Mentor Meursault is not a 'Bleed' ID as his only Bleed is on what is considered a Defense Skill."
+        "`-s1 -s2 -s3 -sd -passive -support` will search for `-sin` (Sins), `-damage` (damage types) or `-e` (effects).\nAn example:```identity -s faust -s1 -sin envy -damage pierce```Will give you FAUST identities that have ENVY AND PIERCE SKILL 1s.\nThe defense skill that gives shield is listed under 'defend' or 'guard' as a damage type.\nIf passives and support skills are in the query, it will search for passives and supports that are fueled by only those sins.\n-world will search for a ids from that Mirror World by name.\n-trait searches for traits by name.\n-season searches for the season. Add an 'r' to search for release season (i.e. R Corp. Ishmael is Standard Fare, but released in Season 1), 'p' to include all previous seasons, or 'w' to search for Walpurgisnacht.\n-keyword searches for IDs as defined by certain E.G.O gifts (Base Attack Skills). Example, Blade Lineage Mentor Meursault is not a 'Bleed' ID as his only Bleed is on what is considered a Defense Skill."
       ],
       [
         "Sorts",
@@ -78,8 +78,8 @@
     "HelpDescription": "Used for searching for Sinner E.G.O",
     "HelpItems": [
       [
-        "Basic Paramters",
-        "Specific E.G.O can be searched with just the E.G.O and Sinner's names.```/limbus id sunshower yi sang```E.G.O can be searched via -ego```/limbus ego -ego cavernous wailing```Sinners can be searched via -s```/limbus ego -s sinclair```Threadspin 3 information is avalable by adding -t 3```/limbus ego -ego lifetime stew -s sinclair -t 3```"
+        "Basic Parameters",
+        "Specific E.G.O can be searched with just the E.G.O and Sinner's names.```/limbus id sunshower yi sang```E.G.O can be searched via -ego```/limbus ego -ego cavernous wailing```Sinners can be searched via -s```/limbus ego -s sinclair```Threadspin 3 information is available by adding -t 3```/limbus ego -ego lifetime stew -s sinclair -t 3```"
       ],
       [
         "Special Parameters",
@@ -87,7 +87,7 @@
       ],
       [
         "More Special Parameters",
-        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION\n-season searches for the season. Add an 'r' to search for release season (i.e. Lantern Gregor is Standard Fare, but released in Season 1) or 'w' to search for Walpurgisnacht."
+        "`-awakening -corrosion -passive` will search for `-sin` (Sins) or `-damage` (damage types) or `-e` effects.\nAn example:```ego -s yi sang -awakening -sin sloth -e protection```Will give you YI SANG AWAKENING EGO that are SLOTH AND HAVE PROTECTION\n-season searches for the season. Add an 'r' to search for release season (i.e. Lantern Gregor is Standard Fare, but released in Season 1), 'p' to include all previous seasons, or 'w' to search for Walpurgisnacht."
       ],
       [
         "Notice on sorting",
@@ -104,7 +104,7 @@
     "HelpDescription": "Used for searching for Sinner ID Skills",
     "HelpItems": [
       [
-        "Basic Paramters",
+        "Basic Parameters",
         "Specific Skills can be searched with just the Skill name.```/limbus skill lament mourn and despair```Skill names are searched via -skill```/limbus skill -skill leap```...and narrowed down per Sinner via -s```/limbus skill -s faust```Uptie 3 information is available by adding -t 3```/limbus skill -skill energy current -t 3```"
       ],
       [
@@ -139,7 +139,7 @@
       "tags"
     ],
     "HelpTitle": "Effect Tags, Continued",
-    "HelpDescription": "Potentially Useful, But Unituitive Tags",
+    "HelpDescription": "Potentially Useful, But Unintuitive Tags",
     "HelpItems": [
       [
         "\u200B",
@@ -176,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.3 (2025-12-25)",
+        "```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
+      ],
+      [
         "3.2.2 (2025-12-06)",
         "```backend stuff```"
       ],
@@ -194,10 +198,6 @@
       [
         "3.1.0 (2025-11-22)",
         "```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
-      ],
-      [
-        "3.0.2 (2025-11-20)",
-        "```did you know ego gifts have tiers?```"
       ]
     ],
     "OldItems": [
@@ -380,6 +380,10 @@
       [
         "3.0.1 (2025-11-03)",
         "```did you know captain ishmael is every heishou, all at once\ni do now```"
+      ],
+      [
+        "3.0.2 (2025-11-20)",
+        "```did you know ego gifts have tiers?```"
       ]
     ],
     "HelpFooter": ""
