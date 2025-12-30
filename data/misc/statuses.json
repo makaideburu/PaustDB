@@ -2654,7 +2654,7 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination [黑獸丸染]",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n_Wu Adept Yi Sang_: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\n_Mao Adept Faust_: Take -5% damage from skills\n_Wei Don Quixote_: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n_Mao Ryōshū_: If this unit's Speed is faster than target's, deal +5% damage\n_You Adept Heathcliff_: On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\n_Si Rodion_: Inflict 1 Rupture On Critical Hit\n_You Sinclair_: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n_Mao Outis_: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\n_Si Gregor_: Gain +1 Poise Count when dealing Rupture damage (Once per turn)",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n**Wu Adept Yi Sang**: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\n**Mao Adept Faust**: Take -5% damage from skills\n**Wei Don Quixote**: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n**Mao Ryōshū**: If this unit's Speed is faster than target's, deal +5% damage\n**You Adept Heathcliff**: On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\n**Si Rodion**: Inflict 1 Rupture On Critical Hit\n**You Sinclair**: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n**Mao Outis**: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\n**Si Gregor**: Gain +1 Poise Count when dealing Rupture damage (Once per turn)",
 		"Tags": [
 			"Rupture Count",
 			"Rupture Potency",
@@ -3043,6 +3043,8 @@
 		"Name": "Shattermark",
 		"Description": "Take +10% damage from Gluttony and Gloom Skills\nUnits with SP change their Panic Type to Shattermark\nUnits without SP gain Clash Power -1\nTurn End: Reduce 1 Stack\nEffect is not cumulative; inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
 		"Tags": [
+			"Gluttony Damage Amp",
+			"Gloom Damage Amp",
 			"Change Panic Type",
 			"Clash Power Down"
 		]
@@ -3086,6 +3088,117 @@
 			"Poise Potency",
 			"Poise Count",
 			"Aggro"
+		]
+	},
+	{
+		"Name": "Prescript: [Paper Slip] I",
+		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n└ Turn Start: At X~Y Grace of the Prescript, gain this effect\n└ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Paper Slip]"
+		]
+	},
+	{
+		"Name": "Prescript: [Paper Slip] II",
+		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n└ Turn Start: At X~Y Grace of the Prescript, gain this effect\n└ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Paper Slip]"
+		]
+	},
+	{
+		"Name": "Prescript: [Paper Slip] III",
+		"Description": "_Hit a target with E.G.O Awakening Skill or 'Skill 3' marked with Mark of the Prescript._\n└ Turn Start: At X~Y Grace of the Prescript, gain this effect\n└ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Paper Slip]"
+		]
+	},
+	{
+		"Name": "Prescript: [Paper Slip] IV",
+		"Description": "_Eliminate all enemies before the next Prescript arrives._\n└ Turn Start: At X Grace of the Prescript, gain this effect",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Paper Slip]"
+		]
+	},
+	{
+		"Name": "Mark of the Prescript",
+		"Description": "Apply Mark of the Prescript to a Base Attack Skill on this unit's Dashboard",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "The Prescript's Target",
+		"Description": "Take more damage from The Index units\nThis effect is applied to a single target every turn regardless of the number of The Index units deployed",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Grace of the Prescript",
+		"Description": "Gain Offense Level for every X Stacks",
+		"Tags": [
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Karmic Consequence",
+		"Description": "Turn Start:\n└ Gain Defense Level Down for every X Stacks\n└ Gain Fragile for every Y Stacks",
+		"Tags": [
+			"Self Defense Level Down",
+			"Self Fragile"
+		]
+	},
+	{
+		"Name": "The Udjat [Vanguard]",
+		"Description": "Gain Min & Max Speed\nCombat Start: Gain Protection\nGain the following effects during the Combat Phase (Capped per-Skill, per turn)\n└ When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n└ Clash Start: In the first Clash, halve the target's chance to flip Heads for all its Coins\n└ For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\nTurn End: Reduce Stack",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Protection"
+		]
+	},
+	{
+		"Name": "Sheut Fracture",
+		"Description": "Unique Sinking\nFor every X Stack, take more damage when hit by Sloth and Gloom Skills\nAt max Stack, gain Gloom Fragility, take Gloom damage equal to Sinking Potency on self (Lose Sinking Count), then expire\nIf the unit with this effect dies, transfer half of its Stack to its ally (or allies) with the highest SP\nTurn Start: If there are no LCA Identities on the field, expires",
+		"Tags": [
+			"Unique Sinking",
+			"Sloth Damage Amp",
+			"Gloom Damage Amp",
+			"Gloom Fragility"
+		]
+	},
+	{
+		"Name": "Blue Sand",
+		"Description": "On Clash Lose, gain Sinking Count\nUnits with SP: Change their Panic Type to 'Blue Sand'\nUnits without SP: Lose Min & Max Speed\nTurn End: Reduce Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Tags": [
+			"Sinking Count",
+			"Change Panic Type",
+			"Min Speed Down",
+			"Max Speed Down"
+		]
+	},
+	{
+		"Name": "Blue Sand (Low Morale)",
+		"Description": "Clash Power -X, Min & Max Speed -Y",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Blue Sand (Panic)",
+		"Description": "Clash Power -X, Min & Max Speed -Y",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "LCA Fracture Round",
+		"Description": "Unique Ammo\nSpent by certain Skills\nSome attacks cancel if lacking Ammo",
+		"Tags": [
+			"Unique Ammo"
 		]
 	}
 ]

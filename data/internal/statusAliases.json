@@ -235,6 +235,18 @@
 		]
 	},
 	{
+		"entry": "self follow up",
+		"aliases": [
+			"follow up"
+		]
+	},
+	{
+		"entry": "ally follow up",
+		"aliases": [
+			"follow up"
+		]
+	},
+	{
 		"entry": "burn potency",
 		"aliases": [
 			"burn"
@@ -688,6 +700,12 @@
 		"entry": "spend ammo",
 		"aliases": [
 			"ammo"
+		]
+	},
+	{
+		"entry": "spend unique ammo",
+		"aliases": [
+			"spend ammo"
 		]
 	},
 	{
@@ -2028,6 +2046,90 @@
 			"poise potency",
 			"poise count",
 			"aggro"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] i",
+		"aliases": [
+			"prescript"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] ii",
+		"aliases": [
+			"prescript"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] iii",
+		"aliases": [
+			"prescript"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] iv",
+		"aliases": [
+			"prescript"
+		]
+	},
+	{
+		"entry": "grace of the prescript",
+		"aliases": [
+			"offense level up"
+		]
+	},
+	{
+		"entry": "karmic consequence",
+		"aliases": [
+			"self defense level down",
+			"self fragile"
+		]
+	},
+	{
+		"entry": "the udjat [vanguard]",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"protection"
+		]
+	},
+	{
+		"entry": "sheut fracture",
+		"aliases": [
+			"unique sinking",
+			"sloth damage amp",
+			"gloom damage amp",
+			"gloom fragility"
+		]
+	},
+	{
+		"entry": "sheut fracture",
+		"aliases": [
+			"unique sinking",
+			"sloth damage amp",
+			"gloom damage amp",
+			"gloom fragility"
+		]
+	},
+	{
+		"entry": "blue sand",
+		"aliases": [
+			"sinking count",
+			"change panic type",
+			"min speed down",
+			"max speed down"
+		]
+	},
+	{
+		"entry": "lca fracture round",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend lca fracture round",
+		"aliases": [
+			"spend unique ammo"
 		]
 	}
 ]

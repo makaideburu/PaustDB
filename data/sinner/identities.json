@@ -7887,6 +7887,191 @@
 		]
 	},
 	{
+		"Id": 2000,
+		"Sinner": "Faust",
+		"Identity": "The Index Proselyte: [Paper Slip]",
+		"World": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Unerringly, As the Prescript Demands",
+					"Description": "If this Skill is marked with Mark of the Prescript, Clash Power +X and deal more damage\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n[On Crit] Inflict Sinking",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Undertake the Prescript, Again Undertake",
+					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +X\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[On Use] Gain Poise and Poise Count\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Sinking\n[On Crit] Inflict Sinking Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "As the Prescript Demands, You Will be Eliminated.",
+					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +X and deal more damage on Critical Hit\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[Combat Start] At X+ Grace of the Prescript, convert all Coins of this Skill to Unbreakable Coins and deal more damage\n[On Use] Gain Poise Count\n$ Gain Poise equal to (Grace of the Prescript / X)\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>Deal more damage for every X Grace of the Prescript\n$ Ay & Grace of the Prescript, deal even more damage\n[On Hit] Inflict Sinking\n[On Crit] Inflict Sinking Count",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Poise Count",
+						"Poise Potency",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Prescript-granted, Prescript-woven Fabric",
+					"Description": "Final Power +X and deal more damage for every Y Grace of the Prescript\n[Combat Start] Gain Shield equal to X% of max HP\n$ Reduce Shield gained for every X Karmic Consequence; at Y+ Karmic Consequence, does not gain Shield\n[On Use] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Sinking",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Counter",
+						"Shield",
+						"Poise Potency",
+						"Sinking Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Prescript Delivered on Paper Slips",
+						"Description": "Turn Start:\n$ Gain Prescript: [Paper Slip] I / Prescript: [Paper Slip] II / Prescript: [Paper Slip] III / Prescript: [Paper Slip] IV based on Grace of the Prescript\n$ Inflict The Prescript's Target to a random enemy (in Focused Encounters, a Part)\n$ Apply Mark of the Prescript to Base Attack Skills on this unit's Dashboard\n$- At X+ Grace of the Prescript, the above effect prioritizes Skill 3\n$ All the effects above and Prescript execution checks do not trigger when this unit is Staggered, Immobilized, in Panic, or in E.G.O Corrosion",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Prescript",
+							"The Prescript's Target",
+							"Mark of the Prescript"
+						]
+					},
+					{
+						"Name": "Will of the Prescript",
+						"Description": "Turn End: If Prescript was executed this turn, heal SP and gain Grace of the Prescript\n$ When executing Prescript, if main target has The Prescript's Target, heal even more SP and gain even more Grace of the Prescript\nTurn End: If Prescript was not executed this turn, gain Karmic Consequence\n$ At X Grace of the Prescript, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Heal SP",
+							"Grace of the Prescript",
+							"Karmic Consequence"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Proselyte's Blade",
+					"Description": "Deal more damage with Skills marked with Mark of the Prescript for every X Grace of the Prescript on self\n$ At Y Grace of the Prescript, deal more damage with Base Skills instead\nOn Hit with a Base Skill against enemies with The Prescript's target, gain Poise and inflict Sinking\n$ Increases the number of times this effect can trigger per turn for every X Grace of the Prescript\nAt X Grace of the Prescript, Base Skills inflict more Sinking Potency and this unit gains more Poise Potency",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Poise Potency",
+						"Sinking Potency"
+					]
+				},
+				"SupportSkill": {
+					"Name": "As the Prescript Orders...",
+					"Description": "Effects apply to the Identity with the earliest Deployment order\n$ Prioritizes The Index Identities\nCombat Start: If this unit's leftmost Skill on the Dashboard and other allies target the same enemy Slot, said Skill deals +X% damage for every ally targeting the same Slot excluding this unit (applies when this unit and allies both use Base Attack Skills to main-target enemy Slot)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Damage Amp"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 3101,
 		"Sinner": "Don Quixote",
 		"Identity": "LCB Sinner",
@@ -13081,7 +13266,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Follow Up",
+						"Self Follow Up",
 						"Self Tremor Count",
 						"Tremor Burst"
 					]
@@ -13202,7 +13387,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Follow Up",
+						"Self Follow Up",
 						"Self Tremor Count",
 						"Tremor Burst"
 					]
@@ -15136,7 +15321,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Ally Skill Change",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -15343,7 +15528,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Ally Skill Change",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -15514,7 +15699,7 @@
 						],
 						"ResourceType": "None",
 						"MiscTags": [
-							"Follow Up",
+							"Self Follow Up",
 							"Protector's Stance"
 						]
 					}
@@ -15530,7 +15715,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Follow Up",
+						"Self Follow Up",
 						"Ally Heal SP"
 					]
 				},
@@ -15663,7 +15848,7 @@
 						],
 						"ResourceType": "None",
 						"MiscTags": [
-							"Follow Up",
+							"Self Follow Up",
 							"Protector's Stance"
 						]
 					}
@@ -15679,7 +15864,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Follow Up",
+						"Self Follow Up",
 						"Ally Heal SP"
 					]
 				},
@@ -26858,7 +27043,7 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Dark Cloud Blade",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SupportSkill": {
@@ -27000,7 +27185,7 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Dark Cloud Blade",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SupportSkill": {
@@ -30986,7 +31171,7 @@
 						"MiscTags": [
 							"Ally Offense Level Up",
 							"Ready [待]",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -31159,7 +31344,7 @@
 						"MiscTags": [
 							"Ally Offense Level Up",
 							"Ready [待]",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -31367,7 +31552,7 @@
 							"Bright [光] Count",
 							"Tremor Burst",
 							"Spend Enemy Tremor Count",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -31551,7 +31736,7 @@
 							"Bright [光] Count",
 							"Tremor Burst",
 							"Spend Enemy Tremor Count",
-							"Follow Up"
+							"Self Follow Up"
 						]
 					}
 				],
@@ -43701,6 +43886,184 @@
 		]
 	},
 	{
+		"Id": 12000,
+		"Sinner": "Outis",
+		"Identity": "LCA Udjat Vanguard Team 3 Leader",
+		"World": "",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Khopesh Swordplay",
+					"Description": "[On Use] Gain Aggro to this Skill Slot next turn\n[On Use] Coin Power +X for every Y (Sinking + Tremor) on target\n[On Use] If unit has The Udjat [Vanguard], Clash Power +X\n[Clash Win] Inflict Sheut Fracture\n<1>[On Hit] Inflict Sinking Count\n[On Hit] Inflict Tremor Count\n<2>[On Hit] Gain Protection next turn",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Aggro",
+						"Sheut Fracture",
+						"Sinking Count",
+						"Tremor Count",
+						"Protection"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Mirage Incision",
+					"Description": "[On Use] Gain Aggro to this Skill Slot next turn\n[On Use] Coin Power +X for every Y (Sinking + Tremor) on target\n[On Use] If unit has The Udjat [Vanguard], Clash Power +X and deal more damage\n[Clash Win] Inflict Sheut Fracture\n<1>[On Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Tremor Count\n<3>[On Hit] Inflict Sinking\n[On Hit] Inflict Tremor\n[On Hit] Gain Protection next turn",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Aggro",
+						"Sheut Fracture",
+						"Sinking Count",
+						"Tremor Count",
+						"Sinking Potency",
+						"Tremor Potency",
+						"Protection"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "The Vanguard will See it Done",
+					"Description": "If unit has The Udjat [Vanguard], deal more damage\n[On Use] Gain Aggro to this Skill Slot next turn\n[On Use] If target has X+ (Sinking + Tremor), Coin Power +Y\n[On Use] Base Power +X for every Y LCA Fracture Round to be spent by this Skill\n[After Attack] Gain Protection next turn\n[After Attack] At X- LCA Fracture Round, Reload\n<1>Spend X LCA Fracture Round\nDeal +(LCA Fracture Round spent x X)% damage\n[On Hit] Inflict Sinking Count\n[On Hit] Inflict Tremor Count\n<2>[On Hit] Inflict Sinking\n[On Hit] Inflict Blue Sand next turn\n[On Hit] Inflict Gloom Resist Down\n<3>Spend X LCA Fracture Round\nDeal +(LCA Fracture Round spent x X)% damage\n[On Hit] Inflict Sinking\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If target has SP, trigger Tremor Burst; reduce target's Tremor Count\nIf target has X- SP, inflict Gloom Fragility",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Aggro",
+						"Protection",
+						"Reload",
+						"Spend LCA Fracture Round",
+						"Sinking Count",
+						"Tremor Count",
+						"Sinking Potency",
+						"Blue Sand",
+						"Gloom Resist Down",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Gloom Fragility"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Composure",
+					"Description": "When hit while this unit has Shield, inflict Sinking against the attacker\n[On Use] If unit has The Udjat [Vanguard], gain Protection\n[On Use] For every X Protection, gain Shield equal to Y% of unit's max HP",
+					"DamageType": "Defend",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Sinking Potency",
+						"Protection",
+						"Shield"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Scepter of Horus - Replica",
+						"Description": "Turn Start: If an enemy has any Panic type changing effects, gain The Udjat [Vanguard]\nIf unit has The Udjar [Vanguard], inflict Sheut Fracture On Hit with a Base Attack Skill\n$ If LCA Fracture Round was spent, inflict additional Sheut Fracture per LCA Fracture Round spent\nProtection Stack gained from this unit's Base Skills and The Udjat [Vanguard] effect is capped to X per turn",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"The Udjat [Vanguard]",
+							"Sheut Fracture"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Vanguard Team",
+					"Description": "Deal more damage for every X Protection on self\nCombat Start: Gain The Udjat [Vanguard]",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"The Udjat [Vanguard]"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Eagle Eye",
+					"Description": "Combat Start: Apply Protection next turn to X ally (or allies) with the lowest HP percentage",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Protection"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 13101,
 		"Sinner": "Gregor",
 		"Identity": "LCB Sinner",
@@ -47078,7 +47441,7 @@
 						"Tremor Count",
 						"Bleed Count",
 						"Open Wound",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SkillThree": {
@@ -47108,7 +47471,7 @@
 						"Open Wound",
 						"Amplitude Conversion",
 						"Tremor - Hemorrhage",
-						"Follow Up"
+						"Self Follow Up"
 					],
 					"AltSkill": {
 						"SkillSlot": "S31",
@@ -47197,7 +47560,7 @@
 					"MiscTags": [
 						"Pierce Power Up",
 						"Defense Power Down",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SupportSkill": {
@@ -47286,7 +47649,7 @@
 						"Tremor Count",
 						"Bleed Count",
 						"Open Wound",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SkillThree": {
@@ -47315,7 +47678,7 @@
 						"Open Wound",
 						"Amplitude Conversion",
 						"Tremor - Hemorrhage",
-						"Follow Up"
+						"Self Follow Up"
 					],
 					"AltSkill": {
 						"SkillSlot": "S31",
@@ -47401,7 +47764,7 @@
 					"MiscTags": [
 						"Pierce Power Up",
 						"Defense Power Down",
-						"Follow Up"
+						"Self Follow Up"
 					]
 				},
 				"SupportSkill": {
