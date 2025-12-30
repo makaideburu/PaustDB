@@ -1086,17 +1086,16 @@
 		]
 	},
 	{
+		"entry": "spend the living & the departed",
+		"aliases": [
+			"spend unique ammo"
+		]
+	},
+	{
 		"entry": "butterfly",
 		"aliases": [
 			"unique sinking",
 			"heal sp"
-		]
-	},
-	{
-		"entry": "reload",
-		"aliases": [
-			"self sp damage",
-			"the living & the departed"
 		]
 	},
 	{
@@ -1262,6 +1261,18 @@
 			"stagger recovery",
 			"status cleanse",
 			"retreat"
+		]
+	},
+	{
+		"entry": "ammo - atelier logic",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend ammo - atelier logic",
+		"aliases": [
+			"spend unique ammo"
 		]
 	},
 	{
@@ -1632,12 +1643,6 @@
 		]
 	},
 	{
-		"entry": "spend scorch propellant ammo",
-		"aliases": [
-			"spend ammo"
-		]
-	},
-	{
 		"entry": "scorch propellant ammo",
 		"aliases": [
 			"ammo",
@@ -1645,9 +1650,40 @@
 		]
 	},
 	{
+		"entry": "spend scorch propellant ammo",
+		"aliases": [
+			"spend unique ammo"
+		]
+	},
+	{
 		"entry": "tremor - scorch",
 		"aliases": [
 			"unique tremor"
+		]
+	},
+	{
+		"entry": "tigermark round",
+		"aliases": [
+			"ammo",
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend tigermark round",
+		"aliases": [
+			"spend unique ammo"
+		]
+	},
+	{
+		"entry": "savage tigermark round",
+		"aliases": [
+			"tigermark round"
+		]
+	},
+	{
+		"entry": "spend savage tigermark round",
+		"aliases": [
+			"spend tigermark round"
 		]
 	},
 	{

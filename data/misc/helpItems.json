@@ -176,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.4 (2025-12-29)",
+        "```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
+      ],
+      [
         "3.2.3 (2025-12-25)",
         "```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
       ],
@@ -194,10 +198,6 @@
       [
         "3.1.1 (2025-11-22)",
         "```sorts now respect usage of -mod in display```"
-      ],
-      [
-        "3.1.0 (2025-11-22)",
-        "```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
       ]
     ],
     "OldItems": [
@@ -384,6 +384,10 @@
       [
         "3.0.2 (2025-11-20)",
         "```did you know ego gifts have tiers?```"
+      ],
+      [
+        "3.1.0 (2025-11-22)",
+        "```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
       ]
     ],
     "HelpFooter": ""
