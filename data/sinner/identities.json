@@ -7959,7 +7959,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "As the Prescript Demands, You Will be Eliminated.",
-					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +X and deal more damage on Critical Hit\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[Combat Start] At X+ Grace of the Prescript, convert all Coins of this Skill to Unbreakable Coins and deal more damage\n[On Use] Gain Poise Count\n$ Gain Poise equal to (Grace of the Prescript / X)\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>Deal more damage for every X Grace of the Prescript\n$ Ay & Grace of the Prescript, deal even more damage\n[On Hit] Inflict Sinking\n[On Crit] Inflict Sinking Count",
+					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +X and deal more damage on Critical Hit\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[Combat Start] At X+ Grace of the Prescript, convert all Coins of this Skill to Unbreakable Coins and deal more damage\n[On Use] Gain Poise Count\n$ Gain Poise equal to (Grace of the Prescript / X)\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>Deal more damage for every X Grace of the Prescript\n$ At X+ Grace of the Prescript, deal even more damage\n[On Hit] Inflict Sinking\n[On Crit] Inflict Sinking Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 0,

@@ -205,33 +205,63 @@
 		]
 	},
 	{
-		"entry": "wrath resistance down",
+		"entry": "slash resist down",
 		"aliases": [
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
-		"entry": "pierce resistance down",
+		"entry": "pierce resist down",
 		"aliases": [
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
-		"entry": "self pierce resistance down",
+		"entry": "blunt resist down",
 		"aliases": [
-			"self resistance down"
+			"resist down"
+		]
+	},
+	{
+		"entry": "self pierce resist down",
+		"aliases": [
+			"self resist down"
+		]
+	},
+	{
+		"entry": "wrath resist down",
+		"aliases": [
+			"resist down"
+		]
+	},
+	{
+		"entry": "lust resist down",
+		"aliases": [
+			"resist down"
+		]
+	},
+	{
+		"entry": "sloth resist down",
+		"aliases": [
+			"resist down"
+		]
+	},
+	{
+		"entry": "gluttony resist down",
+		"aliases": [
+			"resist down"
 		]
 	},
 	{
 		"entry": "gloom resist down",
 		"aliases": [
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
 		"entry": "envy resist down",
 		"aliases": [
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
@@ -864,7 +894,7 @@
 	{
 		"entry": "weakness analyzed",
 		"aliases": [
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
@@ -1293,15 +1323,15 @@
 	{
 		"entry": "the seventh magic bullet",
 		"aliases": [
-			"pierce resistance down",
-			"self pierce resistance down",
+			"pierce resist down",
+			"self pierce resist down",
 			"self instant death"
 		]
 	},
 	{
 		"entry": "requested target",
 		"aliases": [
-			"resistance down",
+			"resist down",
 			"gain resources",
 			"heal sp"
 		]
@@ -1503,7 +1533,7 @@
 	{
 		"entry": "searing birdcage",
 		"aliases": [
-			"wrath resistance down",
+			"wrath resist down",
 			"bind"
 		]
 	},
@@ -1662,7 +1692,7 @@
 		"aliases": [
 			"charge count limit increase",
 			"damage amp",
-			"resistance down"
+			"resist down"
 		]
 	},
 	{
