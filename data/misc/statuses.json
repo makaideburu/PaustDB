@@ -3092,7 +3092,7 @@
 	},
 	{
 		"Name": "Prescript: [Paper Slip] I",
-		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: At X~Y Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: At 0~2 Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 3",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Paper Slip]"
@@ -3100,7 +3100,7 @@
 	},
 	{
 		"Name": "Prescript: [Paper Slip] II",
-		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: At X~Y Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: At 3~5 Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 6",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Paper Slip]"
@@ -3108,7 +3108,7 @@
 	},
 	{
 		"Name": "Prescript: [Paper Slip] III",
-		"Description": "_Hit a target with E.G.O Awakening Skill or 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: At X~Y Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to Z",
+		"Description": "_Hit a target with E.G.O Awakening Skill or 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: At 6~8 Grace of the Prescript, gain this effect\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Paper Slip]"
@@ -3116,7 +3116,7 @@
 	},
 	{
 		"Name": "Prescript: [Paper Slip] IV",
-		"Description": "_Eliminate all enemies before the next Prescript arrives._\n$ Turn Start: At X Grace of the Prescript, gain this effect",
+		"Description": "_Eliminate all enemies before the next Prescript arrives._\n$ Turn Start: At 9 Grace of the Prescript, gain this effect",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Paper Slip]"
@@ -3130,20 +3130,20 @@
 	},
 	{
 		"Name": "The Prescript's Target",
-		"Description": "Take more damage from The Index units\nThis effect is applied to a single target every turn regardless of the number of The Index units deployed",
+		"Description": "Take +10% damage from The Index units\nThis effect is applied to a single target every turn regardless of the number of The Index units deployed",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Grace of the Prescript",
-		"Description": "Gain Offense Level for every X Stacks",
+		"Description": "Offense Level +1 for every 3 Stacks",
 		"Tags": [
 			"Offense Level Up"
 		]
 	},
 	{
 		"Name": "Karmic Consequence",
-		"Description": "Turn Start:\n$ Gain Defense Level Down for every X Stacks\n$ Gain Fragile for every Y Stacks",
+		"Description": "Max Stack: 100\nTurn Start:\n$ Gain 1 Defense Level Down for every 10 Stacks\n$ Gain 1 Fragile for every 20 Stacks",
 		"Tags": [
 			"Self Defense Level Down",
 			"Self Fragile"
@@ -3151,7 +3151,7 @@
 	},
 	{
 		"Name": "The Udjat [Vanguard]",
-		"Description": "Gain Min & Max Speed\nCombat Start: Gain Protection\nGain the following effects during the Combat Phase (Capped per-Skill, per turn)\n$ When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n$ Clash Start: In the first Clash, halve the target's chance to flip Heads for all its Coins\n$ For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\nTurn End: Reduce Stack",
+		"Description": "Max Stack: 2\nMin & Max Speed +3\nCombat Start: Gain 1 Protection\nGain the following effects during the Combat Phase (Once per Skill, 3 times per turn)\n$ When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n$ Clash Start: In the first Clash, halve the target's chance to flip Heads for all its Coins\n$ For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\nTurn End: Reduce Stack by 1",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -3160,9 +3160,10 @@
 	},
 	{
 		"Name": "Sheut Fracture",
-		"Description": "Unique Sinking\nFor every X Stack, take more damage when hit by Sloth and Gloom Skills\nAt max Stack, gain Gloom Fragility, take Gloom damage equal to Sinking Potency on self (Lose Sinking Count), then expire\nIf the unit with this effect dies, transfer half of its Stack to its ally (or allies) with the highest SP\nTurn Start: If there are no LCA Identities on the field, expires",
+		"Description": "Max Stack: 10\nUnique Sinking\nFor every Stack, take +1% damage when hit by Sloth and Gloom Skills\nAt max Stack, gain 1 Gloom Fragility (Once per turn), take Gloom damage equal to Sinking Potency on self (Lose 1 Sinking Count), then expire\nIf the unit with this effect dies, transfer half of its Stack to its ally (or allies) with the highest SP (Rounded down)\nTurn Start: If there are no LCA Identities on the field, expires",
 		"Tags": [
 			"Unique Sinking",
+			"Spend Enemy Sinking Count",
 			"Sloth Damage Amp",
 			"Gloom Damage Amp",
 			"Gloom Fragility"
@@ -3170,7 +3171,7 @@
 	},
 	{
 		"Name": "Blue Sand",
-		"Description": "On Clash Lose, gain Sinking Count\nUnits with SP: Change their Panic Type to 'Blue Sand'\nUnits without SP: Lose Min & Max Speed\nTurn End: Reduce Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Description": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\nUnits with SP: Change their Panic Type to 'Blue Sand'\nUnits without SP: Min & Max Speed -1\nTurn End: Reduce Stack by 1\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
 		"Tags": [
 			"Sinking Count",
 			"Change Panic Type",
@@ -3180,7 +3181,7 @@
 	},
 	{
 		"Name": "Blue Sand (Low Morale)",
-		"Description": "Clash Power -X, Min & Max Speed -Y",
+		"Description": "Clash Power -1, Min & Max Speed -1",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -3188,7 +3189,7 @@
 	},
 	{
 		"Name": "Blue Sand (Panic)",
-		"Description": "Clash Power -X, Min & Max Speed -Y",
+		"Description": "Clash Power -2, Min & Max Speed -1",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -3196,7 +3197,7 @@
 	},
 	{
 		"Name": "LCA Fracture Round",
-		"Description": "Unique Ammo\nSpent by certain Skills\nSome attacks cancel if lacking Ammo",
+		"Description": "Max Capacity: 16\nUnique Ammo\nSpent by certain Skills\nSome attacks cancel if lacking Ammo",
 		"Tags": [
 			"Unique Ammo"
 		]
