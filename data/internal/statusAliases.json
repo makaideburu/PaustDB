@@ -2115,27 +2115,33 @@
 		]
 	},
 	{
-		"entry": "prescript: [paper slip] i",
+		"entry": "prescript: [paper slip]",
 		"aliases": [
 			"prescript"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] i",
+		"aliases": [
+			"prescript: [paper slip]"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] ii",
 		"aliases": [
-			"prescript"
+			"prescript: [paper slip]"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] iii",
 		"aliases": [
-			"prescript"
+			"prescript: [paper slip]"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] iv",
 		"aliases": [
-			"prescript"
+			"prescript: [paper slip]"
 		]
 	},
 	{
@@ -2197,6 +2203,54 @@
 		"entry": "spend lca fracture round",
 		"aliases": [
 			"spend unique ammo"
+		]
+	},
+	{
+		"entry": "prescript: [device]",
+		"aliases": [
+			"prescript"
+		]
+	},
+	{
+		"entry": "prescript: [device] i",
+		"aliases": [
+			"prescript: [device]"
+		]
+	},
+	{
+		"entry": "prescript: [device] ii",
+		"aliases": [
+			"prescript: [device]"
+		]
+	},
+	{
+		"entry": "prescript: [paper slip] iii",
+		"aliases": [
+			"prescript: [device]"
+		]
+	},
+	{
+		"entry": "prescript: [device] iv",
+		"aliases": [
+			"prescript: [device]"
+		]
+	},
+	{
+		"entry": "unlock - i",
+		"aliases": [
+			"unlock"
+		]
+	},
+	{
+		"entry": "unlock - ii",
+		"aliases": [
+			"unlock"
+		]
+	},
+	{
+		"entry": "unlock - iii",
+		"aliases": [
+			"unlock"
 		]
 	}
 ]

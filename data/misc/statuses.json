@@ -3201,5 +3201,65 @@
 		"Tags": [
 			"Unique Ammo"
 		]
+	},
+	{
+		"Name": "Unlock",
+		"Description": "Gain this effect when over X Grace of the Prescript\nEffect stage increases based on Grace of the Prescript\nThis effect has a maximum reachable stage",
+		"Tags": [
+			"Unlock"
+		]
+	},
+	{
+		"Name": "Unlock - I",
+		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Tags": [
+			"Unlock"
+		]
+	},
+	{
+		"Name": "Unlock - II",
+		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Tags": [
+			"Unlock"
+		]
+	},
+	{
+		"Name": "Unlock - III",
+		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Tags": [
+			"Unlock"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] I",
+		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: Gain this effect when this unit has no Unlock\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] II",
+		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - I\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] III",
+		"Description": "_Hit a target with a Skill marked with an E.G.O Awakening Skill, or #@%^#@^%#@#@^ 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] IV",
+		"Description": "_Eliminate all enemies before the next Prescript arrives._\n$ Turn Start: Gain this effect when this unit has Unlock - III",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]"
+		]
 	}
 ]
