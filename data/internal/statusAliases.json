@@ -2252,5 +2252,43 @@
 		"aliases": [
 			"unlock"
 		]
+	},
+	{
+		"entry": "shin (心) - procuration",
+		"aliases":[
+			"min speed",
+			"max speed",
+			"offense level up",
+			"defense level up",
+			"poise potency",
+			"poise count"
+		]
+	},
+	{
+		"entry": "faith beyond question",
+		"aliases":[
+			"min speed",
+			"max speed",
+			"offense level up",
+			"defense level up",
+			"poise potency",
+			"poise count"
+		]
+	},
+	{
+		"entry": "needle",
+		"aliases":[
+			"unique bleed",
+			"bleed count",
+			"bleed potency"
+		]
+	},
+	{
+		"entry": "resident reg. microchip",
+		"aliases":[
+			"wrath damage amp",
+			"envy damage amp",
+			"burn potency"
+		]
 	}
 ]

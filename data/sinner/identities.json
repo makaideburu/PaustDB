@@ -12309,11 +12309,14 @@
 		"Id": 3000,
 		"Sinner": "Don Quixote",
 		"Identity": "The Index @#$#: [Device]",
-		"World": "???",
+		"World": "The Index",
 		"Season": 7,  
 		"Traits": [
+			"The Fingers",
+			"The House of Spiders",
+			"The Index"
 		],
-		"Speed": "???",
+		"Speed": "3~6",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -12321,9 +12324,9 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 0.5,
+			"Pierce": 2,
+			"Blunt": 1
 		},
 		"UptieTiers": [
 			{
@@ -12331,17 +12334,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Skull Crushing",
-					"Description": "Alt: **@#^$^@$#^@**\nIf this Skill is marked with Mark of the Prescript, Final Power +X and deal more damage\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Sinking\n<2>[On Hit] Gain Poise\n[On Crit] Gain Poise Count",
+					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +1 and deal +15% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Gain 1 Poise\n[On Crit] Gain +1 Poise Count",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -12349,22 +12352,45 @@
 						"Poise Count",
 						"Sinking Potency",
 						"Poise Potency"
-					]
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Let these Hands be the Proxy with Which...",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +15% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain +2 Poise Count\n[After Attack] Lose 3 SP (2 times per turn)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict +1 Sinking Count\n[On Crit] Gain +1 Poise Count",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Count",
+							"Self SP Damage",
+							"Sinking Count"
+						]
+					}
 				},
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "B-be Thee Silent",
-					"Description": "Alt: **#^$@#^#$@^**\nIf this Skill is marked with Mark of the Prescript, Final Power +X\nCoin Power +X for every Y (Poise on self + Sinking on target)\n[On Use] Gain Poise\n<1>[On Hit] Inflict Sinking\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Gain Poise Count\n[On Crit] Inflict Sinking Count",
+					"Description": "If this Skill is marked with Mark of the Prescript, Final Power +1\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Gain +1 Poise Count\n[On Crit] Inflict +1 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -12373,22 +12399,47 @@
 						"Sinking Potency",
 						"Poise Count",
 						"Sinking Count"
-					]
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Procuration: Engrave",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +10% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain 3 Poise\n[After Attack] Lose 6 SP (2 times per turn)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Gain +1 Poise Count\n[On Crit] Inflict +1 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Potency",
+							"Self SP Damage",
+							"Sinking Potency",
+							"Poise Count",
+							"Sinking Count"
+						]
+					}
 				},
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "T-the Prescript Must be Fulfilled Anon...",
-					"Description": "Alt: **$@^#$@#$#^**\nIf this Skill is marked with Mark of the Prescript, Coin Power +X and deal more damage on Critical Hit\nFinal Power +X for every Y (Poise on self + Sinking on target)\n[Combat Start] At X+ Unlock stage, convert all Coins of this Skill to Unbreakable Coins and deal more damage based on Unlock stage\n[On Use] Gain Poise Count\n$ Gain Poise based on Unlock stage\n<1>[On Hit] Gain Poise\n<2>Deal more damage based on Unlock stage\n[On Hit] Inflict Sinking and Sinking Count\n[On Crit] Inflict Sinking and Sinking Count",
+					"Description": "If this Skill is marked with Mark of the Prescript, Coin Power +1 and deal +40% damage on Critical Hit\nFinal Power +1 for every 4 (Poise on self + Sinking on target) (Max 4)\n[Combat Start] At 2+ Unlock stage, convert all Coins of this Skill to Unbreakable Coins and deal +20% damage for every Unlock stage\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal to Unlock stage\n<1>[On Hit] Gain 2 Poise\n<2>Deal +40% damage for every Unlock stage\n[On Hit] Inflict 2 Sinking and +1 Sinking Count\n[On Crit] Inflict 1 Sinking and +1 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 6,
+					"CoinPower": 6,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -12398,20 +12449,53 @@
 						"Poise Potency",
 						"Sinking Potency",
 						"Sinking Count"
-					]
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Procuration: Annihilate",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +25% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal Unlock stage\n[After Attack] Lose 15 SP (2 times per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<4>[Unbreakable Coin]\nCoin gains Power +1 and deals +40% damage for every Unlock stage\n[On Hit] Inflict 1 Sinking\n[On Crit] Inflict +2 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Gloom",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"ClashesWithCoinOverride": false,
+						"CoinOverride": [
+							5,
+							5,
+							5,
+							8
+						],
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unbreakable Coin",
+							"Poise Count",
+							"Poise Potency",
+							"Self SP Damage",
+							"Sinking Potency",
+							"Sinking Count"
+						]
+					}
 				},
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Prescript-granted, Prescript-woven Fabric",
-					"Description": "Alt: **@#$^#$@$^@^**\nFinal Power +X and deal more damage based on Unlock stage\n[Combat Start] Gain Shield equal to X% of max HP\n$ Reduce Shield gained for every X Karmic Consequence; at Y+ Karmic Consequence, does not gain Shield\n[On Use] Gain Poise Count\n[Turn End] If this unit does not have Unlock, gain Unlock - I\n$ Change Grace of the Prescript Stack to X\n$ Gain Karmic Consequence at next Turn Start based on Grace of the Prescript gained\n<1>[On Hit] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Sinking",
+					"Description": "Final Power +1 and deal +15% damage for every Unlock stage\n[Combat Start] Gain Shield equal to 15% of max HP (Once per turn)\n$ Reduce Shield gained by 1.5% for every 5 Karmic Consequence; at 50+ Karmic Consequence, does not gain Shield\n[On Use] Gain +2 Poise Count\n[Turn End] If this unit does not have Unlock, gain Unlock - I (Once per turn)\n$ Change Grace of the Prescript Stack to 3\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 3,
 					"CoinCount": 3,
 					"Level": 0,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -12426,12 +12510,37 @@
 						"Karmic Consequence",
 						"Poise Potency",
 						"Sinking Potency"
-					]
+					],
+					"SkillDefense": {
+						"SkillSlot": "SD1",
+						"Name": "Compulsory Unlock",
+						"Description": "[Clashable Counter]\nFinal Power +1 for every Unlock stage\n[On Use] Gain 3 Poise\n[Turn End] At lower than stage 3 Unlock (Once per turn):\n$ If unit has Unlock, increase by 1 stage\n$ At less than 6/9 Grace of the Prescript, change Stack to 6/9\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
+						"DamageType": "Slash",
+						"SinType": "Gloom",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Unlock",
+							"Grace of the Prescript",
+							"Karmic Consequence",
+							"Sinking Potency"
+						]
+					}
 				},
 				"InstallPassives": [
 					{
 						"Name": "Prescript Delivered on a Device",
-						"Description": "Turn Start:\n$ Gain Prescript: [Device] I / Prescript: [Device] II / Prescript: [Device] III / Prescript: [Device] IV based on Unlock stage\n$ Inflict The Prescript's Target to a random enemy (in Focused Encounters, a Part)\n$ Apply Mark of the Prescript to Base Attack Skills on this unit's Dashboard\n$- At X+ Unlock stage, the above effect prioritizes Skill 3\n$ All the effects above and Prescript execution checks do not trigger when this unit is Staggered, Immobilized, in Panic, or in E.G.O Corrosion\n@#$^#$^@$^#@@@@@@@@@@@@\n@@@@@@@@@@@@@@@@@@@@",
+						"Description": "Turn Start:\n$ Gain Prescript: [Device] I / Prescript: [Device] II / Prescript: [Device] III / Prescript: [Device] IV based on Unlock stage\n$ Inflict The Prescript's Target to a random enemy (in Focused Encounters, a Part)\n$ Apply Mark of the Prescript to Base Attack Skills on this unit's Dashboard (1 per slot; max 2 Skills)\n$- At Unlock - II+, the above effect prioritizes Skill 3\n$ All the effects above and Prescript execution checks do not trigger when this unit is Staggered, Immobilized, in Panic, or in E.G.O Corrosion\nIf unit has Unlock - III at Turn Start, gain Shin (心) - Procuration",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -12442,12 +12551,13 @@
 						"MiscTags": [
 							"Prescript",
 							"The Prescript's Target",
-							"Mark of the Prescript"
+							"Mark of the Prescript",
+							"Shin (心) - Procuration"
 						]
 					},
 					{
 						"Name": "Will of the Prescript",
-						"Description": "Turn End: If Prescript was executed this turn, heal SP and gain Grace of the Prescript\n$ When executing Prescript, if main target has The Prescript's Target, heal more SP and gain more Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain Karmic Consequence\n$ At X+ Unlock stage, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
+						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain more 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -12462,8 +12572,8 @@
 						]
 					},
 					{
-						"Name": "Unlock / $%^#$%^@^$",
-						"Description": "Turn End: At X+ Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III #@\n$%^#$%^@^$$%^#$%^@^$$%^#$%^@^$%^#$%^@^$$%^#$%^@^$\n$%^#$%^@^$$$$$%^#$%^@^$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$",
+						"Name": "Unlock / Effloresced E.G.O::Procuration",
+						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0- SP, unit exits Effloresced E.G.O::Procuration",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -12472,34 +12582,340 @@
 						],
 						"ResourceType": "None",
 						"MiscTags": [
-							"Unlock"
+							"Unlock",
+							"Manifest E.G.O",
+							"Self SP Damage",
+							"Karmic Consequence",
+							"Faith Beyond Question",
+							"Skill Change"
 						]
 					}
 				],
 				"PassiveSkill": {
 					"Name": "The Great Magicked Beeper Knoweth My Desire!",
-					"Description": "Deal more damage with Skills marked with Mark of the Prescript for every X Grace of the Prescript\n$ At Y Grace of the Prescript, deal more damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with the Prescript's Target, heal SP\n$ Heal additional SP based on Unlock Stage",
+					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with the Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
 					"PassiveResources": [
 							{
-								"ResourceSin": "None",
-								"ResourceCount": -1
+								"ResourceSin": "Lust",
+								"ResourceCount": 1
+							},
+							{
+								"ResourceSin": "Gloom",
+								"ResourceCount": 1
+							},
+							{
+								"ResourceSin": "Pride",
+								"ResourceCount": 1
 							}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Heal SP"
 					]
 				},
 				"SupportSkill": {
 					"Name": "This, too, is the Grace of the Great Magicked Beeper!",
-					"Description": "Combat Start: Heal SP for the ally with the lowest SP\n$ Prioritizes Plus Coin Identities\n$ If the affected unit is from The Index, they gain Damage Up as well\n$ This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion, Panic, etc.",
+					"Description": "Combat Start: Heal 15 SP for the ally with the lowest SP\n$ Prioritizes Plus Coin Identities\n$ If the affected unit is from The Index, they gain 1 Damage Up as well\n$ This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion, Panic, etc.",
 					"PassiveResources": [
+							{
+								"ResourceSin": "Gloom",
+								"ResourceCount": 3
+							}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Heal SP",
+						"Ally Damage Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Skull Crushing",
+					"Description": "If this Skill is marked with Mark of the Prescript, deal +15% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Gain 1 Poise",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Sinking Potency",
+						"Poise Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Let these Hands be the Proxy with Which...",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +10% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n[After Attack] Lose 3 SP (2 times per turn)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict +1 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Count",
+							"Self SP Damage",
+							"Sinking Count",
+							"Poise Potency"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "B-be Thee Silent",
+					"Description": "If this Skill is marked with Mark of the Prescript, Clash Power +1\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Gain +1 Poise Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Potency",
+						"Sinking Potency",
+						"Poise Count",
+						"Sinking Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Procuration: Engrave",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +5% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Gain 3 Poise\n[After Attack] Lose 6 SP (2 times per turn)\n<1>[On Hit] Inflict 2 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Gain +1 Poise Count",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Poise Potency",
+							"Self SP Damage",
+							"Sinking Potency",
+							"Poise Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "T-the Prescript Must be Fulfilled Anon...",
+					"Description": "If this Skill is marked with Mark of the Prescript, deal +20% damage on Critical Hit\nFinal Power +1 for every 4 (Poise on self + Sinking on target) (Max 2)\n[Combat Start] At 2+ Unlock stage, convert all Coins of this Skill to Unbreakable Coins and deal +20% damage for every Unlock stage\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Deal +20% damage for every Unlock stage\n[On Hit] Inflict 2 Sinking and +1 Sinking Count\n[On Crit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 5,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Poise Count",
+						"Poise Potency",
+						"Sinking Potency",
+						"Sinking Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Procuration: Annihilate",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +15% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Gain +3 Poise Count\n[After Attack] Lose 15 SP (2 times per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<4>[Unbreakable Coin]\nCoin deals +20% damage for every Unlock stage\n[On Hit] Inflict 1 Sinking\n[On Crit] Inflict +1 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Gloom",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unbreakable Coin",
+							"Poise Count",
+							"Poise Potency",
+							"Self SP Damage",
+							"Sinking Potency",
+							"Sinking Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Prescript-granted, Prescript-woven Fabric",
+					"Description": "Final Power +1 for every Unlock stage\n[Combat Start] Gain Shield equal to 10% of max HP (Once per turn)\n$ Reduce Shield gained by 1% for every 5 Karmic Consequence; at 50+ Karmic Consequence, does not gain Shield\n[On Use] Gain +2 Poise Count\n[Turn End] If this unit does not have Unlock, gain Unlock - I (Once per turn)\n$ Change Grace of the Prescript Stack to 3\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<1>[On Hit] Gain 1 Poise\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Counter",
+						"Shield",
+						"Poise Count",
+						"Unlock - I",
+						"Grace of the Prescript",
+						"Karmic Consequence",
+						"Poise Potency",
+						"Sinking Potency"
+					],
+					"SkillDefense": {
+						"SkillSlot": "SD1",
+						"Name": "Compulsory Unlock",
+						"Description": "[Clashable Counter]\n[On Use] Gain 3 Poise\n[Turn End] At lower than stage 3 Unlock (Once per turn):\n$ If unit has Unlock, increase by 1 stage\n$ At less than 6/9 Grace of the Prescript, change Stack to 6/9\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
+						"DamageType": "Slash",
+						"SinType": "Gloom",
+						"BasePower": 4,
+						"CoinPower": 2,
+						"CoinCount": 3,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Unlock",
+							"Grace of the Prescript",
+							"Karmic Consequence",
+							"Sinking Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Prescript Delivered on a Device",
+						"Description": "Turn Start:\n$ Gain Prescript: [Device] I / Prescript: [Device] II / Prescript: [Device] III / Prescript: [Device] IV based on Unlock stage\n$ Inflict The Prescript's Target to a random enemy (in Focused Encounters, a Part)\n$ Apply Mark of the Prescript to Base Attack Skills on this unit's Dashboard (1 per slot; max 2 Skills)\n$- At Unlock - II+, the above effect prioritizes Skill 3\n$ All the effects above and Prescript execution checks do not trigger when this unit is Staggered, Immobilized, in Panic, or in E.G.O Corrosion\nIf unit has Unlock - III at Turn Start, gain Shin (心) - Procuration",
+						"PassiveResources": [
 							{
 								"ResourceSin": "None",
 								"ResourceCount": -1
 							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Prescript",
+							"The Prescript's Target",
+							"Mark of the Prescript",
+							"Shin (心) - Procuration"
+						]
+					},
+					{
+						"Name": "Will of the Prescript",
+						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain more 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Heal SP",
+							"Grace of the Prescript",
+							"Karmic Consequence"
+						]
+					},
+					{
+						"Name": "Unlock / Effloresced E.G.O::Procuration",
+						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0- SP, unit exits Effloresced E.G.O::Procuration",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Unlock",
+							"Manifest E.G.O",
+							"Self SP Damage",
+							"Karmic Consequence",
+							"Faith Beyond Question",
+							"Skill Change"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "The Great Magicked Beeper Knoweth My Desire!",
+					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with the Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
+					"PassiveResources": [
+							{
+								"ResourceSin": "Lust",
+								"ResourceCount": 1
+							},
+							{
+								"ResourceSin": "Gloom",
+								"ResourceCount": 1
+							},
+							{
+								"ResourceSin": "Pride",
+								"ResourceCount": 1
+							}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Heal SP"
+					]
+				},
+				"SupportSkill": {
+					"Name": "This, too, is the Grace of the Great Magicked Beeper!",
+					"Description": "Combat Start: Heal 15 SP for the ally with the lowest SP\n$ Prioritizes Plus Coin Identities\n$ If the affected unit is from The Index, they gain 1 Damage Up as well\n$ This effect does not apply to units under effects that prevent SP recovery such as E.G.O Corrosion, Panic, etc.",
+					"PassiveResources": [
+							{
+								"ResourceSin": "Gloom",
+								"ResourceCount": 3
+							}
+					],
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Heal SP",
 						"Ally Damage Up"

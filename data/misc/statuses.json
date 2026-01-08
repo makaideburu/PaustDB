@@ -3204,35 +3204,35 @@
 	},
 	{
 		"Name": "Unlock",
-		"Description": "Gain this effect when over X Grace of the Prescript\nEffect stage increases based on Grace of the Prescript\nThis effect has a maximum reachable stage",
+		"Description": "Gain this effect when over a certain Grace of the Prescript\nEffect stage increases based on Grace of the Prescript\nMax Stage 3",
 		"Tags": [
 			"Unlock"
 		]
 	},
 	{
 		"Name": "Unlock - I",
-		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Description": "Defense Level +1\nCombat End: Heal 5 SP",
 		"Tags": [
 			"Unlock"
 		]
 	},
 	{
 		"Name": "Unlock - II",
-		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Description": "Defense Level +2\nCombat End: Heal 10 SP",
 		"Tags": [
 			"Unlock"
 		]
 	},
 	{
 		"Name": "Unlock - III",
-		"Description": "Defense Level +X\nCombat End: Heal SP",
+		"Description": "Defense Level +3\nCombat End: Heal 15 SP",
 		"Tags": [
 			"Unlock"
 		]
 	},
 	{
 		"Name": "Prescript: [Device] I",
-		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: Gain this effect when this unit has no Unlock\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: Gain this effect when this unit has no Unlock\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 3",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Device]"
@@ -3240,7 +3240,7 @@
 	},
 	{
 		"Name": "Prescript: [Device] II",
-		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - I\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - I\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 6",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Device]"
@@ -3248,7 +3248,7 @@
 	},
 	{
 		"Name": "Prescript: [Device] III",
-		"Description": "_Hit a target with a Skill marked with an E.G.O Awakening Skill, or #@%^#@^%#@#@^ 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to X",
+		"Description": "_Hit a target with a Skill marked with an E.G.O Awakening Skill, or, in Effloresced E.G.O::Procuration state, 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Device]"
@@ -3260,6 +3260,96 @@
 		"Tags": [
 			"Prescript",
 			"Prescript: [Device]"
+		]
+	},
+	{
+		"Name": "Textbook (Low Morale)",
+		"Description": "Clash Power +1 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 1 Fragile next turn (Once per turn)",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Textbook (Panic)",
+		"Description": "Clash Power +2 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 2 Fragile next turn (Once per turn)",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Ragged Breath (Low Morale)",
+		"Description": "Turn Start: Lose 3 Poise Potency",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Ragged Breath (Panic)",
+		"Description": "Turn Start: Lose 5 Poise Potency",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Iron Maiden (Low Morale)",
+		"Description": "Turn Start: Gain 1 Offense Level Down and 1 Defense Level Up",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Iron Maiden (Panic)",
+		"Description": "Turn Start: Gain 2 Offense Level Down and 2 Defense Level Up",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Shin (心) - Procuration",
+		"Description": "Max Stack: 1\nMin & Max Speed +2\nOffense Level +1, Defense Level +1\nGain +1 Poise Potency and Poise Count from Base Skills\nDeal +(Missing HP percentage / 2)% damage with Base Skills",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Offense Level Up",
+			"Defense Level Up",
+			"Poise Potency",
+			"Poise Count"
+		]
+	},
+	{
+		"Name": "Faith Beyond Question",
+		"Description": "Max Stack: 1\nMin & Max Speed +2\nOffense Level +2, Defense Level +2\nGain +1 Poise Potency and Poise Count from Base Skills\nUnit's SP does not drop below -15 from SP loss effects on this unit's Base Attack Skills",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Offense Level Up",
+			"Defense Level Up",
+			"Poise Potency",
+			"Poise Count"
+		]
+	},
+	{
+		"Name": "Needle",
+		"Description": "Unique Bleed\nWhen taking Envy damage, gain +1 Bleed Count and reduce Stack by 1\nTurn End: Gain 1 Bleed and reduce Stack by 1",
+		"Tags": [
+			"Unique Bleed",
+			"Bleed Count",
+			"Bleed Potency"
+		]
+	},
+	{
+		"Name": "Resident Reg. Microchip",
+		"Description": "Max Stack: 2\nTake +10% damage from Wrath and Envy Skills\nOn Clash Lose, gain 1 Burn (3 times per turn)\nTurn End: Lose 1 Stack",
+		"Tags": [
+			"Wrath Damage Amp",
+			"Envy Damage Amp",
+			"Burn Potency"
 		]
 	}
 ]
