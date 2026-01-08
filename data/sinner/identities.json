@@ -12511,7 +12511,7 @@
 						"Poise Potency",
 						"Sinking Potency"
 					],
-					"SkillDefense": {
+					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Compulsory Unlock",
 						"Description": "[Clashable Counter]\nFinal Power +1 for every Unlock stage\n[On Use] Gain 3 Poise\n[Turn End] At lower than stage 3 Unlock (Once per turn):\n$ If unit has Unlock, increase by 1 stage\n$ At less than 6/9 Grace of the Prescript, change Stack to 6/9\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
@@ -12804,7 +12804,7 @@
 						"Poise Potency",
 						"Sinking Potency"
 					],
-					"SkillDefense": {
+					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Compulsory Unlock",
 						"Description": "[Clashable Counter]\n[On Use] Gain 3 Poise\n[Turn End] At lower than stage 3 Unlock (Once per turn):\n$ If unit has Unlock, increase by 1 stage\n$ At less than 6/9 Grace of the Prescript, change Stack to 6/9\n$ Gain 5 Karmic Consequence at next Turn Start for every Grace of the Prescript gained\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Sinking",
