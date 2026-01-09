@@ -12306,7 +12306,7 @@
 		]
 	},
 	{
-		"Id": 3000,
+		"Id": 3309,
 		"Sinner": "Don Quixote",
 		"Identity": "The Index @#$#: [Device]",
 		"World": "The Index",
@@ -12317,10 +12317,11 @@
 			"The Index"
 		],
 		"Speed": "3~6",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 76,
+		"GrowthHP": 2.39,
 		"StaggerThresholds": [
-			0
+			65,
+			35
 		],
 		"Rarity": 3,
 		"DamageResist": {
