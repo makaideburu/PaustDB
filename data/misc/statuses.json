@@ -3351,5 +3351,37 @@
 			"Envy Damage Amp",
 			"Burn Potency"
 		]
+	},
+	{
+		"Name": "Prescript Incompliance Risk (Low Morale)",
+		"Description": "Deal +20% damage to The Prescript's Target - The Index\nTake +10% damage from those who are not The Prescript's Target - The Index",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Prescript Incompliance Risk (Panic)",
+		"Description": "Deal +30% damage to The Prescript's Target - The Index\nTake +20% damage from those who are not The Prescript's Target - The Index",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Affection and Resentment (Low Morale)",
+		"Description": "Deal +10% damage to and take +10% damage from Ryōshū",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Affection and Resentment (Panic)",
+		"Description": "Deal +20% damage to and take +10% damage from Ryōshū",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
 	}
 ]
