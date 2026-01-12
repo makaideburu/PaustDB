@@ -2388,28 +2388,28 @@
 	},
 	{
 		"Name": "Tigermark Round",
-		"Description": "Max Capacity: 12\nUnique Ammo\nAt 8+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+		"Description": "Max Capacity: 12\nUnique Ammo\nAt 8+ (Tigermark Round + Savage Tigermark Round spent), gain Shin (心) - Tiantui Star [天退星] instead of Tiantui Star [天退星] from this unit's Passive",
 		"Tags": [
 			"Unique Ammo"
 		]
 	},
 	{
 		"Name": "Savage Tigermark Round",
-		"Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive",
+		"Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Shin (心) - Tiantui Star [天退星] instead of Tiantui Star [天退星] from this unit's Passive",
 		"Tags": [
 			"Unique Ammo"
 		]
 	},
 	{
-		"Name": "Unrelenting Spirit [剛氣]",
-		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Unrelenting Spirit - Shin [剛氣-心] next turn at Turn End",
+		"Name": "Tiantui Star [天退星]",
+		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
 		"Tags": [
 			"Min Speed",
 			"Max Speed"
 		]
 	},
 	{
-		"Name": "Unrelenting Spirit - Shin [剛氣-心]",
+		"Name": "Shin (心) - Tiantui Star [天退星]",
 		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (Max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
 		"Tags": [
 			"Min Speed",

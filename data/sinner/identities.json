@@ -12308,7 +12308,8 @@
 	{
 		"Id": 3309,
 		"Sinner": "Don Quixote",
-		"Identity": "The Index @#$#: [Device]",
+		"Identity": "The Index Proxy - Effloresced E.G.O::Procuration",
+		"DisplayIdentity": "The Index ****: [Device]",
 		"World": "The Index",
 		"Season": 7,  
 		"Traits": [
@@ -19899,7 +19900,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Chachihu [揷翅虎]",
-						"Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n$ If activated from Stagger, recover from Stagger (except forced Stagger)\n$ Remove all remaining Tigermark Round\n$ At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
+						"Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Tiantui Star [天退星] (Once per Encounter)\n$ If activated from Stagger, recover from Stagger (except forced Stagger)\n$ Remove all remaining Tigermark Round\n$ At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Tiantui Star [天退星] into Shin (心) - Tiantui Star [天退星]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -19911,8 +19912,8 @@
 							"Tigermark Round",
 							"Savage Tigermark Round",
 							"Spend Tigermark Round",
-							"Unrelenting Spirit [剛氣]",
-							"Unrelenting Spirit - Shin [剛氣-心]",
+							"Tiantui Star [天退星]",
+							"Shin (心) - Tiantui Star [天退星]",
 							"Attack Weight Increase",
 							"Overheat"
 						]
@@ -20110,7 +20111,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Chachihu [揷翅虎]",
-						"Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Unrelenting Spirit [剛氣] (Once per Encounter)\n$ If activated from Stagger, recover from Stagger (except forced Stagger)\n$ Remove all remaining Tigermark Round\n$ At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Unrelenting Spirit [剛氣] into Unrelenting Spirit - Shin [剛氣-心]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
+						"Description": "Begin Encounters with 12 Tigermark Round\nWhen a Coin spends Tigermark Round or Savage Tigermark Round without those Unique Ammo, those Coins are not cancelled; instead their 'inflict Burn' and 'inflict Burn Count' effects do not activate\nIf this unit equipped Defense Skills for the first time in the Encounter, spent all Tigermark Round, or is Staggered: At Turn End, reload 8 Savage Tigermark Round and gain 1 Tiantui Star [天退星] (Once per Encounter)\n$ If activated from Stagger, recover from Stagger (except forced Stagger)\n$ Remove all remaining Tigermark Round\n$ At 8+ (Tigermark Round + Savage Tigermark Round spent), convert Tiantui Star [天退星] into Shin (心) - Tiantui Star [天退星]\nA Skill that spends the last Savage Tigermark Round gains +2 Atk Weight; gain 1 Overheat next turn",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -20122,8 +20123,8 @@
 							"Tigermark Round",
 							"Savage Tigermark Round",
 							"Spend Tigermark Round",
-							"Unrelenting Spirit [剛氣]",
-							"Unrelenting Spirit - Shin [剛氣-心]",
+							"Tiantui Star [天退星]",
+							"Shin (心) - Tiantui Star [天退星]",
 							"Attack Weight Increase",
 							"Overheat"
 						]
