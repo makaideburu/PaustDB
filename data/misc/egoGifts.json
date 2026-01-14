@@ -802,7 +802,7 @@
     "Cost": 185,
     "Upgrades": [
       {
-        "Description": "When hitting an enemy with a Blunt Skill or Pride Afffinity Skill, inflict 2 fixed SP damage on target.\nAllies with less than 0 SP deal 10% more damage.",
+        "Description": "When hitting an enemy with a Blunt Skill or Pride Affinity Skill, inflict 2 fixed SP damage on target.\nAllies with less than 0 SP deal 10% more damage.",
         "Rank": 1,
         "MiscTags": [
           "Damage Amp",
@@ -810,7 +810,7 @@
         ]
       },
       {
-        "Description": "When hitting an enemy with a Blunt Skill or Pride Afffinity Skill, inflict 3 fixed SP damage on target.\nAllies with less than 0 SP deal 15% more damage.",
+        "Description": "When hitting an enemy with a Blunt Skill or Pride Affinity Skill, inflict 3 fixed SP damage on target.\nAllies with less than 0 SP deal 15% more damage.",
         "Rank": 2,
         "MiscTags": [
           "Damage Amp",
@@ -818,7 +818,7 @@
         ]
       },
       {
-        "Description": "When hitting an enemy with a Blunt Skill or Pride Afffinity Skill, inflict 5 fixed SP damage on target.\nAllies with less than 0 SP deal 25% more damage.",
+        "Description": "When hitting an enemy with a Blunt Skill or Pride Affinity Skill, inflict 5 fixed SP damage on target.\nAllies with less than 0 SP deal 25% more damage.",
         "Rank": 3,
         "MiscTags": [
           "Damage Amp",
@@ -957,7 +957,7 @@
     "Cost": 198,
     "Upgrades": [
       {
-        "Description": "After defeating an enemy by using an Envy Affinity or Slash damage skill, raise the unit's Slash Skill Power by 2 for the next 2 turns.\nWhen activating Envy A-Res, all allies gain 2 Offense Level Up anbd 2 Defense Level Up at Combat Start.",
+        "Description": "After defeating an enemy by using an Envy Affinity or Slash damage skill, raise the unit's Slash Skill Power by 2 for the next 2 turns.\nWhen activating Envy A-Res, all allies gain 2 Offense Level Up and 2 Defense Level Up at Combat Start.",
         "Rank": 1,
         "MiscTags": [
           "Defense Level Up",
@@ -2122,7 +2122,7 @@
     "Cost": 250,
     "Upgrades": [
       {
-        "Description": "Enemies Staggered by taking Skill damage also recieve fixed damage by 33% of their Max HP (for Abnormalities, the part's HP), and are inflicted with 2 Fragile next turn. (Once per Encounter)",
+        "Description": "Enemies Staggered by taking Skill damage also receive fixed damage by 33% of their Max HP (for Abnormalities, the part's HP), and are inflicted with 2 Fragile next turn. (Once per Encounter)",
         "Rank": 1,
         "MiscTags": [
           "HP Damage",
@@ -2947,7 +2947,7 @@
     "Cost": 404,
     "Upgrades": [
       {
-        "Description": "First Turn Start of a Wave: Select 2 enemies with the slowest Speed (or 2 random Abnormality parts. The effect does not stack if the enemy is singular) and inflict 5 Bind and 3 Defense Level Down at Turn Start starting next turn.\nWhen the enemy recovers from Stagger, and if they don't have any remaining Stagger Thresholds, create a new Stagger Theshold at 66% of the target's current HP (3 times per Encounter). If an ally Staggers an enemy with an Attack Skill (Except E.G.O Skills) that applies Tremor or Tremor Count (including on self or on ally), randomly inflict Tremor equal to half of the Tremor on target between other enemies (or other Abnormality parts), and double the Tremor on the Staggered target.",
+        "Description": "First Turn Start of a Wave: Select 2 enemies with the slowest Speed (or 2 random Abnormality parts. The effect does not stack if the enemy is singular) and inflict 5 Bind and 3 Defense Level Down at Turn Start starting next turn.\nWhen the enemy recovers from Stagger, and if they don't have any remaining Stagger Thresholds, create a new Stagger Threshold at 66% of the target's current HP (3 times per Encounter). If an ally Staggers an enemy with an Attack Skill (Except E.G.O Skills) that applies Tremor or Tremor Count (including on self or on ally), randomly inflict Tremor equal to half of the Tremor on target between other enemies (or other Abnormality parts), and double the Tremor on the Staggered target.",
         "Rank": 1,
         "MiscTags": [
           "Bind",
@@ -3039,7 +3039,7 @@
     "Cost": 432,
     "Upgrades": [
       {
-        "Description": "Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage Identites: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -12; 'To Claim Their Bones' Skill deals +50% damage.",
+        "Description": "Activates when there are 3 or more Blade Lineage Identities.\nAll allies deal +50% Slash damage.\nBlade Lineage Identities: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -12; 'To Claim Their Bones' Skill deals +50% damage.",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Blade Lineage",
@@ -3175,7 +3175,7 @@
     "Cost": 406,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (Maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (Max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (Maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they conume 10 Charge Count (5 times per Identity per Encounter; Unique Charge deos not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (Max 2)",
+        "Description": "Activates when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, counts Identities on field)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (Maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (Max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (Maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 10 Charge Count (5 times per Identity per Encounter; Unique Charge does not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (Max 2)",
         "Rank": 1,
         "MiscTags": [
           "Charge Barrier",
@@ -3383,7 +3383,7 @@
     "Cost": 212,
     "Upgrades": [
       {
-        "Description": "First Turn Start of a Wave: Select 1 enemy with the slowest Speed (or a random Abnormality part) and inflict 5 Bind for 5 turns starting next turn.\nClash Win: If this unit's Speed is faster than the target's, heal SP equal to the Speed difference, and gain Offense level equal to half of that Speed diffference. (Only applies to the Skill used to win the Clash. Max Offense Level gain: 3)",
+        "Description": "First Turn Start of a Wave: Select 1 enemy with the slowest Speed (or a random Abnormality part) and inflict 5 Bind for 5 turns starting next turn.\nClash Win: If this unit's Speed is faster than the target's, heal SP equal to the Speed difference, and gain Offense level equal to half of that Speed difference. (Only applies to the Skill used to win the Clash. Max Offense Level gain: 3)",
         "Rank": 1,
         "MiscTags": [
           "Bind",
@@ -3606,7 +3606,7 @@
     "Cost": 254,
     "Upgrades": [
       {
-        "Description": "[Effect applies to #1, #2 Deployed Identities]\nActivates when the unit has 10+ (Charge Count + Unique Charge) at Turn Start.\nCoin Power +1 to Skill 3 that gains or consumes Charge Count.\nIf the said Skill has less than 5 Base Power, deal +25% more damage; if it has 5+ Base Power, gain an additonal Coin Power +1.",
+        "Description": "[Effect applies to #1, #2 Deployed Identities]\nActivates when the unit has 10+ (Charge Count + Unique Charge) at Turn Start.\nCoin Power +1 to Skill 3 that gains or consumes Charge Count.\nIf the said Skill has less than 5 Base Power, deal +25% more damage; if it has 5+ Base Power, gain an additional Coin Power +1.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -3745,21 +3745,21 @@
     "Cost": 256,
     "Upgrades": [
       {
-        "Description": "[Effect applies to #3, #4 Deployed Identities]\nUnpposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
+        "Description": "[Effect applies to #3, #4 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
         "Rank": 1,
         "MiscTags": [
           "Slash Damage Amp"
         ]
       },
       {
-        "Description": "[Effect applies to #3, #4, #5 Deployed Identities]\nUnpposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
+        "Description": "[Effect applies to #3, #4, #5 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
         "Rank": 2,
         "MiscTags": [
           "Slash Damage Amp"
         ]
       },
       {
-        "Description": "[Effect applies to #3, #4, #5, #6 Deployed Identities]\nUnpposed Slash Skills deal +12.5% damage.\nClash Win: Slash Skills deal +(50/# of remaining Coins)% damage.",
+        "Description": "[Effect applies to #3, #4, #5, #6 Deployed Identities]\nUnopposed Slash Skills deal +12.5% damage.\nClash Win: Slash Skills deal +(50/# of remaining Coins)% damage.",
         "Rank": 3,
         "MiscTags": [
           "Slash Damage Amp"
@@ -5525,7 +5525,7 @@
     ]
   },
   {
-    "Name": "Uncapped Defibrilator",
+    "Name": "Uncapped Defibrillator",
     "Tag": "Charge",
     "Abnormality": "Shock Centipede",
     "Affinity": "Gluttony",
@@ -5992,7 +5992,7 @@
     ]
   },
   {
-    "Name": "Crystalized Blood",
+    "Name": "Crystallized Blood",
     "Tag": "Keywordless",
     "Abnormality": "Theme Pack: *Murder on the WARP Express*",
     "Affinity": "Wrath",
@@ -6037,7 +6037,7 @@
   {
     "Name": "Overcharged Battery",
     "Tag": "Charge",
-    "Abnormality": "Fusion: ||Biogenerative Battery + Crystalized Blood||",
+    "Abnormality": "Fusion: ||Biogenerative Battery + Crystallized Blood||",
     "Affinity": "Pride",
     "Tier": 4,
     "Cost": 400,
@@ -6087,7 +6087,7 @@
   {
     "Name": "Hearts-powered Jewel",
     "Tag": "Charge",
-    "Abnormality": "Fusion: ||Cardiovascular Reactive Module + Crystalized Blood||",
+    "Abnormality": "Fusion: ||Cardiovascular Reactive Module + Crystallized Blood||",
     "Affinity": "Pride",
     "Tier": 4,
     "Cost": 400,
@@ -6170,7 +6170,7 @@
     ]
   },
   {
-    "Name": "Leaked Enkaphalin",
+    "Name": "Leaked Enkephalin",
     "Tag": "Sinking",
     "Abnormality": "Theme Pack: *The Noon of Violet*",
     "Affinity": "Gloom",
@@ -6255,7 +6255,7 @@
     ]
   },
   {
-    "Name": "Decamillenial Stewpot",
+    "Name": "Decamillennial Stewpot",
     "Tag": "Burn",
     "Abnormality": "Basilisoup",
     "Affinity": "Lust",
@@ -6277,7 +6277,7 @@
   {
     "Name": "Secret Cookbook",
     "Tag": "Burn",
-    "Abnormality": "Fusion: ||Melted Paraffin + Decamillenial Stewpot||",
+    "Abnormality": "Fusion: ||Melted Paraffin + Decamillennial Stewpot||",
     "Affinity": "Lust",
     "Tier": 3,
     "Cost": 260,
@@ -6387,7 +6387,7 @@
     "Cost": 207,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, counts Identities on field)\nTurn Start: Enemies with Sinking (For Abnormalities, all Parts) regain (Sinknig Count lost On Hit last turn / 3) Sinking Count\nIf the Base Attack Skill hits against a target with less than 0 SP (For enemies without SP, if they have 1.5+ Gloom Resist), inflict (Sinking / 10) Gloom Affinity damage (Min 1, 10 times per turn)",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, counts Identities on field)\nTurn Start: Enemies with Sinking (For Abnormalities, all Parts) regain (Sinking Count lost On Hit last turn / 3) Sinking Count\nIf the Base Attack Skill hits against a target with less than 0 SP (For enemies without SP, if they have 1.5+ Gloom Resist), inflict (Sinking / 10) Gloom Affinity damage (Min 1, 10 times per turn)",
         "Rank": 1,
         "MiscTags": [
           "Sinking Count"
@@ -6427,7 +6427,7 @@
     "Cost": 261,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count. (Except E.G.O Skills, counts Identities on field)\nSkill 3 of Identities with Skills (except E.G.O Skills) that gain Poise or Poise Count: Coin Power +1\nCombat Start: A random ally gains 3 Poise. (Prioritizes Identities that gain Poise or Poise Count with their Attack Skills) Prioritizes allies with Gloom Affinity Attack Skills; they gain 3 Poise and +2 Poise Count isntead.",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count. (Except E.G.O Skills, counts Identities on field)\nSkill 3 of Identities with Skills (except E.G.O Skills) that gain Poise or Poise Count: Coin Power +1\nCombat Start: A random ally gains 3 Poise. (Prioritizes Identities that gain Poise or Poise Count with their Attack Skills) Prioritizes allies with Gloom Affinity Attack Skills; they gain 3 Poise and +2 Poise Count instead.",
         "Rank": 1,
         "MiscTags": [
           "Coin Power",
@@ -6629,7 +6629,7 @@
     ]
   },
   {
-    "Name": "Decamillenial Hearthflame",
+    "Name": "Decamillennial Hearthflame",
     "Tag": "Burn",
     "Abnormality": "Basilisoup",
     "Affinity": "Wrath",
@@ -6651,7 +6651,7 @@
   {
     "Name": "Purloined Flame",
     "Tag": "Burn",
-    "Abnormality": "Fusion: ||Burning Intellect + Decamillenial Hearthflame + Charred Disk||",
+    "Abnormality": "Fusion: ||Burning Intellect + Decamillennial Hearthflame + Charred Disk||",
     "Affinity": "Wrath",
     "Tier": 4,
     "Cost": 404,
@@ -6786,8 +6786,7 @@
     "Cost": 405,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, counts Identities on field. Counts, but excludes Self-Tremor Identities from effects)\nOn Clash Win with a Skill that inflicts Tremor/Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins; Max 3) Tremor Count; if they did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)",
-				"DescriptionContd": "When target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor Superposition, extend the Tremor - Superposition on target to the next turn",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, counts Identities on field. Counts, but excludes Self-Tremor Identities from effects)\nOn Clash Win with a Skill that inflicts Tremor/Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins; Max 3) Tremor Count; if they did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
         "Rank": 1,
         "MiscTags": [
           "Tremor Potency",
@@ -6937,8 +6936,7 @@
     "Cost": 401,
     "Upgrades": [
       {
-        "Description": "Activates when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, counts Identities on field)\nWhen dealing HP damage On Hit with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End (Once per turn per enemy)\nWhen activating Gloom/Lust A-Res, inflict 3 Sinking and +3 Sinking Count on all enemies (for Abnormalities, a random Part)\nBase Attack Skill End: If enemy has 10+ Sinking, heal (Sinking on target / 10) SP on self (Max 5); inflict the same amount as Defense Level Down. (Once per turn per enemy)\nTurn End: All allies gain Offense Level Up equal to # of enemies with no SP or -45 SP next turn (Max 6)\nWhen activating any Sinking On Hit with a Base Attack Skill that gains or inflicts Sinking, Sinking Count, or Unique Sinking, heal 5 SP at Turn End (2 times per turn per Identity); at 45 SP at Turn Start, inflict +3 Sinking Count instead.",
-        "DescriptionContd": "\nTurn Start: Randomly inflict 1 Reflux to an enemy\nOn Kill, Reflux Stack transfers to the highest, not maxed Reflux Stack\nCoin Power +1 to Plus Coins that inflict Sinking, Sinking Count, or Unique Sinking\nBase Power +(4/# of Coins) (Min 1; rounded down) to Minus Coins that inflict Sinking, Sinking Count, or Unique Sinking",
+        "Description": "Activates when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, counts Identities on field)\nWhen dealing HP damage On Hit with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End (Once per turn per enemy)\nWhen activating Gloom/Lust A-Res, inflict 3 Sinking and +3 Sinking Count on all enemies (for Abnormalities, a random Part)\nBase Attack Skill End: If enemy has 10+ Sinking, heal (Sinking on target / 10) SP on self (Max 5); inflict the same amount as Defense Level Down. (Once per turn per enemy)\nTurn End: All allies gain Offense Level Up equal to # of enemies with no SP or -45 SP next turn (Max 6)\nWhen activating any Sinking On Hit with a Base Attack Skill that gains or inflicts Sinking, Sinking Count, or Unique Sinking, heal 5 SP at Turn End (2 times per turn per Identity); at 45 SP at Turn Start, inflict +3 Sinking Count instead\nTurn Start: Randomly inflict 1 Reflux to an enemy\nOn Kill, Reflux Stack transfers to the highest, not maxed Reflux Stack\nCoin Power +1 to Plus Coins that inflict Sinking, Sinking Count, or Unique Sinking\nBase Power +(4/# of Coins) (Min 1; rounded down) to Minus Coins that inflict Sinking, Sinking Count, or Unique Sinking",
         "Rank": 1,
         "MiscTags": [
           "Sinking Potency",
@@ -7098,7 +7096,7 @@
     "Cost": 207,
     "Upgrades": [
       {
-        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well.\nEncounter Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
+        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well.\nEncounter Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
         "Rank": 1,
         "MiscTags": [
           "Defense Level Down",
@@ -7107,7 +7105,7 @@
         ]
       },
       {
-        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed.\nOdd-numbered Turn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
+        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed.\nOdd-numbered Turn Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2)",
         "Rank": 2,
         "MiscTags": [
           "Defense Level Down",
@@ -7117,7 +7115,7 @@
         ]
       },
       {
-        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed and 1 Clash Power Down.\nTurn Start: Seven Assocation Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2). On Clash Win, deal +20% more damage.",
+        "Description": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn. (Once per turn per Identity; once per enemy)\nSeven Association Identities: Effect applies to Pierce and Blunt Skills as well, and inflict Weakness Analyzed and 1 Clash Power Down.\nTurn Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (Rounded down; max 2). On Clash Win, deal +20% more damage.",
         "Rank": 3,
         "MiscTags": [
           "Defense Level Down",
@@ -7235,7 +7233,7 @@
     "Cost": 203,
     "Upgrades": [
       {
-        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; once per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash agains targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 2 Poise On Hit (Once per turn per Identity",
+        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; once per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 2 Poise On Hit (Once per turn per Identity",
         "Rank": 1,
         "MiscTags": [
           "Bind",
@@ -7245,7 +7243,7 @@
         ]
       },
       {
-        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; 2 times per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash agains targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 4 Poise On Hit (Once per turn per Identity",
+        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; 2 times per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 4 Poise On Hit (Once per turn per Identity",
         "Rank": 2,
         "MiscTags": [
           "Bind",
@@ -7255,7 +7253,7 @@
         ]
       },
       {
-        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; 2 times per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well (2 times per turn per Identity)\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash agains targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 4 Poise On Hit (2 times per turn per Identity",
+        "Description": "On Hit after winning a Clash with a Pierce Base Attack Skill: Inflict 1 Bind next turn (Once per turn per Identity; 2 times per enemy)\nCinq Association Identities: Gain 1 Haste next turn as well (2 times per turn per Identity)\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets (for Abnormalities, Parts) with Declared Duel or Focused Attack, gain 4 Poise On Hit (2 times per turn per Identity",
         "Rank": 3,
         "MiscTags": [
           "Bind",
@@ -8453,7 +8451,7 @@
     "Cost": 404,
     "Upgrades": [
       {
-        "Description": "Limbus Company Identities: Skill 2 gains Offense Level +2 and deals +20% damage; Skill 3 gains Offense Level +3 and deals +40% damage\nTurn Start: A Random ally gains 2 Offense Level Up for every Backup or defeated Limbus Company Identity\nDuring the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (Distributed equally, 2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times per turn)\nWhen 3+ Limbus Company Identities retreat or are defated, randomly apply 8 Offense Level Up between all Identities instead.",
+        "Description": "Limbus Company Identities: Skill 2 gains Offense Level +2 and deals +20% damage; Skill 3 gains Offense Level +3 and deals +40% damage\nTurn Start: A Random ally gains 2 Offense Level Up for every Backup or defeated Limbus Company Identity\nDuring the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (Distributed equally, 2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times per turn)\nWhen 3+ Limbus Company Identities retreat or are defeated, randomly apply 8 Offense Level Up between all Identities instead.",
         "Rank": 1,
         "MiscTags": [
           "Faction Buff: Limbus Company",
@@ -8685,7 +8683,7 @@
     "Cost": 245,
     "Upgrades": [
       {
-        "Description": "When clashing against enemies with Rupture, gain (Rupture on target / 20) Clash Power (Max 2)\nWhen Clashing against targets with Deathrite [Haste], gain (Rupture on target / 15) Clash Power instead (Max 3)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deatrite [Haste] damage / 3)",
+        "Description": "When clashing against enemies with Rupture, gain (Rupture on target / 20) Clash Power (Max 2)\nWhen Clashing against targets with Deathrite [Haste], gain (Rupture on target / 15) Clash Power instead (Max 3)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 3)",
         "Rank": 1,
         "MiscTags": [
           "Clash Power",
@@ -8741,7 +8739,7 @@
   {
     "Name": "Everlasting Chains of Bond",
     "Tag": "Blunt",
-    "Abnormality": "Fusion: ||Enh. Tatoos - The Middle + Chains of Loyalty||",
+    "Abnormality": "Fusion: ||Enh. Tattoos - The Middle + Chains of Loyalty||",
     "Affinity": "Envy",
     "Tier": 4,
     "Cost": 401,
@@ -8836,7 +8834,7 @@
     "Cost": 201,
     "Upgrades": [
       {
-        "Description": "Turn Start: 1 ally with the highest Max HP gains Defense level Up equal to the number of times that unit was hit by the enemies' Skill Attacsk (Max 6)",
+        "Description": "Turn Start: 1 ally with the highest Max HP gains Defense level Up equal to the number of times that unit was hit by the enemies' Attack Skill (Max 6)",
         "Rank": 1,
         "MiscTags": [
           "Defense Level Up"
@@ -8878,7 +8876,7 @@
     "Cost": 255,
     "Upgrades": [
       {
-        "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormailities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$ At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
+        "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormalities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$ At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
         "Rank": 1,
         "MiscTags": [
           "Rupture Potency",
@@ -9437,7 +9435,7 @@
   {
     "Name": "Cultivation: Cut, File, Carve, Polish",
     "Tag": "Rupture",
-    "Abnormality": "Fusion: ||Virtue - Zhi + Virtue - Yong + Virute - Ren||",
+    "Abnormality": "Fusion: ||Virtue - Zhi + Virtue - Yong + Virtue - Ren||",
     "Affinity": "Gloom",
     "Tier": 4,
     "Cost": 399,
@@ -9544,7 +9542,7 @@
     "Cost": 201,
     "Upgrades": [
       {
-        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nOn the first Turn Start of the Encounter, and on all allies who Subtitute in, apply 3 Backup Candy\nIf they did not consume Backup Candy in the previous turn, apply 1 Hunger at Turn Start",
+        "Description": "Allies Plus Coin Skills: Coin Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nAllies Minus Coin Skills: Final Power +(8 / # of Coins) (Min 1; includes E.G.O Skills; rounded down)\nOn the first Turn Start of the Encounter, and on all allies who Substitute in, apply 3 Backup Candy\nIf they did not consume Backup Candy in the previous turn, apply 1 Hunger at Turn Start",
         "Rank": 1,
         "MiscTags": [
           "Plus Coin Boost",
@@ -9672,7 +9670,7 @@
     "Cost": 400,
     "Upgrades": [
       {
-        "Description": "When using an Attack Skill (Including E.G.O Skills) against a single target (or Abnormalities, a single Part), deal +10% damage\nIf the Skill inflicts Sinking, Sinking Count, or Unique Sinking, deal +25% damage instead\n[Tidal Elegy Ishmael E.G.O Exclusive Effect]\nIf this E.G.O Skill targets only a single enemy, the final Coin gains +4 Coin Power and deals +20% daamge",
+        "Description": "When using an Attack Skill (Including E.G.O Skills) against a single target (or Abnormalities, a single Part), deal +10% damage\nIf the Skill inflicts Sinking, Sinking Count, or Unique Sinking, deal +25% damage instead\n[Tidal Elegy Ishmael E.G.O Exclusive Effect]\nIf this E.G.O Skill targets only a single enemy, the final Coin gains +4 Coin Power and deals +20% damage",
         "Rank": 1,
         "MiscTags": [
           "Damage Amp"
@@ -9814,7 +9812,7 @@
     "Cost": 252,
     "Upgrades": [
       {
-        "Description": "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply Bleed or Unique Bleed (2 times per turn)\nIn a Clash using Skills tha tapply Bleed or Unique Bleed, Clash Power +1\n$ If 5+ Identities have Attack Skills that apply Bleed or Unique Bleed, Clash Power +1 and deal +10% damage instead (Counts all units in the Team)\n$ If 10+ Identities fit the above description, Clash Power +2 and deal +15% damage instead",
+        "Description": "The ally with the least HP before Combat Start heals 3% HP On Hit with Attack Skills that apply Bleed or Unique Bleed (2 times per turn)\nIn a Clash using Skills that apply Bleed or Unique Bleed, Clash Power +1\n$ If 5+ Identities have Attack Skills that apply Bleed or Unique Bleed, Clash Power +1 and deal +10% damage instead (Counts all units in the Team)\n$ If 10+ Identities fit the above description, Clash Power +2 and deal +15% damage instead",
         "Rank": 1,
         "MiscTags": [
           "Heal HP",

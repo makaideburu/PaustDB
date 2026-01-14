@@ -12309,7 +12309,6 @@
 		"Id": 3309,
 		"Sinner": "Don Quixote",
 		"Identity": "The Index Proxy - Effloresced E.G.O::Procuration",
-		"DisplayIdentity": "The Index ****: [Device]",
 		"World": "The Index",
 		"Season": 7,  
 		"Traits": [
@@ -30168,7 +30167,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30290,7 +30288,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30481,7 +30478,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Counter",
-						"Burn Potency",
 						"Burn Count"
 					]
 				},
@@ -30599,7 +30595,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Counter",
-						"Burn Potency",
 						"Burn Count"
 					]
 				},
@@ -30678,7 +30673,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30702,7 +30696,6 @@
 					"MiscTags": [
 						"Self Tremor Count",
 						"Tremor Count",
-						"Tremor Potency",
 						"Sinking Potency",
 						"Defense Level Down"
 					]
@@ -30763,7 +30756,6 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30778,7 +30770,6 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				}
@@ -30804,7 +30795,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30828,7 +30818,6 @@
 					"MiscTags": [
 						"Self Tremor Count",
 						"Tremor Count",
-						"Tremor Potency",
 						"Sinking Potency",
 						"Defense Level Down"
 					]
@@ -30889,7 +30878,6 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -30904,7 +30892,6 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				}
