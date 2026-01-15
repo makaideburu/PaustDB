@@ -176,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.6 (2026-01-15)",
+        "``` — 10:56 AM\nwow seasonal ego dropped and i didn't have to rewire paus for it\nactually i will have to cause that's not actually correct\nit doesn't clash with the +5 final power\n\"just reuse the base power override\" no what if multiply coins happen\n\n — 12:28 PM\nme and my stupid ******* mouth```"
+      ],
+      [
         "3.2.6 (2026-01-11)",
         "```id censor```"
       ],
@@ -194,10 +198,6 @@
       [
         "3.2.2 (2025-12-06)",
         "```backend stuff```"
-      ],
-      [
-        "3.2.1 (2025-12-02)",
-        "```season query was supposed to be in this update```"
       ]
     ],
     "OldItems": [
@@ -396,6 +396,10 @@
       [
         "3.2.0 (2025-12-02)",
         "```fancy stuff\nuse -sortby hp to sort id results by hp\nuse -keyword to filter by the seven keyword souls\nuse -trait to sort by traits```"
+      ],
+      [
+        "3.2.1 (2025-12-02)",
+        "```season query was supposed to be in this update```"
       ]
     ],
     "HelpFooter": ""

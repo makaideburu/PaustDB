@@ -986,13 +986,13 @@
     ]
   },
   {
-    "Id": 1000,
+    "Id": 1402,
     "Sinner": "Yi Sang",
     "Grade": "WAW",
     "Season": 7,
     "Sanity": 30,
     "CorrosionSanity": 35,
-    "Abnormality": "Butterfly of Entangled Lives [-]",
+    "Abnormality": "Butterfly of Entangled Lives [羅生蝶]",
     "SinResist": {
       "Wrath": 0.5,
       "Lust": 2,
@@ -1016,7 +1016,7 @@
         "Tier": 4,
         "Awakening": {
           "SkillSlot": "EA0",
-          "Name": "Great Trichiliocosm [-]",
+          "Name": "Great Trichiliocosm [三千大世界]",
           "Description": "[Before Attack] If main target has 10+ (Burn + Sinking), Coin Power +1\n[Before Attack] Gain (Highest Reson) Poise (Max 7)\n$ If it was A-Reson, also gain (Highest Reson / 3) Poise Count (Max 2; rounded down)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict +3 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Shattered World this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn equal to (Sinking on target / 3) (Max 5; rounded down)\n[On Crit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit without Cracking] Activate Burn on target once; reduce Burn Count by 1",
           "DamageType": "Pierce",
           "SinType": "Wrath",
@@ -1044,7 +1044,7 @@
         },
         "Corrosion": {
           "SkillSlot": "EC0",
-          "Name": "Great Trichiliocosm [-]",
+          "Name": "Great Trichiliocosm [三千大世界]",
           "Description": "[Indiscriminate] Targets randomly\nOn Coin Hit, gain 3 Burn; on final Coin Use, Final Power +1 (Max 3; once per Coin)\n[Before Attack] Gain (Highest Reson) Poise (Max 7)\n$ If it was A-Reson, also gain (Highest Reson / 3) Poise Count (Max 2; rounded down)\n[Before Attack] Base Power -1 for every Cracked Coin (Max -4)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict +3 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Shattered World this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n[On Crit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[Coin Start] Deal +10% damage for every 10 (Burn + Sinking) on all targets (Max 60%)\n[On Hit without Cracking]\nActivate Burn on target once; reduce Burn Count by 1",
           "DamageType": "Pierce",
           "SinType": "Wrath",
@@ -1083,7 +1083,7 @@
         "Tier": 3,
         "Awakening": {
           "SkillSlot": "EA0",
-          "Name": "Great Trichiliocosm [-]",
+          "Name": "Great Trichiliocosm [三千大世界]",
           "Description": "[Before Attack] If main target has 15+ (Burn + Sinking), Coin Power +1\n[Before Attack] Gain (Highest Reson) Poise (Max 7)\n$ If it was A-Reson, also gain (Highest Reson / 3) Poise Count (Max 2; rounded down)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict +2 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Shattered World this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn equal to (Sinking on target / 3) (Max 5; rounded down)\n[On Crit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit without Cracking] Activate Burn on target once; reduce Burn Count by 1",
           "DamageType": "Pierce",
           "SinType": "Wrath",
@@ -1111,7 +1111,7 @@
         },
         "Corrosion": {
           "SkillSlot": "EC0",
-          "Name": "Great Trichiliocosm [-]",
+          "Name": "Great Trichiliocosm [三千大世界]",
           "Description": "[Indiscriminate] Targets randomly\nOn Coin Hit, gain 4 Burn; on final Coin Use, Final Power +1 (Max 3; once per Coin)\n[Before Attack] Gain (Highest Reson) Poise (Max 7)\n$ If it was A-Reson, also gain (Highest Reson / 3) Poise Count (Max 2; rounded down)\n[Before Attack] Base Power -1 for every Cracked Coin (Max -4)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict +2 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Shattered World this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict 3 Burn\n[On Crit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[Coin Start] Deal +10% damage for every 10 (Burn + Sinking) on all targets (Max 60%)\n[On Hit without Cracking]\nActivate Burn on target once; reduce Burn Count by 1",
           "DamageType": "Pierce",
           "SinType": "Wrath",
@@ -4848,13 +4848,13 @@
     ]
   },
   {
-    "Id": 4000,
+    "Id": 4402,
     "Sinner": "Ryōshū",
     "Grade": "WAW",
     "Season": 4,
     "Sanity": 10,
     "CorrosionSanity": 30,
-    "Abnormality": "Butterfly of Entangled Lives [-]",
+    "Abnormality": "Butterfly of Entangled Lives [羅生蝶]",
     "SinResist": {
       "Wrath": 0.5,
       "Lust": 0.75,
@@ -4878,8 +4878,8 @@
         "Tier": 4,
         "Awakening": {
           "SkillSlot": "EA0",
-          "Name": "Great Trichiliocosm [-]",
-          "Description": "[Before Attack] Gain (Highest Reson) Poise (Max 7)\n[Before Attack] Gain +3 Poise Count\n[After Attack] Gain 1 Entangled Life [-]\n[After Attack] Lose 10 SP at Turn End for 3 turns\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Coin Power +5 for the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 50%)\n[Coin Start] Coin Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 5)\n[Coin Start] Consume all Entangled Life [-] and deal +1% damage for every 5 Entangled Life [-] consumed (Max 198%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 2x its value (Focused Encounters, Core and its Parts count as a single target)",
+          "Name": "Great Trichiliocosm [三千大世界]",
+          "Description": "[Before Attack] Gain (Highest Reson) Poise (Max 7)\n[Before Attack] Gain +3 Poise Count\n[After Attack] Gain 1 Entangled Life [羅生]\n[After Attack] Lose 10 SP at Turn End for 3 turns\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Coin Power +5 for the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 50%)\n[Coin Start] Coin Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 5)\n[Coin Start] Consume all Entangled Life [羅生] and deal +1% damage for every 5 Entangled Life [羅生] consumed (Max 198%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 2x its value (Focused Encounters, Core and its Parts count as a single target)",
           "DamageType": "Slash",
           "SinType": "Wrath",
           "BasePower": 6,
@@ -4902,19 +4902,19 @@
           "MiscTags": [
             "Poise Potency",
             "Poise Count",
-            "Entangled Life [-]",
+            "Entangled Life [羅生]",
             "Self SP Damage",
             "Unbreakable Coin",
             "Burn Potency",
             "Bind",
             "Bleed Potency",
-            "Spend Entangled Life [-]"
+            "Spend Entangled Life [羅生]"
           ]
         },
         "Corrosion": {
           "SkillSlot": "EC0",
-          "Name": "Great Trichiliocosm [-]",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Consume a maximum of 20 Poise past 20 on self, for every Poise consumed, heal 1% of max HP (Min 1 HP) and deal +1% damage with this Skill\n[Before Attack] Gain +5 Poise Count\n[Before Attack] At 999 Entangled Life [-], Base Power +3\n[Before Attack] Base Power -3 for every Cracked Coin (Max -9)\n[After Attack] Gain 33 Entangled Life [-]\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Deal +50% damage with the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 50%)\n[Coin Start] Final Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 5)\n[Coin Start] Consume all Entangled Life [-] on self and deal +1.25% damage for every 5 Entangled Life [-] consumed (Max 248%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 2x its value (Focused Encounters, Core and its Parts count as a single target",
+          "Name": "Great Trichiliocosm [三千大世界]",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Consume a maximum of 20 Poise past 20 on self, for every Poise consumed, heal 1% of max HP (Min 1 HP) and deal +1% damage with this Skill\n[Before Attack] Gain +5 Poise Count\n[Before Attack] At 999 Entangled Life [羅生], Base Power +3\n[Before Attack] Base Power -3 for every Cracked Coin (Max -9)\n[After Attack] Gain 33 Entangled Life [羅生]\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Deal +50% damage with the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 50%)\n[Coin Start] Final Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 5)\n[Coin Start] Consume all Entangled Life [羅生] on self and deal +1.25% damage for every 5 Entangled Life [羅生] consumed (Max 248%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 2x its value (Focused Encounters, Core and its Parts count as a single target",
           "DamageType": "Slash",
           "SinType": "Wrath",
           "BasePower": 14,
@@ -4922,26 +4922,32 @@
           "CoinCount": 3,
           "Level": 0,
           "BasePowerModifier": 3,
-          "FinalPowerModifier": 5,
+          "FinalPowerModifier": 0,
           "ClashPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
+          "ClashesWithOverride": false,
+					"FinalPowerOverride": [
+            0,
+            0,
+            5
+					],
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
             "Spend Self Poise Potency",
             "Heal HP",
             "Poise Count",
-            "Entangled Life [-]",
+            "Entangled Life [羅生]",
             "Unbreakable Coin",
             "Burn Potency",
             "Bind",
             "Bleed Potency",
-            "Spend Entangled Life [-]"
+            "Spend Entangled Life [羅生]"
           ]
         },
         "Passive": {
-          "Name": "Sanzu [-]",
+          "Name": "Sanzu [三途]",
           "Description": "After using an Attack Skill, if the enemy is Staggered or defeated, gain 1 Crit DMG Up next turn (3 times per turn)",
           "MiscTags": [
             "Crit DMG Up"
@@ -4952,8 +4958,8 @@
         "Tier": 3,
         "Awakening": {
           "SkillSlot": "EA0",
-          "Name": "Great Trichiliocosm [-]",
-          "Description": "[Before Attack] Gain (Highest Reson) Poise (Max 7)\n[Before Attack] Gain +3 Poise Count\n[After Attack] Gain 1 Entangled Life [-]\n[After Attack] Lose 10 SP at Turn End for 3 turns\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Coin Power +3 for the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 30%)\n[Coin Start] Coin Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 3)\n[Coin Start] Consume all Entangled Life [-] and deal +1% damage for every 5 Entangled Life [-] consumed (Max 100%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 1.5x its value (Focused Encounters, Core and its Parts count as a single target)",
+          "Name": "Great Trichiliocosm [三千大世界]",
+          "Description": "[Before Attack] Gain (Highest Reson) Poise (Max 7)\n[Before Attack] Gain +3 Poise Count\n[After Attack] Gain 1 Entangled Life [羅生]\n[After Attack] Lose 10 SP at Turn End for 3 turns\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Coin Power +3 for the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 30%)\n[Coin Start] Coin Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 3)\n[Coin Start] Consume all Entangled Life [羅生] and deal +1% damage for every 5 Entangled Life [羅生] consumed (Max 100%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 1.5x its value (Focused Encounters, Core and its Parts count as a single target)",
           "DamageType": "Slash",
           "SinType": "Wrath",
           "BasePower": 6,
@@ -4976,19 +4982,19 @@
           "MiscTags": [
             "Poise Potency",
             "Poise Count",
-            "Entangled Life [-]",
+            "Entangled Life [羅生]",
             "Self SP Damage",
             "Unbreakable Coin",
             "Burn Potency",
             "Bind",
             "Bleed Potency",
-            "Spend Entangled Life [-]"
+            "Spend Entangled Life [羅生]"
           ]
         },
         "Corrosion": {
           "SkillSlot": "EC0",
-          "Name": "Great Trichiliocosm [-]",
-          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Consume a maximum of 20 Poise past 20 on self, for every Poise consumed, heal 1% of max HP (Min 1 HP) and deal +1% damage with this Skill\n[Before Attack] Gain +3 Poise Count\n[Before Attack] At 999 Entangled Life [-], Base Power +2\n[Before Attack] Base Power -3 for every Cracked Coin (Max -9)\n[After Attack] Gain 20 Entangled Life [-]\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Deal +30% damage with the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 30%)\n[Coin Start] Final Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 3)\n[Coin Start] Consume all Entangled Life [-] on self and deal +1% damage for every 5 Entangled Life [-] consumed (Max 100%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 1.5x its value (Focused Encounters, Core and its Parts count as a single target",
+          "Name": "Great Trichiliocosm [三千大世界]",
+          "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Consume a maximum of 20 Poise past 20 on self, for every Poise consumed, heal 1% of max HP (Min 1 HP) and deal +1% damage with this Skill\n[Before Attack] Gain +3 Poise Count\n[Before Attack] At 999 Entangled Life [羅生], Base Power +2\n[Before Attack] Base Power -3 for every Cracked Coin (Max -9)\n[After Attack] Gain 20 Entangled Life [羅生]\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n[On Crit] Deal +30% damage with the final Coin (Once per Skill)\n<3>[Unbreakable Coin]\n+30% damage on Critical Hit\n[Coin Start] Deal +1% damage for every 10 (Burn Potency + Bleed Potency) on all targets (Max 30%)\n[Coin Start] Final Power +1 for every 10 (Burn Count + Bleed Count) on all targets (Max 3)\n[Coin Start] Consume all Entangled Life [羅生] on self and deal +1% damage for every 5 Entangled Life [羅生] consumed (Max 100%)\n$ When attacking just a single target, the damage-modifying effect above is applied at 1.5x its value (Focused Encounters, Core and its Parts count as a single target",
           "DamageType": "Slash",
           "SinType": "Wrath",
           "BasePower": 12,
@@ -4996,26 +5002,32 @@
           "CoinCount": 3,
           "Level": 0,
           "BasePowerModifier": 2,
-          "FinalPowerModifier": 5,
+          "FinalPowerModifier": 0,
           "ClashPowerModifier": 0,
           "CoinModifier": 0,
           "CoinCountModifier": 0,
+          "ClashesWithOverride": false,
+					"FinalPowerOverride": [
+            0,
+            0,
+            3
+					],
           "AttackWeight": 7,
           "AttackWeightMod": 7,
           "MiscTags": [
             "Spend Self Poise Potency",
             "Heal HP",
             "Poise Count",
-            "Entangled Life [-]",
+            "Entangled Life [羅生]",
             "Unbreakable Coin",
             "Burn Potency",
             "Bind",
             "Bleed Potency",
-            "Spend Entangled Life [-]"
+            "Spend Entangled Life [羅生]"
           ]
         },
         "Passive": {
-          "Name": "Sanzu [-]",
+          "Name": "Sanzu [三途]",
           "Description": "After using an Attack Skill, if the enemy is Staggered or defeated, gain 1 Crit DMG Up next turn (3 times per turn)",
           "MiscTags": [
             "Crit DMG Up"
@@ -13806,7 +13818,7 @@
           "CoinModifier": 0,
           "CoinCountModifier": 0,
           "ClashesWithOverride": false,
-          "BaseOverride": 8,
+          "BasePowerOverride": 8,
 					"CoinOverride": [
             6,
             6,
@@ -13837,7 +13849,7 @@
           "CoinModifier": 0,
           "CoinCountModifier": 0,
           "ClashesWithOverride": false,
-          "BaseOverride": 18,
+          "BasePowerOverride": 18,
 					"CoinOverride": [
             -8,
             -8,
@@ -13880,7 +13892,7 @@
           "CoinModifier": 0,
           "CoinCountModifier": 0,
           "ClashesWithOverride": false,
-          "BaseOverride": 8,
+          "BasePowerOverride": 8,
 					"CoinOverride": [
             6,
             6,
@@ -13911,7 +13923,7 @@
           "CoinModifier": 0,
           "CoinCountModifier": 0,
           "ClashesWithOverride": false,
-          "BaseOverride": 18,
+          "BasePowerOverride": 18,
 					"CoinOverride": [
             -8,
             -8,
