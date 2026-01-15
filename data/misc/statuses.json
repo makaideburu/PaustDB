@@ -75,6 +75,12 @@
 		]
 	},
 	{
+		"Name": "Envy DMG Up",
+		"Description": "Deal (Stack x 10)% more damage on Critical Hit",
+		"Tags": [
+		]
+	},
+	{
 		"Name": "Attack Power Up",
 		"Description": "Attack skills gain (Stack) final power for one turn.",
 		"Tags": []
@@ -1175,7 +1181,9 @@
 	{
 		"Name": "Amplitude Entanglement",
 		"Description": "Combine the Entangling Tremor effect and the target's Tremor type under Tremor - Superposition\nPotency and Count values do not change over Entanglement\nWhen triggering Amplitude Conversion for Tremor - Superposition, activates as Amplitude Entanglement instead\nTurn End: Converted into Tremor",
-		"Tags": []
+		"Tags": [
+			"Tremor - Superposition"
+		]
 	},
 	{
 		"Name": "Tremor - Everlasting",
@@ -3382,6 +3390,19 @@
 		"Tags": [
 			"Panic",
 			"Panic Type"
+		]
+	},
+	{
+		"Name": "Shattered World",
+		"Description": "Max Stack: 1\nExpires at Turn End\nTake 1.2x damage from Burn (Rounded down; except Unique Burn)\nTake +10% damage from Yi Sang's Wrath and Gloom Base Attack Skills",
+		"Tags": [
+			"Burn Amp"
+		]
+	},
+	{
+		"Name": "Entangled Life [-]",
+		"Description": "Max Stack: 999\nGain 1 Stack for every HP damage dealt by Ryōshū's Skills\nDeal +1% damage with Base Skills for every 33 Stack (Max 10%)",
+		"Tags": [
 		]
 	}
 ]

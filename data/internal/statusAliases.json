@@ -295,6 +295,12 @@
 		]
 	},
 	{
+		"entry": "burn amp",
+		"aliases": [
+			"status amp"
+		]
+	},
+	{
 		"entry": "spend burn potency",
 		"aliases": [
 			"spend burn"
@@ -2289,6 +2295,12 @@
 			"wrath damage amp",
 			"envy damage amp",
 			"burn potency"
+		]
+	},
+	{
+		"entry": "shattered world",
+		"aliases":[
+			"burn amp"
 		]
 	}
 ]
