@@ -1375,6 +1375,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -1398,6 +1399,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -1501,6 +1503,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -1526,6 +1529,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -3358,6 +3362,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 2,
 					"AttackWeightMod": 4,
 					"MiscTags": [
@@ -3387,6 +3392,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 2,
 						"AttackWeightMod": 4,
 						"MiscTags": [
@@ -3535,6 +3541,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 2,
 					"AttackWeightMod": 4,
 					"MiscTags": [
@@ -3564,6 +3571,8 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 2,
 						"AttackWeightMod": 4,
 						"MiscTags": [
@@ -3746,6 +3755,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -3805,6 +3815,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -3997,6 +4008,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -6767,6 +6779,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -6933,6 +6946,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -7220,6 +7234,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -7413,6 +7428,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -7974,6 +7990,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -8151,6 +8168,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -10695,6 +10713,8 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -10747,6 +10767,8 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 2,
 						"AttackWeightMod": 4,
 						"MiscTags": [
@@ -10798,6 +10820,8 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -10851,6 +10875,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -10979,6 +11004,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -11030,6 +11056,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 2,
 						"AttackWeightMod": 4,
 						"MiscTags": [
@@ -11081,6 +11108,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -11134,6 +11162,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -11637,6 +11666,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -11660,6 +11690,8 @@
 						"ClashPowerModifier": 7,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 2,
+						"UnbreakableCoinCount": 3,
 						"AttackWeight": 1,
 						"AttackWeightMod": 5,
 						"MiscTags": [
@@ -11859,6 +11891,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -11882,6 +11915,8 @@
 						"ClashPowerModifier": 3,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 2,
+						"UnbreakableCoinCount": 3,
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"MiscTags": [
@@ -12036,6 +12071,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12061,6 +12097,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12190,6 +12227,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12215,6 +12253,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12442,6 +12481,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12473,6 +12513,7 @@
 						],
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -12742,6 +12783,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -12766,6 +12808,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -16007,6 +16050,7 @@
 					"ClashPowerModifier": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -16035,6 +16079,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -16067,6 +16112,7 @@
 						"CoinCountModifier": 0,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
+						"UnbreakableCoinCount": 1,
 						"MiscTags": [
 							"Spend Enemy Gaze",
 							"Spend Enemy Contempt",
@@ -16214,6 +16260,7 @@
 					"ClashPowerModifier": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -16242,6 +16289,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -16272,6 +16320,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -16494,6 +16543,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -16643,6 +16693,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -19759,6 +19810,7 @@
 					],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -19788,6 +19840,7 @@
 					],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -19821,6 +19874,7 @@
 					],
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -19858,6 +19912,7 @@
 						],
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -19971,6 +20026,7 @@
 					],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -20000,6 +20056,7 @@
 					],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -20033,6 +20090,7 @@
 					],
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -20070,6 +20128,7 @@
 						],
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -20259,6 +20318,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -20289,6 +20349,7 @@
 						"ClashPowerModifier": 8,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -20474,6 +20535,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -20504,6 +20566,7 @@
 						"ClashPowerModifier": 8,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -23344,6 +23407,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -23397,6 +23461,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -23584,6 +23649,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -23637,6 +23703,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -24083,6 +24150,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24109,6 +24177,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24186,6 +24255,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24211,6 +24281,7 @@
 						"ClashPowerModifier": 1,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -24311,6 +24382,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24336,6 +24408,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24412,6 +24485,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -24437,6 +24511,7 @@
 						"ClashPowerModifier": 1,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -28115,6 +28190,7 @@
 					],
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -28139,6 +28215,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -28266,6 +28343,7 @@
 					],
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -28290,6 +28368,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -28441,6 +28520,7 @@
 					"ClashPowerModifier": 3,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 3,
 					"AttackWeightMod": 3,
 					"MiscTags": [
@@ -28469,6 +28549,7 @@
 						"ClashPowerModifier": 3,
 						"CoinModifier": 2,
 						"CoinCountModifier": 1,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -28645,6 +28726,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 3,
 					"AttackWeightMod": 3,
 					"MiscTags": [
@@ -28673,6 +28755,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 1,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 3,
 						"AttackWeightMod": 3,
 						"MiscTags": [
@@ -31324,6 +31407,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -31455,6 +31539,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -31927,6 +32012,7 @@
 					"ClashPowerModifier": 1,
 					"CoinModifier": 11,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"MiscTags": [
@@ -32101,7 +32187,7 @@
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 7,
-					"CoinCountModifier": 0,
+					"CoinCountModifier": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"MiscTags": [
@@ -35879,6 +35965,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -36007,6 +36094,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -36229,6 +36317,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -36254,6 +36343,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -36516,6 +36606,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -36541,6 +36632,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -38485,6 +38577,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -38616,6 +38709,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -40535,6 +40629,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -40854,6 +40949,7 @@
 					"ClashPowerModifier": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 3,
 					"AttackWeightMod": 3,
 					"MiscTags": [
@@ -41013,6 +41109,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 3,
 					"AttackWeightMod": 3,
 					"MiscTags": [
@@ -44504,6 +44601,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -44647,6 +44745,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -48130,6 +48229,8 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -48256,6 +48357,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -48443,6 +48545,7 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 3,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -48473,6 +48576,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48650,6 +48754,8 @@
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
+						"UnbreakableBasePower": 0,
+						"UnbreakableCoinCount": 4,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -48680,6 +48786,7 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
