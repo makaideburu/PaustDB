@@ -1818,7 +1818,7 @@
 			"Unbreakable Coin",
 			"Nullify Stagger",
 			"Bleed Potency",
-			"Final Power"
+			"Final Power Up"
 		]
 	},
 	{
@@ -2563,7 +2563,7 @@
 		"Tags": [
 			"Attack Power Up",
 			"Damage Up",
-			"Final Power"
+			"Final Power Up"
 		]
 	},
 	{
@@ -2607,7 +2607,7 @@
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
-			"Base Power"
+			"Base Power Up"
 		]
 	},
 	{
@@ -2686,7 +2686,7 @@
 		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x 10) Shield this turn\nAt max Stack, Final Power +2\nWhen hit, if unit took 100+ damage from a single Skill, gain 1 Protection after Skill End (2 times per turn; includes Shield HP damage; does not count Keyword damage)",
 		"Tags": [
 			"Shield",
-			"Final Power",
+			"Final Power Up",
 			"Protection"
 		]
 	},
@@ -2721,14 +2721,14 @@
 	},
 	{
 		"Name": "Gaze (N Corp. E.G.O::Contempt, Awe Ryōshū)",
-		"Description": "Max Stack: 7\nTake and deal +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
+		"Description": "Max Stack: 7\nDeal and take +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
 		"Tags": [
 			"Contempt"
 		]
 	},
 	{
 		"Name": "Contempt",
-		"Description": "Max Stack: 1\nTake and deal -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
+		"Description": "Max Stack: 1\nDeal and take -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
 		"Tags": [
 			"Gaze"
 		]
@@ -2937,7 +2937,7 @@
 		"Description": "Offense Level +2\nFinal Power +1\nExpires at Turn End",
 		"Tags": [
 			"Offense Level Up",
-			"Final Power"
+			"Final Power Up"
 		]
 	},
 	{
@@ -2964,7 +2964,7 @@
 		"Name": "Focused Performance",
 		"Description": "Max Stack: 3\n<La Manchaland> Identities only; includes empowered Skills\nSkill 1 and Skill 2 gain Final Power +1; deal +5% damage for every Stack\nSkill 3 gains Final Power +2; deal +10% damage for every Stack\nAfter attacking with Skill 3, or at Turn Start without Hardblood Armor, lose 1 Stack",
 		"Tags": [
-			"Final Power",
+			"Final Power Up",
 			"Damage Amp"
 		]
 	},
@@ -3563,6 +3563,29 @@
 		"Tags": [
 			"Panic",
 			"Panic Type"
+		]
+	},
+	{
+		"Name": "The Middle Styled Augmentation Tattoos",
+		"Description": "Base Skills gain Final Power +X for every Y Stack\nEnvy Skills and Blunt Skills deal more damage for every X Stack",
+		"Tags": [
+			"Final Power Up",
+			"Envy Damage Amp",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "The Middle - Grudge",
+		"Description": "If target has Vengeance Mark, deal more damage",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Thermal Blades",
+		"Description": "If target hit by Base Skills has Burn, heal SP\nInflict Burn when inflicting Bleed with certain Skill Coins\nTurn End: Reduce Stack",
+		"Tags": [
+			"Heal SP",
+			"Burn Potency"
 		]
 	}
 ]
