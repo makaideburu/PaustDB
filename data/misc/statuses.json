@@ -2220,7 +2220,7 @@
 	},
 	{
 		"Name": "Denial [不許]",
-		"Description": "When this unit takes damage that brings their HP down to 0: This unit's HP does not drop below 1; recover from Stagger due to damage\nIf ths above effect activated, dies at Turn End\nExpires on death, Retreat, or Turn End",
+		"Description": "When this unit takes damage that brings their HP down to 0: This unit's HP does not drop below 1; recover from Stagger due to damage\nIf this above effect activated, dies at Turn End\nExpires on death, Retreat, or Turn End",
 		"Tags": [
 			"Unrelenting",
 			"Nullify Stagger"
@@ -3567,7 +3567,7 @@
 	},
 	{
 		"Name": "The Middle Styled Augmentation Tattoos",
-		"Description": "Base Skills gain Final Power +X for every Y Stack\nEnvy Skills and Blunt Skills deal more damage for every X Stack",
+		"Description": "Max Stack: 10\nBase Skills gain Final Power +1 for every 5 Stack (Max 2)\nEnvy Skills and Blunt Skills deal +5% damage for every Stack (Max 50%)",
 		"Tags": [
 			"Final Power Up",
 			"Envy Damage Amp",
@@ -3576,13 +3576,13 @@
 	},
 	{
 		"Name": "The Middle - Grudge",
-		"Description": "If target has Vengeance Mark, deal more damage",
+		"Description": "Max Stack: 15\nIf target has Vengeance Mark, deal +20% damage",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Thermal Blades",
-		"Description": "If target hit by Base Skills has Burn, heal SP\nInflict Burn when inflicting Bleed with certain Skill Coins\nTurn End: Reduce Stack",
+		"Description": "Max Stack: 2\nIf target hit by Base Skills has Burn, heal 3 SP (2 times per turn)\nInflict Burn when inflicting Bleed with certain Skill Coins\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Heal SP",
 			"Burn Potency"

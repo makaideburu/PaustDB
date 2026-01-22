@@ -32676,8 +32676,11 @@
 		"World": "???",
 		"Season": 8,
 		"Traits": [
+			"The Fingers",
+			"The House of Spiders",
+			"The Middle"
 		],
-		"Speed": "???",
+		"Speed": "4~7",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -32685,9 +32688,9 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
 		},
 		"UptieTiers": [
 			{
@@ -32695,17 +32698,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Totally Badass Ass-kicking",
-					"Description": "If target has X+ (Burn + Bleed), Coin Power +Y\n[On Use] Heal SP\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Deal bonus Blunt damage\n[On Hit] If unit has The Middle Styled Augmentation Tattoos, inflict Bleed Count",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] Heal 5 SP\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Deal 5 bonus Blunt damage\n[On Hit] If unit has The Middle Styled Augmentation Tattoos, inflict +1 Bleed Count",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -32718,25 +32721,26 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Crossing Dervish",
-					"Description": "If target has X+ (Burn + Bleed), Coin Power +Y\n[Combat Start] Skill gains Offense Level by (Highest Reson / X)\n$ If there was an A-Reson in the Reson chain, multiply the Offense Level gained by X\n[On Use] Gain Aggro to this Slot next turn\nIf unit has Thermal Blades, On Hit with certain Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed Count\n<3>[On Hit] Deal bonus Blunt damage\n[On Hit] If this unit has The Middle Styled Augmentation Tattoos, inflict Paralyze and Bind next turn",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n$ If there was an A-Reson in the Reson chain, double the Offense Level gained\n[On Use] Gain +5 Aggro to this Slot next turn\n[On Use] If unit has Thermal Blades, On Hit with 1st and 2nd Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Deal 5 bonus Blunt damage\n[On Hit] If this unit has The Middle Styled Augmentation Tattoos, inflict 1 Paralyze and 1 Bind next turn (Once per turn)",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Aggro",
-						"Burn Potency",
 						"Bleed Potency",
+						"Burn Potency",
 						"Bleed Count",
+						"Burn Count",
 						"Paralyze",
 						"Bind"
 					]
@@ -32744,38 +32748,39 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Violet~ Breaking Slam",
-					"Description": "If target has X+ (Burn + Bleed), Coin Power +X\n[Combat Start] Skill gains Offense Level by (Highest Reson / X)\n$ If there was an A-Reson in ths Reson chain, multiple the Offense Level gained by X\n[On Use] If unit has Thermal Blades, On Hit with certain Coins, inflict Bunr by the base amount of Bleed this Skill inflicts\n[On Use] Final Power +X for every Y The Middle - Grudge on self\n[After Attack] Consume all The Middle - Grudge on self\n[After Attack] If this Skill was activated as a Counter Skill, gain Blunt DMG Up next turn\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed Count\n<4>[On Hit] Deal (Evny Reson x X) of this Coin's final damage as bonus Slash damage\n[On Hit] Inflict Bleed",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n$ If there was an A-Reson in this Reson chain, double the Offense Level gained\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] Final Power +1 for every 5 The Middle - Grudge (Max 3)\n[After Attack] Consume all The Middle - Grudge\n[After Attack] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (Once per turn)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +2 Bleed Count\n<4>[On Hit] Deal (Evny Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Burn Potency",
 						"Spend The Middle - Grudge",
 						"Blunt DMG Up",
 						"Bleed Potency",
-						"Bleed Count"
+						"Burn Potency",
+						"Bleed Count",
+						"Burn Count"
 					]
 				},
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "I'll Get You Back for This, Man",
-					"Description": "[Combat Start]\nAt X+ sum of Envy A-Reson, use 'Violet~ Breaking Slam' as Counter\n[Combat Start] Gain X% of missing HP as Shield\n<1>[On Hit] Lower user's Stagger Threshold\n<2>[On Hit] Inflict Bleed",
+					"Description": "[Combat Start]\nAt 6+ sum of Envy A-Reson, use 'Violet~ Breaking Slam' as Counter (Activates from leftmost Skill Slot; 2 times per turn)\n[Combat Start] Gain 25% of missing HP as Shield (Once per turn)\n<1>[On Hit] Lower user's Stagger Threshold by 6\n<2>[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 5,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
@@ -32807,14 +32812,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "The Middle Never Forgets, Y'know?",
-					"Description": "Turn End: Inflict Vengeance Mark to the enemy that dealt the most Skill damage to an ally this turn\nEvery time this unit is hit by an enemy, gain The Middle - Grudge\nWhen an other The Middle-faction ally is hit by an enemy, gain The Middle - Grudge\n$ If the target that attacked this unit or an ally has Vengeance Mark, gain even more The Middle - Grudge\n\n$ Combat Start: If the Dashboard has Envy A-Reson, multiply the amount of The Middle - Grudge gained by X\nGain The Middle Styled Augmentation Tattoos every time this unit consumes X The Middle - Grudge\nCombat Start: If unit does not have Thermal Blades and at X+ Envy Reson, gain Thermal Blades next turn\nCombat Start: If unit has Thermal Blades, gain (Envy Reson / X) Thermal Blades at Turn End",
+					"Description": "Turn End: Inflict Vengeance Mark to the enemy that dealt the most Skill damage to an ally this turn\nEvery time this unit is hit by an enemy, gain 2 The Middle - Grudge\nWhen an other The Middle ally is hit by an enemy, gain 1 The Middle - Grudge (Once per turn per Identity)\n$ If the target that attacked this unit or an ally has Vengeance Mark, gain +1 The Middle - Grudge\n$ Combat Start: If the Dashboard has Envy A-Reson, double the amount of The Middle - Grudge gained\nGain 1 The Middle Styled Augmentation Tattoos every time this unit consumes 5 The Middle - Grudge (2 times per turn)\nCombat Start: If unit does not have Thermal Blades and at 3+ Envy Reson, gain 2 Thermal Blades next turn\nCombat Start: If unit has Thermal Blades, gain (Envy Reson / 3) Thermal Blades at Turn End",
 					"PassiveResources": [
 							{
-								"ResourceSin": "None",
-								"ResourceCount": -1
+								"ResourceSin": "Envy",
+								"ResourceCount": 3
 							}
 						],
-						"ResourceType": "None",
+						"ResourceType": "Owned",
 					"MiscTags": [
 						"Vengeance Mark",
 						"The Middle - Grudge",
@@ -32824,14 +32829,162 @@
 				},
 				"SupportSkill": {
 					"Name": "Hey, Are Ya Into Fixers, Too?",
-					"Description": "#1 Deployed Identity's Base Attack Skills gain Clash Power\nIf the Dashboard has Envy A-Reson, #1 Deployed Identity deals more damage with Base Skills",
+					"Description": "#1 Deployed Identity's Base Attack Skills gain Clash Power +1 (Once per turn)\nIf the Dashboard has Envy A-Reson, #1 Deployed Identity deals +10% damage with Base Skills",
 					"PassiveResources": [
+							{
+								"ResourceSin": "Envy",
+								"ResourceCount": 3
+							}
+						],
+						"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Clash Power",
+						"Ally Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Totally Badass Ass-kicking",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] Heal 5 SP\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Deal 5 bonus Blunt damage",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Heal SP",
+						"Bleed Potency",
+						"Bleed Count"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Crossing Dervish",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n[On Use] Gain +5 Aggro to this Slot next turn\n[On Use] If unit has Thermal Blades, On Hit with 1st and 2nd Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Deal 5 bonus Blunt damage",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Aggro",
+						"Bleed Potency",
+						"Burn Potency",
+						"Bleed Count",
+						"Burn Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Violet~ Breaking Slam",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] At 5+ The Middle - Grudge, Final Power +1\n[After Attack] Consume all The Middle - Grudge\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n<4>[On Hit] Deal (Evny Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend The Middle - Grudge",
+						"Blunt DMG Up",
+						"Bleed Potency",
+						"Burn Potency",
+						"Bleed Count",
+						"Burn Count"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "I'll Get You Back for This, Man",
+					"Description": "[Combat Start] Gain 25% of missing HP as Shield (Once per turn)\n<1>[On Hit] Lower user's Stagger Threshold by 6\n<2>[On Hit] Inflict 1 Bleed",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Counter",
+						"Shield",
+						"Lower Stagger Threshold",
+						"Bleed Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Thermal Weapon",
+						"Description": "This unit is consdered as an Identity that inflicts Burn and Bleed\nIf this unit has Thermal Blades, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
+						"PassiveResources": [
 							{
 								"ResourceSin": "None",
 								"ResourceCount": -1
 							}
 						],
 						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "The Middle Never Forgets, Y'know?",
+					"Description": "Turn End: Inflict Vengeance Mark to the enemy that dealt the most Skill damage to an ally this turn\nEvery time this unit is hit by an enemy, gain 2 The Middle - Grudge\nWhen an other The Middle ally is hit by an enemy, gain 1 The Middle - Grudge (Once per turn per Identity)\n$ If the target that attacked this unit or an ally has Vengeance Mark, gain +1 The Middle - Grudge\n$ Combat Start: If the Dashboard has Envy A-Reson, double the amount of The Middle - Grudge gained\nGain 1 The Middle Styled Augmentation Tattoos every time this unit consumes 5 The Middle - Grudge (2 times per turn)\nCombat Start: If unit does not have Thermal Blades and at 3+ Envy Reson, gain 2 Thermal Blades next turn\nCombat Start: If unit has Thermal Blades, gain (Envy Reson / 3) Thermal Blades at Turn End",
+					"PassiveResources": [
+							{
+								"ResourceSin": "Envy",
+								"ResourceCount": 3
+							}
+						],
+						"ResourceType": "Owned",
+					"MiscTags": [
+						"Vengeance Mark",
+						"The Middle - Grudge",
+						"The Middle Styled Augmentation Tattoos",
+						"Thermal Blades"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Hey, Are Ya Into Fixers, Too?",
+					"Description": "#1 Deployed Identity's Base Attack Skills gain Clash Power +1 (Once per turn)\nIf the Dashboard has Envy A-Reson, #1 Deployed Identity deals +10% damage with Base Skills",
+					"PassiveResources": [
+							{
+								"ResourceSin": "Envy",
+								"ResourceCount": 3
+							}
+						],
+						"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Clash Power",
 						"Ally Damage Amp"
