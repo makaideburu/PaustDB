@@ -32670,7 +32670,7 @@
 		]
 	},
 	{
-		"Id": 8000,
+		"Id": 8309,
 		"Sinner": "Ishmael",
 		"Identity": "The House of Spiders: The Middle Apprentice",
 		"World": "???",
@@ -32681,10 +32681,11 @@
 			"The Middle"
 		],
 		"Speed": "4~7",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 92,
+		"GrowthHP": 3.05,
 		"StaggerThresholds": [
-			0
+			50,
+			30
 		],
 		"Rarity": 3,
 		"DamageResist": {
