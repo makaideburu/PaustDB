@@ -2317,5 +2317,35 @@
 			"heal sp",
 			"burn potency"
 		]
+	},
+	{
+		"entry": "moonlit azure blade",
+		"aliases":[
+			"shield"
+		]
+	},
+	{
+		"entry": "dazzle",
+		"aliases":[
+			"damage taken amp",
+			"change panic type",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "lamp",
+		"aliases":[
+			"self bind",
+			"aggro",
+			"dazzle"
+		]
+	},
+	{
+		"entry": "ally guardians of the forest",
+		"aliases":[
+			"ally heal sp",
+			"ally offense level up",
+			"ally sp damage"
+		]
 	}
 ]

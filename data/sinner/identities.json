@@ -11643,6 +11643,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"MiscTags": [
+							"Attack Weight Increase",
 							"Spend Love/Hate Count",
 							"Love/Hate Count",
 							"Self SP Damage",
@@ -32674,7 +32675,7 @@
 		"Sinner": "Ishmael",
 		"Identity": "The House of Spiders: The Middle Apprentice",
 		"World": "???",
-		"Season": 8,
+		"Season": 7,
 		"Traits": [
 			"The Fingers",
 			"The House of Spiders",
@@ -39984,7 +39985,6 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
-							"Attack Weight Increase",
 							"Heal SP",
 							"Self SP Damage",
 							"Burn Potency",
@@ -40149,7 +40149,6 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
-							"Attack Weight Increase",
 							"Heal SP",
 							"Self SP Damage",
 							"Burn Potency",
@@ -41530,6 +41529,202 @@
 					"MiscTags": [
 						"Burn Potency",
 						"Rupture Potency"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 11000,
+		"Sinner": "Sinclair",
+		"Identity": "The House of Spiders: The Pinky Apprentice",
+		"World": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Chainstrike [-]",
+					"Description": "[On Use] Gain Poise Count\n[On Use] Coin Power +X for every Y Poise on self\n<1>[On Use] Gain Poise\n<2>[On Hit] Gain Poise\n[On Hit] Inflict Bleed Count\n[On Hit] Gain Haste next turn\n[On Crit - Heads Hit] Gain Haste next turn",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Bleed Count",
+						"Haste"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Nameless Slash [-]",
+					"Description": "[Unfocused Volley]\n[On Use] Base Power +X for every Y Poise on self\n<1>[On Hit] Gain Poise\n[On Hit] Gain Poise Count\n<2>Deal more damage on Critical Hit\n[On Hit] Gain Poise Count\n[On Hit] Inflict Bleed\n[On Crit - Heads Hit] Reuse this Coin\n[Reuse - Heads Hit] At X+ Moonlit Azure Blade, Reuse this Coin",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Bleed Potency"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Fallstar Slayer [落星一殺]",
+					"Description": "Deal more damage based on excess Atk Weight beyond the number of actual targets\n[On Use] At X Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins\n[On Use] Coin Power +X for every Y Poise on self\n[On Use] Base Power +X for every Y Moonlit Azure Blade on self\n[On Use] Gain Poise\n[Before Attack] Atk Weight +X for every Y Moonlit Azure Blade on self\n[After Attack] Consume Moonlit Azure Blade based on Atk Weight gained due to this Skill's effect\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bleed\n[On Crit - Heads Hit] Deal (X% of this Coin's final damage) Slash damage",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Attack Weight Increase",
+						"Spend Moonlit Azure Blade",
+						"Bleed Potency"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Defend [守]",
+					"Description": "[Clashable Guard]\nTurn Start: At X+ Poise, change this Skill to 'Swerve [回]'\n[Combat Start] Gain Poise\n[Combat Start] Gain Poise Count\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Skill Change",
+						"Poise Potency",
+						"Poise Count",
+						"Unbreakable Coin"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Swerve [回]",
+						"Description": "[Combat Start] Gain Shield equal to Moonlit Azure Blade Stack on self\n[Combat Start] Gain Poise Count\n[On Evade] Gain Crit DMG Up next turn",
+						"DamageType": "Evade",
+						"SinType": "Pride",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Shield",
+							"Poise Count",
+							"Crit DMG Up"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Singular Focus of the Mind",
+						"Description": "Turn End: Any excess Poise Potency gained past X will be convert to Moonlit Azure Blade up to a maximum of Y\nCombat Start: If this unit did not equip Attack Skills this turn, heal SP and gain Slash Power Up next turn",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Spend Poise Potency",
+							"Moonlit Azure Blade",
+							"Slash Power Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "The Orthodox Blade [整劍]",
+					"Description": "Combat Start: Gain Poise based on Pride Reson\nCombat End: At X+ Poise, gain Poise Count",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Poise Potency",
+						"Poise Count"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Tranquility [靜念]",
+					"Description": "The ally with the fastest Speed heals SP and gains Shield when starting combat with a Defense Skill equipped",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Heal SP",
+						"Ally Shield"
 					]
 				}
 			}
@@ -49166,6 +49361,196 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Defense Power Down"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 13000,
+		"Sinner": "Gregor",
+		"Identity": "Lobotomy E.G.O::Lamp",
+		"World": "???",
+		"Season": 7,
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Intense Stare: Zero-Range",
+					"Description": "Coin Power +X if any conditions are met:\n$ Target's Speed is faster than this unit's by X+\n$ Unit's speed is X-\n$ Target has Dazzle\n[On Use] If target has X+ (Sinking + Burn), Coin Power +Y\n[On Use] Gain Bind next turn\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Sinking",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Bind",
+						"Burn Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Destroy the Visible with the Invisible",
+					"Description": "Clash Power +X if any conditions are met:\n$ Target's Speed is faster than this unit's by X+\n$ Unit's speed is X-\n$ Target has Dazzle\n[On Use] If target has X+ (Sinking + Burn), Coin Power +Y\n<1>[On hit] Inflict Sinking Count\nDeal (X% of this Coin's final damage) Blunt damage\n<2>[On Hit] Inflict Sinking\n[On Hit] Deal (X% of this Coin's final damage) Blunt damage\n<3>[On Hit] Inflict Burn\n<4>[On Hit] Inflict Burn Count",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Sinking Count",
+						"Sinking Potency",
+						"Burn Potency",
+						"Burn Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Salvation for those Enchanted by the Lamp",
+					"Description": "Coin Power +X and deal more damage if any conditions are met:\n$ Target's Speed is faster than this unit's by X+\n$ Unit's speed is X-\n$ Target has Dazzle\n[On Use] If target has X+ (Sinking + Burn), Coin Power +Y\n[On Use] If target has Dazzle, convert all Coins on this Skill to Unbreakable Coins and Clash Power +X\n[After Attack] If target is defeated or has X Dazzle, gain Plus Coin Boost next turn\n<1>[On Hit] Inflict Burn Count\n[On Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Burn\n[On Hit] Inflict Sinking\n<3>If target('s Core) has X%- HP or has Dazzle, deal more damage\n[On Hit] If target has Dazzle, deal Gloom damage equal to X% of this Coin's final damage",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Plus Coin Boost",
+						"Burn Count",
+						"Sinking Count",
+						"Burn Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "The Wick of Burned Feathers",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain Lamp up to X Stack; for every Z Stack gained, take HP damage equal to Y% of max HP (Does not reduce this unit's HP below 1)\n[Turn End] Apply Haste next turn to (Bind on self / X) other allies with the slowest Speed (Rounded down)\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Lamp",
+						"Self HP Damage",
+						"Ally Haste",
+						"Unbreakable Coin"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Dazzling Lamp",
+						"Description": "Turn Start: Gain Lamp\nExternal effects canont change this unit's Min and Max Speeds\nWhen chaining Skills, this unit can redirect the Attack Skill's targeting to itself regardless of Speed (Focused Encounters only)\nWhen gaining Haste, gain 1 Clash Power Up instead\n$ Once the above effect activates, cannot gain Haste for the rest of the turn",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Lamp",
+							"Force Redirect",
+							"Clash Power Up"
+						]
+					},
+					{
+						"Name": "E.G.O Gear Proficiency Manual",
+						"Description": "Turn Start: Gain X Defense Level Up for every Y ally wearing E.G.O Gear\nWhen an ally dies, gain Pierce DMG Up next turn",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Defense Level Up",
+							"Pierce DMG Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Eyes Bright Like Lamps",
+					"Description": "Combat Start: Gain X Lamp for every Y Gloom Reson\nCombat Start: If an enemy has Dazzle, heal SP\nTurn End: Apply Guardians of the Forest next turn to the ally with the earliest Deployment order among those who do NOT fill any conditions:\n$ Is this unit\n$ Is an ally with Guardians of the Forest\n$ Is an ally that cannot heal SP due to conditions such as Panic or Corrosion",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Lamp",
+						"Heal SP",
+						"Ally Guardians of the Forest"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Were There More Lives to be Saved?",
+					"Description": "Turn End: Apply the following to the ally with the earliest Deployment order among those with negative effects:\n$ Gain Aggro to the leftmost Slot next turn\n$ Gain Blunt DMG Up next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Aggro",
+						"Ally Blunt DMG Up"
 					]
 				}
 			}
