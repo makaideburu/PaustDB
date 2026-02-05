@@ -41535,7 +41535,7 @@
 		]
 	},
 	{
-		"Id": 11000,
+		"Id": 11309,
 		"Sinner": "Sinclair",
 		"Identity": "The House of Spiders: The Pinky Apprentice",
 		"World": "???",
@@ -41543,11 +41543,12 @@
 		"Traits": [
 			"The House of Spiders"
 		],
-		"Speed": "???",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"Speed": "4~6",
+		"BaseHP": 66,
+		"GrowthHP": 2.28,
 		"StaggerThresholds": [
-			0
+			65,
+			35
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -49543,7 +49544,7 @@
 		]
 	},
 	{
-		"Id": 13000,
+		"Id": 13309,
 		"Sinner": "Gregor",
 		"Identity": "Lobotomy E.G.O::Lamp",
 		"World": "???",
@@ -49554,10 +49555,10 @@
 			"Limbus Company"
 		],
 		"Speed": "1~4",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 86,
+		"GrowthHP": 3.14,
 		"StaggerThresholds": [
-			0
+			40
 		],
 		"Rarity": 3,
 		"DamageResist": {
