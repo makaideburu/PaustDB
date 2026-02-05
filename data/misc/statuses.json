@@ -3613,14 +3613,14 @@
 	},
 	{
 		"Name": "Moonlit Azure Blade",
-		"Description": "Turn Start: Gain Shield based on Stack\nDeal more damage on Critical Hit based on Stack",
+		"Description": "Max Stack: 40\nTurn Start: Gain 2 Shield for every Stack\nDeal +1% damage on Critical Hit based on Stack",
 		"Tags": [
 			"Shield"
 		]
 	},
 	{
 		"Name": "Dazzle",
-		"Description": "For every X (Sinking + Burn), take more damage from Base Attack Skills\nUnits with SP: Change their Panic Type to 'Dazzle'\nUnits without SP: Lose Defense Level\nTurn End: Lose X Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Description": "For every (Sinking + Burn), take +0.5% damage from Base Attack Skills (Max 10%)\nUnits with SP: Change their Panic Type to 'Dazzle'\nUnits without SP: Defense Level -2\nTurn End: Lose 1 Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
 		"Tags": [
 			"Damage Taken Amp",
 			"Change Panic Type",
@@ -3629,7 +3629,7 @@
 	},
 	{
 		"Name": "Dazzle (Low Morale)",
-		"Description": "Turn End: Gain Bind and Offense Level Down next turn",
+		"Description": "Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -3637,7 +3637,7 @@
 	},
 	{
 		"Name": "Dazzle (Panic)",
-		"Description": "Turn End: Gain Bind and Offense Level Down next turn",
+		"Description": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -3645,7 +3645,7 @@
 	},
 	{
 		"Name": "Lamp",
-		"Description": "Turn End: Gain X Bind next turn for every Y Stack\nTurn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n$ Gain Aggro to the leftmost Slot\n$ Inflict Dazzle to the enemy (Core) with the most current HP",
+		"Description": "Max Stack: 8\nTurn End: Gain 1 Bind next turn for every 2 Stack\nTurn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n$ Gain +10 Aggro to the leftmost Slot\n$ Inflict 3 Dazzle to the enemy (Core) with the most current HP",
 		"Tags": [
 			"Self Bind",
 			"Aggro",
@@ -3654,7 +3654,7 @@
 	},
 	{
 		"Name": "Guardians of the Forest",
-		"Description": "Before Attack, activate the following effects:\n$ Plus Coin Skills heal SP (If already at max SP, gain Offense Level Up next turn)\n$ Minus Coin Skills lose SP (This effect cannot reduce the unit's SP below X)\n$ Lose this effect",
+		"Description": "Before Attack, activate the following effects:\n$ Plus Coin Skills heal 4 SP (If already at max SP, gain 2 Offense Level Up next turn)\n$ Minus Coin Skills lose 8 SP (This effect cannot reduce the unit's SP below -40)\n$ Lose this effect",
 		"Tags": [
 			"Heal SP",
 			"Offense Level Up",
