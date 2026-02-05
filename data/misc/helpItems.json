@@ -176,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.7.2 (2026-02-04)",
+        "```calc bug with coins being unbreakable```"
+      ],
+      [
         "3.2.7.1 (2026-01-16)",
         "```coins are unbreakable```"
       ],
@@ -194,10 +198,6 @@
       [
         "3.2.4 (2025-12-29)",
         "```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
-      ],
-      [
-        "3.2.3 (2025-12-25)",
-        "```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
       ]
     ],
     "OldItems": [
@@ -404,6 +404,10 @@
       [
         "3.2.2 (2025-12-06)",
         "```backend stuff```"
+      ],
+      [
+        "3.2.3 (2025-12-25)",
+        "```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
       ]
     ],
     "HelpFooter": ""
