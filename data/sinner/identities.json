@@ -329,7 +329,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Moulinet",
-					"Description": "<1>[On Hit] +1 to Count of effect applied by the last coin\n<2>[On Hit] +1 to Count of effect applied by the last coin\n<3>[On Hit] Inflict 1 Pierce Fragility next turn\n[On Hit] Inflict 1 Rupture",
+					"Description": "<1>[On Hit] +1 to Stack of effect applied by the last coin\n<2>[On Hit] +1 to Count of effect applied by the last coin\n<3>[On Hit] Inflict 1 Pierce Fragility next turn\n[On Hit] Inflict 1 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 5,
@@ -345,7 +345,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Rupture Potency",
-						"Rupture Count",
 						"Pierce Fragility"
 					]
 				},
@@ -556,7 +555,6 @@
 					"MiscTags": [
 						"On Discard",
 						"Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count"
 					]
 				},
@@ -582,7 +580,6 @@
 						"Self Tremor Count",
 						"Discard",
 						"Tremor Count",
-						"Tremor Potency",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count"
 					]
@@ -684,7 +681,6 @@
 					"MiscTags": [
 						"On Discard",
 						"Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count"
 					]
 				},
@@ -710,7 +706,6 @@
 						"Self Tremor Count",
 						"Discard",
 						"Tremor Count",
-						"Tremor Potency",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count"
 					]
@@ -5959,8 +5954,7 @@
 					"MiscTags": [
 						"Rupture Potency",
 						"Rupture Count",
-						"Weakness Analyzed",
-						"Enemy Resists Down"
+						"Weakness Analyzed"
 					]
 				},
 				"SkillThree": {
@@ -6080,8 +6074,7 @@
 					"MiscTags": [
 						"Rupture Potency",
 						"Rupture Count",
-						"Weakness Analyzed",
-						"Enemy Resists Down"
+						"Weakness Analyzed"
 					]
 				},
 				"SkillThree": {
@@ -6228,7 +6221,6 @@
 						"Self Tremor Count",
 						"Offense Level Down",
 						"Tremor Potency",
-						"Tremor Count",
 						"Plus Coin Drop"
 					]
 				},
@@ -6357,7 +6349,6 @@
 						"Self Tremor Count",
 						"Offense Level Down",
 						"Tremor Potency",
-						"Tremor Count",
 						"Plus Coin Drop"
 					]
 				},
@@ -9137,7 +9128,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Nails",
-						"Tremor Potency",
 						"Tremor Count",
 						"Attack Power Down",
 						"Paralyze"
@@ -9172,7 +9162,10 @@
 						}
 					],
 					"ResourceType": "Owned",
-					"MiscTags": []
+					"MiscTags": [
+						"Tremor Count",
+						"Nails"
+					]
 				},
 				"SupportSkill": {
 					"Name": "Hammer of Zealotry",
@@ -9253,7 +9246,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Nails",
-						"Tremor Potency",
 						"Tremor Count",
 						"Attack Power Down",
 						"Paralyze"
@@ -9288,7 +9280,10 @@
 						}
 					],
 					"ResourceType": "Owned",
-					"MiscTags": []
+					"MiscTags": [
+						"Tremor Count",
+						"Nails"
+					]
 				},
 				"SupportSkill": {
 					"Name": "Hammer of Zealotry",
@@ -13343,7 +13338,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Indiscriminate Art",
-					"Description": "Deal and Take +25% damage.",
+					"Description": "Deal and take +25% damage.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -13453,7 +13448,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Indiscriminate Art",
-					"Description": "Deal and Take +25% damage.",
+					"Description": "Deal and take +25% damage.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -14836,7 +14831,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Appetite"
 					]
@@ -14956,7 +14950,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Appetite"
 					]
@@ -17225,7 +17218,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Protection",
-						"Tremor Potency",
 						"Tremor Count"
 					]
 				},
@@ -18926,7 +18918,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Charge Count"
 					]
@@ -18949,7 +18940,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Spend Charge Count"
 					]
@@ -19046,7 +19036,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Charge Count"
 					]
@@ -19069,7 +19058,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Spend Charge Count"
 					]
@@ -22593,7 +22581,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Reuse"
+						"Skill Reuse"
 					]
 				},
 				"SkillDefense": {
@@ -22868,7 +22856,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Heal HP",
 						"K Corp. Ampule",
 						"Aggro"
 					]
@@ -22900,7 +22887,6 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Heal HP",
 						"Ally K Corp. Ampule"
 					]
 				}
@@ -22987,7 +22973,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Heal HP",
 						"K Corp. Ampule"
 					]
 				},
@@ -23018,7 +23003,6 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Heal HP",
 						"Ally K Corp. Ampule"
 					]
 				}
@@ -23092,7 +23076,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Discard",
-						"On Discard",
 						"Sinking Potency"
 					]
 				},
@@ -23211,7 +23194,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Discard",
-						"On Discard",
 						"Sinking Potency"
 					]
 				},
@@ -25147,7 +25129,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -25264,8 +25245,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
-						"Poise Count"
 					]
 				},
 				"SkillTwo": {
@@ -25286,7 +25265,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency"
 					]
 				},
 				"SkillThree": {
@@ -25481,9 +25459,8 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Self HP Damage",
-						"Blunt Power Up",
-						"Coin Power"
+						"Self SP Damage",
+						"Blunt Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -25683,7 +25660,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count",
 						"Defense Level Down"
 					]
@@ -25799,7 +25775,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count",
 						"Defense Level Down"
 					]
@@ -29182,7 +29157,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Slide",
-					"Description": "[Clash Win] Inflict 3 Defense Level Down\n<1>[On Hit] Inflict 3 Tremor",
+					"Description": "[Clash Win] Inflict 3 Defense Power Down\n<1>[On Hit] Inflict 3 Tremor",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 6,
@@ -29297,7 +29272,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Slide",
-					"Description": "[Clash Win] Inflict 3 Defense Level Down",
+					"Description": "[Clash Win] Inflict 3 Defense Power Down",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 5,
@@ -29495,7 +29470,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Counter",
-						"Poise Potency"
+						"Poise Count"
 					]
 				},
 				"PassiveSkill": {
@@ -29611,8 +29586,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Counter",
-						"Poise Potency"
+						"Counter"
 					]
 				},
 				"PassiveSkill": {
@@ -33589,7 +33563,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Suppress",
-					"Description": "If target took no damage from attacks this turn, Coin Power +3\n<1>[Heads Hit] Inflict 4 Defense Power Down\n[On Hit] Inflict 4 Defense Level Down \n<2>[Heads Hit] Inflict 3 Paralyze",
+					"Description": "If target took no damage from attacks this turn, Coin Power +3\n<1>[Heads Hit] Inflict 4 Defense Power Down\n[On Hit] Inflict 4 Defense Level Down\n<2>[Heads Hit] Inflict 3 Paralyze",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 7,
@@ -34084,7 +34058,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Aggro",
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -34107,7 +34080,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Aggro",
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -34202,7 +34174,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -34224,7 +34195,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -34687,7 +34657,6 @@
 					"MiscTags": [
 						"Counter",
 						"Protection",
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -34932,7 +34901,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Tremor Potency",
 						"Tremor Count",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count"
@@ -35058,7 +35026,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Tremor Potency",
 						"Tremor Count",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count"
@@ -35214,7 +35181,6 @@
 						"On Discard",
 						"Discard",
 						"Aggro",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -35342,7 +35308,6 @@
 						"On Discard",
 						"Discard",
 						"Aggro",
-						"Sinking Potency",
 						"Sinking Count"
 					]
 				},
@@ -37979,7 +37944,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -38486,7 +38450,6 @@
 					"MiscTags": [
 						"Spend Self Talisman",
 						"Enemy Talisman",
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},
@@ -38605,7 +38568,6 @@
 					"MiscTags": [
 						"Spend Self Talisman",
 						"Enemy Talisman",
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},
@@ -38724,7 +38686,6 @@
 					"MiscTags": [
 						"Spend Self Talisman",
 						"Enemy Talisman",
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},
@@ -38826,7 +38787,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count"
 					]
 				},
@@ -38871,7 +38831,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Spend Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count",
 						"Self Tremor Potency",
 						"Self Tremor Burst"
@@ -38949,7 +38908,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count"
 					]
 				},
@@ -38994,7 +38952,6 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Spend Self Tremor Count",
-						"Tremor Potency",
 						"Tremor Count",
 						"Self Tremor Potency",
 						"Self Tremor Burst"
@@ -39386,7 +39343,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -39506,7 +39462,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count"
 					]
 				},
@@ -42256,7 +42211,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},
@@ -42366,8 +42320,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
-						"Rupture Count"
 					]
 				},
 				"SkillDefense": {
@@ -42745,7 +42697,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count",
 						"Slash DMG Up"
 					]
@@ -42858,7 +42809,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Poise Potency",
 						"Poise Count",
 						"Slash DMG Up"
 					]
@@ -43555,7 +43505,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count",
 						"Defense Level Down"
 					]
@@ -43579,8 +43528,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Defense Level Down",
-						"Weakness Analyzed",
-						"Enemy Resists Down"
+						"Weakness Analyzed"
 					]
 				},
 				"SkillDefense": {
@@ -43674,7 +43622,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count",
 						"Defense Level Down"
 					]
@@ -43698,8 +43645,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Defense Level Down",
-						"Weakness Analyzed",
-						"Enemy Resists Down"
+						"Weakness Analyzed"
 					]
 				},
 				"SkillDefense": {
@@ -46258,7 +46204,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Rupture Potency",
 						"Rupture Count",
 						"Pierce Fragility"
 					]
@@ -46656,7 +46601,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Bind"
 					]
@@ -46774,7 +46718,6 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
-						"Bleed Potency",
 						"Bleed Count",
 						"Bind"
 					]
@@ -46920,9 +46863,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Tremor Potency",
 						"Tremor Count",
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},
@@ -47042,9 +46983,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Charge Count",
-						"Tremor Potency",
 						"Tremor Count",
-						"Rupture Potency",
 						"Rupture Count"
 					]
 				},

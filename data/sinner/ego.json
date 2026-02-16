@@ -2637,7 +2637,6 @@
           "AttackWeight": 3,
           "AttackWeightMod": 3,
           "MiscTags": [
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2662,7 +2661,6 @@
             "Special Targeting",
             "Target Highest HP",
             "Spend Additional Resources",
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2694,7 +2692,6 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -2719,7 +2716,6 @@
             "Special Targeting",
             "Target Highest HP",
             "Spend Additional Resources",
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -9059,8 +9055,7 @@
             "Special Targeting",
             "Target Rearmost",
             "Bind",
-            "Tremor Potency",
-            "Tremor Burst"
+            "Tremor Potency"
           ]
         },
         "Passive": {
@@ -12101,7 +12096,6 @@
             "Special Targeting",
             "Target Lowest HP",
             "Spend Additional Resources",
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -12163,7 +12157,6 @@
             "Special Targeting",
             "Target Lowest HP",
             "Spend Additional Resources",
-            "Burn Potency",
             "Burn Count"
           ]
         },
@@ -12408,7 +12401,6 @@
             "Attack Weight Increase",
             "Special Targeting",
             "Target Highest HP",
-            "Rupture Potency",
             "Rupture Count",
             "Defense Level Down",
             "Heal HP"
@@ -12468,7 +12460,6 @@
             "Attack Weight Increase",
             "Special Targeting",
             "Target Highest HP",
-            "Rupture Potency",
             "Rupture Count",
             "Defense Level Down",
             "Heal HP"
@@ -13259,7 +13250,6 @@
           "AttackWeight": 2,
           "AttackWeightMod": 2,
           "MiscTags": [
-            "Poise Potency",
             "Poise Count",
             "Sinking Potency",
             "Bind",
@@ -13287,7 +13277,6 @@
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP",
-            "Poise Potency",
             "Poise Count",
             "Sinking Potency",
             "Bind",
@@ -13326,7 +13315,6 @@
           "AttackWeight": 1,
           "AttackWeightMod": 1,
           "MiscTags": [
-            "Poise Potency",
             "Poise Count",
             "Sinking Potency",
             "Bind",
@@ -13354,7 +13342,6 @@
           "MiscTags": [
             "Special Targeting",
             "Target Lowest HP",
-            "Poise Potency",
             "Poise Count",
             "Sinking Potency",
             "Bind",
