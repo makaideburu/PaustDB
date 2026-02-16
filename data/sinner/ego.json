@@ -15422,7 +15422,7 @@
           "Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
           "MiscTags": [
             "Man in Scabbard",
-            "Nullify Stagger"
+            "Stagger Recovery"
           ]
         }
       },
@@ -15525,7 +15525,7 @@
           "Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
           "MiscTags": [
             "Man in Scabbard",
-            "Nullify Stagger"
+            "Stagger Recovery"
           ]
         }
       }

@@ -2230,7 +2230,7 @@
 		"Description": "When this unit takes damage that brings their HP down to 0: This unit's HP does not drop below 1; recover from Stagger due to damage\nIf this above effect activated, dies at Turn End\nExpires on death, Retreat, or Turn End",
 		"Tags": [
 			"Unrelenting",
-			"Nullify Stagger"
+			"Stagger Recovery"
 		]
 	},
 	{
@@ -2256,7 +2256,7 @@
 		"Description": "Turn End: Recover from Stagger and Retreat from the Encounter (unless it is a forced Stagger; does not count as death)\nIn Chain Battles, give this unit's Slots to a Substituted unit and moved to the rearmost place in Backup unit's Deployment order (escape from Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they were retreated in)\nWhen returning to battle, return with the same amount of HP and SP as this unit had when it retreated, and eliminate all effects on self, save for a select few\nIf this unit had less than 0 SP on Retreat, reset SP to 0 instead",
 		"Tags": [
 			"Retreat",
-			"Nullify Stagger"
+			"Stagger Recovery"
 		]
 	},
 	{
@@ -3246,35 +3246,39 @@
 		]
 	},
 	{
-		"Name": "Prescript: [Device] I",
+		"Name": "Prescript: [Device] I (Don Quixote)",
 		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: Gain this effect when this unit has no Unlock\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 3",
 		"Tags": [
 			"Prescript",
-			"Prescript: [Device]"
+			"Prescript: [Device]",
+			"Prescript: [Device] (Don Quixote)"
 		]
 	},
 	{
-		"Name": "Prescript: [Device] II",
+		"Name": "Prescript: [Device] II (Don Quixote)",
 		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - I\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 6",
 		"Tags": [
 			"Prescript",
-			"Prescript: [Device]"
+			"Prescript: [Device]",
+			"Prescript: [Device] (Don Quixote)"
 		]
 	},
 	{
-		"Name": "Prescript: [Device] III",
+		"Name": "Prescript: [Device] III (Don Quixote)",
 		"Description": "_Hit a target with a Skill marked with an E.G.O Awakening Skill, or, in Effloresced E.G.O::Procuration state, 'Skill 3' marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
 		"Tags": [
 			"Prescript",
-			"Prescript: [Device]"
+			"Prescript: [Device]",
+			"Prescript: [Device] (Don Quixote)"
 		]
 	},
 	{
-		"Name": "Prescript: [Device] IV",
+		"Name": "Prescript: [Device] IV (Don Quixote)",
 		"Description": "_Eliminate all enemies before the next Prescript arrives._\n$ Turn Start: Gain this effect when this unit has Unlock - III",
 		"Tags": [
 			"Prescript",
-			"Prescript: [Device]"
+			"Prescript: [Device]",
+			"Prescript: [Device] (Don Quixote)"
 		]
 	},
 	{
@@ -3659,6 +3663,168 @@
 			"Heal SP",
 			"Offense Level Up",
 			"Self SP Damage"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] I (Yi Sang)",
+		"Description": "_Use a Skill marked with Mark of the Prescript or hit a target with a marked Skill._\n$ Turn Start: Gain this effect when this unit has no Unlock\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 3",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]",
+			"Prescript: [Device] (Yi Sang)"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] II (Yi Sang)",
+		"Description": "_Hit a target with a Skill marked with Mark of the Prescript._\n$ Turn Start: Gain this effect when this unit has Unlock - I\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 6",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]",
+			"Prescript: [Device] (Yi Sang)"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] III (Yi Sang)",
+		"Description": "_Gain Procuration [Hermes]. Repeat this Prescript until Procuration [Hermes] reaches X Stack_\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]",
+			"Prescript: [Device] (Yi Sang)"
+		]
+	},
+	{
+		"Name": "Prescript: [Device] IV (Yi Sang)",
+		"Description": "_Eliminate all enemies before the next Prescript arrives._\n$ Turn Start: Gain this effect when this unit has Unlock - III",
+		"Tags": [
+			"Prescript",
+			"Prescript: [Device]",
+			"Prescript: [Device] (Yi Sang)"
+		]
+	},
+	{
+		"Name": "Procuration [Hermes]",
+		"Description": "Turn Start: At X Stack, a powerful Skill becomes available\nCan be gained up to (Unlock stage + X) Stack per turn\n$ At below Unlock stage X, this effect's maximum Stack is limited to Y",
+		"Tags": []
+	},
+	{
+		"Name": "Shin (心) - Fate",
+		"Description": "Min & Max Speed +X\nGain more Poise and Poise Count from Base Skills\nIf this unit's SP is higher than the target's, deal more damage for every X SP difference (Units without SP are considered to be at 0 SP)",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Poise Potency",
+			"Poise Count"
+		]
+	},
+	{
+		"Name": "Wound-casing Mask",
+		"Description": "Offense Level +X, Defense Level -Y\nTake less damage from Unopposed Attacks",
+		"Tags": [
+			"Offense Level Up",
+			"Self Defense Level Down"
+		]
+	},
+	{
+		"Name": "Sizzling Wound",
+		"Description": "Offense Level +X, Defense Level -Y\nTake less damage from Unopposed Attacks\nTurn Start: Gain Burn and Bleed\nDeal more damage with Base Attack Skill's Unbreakable Coins",
+		"Tags": [
+			"Offense Level Up",
+			"Self Defense Level Down",
+			"Self Burn Potency",
+			"Self Bleed Potency"
+		]
+	},
+	{
+		"Name": "Indulgence in Prescripts",
+		"Description": "Min & Max Speed +X\nApply the following effects to 'Furioso-Replica':\n$ On Hit, inflict more Sinking Potency and gain more Poise Potency\n$ On Hit, inflict Sinking Count\n$ Deal more damage\nExpires at Turn End",
+		"Tags": [
+			"Min Speed",
+			"Max Speed"
+		]
+	},
+	{
+		"Name": "Desire for Acknowledgement Sated",
+		"Description": "Deal more damage with Skills marked with Mark of the Prescript\nDeal more damage against The Prescript's Target",
+		"Tags": []
+	},
+	{
+		"Name": "When hacking through the ribs with a hatchet...",
+		"Description": "This Coin deals Blunt damage\nOn Hit without Cracking, gain Poise",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Blunt)",
+			"Poise Potency"
+		]
+	},
+	{
+		"Name": "When penetrating the lungs with a stiletto...",
+		"Description": "This Coin deals Pierce damage\nOn Hit without Cracking, inflict Sinking",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Pierce)",
+			"Sinking Potency"
+		]
+	},
+	{
+		"Name": "When cleaving through the shoulder and the skull with a bastard sword...",
+		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, gain Offense Level Up next turn",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Slash)",
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "When punching 10 or more holes in the torso with a rapier...",
+		"Description": "This Coin deals Pierce damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Defense Level Down next turn",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Pierce)",
+			"Defense Level Down"
+		]
+	},
+	{
+		"Name": "When caving in the back of the skull with a hammer...",
+		"Description": "This Coin deals Blunt damage\nThis Coin deals more damage\nOn Hit without Cracking, raise target's Stagger Threshold by X",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Blunt)",
+			"Raise Stagger Threshold"
+		]
+	},
+	{
+		"Name": "When rending the body with a great sword...",
+		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Slash Fragility next turn",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Slash)",
+			"Slash Fragility"
+		]
+	},
+	{
+		"Name": "When boring a 20-inch hole with a lance...",
+		"Description": "This Coin deals Pierce damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Pierce Fragility next turn",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Pierce)",
+			"Pierce Fragility"
+		]
+	},
+	{
+		"Name": "When ripping the flesh to ten thousand strips with a whip...",
+		"Description": "This Coin deals Blunt damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Blunt Fragility next turn",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Blunt)",
+			"Blunt Fragility"
+		]
+	},
+	{
+		"Name": "When lacerating through space itself with a scythe, like a certain someone...",
+		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, it hits a guaranteed Crit",
+		"Tags": [
+			"Caduceus Weapon",
+			"Caduceus Weapon (Slash)"
 		]
 	}
 ]

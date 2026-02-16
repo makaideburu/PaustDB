@@ -1622,7 +1622,7 @@
 		"entry": "denial [不許]",
 		"aliases": [
 			"unrelenting",
-			"nullify stagger"
+			"stagger recovery"
 		]
 	},
 	{
@@ -2346,6 +2346,51 @@
 			"ally heal sp",
 			"ally offense level up",
 			"ally sp damage"
+		]
+	},
+	{
+		"entry": "shin (心) - fate",
+		"aliases":[
+			"min speed",
+			"max speed",
+			"poise potency",
+			"poise count"
+		]
+	},
+	{
+		"entry": "wound-casing mask",
+		"aliases":[
+			"offense level up",
+			"self defense level down"
+		]
+	},
+	{
+		"entry": "sizzling wound",
+		"aliases":[
+			"offense level up",
+			"self defense level down",
+			"self burn potency",
+			"self bleed potency"
+		]
+	},
+	{
+		"entry": "indulgence in prescripts",
+		"aliases":[
+			"min speed",
+			"max speed"
+		]
+	},
+	{
+		"entry": "caduceus weapon",
+		"aliases":[
+			"poise potency",
+			"sinking potency",
+			"offense level up",
+			"defense level down",
+			"raise stagger threshold",
+			"slash fragility",
+			"pierce fragility",
+			"blunt fragility"
 		]
 	}
 ]

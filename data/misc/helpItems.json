@@ -129,7 +129,7 @@
     "HelpItems": [
       [
         "\u200B",
-        "Faust has manually tagged every Identity, Skill, and E.G.O with the effects that they have, and it would likely be best to simply show you some examples.\nFor most positive effects, you may search for things such as `haste`, `ally heal sp`, and `party heal hp`\nIn this case, `ally` will be tagged with effects that target one or more allies, while `party` targets all the sinners on the field.\nFor most negative effects, you may search for things such as `attack power down` or `self tremor`\n`charge` also comes with `charge support` for things such as AEDD Gregor's Spark Discharge, and effects such as `gaze` will be tagged with `pierce damage amp`\nFor consistency, please keep any effect queries to the actual effect's name, Faust will only deviate so far from glossary definitions.\nFor your benefit and curiosity, please see\n```/limbus help tags```\nto see more specifics."
+        "Faust has manually tagged every Identity, Skill, and E.G.O with the effects that they have, and it would likely be best to simply show you some examples.\nFor most positive effects, you may search for things such as `haste`, `ally heal sp`, and `party heal hp`\nIn this case, `ally` will be tagged with effects that target one or more allies, while `party` targets all the sinners on the field.\nFor most negative effects, you may search for things such as `attack power down` or `self tremor`\n`charge` also comes with `charge support` for things such as AEDD Gregor's Spark Discharge, and effects such as `gaze` will be tagged with `pierce damage amp`\nWhen searching tags, use -se instead of -e to avoid the above. As an example, ``-e rupture count`` causes AEDD Gregor to show up, as it's chained through Spark Discharge. ``-se rupture count`` prevents this, as the E.G.O does not directly inflict Rupture Count.\nFor consistency, please keep any effect queries to the actual effect's name, Faust will only deviate so far from glossary definitions.\nFor your benefit and curiosity, please see\n```/limbus help tags```\nto see more specifics."
       ]
     ],
     "HelpFooter": "To hopefully add some ease of use, ID and E.G.O pages have their effect tags listed in the footer."
@@ -176,6 +176,10 @@
     "HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
     "HelpItems": [
       [
+        "3.2.8 (2026-02-16)",
+        "```i'm not even going to see what happens if faust tries to print the 9 coin furioso-replica\nuse -se instead of -e to strict lookup effects (ryoshu contempt awe gives protection via contempt via gaze, but not directly)```"
+      ],
+      [
         "3.2.7.2 (2026-02-04)",
         "```calc bug with coins being unbreakable```"
       ],
@@ -194,10 +198,6 @@
       [
         "3.2.5 (2026-01-08)",
         "```small fix for how hp sort is formatted```"
-      ],
-      [
-        "3.2.4 (2025-12-29)",
-        "```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
       ]
     ],
     "OldItems": [
@@ -408,6 +408,10 @@
       [
         "3.2.3 (2025-12-25)",
         "```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
+      ],
+      [
+        "3.2.4 (2025-12-29)",
+        "```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
       ]
     ],
     "HelpFooter": ""
