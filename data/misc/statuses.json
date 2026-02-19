@@ -3685,7 +3685,7 @@
 	},
 	{
 		"Name": "Prescript: [Device] III (Yi Sang)",
-		"Description": "_Gain Procuration [Hermes]. Repeat this Prescript until Procuration [Hermes] reaches X Stack_\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
+		"Description": "_Gain Procuration [Hermes]. Repeat this Prescript until Procuration [Hermes] reaches 9 Stack_\n$ Turn Start: Gain this effect when this unit has Unlock - II\n$ Maximum Stackable Grace of the Prescript with this Prescript is limited to 9",
 		"Tags": [
 			"Prescript",
 			"Prescript: [Device]",
@@ -3703,12 +3703,12 @@
 	},
 	{
 		"Name": "Procuration [Hermes]",
-		"Description": "Turn Start: At X Stack, a powerful Skill becomes available\nCan be gained up to (Unlock stage + X) Stack per turn\n$ At below Unlock stage X, this effect's maximum Stack is limited to Y",
+		"Description": "Turn Start: At 9 Stack, a powerful Skill becomes available\nCan be gained up to (Unlock stage + 2) Stack per turn\n$ At below Unlock - II, this effect's maximum Stack is limited to 8",
 		"Tags": []
 	},
 	{
 		"Name": "Shin (心) - Fate",
-		"Description": "Min & Max Speed +X\nGain more Poise and Poise Count from Base Skills\nIf this unit's SP is higher than the target's, deal more damage for every X SP difference (Units without SP are considered to be at 0 SP)",
+		"Description": "Min & Max Speed +1\nGain +1 Poise and Poise Count from Base Skills\nIf this unit's SP is higher than the target's, deal +1% damage for every 3 SP difference (Max 15%; units without SP are considered to be at 0 SP)",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -3718,7 +3718,7 @@
 	},
 	{
 		"Name": "Wound-casing Mask",
-		"Description": "Offense Level +X, Defense Level -Y\nTake less damage from Unopposed Attacks",
+		"Description": "Offense Level +2, Defense Level -2\nTake -10% damage from Unopposed Attacks",
 		"Tags": [
 			"Offense Level Up",
 			"Self Defense Level Down"
@@ -3726,7 +3726,7 @@
 	},
 	{
 		"Name": "Sizzling Wound",
-		"Description": "Offense Level +X, Defense Level -Y\nTake less damage from Unopposed Attacks\nTurn Start: Gain Burn and Bleed\nDeal more damage with Base Attack Skill's Unbreakable Coins",
+		"Description": "Offense Level +3, Defense Level -3\nTake -25%% damage from Unopposed Attacks\nTurn Start: Gain 1 Burn and 1 Bleed\nDeal +15% damage with Base Attack Skill's Unbreakable Coins",
 		"Tags": [
 			"Offense Level Up",
 			"Self Defense Level Down",
@@ -3736,7 +3736,7 @@
 	},
 	{
 		"Name": "Indulgence in Prescripts",
-		"Description": "Min & Max Speed +X\nApply the following effects to 'Furioso-Replica':\n$ On Hit, inflict more Sinking Potency and gain more Poise Potency\n$ On Hit, inflict Sinking Count\n$ Deal more damage\nExpires at Turn End",
+		"Description": "Min & Max Speed +5\nApply the following effects to 'Furioso-Replica':\n$ On Hit, inflict +1 Sinking and gain +1 Poise\n$ On Hit, inflict +3 Sinking Count (Once per target)\n$ Deal +30% damage\nExpires at Turn End",
 		"Tags": [
 			"Min Speed",
 			"Max Speed"
@@ -3744,12 +3744,12 @@
 	},
 	{
 		"Name": "Desire for Acknowledgement Sated",
-		"Description": "Deal more damage with Skills marked with Mark of the Prescript\nDeal more damage against The Prescript's Target",
+		"Description": "Deal +7.5% damage with Skills marked with Mark of the Prescript\nDeal +7.5% damage against The Prescript's Target",
 		"Tags": []
 	},
 	{
 		"Name": "When hacking through the ribs with a hatchet...",
-		"Description": "This Coin deals Blunt damage\nOn Hit without Cracking, gain Poise",
+		"Description": "This Coin deals Blunt damage\nOn Hit without Cracking, gain 2 Poise",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Blunt)",
@@ -3758,7 +3758,7 @@
 	},
 	{
 		"Name": "When penetrating the lungs with a stiletto...",
-		"Description": "This Coin deals Pierce damage\nOn Hit without Cracking, inflict Sinking",
+		"Description": "This Coin deals Pierce damage\nOn Hit without Cracking, inflict 2 Sinking",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Pierce)",
@@ -3767,7 +3767,7 @@
 	},
 	{
 		"Name": "When cleaving through the shoulder and the skull with a bastard sword...",
-		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, gain Offense Level Up next turn",
+		"Description": "This Coin deals Slash damage\nThis Coin deals +5% damage\nOn Hit without Cracking, gain 1 Offense Level Up next turn (2 times per turn)",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Slash)",
@@ -3776,7 +3776,7 @@
 	},
 	{
 		"Name": "When punching 10 or more holes in the torso with a rapier...",
-		"Description": "This Coin deals Pierce damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Defense Level Down next turn",
+		"Description": "This Coin deals Pierce damage\nThis Coin deals +5% damage\nOn Hit without Cracking, inflict 1 Defense Level Down next turn (2 times per turn)",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Pierce)",
@@ -3785,7 +3785,7 @@
 	},
 	{
 		"Name": "When caving in the back of the skull with a hammer...",
-		"Description": "This Coin deals Blunt damage\nThis Coin deals more damage\nOn Hit without Cracking, raise target's Stagger Threshold by X",
+		"Description": "This Coin deals Blunt damage\nThis Coin deals +5% damage\nOn Hit without Cracking, raise target's Stagger Threshold by 3",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Blunt)",
@@ -3794,7 +3794,7 @@
 	},
 	{
 		"Name": "When rending the body with a great sword...",
-		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Slash Fragility next turn",
+		"Description": "This Coin deals Slash damage\nThis Coin deals +15% damage\nOn Hit without Cracking, inflict 1 Slash Fragility next turn (2 times per turn)",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Slash)",
@@ -3803,7 +3803,7 @@
 	},
 	{
 		"Name": "When boring a 20-inch hole with a lance...",
-		"Description": "This Coin deals Pierce damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Pierce Fragility next turn",
+		"Description": "This Coin deals Pierce damage\nThis Coin deals +15% damage\nOn Hit without Cracking, inflict 1 Pierce Fragility next turn (2 times per turn)",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Pierce)",
@@ -3812,7 +3812,7 @@
 	},
 	{
 		"Name": "When ripping the flesh to ten thousand strips with a whip...",
-		"Description": "This Coin deals Blunt damage\nThis Coin deals more damage\nOn Hit without Cracking, inflict Blunt Fragility next turn",
+		"Description": "This Coin deals Blunt damage\nThis Coin deals +15% damage\nOn Hit without Cracking, inflict 1 Blunt Fragility next turn (2 times per turn)",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Blunt)",
@@ -3821,10 +3821,24 @@
 	},
 	{
 		"Name": "When lacerating through space itself with a scythe, like a certain someone...",
-		"Description": "This Coin deals Slash damage\nThis Coin deals more damage\nOn Hit without Cracking, it hits a guaranteed Crit",
+		"Description": "This Coin deals Slash damage\nThis Coin deals +30% damage\nOn Hit without Cracking, it hits a guaranteed Crit",
 		"Tags": [
 			"Caduceus Weapon",
 			"Caduceus Weapon (Slash)"
+		]
+	},
+	{
+		"Name": "Firepower",
+		"Description": "Deal (Stack x 10)% more damage with skills for one turn. (Max 100% at 10 Count)",
+		"Tags": [
+			"Damage Up"
+		]
+	},
+	{
+		"Name": "Delicateness",
+		"Description": "Take (Stack x 10)% more damage from skills for one turn. (Max 100% at 10 Count)",
+		"Tags": [
+			"Fragile"
 		]
 	}
 ]

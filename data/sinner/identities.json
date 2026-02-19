@@ -4074,23 +4074,27 @@
 		]
 	},
 	{
-		"Id": 1000,
+		"Id": 1309,
 		"Sinner": "Yi Sang",
 		"Identity": "The House of Spiders: The Index Nursefather",
 		"World": "???",
 		"Season": 7,  
-		"Traits": [],
-		"Speed": "???",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"Traits": [
+			"The Fingers",
+			"The House of Spiders",
+			"The Index"
+		],
+		"Speed": "3~8",
+		"BaseHP": 66,
+		"GrowthHP": 3.03,
 		"StaggerThresholds": [
-			0
+			65
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 0.5,
+			"Pierce": 2,
+			"Blunt": 1
 		},
 		"UptieTiers": [
 			{
@@ -4098,17 +4102,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "'Enwrap 330 times in Long Swaths of Frozen Blood'",
-					"Description": "(X - (Karmic Consequence / Y))% chance to produce a Blunt weapon\n$ Coins using Blunt weapons deal +Z% damage\nIf this Skill has Mark of the Prescript, Clash Power +X and deal more damage\nCoin Power +X for every X (Poise on self + Sinking on target)\n[On Use] Convert Coins equal to (Unlock Stage - X) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain Poise Count\n<2>[On Hit] Gain Poise\n[On Hit without Cracking] Inflict Sinking",
+					"Description": "(75 - (Karmic Consequence / 2))% chance to produce a Blunt weapon\n$ Coins using Blunt weapons deal +15% damage\nIf this Skill has Mark of the Prescript, Clash Power +1 and deal +20% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Convert Coins equal to (Unlock Stage - 1) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n[On Hit without Cracking] Inflict 2 Sinking",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 2,
 					"AttackWeight": 1,
@@ -4124,17 +4128,17 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "'Revel with Soundless Applause, Impale in Voiceless Sorrow'",
-					"Description": "(X - (Karmic Consequence / Y))% chance to produce a Pierce weapon\n$ Coins using Pierce weapons deal +Z% damage\nIf this Skill has Mark of the Prescript, Final Power +X\nCoin Power +X for every X (Poise on self + Sinking on target)\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain Poise\n<2>[On Hit] Inflict Sinking\n<3>[On Hit] Gain Poise Count\n[On Hit without Cracking] Inflict Sinking Count",
+					"Description": "(75 - (Karmic Consequence / 2)% chance to produce a Pierce weapon\n$ Coins using Pierce weapons deal +15% damage\nIf this Skill has Mark of the Prescript, Final Power +1\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain 3 Poise\n<2>[On Hit] Inflict 3 Sinking\n<3>[On Hit] Gain +2 Poise Count\n[On Hit without Cracking] Inflict +1 Sinking Count",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
@@ -4151,17 +4155,17 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "'Raise and Laugh the Blade, Cry the Waterfall Like the Scent of Fallen Leaves'",
-					"Description": "Turn Start: At X Procuration [Hermes], change this Skill to 'Furioso-Replica'\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At X- Procuration [Hermes], use as Skill 3\n(X - (Karmic Consequence / Y))% chance to produce a Blunt weapon\n$ Coins using Blunt weapons deal +Z% damage\nIf this Skill has Mark of the Prescript, Clash Power +X and deal more damage\nCoin Power +X for every X (Poise on self + Sinking on target)\n[On Use] Convert Coins equal to (Unlock Stage - X) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain Poise Count\n$ Gain additional Poise equal to (Unlock stage)\n<2>[On Hit] Gain Poise\n<3>[On Hit] Inflict Sinking\n<4>Deal more damage for every X Unlock stage\n[On Crit] Gain Poise Count\n[On Hit without Cracking] Inflict Sinking Count",
+					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At 8- Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +25% damage\nIf this Skill has Mark of the Prescript, deal +20% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Convert Coins equal to (Unlock Stage + 1) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal to (Unlock stage)\n<2>[On Hit] Gain 3 Poise\n<3>[On Hit] Inflict 3 Sinking\n<4>Deal +20% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +3 Sinking Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
@@ -4178,21 +4182,21 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Furioso-Replica",
-						"Description": "[Unfocused Volley]\nOnly 1 copy of this Skill can exist on the Dashboard\nIf this Skill has Mark of the Prescript, deal more damage\nThis Skill's Coin Power does not change; instead, for every X net Coin Power increase, Final Power +X and deal more damage (This Skill is not affected by Paralyze)\nFinal Power +X for every (Poise on self + Sinking on target)\n[Combat Start]\n$ Convert all Coins on this Skill to Unbreakable Coins\n$ Inflict Sinking or Poise with every hit of this Skill\n$ Does not gain Procuration [Hermes] for this turn\n[On Use]\n$ Clash Power +X\n$ Gain Poise and Poise Count\n[After Attack]\n$ Inflict Burn, Bind, and Fragile next turn to all targets this unit hit\n$ Consume all Procuration [Hermes]\n<9>Weapon assigned to this Coin is fixed as Scythe\nDeal more damage on Critical Hit\n[On Hit without Cracking] inflict Sinking Count",
+						"Description": "[Unfocused Volley]\nOnly 1 copy of this Skill can exist on the Dashboard\nIf this Skill has Mark of the Prescript, deal +10% damage\nThis Skill's Coin Power does not change; instead, for every net Coin Power increase, Final Power +5 and deal +25% damage (This Skill is not affected by Paralyze)\nFinal Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[Combat Start]\n$ Convert all Coins on this Skill to Unbreakable Coins\n$ Inflict 1 Sinking or gain 1 Poise with every hit of this Skill\n$ Does not gain Procuration [Hermes] for this turn\n[On Use]\n$ Clash Power +3\n$ Gain 3 Poise and +3 Poise Count\n[After Attack]\n$ Inflict 5 Burn, 3 Bind, and 3 Fragile next turn to all targets this unit hit\n$ Consume all Procuration [Hermes]\n<9>Weapon assigned to this Coin is fixed as Scythe\nDeal +90% damage on Critical Hit\n[On Hit without Cracking] inflict +3 Sinking Count",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 3,
+						"CoinPower": 3,
 						"CoinCount": 9,
-						"Level": 0,
+						"Level": 5,
 						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
-						"ClashPowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 3,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"ForceCoinCollapse": true,
-						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeight": 7,
+						"AttackWeightMod": 7,
 						"MiscTags": [
 							"Unfocused Volley",
 							"Caduceus Weapon",
@@ -4211,17 +4215,17 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "By Unpredictable Whim",
-					"Description": "At Unlock Stage X, Coin Power +Y\n[Combat Start] Gain Poise Count\n[On Evade] Gain Poise\n[Turn End] At below Unlock Stage X:\n$ Gain Unlock Stage Y\n$ At X- Grace of the Prescript, raise the Stack to Y\n$ Gain X Karmic Consequence for every Y Grace of the Prescript gained via the effect above",
+					"Description": "At Unlock - III, Coin Power +2\n[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ At 5- Grace of the Prescript, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
 					"DamageType": "Evade",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 10,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -4252,7 +4256,7 @@
 					},
 					{
 						"Name": "The Oracle's Proxy / Unlock",
-						"Description": "Turn End: If Prescript was executed this turn at below Unlock stage X, heal SP and gain Grace of the Prescript\n$ When executing Prescript, if main target has The Prescript's Target, heal more SP and gain more Grace of the Prescript instead\nTurn End: If unit is at Unlock stage X and Prescript: [Device] III was executed this turn, heal SP\n$ When executing Prescript, if Procuration [Hermes] has reached X Stacks, heal more SP and gain Grace of the Prescript\nTurn End: If Prescript was not executed this turn, gain Karmic Consequence\n$ At Unlock stage X, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence\nTurn End: At X Grace of the Prescript, gain Unlock - I/Unlock - II/Unlock - III\nTurn Start: At Unlock stage X, gain Shin (心) - Fate",
+						"Description": "Turn End: If Prescript was executed this turn at below Unlock - II, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain 3 Grace of the Prescript instead\nTurn End: If unit is at Unlock - II and Prescript: [Device] III was executed this turn, heal 4 SP (Once per turn)\n$ When executing Prescript, if Procuration [Hermes] has reached 9 Stacks, heal 8 SP and gain 3 Grace of the Prescript\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence\nTurn End: At 3/6/9 Grace of the Prescript, gain Unlock - I/Unlock - II/Unlock - III\nTurn Start: At Unlock - III, gain Shin (心) - Fate",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -4288,7 +4292,7 @@
 					},
 					{
 						"Name": "Oracle Device [Caduceus]",
-						"Description": "A random weapon is assigned to every Coin for Base Attack Skills\nEach weapon has a unique effect\n$ When hacking through the ribs with a hatchet...\n$ When penetrating the lungs with a stiletto...\n$ When cleaving through the shoulder and the skull with a bastard sword...\n$ When punching 10 or more holes in the torso with a rapier...\n$ When caving in the back of the skull with a hammer...\n$ When rending the body with a great sword...\n$ When boring a 20-inch hole with a lance...\n$ When ripping the flesh to ten thousand strips with a whip...\n$ When lacerating through space itself with a scythe, like a certain someone...\nGain Procuration [Hermes] when using Skills with Mark of the Prescript\nConvert Wound-casing Mask to Sizzling Wound at the end of the turn this unit used 'Furioso-Replica' for the first time in this Encounter\nTurn Start: If unit has Sizzling Wound and 'Furioso-Replica' is on the Dashboard, gain Indulgence in Prescripts",
+						"Description": "A random weapon is assigned to every Coin for Base Attack Skills\nEach weapon has a unique effect\n$ When hacking through the ribs with a hatchet...\n$ When penetrating the lungs with a stiletto...\n$ When cleaving through the shoulder and the skull with a bastard sword...\n$ When punching 10 or more holes in the torso with a rapier...\n$ When caving in the back of the skull with a hammer...\n$ When rending the body with a great sword...\n$ When boring a 20-inch hole with a lance...\n$ When ripping the flesh to ten thousand strips with a whip...\n$ When lacerating through space itself with a scythe, like a certain someone...\nGain 1 Procuration [Hermes] when using Skills with Mark of the Prescript\nConvert Wound-casing Mask to Sizzling Wound at the end of the turn this unit used 'Furioso-Replica' for the first time in this Encounter\nTurn Start: If unit has Sizzling Wound and 'Furioso-Replica' is on the Dashboard, gain Indulgence in Prescripts",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -4307,14 +4311,22 @@
 				],
 				"PassiveSkill": {
 					"Name": "Imitation of a Life",
-					"Description": "Skills with Mark of the Prescript deal more damage for every X Grace of the Prescript\n$ At Y Grace of the Prescript, deal more damage with Base Skills instead\nOn Hit with Base Attack Skill's Unbreakable Coins, gain Procuration [Hermes]\n$ Attack End: Gain Procuration [Hermes] equal to (Remaining Unbreakable Coins)\n$ 'Furioso-Replica' Attack End: Gain Procuration [Hermes] next turn equal to (Remaining Unbreakable Coins / X) (Rounded down)\nIf Procuration [Hermes] reached X Stacks at Turn End, and unit does not have Skill 3 on the Dashboard at next Turn Start, convert a Base Skill to Skill 3 (Prioritizes the leftmost, bottom row Slot)",
+					"Description": "Deal +2% damage with Mark of the Prescript Skills for every Grace of the Prescript\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn Hit with Base Attack Skill's Unbreakable Coins, gain 1 Procuration [Hermes]\n$ Attack End: Gain Procuration [Hermes] equal to (Remaining Unbreakable Coins)\n$ 'Furioso-Replica' Attack End: Gain Procuration [Hermes] next turn equal to (Remaining Unbreakable Coins / 2) (Rounded down)\nIf Procuration [Hermes] reached 9 Stacks at Turn End, if unit does not have Skill 3 on Dashboard at next Turn Start, convert a Base Skill to Skill 3 (Prioritizes the leftmost, bottom row Slot)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Procuration [Hermes]",
 						"Skill Draw"
@@ -4322,14 +4334,280 @@
 				},
 				"SupportSkill": {
 					"Name": "Grace of God",
-					"Description": "Deal more damage with Slash, Pierce, and Blunt Base Attack Skills that are used for the first time by any ally each turn (Once per type across all allies)\n$ The Index Identities deal even more damage instead\n$ Effect application is determined Before Attack",
+					"Description": "Deal +5% damage with Slash, Pierce, and Blunt Base Attack Skills that are used for the first time by any ally each turn (Once per type across all allies)\n$ The Index Identities deal +10% damage instead\n$ Effect application is determined Before Attack",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "'Enwrap 330 times in Long Swaths of Frozen Blood'",
+					"Description": "(75 - (Karmic Consequence / 2))% chance to produce a Blunt weapon\n$ Coins using Blunt weapons deal +15% damage\nIf this Skill has Mark of the Prescript, deal +15% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Convert Coins equal to (Unlock Stage - 1) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +2 Poise Count\n<2>[On Hit] Gain 2 Poise\n[On Hit without Cracking] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Caduceus Weapon",
+						"Unbreakable Coin",
+						"Poise Count",
+						"Poise Potency",
+						"Sinking Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "'Revel with Soundless Applause, Impale in Voiceless Sorrow'",
+					"Description": "(75 - (Karmic Consequence / 2)% chance to produce a Pierce weapon\n$ Coins using Pierce weapons deal +10% damage\nIf this Skill has Mark of the Prescript, Clash Power +1\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain 3 Poise\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +1 Sinking Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Caduceus Weapon",
+						"Unbreakable Coin",
+						"Poise Potency",
+						"Sinking Potency",
+						"Poise Count",
+						"Sinking Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "'Raise and Laugh the Blade, Cry the Waterfall Like the Scent of Fallen Leaves'",
+					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At 8- Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +12.5% damage\nIf this Skill has Mark of the Prescript, deal +10% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict2 Sinking\n<4>Deal +10% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +2 Sinking Count",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Caduceus Weapon",
+						"Unbreakable Coin",
+						"Poise Count",
+						"Poise Potency",
+						"Sinking Potency",
+						"Sinking Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Furioso-Replica",
+						"Description": "[Unfocused Volley]\nOnly 1 copy of this Skill can exist on the Dashboard\nIf this Skill has Mark of the Prescript, deal +10% damage\nThis Skill's Coin Power does not change; instead, for every net Coin Power increase, Final Power +5 (This Skill is not affected by Paralyze)\nAt 6+ (Poise on self + Sinking on target), Final Power +1\n[Combat Start]\n$ Convert all Coins on this Skill to Unbreakable Coins\n$ Inflict 1 Sinking or gain 1 Poise with every hit of this Skill\n$ Does not gain Procuration [Hermes] for this turn\n[On Use]\n$ Clash Power +3\n$ Gain 3 Poise and +3 Poise Count\n[After Attack]\n$ Inflict 5 Burn, 3 Bind, and 3 Fragile next turn to all targets this unit hit\n$ Consume all Procuration [Hermes]\n<9>Weapon assigned to this Coin is fixed as Scythe\n[On Hit without Cracking] inflict +3 Sinking Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 2,
+						"CoinPower": 3,
+						"CoinCount": 9,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 3,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"ForceCoinCollapse": true,
+						"AttackWeight": 7,
+						"AttackWeightMod": 7,
+						"MiscTags": [
+							"Unfocused Volley",
+							"Caduceus Weapon",
+							"Unbreakable Coin",
+							"Sinking Potency",
+							"Poise Potency",
+							"Poise Count",
+							"Burn Potency",
+							"Bind",
+							"Fragile",
+							"Spend Procuration [Hermes]",
+							"Sinking Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "By Unpredictable Whim",
+					"Description": "[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ At 5- Grace of the Prescript, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
+					"DamageType": "Evade",
+					"SinType": "None",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Unlock",
+						"Grace of the Prescript",
+						"Karmic Consequence"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Prescript Delivered on a Device",
+						"Description": "Turn Start:\n$ Gain Prescript: [Device] I / Prescript: [Device] II / Prescript: [Device] III / Prescript: [Device] IV based on Unlock stage\n$ Inflict The Prescript's Target to a random enemy (in Focused Encounters, a Part)\n$ Apply Mark of the Prescript to Base Attack Skills on this unit's Dashboard (1 per slot; max 2 Skills)\n$- At Unlock - II+, the above effect prioritizes Skill 3\n$ All the effects above and Prescript execution checks do not trigger when this unit is Staggered, Immobilized, in Panic, or in E.G.O Corrosion",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Prescript",
+							"The Prescript's Target",
+							"Mark of the Prescript"
+						]
+					},
+					{
+						"Name": "The Oracle's Proxy / Unlock",
+						"Description": "Turn End: If Prescript was executed this turn at below Unlock - II, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain 3 Grace of the Prescript instead\nTurn End: If unit is at Unlock - II and Prescript: [Device] III was executed this turn, heal 4 SP (Once per turn)\n$ When executing Prescript, if Procuration [Hermes] has reached 9 Stacks, heal 8 SP and gain 3 Grace of the Prescript\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence\nTurn End: At 3/6/9 Grace of the Prescript, gain Unlock - I/Unlock - II/Unlock - III\nTurn Start: At Unlock - III, gain Shin (心) - Fate",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Heal SP",
+							"Grace of the Prescript",
+							"Karmic Consequence",
+							"Unlock",
+							"Shin (心) - Fate"
+						]
+					},
+					{
+						"Name": "The Index Nursefather",
+						"Description": "Upon entering the Encounter for the first time, gain Wound-casing Mask\n$ Turn End: If unit was Staggered for the first time in this Encounter while under this effect, recover from Stagger (excluding forced Stagger) and convert Wound-casing Mask to Sizzling Wound\nApply Desire for Acknowledgement Sated to The Index Proxy - Effloresced E.G.O::Procuration Don Quixote when both units are on the field",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Wound-casing Mask",
+							"Stagger Recovery",
+							"Spend Wound-casing Mask",
+							"Sizzling Wound",
+							"Ally Desire for Acknowledgement Sated"
+						]
+					},
+					{
+						"Name": "Oracle Device [Caduceus]",
+						"Description": "A random weapon is assigned to every Coin for Base Attack Skills\nEach weapon has a unique effect\n$ When hacking through the ribs with a hatchet...\n$ When penetrating the lungs with a stiletto...\n$ When cleaving through the shoulder and the skull with a bastard sword...\n$ When punching 10 or more holes in the torso with a rapier...\n$ When caving in the back of the skull with a hammer...\n$ When rending the body with a great sword...\n$ When boring a 20-inch hole with a lance...\n$ When ripping the flesh to ten thousand strips with a whip...\n$ When lacerating through space itself with a scythe, like a certain someone...\nGain 1 Procuration [Hermes] when using Skills with Mark of the Prescript\nConvert Wound-casing Mask to Sizzling Wound at the end of the turn this unit used 'Furioso-Replica' for the first time in this Encounter\nTurn Start: If unit has Sizzling Wound and 'Furioso-Replica' is on the Dashboard, gain Indulgence in Prescripts",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Caduceus Weapon",
+							"Procuration [Hermes]",
+							"Spend Wound-casing Mask",
+							"Sizzling Wound",
+							"Indulgence in Prescripts"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Imitation of a Life",
+					"Description": "Deal +2% damage with Mark of the Prescript Skills for every Grace of the Prescript\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn Hit with Base Attack Skill's Unbreakable Coins, gain 1 Procuration [Hermes]\n$ Attack End: Gain Procuration [Hermes] equal to (Remaining Unbreakable Coins)\n$ 'Furioso-Replica' Attack End: Gain Procuration [Hermes] next turn equal to (Remaining Unbreakable Coins / 2) (Rounded down)\nIf Procuration [Hermes] reached 9 Stacks at Turn End, if unit does not have Skill 3 on Dashboard at next Turn Start, convert a Base Skill to Skill 3 (Prioritizes the leftmost, bottom row Slot)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Procuration [Hermes]",
+						"Skill Draw"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Grace of God",
+					"Description": "Deal +5% damage with Slash, Pierce, and Blunt Base Attack Skills that are used for the first time by any ally each turn (Once per type across all allies)\n$ The Index Identities deal +10% damage instead\n$ Effect application is determined Before Attack",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
+						}
+					],
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
 					]

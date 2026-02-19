@@ -2404,5 +2404,17 @@
 			"pierce fragility",
 			"blunt fragility"
 		]
+	},
+	{
+		"entry": "firepower",
+		"aliases":[
+			"damage up"
+		]
+	},
+	{
+		"entry": "self delicateness",
+		"aliases":[
+			"self fragile"
+		]
 	}
 ]
