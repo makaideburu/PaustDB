@@ -3840,5 +3840,33 @@
 		"Tags": [
 			"Fragile"
 		]
+	},
+	{
+		"Name": "Spark of Inspiration",
+		"Description": "Deal +10% damage against targets with Art Medium",
+		"Tags": [
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Curio",
+		"Description": "When certain conditions are fulfilled, replace this effect with 'Art Medium'",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Art Medium",
+		"Description": "Take +10% damage from Lust Skills if this unit has Bleed",
+		"Tags": [
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Exquisite Aesthetics",
+		"Description": "Plus Coin Skills gain Coin Power +1\nMinus Coin Skills gain Base Power +(4 / # of Coins)\nDeal +30% damage with Skills",
+		"Tags": [
+			"Coin Power",
+			"Damage Amp"
+		]
 	}
 ]

@@ -8926,7 +8926,7 @@
         "Description": "Turn Start: Activates when 3+ Identities have Skills that consume Bloodfeast (Except E.G.O Skills, except Backup Units)\nCombat Start: If a target is getting attacked by an Identity that consumes Bloodfeast has 30+ Bleed, reduce their Bleed to 15. Then, increase Bloodfeast equal to the Bleed reduced. (Once per turn for the enemy group as a whole; activates only against the main target with 2+ Atk Weight Skills)\nFor Identities with Skills that consume Bloodfeast: Apply 1 Power Up and 1 Damage Up for every 10 Bloodfeast generated with the above effect (Max 4)",
         "Rank": 1,
         "MiscTags": [
-          "Spend Enemy Bleed",
+          "Spend Enemy Bleed Potency",
           "Bloodfeast",
           "Power Up",
           "Damage Up"
@@ -10033,6 +10033,497 @@
         "MiscTags": [
           "Bleed Count",
           "Burn Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Chance & Choice",
+    "Tag": "None",
+    "Abnormality": "Recurring Faith and Promise",
+    "Affinity": "Gluttony",
+    "Tier": 4,
+    "Cost": 396,
+    "Upgrades": [
+      {
+        "Description": "Random chance for the leftmost Slot's E.G.O Skill to deal -50% damage or +150% damage (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Raincloud",
+    "Tag": "Sinking",
+    "Abnormality": "Theme Packs: *Sunk Gloom, Sinking Deluge*",
+    "Affinity": "Gloom",
+    "Tier": 4,
+    "Cost": 404,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: At 30+ total sum of Sinking Potency and Sinking Count on all enemies, apply the following:\n$ Skills that inflict Sinking or Sinking Count: Final Power +1 (Includes Unique Sinking, excludes E.G.O Skills)\n$ When 6+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Skills that inflict Sinking or Sinking Count also deal +20% damage (Including Unique Sinking, excluding E.G.O Skills)\n$- If target is at -45 SP, additional +10% damage\n$ When 10+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Plus Coin Skills that inflict Sinking or Sinking Count also gain Coin Power +1 (Including Unique Sinking and Backup Units; excluding E.G.O Skills)\n$- Minus Coin Skills: Instead of Coin Power, gain Base Power +(4 / # of Coins) (Min 1; rounded down)",
+        "Rank": 1,
+        "MiscTags": [
+          "Final Power",
+          "Damage Amp",
+          "Coin Power"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Entangled Fate",
+    "Tag": "None",
+    "Abnormality": "Theme Packs: *Unbound Wrath, Tangling Lust, Inert Sloth, Excessive Gluttony, Sunk Gloom, Tyrannical Pride, Pitiful Envy*",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 396,
+    "Upgrades": [
+      {
+        "Description": "Combat Start: At 7+ A-Reson, all allies gain Final Power +5 for this turn (Once per Encounter)",
+        "Rank": 1,
+        "MiscTags": [
+          "Final Power"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Searing Hammer",
+    "Tag": "Tremor",
+    "Abnormality": "Theme Pack: *Textbook*",
+    "Affinity": "Lust",
+    "Tier": 3,
+    "Cost": 243,
+    "Upgrades": [
+      {
+        "Description": "If the enemy has Tremor - Scorch, apply the following:\n$ On Base Skill Hit, inflict 1 Burn (3 times per Skill)\n$ On Base Skill Hit, if the enemy has 15+ Tremor - Scorch, inflict +1 Burn Count (2 times per Skill)\n$ For every 3 Burn, +1% to Stagger Threshold raised by Tremor Burst (Max 15%)",
+        "Rank": 1,
+        "MiscTags": [
+          "Burn Potency",
+          "Burn Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Red Necktie",
+    "Tag": "Burn",
+    "Abnormality": "Theme Pack: *Textbook*",
+    "Affinity": "Wrath",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "Skill 3 that inflict Burn, Burn Count, or Unique Burn: Clash Power +2 and deal +30% damage",
+        "Rank": 1,
+        "MiscTags": [
+          "Clash Power",
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "The Spider's Thread",
+    "Tag": "None",
+    "Abnormality": "Theme Pack: *Blades and Artwork*",
+    "Affinity": "Pride",
+    "Tier": 1,
+    "Cost": 151,
+    "Upgrades": [
+      {
+        "Description": "Allies who use Defense Skills deal +10% damage with Skill 3 next turn (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Someone's Azure Blade",
+    "Tag": "Poise",
+    "Abnormality": "Theme Pack: *Blades and Artwork*",
+    "Affinity": "Gloom",
+    "Tier": 2,
+    "Cost": 199,
+    "Upgrades": [
+      {
+        "Description": "Combat Start: Allies with Shield gain 1 Crit DMG Up\nOn Crit with ally Skill, said ally gains Shield equal to (Poise / 5) for the next turn (Max 15)",
+        "Rank": 1,
+        "MiscTags": [
+          "Crit DMG Up",
+          "Shield"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Pure-white Canvas",
+    "Tag": "Bleed",
+    "Abnormality": "Theme Pack: *Blades and Artwork*",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 200,
+    "Upgrades": [
+      {
+        "Description": "On Hit with Plus Coin Attack Skills against an enemy with 15+ Bleed, heal 3 SP (Once per turn per Identity)\n$ If said Identity or target has 3+ types of negative effects, heal 6 SP instead",
+        "Rank": 1,
+        "MiscTags": [
+          "Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Average Artwork",
+    "Tag": "Bleed",
+    "Abnormality": "Theme Pack: *Blades and Artwork*",
+    "Affinity": "Lust",
+    "Tier": 2,
+    "Cost": 200,
+    "Upgrades": [
+      {
+        "Description": "The Ring-faction Identities gain Spark of Inspiration\nIf The Ring-faction Identity with Spark of Inspiration hits an enemy with Lust or Slash Skills, inflict Curio on said enemy next turn\n$ If the enemy already has Curio, replace Curio with Art Medium\nIf The Ring-faction Identity with Spark of Inspiration kills an enemy that has Art Medium, said Identity gains 1 Plus Coin Boost next turn (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: The Ring",
+          "Spark of Inspiration",
+          "Curio",
+          "Art Medium",
+          "Plus Coin Boost"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Someone's Device",
+    "Tag": "Sinking",
+    "Abnormality": "Theme Pack: *The Unsevering*",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 252,
+    "Upgrades": [
+      {
+        "Description": "Attack End: If The Prescript's Target is killed, the Identity who attacked and killed The Prescript's Target gains 1 Gloom Power Up next turn; inflict +3 Sinking Count to 1 random surviving enemy (Once per turn)\n$ If the unit that killed The Prescript's Target is in The Index faction, gain 1 Attack Power Up instead of Gloom Power Up next turn (Once per turn)\nTurn End: The Index faction units take (Karmic Consequence)% HP damage\n$ Does not get Staggered due to this effect; this damage does not reduce the allies' HP below 20%\n$ Then, Identities who took damage due to the above effect gain (Karmic Consequence / 5) Power Up next turn (Max 2)",
+        "Rank": 1,
+        "MiscTags": [
+          "Gloom Power Up",
+          "Attack Power Up",
+          "Faction Buff: The Index",
+          "Self HP Damage",
+          "Power Up"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Providence of the Prescript",
+    "Tag": "Poise",
+    "Abnormality": "Theme Pack: *The Unsevering*",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "Identities that inflicted Sinking, Sinking Count, or Unique Sinking gain 3 Poise or +2 Poise Count at Turn Start (Once per turn per Identity)\nDuring the Encounter, if an Identity gained Poise 3 times due to the above effect, starting from next turn, the said Identity deals +30% damage on Critical Hit",
+        "Rank": 1,
+        "MiscTags": [
+          "Poise Potency",
+          "Poise Count",
+          "Critical Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Omni-tool",
+    "Tag": "Sinking",
+    "Abnormality": "Theme Pack: *The Unsevering*",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 248,
+    "Upgrades": [
+      {
+        "Description": "When Skills of the same Attack Type hit an enemy 12 times, the enemy gains +0.1 Resistance against that Attack Type (3 times per Encounter per enemy/part; this effect cannot raise Resistance over x2.0)",
+        "Rank": 1,
+        "MiscTags": [
+          "Resist Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Uniform - Liu Assoc.",
+    "Tag": "Burn",
+    "Abnormality": "Fusion: ||Lowest Star + Polarization + Red Necktie||",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 398,
+    "Upgrades": [
+      {
+        "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn (Except E.G.O Skills, except Backup Units)\nLiu Association Identities: Base Attack Skills gain Plus Coin Power +2 (Minus Coin Skills gain Base Power +(8 / # of Coins) (Min 1; rounded down))\nNon-Skill 3 Skills (Including E.G.O Skills) that inflict Burn, Burn Count, or Unique Burn deal +20% damage\nSkill 3 that inflict Burn, Burn Count, or Unique Burn gain Plus Coin Power +1 (Minus Coin Skills gain Base Power +(4 / # of Coins) (Min 1; rounded down)) and deal +30% damage\n$ Identities in a faction deal +5% damage for every same-faction Identity in the Team (Max 20%; including Backup Units)\nTurn End: 2 allies with the least SP heal 8 SP\n$ If affected allies are at 0- SP, heal 5 additional SP",
+        "Rank": 1,
+        "MiscTags": [
+          "Coin Power",
+          "Damage Amp",
+          "Faction Buff: Liu Association",
+          "Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Miniature Ferris Wheel",
+    "Tag": "Bleed",
+    "Abnormality": "Fusion: ||Layered Bandages + WB Flask + Mask of the Parade||",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 402,
+    "Upgrades": [
+      {
+        "Description": "All Bloodfiend allies: Base Skill Coin Power +1, deal +(Bloodfeast Consumed / 10)% Skill damage\nTurn End: Among allies with Bleed, 2 allies with the least HP heal 5% HP and gain 10 Shimmering [Bloodfiend] at next Turn Start\nOn enemy Kill, increase Bloodfeast by (Enemy Core max HP / 10) (Max 50)\nTurn End: If an ally died this turn, all allies gain 2 Attack Power Up next turn\nIn Encounters where Backup enemies appear: When new enemies appear, inflict 5 Bleed and +3 Bleed Count against them at Combat Start\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, activate Bleed on all enemies twice and reduce their Bleed Count by 2",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: Bloodfiend",
+          "Heal HP",
+          "Shimmering [Bloodfiend]",
+          "Bloodfeast",
+          "Attack Power Up",
+          "Bleed Potency",
+          "Bleed Count",
+          "Bleed Proc",
+          "Spend Enemy Bleed Count"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Exquisite Artwork",
+    "Tag": "Bleed",
+    "Abnormality": "Fusion: ||Homeward + Headless Portrait + Average Artwork||",
+    "Affinity": "Lust",
+    "Tier": 4,
+    "Cost": 404,
+    "Upgrades": [
+      {
+        "Description": "The Ring-faction Identities gain Spark of Inspiration\nIf The Ring-faction Identity with Spark of Inspiration hits an enemy, inflict Curio on said enemy\n$ If the enemy already has Curio, replace Curio with Art Medium\nIf The Ring-faction Identity with Spark of Inspiration kills an enemy that has Art Medium, said Identity loses Spark of Inspiration and gains Exquisite Aesthetics",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: The Ring",
+          "Spark of Inspiration",
+          "Curio",
+          "Art Medium",
+          "Exquisite Aesthetics"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "The End of all Evil",
+    "Tag": "Poise",
+    "Abnormality": "Fusion: ||Imposed Weight + Harpoon Prosthetic Leg + Cetacean Heart||",
+    "Affinity": "Pride",
+    "Tier": 4,
+    "Cost": 399,
+    "Upgrades": [
+      {
+        "Description": "Activates when there are 3+ The Pequod-faction Identities (Excluding Backup units)\nOn Hit with an Attack Skill against enemies with Bleed: 50% chance to gain 3 Poise or +2 Poise Count (3 times per turn for each ally)\nOn Crit: 80% chance to not consume Poise Count (Once per turn per ally; including E.G.O Skills and Counter Skills)\nOn Crit Heads Hit with a Base Skill: Inflict +1 more of the negative effect with that Coin (Once per Turn per ally; including Counter Skills, excluding E.G.O Skills)\nIf #1 Deployed Identity kills an enemy, The Pequod-faction Identities gain 1 Pierce Power Up, 1 Protection, and 1 Crit DMG Up each turn for the rest of this Encounter (Max 3 times per Encounter)\nIf one of The Pequod-faction Identities attacks and hits an enemy, heal 7 SP for The Pequod-faction Identity with the earliest Deployment order (Once per Skill)\nWhen an ally kills an enemy, heal 15 SP for The Pequod-faction Identity with the earliest Deployment order if said Identity lost SP",
+        "Rank": 1,
+        "MiscTags": [
+          "Faction Buff: The Pequod",
+          "Poise Potency",
+          "Poise Count",
+          "Freeze Poise Count",
+          "Pierce Power Up",
+          "Protection",
+          "Crit DMG Up",
+          "Heal SP"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Record Logs of That Day",
+    "Tag": "Keywordless",
+    "Abnormality": "None",
+    "Affinity": "Gloom",
+    "Tier": 1,
+    "Cost": 149,
+    "Upgrades": [
+      {
+        "Description": "This E.G.O Gift changes after 6 Encounter wins\nTurn Start: A random ally who is not Staggered enters a forced Stagger state",
+        "Rank": 1,
+        "MiscTags": [
+          "Cursed Gift",
+          "Self Stagger"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Potentialities",
+    "Tag": "Keywordless",
+    "Abnormality": "Blessed Gift: ||Record Logs of That Day -> Win 6 Encounters||",
+    "Affinity": "Gloom",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "When Staggered due to damage, recover from Stagger; then gain Shield equal to 50% of Max HP and remove 1 random removable negative effect on self (Excluding forced Staggers, 2 times per Encounter)\nGain 20 Poise at the start of the next turn after activating the above effect (Once per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Blessed Gift",
+          "Stagger Recovery",
+          "Shield",
+          "Status Cleanse",
+          "Poise Potency"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Baleful Hwando",
+    "Tag": "Keywordless",
+    "Abnormality": "None",
+    "Affinity": "Pride",
+    "Tier": 1,
+    "Cost": 149,
+    "Upgrades": [
+      {
+        "Description": "This E.G.O Gift changes after 6 Encounter wins\nAll allies: Take +20% damage, Clash Power -1",
+        "Rank": 1,
+        "MiscTags": [
+          "Cursed Gift",
+          "Self Damage Amp",
+          "Self Clash Power Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "One with the Blade",
+    "Tag": "Keywordless",
+    "Abnormality": "Blessed Gift: ||Baleful Hwando -> Win 6 Encounters||",
+    "Affinity": "Pride",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "All allies deal +25% damage",
+        "Rank": 1,
+        "MiscTags": [
+          "Blessed Gift",
+          "Damage Amp"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Tarnished Gauntlet",
+    "Tag": "Keywordless",
+    "Abnormality": "None",
+    "Affinity": "Sloth",
+    "Tier": 1,
+    "Cost": 149,
+    "Upgrades": [
+      {
+        "Description": "This E.G.O Gift changes after 6 Encounter wins\nMin & Max Speed -5 for all allies (Does not reduce Speed below 1)",
+        "Rank": 1,
+        "MiscTags": [
+          "Cursed Gift",
+          "Min Speed Down",
+          "Max Speed Down"
+        ]
+      }
+    ],
+    "Availability": [
+      "MD7"
+    ]
+  },
+  {
+    "Name": "Golden Hour",
+    "Tag": "Keywordless",
+    "Abnormality": "Blessed Gift: ||Tarnished Gauntlet -> Win 6 Encounters||",
+    "Affinity": "Sloth",
+    "Tier": 3,
+    "Cost": 250,
+    "Upgrades": [
+      {
+        "Description": "Min & Max Speed +3 for all allies\nFinal Power +2 when using Skills against slower targets with 4+ Speed difference\nOn Hit against an enemy, inflict 1 Bind next turn (4 times per turn)",
+        "Rank": 1,
+        "MiscTags": [
+          "Blessed Gift",
+          "Min Speed",
+          "Max Speed",
+          "Final Power",
+          "Bind"
         ]
       }
     ],
