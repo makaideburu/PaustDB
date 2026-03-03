@@ -10963,7 +10963,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Tremor Potency",
 						"Bind",
 						"Tremor Burst",
@@ -10990,7 +10990,7 @@
 					"MiscTags": [
 						"Spend Self Tremor Count",
 						"Tremor Potency",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Time Moratorium",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count",
@@ -11095,7 +11095,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self Tremor Count",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Tremor Potency",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count"
@@ -11121,7 +11121,7 @@
 					"MiscTags": [
 						"Spend Self Tremor Count",
 						"Tremor Potency",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Time Moratorium",
 						"Tremor Burst",
 						"Spend Enemy Tremor Count",
@@ -17296,6 +17296,236 @@
 		]
 	},
 	{
+		"Id": 4000,
+		"Sinner": "Ryōshū",
+		"Identity": "Lobotomy E.G.O::Faint Aroma & Solitude",
+		"World": "???",
+		"Season": 8,
+		"IsWalpurgis": true,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Bang. Bang.",
+					"Description": "[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n<1>Spend Bullet - Solitude\n[On Hit] Inflict Sinking Count\n<2>Spend Bullet - Solitude\n[On Hit] Inflict Tremor",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bullet - Solitude",
+						"Sinking Count",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Stories that Never Cease",
+						"Description": "[Unclashable]\n[Unfocused Volley]\nWhen this Skill inflicts Solitude, if target has Solitude this turn, or will be inflicted with Solitude next turn, trigger Tremor Burst instead and reduce target's Tremor Count\n<1>[On Hit] Inflict Sinking Count\n[On Hit] Inflict Solitude next turn\n<2>[On Hit] Inflict Tremor\n[On Hit] Inflict Solitude next turn\n<3>[On Hit] Inflict Tremor\n[On Hit] Inflict Solitude next turn",
+						"DamageType": "Pierce",
+						"SinType": "Sloth",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Unfocused Volley",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Sinking Count",
+							"Soltiude",
+							"Tremor Potency"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Blossoming Fragrance in the Void",
+					"Description": "[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n[On Use] Deal more damage based on Faint Aroma on target\n<1>Spend Bullet - Solitude\n[On Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Tremor Count\n<3>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Bullet - Solitude",
+						"Sinking Count",
+						"Faint Aroma",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Full Bloom",
+					"Description": "[On Use] Coin Power +X for every Y (Tremor + Sinking) on target\n[On Use] Deal more damage based on Faint Aroma on target\n<1>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Sinking Count\n<2>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Deal Gloom daamge equal to Sinking on target",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Faint Aroma",
+						"Sinking Count",
+						"Sinking Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Magnificent End",
+						"Description": "[Unclashable]\nExternal effects cannot trigger Skill Reuse\nDeal more damage based on excess Atk Weight beyond number of actual targets\n[On Use] Final Power +X for every Y (Sum of Faint Aroma on all targets)\n[Attack End] Lose Petals on self\n<1>[On Hit] Inflict Faint Aroma\n[On Hit] Inflict Sinking\n[On Hit] Inflict Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Deal Gloom damage equal to Sinking on target",
+						"DamageType": "Pierce",
+						"SinType": "Gloom",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Spend Petals",
+							"Faint Aroma",
+							"Sinking Potency",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "A.A.T.",
+					"Description": "[Turn End] Gain Petals\n[Turn End] Gain Fragile and Attack Power Up next turn",
+					"DamageType": "Evade",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Petals",
+						"Self Fragile",
+						"Attack Power Up"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "A Void that Cannot be Filled",
+						"Description": "Always Active: Begin Encounters with 6 Bullet - Solitude\nIf this unit has Bullet - Solitude, and the enemy has less than X SP or is Staggered at this unit or an ally's Attack End, use 'Bang. Bang.' as an Unopposed Attack against said enemy\nAttack End: At 0 Bullet - Solitude, use 'Stories that Never Cease' as an Unopposed Attack against the target and consume SP to Reload",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bullet - Solitude",
+							"Self Follow Up",
+							"Self SP Damage",
+							"Reload"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Unwithering Flower",
+					"Description": "Gain Petals if the enemy takes Sinking damage\nGain Petals equal to Faint Aroma inflicted every time enemies gain Faint Aroma\nGain Petals every time Tremor Burst is triggered regardless of the unit\nAttack Skill End: At X+ Petals, use 'Magnificent End' against the target with the highest Faint Aroma Stack\nDeal more damgage against Staggered targets based on Faint Aroma on said targets\nIf this unit lost X%+ HP this turn, heal HP and SP",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Petals",
+						"Self Follow Up",
+						"Heal HP",
+						"Heal SP"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Drifter",
+					"Description": "When the ally with the fastest Speed hits an enemy with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict Tremor and trigger Tremor Burst; reduce target's Tremor Count",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 5101,
 		"Sinner": "Meursault",
 		"Identity": "LCB Sinner",
@@ -18017,7 +18247,7 @@
 						"Charge Count",
 						"Tremor Potency",
 						"Tremor Burst",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Count",
 						"Spend Charge Count"
 					]
 				},
@@ -21208,6 +21438,188 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Bloodfeast"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 5000,
+		"Sinner": "Meursault",
+		"Identity": "Lobotomy E.G.O::Hornet [Alteration]",
+		"World": "???",
+		"Season": 8,
+		"IsWalpurgis": true,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Warning Shot",
+					"Description": "Deal more damage for every X Spore on target\n[Before Use] At max Spore Round [Base], inflict Pierce Fragility On Hit\n[On Use] Coin Power +X for every Y (Burn + Bleed) on target\n<1>Spend Spore Round [Base]\n[On Hit] Inflict Burn\n<2>Spend Spore Round [Nase]\n[On Hit] Inflict Bleed",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Pierce Fragility",
+						"Spend Spore Round [Base]",
+						"Burn Potency",
+						"Bleed Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "E.G.O Alteration - Buckshot",
+					"Description": "Deal less damage against sub-targets\nDeal more damage for every X Spore on target\n[On Use] If main target has X+ (Burn + Bleed), Coin Power +Y\n[On Use] If unit has Loyalty Pheromone, Clash Power +X\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with final Coin\n[Attack End] At X- Spore Round [Base], Reload [Germination]\n<1>Spend Spore Round [Buckshot]\n[On Hit] Inflict Burn Count\n<2>Spend Spore Round [Buckshot]\n[On Hit] Inflict Bleed Count\n<3>Spend Spore Round [Buckshot]\n[On Hit] Inflict Burn Count",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Reload [Germination]",
+						"Spend Spore Round [Buckshot]",
+						"Burn Count",
+						"Bleed Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Field Test - Dust Spark",
+					"Description": "Deal more damage based on excess Atk Weight beyond number of actual targets\nDeal more damage for every X Spore on target\n[Before Use] At X- Spore Round [Base], consume SP to gain Spore Round [Base]\n[On Use] Coin Power +X for every Y (Burn + Bleed) on main target\n[On Use] If unit has Loyalty Pheromone, Clash Power +X\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At X Loyalty pheromone, Atk Weight +Y\n[Attack End] Reload [Germination]\n<1>Coin only hits one target\nSpend Spore Round [Base]\n[On Hit] Inflict Burn\n<2>Coin only hits one target\nSpend Spore Round [Base]\n[On Hit] Inflict Bleed\n<3>Coin only hits one target\nSpend Spore Round [Base]\n[On Hit] Inflict Bleed\n<4>[Unbreakable Coin]\nSpend Spore Round [Buckshot]\nDeal less damage against sub-targets\nDeal more damage for every X Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / X) Wrath damage\n$- Counts as activating Burn\n$ Target loses X Burn Count\n$ Spore on target expires\n[On Hit] Inflict Burn Count and Bleed Count",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spore Round [Base]",
+						"Unbreakable Coin",
+						"Attack Weight Increase",
+						"Reload [Germination]",
+						"Spend Spore Round [Base]",
+						"Burn Potency",
+						"Bleed Potency",
+						"Spend Spore Round [Buckshot]",
+						"Spend Enemy Burn Count",
+						"Spend Spore",
+						"Burn Count",
+						"Bleed Count"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Spore Germination",
+					"Description": "[Combat Start] Reload [Germination]\n[On Evade Use] Coin Power +X for every Y (Burn + Bleed) on attacker\n[On Evade] Heal HP\n$ If unit has Loyalty Pheromone, heal additional X HP for every Y Stack",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Reload [Germination]",
+						"Heal HP"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "E.G.O Alteration / Spore Round",
+						"Description": "Always Active: Begin Encounters with Spre Round [Base] and Spore Round [Buckshot]\nOn Hit with Coins that spend Spore Round:\n$ If Spore Round [Base] was spent, inflict X Spore\n$ If Spore Round [Buckshot] was spent, inflict X Spore\n$ Counts as 'inflicting negative effects with the Skill'\nBefore Coin Use of a Coin that spends Spore Round [Buckshot], if unit does not have Spore Round [Buckshot], consume X SP and Y Spore Round [Base] to gain Spore Round [Buckshot]\nIf this unit runs out of Spore Round mid-Skill, cancel all subsequent Coins and Reload [Germination]\nWhen targets with Spore are killed, gain Loyalty Pheromones",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Spore Round [Base]",
+							"Spore Round [Buckshot]",
+							"Spore",
+							"Self SP Damage",
+							"Loyalty Pheromones"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Spore Diffusion",
+					"Description": "Against targets with Spore, gain the following On Kill:\n$ For the next turn, multiply Spore inflicted by X\n$ On Kill with a Base Attack Skill, gain (Spore Round the Skill spends / X) Spore Round",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Spore",
+						"Spore Round [Base]",
+						"Spore Round [Buckshot]"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Worker Bee",
+					"Description": "Ally Pierce Base Attack Skill End: The said ally heals X x (HP damage dealt with the attack) HP\n$ For this turn, if all Base Attack Skills equipped on allied Skill Slots are Pierce Skills, all allies heal SP at Turn End",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Heal HP",
+						"Ally Heal SP"
 					]
 				}
 			}
@@ -29060,7 +29472,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀",
-						"Description": "[Unfocused Volley]\nDeal +3% damage for every Burn on self (Max 60%)\nDeal +1% damage for every 2% (missing HP% on self + missing HP% on target) (Max 50%)\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)\n[On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets\n%If this is the final Coin, heal HP by the damage the above effect dealt",
+						"Description": "[Unfocused Volley]\nDeal +3% damage for every Burn on self (Max 60%)\nDeal +1% damage for every 2% (missing HP% on self + missing HP% on target) (Max 50%)\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)\n[On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets\n$ If this is the final Coin, heal HP by the damage the above effect dealt",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 5,
@@ -45732,7 +46144,7 @@
 					"MiscTags": [
 						"Self Tremor Count",
 						"Tremor Potency",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Tremor Count",
 						"Amplitude Conversion",
 						"Tremor - Chain",
@@ -45767,7 +46179,7 @@
 						"Spend Borrowed Time",
 						"Violent Collections",
 						"Tremor Count",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Self Tremor Count",
 						"Bind",
 						"Tremor Burst",
@@ -45876,7 +46288,7 @@
 					"MiscTags": [
 						"Self Tremor Count",
 						"Tremor Potency",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Tremor Count",
 						"Amplitude Conversion",
 						"Tremor - Chain",
@@ -45911,7 +46323,7 @@
 						"Spend Borrowed Time",
 						"Violent Collections",
 						"Tremor Count",
-						"Spend Enemy Tremor",
+						"Spend Enemy Tremor Potency",
 						"Self Tremor Count",
 						"Bind",
 						"Tremor Burst",

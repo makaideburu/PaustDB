@@ -3868,5 +3868,102 @@
 			"Coin Power",
 			"Damage Amp"
 		]
+	},
+	{
+		"Name": "Bullet - Solitude",
+		"Description": "Unique Ammo\nSpent by certain Skills\nThis Ammo cannot be gained from or increased due to external effects",
+		"Tags": [
+			"Unique Ammo"
+		]
+	},
+	{
+		"Name": "Solitude",
+		"Description": "Take more damage from Gloom Skills\nUnits with SP: Change their Panic Type to 'Solitude'\nUnits without SP: Gain Sinking Count at Turn End\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Tags": [
+			"Gloom Damage Amp",
+			"Change Panic Type",
+			"Sinking Count"
+		]
+	},
+	{
+		"Name": "Solitude (Low Morale)",
+		"Description": "Gain Sinking Count at Turn End",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Solitude (Panic)",
+		"Description": "Gain Sinking Count at Turn End",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Petals",
+		"Description": "Gain Offense Level for every X Stack\nCan be gained up to X Stack per turn",
+		"Tags": [
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Faint Aroma",
+		"Description": "Increase Stack if this unit has taken Sinking damage\nUpon Tremor Burst, apply Faint Aroma on other random allies\nAt max Stack, gain Tremor and trigger Tremor Burst on self; take Gloom damage equal to Sinking and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn\nIf this unit is killed, inflict (Remaining Faint Aroma on this unit / 2) randomly between this unit's allies",
+		"Tags": [
+			"Tremor Potency",
+			"Tremor Burst"
+		]
+	},
+	{
+		"Name": "Spore",
+		"Description": "Turn End: Gain Burn Count for every X Stack\nGain Bind next turn",
+		"Tags": [
+			"Burn Count",
+			"Bind"
+		]
+	},
+	{
+		"Name": "Loyalty Pheromone",
+		"Description": "Turn End: Gain Protection, Haste, and Clash Power Up based on Stack",
+		"Tags": [
+			"Protection",
+			"Haste",
+			"Clash Power Up"
+		]
+	},
+	{
+		"Name": "Spore Round [Base]",
+		"Description": "Unique Ammo\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict X Spore on target On Hit",
+		"Tags": [
+			"Unique Ammo",
+			"Spore"
+		]
+	},
+	{
+		"Name": "Spore Round [Buckshot]",
+		"Description": "Unique Ammo\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict X Spore on target On Hit",
+		"Tags": [
+			"Unique Ammo",
+			"Spore"
+		]
+	},
+	{
+		"Name": "Reload [Germination]",
+		"Description": "Effect applied to Spore Round (Unique Ammo)\nConsume ((X - Sum of Spore Round) / Y) SP, reset both Spore Round [Base] and Spore Round [Buckshot] to 0 Stacks, and gain both up to max Stacks",
+		"Tags": [
+			"Reload Unique Ammo",
+			"Self SP Damage"
+		]
+	},
+	{
+		"Name": "Rhythm",
+		"Description": "Deal more damage for every X Stack\nGain Offense Level for every X Stack\nLose Defense Level for every X Stack\nTurn End: This effect expires",
+		"Tags": [
+			"Damage Amp",
+			"Offense Level Up",
+			"Defense Level Down"
+		]
 	}
 ]

@@ -55,6 +55,13 @@
 		]
 	},
 	{
+		"entry": "party fragile",
+		"aliases": [
+			"self fragile",
+			"ally fragile"
+		]
+	},
+	{
 		"entry": "party e.g.o resource amp",
 		"aliases": [
 			"e.g.o resource amp",
@@ -748,6 +755,12 @@
 		"entry": "unique ammo",
 		"aliases": [
 			"ammo"
+		]
+	},
+	{
+		"entry": "reload unique ammo",
+		"aliases": [
+			"reload"
 		]
 	},
 	{
@@ -2458,6 +2471,110 @@
 		"aliases": [
 			"coin power",
 			"damage amp"
+		]
+	},
+	{
+		"entry": "bullet - solitude",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend bullet - solitude",
+		"aliases": [
+			"spend unique ammo"
+		]
+	},
+	{
+		"entry": "solitude",
+		"aliases": [
+			"gloom damage amp",
+			"change panic type",
+			"sinking count"
+		]
+	},
+	{
+		"entry": "petals",
+		"aliases": [
+			"offense level up"
+		]
+	},
+	{
+		"entry": "faint aroma",
+		"aliases": [
+			"tremor potency",
+			"tremor burst"
+		]
+	},
+	{
+		"entry": "spore round [base]",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend spore round [base]",
+		"aliases": [
+			"spend unique ammo",
+			"spore"
+		]
+	},
+	{
+		"entry": "spore round [buckshot]",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend spore round [buckshot]",
+		"aliases": [
+			"spend unique ammo",
+			"spore"
+		]
+	},
+	{
+		"entry": "reload [germination]",
+		"aliases": [
+			"reload unique ammo",
+			"self sp damage"
+		]
+	},
+	{
+		"entry": "spore",
+		"aliases": [
+			"burn count",
+			"bind"
+		]
+	},
+	{
+		"entry": "loyalty pheromone",
+		"aliases": [
+			"protection",
+			"haste",
+			"clash power up"
+		]
+	},
+	{
+		"entry": "rhythm",
+		"aliases": [
+			"damage amp",
+			"offense level up",
+			"self defense level down"
+		]
+	},
+	{
+		"entry": "ally rhythm",
+		"aliases": [
+			"ally damage amp",
+			"ally offense level up",
+			"ally defense level down"
+		]
+	},
+	{
+		"entry": "party rhythm",
+		"aliases": [
+			"rhythm",
+			"ally rhythm"
 		]
 	}
 ]

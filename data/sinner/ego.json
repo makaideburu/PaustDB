@@ -3617,6 +3617,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "In the Name of Love and Hate",
+          "DisplayName": "In the Name of Love and Hate - Major Arcana Slave!!!",
           "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 2)) random other allies (Max 4)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$ If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$ If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
@@ -3649,6 +3650,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "In the Name of Love and Hate",
+          "DisplayName": "Maximized Reversed Arcana Slave - Erasure of Hatred",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count spent (Max 50%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Reson (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$ If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
           "DamageType": "Blunt",
           "SinType": "Envy",
@@ -3689,6 +3691,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "In the Name of Love and Hate",
+          "DisplayName": "In the Name of Love and Hate - Major Arcana Slave!!!",
           "Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 3)) random other allies (Max 3)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
           "DamageType": "Blunt",
           "SinType": "Envy",
@@ -3721,6 +3724,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "In the Name of Love and Hate",
+          "DisplayName": "Maximized Reversed Arcana Slave - Erasure of Hatred",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count spent (Max 40%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Reson (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
           "DamageType": "Blunt",
           "SinType": "Envy",
@@ -7471,6 +7475,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "DisplayName": "Tears of the Tarnished Blood - Inception [始]",
           "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -7520,6 +7525,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "DisplayName": "Tears of the Tarnished Blood - Inception [始]",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n$ At 6+ Highest Reson, Atk Weight +2 instead\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -7555,6 +7561,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "DisplayName": "Tears of the Tarnished Blood - Inception [始]",
           "Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -7604,6 +7611,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Tears of the Tarnished Blood [汚血泣涙]",
+          "DisplayName": "Tears of the Tarnished Blood - Inception [始]",
           "Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Highest Reson, Atk Weight +1\n[Before Attack] Base Power -2 for every Cracked Coin (Max -8)\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture",
           "DamageType": "Pierce",
           "SinType": "Gluttony",
@@ -12621,6 +12629,106 @@
     ]
   },
   {
+    "Id": 11000,
+    "Sinner": "Sinclair",
+    "Grade": "HE",
+		"Season": 8,
+		"IsWalpurgis": true,  
+    "Sanity": 0,
+    "CorrosionSanity": 0,
+    "Abnormality": "Singing Machine",
+    "SinResist": {
+      "Wrath": -100,
+      "Lust": -100,
+      "Sloth": -100,
+      "Gluttony": -100,
+      "Gloom": -100,
+      "Pride": -100,
+      "Envy": -100
+    },
+    "Cost": {
+      "Wrath": 0,
+      "Lust": 0,
+      "Sloth": 0,
+      "Gluttony": 0,
+      "Gloom": 0,
+      "Pride": 0,
+      "Envy": 0
+    },
+    "ThreadspinTiers": [
+      {
+        "Tier": 4,
+        "Awakening": {
+          "SkillSlot": "EA0",
+          "Name": "Harmony",
+          "Description": "Clash Power +X for every Y (Burn + Bleed) on main target\nDeal more damage for every X% missing HP on self\nDeal less damage against sub-targets\n[On Target Kill] All allies gain Rhythm next turn\n[Attack End] Heal SP for (X + highest Reson) other allies with the least SP\n[Attack End] For X turns, lose SP at Combat End\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Burn\n<3>[Heads Hit] At X%+ HP, take Y HP damage\n$ Then, Reuse this Coin\n$ Does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict Burn\n[On Hit] Inflict Bleed\n[On Hit] 1 random ally gains Rhythm next turn",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "ClashPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Party Rhythm",
+            "Ally Heal SP",
+            "Self SP Damage",
+            "Bleed Potency",
+            "Burn Potency",
+            "Self HP Damage",
+            "Ally Rhythm"
+          ]
+        },
+        "Corrosion": {
+          "SkillSlot": "EC0",
+          "Name": "Harmony",
+          "Description": "[Indiscriminate] Targets randomly\nClash Power +X for every Y (Bleed + Burn) on main target\nDeal more damage for every X% missing HP on self\nDeal less damage against sub-targets\n[Before Attack] Atk Weight +X equal to (Highest Reson / X) (Rounded down)\n[Before Attack] Base Power -X for every Cracked Coin\n[Attack End] Heal SP for X other allies with the least SP\n[Attack End] All allies gain Rhythm, Wrath DMG Up, Lust DMG Up, Envy DMG Up, and Fragile next turn\n$ If target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<3>[Unbreakable Coin]\n[On Hit] At X%+ HP, take Y HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than X\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict Burn\n[On Hit] Inflict Bleed\n[On Hit] 1 random ally gains Rhythm next turn",
+          "DamageType": "Slash",
+          "SinType": "Wrath",
+          "BasePower": 0,
+          "CoinPower": 0,
+          "CoinCount": 3,
+          "Level": 0,
+          "BasePowerModifier": 0,
+          "FinalPowerModifier": 0,
+          "ClashPowerModifier": 0,
+          "CoinModifier": 0,
+          "CoinCountModifier": 0,
+          "AttackWeight": 1,
+          "AttackWeightMod": 1,
+          "MiscTags": [
+            "Attack Weight Increase",
+            "Party Rhythm",
+            "Party Wrath DMG Up",
+            "Party Lust DMG Up",
+            "Party Envy DMG Up",
+            "Party Fragile",
+            "Unbreakable Coin",
+            "Bleed Potency",
+            "Burn Potency",
+            "Self HP Damage",
+            "Ally Rhythm"
+          ]
+        },
+        "Passive": {
+          "Name": "That... was Indeed a Rhythm",
+          "Description": "Turn Start: Gain Rhythm\nOn Target Kill: This unit heals X% HP and heals SP\n$ If target was killed by E.G.O Skill - Harmony, multiply the amount this effect heals by X\nTurn End: If this unit lost SP this turn, heal (X + sum of Burn and Bleed on all enemies / Y) SP (Rounded down)",
+          "MiscTags": [
+            "SP Damage",
+            "Self SP Damage",
+            "Gain Resources"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "Id": 11401,
     "Sinner": "Sinclair",
     "Grade": "WAW",
@@ -15314,6 +15422,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "Unbrilliant Glory",
+          "DisplayName": "Unbrilliant Glory - Flowing",
           "Description": "[Unclashable]\nWhen used for the first time in battle, consume 1 fewer Wrath, 2 fewer Sloth, 1 fewer Pride E.G.O resources\nAt 1+ Man in Scabbard, activate Unbrilliant Glory - Incandescence instead\nThis Skill does not hit an enemy or trigger Defense Skills, external effects cannot trigger Skill Reuse\n[After Attack] Gain 1 Man in Scabbard\n[After Attack] Heal 25 SP\n[After Attack] Gain 2 Offense Level Up and 1 Damage Up next turn",
           "DamageType": "Slash",
           "SinType": "Sloth",
@@ -15375,6 +15484,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Unbrilliant Glory",
+          "DisplayName": "Unbrilliant Glory - Flowing",
           "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +30% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$ 10, gain Defense Level Up (Once per turn)\n$ 40, deal +160% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Sloth",
@@ -15418,6 +15528,7 @@
         "Awakening": {
           "SkillSlot": "EA0",
           "Name": "Unbrilliant Glory",
+          "DisplayName": "Unbrilliant Glory - Flowing",
           "Description": "[Unclashable]\nWhen used for the first time in battle, consume 1 fewer Wrath, 2 fewer Sloth, 1 fewer Pride E.G.O resources\nAt 1+ Man in Scabbard, activate Unbrilliant Glory - Incandescence instead\nThis Skill does not hit an enemy or trigger Defense Skills, external effects cannot trigger Skill Reuse\n[After Attack] Gain 1 Man in Scabbard\n[After Attack] Heal 25 SP\n[After Attack] Gain 2 Offense Level Up next turn",
           "DamageType": "Slash",
           "SinType": "Sloth",
@@ -15478,6 +15589,7 @@
         "Corrosion": {
           "SkillSlot": "EC0",
           "Name": "Unbrilliant Glory",
+          "DisplayName": "Unbrilliant Glory - Flowing",
           "Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, final Coin deals +25% damage (Once per Coin)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, for every (rounded down):\n$ 10, gain Defense Level Up (Once per turn)\n$ 40, deal +130% damage with the final Coin; gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If Skill spent 40 Man in Scabbard, leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
           "DamageType": "Slash",
           "SinType": "Sloth",
