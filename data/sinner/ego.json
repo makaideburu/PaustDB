@@ -12720,9 +12720,8 @@
           "Name": "That... was Indeed a Rhythm",
           "Description": "Turn Start: Gain Rhythm\nOn Target Kill: This unit heals X% HP and heals SP\n$ If target was killed by E.G.O Skill - Harmony, multiply the amount this effect heals by X\nTurn End: If this unit lost SP this turn, heal (X + sum of Burn and Bleed on all enemies / Y) SP (Rounded down)",
           "MiscTags": [
-            "SP Damage",
-            "Self SP Damage",
-            "Gain Resources"
+            "Heal HP",
+            "Heal SP"
           ]
         }
       }
