@@ -3871,14 +3871,14 @@
 	},
 	{
 		"Name": "Bullet - Solitude",
-		"Description": "Unique Ammo\nSpent by certain Skills\nThis Ammo cannot be gained from or increased due to external effects",
+		"Description": "Unique Ammo\nMax Capacity: 6\nSpent by certain Skills\nThis Ammo cannot be gained from or increased due to external effects",
 		"Tags": [
 			"Unique Ammo"
 		]
 	},
 	{
 		"Name": "Solitude",
-		"Description": "Take more damage from Gloom Skills\nUnits with SP: Change their Panic Type to 'Solitude'\nUnits without SP: Gain Sinking Count at Turn End\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Description": "Take +10% damage from Gloom Skills\nUnits with SP: Change their Panic Type to 'Solitude'\nUnits without SP: Gain +2 Sinking Count at Turn End\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
 		"Tags": [
 			"Gloom Damage Amp",
 			"Change Panic Type",
@@ -3887,7 +3887,7 @@
 	},
 	{
 		"Name": "Solitude (Low Morale)",
-		"Description": "Gain Sinking Count at Turn End",
+		"Description": "Gain +2 Sinking Count at Turn End",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -3895,7 +3895,7 @@
 	},
 	{
 		"Name": "Solitude (Panic)",
-		"Description": "Gain Sinking Count at Turn End",
+		"Description": "Gain +3 Sinking Count at Turn End",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -3903,14 +3903,14 @@
 	},
 	{
 		"Name": "Petals",
-		"Description": "Gain Offense Level for every X Stack\nCan be gained up to X Stack per turn",
+		"Description": "Max Stack: 30\nOffense Level +1 for every 10 Stack\nCan gain up to 15 Stack per turn",
 		"Tags": [
 			"Offense Level Up"
 		]
 	},
 	{
 		"Name": "Faint Aroma",
-		"Description": "Increase Stack if this unit has taken Sinking damage\nUpon Tremor Burst, apply Faint Aroma on other random allies\nAt max Stack, gain Tremor and trigger Tremor Burst on self; take Gloom damage equal to Sinking and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn\nIf this unit is killed, inflict (Remaining Faint Aroma on this unit / 2) randomly between this unit's allies",
+		"Description": "Max Stack: 30\nGain 1 Stack if this unit has taken Sinking damage\nUpon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies/Parts\nAt max Stack, gain 2 Tremor and trigger Tremor Burst on self; take Gloom damage equal to Sinking and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn\nIf this unit is killed, inflict (Remaining Faint Aroma on this unit / 2) randomly between this unit's allies (Rounded down)",
 		"Tags": [
 			"Tremor Potency",
 			"Tremor Burst"
@@ -3918,7 +3918,7 @@
 	},
 	{
 		"Name": "Spore",
-		"Description": "Turn End: Gain Burn Count for every X Stack\nGain Bind next turn",
+		"Description": "Max Stack: 15\nTurn End: Gain +1 Burn Count for every 5 Stack\nGain 1 Bind next turn",
 		"Tags": [
 			"Burn Count",
 			"Bind"
@@ -3926,7 +3926,7 @@
 	},
 	{
 		"Name": "Loyalty Pheromone",
-		"Description": "Turn End: Gain Protection, Haste, and Clash Power Up based on Stack",
+		"Description": "Max Stack: 3\nGain the following based on Stack at Turn End:\n$ 1+ Stack: 1 Protection\n$ 2+ Stack: 1 Haste\n$ 3 Stack: 1 Clash Power Up",
 		"Tags": [
 			"Protection",
 			"Haste",
@@ -3935,7 +3935,7 @@
 	},
 	{
 		"Name": "Spore Round [Base]",
-		"Description": "Unique Ammo\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict X Spore on target On Hit",
+		"Description": "Unique Ammo\nMax Stack: 10\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict 2 Spore on target On Hit",
 		"Tags": [
 			"Unique Ammo",
 			"Spore"
@@ -3943,7 +3943,7 @@
 	},
 	{
 		"Name": "Spore Round [Buckshot]",
-		"Description": "Unique Ammo\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict X Spore on target On Hit",
+		"Description": "Unique Ammo\nMax Stack: 6\nSpent when using certain Skills\nSome attacks cancel if lacking Ammo\nWhen spent, inflict 3 Spore on target On Hit",
 		"Tags": [
 			"Unique Ammo",
 			"Spore"
@@ -3951,7 +3951,7 @@
 	},
 	{
 		"Name": "Reload [Germination]",
-		"Description": "Effect applied to Spore Round (Unique Ammo)\nConsume ((X - Sum of Spore Round) / Y) SP, reset both Spore Round [Base] and Spore Round [Buckshot] to 0 Stacks, and gain both up to max Stacks",
+		"Description": "Effect applied to Spore Round (Unique Ammo)\nConsume ((16 - Sum of Spore Round) / 2) SP, reset both Spore Round [Base] and Spore Round [Buckshot] to 0 Stacks, and gain both up to max Stacks",
 		"Tags": [
 			"Reload Unique Ammo",
 			"Self SP Damage"
@@ -3959,7 +3959,7 @@
 	},
 	{
 		"Name": "Rhythm",
-		"Description": "Deal more damage for every X Stack\nGain Offense Level for every X Stack\nLose Defense Level for every X Stack\nTurn End: This effect expires",
+		"Description": "Max Stack: 5\nDeal +2% damage for every Stack\nOffense Level +1 for every Stack\nDefense Level -1 for every Stack\nTurn End: This effect expires",
 		"Tags": [
 			"Damage Amp",
 			"Offense Level Up",
