@@ -17296,7 +17296,7 @@
 		]
 	},
 	{
-		"Id": 4000,
+		"Id": 4309,
 		"Sinner": "Ryōshū",
 		"Identity": "Lobotomy E.G.O::Faint Aroma & Solitude",
 		"World": "???",
@@ -17307,10 +17307,11 @@
 			"E.G.O Gear"
 		],
 		"Speed": "3~7",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 75,
+		"GrowthHP": 2.17,
 		"StaggerThresholds": [
-			0
+			65,
+			35
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -21660,10 +21661,10 @@
 		]
 	},
 	{
-		"Id": 5000,
+		"Id": 5309,
 		"Sinner": "Meursault",
 		"Identity": "Lobotomy E.G.O::Hornet [Alteration]",
-		"World": "???",
+		"World": "Lobotomy Corporation Headquarters - 1",
 		"Season": 8,
 		"IsWalpurgis": true,  
 		"Traits": [
@@ -21671,10 +21672,11 @@
 			"E.G.O Gear"
 		],
 		"Speed": "4~8",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 72,
+		"GrowthHP": 2.62,
 		"StaggerThresholds": [
-			0
+			65,
+			35
 		],
 		"Rarity": 3,
 		"DamageResist": {
