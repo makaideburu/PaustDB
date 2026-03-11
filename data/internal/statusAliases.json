@@ -1853,7 +1853,7 @@
 		"aliases": [
 			"min speed",
 			"max speed",
-			"base power"
+			"base power up"
 		]
 	},
 	{
@@ -2575,6 +2575,14 @@
 		"aliases": [
 			"rhythm",
 			"ally rhythm"
+		]
+	},
+	{
+		"entry": "desperado",
+		"aliases": [
+			"clash power up",
+			"base power up",
+			"coin power"
 		]
 	}
 ]

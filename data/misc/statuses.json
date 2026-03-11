@@ -3965,5 +3965,14 @@
 			"Offense Level Up",
 			"Defense Level Down"
 		]
+	},
+	{
+		"Name": "Desperado",
+		"Description": "Max Stack: 2\nFor every Stack, Base Attack Skill Clash Power +1, Base Power +1\nAt 2 Stack, Base Attack Skill Plus Coin Power +1, Minus Coin Power -1\nExpires at Turn End",
+		"Tags": [
+			"Clash Power Up",
+			"Base Power Up",
+			"Coin Power"
+		]
 	}
 ]
