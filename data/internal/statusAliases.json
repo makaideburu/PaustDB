@@ -62,6 +62,13 @@
 		]
 	},
 	{
+		"entry": "field fragile",
+		"aliases": [
+			"fragile",
+			"party fragile"
+		]
+	},
+	{
 		"entry": "party e.g.o resource amp",
 		"aliases": [
 			"e.g.o resource amp",
@@ -2583,6 +2590,34 @@
 			"clash power up",
 			"base power up",
 			"coin power"
+		]
+	},
+	{
+		"entry": "hyped-up",
+		"aliases": [
+			"wrath damage amp",
+			"lust damage amp",
+			"self raise stagger threshold"
+		]
+	},
+	{
+		"entry": "pheromone",
+		"aliases": [
+			"aggro",
+			"burn potency"
+		]
+	},
+	{
+		"entry": "pheromone mark",
+		"aliases": [
+			"damage amp"
+		]
+	},
+	{
+		"entry": "pink petals",
+		"aliases": [
+			"gloom damage amp",
+			"sinking count"
 		]
 	}
 ]

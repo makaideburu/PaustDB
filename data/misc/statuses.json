@@ -3974,5 +3974,37 @@
 			"Base Power Up",
 			"Coin Power"
 		]
+	},
+	{
+		"Name": "Hyped-up",
+		"Description": "Max Stack: 3\nFor every Stack, deal +5% damage with Wrath and Lust Skills\nWhen hit, raise this unit's Stagger Threshold by (5 x Stack)\nExpires at Turn End",
+		"Tags": [
+			"Wrath Damage Amp",
+			"Lust Damage Amp",
+			"Self Raise Stagger Threshold"
+		]
+	},
+	{
+		"Name": "Pheromone",
+		"Description": "Gain +10 Aggro\nWhen hit, inflict 3 Burn on target",
+		"Tags": [
+			"Aggro",
+			"Burn Potency"
+		]
+	},
+	{
+		"Name": "Pheromone Mark",
+		"Description": "For every 3 Burn on self, take +1% damage when hit (Max 20%)\nExpires at Turn End",
+		"Tags": [
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Pink Petals",
+		"Description": "Max Stack: 30\nFor every Stack, take +1% damage when hit by Gloom Skills (Max 15%)\nFor every 10 Stack, gain +1 Sinking Count when hit (2 times per turn)\nWhen Tremor Burst is triggered on this unit, take ((Sinking Potency + Pink Petals) / 5) Gloom damage\nTurn End: Lose 1 Stack",
+		"Tags": [
+			"Gloom Damage Amp",
+			"Sinking Count"
+		]
 	}
 ]

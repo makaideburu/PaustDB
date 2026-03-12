@@ -10534,7 +10534,7 @@
 	{
 		"Name": "Staticky Two-way Radio",
 		"Tag": "Sinking",
-		"Abnormality": "Theme Pack: *The Dusk of Amber**",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
 		"Affinity": "Gloom",
 		"Tier": 3,
 		"Cost": 251,
@@ -10558,7 +10558,7 @@
 	{
 		"Name": "Beak-shaped Necklace",
 		"Tag": "Bleed",
-		"Abnormality": "Theme Pack: *The Dusk of Amber**",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
 		"Affinity": "Lust",
 		"Tier": 3,
 		"Cost": 249,
@@ -10605,22 +10605,161 @@
 		]
 	},
 	{
-		"Name": "Beak-shaped Necklace",
+		"Name": "Harmonics",
 		"Tag": "Bleed",
-		"Abnormality": "Theme Pack: *The Dusk of Amber**",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
 		"Affinity": "Lust",
 		"Tier": 3,
-		"Cost": 249,
+		"Cost": 196,
 		"Upgrades": [
 			{
-				"Description": "On Use with a Skill that gains or spends Ammo: Gain 1 Haste and 1 Attack Power Up next turn (Once per turn per Identity)\n$ For Skills that inflict Bleed, Bleed Count, or Unique Bleed, deal +(20 / # of Coins)% damage",
+				"Description": "When an ally or an enemy dies in a turn, all units gain 1 Fragile next turn (Once per Wave)\n$ On Ally Clash Win in the same turn where all units gained Fragile due to the above effect, all allies lose 1 Fragile and inflict 4 Bleed and +2 Bleed Count against all enemies (Once per turn)",
 				"Rank": 1,
 				"MiscTags": [
-					"Blessed Gift",
-					"Min Speed",
-					"Max Speed",
-					"Final Power",
-					"Bind"
+					"Field Fragile",
+					"Bleed Potency",
+					"Bleed Count"
+				]
+			},
+			{
+				"Description": "When an ally or an enemy dies in a turn, all units gain 2 Fragile next turn (Once per Wave)\n$ On Ally Clash Win in the same turn where all units gained Fragile due to the above effect, all allies lose 1 Fragile and inflict 4 Bleed and +2 Bleed Count against all enemies (2 times per turn)",
+				"Rank": 2,
+				"MiscTags": [
+					"Field Fragile",
+					"Bleed Potency",
+					"Bleed Count"
+				]
+			},
+			{
+				"Description": "When an ally or an enemy dies in a turn, all units gain 3 Fragile next turn (Once per Wave)\n$ On Ally Clash Win in the same turn where all units gained Fragile due to the above effect, all allies lose 1 Fragile and inflict 4 Bleed and +2 Bleed Count against all enemies (3 times per turn)",
+				"Rank": 3,
+				"MiscTags": [
+					"Field Fragile",
+					"Bleed Potency",
+					"Bleed Count"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Walking Bass",
+		"Tag": "Bleed",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
+		"Affinity": "Lust",
+		"Tier": 2,
+		"Cost": 200,
+		"Upgrades": [
+			{
+				"Description": "[Effects apply to #3 Deployed Identity]\nTurn Start: Gain 1 Hyped-up\nOn Hit, 25% chance to apply 1 Hyped-up on self and 1 random ally\n$ If it was a Skill that inflicts Bleed or Burn (Potency, Count, or Unique), raise the chance to 50%",
+				"Rank": 1,
+				"MiscTags": [
+					"Hyped-up"
+				]
+			},
+			{
+				"Description": "[Effects apply to #3, #4 Deployed Identity]\nTurn Start: Gain 1 Hyped-up\nOn Hit, 25% chance to apply 1 Hyped-up on self and 1 random ally\n$ If it was a Skill that inflicts Bleed or Burn (Potency, Count, or Unique), raise the chance to 75%",
+				"Rank": 2,
+				"MiscTags": [
+					"Hyped-up"
+				]
+			},
+			{
+				"Description": "[Effects apply to #3, #4 Deployed Identity]\nTurn Start: Gain 1 Hyped-up\nOn Hit, 25% chance to apply 1 Hyped-up on self and 1 random ally\n$ If it was a Skill that inflicts Bleed or Burn (Potency, Count, or Unique), raise the chance to 100%",
+				"Rank": 3,
+				"MiscTags": [
+					"Hyped-up"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Still-warm Coffee",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
+		"Affinity": "Pride",
+		"Tier": 3,
+		"Cost": 150,
+		"Upgrades": [
+			{
+				"Description": "[Effects apply to #1 Deployed Identity]\nTurn End after using an Attack Skill: Heal 5 SP\n$ Then, if the affected unit is at max HP and is a Lobotomy Corp. Identity, gain 1 Plus Coin Boost next turn",
+				"Rank": 1,
+				"MiscTags": [
+					"Plus Coin Boost"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Royal Jelly Perfume",
+		"Tag": "Burn",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
+		"Affinity": "Wrath",
+		"Tier": 3,
+		"Cost": 250,
+		"Upgrades": [
+			{
+				"Description": "[Effects apply to #6 Deployed Identity]\nEncounter Start: Gain Pheromone\nTake -15% damage from enemies with Burn\nTurn End: Inflict Pheromone Mark next turn against the enemy (Focused Encounters, the Part) that dealt the most damage to this unit\n$ If allies did not take any damage from enemies, inflict Pheromone Mark next turn against 1 random enemy/Part",
+				"Rank": 1,
+				"MiscTags": [
+					"Pheromone",
+					"Damage Reduction",
+					"Pheromone Mark"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Pink Petals",
+		"Tag": "Sinking",
+		"Abnormality": "Theme Pack: *The Dusk of Amber*",
+		"Affinity": "Pride",
+		"Tier": 3,
+		"Cost": 250,
+		"Upgrades": [
+			{
+				"Description": "On Hit by an ally with a Skill that inflict Sinking, Sinking Count, or Unique Sinking, inflict 1 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (Max 4)",
+				"Rank": 1,
+				"MiscTags": [
+					"Pink Petals"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Pink Bouquet",
+		"Tag": "Sinking",
+		"Abnormality": "Fusion: ||Once, A Blessing + Reverberation + Pink Petals||",
+		"Affinity": "Pride",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "On Hit with a Pierce Skill against an enemy: Gain 1 Haste and 1 Pierce DMG Up next turn (2 times per turn per Identity)\n$ On enemy Kill with said Skill: Gain 1 additional Haste and 2 additional Pierce DMG Up next turn (Once per turn per Identity)\nOn Hit by an ally with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 2 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (Max 4)\n$ If the enemy has 10+ Pink Petals, inflict 2 Tremor On Hit (3 times per turn)\nTurn End: Inflict 2 Bind and 3 Defense Level Down next turn against enemies/Parts with 5+ (Sinking + Tremor)\n$ If target has 10+ (Sinking + Tremor), inflict 2 Bind, 1 Paralyze, and 4 Defense Level Down instead\nTurn End: If all enemies have remaining Pink Petals Stack, all allies gain 1 Attack Power Up next turn",
+				"Rank": 1,
+				"MiscTags": [
+					"Haste",
+					"Pierce DMG Up",
+					"Pink Petals",
+					"Tremor Potency",
+					"Bind",
+					"Defense Level Down",
+					"Paralyze",
+					"Attack Power Up"
 				]
 			}
 		],
