@@ -2619,5 +2619,24 @@
 			"gloom damage amp",
 			"sinking count"
 		]
+	},
+	{
+		"entry": "high-voltage exoskeleton",
+		"aliases": [
+			"shield",
+			"charge count"
+		]
+	},
+	{
+		"entry": "self-charge",
+		"aliases": [
+			"final power"
+		]
+	},
+	{
+		"entry": "embers",
+		"aliases": [
+			"burn proc"
+		]
 	}
 ]

@@ -3726,7 +3726,7 @@
 	},
 	{
 		"Name": "Sizzling Wound",
-		"Description": "Offense Level +3, Defense Level -3\nTake -25%% damage from Unopposed Attacks\nTurn Start: Gain 1 Burn and 1 Bleed\nDeal +15% damage with Base Attack Skill's Unbreakable Coins",
+		"Description": "Offense Level +3, Defense Level -3\nTake -25% damage from Unopposed Attacks\nTurn Start: Gain 1 Burn and 1 Bleed\nDeal +15% damage with Base Attack Skill's Unbreakable Coins",
 		"Tags": [
 			"Offense Level Up",
 			"Self Defense Level Down",
@@ -4005,6 +4005,34 @@
 		"Tags": [
 			"Gloom Damage Amp",
 			"Sinking Count"
+		]
+	},
+	{
+		"Name": "High-Voltage Exoskeleton",
+		"Description": "Gain (X x Y) Shield\nIf this unit loses (X x Y) Shield, lose High-Voltage Exoskeleton Stack\nTurn End: Gain Charge Count equal to High-Voltage Exoskeleton; both High-Voltage Exoskeleton and Shield gained from its effect expire",
+		"Tags": [
+			"Shield",
+			"Charge Count"
+		]
+	},
+	{
+		"Name": "Charged Sting",
+		"Description": "Take +X% damage from Skills that gain or consume Charge Count (Including Unique Charge) for every Stack\n$ For Envy Skills, strengthen this effect and take +Y% damage for every Stack instead\nLose Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (Excluding Base Attack Skills that inflict Charged Sting)",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Self-Charge",
+		"Description": "Final Power +X\nGain Charge Count equal to Stack lost\nLose X Stack at:\n$ Attack End of Skills that hit this unit\n$ Attack End\n$ Turn End\nThis unit's HP cannot drop below 1 before this effect expires",
+		"Tags": [
+			"Final Power Up"
+		]
+	},
+	{
+		"Name": "Embers",
+		"Description": "If this unit has Burn, lose Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn\nIf this unit does not have Burn, reset Embers Count when hit by a Skill that inflicts Burn, Burn Count, or Unique Burn\nAt X Embers Count, activate the following:\n$ Activate Burn on self and lose Burn Count\n$ Lose Embers Potency\n$ At Y+ remaining Embers Potency, reset Embers Count",
+		"Tags": [
+			"Burn Proc"
 		]
 	}
 ]

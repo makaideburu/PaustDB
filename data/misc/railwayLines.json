@@ -3338,7 +3338,7 @@
 			},
 			{
 				"Id": 9,
-				"Name": "Section #3: Forgery (1/2)",
+				"Name": "Section #3: Forgery",
 				"Waves": [
 					{
 						"WaveNumber": 1,
@@ -3452,15 +3452,9 @@
 								}
 							}
 						]
-					}
-				]
-			},
-			{
-				"Id": -1,
-				"Name": "Section #3: Forgery (1.2)",
-				"Waves": [
+					},
 					{
-						"WaveNumber": 1,
+						"WaveNumber": 2,
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - Seven Association South Section 6 Director Outis",
@@ -3661,7 +3655,7 @@
 			},
 			{
 				"Id": 12,
-				"Name": "Section #4: Adamantine Wall (1/2)",
+				"Name": "Section #4: Adamantine Wall",
 				"Waves": [
 					{
 						"WaveNumber": 1,
@@ -3775,15 +3769,9 @@
 								}
 							}
 						]
-					}
-				]
-			},
-			{
-				"Id": -1,
-				"Name": "Section #4: Adamantine Wall (2/2)",
-				"Waves": [
+					},
 					{
-						"WaveNumber": 1,
+						"WaveNumber": 2,
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - Dead Rabbits Boss Meursault",
@@ -4310,7 +4298,7 @@
 			},
 			{
 				"Id": 6,
-				"Name": "Section #2: Rampage (1/2)",
+				"Name": "Section #2: Rampage",
 				"Waves": [
 					{
 						"WaveNumber": 1,
@@ -4424,15 +4412,9 @@
 								}
 							}
 						]
-					}
-				]
-			},
-			{
-				"Id": -1,
-				"Name": "Section #2: Rampage (2/2)",
-				"Waves": [
+					},
 					{
-						"WaveNumber": 1,
+						"WaveNumber": 2,
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Magic Bullet Outis",

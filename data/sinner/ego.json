@@ -2313,6 +2313,102 @@
 		]
 	},
 	{
+		"Id": 2000,
+		"Sinner": "Faust",
+		"Grade": "HE",
+		"Season": 7,
+		"Sanity": 0,
+		"CorrosionSanity": 0,
+		"Abnormality": "Ardor Blossom Moth",
+		"SinResist": {
+			"Wrath": -100,
+			"Lust": -100,
+			"Sloth": -100,
+			"Gluttony": -100,
+			"Gloom": -100,
+			"Pride": -100,
+			"Envy": -100
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 0,
+			"Pride": 0,
+			"Envy": 0
+		},
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Ardor Blossom Star",
+					"Description": "[Before Attack] Final Power +X for every Y (Burn on all targets + Burn on self)\n[Attack End] Gain Burn and Burn Count\n[Attack End] At X+ Burn, gain Wrath DMG Up next turn\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Burn equal to (Wrath Reson / X)\n<2>[On Hit] Inflict Burn Count equal to (Wrath Reson)\n[After Current Coin Attack] At X+ Burn, inflict Embers on all targets",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Burn Potency",
+						"Self Burn Count",
+						"Wrath DMG Up",
+						"Burn Potency",
+						"Burn Count",
+						"Embers"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Ardor Blossom Star",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Final Power +X for every Y (Burn on all targets + Burn on self)\n[Attack End] Gain Burn and Burn Count\n[Attack End] At X+ Burn, gain Wrath DMG Up next turn\n[Attack End] If this unit is missing X%+ HP, heal SP for every Y Burn on self\n<1>[On Hit] Inflict Burn Count\n[On Hit] Inflict Burn Count equal to (Wrath Reson / X)\n<2>[On Hit] Inflict Burn Count\n[On Hit] Inflict Burn equal to (Wrath Reson / X)\n[After Current Coin Attack] Randomly inflict Embers between targets",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Self Burn Potency",
+						"Self Burn Count",
+						"Wrath DMG Up",
+						"Heal SP",
+						"Burn Count",
+						"Burn Potency",
+						"Embers"
+					]
+				},
+				"Passive": {
+					"Name": "Unsnuffed Embers",
+					"Description": "This effect triggers immediately after using E.G.O Skill\nFor every X Burn on self, increase Burn Potency inflicted on enemies with this unit's Base Attack Skill effects and Coin effects\nWhen this unit uses 'A.B.S Max Attunement [Degraded Corrosion]' Skill, it does not die at the Skill's Attack End; instead, heal X% HP and gain Blunt DMG Up and Wrath DMG Up next turn",
+					"MiscTags": [
+						"Burn Potency",
+						"Heal HP",
+						"Blunt DMG Up",
+						"Wrath DMG Up"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 2401,
 		"Sinner": "Faust",
 		"Grade": "WAW",

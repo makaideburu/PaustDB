@@ -13033,7 +13033,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Procuration: Annihilate",
-						"Description": "If this Skill is marked with Mark of the Prescript, deal +25% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal Unlock stage\n[After Attack] Lose 15 SP (2 times per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<4>[Unbreakable Coin]\nCoin gains Power +1 and deals +40% damage for every Unlock stage\n[On Hit] Inflict 1 Sinking\n[On Crit] Inflict +2 Sinking Count",
+						"Description": "If this Skill is marked with Mark of the Prescript, deal +25% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal to Unlock stage\n[After Attack] Lose 15 SP (2 times per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Sinking\n<4>[Unbreakable Coin]\nCoin gains Power +1 and deals +40% damage for every Unlock stage\n[On Hit] Inflict 1 Sinking\n[On Crit] Inflict +2 Sinking Count",
 						"DamageType": "Slash",
 						"SinType": "Gloom",
 						"BasePower": 5,
@@ -17424,7 +17424,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Magnificent End",
-						"Description": "[Unclashable]\nExternal effects cannot trigger Skill Reuse\nDeal +30% damage for every excess Atk Weight beyond number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 5 (Sum of Faint Aroma on all targets) (Max 6)\n[Attack End] Lose all Petals on self\n<1>[On Hit] Inflict 5 Faint Aroma\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to Sinking on target",
+						"Description": "[Unclashable]\nExternal effects cannot trigger Skill Reuse\nDeal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 5 (Sum of Faint Aroma on all targets) (Max 6)\n[Attack End] Lose all Petals on self\n<1>[On Hit] Inflict 5 Faint Aroma\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to Sinking on target",
 						"DamageType": "Pierce",
 						"SinType": "Gloom",
 						"BasePower": 12,
@@ -17634,7 +17634,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Magnificent End",
-						"Description": "[Unclashable]\nExternal effects cannot trigger Skill Reuse\nDeal +30% damage for every excess Atk Weight beyond number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 5 (Sum of Faint Aroma on all targets) (Max 6)\n[Attack End] Lose all Petals on self\n<1>[On Hit] Inflict 5 Faint Aroma\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to Sinking on target",
+						"Description": "[Unclashable]\nExternal effects cannot trigger Skill Reuse\nDeal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 5 (Sum of Faint Aroma on all targets) (Max 6)\n[Attack End] Lose all Petals on self\n<1>[On Hit] Inflict 5 Faint Aroma\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to Sinking on target",
 						"DamageType": "Pierce",
 						"SinType": "Gloom",
 						"BasePower": 12,
@@ -21740,7 +21740,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Field Test - Dust Spark",
-					"Description": "Deal +50% damage based on excess Atk Weight beyond number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2- Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on main target (Max 3)\n[On Use] If unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
+					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2- Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on main target (Max 3)\n[On Use] If unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -44630,8 +44630,8 @@
 					"Description": "When attacking a target with a damage type the target is 'Weak' or 'Fatal' to, deal +10% damage",
 					"PassiveResources": [
 						{
-							"ResourceSin": "Pride",
-							"ResourceCount": 2
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
 						}
 					],
 					"ResourceType": "Res",
@@ -44747,8 +44747,8 @@
 					"Description": "When attacking a target with a damage type the target is 'Weak' or 'Fatal' to, deal +10% damage",
 					"PassiveResources": [
 						{
-							"ResourceSin": "Pride",
-							"ResourceCount": 2
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 3
 						}
 					],
 					"ResourceType": "Res",
@@ -51173,6 +51173,225 @@
 					"MiscTags": [
 						"Ally Aggro",
 						"Ally Blunt DMG Up"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 13000,
+		"Sinner": "Gregor",
+		"Identity": "LCE E.G.O::AEDD",
+		"World": "???",
+		"Season": 7,
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Electric Release",
+					"Description": "[On Use] Deal more damage for every Charge on self\n[On Use] At X+ Charge, Coin Power +Y\n[On Use] Clash Power +X for every Y Charge Count\n[On Use] At X- Charge Count, gain Charge Count\n<1>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture\n<2>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "DC Inversion",
+					"Description": "[On Use] Deal more damage for every Charge on self\n[On Use] At X+ Charge, Coin Power +Y\n$ At Y+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At X+ Charge Count, consume Y Charge Count to gain Base Power +Z\n<1>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture Count\n<2>[On Hit] Gain Charge Count equal to (Charge + X)\n[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Photoelectricity\n$ At X+ Charge, inflict more Photoelectricity instead",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Count",
+						"Rupture Potency",
+						"Photoelectricity"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "High-voltage Current Discharge",
+					"Description": "[Combat Start] Gain High-Voltage Exoskeleton equal to Charge\n[Before Use] At X+ Charge, activate as 'Maximum Output - Ultra High-voltage Current Discharge'\n[On Use] At X+ Charge, Coin Power +Y\n$ At Z+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At X+ Charge Count, consume Y Charge Count and gain Coin Power +Z\n<1>[On Use] Gain Charge Count\n<2>[On Hit] Gain Charge Count\n<3>[On Hit] Inflict Rupture and Rupture Count\n[On Hit] Inflict Photoelectricity\n$ At X+ Charge, inflict more Photoelectricity instead\n[On Hit] Inflict Charged Sting equal to Charge on self\n$ At X+ Charge, inflict Charged Sting this turn and next turn instead",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"High-Voltage Exoskeleton",
+						"Skill Change",
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Potency",
+						"Rupture Count",
+						"Photoelectricity",
+						"Charged Sting"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Maximum Output - Ultra High-Voltage Current Discharge",
+						"Description": "Deal more damage for every X excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] At X+ Charge, Coin Power +Y\n[On Use] At X+ Charge Count, consume X Charge Count to gain Base Power and Coin Power\n$ If there is any remaining Charge Count, consume up to X Charge Count to deal +(Additional Charge Count consumed x Y)% damage\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict Photoelectricity\n[On Hit] Inflict Charged Sting equal to Charge on self\n$ At X+ Charge, inflict Charged Sting this turn and next turn instead",
+						"DamageType": "Slash",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Charge Count",
+							"Unbreakable Coin",
+							"Rupture Count",
+							"Rupture Potency",
+							"Photoelectricity",
+							"Charged Sting"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "This E.G.O Gift's Defensive Capability is Uniquely Superior",
+					"Description": "[Combat Start] Gain High-Voltage Exoskeleton\n[On Use] Gain Coin Power equal to Charge on self\n[On Use] Gain Charge Count\n[On Use] Gain Aggro to this Skill Slot",
+					"DamageType": "Defend",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"High-Voltage Exoskeleton",
+						"Charge Count",
+						"Aggro"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Undying Persistence",
+						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAny Charge Barrier this unit gains is converted to High-voltage Exoskeleton\nAt X+ Charge on self, Min & Max Speed +Y\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain Self-Charge equal to (X + Charge on self x Y)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Charge Potency",
+							"High-Voltage Exoskeleton",
+							"Min Speed",
+							"Max Speed",
+							"Unrelenting",
+							"Self-Charge"
+						]
+					},
+					{
+						"Name": "Alternating Discharge Support",
+						"Description": "Turn Start: If there are X+ allies wearing E.G.O Gear including this unit, all relevant allies gain Offense Level Up\nIf this unit has X- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead  of consuming 2 Charge Count, this unit consumes X Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at X%+ HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Offense Level Up",
+							"Ally Offense Level Up",
+							"Self HP Damage"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Take the Lead. I'll Provide You Support.",
+					"Description": "Combat Start: Gain Charge Count\nCombat End: At X+ Charge Count, consume excess Charge Count up to Y and apply +(Half of the Charge Count consumed due to this effect) Charge Count on an ally (Rounded up)\n$ This effect prioritizes the ally with the lowest Charge Count among allies with earlier Deployment Order than this unit\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, or at X+ Charge, deactive this effect\nAt X+ Gloom or Envy Reson, apply +Y Charge Count next turn on allies with earlier Deployment Order than this unit\n$ Applies on (Higher Reson. between Gloom and Envy - X) allies, in Deployment Order\n$ At X+ Charge, apply Charge Count on allies instead\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, gain Charge Count instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Ally Charge Count"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Defibrillation",
+					"Description": "Turn End: X allies with the earliest Deployment Order each heal HP equal to (Sum of Charge Count and Unique Charge consumeed by each of their own Attack Skills this turn, respectively)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Heal HP"
 					]
 				}
 			}
