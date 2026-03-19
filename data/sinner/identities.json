@@ -51185,8 +51185,11 @@
 		"World": "???",
 		"Season": 7,
 		"Traits": [
+			"E.G.O Gear",
+			"LCE",
+			"Limbus Company"
 		],
-		"Speed": "???",
+		"Speed": "5~7",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -51194,9 +51197,9 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 0.5,
+			"Pierce": 1,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
@@ -51204,17 +51207,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Electric Release",
-					"Description": "[On Use] Deal more damage for every Charge on self\n[On Use] At X+ Charge, Coin Power +Y\n[On Use] Clash Power +X for every Y Charge Count\n[On Use] At X- Charge Count, gain Charge Count\n<1>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture\n<2>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture",
+					"Description": "[On Use] Deal +6% damage for every Charge on self (Max 30%)\n[On Use] At 3+/5+ Charge, Coin Power +1/+2\n[On Use] Clash Power +1 for every 5 Charge Count (Max 2)\n[On Use] At 9- Charge Count, gain +2 Charge Count\n<1>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"ClashPowerModifier": 2,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -51226,18 +51229,19 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "DC Inversion",
-					"Description": "[On Use] Deal more damage for every Charge on self\n[On Use] At X+ Charge, Coin Power +Y\n$ At Y+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At X+ Charge Count, consume Y Charge Count to gain Base Power +Z\n<1>[On Hit] Gain Charge Count\n[On Hit] Inflict Rupture Count\n<2>[On Hit] Gain Charge Count equal to (Charge + X)\n[On Hit] Inflict Rupture\n<3>[On Hit] Inflict Photoelectricity\n$ At X+ Charge, inflict more Photoelectricity instead",
+					"Description": "[On Use] Deal +3% damage for every Charge on self (Max 15%)\n[On Use] At 3+/5+ Charge, Coin Power +1/+2\n$ At 3+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At 10+ Charge Count, consume 5 Charge Count to gain Base Power +1\n<1>[On Hit] Gain +5 Charge Count\n[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Gain (Charge + 2) Charge Count (Max 5)\n[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Photoelectricity\n$ At 3+ Charge, inflict 3 Photoelectricity instead",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 2,
+					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -51252,17 +51256,17 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "High-voltage Current Discharge",
-					"Description": "[Combat Start] Gain High-Voltage Exoskeleton equal to Charge\n[Before Use] At X+ Charge, activate as 'Maximum Output - Ultra High-voltage Current Discharge'\n[On Use] At X+ Charge, Coin Power +Y\n$ At Z+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At X+ Charge Count, consume Y Charge Count and gain Coin Power +Z\n<1>[On Use] Gain Charge Count\n<2>[On Hit] Gain Charge Count\n<3>[On Hit] Inflict Rupture and Rupture Count\n[On Hit] Inflict Photoelectricity\n$ At X+ Charge, inflict more Photoelectricity instead\n[On Hit] Inflict Charged Sting equal to Charge on self\n$ At X+ Charge, inflict Charged Sting this turn and next turn instead",
+					"Description": "[Combat Start] Gain High-Voltage Exoskeleton equal to Charge (Max 5; once per turn)\n[Before Use] At 3+ Charge, activate as 'Maximum Output - Ultra High-voltage Current Discharge' (Once per turn)\n[On Use] At 3+/5+ Charge, Coin Power +1/+2\n$ At 3+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At 10+ Charge Count, consume 10 Charge Count and gain Coin Power +2\n<1>[On Use] Gain +1 Charge Count\n<2>[On Hit] Gain +2 Charge Count\n<3>[On Hit] Inflict 3 Rupture and +2 Rupture Count\n[On Hit] Inflict 2 Photoelectricity\n$ At 3+ Charge, inflict 3 Photoelectricity instead\n[On Hit] Inflict Charged Sting equal to Charge next turn (Max 5)\n$ At 5+ Charge, inflict 5 Charged Sting this turn and next turn instead (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -51279,21 +51283,22 @@
 					],
 					"AltSkill": {
 						"SkillSlot": "S31",
-						"Name": "Maximum Output - Ultra High-Voltage Current Discharge",
-						"Description": "Deal more damage for every X excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] At X+ Charge, Coin Power +Y\n[On Use] At X+ Charge Count, consume X Charge Count to gain Base Power and Coin Power\n$ If there is any remaining Charge Count, consume up to X Charge Count to deal +(Additional Charge Count consumed x Y)% damage\n<1>[Unbreakable Coin]\n[On Hit] Inflict Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict Photoelectricity\n[On Hit] Inflict Charged Sting equal to Charge on self\n$ At X+ Charge, inflict Charged Sting this turn and next turn instead",
+						"Name": "Maximum Output - Ultra High-voltage Current Discharge",
+						"Description": "Deal +50% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] At 5+ Charge, Coin Power +1\n[On Use] At 10+ Charge Count, consume 10 Charge Count to gain Base Power +1 and Coin Power +2\n$ If there is any remaining Charge Count, consume up to 10 Charge Count to deal +(Additional Charge Count consumed x 1.5)% damage\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 3 Photoelectricity\n[On Hit] Inflict Charged Sting equal to Charge next turn (Max 5)\n$ At 5+ Charge, inflict 5 Charged Sting this turn and next turn instead (Once per turn)",
 						"DamageType": "Slash",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 5,
+						"CoinPower": 5,
 						"CoinCount": 3,
-						"Level": 0,
-						"BasePowerModifier": 0,
+						"Level": 4,
+						"BasePowerModifier": 1,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 3,
 						"CoinCountModifier": 0,
-						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"UnbreakableCoinCount": 3,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
 						"MiscTags": [
 							"Spend Charge Count",
 							"Unbreakable Coin",
@@ -51307,17 +51312,17 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "This E.G.O Gift's Defensive Capability is Uniquely Superior",
-					"Description": "[Combat Start] Gain High-Voltage Exoskeleton\n[On Use] Gain Coin Power equal to Charge on self\n[On Use] Gain Charge Count\n[On Use] Gain Aggro to this Skill Slot",
+					"Description": "[Combat Start] Gain 2 High-Voltage Exoskeleton (Once per turn)\n[On Use] Gain Coin Power equal to Charge on self (Max 5)\n[On Use] Gain +2 Charge Count (2 times per turn)\n[On Use] Gain +5 Aggro to this Skill Slot next turn",
 					"DamageType": "Defend",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 10,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 5,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -51330,7 +51335,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Undying Persistence",
-						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAny Charge Barrier this unit gains is converted to High-voltage Exoskeleton\nAt X+ Charge on self, Min & Max Speed +Y\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain Self-Charge equal to (X + Charge on self x Y)",
+						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAny Charge Barrier this unit gains is converted to High-Voltage Exoskeleton\nAt 3+ Charge on self, Min & Max Speed +1\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain Self-Charge equal to (5 + Charge on self x 3) (Max 20, once per Encounter)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -51340,6 +51345,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Charge Potency",
+							"Status Replace",
 							"High-Voltage Exoskeleton",
 							"Min Speed",
 							"Max Speed",
@@ -51349,7 +51355,7 @@
 					},
 					{
 						"Name": "Alternating Discharge Support",
-						"Description": "Turn Start: If there are X+ allies wearing E.G.O Gear including this unit, all relevant allies gain Offense Level Up\nIf this unit has X- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead  of consuming 2 Charge Count, this unit consumes X Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at X%+ HP",
+						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -51366,14 +51372,18 @@
 				],
 				"PassiveSkill": {
 					"Name": "Take the Lead. I'll Provide You Support.",
-					"Description": "Combat Start: Gain Charge Count\nCombat End: At X+ Charge Count, consume excess Charge Count up to Y and apply +(Half of the Charge Count consumed due to this effect) Charge Count on an ally (Rounded up)\n$ This effect prioritizes the ally with the lowest Charge Count among allies with earlier Deployment Order than this unit\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, or at X+ Charge, deactive this effect\nAt X+ Gloom or Envy Reson, apply +Y Charge Count next turn on allies with earlier Deployment Order than this unit\n$ Applies on (Higher Reson. between Gloom and Envy - X) allies, in Deployment Order\n$ At X+ Charge, apply Charge Count on allies instead\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, gain Charge Count instead",
+					"Description": "Combat Start: Gain +10 Charge Count (Once per Encounter)\nCombat End: At 12+ Charge Count, consume excess Charge Count up to 8 and apply +(Half of the Charge Count consumed due to this effect) Charge Count on an ally (Rounded up)\n$ This effect prioritizes the ally with the lowest Charge Count among allies with earlier Deployment Order than this unit\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, or at 3+ Charge, deactivate this effect\nAt 2+ Gloom or Envy Reson, apply +2 Charge Count next turn on allies with earlier Deployment Order than this unit\n$ Applies on (Higher Reson. between Gloom and Envy - 1) allies, in Deployment Order (Max 3 allies)\n$ At 3+ Charge, apply +4 Charge Count on allies instead\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, gain +4 Charge Count instead",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Gloom",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 2
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Charge Count",
 						"Spend Charge Count",
@@ -51382,14 +51392,216 @@
 				},
 				"SupportSkill": {
 					"Name": "Defibrillation",
-					"Description": "Turn End: X allies with the earliest Deployment Order each heal HP equal to (Sum of Charge Count and Unique Charge consumeed by each of their own Attack Skills this turn, respectively)",
+					"Description": "Turn End: 3 allies with the earliest Deployment Order each heal HP equal to (Sum of Charge Count and Unique Charge consumeed by each of their own Attack Skills this turn, respectively) (Max 10)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Heal HP"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Electric Release",
+					"Description": "[On Use] At 3+ Charge, Coin Power +1\n[On Use] At 5+ Charge Count, Clash Power +1\n<1>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Charge Count",
+						"Rupture Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "DC Inversion",
+					"Description": "[On Use] At 3+ Charge, Coin Power +1\n$ At 3+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At 10+ Charge Count, consume 5 Charge Count to gain Base Power +1\n<1>[On Hit] Gain +4 Charge Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain (Charge + 1) Charge Count (Max 4)\n[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Photoelectricity",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Count",
+						"Rupture Potency",
+						"Photoelectricity"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "High-voltage Current Discharge",
+					"Description": "[Combat Start] Gain High-Voltage Exoskeleton equal to Charge (Max 3; once per turn)\n[Before Use] At 3+ Charge, activate as 'Maximum Output - Ultra High-voltage Current Discharge' (Once per turn)\n[On Use] At 3+ Charge, Coin Power +1\n$ At 3+ Charge, convert the final Coin into Unbreakable Coin\n[On Use] At 10+ Charge Count, consume 10 Charge Count and gain Coin Power +2\n<1>[On Use] Gain +1 Charge Count\n<3>[On Hit] Inflict 2 Rupture and +2 Rupture Count\n[On Hit] Inflict 2 Photoelectricity\n$ At 3+ Charge, inflict 3 Photoelectricity instead\n[On Hit] Inflict Charged Sting equal to Charge next turn (Max 3)\n$ At 5+ Charge, inflict 3 Charged Sting this turn and next turn instead (Once per turn)",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 3,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"High-Voltage Exoskeleton",
+						"Skill Change",
+						"Unbreakable Coin",
+						"Spend Charge Count",
+						"Charge Count",
+						"Rupture Potency",
+						"Rupture Count",
+						"Photoelectricity",
+						"Charged Sting"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Maximum Output - Ultra High-voltage Current Discharge",
+						"Description": "[On Use] At 10+ Charge Count, consume 10 Charge Count to gain Base Power +1 and Coin Power +2\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict 3 Photoelectricity\n[On Hit] Inflict Charged Sting equal to Charge next turn (Max 3)\n$ At 5+ Charge, inflict 3 Charged Sting this turn and next turn instead (Once per turn)",
+						"DamageType": "Slash",
+						"SinType": "Envy",
+						"BasePower": 4,
+						"CoinPower": 5,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Spend Charge Count",
+							"Unbreakable Coin",
+							"Rupture Count",
+							"Rupture Potency",
+							"Photoelectricity",
+							"Charged Sting"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "This E.G.O Gift's Defensive Capability is Uniquely Superior",
+					"Description": "[Combat Start] Gain 1 High-Voltage Exoskeleton (Once per turn)\n[On Use] Gain +2 Charge Count (2 times per turn)\n[On Use] Gain +5 Aggro to this Skill Slot next turn",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 5,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"High-Voltage Exoskeleton",
+						"Charge Count",
+						"Aggro"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Undying Persistence",
+						"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter\nAny Charge Barrier this unit gains is converted to High-Voltage Exoskeleton\nAt 3+ Charge on self, Min & Max Speed +1\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain Self-Charge equal to (5 + Charge on self x 3) (Max 20, once per Encounter)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Charge Potency",
+							"Status Replace",
+							"High-Voltage Exoskeleton",
+							"Min Speed",
+							"Max Speed",
+							"Unrelenting",
+							"Self-Charge"
+						]
+					},
+					{
+						"Name": "Alternating Discharge Support",
+						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Offense Level Up",
+							"Ally Offense Level Up",
+							"Self HP Damage"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Take the Lead. I'll Provide You Support.",
+					"Description": "Combat Start: Gain +5 Charge Count (Once per Encounter)\nCombat End: At 12+ Charge Count, consume excess Charge Count up to 8 and apply +(Half of the Charge Count consumed due to this effect) Charge Count on an ally (Min 1; rounded down)\n$ This effect prioritizes the ally with the lowest Charge Count among allies with earlier Deployment Order than this unit\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, or at 3+ Charge, deactivate this effect\nAt 3+ Gloom or Envy Reson, apply +2 Charge Count next turn on allies with earlier Deployment Order than this unit\n$ Applies on (Higher Reson. between Gloom and Envy - 2) allies, in Deployment Order (Max 3 allies)\n$ At 3+ Charge, apply +4 Charge Count on allies instead\n$ If there are no allies with earlier Deployment Order than this unit on the battlefield, gain +4 Charge Count instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Gloom",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Ally Charge Count"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Defibrillation",
+					"Description": "Turn End: 3 allies with the earliest Deployment Order each heal HP equal to (Sum of Charge Count and Unique Charge consumeed by each of their own Attack Skills this turn, respectively) (Max 10)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Heal HP"
 					]

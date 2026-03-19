@@ -4009,7 +4009,7 @@
 	},
 	{
 		"Name": "High-Voltage Exoskeleton",
-		"Description": "Gain (X x Y) Shield\nIf this unit loses (X x Y) Shield, lose High-Voltage Exoskeleton Stack\nTurn End: Gain Charge Count equal to High-Voltage Exoskeleton; both High-Voltage Exoskeleton and Shield gained from its effect expire",
+		"Description": "Max Stack: 20\nGain (Stack x 5) Shield\nIf this unit loses (Stack x 5) Shield, lose 1 Stack\nTurn End: Gain Charge Count equal to High-Voltage Exoskeleton; both High-Voltage Exoskeleton and Shield gained from its effect expire",
 		"Tags": [
 			"Shield",
 			"Charge Count"
@@ -4017,22 +4017,23 @@
 	},
 	{
 		"Name": "Charged Sting",
-		"Description": "Take +X% damage from Skills that gain or consume Charge Count (Including Unique Charge) for every Stack\n$ For Envy Skills, strengthen this effect and take +Y% damage for every Stack instead\nLose Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (Excluding Base Attack Skills that inflict Charged Sting)",
+		"Description": "Max Stack: 5\nFor every Stack, take +4% damage from Skills that gain or consume Charge Count (Including Unique Charge)\n$ For Envy Skills, strengthen this effect and take +8% damage for every Stack instead\nLose 1 Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (Excluding Base Attack Skills that inflict Charged Sting)",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Self-Charge",
-		"Description": "Final Power +X\nGain Charge Count equal to Stack lost\nLose X Stack at:\n$ Attack End of Skills that hit this unit\n$ Attack End\n$ Turn End\nThis unit's HP cannot drop below 1 before this effect expires",
+		"Description": "Max Stack: 20\nFinal Power +2\nGain Charge Count equal to Stack lost\nLose Stack at:\n$ Attack End of Skills that hit this unit (Lose 1 Stack)\n$ Attack End (Lose 3 Stack)\n$ Turn End (Lose 5 Stack)\nThis unit's HP cannot drop below 1 before this effect expires",
 		"Tags": [
 			"Final Power Up"
 		]
 	},
 	{
 		"Name": "Embers",
-		"Description": "If this unit has Burn, lose Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn\nIf this unit does not have Burn, reset Embers Count when hit by a Skill that inflicts Burn, Burn Count, or Unique Burn\nAt X Embers Count, activate the following:\n$ Activate Burn on self and lose Burn Count\n$ Lose Embers Potency\n$ At Y+ remaining Embers Potency, reset Embers Count",
+		"Description": "Max Potency: 3\nMax Count: 6\nIf this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn (Including E.G.O Skills)\nIf this unit does not have Burn, reset Embers Count to 6 when hit (Independent of Skills that inflict Burn)\nAt 0 Embers Count, activate the following:\n$ Activate Burn on self once and lose 1 Burn Count\n$ Lose 1 Embers Potency\n$ At 1+ remaining Embers Potency, reset Embers Count to 6",
 		"Tags": [
-			"Burn Proc"
+			"Burn Proc",
+			"Spend Enemy Burn Count"
 		]
 	}
 ]
