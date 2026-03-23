@@ -10766,5 +10766,91 @@
 		"Availability": [
 			"MD7"
 		]
+	},
+	{
+		"Name": "Trial Extraction: A.B.S",
+		"Tag": "Burn",
+		"Abnormality": "Theme Pack: *LCB Regular Check-Up BokGak*",
+		"Affinity": "Wrath",
+		"Tier": 3,
+		"Cost": 246,
+		"Upgrades": [
+			{
+				"Description": "Deal +10% damage with Attack Skills that inflict Burn, Burn Count, or Unique Burn\n$ If the Skill applies Burn Count on self, Clash Power +1\n$ Deal +1% damage for every 2% missing HP on self (Max 15%)",
+				"Rank": 1,
+				"MiscTags": [
+					"Damage Amp",
+					"Clash Power"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Trial Extraction: Lantern",
+		"Tag": "Rupture",
+		"Abnormality": "Theme Pack: *LCB Regular Check-Up BokGak*",
+		"Affinity": "Gluttony",
+		"Tier": 3,
+		"Cost": 248,
+		"Upgrades": [
+			{
+				"Description": "Deal +10% damage with Attack Skills that inflict Rupture or Rupture Count\n$ At 20%+ missing HP on self, Clash Power +1\n$ Deal +1% damage with Attack Skills for every 1 (Sum of Aggro on all Skill Slots on self) (Max 15%)",
+				"Rank": 1,
+				"MiscTags": [
+					"Damage Amp",
+					"Clash Power"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Modified Extraction: AEDD",
+		"Tag": "Charge",
+		"Abnormality": "Theme Pack: *LCB Regular Check-Up BokGak*",
+		"Affinity": "Envy",
+		"Tier": 3,
+		"Cost": 250,
+		"Upgrades": [
+			{
+				"Description": "If this unit gained Charge Count or Unique Charge over maximum limit this turn, gain 1 Offense Level Up next turn for every 2 surplus Stack (2 per turn per Identity)\n$ Identities with Base Attack Skills that gain or consume Charge Count or Unique Charge: Max 6 per turn per Identity instead\n$ If this unit has High-Voltage Exoskeleton, also gain 1 Charge Potency (Once per Encounter)",
+				"Rank": 1,
+				"MiscTags": [
+					"Offense Level Up",
+					"Charge Potency"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Someone's Dropped Employee Card",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *LCB Regular Check-Up BokGak*",
+		"Affinity": "Wrath",
+		"Tier": 4,
+		"Cost": 392,
+		"Upgrades": [
+			{
+				"Description": "Limbus Company Identities:\n$ Turn Start: Gain (# of Limbus Company Identities participating in battle / 3) Clash Power Up (Max 2; rounded down)\nLCE Identities:\n$ Deal +(# of Identities in battle wearing E.G.O Gear x 10)% damage (Max 30%)\n$ On same-faction Ally Death: Gain 1 E.G.O resource for all Affinities, gain 1 Plus Coin Boost and 1 Minus Coin Drop for the rest of this Encounter (2 times per Encounter per Identity)",
+				"Rank": 1,
+				"MiscTags": [
+					"Clash Power",
+					"Damage Amp",
+					"Plus Coin Boost",
+					"Minus Coin Boost"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
 	}
 ]
