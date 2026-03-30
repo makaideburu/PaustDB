@@ -390,7 +390,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -502,7 +502,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -4196,6 +4196,7 @@
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"ForceCoinCollapse": true,
+						"UnbreakableCoinCount": 9,
 						"AttackWeight": 7,
 						"AttackWeightMod": 7,
 						"MiscTags": [
@@ -4453,6 +4454,7 @@
 						"ClashPowerModifier": 3,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 9,
 						"ForceCoinCollapse": true,
 						"AttackWeight": 7,
 						"AttackWeightMod": 7,
@@ -6578,7 +6580,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -6706,7 +6708,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -7758,7 +7760,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Swiftfeet Protection",
-						"Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -7775,6 +7777,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Guard",
+							"Assist Defense Skill",
 							"Skill Change",
 							"Nullify Stagger",
 							"Protection",
@@ -7952,7 +7955,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Swiftfeet Protection",
-						"Description": "[Clashable Guard]\nUsed for Assist Defense\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (Max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (Once per turn)\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -7969,6 +7972,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Guard",
+							"Assist Defense Skill",
 							"Skill Change",
 							"Nullify Stagger",
 							"Protection",
@@ -8814,6 +8818,325 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 2000,
+		"Sinner": "Faust",
+		"Identity": "The House of Spiders: The Ring Apprentice",
+		"DWorld": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Butcher - Ribs",
+					"Description": "Iron Maiden Skill\n[On Use] Clash Power +X for every Y negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Defense Level Down next turn\n[On Hit] Gain Defense Level Up next turn",
+					"DamageType": "Slash",
+					"SinType": "Gluttony",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Count",
+						"Defense Level Down",
+						"Defense Level Up",
+						"Corpus Ingredient Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Butcher - Ribs",
+						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal more damage for every Y negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Defense Level Down next turn\n[On Hit] Gain Defense Level Up next turn",
+						"DamageType": "Slash",
+						"SinType": "Gluttony",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Bleed Count",
+							"Defense Level Down",
+							"Defense Level Up",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Fascia Hungers",
+					"Description": "Iron Maiden Skill\n[On Use] Clash Power +X for every Y negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume Y Corpus Ingredient Count to gain:\n$ Clash Power +X\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bind next turn\n<3>[On Hit] Gain Corpus Ingredient Count",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Corpus Ingredient Count",
+						"Unbreakable Coin",
+						"Bleed Count",
+						"Bind",
+						"Corpus Ingredient Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Time for Your Meal, Fascia",
+						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal more damage for every Y negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume Y Corpus Ingredient Count to gain:\n$ Clash Power +X\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bind next turn\n[On Hit] Gain Haste next turn\n<3>[On Hit] Gain Corpus Ingredient Count",
+						"DamageType": "Slash",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Corpus Ingredient Count",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"Bind",
+							"Haste",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Repressed Flesh",
+					"Description": "Iron Maiden Skill\n[On Use] Final Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume up to Y Corpus Ingredient to gain:\n$ Final Power +X\n$ Deal more damage for every X Count consumed\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bind next turn\n<3>[On Hit] Inflict Damage Down next turn\n<4>Deal more damage for every X negative effects on target\n[On Hit] Inflict Bleed Count",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Corpus Ingredient Count",
+						"Bleed Potency",
+						"Bind",
+						"Damage Down",
+						"Bleed Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Liberation of the Repressed Flesh",
+						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal more damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume up to Y Corpus Ingredient to gain:\n$ Final Power +X\n$ Deal more damage for every X Count consumed\n$ At X+ Corpus Ingredient, Atk Weight +Y\n$ Convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bind next turn\n[On Hit] Gain Haste next turn\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain Slash DMG Up next turn\n<4>Deal more damage for every X negative effects on target\n[On Hit] Inflict Bleed Count",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 4,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Corpus Ingredient Count",
+							"Attack Weight Increase",
+							"Unbreakable Coin",
+							"Bleed Potency",
+							"Bind",
+							"Haste",
+							"Damage Down",
+							"Slash DMG Up",
+							"Bleed Count",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Exhibition Arrangements",
+					"Description": "[Clashable Guard]\nIron Maiden Skill\n[Clash Win] Inflict Bleed Count on the attacker\n[Clash Win] Deal Pierce damage equal to (Bleed Potency x X) on the attacker\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Bleed Count",
+						"Unbreakable Coin"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "The Exhibition Begins",
+						"Description": "The Self Unbound - Flow State Skill\n[Combat Start] Gain Assist Defense\n[On Evade] Inflict Bind next turn against the attacker\n[On Evade] Gain Haste next turn",
+						"DamageType": "Evade",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Assist Defense",
+							"Bind",
+							"Haste"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "SD2",
+						"Name": "No Acts of Vandalism Allowed.",
+						"Description": "[Clashable Counter]\nThe Self Unbound - Flow State Skill\nAssist Defense Skill\nDeal more damage for every Y negative effects on target\n[On Use] Coin Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume Y Corpus Ingredient Count to gain:\n$ Clash Power +X\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bleed",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Assist Defense Skill",
+							"Spend Corpus Ingredient Count",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"Bleed Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Fascia, My Precious Artwork",
+						"Description": "Upon entering the Encounter for the first time, gain +(# of The Ring allies on the field x X) Corpus Ingredient Count\nSkill End: If the Skill dealt HP or Shield damage, gain Corpus Ingredient Count\n$ If target is killed, gain additional Corpus Ingredient Count\nGain Corpus Ingredient every time this unit consumes X cumulative Corpus Ingredient Count in this Encounter\n$ If the above effect brings Corpus Ingredient Potency to Y+, gain Artwork: Fascia\nBase Attack Skills and Clashable Counter Skill count as Skills that gain Charge Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Corpus Ingredient Count",
+							"Corpus Ingredient Potency",
+							"Artwork: Fascia"
+						]
+					},
+					{
+						"Name": "Armor of Protection of Repression",
+						"Description": "Upon entering the Encounter for the first time, gain Iron Maiden\nTurn End: If this unit has Artwork: Fascia, this unit loses Iron Maiden and gains The Self Unbound - Flow State\n$ When Staggered, recover from Stagger (Excluding forced Staggers)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Iron Maiden",
+							"Spend Iron Maiden",
+							"The Self Unbound - Flow State",
+							"Stagger Recovery"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Inspired by Critique",
+					"Description": "Double the amount of Speed, Clash Power, damage buff gained from Somatic Frisson-inspiring Melody\nOn Hit, if the Attack Skill inflicted a negative effect, heal SP at Attack End\n$ If this unit's SP is at max, gain Slash DMG Up next turn when this unit heals SP with this effect",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Heal SP",
+						"Slash DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Iron Maiden - Spikes",
+					"Description": "When hit, allies that equipped Defense Skill on their Slots this turn inflict Bleed on the attacker\n$ If the attacker already has Bleed, inflict Bleed Count instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Bleed Potency",
+						"Bleed Count"
 					]
 				}
 			}
@@ -12279,7 +12602,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Status Replace",
-							"Love/Hate",
+							"Love/Hate Potency",
 							"Hysteria",
 							"Here Comes Magical Girl!",
 							"Regressive Transformation - Reversed"
@@ -12504,7 +12827,7 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Status Replace",
-							"Love/Hate",
+							"Love/Hate Potency",
 							"Hysteria",
 							"Here Comes Magical Girl!",
 							"Regressive Transformation - Reversed"
@@ -18395,7 +18718,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -18512,7 +18835,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -21764,6 +22087,7 @@
 						"Burn Potency",
 						"Bleed Potency",
 						"Spend Spore Round [Buckshot]",
+						"Burn Burst",
 						"Spend Enemy Burn Count",
 						"Spend Spore",
 						"Burn Count",
@@ -21920,6 +22244,7 @@
 						"Burn Potency",
 						"Bleed Potency",
 						"Spend Spore Round [Buckshot]",
+						"Burn Burst",
 						"Spend Enemy Burn Count",
 						"Spend Spore",
 						"Burn Count",
@@ -25500,6 +25825,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
+						"Ignore Defense Skill",
 						"Poise Potency",
 						"Poise Count",
 						"Ally Unrelenting Storm",
@@ -25588,7 +25914,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Lordsguard",
-						"Description": "[Clashable Counter]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 2,
@@ -25605,6 +25931,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Guard",
+							"Assist Defense Skill",
 							"Unbreakable Coin"
 						]
 					}
@@ -25731,6 +26058,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
+						"Ignore Defense Skill",
 						"Poise Potency",
 						"Poise Count",
 						"Ally Unrelenting Storm",
@@ -25818,7 +26146,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Lordsguard",
-						"Description": "[Clashable Counter]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nThis Skill counts as Assist Defense only for the unit that uses the Skill, does not trigger other Assist Defense activation conditionals\n[On Use] If target has 3+ negative effects, Clash Power +1\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 2,
@@ -25835,6 +26163,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Guard",
+							"Assist Defense Skill",
 							"Unbreakable Coin"
 						]
 					}
@@ -25888,6 +26217,321 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 6000,
+		"Sinner": "Hong Lu",
+		"Identity": "The House of Spiders: The Ring Nursefather",
+		"DWorld": "???",
+		"Season": 7,
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Anatomize",
+					"Description": "Deal more damage for every X negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Defense Level Down next turn\n[On Hit] Gain Defense Level Up next turn",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Potency",
+						"Defense Level Down",
+						"Defense Level Up",
+						"Corpus Ingredient Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "My, How We Love the Flesh and the Blood",
+						"Description": "[Indiscriminate]\n[Unclashable]\nThis Skill has the following properties:\n$ Does not trigger Defense Skills\n$ Cannot trigger Skill Reuse\n$ Does not hit\n[On Use] Apply Offense Level Up on target",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Indiscriminate",
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Ally Offense Level Up"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Gather Ingredient - Blood-bathed Objet",
+					"Description": "Deal more damage for every X negative effects on target\n[On Use] Final Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume Y Corpus Ingredient Count to gain:\n$ Clash Power +X\n$ Convert the final Coin on this Skill into Unbreakable Coin\n<1>[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bind next turn\n[On Hit] Gain Haste next turn\n<3>[On Hit] Gain Corpus Ingredient Count\n[On Hit] If target has X+ types of negative effects, use 'Installation Art no. 3: Improvised Ribcage' Skill against the target",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Corpus Ingredient Count",
+						"Unbreakable Coin",
+						"Bleed Count",
+						"Bind",
+						"Haste",
+						"Corpus Ingredient Count",
+						"Self Follow Up"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Installation Art no. 3: Improvised Ribcage",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\n[On Use] Consume X Corpus Ingredient Count\n<1>[On Hit] Inflict Bleed\n<2>Deal more damage for every X negative effects on target\n[On Hit] Deal SP damage\n[On Hit] Heal SP on self\n[On Hit] Inflict Corpus Theater",
+						"DamageType": "Pierce",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Spend Corpus Ingredient Count",
+							"Bleed Potency",
+							"SP Damage",
+							"Heal SP",
+							"Corpus Theater",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
+					"Description": "[On Use] Deal more damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +X for every Y Bleed on main target\n[On Use] At X+ Corpus Ingredient Count, consume up to Y Corpus Ingredient Count to gain:\n$ Final Power +X\n$ Deal more damage for every X Corpus Ingredient Count consumed\n$ At X+ Corpus Ingredient, gain Y Atk Weight\n$ Convert all Coins on this Skill into Unbreakable Coins\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bind next turn\n[On Hit] Gain Haste next turn\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain Slash DMG Up next turn\n<4>Deal more damage for every X negative effects on target\n[On Hit] Inflict Bleed Count",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Corpus Ingredient Count",
+						"Attack Weight Increase",
+						"Unbreakable Coin",
+						"Bleed Potency",
+						"Bind",
+						"Haste",
+						"Damage Down",
+						"Slash DMG Up",
+						"Bleed Count",
+						"Corpus Ingredient Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats",
+						"Description": "[On Use] Deal more damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n$ When attacking just 1 target, deal even more damage\n[On Use] At X+ Corpus Ingredient Count, consume up to Y Corpus Ingredient Count to gain:\n$ Final Power +X\n$ Deal more damage for every X Corpus Ingredient Count consumed\n$ At X+ Corpus Ingredient, gain Y Atk Weight\n[Attack End] For all Ring Identities, heal SP and apply Somatic Frisson-inducing Melody\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bind next turn\n[On Hit] Gain Haste next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict Damage Down next turn\n[On Hit] Gain Slash DMG Up next turn\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n<5>[Unbreakable Coin]\nDeal more damage for every X negative effects on target\n[On Hit] Inflict Burn\n[On Hit] Inflict Corpus Theater",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 5,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Corpus Ingredient Count",
+							"Attack Weight Increase",
+							"Heal SP",
+							"Ally Heal SP",
+							"Somatic Frisson-inducing Melody",
+							"Ally Somatic Frisson-inducing Melody",
+							"Unbreakable Coin",
+							"Bleed Potency",
+							"Bind",
+							"Haste",
+							"Damage Down",
+							"Slash DMG Up",
+							"Bleed Count",
+							"Burn Potency",
+							"Corpus Theater",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Curating the Exhibition",
+					"Description": "[Combat Start] Gain Assist Defense\n[On Evade] Inflict Bind next turn against the attacker\n[On Evade] Gain Haste next turn",
+					"DamageType": "Evade",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Assist Defense",
+						"Bind",
+						"Haste"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Please. Vandalism is Prohibited.",
+						"Description": "[Clashable Counter]\nAssist Defense Skill\nDeal more damage for every X negative effects on target\n[On Use] Coin Power +X for every Y Bleed on target\n[On Use] At X+ Corpus Ingredient Count, consume Y Corpus Ingredient to gain:\n$ Clash Power +X\n$ Convert the final Coin on this Skill into Unbreakable Coin",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Assist Defense Skill",
+							"Spend Corpus Ingredient Count",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"Bleed Potency",
+							"Corpus Ingredient Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Magnum Opus: Tibia",
+						"Description": "Upon entering the Encounter for the first time, gain +(# of The Ring allies on the field x X) Corpus Ingredient Count\nSkill End: If the Skill dealt HP or Shield damage, gain Corpus Ingredient Count\n$ If target is killed, gain additional Corpus Ingredient Count\nGain Corpus Ingredient every time this unit consumes X cumulative Corpus Ingredient Count in this Encounter\n$ If the above effect brings Corpus Ingredient Potency to Y+, gain Artwork: Tibia\nBase Attack Skills and Clashable Counter Skill count as Skills that gain Charge Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Corpus Ingredient Count",
+							"Corpus Ingredient Potency",
+							"Artwork: Tibia"
+						]
+					},
+					{
+						"Name": "Transcend the Corpus",
+						"Description": "Upon entering the Encounter for the first time, gain X Viewing the Tableau\nWhen The Ring-faction allied Identities use a Skill, lose X Viewing the Tableau\nTurn End: If this unit does not have Viewing the Tableau, replace one of its Base Skills with 'Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats' at next Turn Start (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$ If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\nTurn End: If this unit was Staggered for the first time in this Encounter while under this effect, recover from Stagger (Excluding forced Stagger)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Viewing the Tableau",
+							"Spend Viewing the Tableau",
+							"Skill Change",
+							"Stagger Recovery"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "A Maestro's Critique",
+					"Description": "Before The House of Spiders: The Ring Apprentice Faust uses its Skill 3, The House of Spiders: The Ring Nursefather Hong Lu uses 'My, How We Love the Flesh and the Blood' on Faust\nOn Hit, if the Attack Skill inflicted a negative effect, heal SP at Attack End\n$ If this unit's SP is at max, gain Slash DMG Up next turn when this unit heals SP with this effect",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Self Follow Up",
+						"Heal SP",
+						"Slash DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Please, Do Stop Running and Be Seated",
+					"Description": "Turn End: Inflict Offense Level Down and Bleed Count next turn on 1 enemy with the fastest Speed (Focused Encounters, the Part)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Offense Level Down",
+						"Bleed Count"
 					]
 				}
 			}
@@ -28162,7 +28806,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -28277,7 +28921,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -29967,7 +30611,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -30173,7 +30817,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -30314,7 +30958,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -30426,7 +31070,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -33702,6 +34346,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Unclashable",
+							"Ignore Defense Skill",
 							"Attack Power Up",
 							"Tremor Burst",
 							"Spend Enemy Tremor Count",
@@ -33887,6 +34532,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Unclashable",
+							"Ignore Defense Skill",
 							"Attack Power Up",
 							"Tremor Burst",
 							"Spend Enemy Tremor Count",
@@ -34150,7 +34796,7 @@
 						],
 						"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power",
+						"Ally Clash Power Up",
 						"Ally Damage Amp"
 					]
 				}
@@ -34298,7 +34944,7 @@
 						],
 						"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power",
+						"Ally Clash Power Up",
 						"Ally Damage Amp"
 					]
 				}
@@ -35488,7 +36134,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -35612,7 +36258,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -36874,7 +37520,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Shield",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -36888,7 +37534,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -37038,7 +37684,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Shield",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -37052,7 +37698,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -41693,7 +42339,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Courier Trunk - Sinclair",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -41862,7 +42508,7 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Courier Trunk - Sinclair",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -42901,7 +43547,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Fallstar Slayer [落星一殺]",
-					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Use] At 20 Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins\n[On Use] Coin Power +1 for every 4 Poise on self (Max 5)\n[On Use] Base Power +1 for every 4 Moonlit Azure Blade on self (Max 5)\n[On Use] Gain 7 Poise\n[Before Attack] Atk Weight +1 for every 10 Moonlit Azure Blade on self (Max 2)\n[After Attack] Consume 5 Moonlit Azure Blade based on Atk Weight gained due to this Skill's effect\n<1>Deal +70% damage on Critical Hit\n[On Hit] Inflict 5 Bleed\n[On Crit - Heads Hit] Deal (25% of this Coin's final damage) Slash damage",
+					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] At 20 Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins\n[On Use] Coin Power +1 for every 4 Poise on self (Max 5)\n[On Use] Base Power +1 for every 4 Moonlit Azure Blade on self (Max 5)\n[On Use] Gain 7 Poise\n[Before Attack] Atk Weight +1 for every 10 Moonlit Azure Blade on self (Max 2)\n[After Attack] Consume 5 Moonlit Azure Blade based on Atk Weight gained due to this Skill's effect\n<1>Deal +70% damage on Critical Hit\n[On Hit] Inflict 5 Bleed\n[On Crit - Heads Hit] Deal (25% of this Coin's final damage) Slash damage",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 8,
@@ -43075,7 +43721,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Fallstar Slayer [落星一殺]",
-					"Description": "Deal +30% damage based on excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Use] At 20 Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins\n[On Use] Coin Power +1 for every 4 Poise on self (Max 3)\n[On Use] Base Power +1 for every 4 Moonlit Azure Blade on self (Max 3)\n[On Use] Gain 5 Poise\n[Before Attack] Atk Weight +1 for every 10 Moonlit Azure Blade on self (Max 2)\n[After Attack] Consume 7 Moonlit Azure Blade based on Atk Weight gained due to this Skill's effect\n<1>Deal +50% damage on Critical Hit\n[On Hit] Inflict 3 Bleed\n[On Crit - Heads Hit] Deal (25% of this Coin's final damage) Slash damage",
+					"Description": "Deal +30% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] At 20 Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins\n[On Use] Coin Power +1 for every 4 Poise on self (Max 3)\n[On Use] Base Power +1 for every 4 Moonlit Azure Blade on self (Max 3)\n[On Use] Gain 5 Poise\n[Before Attack] Atk Weight +1 for every 10 Moonlit Azure Blade on self (Max 2)\n[After Attack] Consume 7 Moonlit Azure Blade based on Atk Weight gained due to this Skill's effect\n<1>Deal +50% damage on Critical Hit\n[On Hit] Inflict 3 Bleed\n[On Crit - Heads Hit] Deal (25% of this Coin's final damage) Slash damage",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 6,
@@ -44095,7 +44741,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power",
+						"Ally Clash Power Up",
 						"Ally Damage Amp"
 					]
 				}
@@ -44217,7 +44863,7 @@
 					],
 					"ResourceType": "Res",
 					"MiscTags": [
-						"Ally Clash Power",
+						"Ally Clash Power Up",
 						"Ally Damage Amp"
 					]
 				}
@@ -45466,7 +46112,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			},
@@ -45584,7 +46230,7 @@
 					],
 					"ResourceType": "Owned",
 					"MiscTags": [
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				}
 			}
@@ -45721,7 +46367,7 @@
 					"MiscTags": [
 						"Charge Potency",
 						"Clash Power Up",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -45846,7 +46492,7 @@
 					"MiscTags": [
 						"Charge Potency",
 						"Clash Power Up",
-						"Ally Clash Power"
+						"Ally Clash Power Up"
 					]
 				},
 				"SupportSkill": {
@@ -50439,6 +51085,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Unclashable",
+							"Ignore Defense Skill",
 							"Haste",
 							"Bleed Potency",
 							"Tremor Potency",
@@ -50652,6 +51299,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Unclashable",
+							"Ignore Defense Skill",
 							"Open Wound"
 						]
 					}

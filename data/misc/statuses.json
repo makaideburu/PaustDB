@@ -2247,7 +2247,7 @@
 		"Name": "Assist [援]",
 		"Description": "Max Stack: 1\nIf target has 5+ negative effects, Clash Power +1 and deal +10% damage",
 		"Tags": [
-			"Ally Clash Power",
+			"Ally Clash Power Up",
 			"Ally Damage Amp"
 		]
 	},
@@ -4034,6 +4034,80 @@
 		"Tags": [
 			"Burn Proc",
 			"Spend Enemy Burn Count"
+		]
+	},
+	{
+		"Name": "Corpus Ingredient",
+		"Description": "Unique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\nTurn End: Lose X Count",
+		"Tags": [
+			"Unique Charge"
+		]
+	},
+	{
+		"Name": "Iron Maiden",
+		"Description": "Gain Aggro to the leftmost Skill Slot\nTurn Start: Gain Protection, Defense Level Up, and Shield HP equal to X% of this unit's current HP\nWhen hit by the last Coin of an attacker, deal Pierce damage equal to X% of the said Coin's damage and inflict Bleed Count",
+		"Tags": [
+			"Aggro",
+			"Protection",
+			"Defense Level Up",
+			"Shield",
+			"Bleed Count"
+		]
+	},
+	{
+		"Name": "The Self Unbound - Flow State",
+		"Description": "Gain Min & Max Speed\nGain a new set of Base Skills\nDeal more damage with Base Attack Skills to enemies whose Speed is slower than this unit",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Skill Change",
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Artwork: Fascia",
+		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ X+: Gain Base Power\n$ Y+: If the enemy has Bleed or Unique Bleed, deal more damage\n$ Z+: Inflict more Bleed Potency and Bleed Count\n$ N+: Gain Base Power",
+		"Tags": [
+			"Base Power Up",
+			"Damage Amp",
+			"Bleed Potency",
+			"Bleed Count"
+		]
+	},
+	{
+		"Name": "Somatic Frisson-inspiring Melody",
+		"Description": "Gain Min & Max Speed\nBase Attack Skills gain Clash Power and deal more damage",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Clash Power Up",
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Viewing the Tableau",
+		"Description": "If The House of Spiders: The Ring Apprentice Faust is on the field, gain Protection at Turn Start\nTurn End: Lose X Stack",
+		"Tags": [
+			"Protection"
+		]
+	},
+	{
+		"Name": "Corpus Theater",
+		"Description": "When this unit gains Bleed from enemy Attack Skills, randomly gain X of the following effects next turn and lose Y Stack of this effect:\n$ Bleed Potency\n$ Bind\n$ Defense Power Down",
+		"Tags": [
+			"Bleed Potency",
+			"Bind",
+			"Defense Power Down"
+		]
+	},
+	{
+		"Name": "Artwork: Tibia",
+		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ X+: Gain Base Power\n$ Y+: If the enemy has Bleed or Unique Bleed, deal more damage\n$ Z+: Inflict more Bleed Potency and Bleed Count\n$ N+: Gain Base Power\n$ W+: Gain Base Power",
+		"Tags": [
+			"Base Power Up",
+			"Damage Amp",
+			"Bleed Potency",
+			"Bleed Count"
 		]
 	}
 ]

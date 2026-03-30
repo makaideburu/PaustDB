@@ -309,6 +309,12 @@
 		]
 	},
 	{
+		"entry": "burn burst",
+		"aliases": [
+			"burn proc"
+		]
+	},
+	{
 		"entry": "burn amp",
 		"aliases": [
 			"status amp"
@@ -711,6 +717,20 @@
 		]
 	},
 	{
+		"entry": "unique charge potency",
+		"aliases": [
+			"charge potency",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "unique charge count",
+		"aliases": [
+			"charge count",
+			"unique charge"
+		]
+	},
+	{
 		"entry": "spend charge potency",
 		"aliases": [
 			"spend charge"
@@ -720,6 +740,19 @@
 		"entry": "spend charge count",
 		"aliases": [
 			"spend charge"
+		]
+	},
+	{
+		"entry": "spend unique charge",
+		"aliases": [
+			"spend charge"
+		]
+	},
+	{
+		"entry": "spend unique charge count",
+		"aliases": [
+			"spend charge count",
+			"spend unique charge"
 		]
 	},
 	{
@@ -1026,7 +1059,7 @@
 		"entry": "ally erudition",
 		"aliases": [
 			"ally shield",
-			"ally clash power"
+			"ally clash power up"
 		]
 	},
 	{
@@ -1660,7 +1693,7 @@
 	{
 		"entry": "ally assist [援]",
 		"aliases": [
-			"ally clash power",
+			"ally clash power up",
 			"ally damage amp"
 		]
 	},
@@ -1780,13 +1813,27 @@
 	{
 		"entry": "love/hate",
 		"aliases": [
-			"charge potency"
+			"unique charge"
+		]
+	},
+	{
+		"entry": "love/hate potency",
+		"aliases": [
+			"unique charge potency",
+			"unique charge"
 		]
 	},
 	{
 		"entry": "love/hate count",
 		"aliases": [
+			"unique charge count",
 			"unique charge"
+		]
+	},
+	{
+		"entry": "spend love/hate count",
+		"aliases": [
+			"spend unique charge count"
 		]
 	},
 	{
@@ -1830,6 +1877,12 @@
 		"entry": "deep tears",
 		"aliases": [
 			"unique charge"
+		]
+	},
+	{
+		"entry": "spend deep tears",
+		"aliases": [
+			"spend unique charge"
 		]
 	},
 	{
@@ -2638,6 +2691,101 @@
 		"aliases": [
 			"burn proc",
 			"spend enemy burn count"
+		]
+	},
+	{
+		"entry": "corpus ingredient",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "corpus ingredient potency",
+		"aliases": [
+			"unique charge potency",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "corpus ingredient count",
+		"aliases": [
+			"unique charge count",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "spend corpus ingredient count",
+		"aliases": [
+			"spend unique charge count"
+		]
+	},
+	{
+		"entry": "iron maiden",
+		"aliases": [
+			"aggro",
+			"protection",
+			"defense level up",
+			"shield",
+			"bleed count"
+		]
+	},
+	{
+		"entry": "the self unbound - flow state",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"skill change",
+			"damage amp"
+		]
+	},
+	{
+		"entry": "artwork: fascia",
+		"aliases": [
+			"base power up",
+			"damage amp",
+			"bleed potency",
+			"bleed count"
+		]
+	},
+	{
+		"entry": "somatic frisson-inspiring melody",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"clash power up",
+			"damage amp"
+		]
+	},
+	{
+		"entry": "ally somatic frisson-inspiring melody",
+		"aliases": [
+			"ally min speed",
+			"ally max speed",
+			"ally clash power up",
+			"ally damage amp"
+		]
+	},
+	{
+		"entry": "viewing the tableau",
+		"aliases": [
+			"protection"
+		]
+	},
+	{
+		"entry": "corpus theater",
+		"aliases": [
+			"bleed potency",
+			"bind",
+			"defense power down"
+		]
+	},
+	{
+		"entry": "artwork: tibia",
+		"aliases": [
+			"base power up",
+			"damage amp",
+			"bleed potency",
+			"bleed count"
 		]
 	}
 ]
