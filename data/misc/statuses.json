@@ -4038,14 +4038,14 @@
 	},
 	{
 		"Name": "Corpus Ingredient",
-		"Description": "Unique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\nTurn End: Lose X Count",
+		"Description": "Max Count:20\nUnique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\nTurn End: Lose 1 Count",
 		"Tags": [
 			"Unique Charge"
 		]
 	},
 	{
 		"Name": "Iron Maiden",
-		"Description": "Gain Aggro to the leftmost Skill Slot\nTurn Start: Gain Protection, Defense Level Up, and Shield HP equal to X% of this unit's current HP\nWhen hit by the last Coin of an attacker, deal Pierce damage equal to X% of the said Coin's damage and inflict Bleed Count",
+		"Description": "Gain +4 Aggro to the leftmost Skill Slot\nTurn Start: Gain 1 Protection, 5 Defense Level Up, and Shield HP equal to 5% of this unit's current HP\nWhen hit by the last Coin of an attacker, deal Pierce damage equal to 20% of the said Coin's damage and inflict +2 Bleed Count (Once per Skill, 3 times per turn. Max damage per turn: 60)",
 		"Tags": [
 			"Aggro",
 			"Protection",
@@ -4056,7 +4056,7 @@
 	},
 	{
 		"Name": "The Self Unbound - Flow State",
-		"Description": "Gain Min & Max Speed\nGain a new set of Base Skills\nDeal more damage with Base Attack Skills to enemies whose Speed is slower than this unit",
+		"Description": "Gain Min & Max Speed +2\nGain a new set of Base Skills\nDeal +20% damage with Base Attack Skills to enemies whose Speed is slower than this unit",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4066,7 +4066,7 @@
 	},
 	{
 		"Name": "Artwork: Fascia",
-		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ X+: Gain Base Power\n$ Y+: If the enemy has Bleed or Unique Bleed, deal more damage\n$ Z+: Inflict more Bleed Potency and Bleed Count\n$ N+: Gain Base Power",
+		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ 1+: Base Power +1\n$ 2+: If the enemy has Bleed or Unique Bleed, deal +10% damage\n$ 3+: Inflict +1 more Bleed Potency and Bleed Count\n$ 4+: Base Power +1",
 		"Tags": [
 			"Base Power Up",
 			"Damage Amp",
@@ -4076,7 +4076,7 @@
 	},
 	{
 		"Name": "Somatic Frisson-inspiring Melody",
-		"Description": "Gain Min & Max Speed\nBase Attack Skills gain Clash Power and deal more damage",
+		"Description": "Gain Min & Max Speed +1\nBase Attack Skills gain Clash Power +1 and deal +10% damage",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4086,14 +4086,14 @@
 	},
 	{
 		"Name": "Viewing the Tableau",
-		"Description": "If The House of Spiders: The Ring Apprentice Faust is on the field, gain Protection at Turn Start\nTurn End: Lose X Stack",
+		"Description": "If The House of Spiders: The Ring Apprentice Faust is on the field, gain 2 Protection at Turn Start\nTurn End: Lose 2 Stack",
 		"Tags": [
 			"Protection"
 		]
 	},
 	{
 		"Name": "Corpus Theater",
-		"Description": "When this unit gains Bleed from enemy Attack Skills, randomly gain X of the following effects next turn and lose Y Stack of this effect:\n$ Bleed Potency\n$ Bind\n$ Defense Power Down",
+		"Description": "Base Stack: 3\nWhen this unit gains Bleed from enemy Attack Skills, randomly gain 1 of the following effects next turn and lose 1 Stack of this effect (Once per Skill):\n$ 3 Bleed Potency\n$ 1 Bind\n$ 1 Defense Power Down",
 		"Tags": [
 			"Bleed Potency",
 			"Bind",
@@ -4102,7 +4102,7 @@
 	},
 	{
 		"Name": "Artwork: Tibia",
-		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ X+: Gain Base Power\n$ Y+: If the enemy has Bleed or Unique Bleed, deal more damage\n$ Z+: Inflict more Bleed Potency and Bleed Count\n$ N+: Gain Base Power\n$ W+: Gain Base Power",
+		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ 1+: Base Power +1\n$ 2+: If the enemy has Bleed or Unique Bleed, deal +10% damage\n$ 3+: Inflict +1 Bleed Potency and Bleed Count\n$ 4+: Gain Base Power +1\n$ 5+: Gain Base Power +1",
 		"Tags": [
 			"Base Power Up",
 			"Damage Amp",
