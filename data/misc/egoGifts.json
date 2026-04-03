@@ -10371,6 +10371,33 @@
 		]
 	},
 	{
+		"Name": "Spicebush, Glasses, and Mailed Letter",
+		"Tag": "Rupture",
+		"Abnormality": "Fusion: ||Spicebush + Ragged Umbrella + Broken Glasses||",
+		"Affinity": "Sloth",
+		"Tier": 4,
+		"Cost": 401,
+		"Upgrades": [
+			{
+				"Description": "[Effects apply to #1, #2, #3 Deployed Identities]\nWhen winning a Clash with an Attack Skill that inflicts Rupture or Rupture Count, inflict 5 Rupture and +3 Rupture Count against the target (Once per turn per Identity)\nWhen Clashing against an enemy with a slower Speed, gain Final Power +1 and deal +25% damage\nWhen winning a Clash against an enemy with Offense Level Up buff, gain 3 Offense Level Up for the next turn, and inflict 3 Offense Level Down on the enemy that lost the Clash (3 times per turn per Identity)\nEvery time Skill 1, Skill 2, or Skill 3 is used, activate the following (Once per Skill rank):\n$ Unit gains 1 Haste and 1 Base Power Up at Turn Start for this Encounter (Can stack up to 3 times)",
+				"Rank": 1,
+				"MiscTags": [
+					"Rupture Potency",
+					"Rupture Count",
+					"Final Power",
+					"Damage Amp",
+					"Offense Level Up",
+					"Offense Level Down",
+					"Haste",
+					"Base Power"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
 		"Name": "The End of all Evil",
 		"Tag": "Poise",
 		"Abnormality": "Fusion: ||Imposed Weight + Harpoon Prosthetic Leg + Cetacean Heart||",
@@ -10390,6 +10417,29 @@
 					"Protection",
 					"Crit DMG Up",
 					"Heal SP"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "A Small, Lovely Violin",
+		"Tag": "Keywordless",
+		"Abnormality": "Fusion: ||Oil-gunked Spanner + Twinkling Scrap + Broken Violin||",
+		"Affinity": "Sloth",
+		"Tier": 4,
+		"Cost": 402,
+		"Upgrades": [
+			{
+				"Description": "[Effects apply to #5, #5 Deployed Identities]\nHeal 10% of the HP damage dealt with a Skill (Max 20 per Skill)\nOn Clash Win, Gain 1 Offense Level Up and 1 HP Healing Boost (2 times per turn per Identity)\nOn Skill Use, Gain 1 Offense Level Up and 1 HP Healing Boost (2 times per turn per Identity)\nDeal +10% damage with Blunt Skills\nDeal +(# of Clashes x 6)% damage with the Skill that won the Clash (Max 30%)",
+				"Rank": 1,
+				"MiscTags": [
+					"Heal HP",
+					"Offense Level Up",
+					"HP Healing Boost",
+					"Damage Amp"
 				]
 			}
 		],
