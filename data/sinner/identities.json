@@ -8825,7 +8825,7 @@
 		]
 	},
 	{
-		"Id": 2000,
+		"Id": 2310,
 		"Sinner": "Faust",
 		"Identity": "The House of Spiders: The Ring Apprentice",
 		"DWorld": "???",
@@ -8838,10 +8838,11 @@
 			"The Fingers"
 		],
 		"Speed": "3~6",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 92,
+		"GrowthHP": 3.19,
 		"StaggerThresholds": [
-			0
+			50,
+			30
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -26530,7 +26531,7 @@
 		]
 	},
 	{
-		"Id": 6000,
+		"Id": 6308,
 		"Sinner": "Hong Lu",
 		"Identity": "The House of Spiders: The Ring Nursefather",
 		"DWorld": "???",
@@ -26546,10 +26547,10 @@
 			"The Fingers"
 		],
 		"Speed": "4~7",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 66,
+		"GrowthHP": 3.03,
 		"StaggerThresholds": [
-			0
+			50
 		],
 		"Rarity": 3,
 		"DamageResist": {
