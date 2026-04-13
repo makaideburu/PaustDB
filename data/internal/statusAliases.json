@@ -1968,7 +1968,7 @@
 		]
 	},
 	{
-		"entry": "Heishou Bolus Contamination [黑獸丸染]",
+		"entry": "heishou bolus contamination [黑獸丸染]",
 		"aliases": [
 			"rupture count",
 			"rupture potency",
@@ -2786,6 +2786,87 @@
 			"damage amp",
 			"bleed potency",
 			"bleed count"
+		]
+	},
+	{
+		"entry": "glimpse of precognition",
+		"aliases": [
+			"clash power up",
+			"coin power"
+		]
+	},
+	{
+		"entry": "mauled color [rouge]",
+		"aliases": [
+			"bleed potency",
+			"defense level down"
+		]
+	},
+	{
+		"entry": "le fauvisme - masque de chien",
+		"aliases": [
+			"damage amp",
+			"bleed potency",
+			"sinking potency",
+			"bleed count"
+		]
+	},
+	{
+		"entry": "imperfections addressed",
+		"aliases": [
+			"damage amp",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "mauled color [bleu]",
+		"aliases": [
+			"sinking potency",
+			"sp damage"
+		]
+	},
+	{
+		"entry": "le fauvisme - masque de loup",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"bleed potency",
+			"sinking potency",
+			"sinking count",
+			"bleed count"
+		]
+	},
+	{
+		"entry": "touche hardie",
+		"aliases": [
+			"bleed amp",
+			"sinking amp"
+		]
+	},
+	{
+		"entry": "palette vibrante",
+		"aliases": [
+			"damage amp",
+			"bleed potency",
+			"sinking potency",
+			"bleed count",
+			"sinking count",
+			"spend mauled color [rouge]",
+			"spend mauled color [bleu]"
+		]
+	},
+	{
+		"entry": "l'hommage",
+		"aliases": [
+			"offense level up",
+			"defense level up"
+		]
+	},
+	{
+		"entry": "réflexion",
+		"aliases": [
+			"heal sp",
+			"l'hommage"
 		]
 	}
 ]

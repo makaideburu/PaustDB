@@ -10902,5 +10902,107 @@
 		"Availability": [
 			"MD7"
 		]
+	},
+	{
+		"Name": "Imperfect Eye of Precognition",
+		"Tag": "Tremor",
+		"Abnormality": "Hidden Boss: ||Valencina & Lucio||",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\n[Applies to #1 Deployed Identity]\nIn a Clash, gain 1 Glimpse of Precognition with every Clash. Inflict 2 Tremor and Burn on target (10 times per Skill)\nOn Clash Win, trigger Amplitude Conversion into Tremor - Scorch and trigger Tremor Burst on main target. Target loses 1 Tremor Count\nOn Hit with a Skill, if target is Staggered, deal +30% damage\nOn Crit, trigger Tremor Burst; target loses 1 Tremor Count (2 times per Skill)",
+				"Rank": 1,
+				"MiscTags": [
+					"Coin Power",
+					"Glimpse of Precognition",
+					"Tremor Potency",
+					"Burn Potency",
+					"Amplitude Conversion",
+					"Tremor - Scorch",
+					"Tremor Burst",
+					"Spend Enemy Tremor Count",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "The Abandoned Oracle",
+		"Tag": "Sinking",
+		"Abnormality": "Hidden Boss: ||Rien||",
+		"Affinity": "Gloom",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nIn a Clash, gain Clash Power +1 for every 30 (Sinking on target + Poise on self) (Max 5)\nDeal +25% damage with Unbreakable Coins\nTake -25% damage from Unbreakable Coins\n[The Index-faction Exclusive Effect]\nUpon entering the Encounter for the first time, gain 6 Grace of the Prescript\nIf unit is an Identity that can gain Unlock, gain Unlock - II as well\nDeal +50% damage against The Prescript's Target",
+				"Rank": 1,
+				"MiscTags": [
+					"Coin Power",
+					"Clash Power",
+					"Damage Amp",
+					"Damage Reduction",
+					"Faction Buff: The Index",
+					"Grace of the Prescript",
+					"Unlock"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "The Book of Vengeance: Annex",
+		"Tag": "Blunt",
+		"Abnormality": "Hidden Boss: ||Matthias & Kira||",
+		"Affinity": "Envy",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nEncounter Start: All allies gain 50 Shield for every The Middle-faction allied unit on the field (Excluding Backup units; Shield gained via this effect does not expire at Turn End)\nAttack End with The Middle-faction allied units' Envy or Blunt Base Skills: Heal 10% of Skill damage dealt\n$ If the effect is triggered by a Counter Skill, heal 20% of Skill damage dealt instead\n$ Excess HP healed is converted into Shield (Shield gained via this effect does not expire at Turn End)\nCombat Start: The Middle-faction allied units gain Offense Level for the turn based on the number of Defense Skills equipped (Max 12 Offense Level)\n$ If 6+ Defense Skills are equipped, deal +30% damage with Envy Base Skills\n$ Deal an additional +10% damage for every Defense Skill equipped beyond 6 (Max 60%)",
+				"Rank": 1,
+				"MiscTags": [
+					"Coin Power",
+					"Shield",
+					"Faction Buff: The Middle",
+					"Heal HP",
+					"Offense Level Up",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "A Maestro's Ring-Turned-Artwork",
+		"Tag": "Bleed",
+		"Abnormality": "Hidden Boss: ||Callisto & Albina||",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nWhen The Ring-faction Identities use Base Attack Skills, apply the following effects based on the number of negative effect types on the target:\n$ 2+: Clash Power +2\n$ 4+: Deal +15% damage\n$ 6+: Inflict +1 more Potency and Count of negative effects via Coin effects\n$ 7+: Base Power +2\n$ 8+: Deal +35% damage",
+				"Rank": 1,
+				"MiscTags": [
+					"Coin Power",
+					"Clash Power",
+					"Damage Amp",
+					"Base Power"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
 	}
 ]
