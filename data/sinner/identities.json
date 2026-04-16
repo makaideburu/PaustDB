@@ -2412,9 +2412,10 @@
 		"DWorld": "The Ring",
 		"Season": -4,  
 		"Traits": [
-			"Pointilist",
+			"School of Pointilism",
 			"The Fingers",
-			"The Ring"
+			"The Ring",
+			"Student"
 		],
 		"Speed": "3~7",
 		"BaseHP": 70,
@@ -8831,7 +8832,7 @@
 		"DWorld": "???",
 		"Season": 7,  
 		"Traits": [
-			"Corporist",
+			"School of Corporism",
 			"The Ring",
 			"The House of Spiders",
 			"Mechanical Amalgam",
@@ -22636,24 +22637,29 @@
 		]
 	},
 	{
-		"Id": 5000,
+		"Id": 5310,
 		"Sinner": "Meursault",
 		"Identity": "The Ring Fauvist Student",
 		"DWorld": "???",
 		"Season": 7,
 		"Traits": [
+			"The Ring",
+			"School of Fauvism",
+			"The Fingers",
+			"Student"
 		],
-		"Speed": "???",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"Speed": "4~7",
+		"BaseHP": 69,
+		"GrowthHP": 2.39,
 		"StaggerThresholds": [
-			0
+			70,
+			40
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
 		},
 		"UptieTiers": [
 			{
@@ -22661,17 +22667,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Rough Portrayal",
-					"Description": "Deal more damage for every X types of negative effect on target\n[On Use] Coin Power +X for every Y (Bleed + Sinking) on target\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed Count\n[On Hit] Inflict Sinking Count",
+					"Description": "Deal +5% damage for every type of negative effect on target (Max 15%)\n[On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -22685,17 +22691,17 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Visceral Strokes",
-					"Description": "Deal more damage for every X types of negative effect on target\n[On Use] If target does not have Mauled Color [Rouge], Clash Power +X\n[On Use] Coin Power +X for every Y (Bleed + Sinking) on target\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Bleed Count\n[On Hit] Inflict Sinking",
+					"Description": "Deal +5% damage for every type of negative effect on target (Max 20%)\n[On Use] If target does not have Mauled Color [Rouge], Clash Power +1\n[On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Sinking",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -22709,13 +22715,167 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Le Fauvisme - Reveal Submission",
-					"Description": "Deal more damage for every X types of negative effect on target\n[On Use] Final Power +X for every Y (Bleed + Sinking) on target\n[On Use] At X- HP, or if target has Y+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to Unbreakable Coins\n$ On Hit with the gained Coin: Randomly inflict (Mauled Color on target / Z) Bleed or Sinking\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Sinking\n<3>[On Hit] Inflict Bleed Count\n[On Hit] Inflict Sinking Count\n[On Hit] Inflict Mauled Color [Rouge]",
+					"Description": "Deal +10% damage for every type of negative effect on target (Max 60%)\n[On Use] Final Power +1 for every 5 (Bleed + Sinking) on target (Max 4)\n[On Use] At 50%- HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to Unbreakable Coins\n$ On Hit with the gained Coin: Randomly inflict (Mauled Color on target / 3) Bleed or Sinking (Max 3 each; rounded down)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 1 Mauled Color [Rouge]",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 4,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Bleed Potency",
+						"Sinking Potency",
+						"Bleed Count",
+						"Sinking Count",
+						"Mauled Color [Rouge]"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Coloring Preparations",
+					"Description": "[Clashable Counter]\nIf this unit has Le Fauvisme - Masque de Chien, Base Power +2\n[On Use] If target has 6+ (Bleed + Sinking), Coin Power +1\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Sinking",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 2,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Bleed Potency",
+						"Sinking Potency",
+						"Mauled Color [Rouge]"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Ring Fauvist Student",
+						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursasult gains Imperfections Addressed",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Mauled Color [Rouge]",
+							"Le Fauvisme - Masque de Chien",
+							"Imperfections Addressed"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Welling Inspiration",
+					"Description": "If this unit has Le Fauvisme - Masque de Chien, inflict +1 more Mauled Color [Rouge]\nEvery time this unit inflicts 4 Mauled Color [Rouge], heal 5 SP (2 times per turn)\n$ If this unit's SP is at max, gain 1 Blunt DMG Up next turn when this unit heals SP with this effect (Once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Mauled Color [Rouge]",
+						"Heal SP",
+						"Blunt DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Impastoed Scar",
+					"Description": "1 ally with the fastest Speed: On Hit, inflict 1 Defense Level Down for every 2 types of negative effect on target (Once per turn; max 3)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Defense Level Down"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Rough Portrayal",
+					"Description": "[On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict +1 Bleed Count",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 2,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Potency",
+						"Bleed Count",
+						"Sinking Count",
+						"Mauled Color [Rouge]"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Visceral Strokes",
+					"Description": "[On Use] If target does not have Mauled Color [Rouge], Clash Power +1\n[On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict +2 Bleed Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Potency",
+						"Sinking Potency",
+						"Bleed Count",
+						"Mauled Color [Rouge]"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Le Fauvisme - Reveal Submission",
+					"Description": "Deal +10% damage for every type of negative effect on target (Max 60%)\n[On Use] At 50%- HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to Unbreakable Coins\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +2 Sinking Count",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
@@ -22736,14 +22896,14 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Coloring Preparations",
-					"Description": "[Clashable Counter]\nIf this unit has Le Fauvisme - Masque de Chien, Base Power +X\n[On Use] If target has X+ (Bleed + Sinking), Coin Power +X\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Sinking",
+					"Description": "[Clashable Counter]\nIf this unit has Le Fauvisme - Masque de Chien, Base Power +2\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict 1 Sinking",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
-					"BasePowerModifier": 0,
+					"Level": 2,
+					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
@@ -22760,7 +22920,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Ring Fauvist Student",
-						"Description": "On Hit with a Base Skill: Inflict Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted X Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursasult gains Imperfections Addressed",
+						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursasult gains Imperfections Addressed",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -22777,14 +22937,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "Welling Inspiration",
-					"Description": "If this unit has Le Fauvisme - Masque de Chien, inflict more Mauled Color [Rouge]\nEvery time this unit inflicts X Mauled Color [Rouge], heal SP\n$ If this unit's SP is at max, gain Blunt DMG Up next turn when this unit heals SP with this effect",
+					"Description": "If this unit has Le Fauvisme - Masque de Chien, inflict +1 more Mauled Color [Rouge]\nEvery time this unit inflicts 4 Mauled Color [Rouge], heal 5 SP (2 times per turn)\n$ If this unit's SP is at max, gain 1 Blunt DMG Up next turn when this unit heals SP with this effect (Once per turn)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Lust",
+							"ResourceCount": 4
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Mauled Color [Rouge]",
 						"Heal SP",
@@ -22793,14 +22953,18 @@
 				},
 				"SupportSkill": {
 					"Name": "Impastoed Scar",
-					"Description": "1 ally with the fastest Speed: On Hit, inflict Defense Level Down for every X types of negative effect on target",
+					"Description": "1 ally with the fastest Speed: On Hit, inflict 1 Defense Level Down for every 2 types of negative effect on target (Once per turn; max 3)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Defense Level Down"
 					]
@@ -26713,7 +26877,7 @@
 			"Maestro"
 		],
 		"Traits": [
-			"Corporist",
+			"School of Corporism",
 			"The Ring",
 			"The House of Spiders",
 			"Mechanical Amalgam",
@@ -40077,24 +40241,25 @@
 		]
 	},
 	{
-		"Id": 9000,
+		"Id": 9310,
 		"Sinner": "Rodion",
 		"Identity": "The Ring Fauvist Docent",
 		"DWorld": "???",
 		"Season": 7,  
 		"Traits": [
 		],
-		"Speed": "???",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"Speed": "4~7",
+		"BaseHP": 71,
+		"GrowthHP": 2.6,
 		"StaggerThresholds": [
-			0
+			60,
+			30
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
 		},
 		"UptieTiers": [
 			{
@@ -40102,18 +40267,18 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Vehement Overpainting",
-					"Description": "Deal more damage for every X types of negative effect on target\nDeal more damage if target has Palette Vibrante\n[On Use] Clash Power +X, Final Power +Y for every Z (Bleed + Sinking) on target\n<1>Reuse this Coin if target has X+ types of negative effect\n[On Hit] Inflict Bleed Count\n[On Hit] Inflict Sinking\n[On Hit] Inflict Mauled Color [Rouge]",
+					"Description": "Deal +5% damage for every type of negative effect on target (Max 15%)\nIf target has Palette Vibrante, deal +20% damage\n[On Use] Clash Power +1, Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>If target has 4+ types of negative effect, reuse this Coin once (Max 1 time)\n[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict 1 Sinking\n[On Hit] Inflict 1 Mauled Color [Rouge]",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 6,
+					"CoinPower": 7,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 2,
 					"CoinModifier": 0,
-					"CoinCountModifier": 0,
+					"CoinCountModifier": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -40125,17 +40290,17 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Expression of Primary Colors",
-					"Description": "Deal more damage for every X types of negative effect on target\nDeal more damage if target has Palette Vibrante\nDeal more damage if target has X+ types of Mauled Color\n[On Use] Final Power +X for every Y (Bleed + Sinking) on target\n[On Use] Coin Power +X for every Y types of negative effect on target\n<1>[On Hit] Inflict Bleed\n[On Hit] Inflict Mauled Color [Rouge]\n<2>[On Hit] Inflict Sinking Count\n[On Hit] Inflict Mauled Color [Bleu]\n[On Hit] Inflict Touche Hardie if target has X+ types of negative effects",
+					"Description": "Deal +20% damage for every type of negative effect on target (Max 60%)\nIf target has Palette Vibrante, deal +20% damage\nIf target has 2+ types of Mauled Color, deal +20% damage\n[On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n[On Use] Coin Power +1 for every 2 types of negative effect on target (Max 3)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 3 Mauled Color [Bleu]\n[On Hit] If target has 5+ types of negative effects, inflict 1 Touche Hardie",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 6,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -40150,17 +40315,17 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Le Fauvisme - Déchaînement Brutal",
-					"Description": "Deal more damage for every X types of negative effect on target\nDeal more damage if target has Palette Vibrante\n[Before Use] If target has X+ types of negative effect, activate as 'Burst Forth the Pulsing Crimson under Your Skin'\n[On Use] Coin Power +X for every Y (Bleed + Sinking) on target\n<1>[On Hit] Inflict Bleed\n[On Hit] Inflict Maueld Color [Rouge]\n<2>[On Hit] Inflict Bleed Count\n[On Hit] Inflict Mauled Color [Rouge]\n<3>[On Hit] Inflict Sinking\n[On Hit] Inflict Mauled Color [Bleu]\n<4>[On Hit] Inflict Touche Hardie next turn if target has X+ types of negative effects\n[On Hit] Inflict Touche Hardie",
+					"Description": "Deal +20% damage for every type of negative effect on target (Max 60%)\nIf target has Palette Vibrante, deal +20% damage\n[Before Use] If target has 6+ types of negative effect, activate as 'Burst Forth the Pulsing Crimson under Your Skin' (Once per turn)\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Mauled Color [Bleu]\n<4>[On Hit] Inflict +2 Bleed Count\n[On Hit] If target has 5+ types of negative effects, inflict 1 Touche Hardie next turn\n[On Hit] Inflict 1 Touche Hardie",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -40176,20 +40341,20 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Burst Forth the Pulsing Crimson under Your Skin",
-						"Description": "[Unfocused Volley]\nDeal more damage for every X types of negative effect on target\nDeal more damage if target has Palette Vibrante\n[On Use] Coin Power +X for every Y (Bleed + Sinking) on target\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n[On Hit] Inflict Maueld Color [Rouge]\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n[On Hit] Inflict Mauled Color [Rouge]\n<3>[Unbreakable Coin]\n[On Hit] Inflict Sinking\n[On Hit] Inflict Mauled Color [Bleu]\n<4>[Unbreakable Coin]\nThis Coin hits all targets\n[On Hit] Bleed Count\n[On Hit] Inflict Touche Hardie",
+						"Description": "[Unfocused Volley]\nDeal +15% damage for every type of negative effect on target (Max 60%)\nIf target has Palette Vibrante, deal +40% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 4 Mauled Color [Bleu]\n<4>[Unbreakable Coin]\nThis Coin hits all targets\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 2 Touche Hardie",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 5,
+						"CoinPower": 3,
 						"CoinCount": 4,
-						"Level": 0,
+						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
-						"CoinModifier": 0,
+						"CoinModifier": 2,
 						"CoinCountModifier": 0,
-						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
 						"MiscTags": [
 							"Bleed Potency",
 							"Mauled Color [Rouge]",
@@ -40203,15 +40368,15 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Trimming the Medium",
-					"Description": "[Clashable Counter]\nDeal more damage if target has Palette Vibrante\n[Before Use] If unit does not have Réflexion and if target has X+ types of negative effect, activate as 'Critique'\n[On Use] Final Power +X for every Y (Bleed + Sinking) on target\n<1>[On Hit] Inflict Bleed\n[On Hit] Inflict Mauled Color [Rouge]\n$ Inflict even more Mauled Color [Rouge] if target does not have Mauled Color [Rouge]\n<2>[On Hit] Inflict Sinking\n[On Hit] Inflict Mauled Color [Bleu]\n$ Inflict even more Mauled Color [Bleu] if target does not have Mauled Color [Bleu]",
+					"Description": "[Clashable Counter]\nIf target has Palette Vibrante, deal +20% damage\n[Before Use] If unit does not have Réflexion and if target has 3+ types of negative effect, activate as 'Critique'\n[On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n$ If target does not have Mauled Color [Rouge], inflict +1 Mauled Color [Rouge]\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Inflict 1 Mauled Color [Bleu]\n$ If target does not have Mauled Color [Bleu], inflict +1 Mauled Color [Bleu]",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -40228,18 +40393,18 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Critique",
-						"Description": "[Clashable Counter]\nDeal more damage for every X types of negative effect on target\nDeal more damage if target has Palette Vibrante\n[On Use] Gain Clash Power Up if target has Palette Vibrante\n[On Use] Final Power +X if target has Y+ (Bleed + Sinking)\n[On Use] Clash Power +X for every Y types of negative effect on target\n[Skill End] Gain Réflexion\n<1>Reuse this Coin for every X types of negative effect on target\n[On Hit] Inflict Bleed\n[On Hit] Inflict Sinking\n[On Hit] Randomly inflict Mauled Color [Rouge] or Mauled Color [Bleu]\n[On Hit] Inflict Touche Hardie if this is the Xth Coin used",
+						"Description": "[Clashable Counter]\nDeal +10% damage for every type of negative effect on target (Max 40%)\nIf target has Palette Vibrante, deal +30% damage\n[On Use] If target has Palette Vibrante, gain 2 Clash Power Up\n[On Use] If target has 4+ (Bleed + Sinking), Final Power +3\n[On Use] Clash Power +2 for every 2 types of negative effect on target (Max 6)\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 5,
+						"CoinPower": 4,
 						"CoinCount": 1,
 						"Level": 0,
 						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
-						"ClashPowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 6,
 						"CoinModifier": 0,
-						"CoinCountModifier": 0,
+						"CoinCountModifier": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -40256,7 +40421,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Mentorship",
-						"Description": "Turn Start: Gain L'Hommage equal to the number of The Ring Student Identities on the field\nTurn Start: Randomly apply (# of The Ring Student Identities on the field) Offense Level Up or Defense Level Up to any X of The Ring Student Identities",
+						"Description": "Turn Start: Gain L'Hommage equal to the number of The Ring Student Identities on the field (Once per Encounter)\nTurn Start: Randomly apply (# of The Ring Student Identities on the field) Offense Level Up or Defense Level Up to any 2 of The Ring Student Identities (Max 2, once per Encounter, prioritizes The Ring Fauvist Students)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -40272,7 +40437,7 @@
 					},
 					{
 						"Name": "Le Fauvisme - Couleurs Sauvages",
-						"Description": "Combat End: Inflict Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has X+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict Y Palette Vibrante instead\nTurn End: Gain Le Fauvisme - Masque de Loup if any X of the following conditions are met\n$ Inflicted Palette Vibrante X times\n$ Used 'Critique' X times\n$ Used 'Burst Forth the Pulsing Crimon under Your Skin'",
+						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimon under Your Skin'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -40288,14 +40453,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "Needs a Rougher Touch for this Part...!",
-					"Description": "Inflict more Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
+					"Description": "Inflict more +1 Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Mauled Color [Rouge]",
 						"Mauled Color [Bleu]",
@@ -40304,14 +40469,237 @@
 				},
 				"SupportSkill": {
 					"Name": "Nice and Slow, Don't Let It Break...",
-					"Description": "Apply the following effects to the Identity with the earliest Deployment order:\n$ If Lust Reson is an odd number, inflict more Bleed Potency\n$ If Lust Reson is an even number, inflict more Sinking Potency\n$ If said Identity is in The Ring faction, gains Offense Level Up or Defense Level Up at Combat Start",
+					"Description": "Apply the following effects to the Identity with the earliest Deployment order:\n$ If Lust Reson is an odd number, inflict +1 Bleed Potency\n$ If Lust Reson is an even number, inflict +1 Sinking Potency\n$ If said Identity is in The Ring faction, gain 1 Offense Level Up or 1 Defense Level Up at Combat Start",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Bleed Potency",
+						"Sinking Potency",
+						"Ally Offense Level Up",
+						"Ally Defense Level Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Vehement Overpainting",
+					"Description": "If target has Palette Vibrante, deal +20% damage\n[On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict 1 Sinking\n[On Hit] Inflict 1 Mauled Color [Rouge]",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 6,
+					"CoinPower": 6,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Count",
+						"Sinking Potency",
+						"Mauled Color [Rouge]"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Expression of Primary Colors",
+					"Description": "[On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 3 Mauled Color [Bleu]\n[On Hit] If target has 6+ types of negative effects, inflict 1 Touche Hardie",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Bleed Potency",
+						"Mauled Color [Rouge]",
+						"Sinking Count",
+						"Mauled Color [Bleu]",
+						"Touche Hardie"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Le Fauvisme - Déchaînement Brutal",
+					"Description": "If target has Palette Vibrante, deal +20% damage\n[Before Use] If target has 6+ types of negative effect, activate as 'Burst Forth the Pulsing Crimson under Your Skin' (Once per turn)\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Mauled Color [Bleu]\n<4>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Touche Hardie",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Bleed Potency",
+						"Mauled Color [Rouge]",
+						"Bleed Count",
+						"Sinking Potency",
+						"Mauled Color [Bleu]",
+						"Touche Hardie"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Burst Forth the Pulsing Crimson under Your Skin",
+						"Description": "[Unfocused Volley]\nIf target has Palette Vibrante, deal +40% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 4 Mauled Color [Bleu]\n<4>[Unbreakable Coin]\nThis Coin hits all targets\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 2 Touche Hardie",
+						"DamageType": "Blunt",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Bleed Potency",
+							"Mauled Color [Rouge]",
+							"Bleed Count",
+							"Sinking Potency",
+							"Mauled Color [Bleu]",
+							"Touche Hardie"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Trimming the Medium",
+					"Description": "[Clashable Counter]\nIf target has Palette Vibrante, deal +20% damage\n[Before Use] If unit does not have Réflexion and if target has 3+ types of negative effect, activate as 'Critique'\n[On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n$ If target does not have Mauled Color [Rouge], inflict +1 Mauled Color [Rouge]\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Inflict 1 Mauled Color [Bleu]\n$ If target does not have Mauled Color [Bleu], inflict +1 Mauled Color [Bleu]",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Skill Change",
+						"Bleed Potency",
+						"Mauled Color [Rouge]",
+						"Sinking Potency",
+						"Mauled Color [Bleu]"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Critique",
+						"Description": "[Clashable Counter]\nDeal +8% damage for every type of negative effect on target (Max 40%)\nIf target has Palette Vibrante, deal +30% damage\n[On Use] If target has Palette Vibrante, gain 2 Clash Power Up\n[On Use] If target has 4+ (Bleed + Sinking), Final Power +3\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
+						"DamageType": "Blunt",
+						"SinType": "Lust",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Réflexion",
+							"Bleed Potency",
+							"Sinking Potency",
+							"Mauled Color [Rouge]",
+							"Mauled Color [Bleu]",
+							"Touche Hardie"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Mentorship",
+						"Description": "Turn Start: Gain L'Hommage equal to the number of The Ring Student Identities on the field (Once per Encounter)\nTurn Start: Randomly apply (# of The Ring Student Identities on the field) Offense Level Up or Defense Level Up to any 2 of The Ring Student Identities (Max 2, once per Encounter, prioritizes The Ring Fauvist Students)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"L'Hommage",
+							"Ally Offense Level Up",
+							"Ally Defense Level Up"
+						]
+					},
+					{
+						"Name": "Le Fauvisme - Couleurs Sauvages",
+						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimon under Your Skin'",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Palette Vibrante",
+							"Le Fauvisme - Masque de Loup"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Needs a Rougher Touch for this Part...!",
+					"Description": "Inflict more +1 Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Mauled Color [Rouge]",
+						"Mauled Color [Bleu]",
+						"Touche Hardie"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Nice and Slow, Don't Let It Break...",
+					"Description": "Apply the following effects to the Identity with the earliest Deployment order:\n$ If Lust Reson is an odd number, inflict +1 Bleed Potency\n$ If Lust Reson is an even number, inflict +1 Sinking Potency\n$ If said Identity is in The Ring faction, gain 1 Offense Level Up or 1 Defense Level Up at Combat Start",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Bleed Potency",
 						"Sinking Potency",
@@ -45900,9 +46288,10 @@
 		"DWorld": "The Ring",
 		"Season": -4,  
 		"Traits": [
-			"Pointilist",
+			"School of Pointilism",
 			"The Fingers",
-			"The Ring"
+			"The Ring",
+			"Student"
 		],
 		"Speed": "3~6",
 		"BaseHP": 69,

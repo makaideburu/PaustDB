@@ -4120,7 +4120,7 @@
 	},
 	{
 		"Name": "Mauled Color [Rouge]",
-		"Description": "When hit, gain X Bleed Potency for every X Stack\nTurn End: Gain X Defense Level Down next turn for every Y Stack\nTurn End: Lose X Stack",
+		"Description": "Max Stack: 9\nWhen hit, gain 1 Bleed Potency for every 3 Stack (Once per turn)\nTurn End: Gain 1 Defense Level Down next turn for every 4 Stack (Max 2)\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Bleed Potency",
 			"Defense Level Down"
@@ -4128,7 +4128,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Chien",
-		"Description": "Deal more damage for every X Mauled Color on target\nInflict more Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if target does not have Bleed, inflict Bleed Count on target",
+		"Description": "Deal +5% damage for every 3 Mauled Color on target (Max 15%)\nInflict +1 Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if target does not have Bleed, inflict +2 Bleed Count on target (Once per turn)",
 		"Tags": [
 			"Damage Amp",
 			"Bleed Potency",
@@ -4138,7 +4138,7 @@
 	},
 	{
 		"Name": "Imperfections Addressed",
-		"Description": "Deal more damage\nOn Reuse of a Coin in The Ring Fauvist Docent Rodion's 'Critique' Skill, heal SP\nTurn End: If The Ring Fauvist Docent Rodion does not have Réflexion, expires",
+		"Description": "Deal +10% damage\nOn Reuse of a Coin in The Ring Fauvist Docent Rodion's 'Critique' Skill, heal 3 SP (Once per turn)\nTurn End: If The Ring Fauvist Docent Rodion does not have Réflexion, expires",
 		"Tags": [
 			"Damage Amp",
 			"Heal SP"
@@ -4154,7 +4154,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Loup",
-		"Description": "Gain Min & Max Speed\nInflict more Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if target has X+ Mauled Color [Bleu], inflict Sinking Count\nOn Hit, if target has Mauled Color [Rouge], inflict Bleed Count",
+		"Description": "Min & Max Speed +1\nInflict more +1 Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (Once per turn)\nOn Hit, if target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (Once per turn)",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4166,7 +4166,7 @@
 	},
 	{
 		"Name": "Touche Hardie",
-		"Description": "Take more HP and SP damage from Bleed and Sinking effects for every X Stack\nTurn End: Lose X Stack",
+		"Description": "Max Stack: 2\nTake +10% HP and SP damage from Bleed and Sinking effects for every Stack (Max 20%, rounded down)\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Bleed Amp",
 			"Sinking Amp"
@@ -4174,7 +4174,7 @@
 	},
 	{
 		"Name": "Palette Vibrante",
-		"Description": "Take more damage from The Ring-faction Identities\n$ If the attacker is in both The Ring faction and School of Fauvism faction, take even more damage instead\nCombat Start: Randomly gain Bleed, Sinking, Bleed Count, or Sinking Count for every Stack\nCombat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit",
+		"Description": "Max Stack: 4\nTake +(Stack x 2.5)% damage from The Ring-faction Identities\n$ If the attacker is in both The Ring faction and School of Fauvism faction, take +(Stack x 5)% damage instead\nCombat Start: Randomly gain 1 Bleed, 1 Sinking, 1 Bleed Count, or 1 Sinking Count (Stack) times\nCombat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (Rounded down)",
 		"Tags": [
 			"Damage Amp",
 			"Bleed Potency",
@@ -4187,7 +4187,7 @@
 	},
 	{
 		"Name": "L'Hommage",
-		"Description": "Turn Start: Randomly gain Offense Level Up or Defense Level Up for every Stack\nTurn End: This effect expires",
+		"Description": "Max Stack: 3\nTurn Start: Randomly gain 1 Offense Level Up or 1 Defense Level Up for every Stack\nTurn End: This effect expires",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Up"
@@ -4195,7 +4195,7 @@
 	},
 	{
 		"Name": "Réflexion",
-		"Description": "Cannot use 'Critique' during the turn this unit has this effect\nTurn Start: Heal SP\nTurn End: Lose X Stack\nWhen this effect expires, gain L'Hommage next turn equal to the number of The Ring Student Identities on the field",
+		"Description": "Max Stack: 2\nCannot use 'Critique' during the turn this unit has this effect\nTurn Start: Heal 5 SP\nTurn End: Lose 1 Stack\nWhen this effect expires, gain L'Hommage next turn equal to the number of The Ring Student Identities on the field",
 		"Tags": [
 			"Heal SP",
 			"L'Hommage"
