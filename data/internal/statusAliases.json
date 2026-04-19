@@ -219,6 +219,14 @@
 		]
 	},
 	{
+		"entry": "damage type resist down",
+		"aliases": [
+			"slash resist down",
+			"pierce resist down",
+			"blunt resist down"
+		]
+	},
+	{
 		"entry": "slash resist down",
 		"aliases": [
 			"resist down"
@@ -2867,6 +2875,32 @@
 		"aliases": [
 			"heal sp",
 			"l'hommage"
+		]
+	},
+	{
+		"entry": "faction buff: the ring school of corporism",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: the ring school of fauvism",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "beauty of the physique",
+		"aliases": [
+			"coin power",
+			"damage amp"
+		]
+	},
+	{
+		"entry": "charm of the beastly",
+		"aliases": [
+			"coin power",
+			"blunt power up"
 		]
 	}
 ]

@@ -4200,5 +4200,21 @@
 			"Heal SP",
 			"L'Hommage"
 		]
+	},
+	{
+		"Name": "Beauty of the Physique",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nBase Skills that consume Unique Charge gain Coin Power +1 (Excluding E.G.O Skills)\nTurn End: This effect expires",
+		"Tags": [
+			"Coin Power",
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Charm of the Beastly",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (Once per turn)\nTurn End: This effect expires",
+		"Tags": [
+			"Coin Power",
+			"Blunt Power Up"
+		]
 	}
 ]

@@ -345,7 +345,7 @@
 		"Cost": 189,
 		"Upgrades": [
 			{
-				"Description": "After defeating an enemy using a Sloth Affinity or Blunt damage Skill, raise the unit's Blunt Skill Power by 2 until the end of next turn.",
+				"Description": "If an enemy is killed by Attack End of a Blunt Skill or a Sloth Skill: For 2 turns, starting next turn, raise the Blunt Skill Power by 2 for the unit who used the Skill",
 				"Rank": 1,
 				"MiscTags": [
 					"Blunt Power Up"
@@ -595,7 +595,7 @@
 		"Cost": 201,
 		"Upgrades": [
 			{
-				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (8 + Stagger LV x 4) Bleed and (8 + Stagger LV x 4)/2 Offense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
+				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (8 + Stagger LV x 4) Bleed and (8 + Stagger LV x 4)/2 Offense Level Down on them this turn and next turn. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
 				"Rank": 1,
 				"MiscTags": [
 					"Bleed Potency",
@@ -603,7 +603,7 @@
 				]
 			},
 			{
-				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (10 + Stagger LV x 5) Bleed and (10 + Stagger LV x 5) Offense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
+				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (10 + Stagger LV x 5) Bleed and (10 + Stagger LV x 5) Offense Level Down on them this turn and next turn. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
 				"Rank": 2,
 				"MiscTags": [
 					"Bleed Potency",
@@ -611,7 +611,7 @@
 				]
 			},
 			{
-				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (12 + Stagger LV x 6) Bleed and (12 + Stagger LV x 6) Offense Level Down and Defense Level Down on them. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
+				"Description": "Turn Start: If there are Staggered enemies, un-Stagger enemies. Then, inflict (12 + Stagger LV x 6) Bleed and (12 + Stagger LV x 6) Offense Level Down and Defense Level Down on them this turn and next turn. (Activates once per enemy per Encounter. Does not activate against certain enemies that do not recover from Stagger)",
 				"Rank": 3,
 				"MiscTags": [
 					"Bleed Potency",
@@ -892,7 +892,7 @@
 		"Cost": 194,
 		"Upgrades": [
 			{
-				"Description": "After defeating an enemy by using a Pride Affinity or Pierce damage Skill, raise the unit's Pierce Power by 2 for the next 2 turns.",
+				"Description": "If an enemy is killed by Attack End of a Pierce Skill or a Pride Skill: For 2 turns, starting next turn, raise the Pierce Power by 2 for the unit who used the Skill",
 				"Rank": 1,
 				"MiscTags": [
 					"Pierce Power Up"
@@ -957,7 +957,7 @@
 		"Cost": 198,
 		"Upgrades": [
 			{
-				"Description": "After defeating an enemy by using an Envy Affinity or Slash damage skill, raise the unit's Slash Skill Power by 2 for the next 2 turns.\nWhen activating Envy A-Res, all allies gain 2 Offense Level Up and 2 Defense Level Up at Combat Start.",
+				"Description": "If an enemy is killed by Attack End of a Slash Skill or an Envy Skill: For 2 turns, starting next turn, raise the Slash Power by 2 for the unit who used the Skill\nWhen activating Envy A-Res, all allies gain 2 Offense Level Up and 2 Defense Level Up at Combat Start.",
 				"Rank": 1,
 				"MiscTags": [
 					"Defense Level Up",
@@ -4463,7 +4463,7 @@
 		"Cost": 210,
 		"Upgrades": [
 			{
-				"Description": "[Effect applies to #1, #2 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +10% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 2 Charge Barrier next turn.",
+				"Description": "[Effect applies to #1, #2 Deployed Identities]\nTurn Start: The affected Identity gains 2 Charge Barrier\nIf the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +10% damage while that unit has Charge Barrier.",
 				"Rank": 1,
 				"MiscTags": [
 					"Clash Power",
@@ -4471,7 +4471,7 @@
 				]
 			},
 			{
-				"Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +15% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 3 Charge Barrier next turn.",
+				"Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: The affected Identity gains 3 Charge Barrier\nIf the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +15% damage while that unit has Charge Barrier.",
 				"Rank": 2,
 				"MiscTags": [
 					"Clash Power",
@@ -4479,7 +4479,7 @@
 				]
 			},
 			{
-				"Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: If the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +25% damage while that unit has Charge Barrier.\nTurn End: If the affected Identity does not have Charge Barrier, apply 4 Charge Barrier next turn.",
+				"Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nTurn Start: The affected Identity gains 4 Charge Barrier\nIf the affected Identity has a Skill that gains or consumes Charge Count or Unique Charge, the Identity's Skill 1 gains Clash Power +1 and deals +25% damage while that unit has Charge Barrier.",
 				"Rank": 3,
 				"MiscTags": [
 					"Clash Power",
@@ -7554,7 +7554,7 @@
 		"Cost": 243,
 		"Upgrades": [
 			{
-				"Description": "[Effect applies to #1 Deployed Identity]\nTurn End: When Staggered, recover from Stagger; at next Turn Start, inflict 4 Sinking and +4 Sinking Count to all enemies (Once per Encounter; in Focused Encounters, all Parts)\nWhen defeating an enemy with Sinking, 1 enemy with the least Sinking Count gains +2 Sinking Count (in Focused Encounters, 1 Part)",
+				"Description": "Turn End: When Staggered, recover from Stagger; at next Turn Start, inflict 4 Sinking and +4 Sinking Count to all enemies (Once per Encounter; in Focused Encounters, all Parts)\nOn Kill, 1 enemy with the least Sinking Count gains +2 Sinking Count",
 				"Rank": 1,
 				"MiscTags": [
 					"Stagger Recovery",
@@ -10349,20 +10349,21 @@
 	{
 		"Name": "Exquisite Artwork",
 		"Tag": "Bleed",
-		"Abnormality": "Fusion: ||Homeward + Headless Portrait + Average Artwork||",
+		"Abnormality": "Fusion: ||Homeward + Pure-white Canvas + Average Artwork||",
 		"Affinity": "Lust",
 		"Tier": 4,
 		"Cost": 404,
 		"Upgrades": [
 			{
-				"Description": "The Ring-faction Identities gain Spark of Inspiration\nIf The Ring-faction Identity with Spark of Inspiration hits an enemy, inflict Curio on said enemy\n$ If the enemy already has Curio, replace Curio with Art Medium\nIf The Ring-faction Identity with Spark of Inspiration kills an enemy that has Art Medium, said Identity loses Spark of Inspiration and gains Exquisite Aesthetics",
+				"Description": "The Ring-faction Identities gain Spark of Inspiration\nIf The Ring-faction Identity with Spark of Inspiration hits an enemy, inflict Curio on said enemy\n$ If the enemy already has Curio, replace Curio with Art Medium\nIf The Ring-faction Identity with Spark of Inspiration kills an enemy that has Art Medium, said Identity loses Spark of Inspiration and gains Exquisite Aesthetics\nOn Hit with Plus Coin Attack Skills against an enemy that has 15+ Bleed, heal 3 SP (Once per turn per Identity)\nIf said Identity or target has 3+ types of negative effects, heal 6 SP instead",
 				"Rank": 1,
 				"MiscTags": [
 					"Faction Buff: The Ring",
 					"Spark of Inspiration",
 					"Curio",
 					"Art Medium",
-					"Exquisite Aesthetics"
+					"Exquisite Aesthetics",
+					"Heal SP"
 				]
 			}
 		],
@@ -10998,6 +10999,203 @@
 					"Clash Power",
 					"Damage Amp",
 					"Base Power"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Bongy Plush",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *The B.E.*",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 600,
+		"Upgrades": [
+			{
+				"Description": "Multiply Cost owned by 1.5 upon clearing a Floor\nDeal +0.5% damage for every E.G.O Gift owned (Max 100%)\nTurn Start: Gain 1 Attack Power Up for every 20 E.G.O Gifts owned (Max 10)",
+				"Rank": 1,
+				"MiscTags": [
+					"Cost",
+					"Damage Amp",
+					"Attack Power Up"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Unoccupied Birdcage",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Wrath",
+		"Tier": 2,
+		"Cost": 198,
+		"Upgrades": [
+			{
+				"Description": "At Attack End of a Skill that has 2+ Atk Weight, gain +(# of hits on an enemy / 2) E.G.O resource of that Skills' Affinity (Rounded down; max 5 per Skill)\nOn Crit with a Skill that has 2+ Atk Weight, gain +(# of Coins that hit Critically) E.G.O resource of the least-owned Affinity at Attack End (Max 3)",
+				"Rank": 1,
+				"MiscTags": [
+					"Gain Resources"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Universal Skeleton",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Lust",
+		"Tier": 2,
+		"Cost": 200,
+		"Upgrades": [
+			{
+				"Description": "The Ring-faction Identities: At Attack End, inflict 1 Stack of a random Attack Type Resist Down on target (2 times per turn)\nThe Ring-faction Identities deal +10% damage",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: The Ring",
+					"Damage Type Resist Down",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Universal Instinct",
+		"Tag": "Keywordless",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Lust",
+		"Tier": 2,
+		"Cost": 200,
+		"Upgrades": [
+			{
+				"Description": "Turn End: Randomly apply 1 Stack of a random Affinity's Damage Up next turn to (# of enemies with Bleed) The Ring-faction Identities (Once per Identity per turn, in Focused Encounters, Parts)\nThe Ring-faction Identities deal +10% damage",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: The Ring",
+					"Sin DMG Up",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Artwork: Farity",
+		"Tag": "Sinking",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Gloom",
+		"Tier": 3,
+		"Cost": 246,
+		"Upgrades": [
+			{
+				"Description": "Deal +20% damage with Blunt Skills against enemies that have 35+ Sinking Potency or are at 15- SP (Sinking is calculated per-Part)\n$ If said Blunt Skill is wither a Gloom Skill or a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, and hit the target, gain 1 Attack Power Up next turn (Once per turn per Identity)",
+				"Rank": 1,
+				"MiscTags": [
+					"Damage Amp",
+					"Attack Power Up"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Artwork: Pulsation",
+		"Tag": "Charge",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Envy",
+		"Tier": 3,
+		"Cost": 246,
+		"Upgrades": [
+			{
+				"Description": "If an ally consumed 10+ Charge Count in a single turn with its Base Skills, said ally deals +20% damage with Base Skills next turn (Excluding Unique Charge with fixed Potency)\n$ If the Charge consumed was Unique Charge, inflict +1 more Bleed and Bleed Count next turn",
+				"Rank": 1,
+				"MiscTags": [
+					"Damage Amp",
+					"Bleed Potency",
+					"Bleed Count"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "The Middle Styled Knuckle-dusters",
+		"Tag": "Blunt",
+		"Abnormality": "Theme Pack: *Twining Threads*",
+		"Affinity": "Sloth",
+		"Tier": 3,
+		"Cost": 243,
+		"Upgrades": [
+			{
+				"Description": "If the target has 1.5 or lower Blunt Resistance, Blunt Resistance +0.3",
+				"Rank": 1,
+				"MiscTags": [
+					"Resist Down"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Artwork: Evolving Pulsation",
+		"Tag": "Bleed",
+		"Abnormality": "Fusion: ||Universal Skeleton + Artwork: Pulsation||",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 402,
+		"Upgrades": [
+			{
+				"Description": "Turn Start: Activates when there are 2+ The Ring-faction Identities (Only counts Identities on the field)\nThe Ring School of Corporism-faction Identities inflict 1 Slash Resist Down On Hit with Base Skills (Once per Skill, 2 times per turn)\nThe Ring Identities deal +20% damage\nTurn Start: At 99+ total sum of Bleed Potency on all enemies, the Ring School of Corporism-faction Identities gain 1 Beauty of the Physique",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: The Ring School of Corporism",
+					"Faction Buff: The Ring",
+					"Slash Resist Down",
+					"Damage Amp",
+					"Beauty of the Physique"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Artwork: Taxidermied Farity",
+		"Tag": "Bleed",
+		"Abnormality": "Fusion: ||Universal Instinct + Artwork: Farity||",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 402,
+		"Upgrades": [
+			{
+				"Description": "Turn Start: Activates when there are 2+ The Ring-faction Identities (Only counts Identities on the field)\nThe Ring School of Fauvism-faction Identities inflict 1 Blunt Resist Down On Hit with Base Skills (Once per Skill, 2 times per turn)\nThe Ring Identities deal +20% damage\nTurn Start: At 99+ total sum of Bleed Potency on all enemies, the Ring School of Fauvism-faction Identities gain 1 Charm of the Beastly",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: The Ring School of Fauvism",
+					"Faction Buff: The Ring",
+					"Blunt Resist Down",
+					"Damage Amp",
+					"Charm of the Beastly"
 				]
 			}
 		],
