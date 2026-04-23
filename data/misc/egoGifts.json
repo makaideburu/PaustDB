@@ -10083,6 +10083,27 @@
 		]
 	},
 	{
+		"Name": "Searing Brass",
+		"Tag": "Burn",
+		"Abnormality": "Theme Packs: *Unbound Wrath, Season of the Flame*",
+		"Affinity": "Wrath",
+		"Tier": 4,
+		"Cost": 403,
+		"Upgrades": [
+			{
+				"Description": "Max Burn Potency +11\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)",
+				"Rank": 1,
+				"MiscTags": [
+					"Burn Potency Limit Increase",
+					"Burn Potency"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
 		"Name": "Entangled Fate",
 		"Tag": "None",
 		"Abnormality": "Theme Packs: *Unbound Wrath, Tangling Lust, Inert Sloth, Excessive Gluttony, Sunk Gloom, Tyrannical Pride, Pitiful Envy*",

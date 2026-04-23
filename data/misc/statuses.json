@@ -4216,5 +4216,37 @@
 			"Coin Power",
 			"Blunt Power Up"
 		]
+	},
+	{
+		"Name": "Faltering Inspiration (Low Morale)",
+		"Description": "If target has Mauled Color, deal +10% damage\nGain 1 Fragile",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Faltering Inspiration (Panic)",
+		"Description": "If target has Mauled Color, deal +20% damage\nGain 2 Fragile",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Coloriage Impulsif (Low Morale)",
+		"Description": "Deal +2.5% damage for every type of negative effect on target (Max 15%)\nGain 1 Fragile",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Coloriage Impulsif (Panic)",
+		"Description": "Deal +5% damage for every type of negative effect on target (Max 30%)\nGain 1 Fragile",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
 	}
 ]
