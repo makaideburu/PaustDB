@@ -4102,7 +4102,7 @@
 	},
 	{
 		"Name": "Artwork: Tibia",
-		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ 1+: Base Power +1\n$ 2+: If the enemy has Bleed or Unique Bleed, deal +10% damage\n$ 3+: Inflict +1 Bleed Potency and Bleed Count\n$ 4+: Gain Base Power +1\n$ 5+: Gain Base Power +1",
+		"Description": "Apply the following to this unit's Base Attack Skills and Clashable Counter Skill based on Corpus Ingredient Potency:\n$ 1+: Base Power +1\n$ 2+: If the enemy has Bleed or Unique Bleed, deal +10% damage\n$ 3+: Inflict +1 more Bleed Potency and Bleed Count\n$ 4+: Base Power +1\n$ 5+: Base Power +1",
 		"Tags": [
 			"Base Power Up",
 			"Damage Amp",
@@ -4247,6 +4247,29 @@
 		"Tags": [
 			"Panic",
 			"Panic Type"
+		]
+	},
+	{
+		"Name": "Book of Vengeance [Heathcliff]",
+		"Description": "Gain Offense Level and Defense Level based on Stack",
+		"Tags": [
+			"Offense Level Up",
+			"Defense Level Up"
+		]
+	},
+	{
+		"Name": "Vengeance Tattoo",
+		"Description": "Base Skills deal more damage based on Stack",
+		"Tags": [
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Scarlet Moth",
+		"Description": "Turn End: Heal (Stack)% HP\nTurn End: Heal SP equal to Stack\nTurn End: Lose X Stack",
+		"Tags": [
+			"Heal HP",
+			"Heal SP"
 		]
 	}
 ]

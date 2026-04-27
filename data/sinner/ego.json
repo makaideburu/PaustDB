@@ -10754,6 +10754,103 @@
 		]
 	},
 	{
+		"Id": 9000,
+		"Sinner": "Rodion",
+		"Grade": "ZAYIN",
+		"Season": 7,
+		"Sanity": 0,
+		"CorrosionSanity": 0,
+		"Abnormality": "Sunset Wayfarer",
+		"SinResist": {
+			"Wrath": -100,
+			"Lust": -100,
+			"Sloth": -100,
+			"Gluttony": -100,
+			"Gloom": -100,
+			"Pride": -100,
+			"Envy": -100
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 0,
+			"Pride": 0,
+			"Envy": 0
+		},
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Into the Sunset",
+					"Description": "[On Use] Clash Power +X for every (Burn + Bleed) on all targets\n[Attack End] Heal X allies that have the lowest HP percentages up to Y% of max HP and apply Scarlet Moth to said allies\n$ Heal additional allies equal to (Lust Reson - X)\n$ If the healed ally equipped a Lust Skill, heal X SP on said ally as well\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Bleed\n[Current Coin Attack End] Inflict Wrath Fragility and Lust Fragility next turn on target hit",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Ally Heal HP",
+						"Heal HP",
+						"Ally Scarlet Moth",
+						"Scarlet Moth",
+						"Ally Heal SP",
+						"Heal SP",
+						"Burn Potency",
+						"Bleed Potency",
+						"Wrath Fragility",
+						"Lust Fragility"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Into the Sunset",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Deal more damage for every X (Burn + Bleed) on all targets\n$ If there is a Wrath A-Reson or Lust A-Reson, deal additional damage\n[Before Attack] Base Power -X for every Cracked Coin\n[Attack End] Apply X Scarlet Moth Y times between random allies\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n[On Hit] Inflict Burn Count\n[Current Coin Attack End] Inflict Wrath Fragility next turn on target hit by this Coin\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n[On Hit] Inflict Bleed Count\n[Current Coin Attack End] Inflict Lust Fragility next turn on target hit by this Coin",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Ally Scarlet Moth",
+						"Scarlet Moth",
+						"Burn Potency",
+						"Burn Count",
+						"Wrath Fragility",
+						"Bleed Potency",
+						"Bleed Count",
+						"Lust Fragility"
+					]
+				},
+				"Passive": {
+					"Name": "What Distinguishes Moths from Butterflies",
+					"Description": "If this unit's leftmost Base Attack Skill on the Dashboard is a Wrath or a Lust Skill, at Attack End, deal X% of the damage dealt against the main target with that Skill as its corresponding Affinity damage to a random enemy\nIf this unit dealt the maximum possible damage with the above effect, gain Affinity DMG Up for the corresponding Affinity next turn, and disable the above effect from triggering for X turns",
+					"MiscTags": [
+						"Sin Damage Up"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 9201,
 		"Sinner": "Rodion",
 		"Grade": "TETH",
