@@ -4251,7 +4251,7 @@
 	},
 	{
 		"Name": "Book of Vengeance [Heathcliff]",
-		"Description": "Gain Offense Level and Defense Level based on Stack",
+		"Description": "Max Stack: 30\nOffense Level +1, Defense Level +1 for every 5 Stack",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Up"
@@ -4259,14 +4259,14 @@
 	},
 	{
 		"Name": "Vengeance Tattoo",
-		"Description": "Base Skills deal more damage based on Stack",
+		"Description": "Max Stack: 20\nBase Skills deal +1% damage based for every Stack",
 		"Tags": [
 			"Damage Amp"
 		]
 	},
 	{
 		"Name": "Scarlet Moth",
-		"Description": "Turn End: Heal (Stack)% HP\nTurn End: Heal SP equal to Stack\nTurn End: Lose X Stack",
+		"Description": "Max Stack: 3\nTurn End: Heal (Stack)% HP (Min 1 HP)\nTurn End: Heal SP equal to Stack\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Heal HP",
 			"Heal SP"

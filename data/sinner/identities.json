@@ -31771,8 +31771,10 @@
 		"DWorld": "???",
 		"Season": 7,  
 		"Traits": [
+			"The Middle",
+			"The Fingers"
 		],
-		"Speed": "???",
+		"Speed": "4~6",
 		"BaseHP": 0,
 		"GrowthHP": 0,
 		"StaggerThresholds": [
@@ -31780,9 +31782,9 @@
 		],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": 2,
+			"Pierce": 1,
+			"Blunt": 0.5
 		},
 		"UptieTiers": [
 			{
@@ -31790,17 +31792,17 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Kicking",
-					"Description": "If target has X+ (Burn + Bleed), Coin Power +Y\n[On Use] If target has Vengeance Mark, Final Power +X\n[On Use] Gain Aggro to this Skill Slot next turn\n<1>[On Hit] Lower user's Stagger Threshold\n$ If target has Vengeance Mark, heal SP\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n<3>[On Hit] Inflict Bleed\n[On Hit] Inflict Burn",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] If target has Vengeance Mark, Final Power +1\n[On Use] Gain +3 Aggro to this Skill Slot next turn\n<1>[On Hit] Lower user's Stagger Threshold by 5\n$ If target has Vengeance Mark, heal 3 SP\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 2,
+					"CoinPower": 3,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -31815,17 +31817,17 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Watch Your Back!",
-					"Description": "If target has X+ (Burn + Bleed), Coin Power +Y\n[Combat Start] Apply Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / X) Offense Level\n[On Use] If target has Vengeance Mark, Final Power +X\n[On Use] Gain Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict Bleed Count\n[On Use] Inflict Burn Count\n<2>[On Hit] Inflict Bleed\n<3>[On Hit] Inflict Bleed\n<3>[On Hit] Inflict Paralyze\n[On Hit] Inflict Burn",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] If target has Vengeance Mark, Final Power +2\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Use] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -31842,21 +31844,21 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
-					"Description": "Final Power +X for every Y (Burn + Bleed) on main target\nFinal Power +X for every Y Envy Reson.\n[Combat Start] This Skill gains (Highest Reson) Offense Level\n[On Use] If main target has Vengeance Mark, Final Power +X\n[On Use] At X+ Envy A-Reson, Atk Weight +Y\n[On Use] At X+ Book of Vengeance [Heathcliff], Atk Weight +Y\n[On Use] Deal more damage for every X excess Atk Weight beyond the number of actual targets\n[On Kill] Gain Vengeance Tattoo based on the number of targets killed using this Skill\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n[On Hit] Deal (Envy Reson x X)% of this Skill's final damage as bonus Blunt damage",
+					"Description": "Final Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\nFinal Power +1 for every 2 Envy Reson (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If main target has Vengeance Mark, Final Power +2\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (Max 6 per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Deal (Envy Reson x 5)% of this Skill's final damage as bonus Blunt damage (Max 30%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 10,
+					"CoinPower": 12,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 5,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 8,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
-					"AttackWeightMod": 1,
+					"AttackWeightMod": 3,
 					"MiscTags": [
 						"Attack Weight Increase",
 						"Vengeance Tattoo",
@@ -31867,21 +31869,21 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "COMPLETE AND TOTAL EXTERMINATION!!",
-						"Description": "Cannot trigger Skill Reuse\nDeal more damage for every X% missing HP on self\nFinal Power +X for every Y (Burn + Bleed) on main target\n[Combat Start] This Skill gains (Highest Reson) Offense Level\n[On Use] If main target has Vengeance Mark, Final Power +X\n[On Use] At X+ Book of Vengeance [Heathcliff], Atk  Weight +Y\n[On Use] Deal more damage for every excess Atk Weight beyond the number of actual targets\n[On Kill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity\n[Attack End] Consume X Vengeance Tattoo on self\n<1>[Unbreakable Coin]\nIf target is Staggered, deal more damage\n[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Deal (Envy Reson x X)% of this Skill's final damage as bonus Blunt damage",
+						"Description": "Cannot trigger Skill Reuse\nDeal +1% damage for every 1% missing HP on self (Max 30%)\nFinal Power +1 for every 4 (Burn + Bleed) on main target (Max 5)\n[Combat Start] This Skill gains (Highest Reson) Offense Level\n[On Use] If main target has Vengeance Mark, Final Power +3\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (Max 4)\n[Attack End] Consume 15 Vengeance Tattoo on self\n<1>[Unbreakable Coin]\nIf target is Staggered, deal +20% damage\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal (Envy Reson x 7)% of this Skill's final damage as bonus Blunt damage (Max 42%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 16,
+						"CoinPower": 10,
 						"CoinCount": 1,
-						"Level": 0,
+						"Level": 6,
 						"BasePowerModifier": 0,
-						"FinalPowerModifier": 0,
+						"FinalPowerModifier": 8,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 1,
-						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 4,
 						"MiscTags": [
 							"Attack Weight Increase",
 							"Gain Resources",
@@ -31896,13 +31898,13 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Payback",
-					"Description": "[Combat Start] At X+ sum of Envy A-Reson, use 'MY HAIR COUPOOOOOOOOOOONS!!!!' Skill as Counter\n[Combat Start] Heal (Envy Reson = X) SP for Y The Middle-faction allies, including this unit, with the lowest SP\n[Combat Start] Gain X% of missing HP as Shield\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Bleed",
+					"Description": "[Combat Start] At 6+ sum of Envy A-Reson, use 'MY HAIR COUPOOOOOOOOOOONS!!!!' Skill as Counter (From the leftmost Skill Slot, 2 times per turn)\n[Combat Start] Heal (Envy Reson + 3) SP for 3 The Middle-faction allies, including this unit, with the lowest SP (Once per turn, max 10 SP; excluding allies at -40 or lower SP)\n[Combat Start] Gain 25% of missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 2 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
@@ -31923,7 +31925,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Book of Vengeance",
-						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict X Vendetta Mark on said enemy and gain Y Book of Vengeance [Heathcliff]\nAlly Death: Gain X Book of Vengeance [Heathcliff]\nTurn Start: At X+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (Excluding certain Encounters)\nCombat Start in the Turn this unit Subtituted in or Returned to the field:\nUse 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply Offense Level Up and Defense Level Up on all The Middle-faction allies",
+						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (Once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]\nTurn Start: At 15+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (Excluding certain Encounters)\nCombat Start in the Turn this unit Subtituted in or Returned to the field:\nUse 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply 1 Offense Level Up and 1 Defense Level Up on all The Middle-faction allies",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -31942,7 +31944,7 @@
 					},
 					{
 						"Name": "Vengeance Tattoo Resonance",
-						"Description": "Combat Start: The Middle-faction allies that have equipped Defense Skills take less damage from Unopposed Attacks for the turn\nCombat Start: At X+ Envy Reson, The Middle-faction allies adjacent to this unit on the Dashboard cannot be Staggered by damage as long as they have usable Counter Skills equipped in their Slots (Excluding Forced Staggers)\n$ At X+ Envy Reson, this effect applies to all of The Middle-faction allies",
+						"Description": "Combat Start: The Middle-faction allies that have equipped Defense Skills take -20% damage from Unopposed Attacks for the turn\nCombat Start: At 4+ Envy Reson, The Middle-faction allies adjacent to this unit on the Dashboard cannot be Staggered by damage as long as they have usable Counter Skills equipped in their Slots (Excluding Forced Staggers)\n$ At 6+ Envy Reson, this effect applies to all of The Middle-faction allies",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -31960,14 +31962,14 @@
 				],
 				"PassiveSkill": {
 					"Name": "The Big Brother",
-					"Description": "Combat Start: Gain Vengeance Tattoo based on Envy Reson\nIf an enemy attacked any of The Middle-faction allies, including this unit, use 'Kicking' on the enemy as an Unopposed Attack at Attack End of said enemy's Skill",
+					"Description": "Combat Start: Gain 1 Vengeance Tattoo for every Envy Reson\nIf an enemy attacked any of The Middle-faction allies, including this unit, use 'Kicking' on the enemy as an Unopposed Attack at Attack End of said enemy's Skill (Once per turn)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Vengeance Tattoo",
 						"Self Follow Up"
@@ -31975,14 +31977,180 @@
 				},
 				"SupportSkill": {
 					"Name": "Chains of Loyalty",
-					"Description": "If any of The Middle-faction allies are killed during combat this turn, all The  Middle-faction allies gain Attack Power up this turn and next turn",
+					"Description": "If any of The Middle-faction allies are killed during combat this turn, all The Middle-faction allies gain 1 Attack Power up this turn and next turn",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Ally Attack Power Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Kicking",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] Gain +3 Aggro to this Skill Slot next turn\n<1>[On Hit] Lower user's Stagger Threshold by 5\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Burn\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Burn",
+					"DamageType": "Blunt",
+					"SinType": "Wrath",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Aggro",
+						"Lower Stagger Threshold",
+						"Bleed Potency",
+						"Burn Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Watch Your Back!",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Use] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Ally Offense Level Up",
+						"Aggro",
+						"Bleed Count",
+						"Burn Count",
+						"Bleed Potency",
+						"Paralyze",
+						"Burn Potency"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
+					"Description": "Final Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 10,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 2,
+					"MiscTags": [
+						"Attack Weight Increase",
+						"Unbreakable Coin",
+						"Bleed Potency",
+						"Burn Potency"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Payback",
+					"Description": "[Combat Start] Gain 25% of missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 2 Bleed",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Counter",
+						"Shield",
+						"Burn Potency",
+						"Bleed Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Book of Vengeance",
+						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (Once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Vendetta Mark",
+							"Book of Vengeance [Heathcliff]"
+						]
+					},
+					{
+						"Name": "Vengeance Tattoo Resonance",
+						"Description": "Combat Start: The Middle-faction allies that have equipped Defense Skills take -20% damage from Unopposed Attacks for the turn\nCombat Start: At 4+ Envy Reson, The Middle-faction allies adjacent to this unit on the Dashboard cannot be Staggered by damage as long as they have usable Counter Skills equipped in their Slots (Excluding Forced Staggers)\n$ At 6+ Envy Reson, this effect applies to all of The Middle-faction allies",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Ally Damage Reduction",
+							"Damage Reduction",
+							"Ally Nullify Stagger",
+							"Nullify Stagger"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "The Big Brother",
+					"Description": "Combat Start: Gain 1 Vengeance Tattoo for every Envy Reson\nIf an enemy attacked any of The Middle-faction allies, including this unit, use 'Kicking' on the enemy as an Unopposed Attack at Attack End of said enemy's Skill (Once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Vengeance Tattoo",
+						"Self Follow Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Chains of Loyalty",
+					"Description": "If any of The Middle-faction allies are killed during combat this turn, all The Middle-faction allies gain 1 Attack Power up this turn and next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Attack Power Up"
 					]
@@ -40629,7 +40797,7 @@
 						"BasePower": 5,
 						"CoinPower": 4,
 						"CoinCount": 1,
-						"Level": 0,
+						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 6,
@@ -40639,6 +40807,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Counter",
+							"Clash Power Up",
 							"Réflexion",
 							"Bleed Potency",
 							"Sinking Potency",
@@ -40852,7 +41021,7 @@
 						"BasePower": 5,
 						"CoinPower": 4,
 						"CoinCount": 1,
-						"Level": 0,
+						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 0,
@@ -40862,6 +41031,7 @@
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Clashable Counter",
+							"Clash Power Up",
 							"Réflexion",
 							"Bleed Potency",
 							"Sinking Potency",

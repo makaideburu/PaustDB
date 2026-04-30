@@ -176,6 +176,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.3.1 (2026-04-29)",
+				"```exact matches working again```"
+			],
+			[
 				"3.3.0 (2026-04-27)",
 				"```finagled skill display to display less\nWILL no longer VOMIT WALL OF TEXTS```"
 			],
@@ -190,10 +194,6 @@
 			[
 				"3.2.9.1 (2026-03-11)",
 				"```crash fix```"
-			],
-			[
-				"3.2.9 (2026-02-27)",
-				"```less ugly ego querier```"
 			]
 		],
 		"OldItems": [
@@ -436,6 +436,10 @@
 			[
 				"3.2.8.1 (2026-02-19)",
 				"```behold an override```"
+			],
+			[
+				"3.2.9 (2026-02-27)",
+				"```less ugly ego querier```"
 			]
 		],
 		"HelpFooter": ""
