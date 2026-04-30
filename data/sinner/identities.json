@@ -31765,7 +31765,7 @@
 		]
 	},
 	{
-		"Id": 7000,
+		"Id": 7310,
 		"Sinner": "Heathcliff",
 		"Identity": "The Middle Big Brother",
 		"DWorld": "???",
@@ -31775,10 +31775,10 @@
 			"The Fingers"
 		],
 		"Speed": "4~6",
-		"BaseHP": 0,
-		"GrowthHP": 0,
+		"BaseHP": 90,
+		"GrowthHP": 3.2,
 		"StaggerThresholds": [
-			0
+			50
 		],
 		"Rarity": 3,
 		"DamageResist": {
@@ -40852,7 +40852,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Needs a Rougher Touch for this Part...!",
-					"Description": "Inflict more +1 Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
+					"Description": "Inflict +1 more Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -41076,7 +41076,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Needs a Rougher Touch for this Part...!",
-					"Description": "Inflict more +1 Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
+					"Description": "Inflict +1 more Mauled Color [Rouge], Mauled Color [Bleu] and Touche Hardie",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",

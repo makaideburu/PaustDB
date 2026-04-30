@@ -2630,10 +2630,11 @@
 		"Cost": 397,
 		"Upgrades": [
 			{
-				"Description": "Turn Start: Select one of the fastest allies and apply 5 Haste to them next turn.\nNext Turn Start: Select one of the other fastest allies (allies without the Ancient Effigy effect) and re-apply the Gift effect to them. (Effect expires if no other allies can be selected)",
+				"Description": "Turn Start: Select one of the fastest allies and apply 5 Haste to them next turn.\nNext Turn Start: Select one of the other fastest allies (allies without the Ancient Effigy effect) and re-apply the Gift effect to them. (Effect expires if no other allies can be selected)\nAt 10+ Speed, the ally gains (Speed difference with target / 2) Offense Level (Max 5; rounded down)",
 				"Rank": 1,
 				"MiscTags": [
-					"Haste"
+					"Haste",
+					"Offense Level Up"
 				]
 			}
 		],
@@ -2745,11 +2746,12 @@
 		"Cost": 416,
 		"Upgrades": [
 			{
-				"Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture.\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count. (This effect ends when Rupture drops below 10)\nIf target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count. (3 times per Encounter)",
+				"Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture\nSkills that inflict Rupture or Rupture Count: Inflict an additional 3 Rupture and +1 Rupture Count (Once per Skill)\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count. (This effect ends when Rupture drops below 10)\nIf target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count. (3 times per Encounter)",
 				"Rank": 1,
 				"MiscTags": [
 					"Rupture Potency",
-					"Rupture Count"
+					"Rupture Count",
+					"Freeze Rupture Count"
 				]
 			}
 		],
@@ -3019,10 +3021,11 @@
 		"Cost": 395,
 		"Upgrades": [
 			{
-				"Description": "Turn Start: A random ally deals +10% damage (effective until NDA effect expires).\nThe ally deals additional +10% damage every time it hits with a Skill and deals HP damage to an enemy (Max 40% damage). If the ally takes HP damage, the Gift's effect expires. At the next Turn Start, apply the same Gift effect to another random ally. (Effect expires if no other allies can be selected)",
+				"Description": "Turn Start: A random ally deals +10% damage and gains Shield equal to 49% of Max HP) (effective until NDA effect expires).\nThe ally deals additional +10% damage every time it hits with a Skill and deals HP damage to an enemy (Max 40% damage). If the ally takes HP damage, the Gift's effect expires. At the next Turn Start, apply the same Gift effect to another random ally. (Effect expires if no other allies can be selected)",
 				"Rank": 1,
 				"MiscTags": [
-					"Damage Amp"
+					"Damage Amp",
+					"Shield"
 				]
 			}
 		],
@@ -3040,7 +3043,7 @@
 		"Cost": 432,
 		"Upgrades": [
 			{
-				"Description": "Turn Start: Activates when there are 3+ Blade Lineage Identities. (Except Backup Units)\nAll allies deal +50% Slash damage.\nBlade Lineage Identities: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -24; 'To Claim Their Bones' Skill deals +50% damage.",
+				"Description": "Turn Start: Activates when there are 3+ Blade Lineage Identities. (Except Backup Units)\nAll allies deal +50% Slash damage.\nBlade Lineage Identities: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -36; 'To Claim Their Bones' Skill deals +50% damage.",
 				"Rank": 1,
 				"MiscTags": [
 					"Faction Buff: Blade Lineage",
@@ -4043,7 +4046,7 @@
 				]
 			},
 			{
-				"Description": "[Effect applies to #5, #6 Deployed Identities]\nWhen hitting an enemy with a Blunt Skill, deal 3~7 bonus Blunt damage.\nGloom Affinity Attack Skill: heal an additional 6 HP as well.",
+				"Description": "[Effect applies to #5, #6 Deployed Identities]\nWhen hitting an enemy with a Blunt Skill, deal 5~7 bonus Blunt damage.\nGloom Affinity Attack Skill: heal an additional 6 HP as well.",
 				"Rank": 3,
 				"MiscTags": [
 					"HP Damage",
@@ -7695,18 +7698,20 @@
 		"Cost": 394,
 		"Upgrades": [
 			{
-				"Description": "In Encounters where backup enemies appear: When new enemies enter the battle, inflict 3 Bleed and +2 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
+				"Description": "Base Skills of all Bloodfiend allies gain Coin Power +1\nIn Encounters where backup enemies appear: When new enemies enter the battle, inflict 3 Bleed and +3 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
 				"Rank": 1,
 				"MiscTags": [
+					"Coin Power",
 					"Bleed Potency",
 					"Bleed Count",
 					"Bleed Proc"
 				]
 			},
 			{
-				"Description": "In Encounters where backup enemies appear: When new enemies enter the battle, inflict 5 Bleed and +3 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
+				"Description": "Base Skills of all Bloodfiend allies gain Coin Power +1\nIn Encounters where backup enemies appear: When new enemies enter the battle, inflict 5 Bleed and +4 Bleed Count against them.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies once.",
 				"Rank": 2,
 				"MiscTags": [
+					"Coin Power",
 					"Bleed Potency",
 					"Bleed Count",
 					"Bleed Proc"
