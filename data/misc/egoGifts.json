@@ -3258,7 +3258,7 @@
 					"Nails",
 					"Fanatic",
 					"Damage Amp",
-					"Faction Buff: N Corp. Fanatics",
+					"Faction Buff: N Corp. Fanatic",
 					"Coin Power",
 					"Damage Up"
 				]
@@ -4321,7 +4321,7 @@
 				"MiscTags": [
 					"Nails",
 					"Fanatic",
-					"Faction Buff: N Corp. Fanatics"
+					"Faction Buff: N Corp. Fanatic"
 				]
 			}
 		],
@@ -9463,7 +9463,7 @@
 	{
 		"Name": "The Family's Resentment",
 		"Tag": "Bleed",
-		"Abnormality": "Hidden Boss: ||La Manchaland's Don Quixote||",
+		"Abnormality": "EXTREME Theme Pack: *The Master of La Manchaland*",
 		"Affinity": "Lust",
 		"Tier": 4,
 		"Cost": 201,
@@ -9489,7 +9489,7 @@
 	{
 		"Name": "For the Capo",
 		"Tag": "Tremor",
-		"Abnormality": "Hidden Boss: ||Lei Heng||",
+		"Abnormality": "EXTREME Theme Pack: *Chachihu*",
 		"Affinity": "Wrath",
 		"Tier": 4,
 		"Cost": 201,
@@ -9515,7 +9515,7 @@
 	{
 		"Name": "Rules of the Middle",
 		"Tag": "Blunt",
-		"Abnormality": "Hidden Boss: ||Ricardo||",
+		"Abnormality": "EXTREME Theme Pack: *Complete & Total Extermination*",
 		"Affinity": "Envy",
 		"Tier": 4,
 		"Cost": 201,
@@ -9543,7 +9543,7 @@
 	{
 		"Name": "Kkomi's Mini-Gift",
 		"Tag": "Keywordless",
-		"Abnormality": "Hidden Boss: ||Kkomi and Vergilius?||",
+		"Abnormality": "EXTREME Theme Pack: *A Midspring Night's Dream 2*",
 		"Affinity": "Gluttony",
 		"Tier": 4,
 		"Cost": 201,
@@ -11222,6 +11222,240 @@
 					"Blunt Resist Down",
 					"Damage Amp",
 					"Charm of the Beastly"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Boombox of Dramatic Entrances",
+		"Tag": "Blunt",
+		"Abnormality": "Theme Pack: *Nocturnal Sweeping BokGak*",
+		"Affinity": "Envy",
+		"Tier": 2,
+		"Cost": 204,
+		"Upgrades": [
+			{
+				"Description": "On Hit using Blunt Skills: Heal 5% of the damage dealt by the ally who used the Skill\nOn Hit using Counter Skills: Heal 5 SP (2 times per turn per Identity)",
+				"Rank": 1,
+				"MiscTags": [
+					"Heal HP",
+					"Heal SP"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "ENTER: The B.B.",
+		"Tag": "Blunt",
+		"Abnormality": "Fusion: ||Respite + Sanguine Fragrance Descends + Boombox of Dramatic Entrances||",
+		"Affinity": "Envy",
+		"Tier": 4,
+		"Cost": 397,
+		"Upgrades": [
+			{
+				"Description": "When an ally is hit, apply 3 Offense Level Up on the ally and inflict +4 Bleed Count on the attacker (Once per Skill)\nBase Skills used by The Middle-faction Identities gain Base Power +1 and deal +(30 / # of Coins)% damage\n$ Turn Start: If there are 3+ The Middle-faction Identities on the field, gain Base Power +1 and deal +(60 / # of Coins)% damage instead\n$ If there are 5+ The Middle-faction Identities on the field, gain Base Power +2 and deal +(90 / # of Coins)% damage instead\nOn Hit using Blunt Skills: Heal 10% of damage dealt by the ally who used the Skill\nOn Hit using Counter Skills: Heal 5 SP (2 times per turn per Identity)\nTurn End: If the ally who equipped a Counter Skill at Combat Start did not get to use a Counter Skill this turn, said ally gains 1 Plus Coin Boost and 1 Minus Coin Drop next turn",
+				"Rank": 1,
+				"MiscTags": [
+					"Offense Level Up",
+					"Bleed Count",
+					"Faction Buff: The Middle",
+					"Base Power",
+					"Damage Amp",
+					"Heal HP",
+					"Heal SP",
+					"Plus Coin Boost",
+					"Minus Coin Drop"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Heishou Bolus - Mao",
+		"Tag": "Rupture",
+		"Abnormality": "Theme Pack: *Nocturnal Sweeping BokGak*",
+		"Affinity": "Gluttony",
+		"Tier": 2,
+		"Cost": 201,
+		"Upgrades": [
+			{
+				"Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for a turn (At 10+ Min Speed, this effect does not activate)\nIf an ally has Strider [Mao], the ally's Base Skills gain Clash Power +1 and deal +10% damage",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: Heishou Pack - Mao Branch",
+					"Min Speed",
+					"Clash Power",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Shadowlurking",
+		"Tag": "Rupture",
+		"Abnormality": "Fusion: ||Heishou Bolus - Mao + Harestride + Shadow Bamboo Hat||",
+		"Affinity": "Gluttony",
+		"Tier": 4,
+		"Cost": 404,
+		"Upgrades": [
+			{
+				"Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for three turns (At 10+ Min Speed, this effect does not activate)\nBase Skills gain Clash Power +1 and deal +10% damage for every Strider [Mao] Stack\nWhen inflicting Deathrite [Haste], also inflict it on 2 enemies that do not have Deathrite [Haste] (Once per turn; Focused Encounters, Parts)\nIf an ally's Speed is faster than its target's, the ally's Skills inflict (Speed difference / 3) more Rupture or Rupture Count (Max 3)\nTurn End: Heishou Pack - Mao Branch allies gain 2 Haste next turn\nIf an ally's Speed is faster than it's target's, or when an ally uses an Unopposed Attack, the said ally deals +10% Slash damage for every (Speed difference / 3) (Max 30%)\nIf an ally's Speed is faster than its target's, take -10% damage for every (Speed difference / 3) (Max 30%)",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: Heishou Pack - Mao Branch",
+					"Min Speed",
+					"Clash Power",
+					"Damage Amp",
+					"Deathrite [Haste]",
+					"Rupture Potency",
+					"Rupture Count",
+					"Haste",
+					"Damage Reduction"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Mid-range K Corp. Ampule",
+		"Tag": "Keywordless",
+		"Abnormality": "EXTREME Theme Pack: *Code Purple*",
+		"Affinity": "Gluttony",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "[Effect applies to #1 Deployed Identity]\nEncounter Start: Gain 1 K Corp. Emergency Ampule",
+				"Rank": 1,
+				"MiscTags": [
+					"K Corp. Emergency Ampule"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Burning Fate",
+		"Tag": "Burn",
+		"Abnormality": "EXTREME Theme Pack: *Bearers of Weight*",
+		"Affinity": "Wrath",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "On Clash Win against targets that have Burn, (20 + (Wrath Reson x 10))% chance to activate Burn once and reduce target's Burn Count by 1 (4 times per turn)\n$ If target has 90+ Burn Potency, the above effect activates at a 100% chance (Focused Encounters, the Part)",
+				"Rank": 1,
+				"MiscTags": [
+					"Burn Proc"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Nail and Hammer",
+		"Tag": "Bleed",
+		"Abnormality": "EXTREME Theme Pack: *Line 1: MADNESS*",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "N Corp. Fanatic Identities: Base Skills gain Base Power +3\nWhen an N Corp. Fanatic Identity gains Fanatic, all N Corp. Fanatic Identities gain the same Stack of Fanatic (Once per turn including the first unit)\n$ If there is a Lust A-Reson, triple the Stack gained\nEncounter Start: Inflict 2 Nails on all enemies\nWhen an N Corp. Fanatic Identity uses a Base Skill to Clash against a target that has Nails, inflict 3 Bleed (Once per Skill)\nN Corp. Fanatic Identities deal +100% damage using Base Skills against targets that have Nails",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: N Corp. Fanatic",
+					"Base Power",
+					"Fanatic",
+					"Nails",
+					"Bleed Potency",
+					"Damage Amp"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Carousel Figurine",
+		"Tag": "Bleed",
+		"Abnormality": "EXTREME Theme Pack: *Blessed Carnival*",
+		"Affinity": "Lust",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "First Turn Start: Increase Bloodfeast by 300\nDouble the amount of Bloodfeast increased by Bleed\nOn Use of a Skill that consumes Bloodfeast, at Attack End, consume additional Bloodfeast equal to the amount consumed by the Skill\n[La Manchaland Identities Only]\nWhen a La Manchaland Identity enters the field, the Identity gains their respective effect:\n$ The Manager of La Manchaland Don Quixote: Gain 15 Hardblood\n$ The Princess of La Manchaland Rodion: Gain 15 Blooming Thorn\n$ The Priest of La Manchaland Gregor: Gain 15 Bloodied Hand\n$ The Barber of La Manchaland Outis: Gain 15 Blood-tinged Scissorblades\n$ The Prince of La Manchaland Meursault: Gain 3 Hardblood Armor\n[The Manager of La Manchaland Don Quixote Only]\nThe Manager of La Manchaland Don Quixote's Base Skills gain Final Power +1 and deal +30% damage for every La Manchaland Identity in the Team (Max 4; max 120%; including Backup Units; including defeated units; excluding undeployed units)",
+				"Rank": 1,
+				"MiscTags": [
+					"Faction Buff: La Manchaland",
+					"Bloodfeast",
+					"Spend Bloodfeast"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Another Round!",
+		"Tag": "Tremor",
+		"Abnormality": "EXTREME Theme Pack: *Fairy Tale*",
+		"Affinity": "Sloth",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "Base Skills that consume Tremor Count or Charge Count deal +20% damage (Including Unique Charge; excluding Unique Charge (Fixed Potency)\nWhen consuming Tremor Count or Charge Count by using Base Skills, regain half of the consumed Count at Skill End (Min 1, rounded down; including Unique Charge, excluding Unique Charge (Fixed Potency)",
+				"Rank": 1,
+				"MiscTags": [
+					"Damage Amp",
+					"Self Tremor Count",
+					"Charge Count"
+				]
+			}
+		],
+		"Availability": [
+			"MD7"
+		]
+	},
+	{
+		"Name": "Clappity Clap!",
+		"Tag": "Tremor",
+		"Abnormality": "EXTREME Theme Pack: *Bloodtinged Icthyic Odor*",
+		"Affinity": "Gloom",
+		"Tier": 4,
+		"Cost": 400,
+		"Upgrades": [
+			{
+				"Description": "On Clash Win using a Base Skill that inflicts Tremor, Tremor Count, or Unique Tremor against an enemy, trigger Amplitude Entanglement into a random Unique Tremor from the following (Once per turn):\n$ Tremor - Scorch\n$ Tremor - Hemorrhage\n$ Tremor - Reverb\n$ Tremor - Decay\n$ Tremor - Chain",
+				"Rank": 1,
+				"MiscTags": [
+					"Amplitude Entanglement",
+					"Tremor - Scorch",
+					"Tremor - Hemorrhage",
+					"Tremor - Reverb",
+					"Tremor - Decay",
+					"Tremor - Chain"
 				]
 			}
 		],

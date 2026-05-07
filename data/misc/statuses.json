@@ -4271,5 +4271,14 @@
 			"Heal HP",
 			"Heal SP"
 		]
+	},
+	{
+		"Name": "K Corp. Emergency Ampule",
+		"Description": "Activate the following effects upon taking damage that would reduce this unit's HP to 0:\n$ If Staggered, recover from Stagger\n$ Fully heal HP\n$ This effect activates before the 'X does not reduce HP below 1' effects from Identities & E.G.O Passives\n$ Expires after activation",
+		"Tags": [
+			"Unrelenting",
+			"Stagger Recovery",
+			"Heal HP"
+		]
 	}
 ]

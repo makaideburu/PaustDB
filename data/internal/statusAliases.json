@@ -1501,10 +1501,9 @@
 		]
 	},
 	{
-		"entry": "faction buff: n corp. fanatics",
+		"entry": "faction buff: n corp. fanatic",
 		"aliases": [
 			"faction buff",
-			"faction buff: n corp. fanatic",
 			"faction buff: n corp. inquisition"
 		]
 	},
@@ -2033,7 +2032,13 @@
 		]
 	},
 	{
-		"entry": "faction buff: heishou pack: you branch",
+		"entry": "faction buff: heishou pack - you branch",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "faction buff: heishou pack - mao branch",
 		"aliases": [
 			"faction buff"
 		]
@@ -2934,6 +2939,14 @@
 		"aliases": [
 			"ally heal hp",
 			"ally heal sp"
+		]
+	},
+	{
+		"entry": "k corp. emergency ampule",
+		"aliases": [
+			"unrelenting",
+			"stagger recovery",
+			"heal hp"
 		]
 	}
 ]
