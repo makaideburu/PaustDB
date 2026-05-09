@@ -176,6 +176,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.3.2 (2026-04-29)",
+				"```finagled char names```"
+			],
+			[
 				"3.3.1 (2026-04-29)",
 				"```exact matches working again```"
 			],
@@ -190,10 +194,6 @@
 			[
 				"3.2.10 (2026-03-23)",
 				"```idk if we're doing formal world names anymore\ndisabled for now```"
-			],
-			[
-				"3.2.9.1 (2026-03-11)",
-				"```crash fix```"
 			]
 		],
 		"OldItems": [
@@ -440,6 +440,10 @@
 			[
 				"3.2.9 (2026-02-27)",
 				"```less ugly ego querier```"
+			],
+			[
+				"3.2.9.1 (2026-03-11)",
+				"```crash fix```"
 			]
 		],
 		"HelpFooter": ""

@@ -22726,8 +22726,9 @@
 					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
-					"CoinCountModifier": 0,
-					"UnbreakableCoinCount": 3,
+					"ClashesWithReuse": true,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -22880,8 +22881,9 @@
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
-					"CoinCountModifier": 0,
-					"UnbreakableCoinCount": 3,
+					"ClashesWithReuse": true,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -46163,7 +46165,7 @@
 	{
 		"Id": 12202,
 		"Sinner": "Outis",
-		"Identity": "Blade Lineage Cutthroat",
+		"Identity": "Blade Lineage Salsu",
 		"DWorld": "The Kurokumo Clan and Blade Lineage",
 		"Season": -1,  
 		"Traits": [

@@ -1,7 +1,27 @@
 [
     {
+        "Alias": "starbuck",
+        "Thing": "The Pequod First Mate",
+        "Sinner": "Yi Sang"
+    },
+    {
+        "Alias": "marton",
+        "Thing": "LCE E.G.O::Lantern",
+        "Sinner": "Yi Sang"
+    },
+    {
+        "Alias": "dongbaek",
+        "Thing": "Effloresced E.G.O Spicebush",
+        "Sinner": "Yi Sang"
+    },
+    {
+        "Alias": "gubo",
+        "Thing": "N Corp. E.G.O::Fell Bullet",
+        "Sinner": "Yi Sang"
+    },
+    {
         "Alias": "ringsang",
-        "Thing": "Ring Pointilist Student",
+        "Thing": "The Ring Pointilist Student",
         "Sinner": "Yi Sang"
     },
     {
@@ -15,8 +35,43 @@
         "Sinner": "Yi Sang"
     },
     {
+        "Alias": "rien",
+        "Thing": "The House of Spiders: The Index Nursefather",
+        "Sinner": "Yi Sang"
+    },
+    {
+        "Alias": "yuri",
+        "Thing": "Lobotomy Corp. Remnant",
+        "Sinner": "Faust"
+    },
+    {
+        "Alias": "kromer",
+        "Thing": "The One Who Grips",
+        "Sinner": "Faust"
+    },
+    {
+        "Alias": "sasha",
+        "Thing": "MultiCrack Office Rep",
+        "Sinner": "Faust"
+    },
+    {
+        "Alias": "alyssa",
+        "Thing": "LCE E.G.O::Ardor Blossom Star",
+        "Sinner": "Faust"
+    },
+    {
+        "Alias": "zilu",
+        "Thing": "Heishou Pack - Mao Branch Adept",
+        "Sinner": "Faust"
+    },
+    {
         "Alias": "maost",
-        "Thing": "Mao Branch Adept",
+        "Thing": "Heishou Pack - Mao Branch Adept",
+        "Sinner": "Faust"
+    },
+    {
+        "Alias": "albina",
+        "Thing": "The House of Spiders: The Ring Apprentice",
         "Sinner": "Faust"
     },
     {
@@ -25,8 +80,78 @@
         "Sinner": "Don Quixote"
     },
     {
+        "Alias": "sora",
+        "Thing": "The Index Proxy - Effloresced E.G.O::Procuration",
+        "Sinner": "Don Quixote"
+    },
+    {
+        "Alias": "pilot",
+        "Thing": "LCC Assistant Manager",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "pierre",
+        "Thing": "R.B. Chef de Cuisine",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "reap",
+        "Thing": "Lobotomy E.G.O::Red Eyes & Penitence",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "re&p",
+        "Thing": "Lobotomy E.G.O::Red Eyes & Penitence",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "red mist",
+        "Thing": "Lobotomy E.G.O::Red Eyes & Penitence",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "nelly",
+        "Thing": "Edgar Family Butler",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "jia huan",
+        "Thing": "N Corp. E.G.O::Contempt, Awe",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "lin daiyu",
+        "Thing": "Drifting Blade of Hongyuan",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "daiyu",
+        "Thing": "Drifting Blade of Hongyuan",
+        "Sinner": "Ryōshū"
+    },
+    {
+        "Alias": "guido",
+        "Thing": "N Corp. Großhammer",
+        "Sinner": "Meursault"
+    },
+    {
+        "Alias": "kim",
+        "Thing": "Blade Lineage Mentor",
+        "Sinner": "Meursault"
+    },
+    {
+        "Alias": "bamboo-hatted kim",
+        "Thing": "Blade Lineage Mentor",
+        "Sinner": "Meursault"
+    },
+    {
         "Alias": "kimsault",
         "Thing": "Blade Lineage Mentor",
+        "Sinner": "Meursault"
+    },
+    {
+        "Alias": "lei heng",
+        "Thing": "The Thumb East Capo IIII",
         "Sinner": "Meursault"
     },
     {
@@ -40,8 +165,158 @@
         "Sinner": "Meursault"
     },
     {
-        "Alias": "kong lu",
-        "Thing": "Lord of Hongyuan",
+        "Alias": "casetti",
+        "Thing": "The Prince of La Manchaland",
+        "Sinner": "Meursault"
+    },
+    {
+        "Alias": "camille",
+        "Thing": "Cinq Association West Section 3",
+        "Sinner": "Meursault"
+    },
+    {
+        "Alias": "taein",
+        "Thing": "Hook Office Fixer",
         "Sinner": "Hong Lu"
+    },
+    {
+        "Alias": "liwei",
+        "Thing": "Full-Stop Office Rep",
+        "Sinner": "Hong Lu"
+    },
+    {
+        "Alias": "jia qiu",
+        "Thing": "The Lord of Hongyuan",
+        "Sinner": "Hong Lu"
+    },
+    {
+        "Alias": "kong lu",
+        "Thing": "The Lord of Hongyuan",
+        "Sinner": "Hong Lu"
+    },
+    {
+        "Alias": "callisto",
+        "Thing": "The House of Spiders: The Ring Nursefather",
+        "Sinner": "Hong Lu"
+    },
+    {
+        "Alias": "queequeg",
+        "Thing": "The Pequod Harpooner",
+        "Sinner": "Heathcliff"
+    },
+    {
+        "Alias": "erlking",
+        "Thing": "Wild Hunt",
+        "Sinner": "Heathcliff"
+    },
+    {
+        "Alias": "tamaki",
+        "Thing": "Full-Stop Office Fixer",
+        "Sinner": "Heathcliff"
+    },
+    {
+        "Alias": "ricardo",
+        "Thing": "The Middle Big Brother",
+        "Sinner": "Heathcliff"
+    },
+    {
+        "Alias": "ahab",
+        "Thing": "The Pequod Captain",
+        "Sinner": "Ishmael"
+    },
+    {
+        "Alias": "xichun",
+        "Thing": "Family Hierarch Candidate",
+        "Sinner": "Ishmael"
+    },
+    {
+        "Alias": "jia xichun",
+        "Thing": "Family Hierarch Candidate",
+        "Sinner": "Ishmael"
+    },
+    {
+        "Alias": "hanafuda",
+        "Thing": "Jeong's Office Rep",
+        "Sinner": "Ishmael"
+    },
+    {
+        "Alias": "kira",
+        "Thing": "The House of Spiders: The Middle Apprentice",
+        "Sinner": "Ishmael"
+    },
+    {
+        "Alias": "niko",
+        "Thing": "Rosespanner Office Rep",
+        "Sinner": "Rodion"
+    },
+    {
+        "Alias": "dulcinea",
+        "Thing": "The Princess of La Manchaland",
+        "Sinner": "Rodion"
+    },
+    {
+        "Alias": "rufo",
+        "Thing": "The Ring Fauvist Docent",
+        "Sinner": "Rodion"
+    },
+    {
+        "Alias": "aida",
+        "Thing": "Los Mariachis Jefe",
+        "Sinner": "Sinclair"
+    },
+    {
+        "Alias": "philip",
+        "Thing": "Dawn Office Fixer",
+        "Sinner": "Sinclair"
+    },
+    {
+        "Alias": "werner",
+        "Thing": "The Middle Little Brother",
+        "Sinner": "Sinclair"
+    },
+    {
+        "Alias": "ren",
+        "Thing": "The House of Spiders: The Pinky Apprentice",
+        "Sinner": "Sinclair"
+    },
+    {
+        "Alias": "josephine",
+        "Thing": "Wuthering Heights Chief Butler",
+        "Sinner": "Outis"
+    },
+    {
+        "Alias": "nicolina",
+        "Thing": "The Barber of La Manchaland",
+        "Sinner": "Outis"
+    },
+    {
+        "Alias": "jack",
+        "Thing": "R.B. Sous Chef",
+        "Sinner": "Gregor"
+    },
+    {
+        "Alias": "smee",
+        "Thing": "Twinhook Pirates First Mate",
+        "Sinner": "Gregor"
+    },
+    {
+        "Alias": "linton",
+        "Thing": "Linton Family Heir",
+        "Sinner": "Gregor"
+    },
+    {
+        "Alias": "curiambro",
+        "Thing": "The Priest of La Manchaland",
+        "Sinner": "Gregor"
+    },
+    {
+        "Alias": "allen",
+        "Thing": "Night Awls Capitano",
+        "Sinner": "Gregor"
+    },
+    {
+        "Alias": "hohenheim",
+        "Thing": "e.g.o",
+        "Sinner": "Gregor"
     }
 ]
