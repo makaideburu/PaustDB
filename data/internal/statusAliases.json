@@ -2948,5 +2948,37 @@
 			"stagger recovery",
 			"heal hp"
 		]
+	},
+	{
+		"entry": "bladetrail [afterimage]",
+		"aliases": [
+			"slash damage amp"
+		]
+	},
+	{
+		"entry": "string severance [-]",
+		"aliases": [
+			"damage reduction",
+			"unbreakable coin",
+			"damage amp",
+			"poise potency",
+			"sinking potency",
+			"defense level up",
+			"burn potency",
+			"somatic frisson-inspiring melody",
+			"shield",
+			"poise count",
+			"crit dmg up"
+		]
+	},
+	{
+		"entry": "shin (心) - dihui star [-]",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"poise potency",
+			"poise count",
+			"damage reduction"
+		]
 	}
 ]
