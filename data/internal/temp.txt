@@ -1,0 +1,321 @@
+
+	{
+		"Id": 4000,
+		"Sinner": "Ryōshū",
+		"Identity": "Blade of the House of Spiders",
+		"DWorld": "???",
+		"Season": 7,
+		"Traits": [
+		],
+		"Speed": "???",
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [
+			0
+		],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Tripleslash [三連]",
+					"Description": "[On Use] At X+ Poise, Coin Power +Y\n[On Use] Final Power +X for every Y (Burn + Bleed) on target\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n[On Crit] Inflict Bleed Count\n<2>[On Hit] Gain Poise\n[On Crit] Inflict Burn Count\n<3>[On Hit] Gain Poise\n[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] Inflict Bladetrail [Afterimage] equal to Entanglement on self\n[On Crit] Inflict Bleed\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Bleed Count",
+						"Burn Count",
+						"Bladetrail [Afterimage]",
+						"Bleed Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Slay the Heavens - Tiansha [天殺]",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills or Skill Reuse\nDeactivates allies' 'Base factors decreasing Sanity' while using this Skill\n[On Use] For this Encounter, Lose Offense Level and gain Base Power for this unit's Attacks\n[On Kill] Heal SP\n[On Kill] Gain Entangled Life [羅生] equal to damage dealt using this Skill\n<1>[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] If target is a The House of Spiders ally, deal X% HP damage as fixed damage",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Ignore Defense Skill",
+							"Self Offense Level Down",
+							"Base Power Up",
+							"Heal SP",
+							"Entangled Life [羅生]",
+							"Bladetrail [Afterimage]"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Tripleslash - Echoshear [三連 - 殘]",
+					"Description": "[On Use] At X+ Poise, Coin Power +Y\n[On Use] Final Power +X for every YU (Burn + Bleed) on target\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n[On Crit] Inflict Bleed\n<2>[On Hit] Inflict Burn\n[On Crit] Inflict Bleed\n<3>[On Hit] Inflict Burn\n[On Crit] Inflict Bleed\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Bleed Potency",
+						"Burn Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Inevitable Termination [必然殺]",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills or Skill Reuse\n[On Use] Gain Poise Count\n[Before Attack] If this Skill was triggered by Skill 3, apply this Skill's Atk Weight equal to the number of enemies that have Phantom Trace, and prioritize said enemies\n[Skill End] Phantom Trace on target expires\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] Inflict Bladetrail [Afterimage] equal to Entanglement on self\n[On Hit] Activate Burn on target; target loses Burn Count\n[On Crit] Inflict Slash Fragility",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Poise Count",
+							"Spend Enemy Phantom Trace",
+							"Bladetrail [Afterimage]",
+							"Burn Proc",
+							"Spend Enemy Burn Count",
+							"Slash Fragility"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Rend Space [空間斬]",
+					"Description": "[On Use] Final Power +X for every Y Poise\n[On Use] Base Power +X for every Y (Burn + Bleed) on main target\n[On Use] Deal more damage for every Entanglement on self\n[On Use] Gain Poise\n[On Use] Atk Weight +X for every Y Entanglement on self\n[On Use] Deal more damage for every excess Atk Weight beyond the # of actual targets\n[Attack End] Randomly inflict (Entanglement + X) Bladetrail [Afterimage] between targets hit\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n[On Crit] Activate Burn on target; target loses Burn Count\n[On Crit] Activate Bleed on target; target loses Bleed Count\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Potency",
+						"Attack Weight Increase",
+						"Bladetrail [Afterimage]",
+						"Bleed Potency",
+						"Burn Potency",
+						"Burn Proc",
+						"Spend Enemy Burn Count",
+						"Bleed Proc",
+						"Spend Enemy Bleed Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Rend Space - Echoshear [空間斬 - 殘]",
+						"Description": "[On Use] This Skill loses (String Severance [-]) Base Power, use Coin 1 an additional time\n[On Use] The final Coin gains (Entanglement) Coin Power\n[On Use] Deal more damage for every excess Atk Weight beyond the # of actual targets\n[Attack End] Raise Entanglement's Min & Max Stack cap, reset Entanglement to minimum Stack\n[Attack End] Consume Dihui Star's Blade\n<1>[On Hit] Gain Poise Count\n[On Hit] Inflict Burn\n[On Hit] Inflict Bleed\n<2>Deal more damage on Critical Hit\n[On Hit] Consume all Bladetrail [Afterimage] on target, deal Slash damage equal to (Bladetrail [Afterimage] consumed / X)% of this Coin's final damage\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage\n[On Crit] Activate Burn on target; target loses Burn Count\n[On Crit] Activate Bleed on target; target loses Bleed Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Spend Entanglement",
+							"Spend Dihui Star's Blade",
+							"Poise Count",
+							"Burn Potency",
+							"Bleed Potency",
+							"Spend Bladetrail [Afterimage]",
+							"Burn Proc",
+							"Spend Enemy Burn Count",
+							"Bleed Proc",
+							"Spend Enemy Bleed Count"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "Rend Space - String Connection [空間斬 - 緣]",
+						"Description": "[Unclashable]\nThis Skill does not trigger target's Defense Skill\n[On Use] Gain Poise\n[On Use] Gain Shin (心) - Dihui Star [-]\n[Attack End] Remove this unit's first Stagger Threshold\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Bleed\n<2>[On Crit] Activate Burn on target, target loses Burn Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Ignore Defense Skill",
+							"Poise Potency",
+							"Shin (心) - Dihui Star [-]",
+							"Remove Stagger Threshold",
+							"Burn Potency",
+							"Bleed Potency",
+							"Burn Proc",
+							"Spend Enemy Burn Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Phantom Step",
+					"Description": "[Combat Start] Target 1 The House of Spiders ally with the lattermost Deployment Order\n$ At X+ String Severance [-], target 1 additional ally\n$ At Skill End of all the Skills equipped by the target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use 'Slay the Heavens - Tiansha [天殺]' against target as an Unopposed Attack\n$ Prioritizes The Pinky Apprentice Sinclair last\n[Combat Start] Gain Poise Count\n[On Evade] Gain Poise",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Target Specific Ally",
+						"Poise Count",
+						"Poise Potency"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Saikai [-]",
+						"Description": "Upon entering the Encounter for the first time, gain Entanglement and String Severance [-]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap based on the number of The House of Spiders Identities in the Loadout\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains Skill Slots based on the number of The House of Spiders allies that are defeated\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music until Turn End (Excluding certain Encounters)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Entanglement",
+							"String Severance [-]",
+							"Transfer HP Damage",
+							"Unrelenting"
+						]
+					},
+					{
+						"Name": "Dihui Star [-]",
+						"Description": "At X+ Dihui Star's Blade, activate 'Rend Space - String Connection [空間斬 - 緣]' against a random enemy at the very end of that turn (Once per Encounter)\n$ After using 'Rend Space - String Connection [空間斬 - 緣]' due to this effect, apply the following effects on self:\n$- Cannot Retreat for this Encounter\n$- Turn End: At X+ Dihui Star's Blade, replace a Base Skill with 'Rend Space - Echoshear [空間斬 - 殘]' at the next Turn Start (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Self Follow Up",
+							"Skill Draw"
+						]
+					},
+					{
+						"Name": "Spacetime Afterimage Collapse",
+						"Description": "Turn Start: Inflict Phantom Trace on a random enemy (Abnormalities, the Core)\n$ Inflict Phantom Trace on 1 additional random enemy for every X The House of Spiders allied Identity death\n$ Combat Start: If an enemy that has Phantom Trace is the main target of this unit's Base Attack Skills, use 'Inevitable Termination [必然殺]' as an Unopposed Attack before using said Base Attack Skill\n$ On Base Attack Skill Use against target that has Phantom Trace\n$- Convert all Coins of said Skill into Unbreakable Coins and Final Power +X\n$- Gain Entanglement",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Phantom Trace",
+							"Self Follow Up",
+							"Unbreakable Coin",
+							"Entanglement"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Afterimage Reverberation",
+					"Description": "Deal more damage on Critical Hit using Base Attack Skills for every surplus Poise past X Poise on self\nOn Crit using Base Attack Skills, inflict Bladetrail [Afterimage]\nGreat Trichiliocosm Ryōshū's E.G.O Passive can be activating using Attack Skills targeting allies",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Bladetrail [Afterimage]"
+					]
+				},
+				"SupportSkill": {
+					"Name": "The Master's Tutelage [-]",
+					"Description": "When the ally with the earliest Deployment order uses a Base Skill, said ally gains Poise",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Poise Potency"
+					]
+				}
+			}
+		]
+	},

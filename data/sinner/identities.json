@@ -18505,7 +18505,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rend Space [空間斬]",
-					"Description": "[On Use] Final Power +X for every Y Poise\n[On Use] Base Power +X for every Y (Burn + Bleed) on main target\n[On Use] Deal more damage for every Entanglement on self\n[On Use] Gain Poise\n[On Use] Atk Weight +X for every Y Entanglement on self\n[On Use] Deal more damage for eevry excess Atk Weight beyond the # of actual targets\n[Attack End] Randomly inflict (Enanglement + X) Bladetrail [Afterimage] between targets hit\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n[On Crit] Activate Burn on target; target loses Burn Count\n[On Crit] Activate Bleed on target; target loses Bleed Count\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage",
+					"Description": "[On Use] Final Power +X for every Y Poise\n[On Use] Base Power +X for every Y (Burn + Bleed) on main target\n[On Use] Deal more damage for every Entanglement on self\n[On Use] Gain Poise\n[On Use] Atk Weight +X for every Y Entanglement on self\n[On Use] Deal more damage for every excess Atk Weight beyond the # of actual targets\n[Attack End] Randomly inflict (Entanglement + X) Bladetrail [Afterimage] between targets hit\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bleed\n[On Hit] Inflict Burn\n[On Crit] Activate Burn on target; target loses Burn Count\n[On Crit] Activate Bleed on target; target loses Bleed Count\n[On Crit] Deal Slash damage equal to (Entanglement x X)% of this Coin's final damage",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 0,
@@ -18616,7 +18616,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Saikai [-]",
-						"Description": "Upon entering the Encounter for the first time, gain Entanglement and String Severance [-]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap based on the number of The House of Spiders Identities in the Loadout\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Subtitute or Return, Blade of the House of Spiders Ryōshū gains Skill Slots based on the number of The House of Spiders allies that are defeated\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music until Turn End (Excluding certain Encounters)",
+						"Description": "Upon entering the Encounter for the first time, gain Entanglement and String Severance [-]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap based on the number of The House of Spiders Identities in the Loadout\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains Skill Slots based on the number of The House of Spiders allies that are defeated\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music until Turn End (Excluding certain Encounters)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -18648,7 +18648,7 @@
 					},
 					{
 						"Name": "Spacetime Afterimage Collapse",
-						"Description": "Turn Start: Inflict Phantom Trace on a random enemy (Abnormalities, the Core)\n$ Inflict Phantom Trace on 1 additional random enemy for everyt X The Hourse of Spiders allied Identity death\n$ Combat Start: If an enemy that has Phantom Trace is the main target of this unit's Base Attack Skills, use 'Inevitable Termination [必然殺]' as an Unopposed Attack before using said Base Attack Skill\n$ On Base Attack Skill Use against target that has Phantom Trace\n$- Convert all Coins of said Skill into Unbreakable Coins and Final Power +X\n$- Gain Entanglement",
+						"Description": "Turn Start: Inflict Phantom Trace on a random enemy (Abnormalities, the Core)\n$ Inflict Phantom Trace on 1 additional random enemy for every X The House of Spiders allied Identity death\n$ Combat Start: If an enemy that has Phantom Trace is the main target of this unit's Base Attack Skills, use 'Inevitable Termination [必然殺]' as an Unopposed Attack before using said Base Attack Skill\n$ On Base Attack Skill Use against target that has Phantom Trace\n$- Convert all Coins of said Skill into Unbreakable Coins and Final Power +X\n$- Gain Entanglement",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -31465,7 +31465,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Congestion Cleaning Armor",
-					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for eevry Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
+					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for every Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -31617,7 +31617,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Congestion Cleaning Armor",
-					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for eevry Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
+					"Description": "Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge x 5) (Max 25)\nImmediately before getting hit, gain Shield equal to (Charge) (Max 5; 3 times per turn)\nIf this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for every Charge Count that exceeds the Max Charge Count Cap (Max 15%)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -31815,7 +31815,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Gamefowl",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Subtitutes or Returns in",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Substitutes or Returns in",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -32021,7 +32021,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Gamefowl",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Subtitutes or Returns in",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] and +3 Burn Count in the same turn it Substitutes or Returns in",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -32248,7 +32248,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Book of Vengeance",
-						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (Once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]\nTurn Start: At 15+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (Excluding certain Encounters)\nCombat Start in the Turn this unit Subtituted in or Returned to the field:\nUse 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply 1 Offense Level Up and 1 Defense Level Up on all The Middle-faction allies",
+						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (Once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]\nTurn Start: At 15+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (Excluding certain Encounters)\nCombat Start in the Turn this unit Substituted in or Returned to the field:\nUse 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply 1 Offense Level Up and 1 Defense Level Up on all The Middle-faction allies",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -35663,7 +35663,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Launching Maneuver [始動]",
-						"Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$ # of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$ Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Substituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
+						"Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$ # of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$ Does not affect allies that either Return or Substitute in next turn\n\nOn the turn this unit Substituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -35836,7 +35836,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Launching Maneuver [始動]",
-						"Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$ # of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$ Does not affect allies that either Return or Subtitute in next turn\n\nOn the turn this unit Substituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
+						"Description": "On Retreat, apply 1 Offense Level Up next turn to allies in their Deployment Order\n$ # of affected allies = Launcher [始] Stack\nIf the affected ally is a <Jia Family> unit, apply 2 Offense level Up next turn instead\n$ Does not affect allies that either Return or Substitute in next turn\n\nOn the turn this unit Substituted or Returned to the field, gain Ready [待]; at Combat Start, as the very first Skill in the Skill order, use 'Crimson Strike - Launcher [始]' against a random target",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -45387,7 +45387,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Gamefowl",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] in the same turn this unit Subtitutes or Returns in",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] in the same turn this unit Substitutes or Returns in",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -45547,7 +45547,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Gamefowl",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] in the same turn this unit Subtitutes or Returns in",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\nCannot be Staggered or fall below 1 HP due to Burn damage\nGain 3 Bloodflame [血炎] in the same turn this unit Substitutes or Returns in",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
