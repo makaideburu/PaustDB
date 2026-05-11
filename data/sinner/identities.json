@@ -23088,7 +23088,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Ring Fauvist Student",
-						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursasult gains Imperfections Addressed",
+						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursault gains Imperfections Addressed",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -23243,7 +23243,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Ring Fauvist Student",
-						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursasult gains Imperfections Addressed",
+						"Description": "On Hit with a Base Skill: Inflict 1 Mauled Color [Rouge]\n$ Counts as 'inflicting negative effects with the Skill'\nTurn End: If this unit inflicted 10+ Mauled Color [Rouge] during this Encounter, gain Le Fauvisme - Masque de Chien\nAt Coin Start of The Ring Fauvist Docent Rodion's 'Critique' Skill, the Ring Fauvist Student Meursault gains Imperfections Addressed",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -36364,7 +36364,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Violet~ Breaking Slam",
-					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n$ If there was an A-Reson in this Reson chain, double the Offense Level gained\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] Final Power +1 for every 5 The Middle - Grudge (Max 3)\n[After Attack] Consume all The Middle - Grudge\n[After Attack] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (Once per turn)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +2 Bleed Count\n<4>[On Hit] Deal (Evny Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n$ If there was an A-Reson in this Reson chain, double the Offense Level gained\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] Final Power +1 for every 5 The Middle - Grudge (Max 3)\n[After Attack] Consume all The Middle - Grudge\n[After Attack] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (Once per turn)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict +2 Bleed Count\n<4>[On Hit] Deal (Envy Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -36414,7 +36414,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Thermal Weapon",
-						"Description": "This unit is consdered as an Identity that inflicts Burn and Bleed\nIf this unit has Thermal Blades, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
+						"Description": "This unit is considered as an Identity that inflicts Burn and Bleed\nIf this unit has Thermal Blades, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -36512,7 +36512,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Violet~ Breaking Slam",
-					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] At 5+ The Middle - Grudge, Final Power +1\n[After Attack] Consume all The Middle - Grudge\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n<4>[On Hit] Deal (Evny Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
+					"Description": "If target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Skill gains Offense Level by (Highest Reson / 2) (Max 3; rounded down)\n[On Use] If unit has Thermal Blades, On Hit with 1st, 2nd and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts\n[On Use] At 5+ The Middle - Grudge, Final Power +1\n[After Attack] Consume all The Middle - Grudge\n<1>[On Hit] Inflict 1 Bleed\n<2>[On Hit] Inflict +1 Bleed Count\n<4>[On Hit] Deal (Envy Reson x 5) of this Coin's final damage as bonus Slash damage (Max 30%)\n[On Hit] Inflict 1 Bleed",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -36562,7 +36562,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Thermal Weapon",
-						"Description": "This unit is consdered as an Identity that inflicts Burn and Bleed\nIf this unit has Thermal Blades, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
+						"Description": "This unit is considered as an Identity that inflicts Burn and Bleed\nIf this unit has Thermal Blades, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -41159,7 +41159,7 @@
 					},
 					{
 						"Name": "Le Fauvisme - Couleurs Sauvages",
-						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimon under Your Skin'",
+						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimson under Your Skin'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -41383,7 +41383,7 @@
 					},
 					{
 						"Name": "Le Fauvisme - Couleurs Sauvages",
-						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimon under Your Skin'",
+						"Description": "Combat End: Inflict 1 Palette Vibrante next turn to enemies that have Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie simultaneously\n$ If target has 3+/6+/9+ Mauled Color [Rouge] and Mauled Color [Bleu] each, inflict 2/3/4 Palette Vibrante instead (Amount inflicted is based on the effect with the least Stack)\nTurn End: Gain Le Fauvisme - Masque de Loup if any of the following conditions are met:\n$ Inflicted Palette Vibrante 3 times (Once per turn regardless of the amount inflicted during combat)\n$ Used 'Critique' 2 times\n$ Used 'Burst Forth the Pulsing Crimson under Your Skin'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -45632,7 +45632,7 @@
 				"Tier": 4,
 				"SkillOne": {
 					"SkillSlot": "S10",
-					"Name": "Chainstrike [-]",
+					"Name": "Chainstrike [連擊]",
 					"Description": "[On Use] Gain +3 Poise Count\n[On Use] Coin Power +1 for every 6 Poise on self (Max 2)\n<1>[On Use] Gain 2 Poise\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Gain 1 Haste next turn (Once per turn)\n[On Crit - Heads Hit] Gain 1 Haste next turn (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
@@ -45656,7 +45656,7 @@
 				},
 				"SkillTwo": {
 					"SkillSlot": "S20",
-					"Name": "Nameless Slash [-]",
+					"Name": "Nameless Slash [無名斬]",
 					"Description": "[Unfocused Volley]\n[On Use] Base Power +1 for every 6 Poise on self (Max 2)\n<1>[On Hit] Gain 3 Poise\n[On Hit] Gain +1 Poise Count\n<2>Deal +10% damage on Critical Hit\n[On Hit] Gain +1 Poise Count\n[On Hit] Inflict 2 Bleed\n[On Crit - Heads Hit] Reuse this Coin (Once per Skill)\n[Reuse - Heads Hit] At 10+ Moonlit Azure Blade, Reuse this Coin (Once per Skill)",
 					"DamageType": "Slash",
 					"SinType": "Pride",
@@ -45806,7 +45806,7 @@
 				"Tier": 3,
 				"SkillOne": {
 					"SkillSlot": "S10",
-					"Name": "Chainstrike [-]",
+					"Name": "Chainstrike [連擊]",
 					"Description": "[On Use] Gain +3 Poise Count\n[On Use] At 6+ Poise, Coin Power +1\n<1>[On Use] Gain 2 Poise\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict +1 Bleed Count\n[On Hit] Gain 1 Haste next turn (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
@@ -45830,7 +45830,7 @@
 				},
 				"SkillTwo": {
 					"SkillSlot": "S20",
-					"Name": "Nameless Slash [-]",
+					"Name": "Nameless Slash [無名斬]",
 					"Description": "[Unfocused Volley]\n[On Use] At 6+ Poise, Base Power +1\n<1>[On Hit] Gain 3 Poise\n[On Hit] Gain +1 Poise Count\n<2>Deal +10% damage on Critical Hit\n[On Hit] Inflict 1 Bleed\n[On Crit - Heads Hit] Reuse this Coin (Once per Skill)",
 					"DamageType": "Slash",
 					"SinType": "Pride",
