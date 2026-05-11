@@ -35695,7 +35695,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Lingering Resolve",
-					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Subtituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
+					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -35868,7 +35868,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Lingering Resolve",
-					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Subtituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
+					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -53009,7 +53009,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
-					"Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Subtituting Identity of the earliest Deployment Order",
+					"Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Substituting Identity of the earliest Deployment Order",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -53136,7 +53136,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
-					"Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Subtituting Identity of the earliest Deployment Order",
+					"Description": "If this unit is killed in this Encounter: Every turn, at Combat Start, apply 2 Poise to the Substituting Identity of the earliest Deployment Order",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
