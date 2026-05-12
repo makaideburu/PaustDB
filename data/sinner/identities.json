@@ -18428,7 +18428,7 @@
 						"Name": "Slay the Heavens - Tiansha [天殺]",
 						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills or Skill Reuse\nDeactivates allies' 'Base factors decreasing Sanity' while using this Skill\n[On Use] For this Encounter, Lose Offense Level and gain Base Power for this unit's Attacks\n[On Kill] Heal SP\n[On Kill] Gain Entangled Life [羅生] equal to damage dealt using this Skill\n<1>[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] If target is a The House of Spiders ally, deal X% HP damage as fixed damage",
 						"DamageType": "Slash",
-						"SinType": "Lust",
+						"SinType": "Wrath",
 						"BasePower": 0,
 						"CoinPower": 0,
 						"CoinCount": 3,
@@ -18476,7 +18476,7 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "Inevitable Termination [必然殺]",
-						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills or Skill Reuse\n[On Use] Gain Poise Count\n[Before Attack] If this Skill was triggered by Skill 3, apply this Skill's Atk Weight equal to the number of enemies that have Phantom Trace, and prioritize said enemies\n[Skill End] Phantom Trace on target expires\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] Inflict Bladetrail [Afterimage] equal to Entanglement on self\n[On Hit] Activate Burn on target; target loses Burn Count\n[On Crit] Inflict Slash Fragility",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills or Skill Reuse\n[On Use] Gain Poise Count\n[Before Attack] If this Skill was triggered by Skill 3, apply this Skill's Atk Weight equal to the number of enemies that have Phantom Trace, and prioritize said enemies\n[Attack End] Phantom Trace on target expires\n<1>Deal more damage on Critical Hit\n[On Hit] Inflict Bladetrail [Afterimage]\n[On Hit] Inflict Bladetrail [Afterimage] equal to Entanglement on self\n[On Hit] Activate Burn on target; target loses Burn Count\n[On Crit] Inflict Slash Fragility",
 						"DamageType": "Slash",
 						"SinType": "Pride",
 						"BasePower": 0,
