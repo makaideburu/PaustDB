@@ -9,14 +9,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 72,
 		"GrowthHP": 2.48,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -265,13 +261,10 @@
 			"Fixer",
 			"Seven Association"
 		],
-		"Speed": "5~8",
+		"Speed": [ 5, 8 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -518,14 +511,10 @@
 			"Fixer",
 			"Molar Office"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -796,14 +785,10 @@
 		"Traits": [
 			"The Pequod"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -1063,13 +1048,10 @@
 			"Fixer",
 			"Dieci Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -1340,12 +1322,10 @@
 			"LCE",
 			"E.G.O Gear"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -1625,14 +1605,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -1880,14 +1856,10 @@
 		"Traits": [
 			"Technology Liberation Alliance"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2144,13 +2116,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2417,14 +2386,10 @@
 			"The Ring",
 			"Student"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -2709,14 +2674,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			60,
-			30,
-			15
-		],
+		"StaggerThresholds": [ 60, 30, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -3016,14 +2977,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -3281,14 +3238,10 @@
 			"N Corp.",
 			"E.G.O Gear"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			30,
-			15
-		],
+		"StaggerThresholds": [ 70, 30, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -3670,13 +3623,10 @@
 			"Heishou Pack Adept",
 			"Heishou Pack - Wu Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -4087,12 +4037,10 @@
 			"The Index",
 			"The Oracle's Proxy"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 66,
 		"GrowthHP": 3.03,
-		"StaggerThresholds": [
-			65
-		],
+		"StaggerThresholds": [ 65 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -4630,14 +4578,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "2~4",
+		"Speed": [ 2, 4 ],
 		"BaseHP": 84,
 		"GrowthHP": 2.9,
-		"StaggerThresholds": [
-			60,
-			30,
-			15
-		],
+		"StaggerThresholds": [ 60, 30, 15 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -4879,14 +4823,10 @@
 			"Fixer",
 			"Lobotomy Corp. Branch"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -5132,13 +5072,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "2~4",
+		"Speed": [ 2, 4 ],
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -5392,13 +5329,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			55,
-			30
-		],
+		"StaggerThresholds": [ 55, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -5651,14 +5585,10 @@
 			"Fixer",
 			"Wuthering Heights"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -5904,14 +5834,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -6179,14 +6105,10 @@
 			"Fixer",
 			"Seven Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -6444,13 +6366,10 @@
 		"Season": 1,
 		"IsWalpurgis": true,  
 		"Traits": [],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -6726,14 +6645,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.5,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -6994,14 +6909,10 @@
 			"MultiCrack Office",
 			"Mechanical Amalgam"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -7263,13 +7174,10 @@
 			"LCE",
 			"E.G.O Gear"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -7624,12 +7532,10 @@
 			"Heishou Pack Adept",
 			"Heishou Pack - Mao Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 3.19,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -8039,14 +7945,10 @@
 			"Fixer",
 			"Shi Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 60,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			70,
-			50,
-			20
-		],
+		"StaggerThresholds": [ 70, 50, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -8068,6 +7970,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -8090,6 +7993,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 4,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -8114,6 +8018,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -8168,6 +8073,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -8452,13 +8358,10 @@
 			"The Fingers",
 			"The Index"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 57,
 		"GrowthHP": 2.69,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -8838,13 +8741,10 @@
 			"Mechanical Amalgam",
 			"The Fingers"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 92,
 		"GrowthHP": 3.19,
-		"StaggerThresholds": [
-			50,
-			30
-		],
+		"StaggerThresholds": [ 50, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -8865,6 +8765,7 @@
 					"CoinCount": 2,
 					"Level": 1,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 2,
 					"CoinModifier": 0,
@@ -8888,6 +8789,7 @@
 						"CoinCount": 2,
 						"Level": 3,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
@@ -8913,6 +8815,7 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 3,
 					"UnbreakableCoinCount": 1,
@@ -8938,6 +8841,7 @@
 						"CoinCount": 3,
 						"Level": 4,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 4,
 						"ClashPowerModifier": 1,
 						"CoinModifier": 0,
@@ -8966,6 +8870,7 @@
 					"CoinCount": 4,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 5,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
@@ -8990,6 +8895,7 @@
 						"CoinCount": 4,
 						"Level": 5,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 5,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
@@ -9066,6 +8972,7 @@
 						"CoinCount": 2,
 						"Level": 2,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 1,
 						"CoinModifier": 2,
@@ -9165,6 +9072,7 @@
 					"CoinCount": 2,
 					"Level": 1,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 2,
 					"CoinModifier": 0,
@@ -9188,6 +9096,7 @@
 						"CoinCount": 2,
 						"Level": 3,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
@@ -9213,6 +9122,7 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 3,
 					"UnbreakableCoinCount": 1,
@@ -9238,6 +9148,7 @@
 						"CoinCount": 3,
 						"Level": 4,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 2,
 						"ClashPowerModifier": 1,
 						"CoinModifier": 0,
@@ -9266,6 +9177,7 @@
 					"CoinCount": 4,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 2,
 					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
@@ -9290,6 +9202,7 @@
 						"CoinCount": 4,
 						"Level": 5,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
@@ -9365,6 +9278,7 @@
 						"CoinCount": 2,
 						"Level": 2,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 2,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 1,
 						"CoinModifier": 1,
@@ -9461,14 +9375,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -9710,13 +9620,10 @@
 			"Fixer",
 			"Shi Association"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			80,
-			60
-		],
+		"StaggerThresholds": [ 80, 60 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -9961,13 +9868,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -10224,13 +10128,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -10490,14 +10391,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -10753,14 +10650,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -11014,14 +10907,10 @@
 			"Fixer",
 			"Cinq Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 72,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -11044,6 +10933,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11066,6 +10956,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11088,6 +10979,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11110,6 +11002,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11160,6 +11053,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11182,6 +11076,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11204,6 +11099,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11272,13 +11168,10 @@
 			"The Fingers",
 			"The Middle"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.95,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -11538,12 +11431,10 @@
 		"Traits": [
 			"T Corp."
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 95,
 		"GrowthHP": 3.26,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -11566,6 +11457,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11589,6 +11481,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11615,6 +11508,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 3,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11698,6 +11592,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11721,6 +11616,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11746,6 +11642,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -11827,14 +11724,10 @@
 			"Bloodfiend",
 			"Second Kindred"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			65,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 65, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -12432,14 +12325,10 @@
 			"Fixer",
 			"Cinq Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -12460,8 +12349,10 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12483,8 +12374,10 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12507,8 +12400,10 @@
 					"CoinCount": 4,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12530,6 +12425,7 @@
 					"CoinCount": 1,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
@@ -12585,8 +12481,10 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12607,8 +12505,10 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12631,8 +12531,10 @@
 					"CoinCount": 4,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -12653,6 +12555,7 @@
 					"CoinCount": 1,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
@@ -12708,14 +12611,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			15
-		],
+		"StaggerThresholds": [ 70, 40, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -13187,13 +13086,10 @@
 			"Heishou Pack",
 			"Heishou Pack - Wei Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -13526,13 +13422,10 @@
 			"The House of Spiders",
 			"The Index"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -14152,14 +14045,10 @@
 			"LCB",
 			"||Tiansha Star||"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -14400,14 +14289,10 @@
 			"Fixer",
 			"Seven Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -14656,13 +14541,10 @@
 			"Limbus Company",
 			"LCC"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -14926,14 +14808,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -15183,14 +15061,10 @@
 			"Syndicate",
 			"Yurodivye"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 71,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -15452,14 +15326,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -15710,14 +15580,10 @@
 			"Syndicate",
 			"R.B."
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -15973,14 +15839,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -16236,14 +16098,10 @@
 			"Fixer",
 			"Edgar Family"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -16511,13 +16369,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -16903,13 +16758,10 @@
 			"Heishou Pack",
 			"Heishou Pack - Mao Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -17169,12 +17021,10 @@
 			"N Corp.",
 			"E.G.O Gear"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -17613,12 +17463,10 @@
 		"Traits": [
 			"H Corp."
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			30
-		],
+		"StaggerThresholds": [ 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -17939,13 +17787,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 75,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -18383,12 +18228,10 @@
 		"Season": 7,
 		"Traits": [
 		],
-		"Speed": "???",
+		"Speed": [ 0, 0 ],
 		"BaseHP": 0,
 		"GrowthHP": 0,
-		"StaggerThresholds": [
-			0
-		],
+		"StaggerThresholds": [ 0 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": -100,
@@ -18705,13 +18548,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "2~3",
+		"Speed": [ 2, 3 ],
 		"BaseHP": 90,
 		"GrowthHP": 3.1,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -18962,14 +18802,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -19221,13 +19057,10 @@
 			"Fixer",
 			"Rosespanner Workshop"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -19481,13 +19314,10 @@
 			"The Fingers",
 			"The Middle"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -19749,13 +19579,10 @@
 			"Syndicate",
 			"The Dead Rabbits"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -20008,13 +19835,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -20270,12 +20094,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "3~5",
+		"Speed": [ 3, 5 ],
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -20545,12 +20367,10 @@
 		"Traits": [
 			"R Corp."
 		],
-		"Speed": "3~5",
+		"Speed": [ 3, 5 ],
 		"BaseHP": 95,
 		"GrowthHP": 3,
-		"StaggerThresholds": [
-			40
-		],
+		"StaggerThresholds": [ 40 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -20806,13 +20626,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			80,
-			20
-		],
+		"StaggerThresholds": [ 80, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -21150,13 +20967,10 @@
 			"Fixer",
 			"Dieci Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -21179,6 +20993,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21204,6 +21019,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21228,6 +21044,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21251,6 +21068,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21307,6 +21125,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21332,6 +21151,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21356,6 +21176,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21431,13 +21252,10 @@
 			"Fixer",
 			"Cinq Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -21458,9 +21276,11 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21481,9 +21301,11 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21506,9 +21328,11 @@
 					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21585,9 +21409,11 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21608,9 +21434,11 @@
 					"CoinCount": 3,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21633,9 +21461,11 @@
 					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
+					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -21709,12 +21539,10 @@
 			"The Fingers",
 			"The Thumb"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65
-		],
+		"StaggerThresholds": [ 65 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -21737,11 +21565,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						4,
-						6
-					],
+					"CoinOverride": [ 4, 6 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -21766,12 +21592,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						4,
-						6,
-						6
-					],
+					"CoinOverride": [ 4, 6, 6 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 2,
@@ -21800,12 +21623,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						6,
-						7,
-						7
-					],
+					"CoinOverride": [ 6, 7, 7 ],
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 3,
@@ -21837,13 +21657,7 @@
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"ClashesWithCoinOverride": true,
-						"CoinOverride": [
-							5,
-							5,
-							7,
-							7,
-							7
-						],
+						"CoinOverride": [ 5, 5, 7, 7, 7 ],
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 5,
@@ -21875,6 +21689,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": -10,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -21954,11 +21769,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						4,
-						6
-					],
+					"CoinOverride": [ 4, 6 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -21983,12 +21796,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						4,
-						6,
-						6
-					],
+					"CoinOverride": [ 4, 6, 6 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 2,
@@ -22017,12 +21827,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -10,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						5,
-						7,
-						7
-					],
+					"CoinOverride": [ 5, 7, 7 ],
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 3,
@@ -22054,13 +21861,7 @@
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"ClashesWithCoinOverride": true,
-						"CoinOverride": [
-							4,
-							4,
-							6,
-							6,
-							6
-						],
+						"CoinOverride": [ 4, 4, 6, 6, 6 ],
 						"CoinModifier": 1,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 5,
@@ -22092,6 +21893,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": -10,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -22168,12 +21970,10 @@
 			"Bloodfiend",
 			"Third Kindred"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			65
-		],
+		"StaggerThresholds": [ 65 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -22195,6 +21995,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -22222,6 +22023,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 2,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -22251,6 +22053,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -22282,6 +22085,7 @@
 						"Level": 5,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 8,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -22413,6 +22217,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -22440,6 +22245,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -22468,6 +22274,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -22499,6 +22306,7 @@
 						"Level": 5,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 8,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -22624,13 +22432,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 72,
 		"GrowthHP": 2.62,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -22653,6 +22458,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -22677,6 +22483,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 3,
@@ -22703,6 +22510,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
@@ -22837,6 +22645,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -22862,6 +22671,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -22894,6 +22704,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -22969,13 +22780,10 @@
 			"The Fingers",
 			"Student"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40
-		],
+		"StaggerThresholds": [ 70, 40 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -23305,14 +23113,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -23562,14 +23366,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -23817,13 +23617,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -24076,13 +23873,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -24340,14 +24134,10 @@
 			"Syndicate",
 			"Hook Office"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.38,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -24605,14 +24395,10 @@
 			"Fixer",
 			"Fanghunt Office"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -24871,14 +24657,10 @@
 			"Syndicate",
 			"Tingtang Gang"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -25123,12 +24905,10 @@
 		"Traits": [
 			"K Corp."
 		],
-		"Speed": "2~6",
+		"Speed": [ 2, 6 ],
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -25384,13 +25164,10 @@
 			"Fixer",
 			"Dieci Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.49,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -25646,14 +25423,10 @@
 			"Syndicate",
 			"Yurodivye"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -25918,13 +25691,10 @@
 			"Fixer",
 			"Full-Stop Office"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -26427,14 +26197,10 @@
 		"Traits": [
 			"R Corp."
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 65,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -26708,13 +26474,10 @@
 		"Traits": [
 			"H Corp."
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 62,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -27206,12 +26969,10 @@
 			"Mechanical Amalgam",
 			"The Fingers"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 3.03,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -27232,8 +26993,10 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 3,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -27280,8 +27043,10 @@
 					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -27336,8 +27101,10 @@
 					"CoinCount": 4,
 					"Level": 4,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 5,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
@@ -27426,8 +27193,10 @@
 						"CoinCount": 2,
 						"Level": 2,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 3,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 1,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 1,
@@ -27523,6 +27292,7 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27571,6 +27341,7 @@
 					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 0,
@@ -27627,6 +27398,7 @@
 					"CoinCount": 4,
 					"Level": 4,
 					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 3,
 					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
@@ -27716,6 +27488,7 @@
 						"CoinCount": 2,
 						"Level": 2,
 						"BasePowerModifier": 0,
+						"BasePowerModifierStatuses": 3,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 1,
@@ -27811,14 +27584,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -28075,13 +27844,10 @@
 			"Fixer",
 			"Shi Association"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			80,
-			60
-		],
+		"StaggerThresholds": [ 80, 60 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -28329,14 +28095,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -28584,14 +28346,10 @@
 			"Fixer",
 			"Seven Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -28842,14 +28600,10 @@
 			"MultiCrack Office",
 			"Mechanical Amalgam"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 75,
 		"GrowthHP": 2.55,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -28872,6 +28626,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -28894,6 +28649,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -28920,6 +28676,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -28997,6 +28754,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -29019,6 +28777,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -29045,6 +28804,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -29118,14 +28878,10 @@
 		"Traits": [
 			"R Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -29386,13 +29142,10 @@
 			"Technology Liberation Alliance",
 			"E.G.O Gear"
 		],
-		"Speed": "3~5",
+		"Speed": [ 3, 5 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -29674,12 +29427,10 @@
 		"Traits": [
 			"The Pequod"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			80
-		],
+		"StaggerThresholds": [ 80 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -29943,13 +29694,10 @@
 			"Fixer",
 			"Öufi Association"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -30201,14 +29949,10 @@
 			"Wuthering Heights",
 			"The Wild Hunt"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			65,
-			35,
-			20
-		],
+		"StaggerThresholds": [ 65, 35, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -30231,6 +29975,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30252,6 +29997,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30276,6 +30022,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30301,6 +30048,7 @@
 						"BasePowerModifier": 4,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -30330,6 +30078,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30412,6 +30161,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30433,6 +30183,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30457,6 +30208,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30482,6 +30234,7 @@
 						"BasePowerModifier": 2,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -30511,6 +30264,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -30589,14 +30343,10 @@
 			"Fixer",
 			"Full-Stop Office"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.3,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -30618,6 +30368,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30640,6 +30391,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30665,6 +30417,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30690,6 +30443,7 @@
 						"Level": 6,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -30819,6 +30573,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30841,6 +30596,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30866,6 +30622,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 3,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -30890,6 +30647,7 @@
 						"Level": 6,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -31014,13 +30772,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 3.19,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -31115,6 +30870,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 2,
@@ -31257,6 +31013,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 2,
@@ -31325,12 +31082,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 99,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -31658,12 +31413,10 @@
 			"Heishou Pack Adept",
 			"Heishou Pack - You Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 92,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			70
-		],
+		"StaggerThresholds": [ 70 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -32097,12 +31850,10 @@
 			"The Middle",
 			"The Fingers"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 90,
 		"GrowthHP": 3.2,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -32491,13 +32242,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "5~8",
+		"Speed": [ 5, 8 ],
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 2,
@@ -32520,6 +32268,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32541,6 +32290,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32563,6 +32313,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32635,6 +32386,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32656,6 +32408,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32677,6 +32430,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -32744,13 +32498,10 @@
 			"Fixer",
 			"Shi Association"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			80,
-			60
-		],
+		"StaggerThresholds": [ 80, 60 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -33004,13 +32755,10 @@
 			"Limbus Company",
 			"LCC"
 		],
-		"Speed": "2~6",
+		"Speed": [ 2, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -33273,13 +33021,10 @@
 			"Technology Liberation Alliance",
 			"E.G.O Gear"
 		],
-		"Speed": "2~7",
+		"Speed": [ 2, 7 ],
 		"BaseHP": 90,
 		"GrowthHP": 3.1,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -33538,14 +33283,10 @@
 			"Fixer",
 			"Edgar Family"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -33806,13 +33547,10 @@
 		"Traits": [
 			"R Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.69,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -34072,14 +33810,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -34333,14 +34067,10 @@
 			"Fixer",
 			"Molar Office"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -34603,14 +34333,10 @@
 		"Traits": [
 			"The Pequod"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 68,
 		"GrowthHP": 2.3,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -34915,12 +34641,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 93,
 		"GrowthHP": 3.21,
-		"StaggerThresholds": [
-			55
-		],
+		"StaggerThresholds": [ 55 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -35204,14 +34928,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "4~6",
+		"Speed":  [ 4, 6 ],
 		"BaseHP": 93,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -35518,14 +35238,10 @@
 			"Family Hierarch Candidate",
 			"Jia Family"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			15
-		],
+		"StaggerThresholds": [ 70, 40, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -35896,13 +35612,10 @@
 			"Associate Office - Öufi",
 			"Jeong's Office"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 88,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -35924,6 +35637,7 @@
 					"Level": 2,
 					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -35947,6 +35661,7 @@
 					"Level": 3,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -35971,6 +35686,7 @@
 					"Level": 4,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -36111,6 +35827,7 @@
 					"Level": 2,
 					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36134,6 +35851,7 @@
 					"Level": 3,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36157,6 +35875,7 @@
 					"Level": 4,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -36295,13 +36014,10 @@
 			"The House of Spiders",
 			"The Middle"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 92,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			50,
-			30
-		],
+		"StaggerThresholds": [ 50, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -36323,6 +36039,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36346,6 +36063,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36373,6 +36091,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 3,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36399,6 +36118,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -36473,6 +36193,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36496,6 +36217,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36521,6 +36243,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -36547,6 +36270,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -36619,14 +36343,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 78,
 		"GrowthHP": 2.69,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -36877,14 +36597,10 @@
 			"Limbus Company",
 			"LCC"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -37130,14 +36846,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -37399,13 +37111,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "2~4",
+		"Speed": [ 2, 4 ],
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -37654,14 +37363,10 @@
 		"Traits": [
 			"T Corp."
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -37684,6 +37389,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 4,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37707,6 +37413,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 4,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37730,6 +37437,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 4,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37811,6 +37519,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 3,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37834,6 +37543,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 3,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37856,6 +37566,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 3,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -37932,13 +37643,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -38195,14 +37903,10 @@
 			"Fixer",
 			"Rosespanner Workshop"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.51,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -38472,12 +38176,10 @@
 			"Fixer",
 			"Dieci Association"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 88,
 		"GrowthHP": 3.1,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -38751,14 +38453,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.74,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -39018,13 +38716,10 @@
 			"Fixer",
 			"Devyat' Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 81,
 		"GrowthHP": 2.88,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -39047,6 +38742,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -39070,6 +38766,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -39094,6 +38791,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 1,
 					"AttackWeight": 1,
@@ -39211,6 +38909,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -39234,6 +38933,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -39258,6 +38958,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 1,
 					"AttackWeight": 1,
@@ -39373,13 +39074,10 @@
 			"Bloodfiend",
 			"Second Kindred"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -39788,14 +39486,10 @@
 			"Heishou Pack",
 			"Heishou Pack - Si Branch"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -40075,12 +39769,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 90,
 		"GrowthHP": 3.14,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -40103,6 +39795,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40123,6 +39816,7 @@
 						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40148,6 +39842,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40170,6 +39865,7 @@
 						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40197,6 +39893,7 @@
 					"BasePowerModifier": 4,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 5,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40219,6 +39916,7 @@
 						"Level": 5,
 						"BasePowerModifier": 4,
 						"FinalPowerModifier": 4,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 1,
@@ -40246,6 +39944,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -40271,6 +39970,7 @@
 						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 2,
+						"FinalPowerModifierStatuses": 3,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40392,6 +40092,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40412,6 +40113,7 @@
 						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 2,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40437,6 +40139,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40459,6 +40162,7 @@
 						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 2,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40486,6 +40190,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -40508,6 +40213,7 @@
 						"Level": 5,
 						"BasePowerModifier": 1,
 						"FinalPowerModifier": 2,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 1,
@@ -40535,6 +40241,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -40560,6 +40267,7 @@
 						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
@@ -40673,13 +40381,10 @@
 		"Traits": [
 			"R Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.4,
-		"StaggerThresholds": [
-			70,
-			35
-		],
+		"StaggerThresholds": [ 70, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -40969,13 +40674,10 @@
 			"The Fingers",
 			"Docent"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 71,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -41124,6 +40826,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 6,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 0,
 						"CoinCountModifier": 2,
 						"AttackWeight": 1,
@@ -41348,6 +41051,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 0,
 						"CoinCountModifier": 2,
 						"AttackWeight": 1,
@@ -41443,14 +41147,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 60,
 		"GrowthHP": 2.07,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -41697,12 +41397,10 @@
 			"Syndicate",
 			"Los Mariachis"
 		],
-		"Speed": "2~3",
+		"Speed": [ 2, 3 ],
 		"BaseHP": 95,
 		"GrowthHP": 3.26,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -41956,13 +41654,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "2~4",
+		"Speed": [ 2, 4 ],
 		"BaseHP": 88,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			55,
-			20
-		],
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -42223,13 +41918,10 @@
 			"Technology Liberation Alliance",
 			"E.G.O Gear"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -42603,14 +42295,10 @@
 			"Fixer",
 			"Molar Office"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -42872,12 +42560,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			60
-		],
+		"StaggerThresholds": [ 60 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -43161,13 +42847,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -43422,13 +43105,10 @@
 			"N Corp.",
 			"N Corp. Fanatic"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.73,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -43694,13 +43374,10 @@
 			"Fixer",
 			"Cinq Association"
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.71,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -43953,14 +43630,10 @@
 			"Fixer",
 			"Dawn Office"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -43982,6 +43655,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 1,
@@ -44004,6 +43678,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -44027,6 +43702,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 5,
 					"CoinCountModifier": 0,
@@ -44050,6 +43726,7 @@
 						"Level": 5,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 1,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 11,
 						"CoinCountModifier": 0,
@@ -44146,6 +43823,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 1,
@@ -44168,6 +43846,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -44191,6 +43870,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
@@ -44214,6 +43894,7 @@
 						"Level": 5,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 1,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 11,
 						"CoinCountModifier": 0,
@@ -44307,14 +43988,10 @@
 			"Fixer",
 			"Devyat' Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -44337,6 +44014,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44360,6 +44038,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44385,11 +44064,8 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						6,
-						6,
-						10
-					],
+					"ClashPowerModifierStatuses": 1,
+					"CoinOverride": [ 6, 6, 10 ],
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44506,6 +44182,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44529,6 +44206,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44553,12 +44231,9 @@
 					"Level": 5,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"ClashesWithCoinOverride": true,
-					"CoinOverride": [
-						5,
-						5,
-						7
-					],
+					"CoinOverride": [ 5, 5, 7 ],
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -44672,13 +44347,10 @@
 			"The Fingers",
 			"The Middle"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 92,
 		"GrowthHP": 3.05,
-		"StaggerThresholds": [
-			50,
-			20
-		],
+		"StaggerThresholds": [ 50, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -44700,6 +44372,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -44723,6 +44396,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -44745,6 +44419,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -44766,6 +44441,7 @@
 					"Level": 5,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -44847,6 +44523,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -44869,6 +44546,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -44890,6 +44568,7 @@
 					"Level": 5,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -44945,14 +44624,10 @@
 			"The Fingers",
 			"The Thumb"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 79,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -45265,14 +44940,10 @@
 			"Heishou Pack",
 			"Heishou Pack - You Branch"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 75,
 		"GrowthHP": 2.5,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -45614,13 +45285,10 @@
 		"Traits": [
 			"The House of Spiders"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -45642,6 +45310,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -45666,6 +45335,7 @@
 					"Level": 3,
 					"BasePowerModifier": 2,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 2,
@@ -45690,6 +45360,7 @@
 					"Level": 5,
 					"BasePowerModifier": 5,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 5,
 					"CoinCountModifier": 0,
@@ -45816,6 +45487,7 @@
 					"Level": 1,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -45840,6 +45512,7 @@
 					"Level": 3,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 1,
@@ -45864,6 +45537,7 @@
 					"Level": 5,
 					"BasePowerModifier": 3,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -45988,14 +45662,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 60,
 		"GrowthHP": 2.07,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -46231,13 +45901,10 @@
 		"Traits": [
 			"G Corp."
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35
-		],
+		"StaggerThresholds": [ 65, 35 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -46493,14 +46160,10 @@
 			"Syndicate",
 			"Blade Lineage"
 		],
-		"Speed": "2~5",
+		"Speed": [ 2, 5 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -46744,12 +46407,10 @@
 			"Fixer",
 			"Cinq Association"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.82,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 2,
@@ -47016,14 +46677,10 @@
 			"The Ring",
 			"Student"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.26,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -47304,12 +46961,10 @@
 			"Fixer",
 			"Seven Association"
 		],
-		"Speed": "5~8",
+		"Speed": [ 5, 8 ],
 		"BaseHP": 86,
 		"GrowthHP": 2.96,
-		"StaggerThresholds": [
-			60
-		],
+		"StaggerThresholds": [ 60 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -47564,14 +47219,10 @@
 			"Fixer",
 			"Molar Office"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 68,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -47842,14 +47493,10 @@
 			"Lobotomy Corp. Headquarters",
 			"E.G.O Gear"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -47914,10 +47561,12 @@
 					"CoinPower": 4,
 					"CoinCount": 1,
 					"Level": 5,
-					"BasePowerModifier": 15,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 15,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 6,
+					"CoinModifier": 0,
+					"CoinModifierStatuses": 6,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
@@ -48119,14 +47768,10 @@
 			"Fixer",
 			"Wuthering Heights"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -48381,14 +48026,10 @@
 		"Traits": [
 			"W Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.32,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -48411,6 +48052,7 @@
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48432,6 +48074,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48457,6 +48100,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48536,6 +48180,7 @@
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48557,6 +48202,7 @@
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48582,6 +48228,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -48659,14 +48306,10 @@
 			"Bloodfiend",
 			"Third Kindred"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.23,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -48981,14 +48624,10 @@
 			"Heishou Pack",
 			"Heishou Pack - Mao Branch"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.34,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -49244,14 +48883,10 @@
 		"Traits": [
 			"T Corp."
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 70,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -49274,6 +48909,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49296,6 +48932,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49324,12 +48961,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 3,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						6,
-						6,
-						11
-					],
+					"CoinOverride": [ 6, 6, 11 ],
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49418,6 +49052,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49440,6 +49075,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49468,12 +49104,9 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 3,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						5,
-						5,
-						10
-					],
+					"CoinOverride": [ 5, 5, 10 ],
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -49559,12 +49192,10 @@
 			"Limbus Company",
 			"LCA"
 		],
-		"Speed": "4~7",
+		"Speed": [ 4, 7 ],
 		"BaseHP": 73,
 		"GrowthHP": 2.85,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -49888,13 +49519,10 @@
 			"Limbus Company",
 			"LCB"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 72,
 		"GrowthHP": 2.48,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 1,
 		"DamageResist": {
 			"Slash": 1,
@@ -50143,14 +49771,10 @@
 			"Fixer",
 			"Liu Association"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 63,
 		"GrowthHP": 2.17,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -50399,13 +50023,10 @@
 			"Syndicate",
 			"R.B."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.7,
-		"StaggerThresholds": [
-			70,
-			30
-		],
+		"StaggerThresholds": [ 70, 30 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -50659,14 +50280,10 @@
 			"Fixer",
 			"Rosespanner Workshop"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -50926,14 +50543,10 @@
 			"Syndicate",
 			"Kurokumo Clan"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 76,
 		"GrowthHP": 2.6,
-		"StaggerThresholds": [
-			65,
-			35,
-			15
-		],
+		"StaggerThresholds": [ 65, 35, 15 ],
 		"Rarity": 2,
 		"DamageResist": {
 			"Slash": 1,
@@ -51188,14 +50801,10 @@
 		"Traits": [
 			"G Corp."
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -51443,12 +51052,10 @@
 			"Fixer",
 			"Zwei Association"
 		],
-		"Speed": "4~8",
+		"Speed": [ 4, 8 ],
 		"BaseHP": 90,
 		"GrowthHP": 3,
-		"StaggerThresholds": [
-			50
-		],
+		"StaggerThresholds": [ 50 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 2,
@@ -51704,14 +51311,10 @@
 			"Syndicate",
 			"Twinhook Pirates"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -51976,14 +51579,10 @@
 			"Fixer",
 			"Edgar Family"
 		],
-		"Speed": "3~8",
+		"Speed": [ 3, 8 ],
 		"BaseHP": 66,
 		"GrowthHP": 2.28,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -52244,12 +51843,10 @@
 			"Bloodfiend",
 			"Third Kindred"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 108,
 		"GrowthHP": 3.41,
-		"StaggerThresholds": [
-			80
-		],
+		"StaggerThresholds": [ 80 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -52568,13 +52165,10 @@
 		"Traits": [
 			"Fixer"
 		],
-		"Speed": "4~6",
+		"Speed": [ 4, 6 ],
 		"BaseHP": 82,
 		"GrowthHP": 2.95,
-		"StaggerThresholds": [
-			70,
-			0
-		],
+		"StaggerThresholds": [ 70, 0 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -52877,14 +52471,10 @@
 			"Heishou Pack",
 			"Heishou Pack - Si Branch"
 		],
-		"Speed": "3~7",
+		"Speed": [ 3, 7 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -53162,14 +52752,10 @@
 			"Syndicate",
 			"Night Awls"
 		],
-		"Speed": "3~6",
+		"Speed": [ 3, 6 ],
 		"BaseHP": 69,
 		"GrowthHP": 2.39,
-		"StaggerThresholds": [
-			70,
-			40,
-			20
-		],
+		"StaggerThresholds": [ 70, 40, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -53191,6 +52777,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -53214,6 +52801,7 @@
 						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 4,
 						"CoinCountModifier": 0,
@@ -53241,6 +52829,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -53268,6 +52857,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -53297,6 +52887,7 @@
 						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 3,
 						"CoinCountModifier": 0,
@@ -53406,6 +52997,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -53428,6 +53020,7 @@
 						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 1,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
@@ -53452,6 +53045,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -53479,6 +53073,7 @@
 					"Level": 4,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 1,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -53507,6 +53102,7 @@
 						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 1,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
@@ -53613,12 +53209,10 @@
 			"LCE",
 			"Limbus Company"
 		],
-		"Speed": "1~4",
+		"Speed": [ 1, 4 ],
 		"BaseHP": 86,
 		"GrowthHP": 3.14,
-		"StaggerThresholds": [
-			40
-		],
+		"StaggerThresholds": [ 40 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 1,
@@ -53973,13 +53567,10 @@
 			"LCE",
 			"Limbus Company"
 		],
-		"Speed": "5~7",
+		"Speed": [ 5, 7 ],
 		"BaseHP": 86,
 		"GrowthHP": 3.14,
-		"StaggerThresholds": [
-			60,
-			30
-		],
+		"StaggerThresholds": [ 60, 30 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -54001,6 +53592,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 2,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -54023,6 +53615,7 @@
 					"Level": 2,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 2,
 					"CoinCountModifier": 0,
@@ -54050,6 +53643,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
@@ -54078,6 +53672,7 @@
 						"Level": 4,
 						"BasePowerModifier": 1,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 3,
 						"CoinCountModifier": 0,
@@ -54106,6 +53701,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 5,
 					"CoinCountModifier": 0,
@@ -54204,6 +53800,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 1,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -54226,6 +53823,7 @@
 					"Level": 2,
 					"BasePowerModifier": 1,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 1,
 					"CoinCountModifier": 0,
@@ -54253,6 +53851,7 @@
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 3,
 					"CoinCountModifier": 0,
@@ -54281,6 +53880,7 @@
 						"Level": 4,
 						"BasePowerModifier": 1,
 						"FinalPowerModifier": 0,
+						"FinalPowerModifierStatuses": 2,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
@@ -54308,6 +53908,7 @@
 					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
+					"FinalPowerModifierStatuses": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,

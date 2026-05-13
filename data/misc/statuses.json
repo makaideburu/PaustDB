@@ -1326,7 +1326,7 @@
 	},
 	{
 		"Name": "Ruin (Low Morale)",
-		"Description": "Gain 3 Sinking at every Turn End and 1 lose Clash Power",
+		"Description": "Gain 3 Sinking at every Turn End and lose 1 Clash Power",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -3497,7 +3497,7 @@
 		]
 	},
 	{
-		"Name": "Insecurity Mask (Low Morale)",
+		"Name": "Insecurity: Mask (Low Morale)",
 		"Description": "Base Attack Power -1, Defense Level +2",
 		"Tags": [
 			"Low Morale",
@@ -3505,7 +3505,7 @@
 		]
 	},
 	{
-		"Name": "Insecurity Mask (Panic)",
+		"Name": "Insecurity: Mask (Panic)",
 		"Description": "Base Attack Power -1, Defense Level +3",
 		"Tags": [
 			"Panic",
