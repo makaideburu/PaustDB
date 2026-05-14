@@ -4283,26 +4283,26 @@
 	},
 	{
 		"Name": "Bladetrail [Afterimage]",
-		"Description": "Take more damage from Slash Skills for every X Stack",
+		"Description": "Max Stack: 100\nTake +1% damage from Slash Skills for every 10 Stack",
 		"Tags": [
 			"Slash Damage Amp"
 		]
 	},
 	{
 		"Name": "Entanglement",
-		"Description": "Skill and Passive effects can increase Min & Max Stack of this effect",
+		"Description": "Max Stack: 4\nSkill and Passive effects can increase Min & Max Stack of this effect to 5 and 9, respectively",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Phantom Trace",
-		"Description": "Take more damage from Blade of the House of Spiders Ryōshū's Base Attack Skills",
+		"Description": "Max Stack: 1\nTake +5% damage from Blade of the House of Spiders Ryōshū's Base Attack Skills",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "String Severance [-]",
-		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into Unbreakable Coin. Deal more damage with Base Attack Skills' Unbreakable Coins\n$ **The Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain Poise. On Crit using Base Attack Skills, inflict Sinking\n$ **The Middle Apprentice Ishmael**: Gain Defense Level. Inflict additional Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to X% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain Poise Count and Crit DMG Up at every Turn Start\nTake less damage for every Stack",
+		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake less damage for every Stack",
 		"Tags": [
 			"Damage Reduction",
 			"Unbreakable Coin",
@@ -4319,13 +4319,13 @@
 	},
 	{
 		"Name": "Dihui Star's Blade",
-		"Description": "Total sum of Bladetrail [Afterimage] Stacks inflicted by this unit\nCan gain up to X Stack per turn",
+		"Description": "Max Stack: 70\nTotal sum of Bladetrail [Afterimage] Stacks inflicted by this unit\nCan gain up to 25 Stack per turn",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Shin (心) - Dihui Star [-]",
-		"Description": "Gain Min & Max Speed\nUpon using a Base Attack Skill, gain Poise Potency and Poise Count\nThis unit's Base Attack Skills deal more damage on Critical Hit\nTake less damage from Unopposed Attacks and Unbreakable Coins",
+		"Description": "Min & Max Speed +2\nUpon using a Base Attack Skill, gain 2 Poise Potency and +1 Poise Count\nThis unit's Base Attack Skills deal +10% damage on Critical Hit\nTake -20% damage from Unopposed Attacks and Unbreakable Coins",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",

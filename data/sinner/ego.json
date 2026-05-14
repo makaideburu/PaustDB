@@ -4488,6 +4488,64 @@
 		},
 		"ThreadspinTiers": [
 			{
+				"Tier": 5,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "4th Match Flame",
+					"Description": "Skill Power +2 against units with Burn\n[Before Attack] Deal +5% damage per 1 sum of Burn on all targets (Max 100%)\n[On Kill] Gain +2 Attack Power Up next turn\n<1>[On Hit] Deal ((Burn on target x 2)% of this Coin's final damage) Wrath damage (Max 20%)\n[On Hit] Inflict 4 Burn",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 21,
+					"CoinPower": 16,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"MiscTags": [
+						"Attack Power Up",
+						"Burn Potency"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "4th Match Flame",
+					"Description": "[Indiscriminate] Targets randomly\nSkill Power +4 against units with Burn\n[Before Attack] Deal +5% damage per 1 sum of Burn on all targets (Max 100%)\n[Clash Lose] Base Power -16\n[On Kill] Gain 3 Attack Power Up next turn\n[Failed Kill] Gain 3 Attack Power Up and 10 Burn next turn\n<1>[On Hit] Deal ((Burn on target x 3)% of this Coin's final damage) Wrath damage (Max 30%)\n[On Hit] Inflict 4 Burn",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 42,
+					"CoinPower": -16,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 4,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 26,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"MiscTags": [
+						"Attack Power Up",
+						"Burn Potency",
+						"Self Burn Potency"
+					]
+				},
+				"Passive": {
+					"Name": "4th Match Flame",
+					"Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn On Hit\n$ If said Skill is a Wrath Skill, deal +(Burn Potency on all targets / 2)% additional damage (Max 20%)\n$ If said Skill is an E.G.O Skill, apply the following effects at Coin Start of its first Coin:\n$- If said Coin is a Plus Coin, heal 10 SP\n$- If said Coin is a Minus Coin, lose 15 SP (This effect cannot reduce this unit's SP below 0)",
+					"MiscTags": [
+						"Final Power",
+						"Burn Potency"
+					]
+				}
+			},
+			{
 				"Tier": 4,
 				"Awakening": {
 					"SkillSlot": "EA0",
@@ -4500,7 +4558,7 @@
 					"CoinCount": 1,
 					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -4522,7 +4580,7 @@
 					"CoinCount": 1,
 					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -4536,7 +4594,7 @@
 				},
 				"Passive": {
 					"Name": "4th Match Flame",
-					"Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks.",
+					"Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn On Hit",
 					"MiscTags": [
 						"Final Power",
 						"Burn Potency"
@@ -4556,7 +4614,7 @@
 					"CoinCount": 1,
 					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -4578,7 +4636,7 @@
 					"CoinCount": 1,
 					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 4,
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
@@ -4592,7 +4650,7 @@
 				},
 				"Passive": {
 					"Name": "4th Match Flame",
-					"Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn with each of its attacks.",
+					"Description": "Every 4th skill used gains +4 Final Power and inflicts 4 Burn On Hit",
 					"MiscTags": [
 						"Final Power",
 						"Burn Potency"
@@ -14364,11 +14422,7 @@
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
 					"BasePowerOverride": 8,
-					"CoinOverride": [
-						6,
-						6,
-						6
-					],
+					"CoinOverride": [ 6, 6, 6 ],
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
 					"MiscTags": [
@@ -14395,11 +14449,7 @@
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
 					"BasePowerOverride": 18,
-					"CoinOverride": [
-						-8,
-						-8,
-						-8
-					],
+					"CoinOverride": [ -8, -8, -8 ],
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
 					"MiscTags": [
@@ -14438,11 +14488,7 @@
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
 					"BasePowerOverride": 8,
-					"CoinOverride": [
-						6,
-						6,
-						6
-					],
+					"CoinOverride": [ 6, 6, 6 ],
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -14469,11 +14515,7 @@
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
 					"BasePowerOverride": 18,
-					"CoinOverride": [
-						-8,
-						-8,
-						-8
-					],
+					"CoinOverride": [ -8, -8, -8 ],
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
 					"MiscTags": [
