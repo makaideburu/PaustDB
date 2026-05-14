@@ -18221,7 +18221,7 @@
 		]
 	},
 	{
-		"Id": 4000,
+		"Id": 4310,
 		"Sinner": "Ryōshū",
 		"Identity": "Blade of the House of Spiders",
 		"DWorld": "???",
@@ -18233,9 +18233,9 @@
 			"Dihui Star"
 		],
 		"Speed": [ 3, 7 ],
-		"BaseHP": 248,
-		"GrowthHP": 0,
-		"StaggerThresholds": [ 0 ],
+		"BaseHP": 66,
+		"GrowthHP": 3.03,
+		"StaggerThresholds": [ 40 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -18390,7 +18390,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Rend Space - Echoshear [空間斬 - 殘]",
-						"Description": "[On Use] For every String Severance [-], Base Power -1 and use Coin 1 an additional time\n[On Use] The final Coin gains Coin Power +1 for every (Entanglement)\n[On Use] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Raise Entanglement's Min & Max Stack cap by 1, reset Entanglement to minimum Stack (2 times per Encounter)\n[Attack End] Consume 50 Dihui Star's Blade\n<1>[On Hit] Gain +1 Poise Count\n[On Hit] Inflict1  Burn\n[On Hit] Inflict 1 Bleed\n<2>Deal +30% damage on Critical Hit\n[On Hit] Consume all Bladetrail [Afterimage] on target, deal Slash damage equal to (Bladetrail [Afterimage] consumed / 10)% of this Coin's final damage\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count",
+						"Description": "[On Use] For every String Severance [絕緣], Base Power -1 and use Coin 1 an additional time\n[On Use] The final Coin gains Coin Power +1 for every (Entanglement)\n[On Use] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Raise Entanglement's Min & Max Stack cap by 1, reset Entanglement to minimum Stack (2 times per Encounter)\n[Attack End] Consume 50 Dihui Star's Blade\n<1>[On Hit] Gain +1 Poise Count\n[On Hit] Inflict1  Burn\n[On Hit] Inflict 1 Bleed\n<2>Deal +30% damage on Critical Hit\n[On Hit] Consume all Bladetrail [Afterimage] on target, deal Slash damage equal to (Bladetrail [Afterimage] consumed / 10)% of this Coin's final damage\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 16,
@@ -18425,7 +18425,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "Rend Space - String Connection [空間斬 - 緣]",
-						"Description": "[Unclashable]\nThis Skill does not trigger target's Defense Skill\n[On Use] Gain 5 Poise\n[On Use] Gain Shin (心) - Dihui Star [-]\n[Attack End] Remove this unit's first Stagger Threshold (Once per Encounter)\n<1>[On Hit] Inflict 5 Burn\n[On Hit] Inflict 2 Bleed\n<2>[On Crit] Activate Burn on target, target loses 1 Burn Count",
+						"Description": "[Unclashable]\nThis Skill does not trigger target's Defense Skill\n[On Use] Gain 5 Poise\n[On Use] Gain Shin (心) - Dihui Star [地慧星]\n[Attack End] Remove this unit's first Stagger Threshold (Once per Encounter)\n<1>[On Hit] Inflict 5 Burn\n[On Hit] Inflict 2 Bleed\n<2>[On Crit] Activate Burn on target, target loses 1 Burn Count",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 14,
@@ -18444,7 +18444,7 @@
 							"Unclashable",
 							"Ignore Defense Skill",
 							"Poise Potency",
-							"Shin (心) - Dihui Star [-]",
+							"Shin (心) - Dihui Star [地慧星]",
 							"Remove Stagger Threshold",
 							"Burn Potency",
 							"Bleed Potency",
@@ -18456,7 +18456,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Phantom Step",
-					"Description": "[Combat Start] Target 1 The House of Spiders ally with the lattermost Deployment Order (2 times per turn)\n$ At 1+ String Severance [-], target 1 additional ally\n$ At Skill End of all the Skills equipped by the target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use 'Slay the Heavens - Tiansha [天殺]' against target as an Unopposed Attack (Once per Identity)\n$ Prioritizes The Pinky Apprentice Sinclair last\n[Combat Start] Gain +3 Poise Count (Once per turn)\n[On Evade] Gain 1 Poise (3 times per turn)",
+					"Description": "[Combat Start] Target 1 The House of Spiders ally with the lattermost Deployment Order (2 times per turn)\n$ At 1+ String Severance [絕緣], target 1 additional ally\n$ At Skill End of all the Skills equipped by the target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use 'Slay the Heavens - Tiansha [天殺]' against target as an Unopposed Attack (Once per Identity)\n$ Prioritizes The Pinky Apprentice Sinclair last\n[Combat Start] Gain +3 Poise Count (Once per turn)\n[On Evade] Gain 1 Poise (3 times per turn)",
 					"DamageType": "Evade",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -18479,8 +18479,8 @@
 				},
 				"InstallPassives": [
 					{
-						"Name": "Saikai [-]",
-						"Description": "Upon entering the Encounter for the first time, gain 0 Entanglement and 0 String Severance [-]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap by 1 for every 3 The House of Spiders Identities in the Loadout (Including this unit)(Max 3)\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain 1 Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains +1 Skill Slot for every 3 The House of Spiders allies that are defeated (Max 3 times)\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music for the rest of the Encounter (Excluding certain Encounters)",
+						"Name": "Saikai [再会]",
+						"Description": "Upon entering the Encounter for the first time, gain 0 Entanglement and 0 String Severance [絕緣]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap by 1 for every 3 The House of Spiders Identities in the Loadout (Including this unit)(Max 3)\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain 1 Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated (See String Severance [絕緣])\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains +1 Skill Slot for every 3 The House of Spiders allies that are defeated (Max 3 times)\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music for the rest of the Encounter (Excluding certain Encounters)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -18490,13 +18490,13 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Entanglement",
-							"String Severance [-]",
+							"String Severance [絕緣]",
 							"Transfer HP Damage",
 							"Unrelenting"
 						]
 					},
 					{
-						"Name": "Dihui Star [-]",
+						"Name": "Dihui Star [地慧星]",
 						"Description": "At 50+ Dihui Star's Blade, activate 'Rend Space - String Connection [空間斬 - 緣]' against a random enemy at the very end of that turn (Once per Encounter)\n$ After using 'Rend Space - String Connection [空間斬 - 緣]' due to this effect, apply the following effects on self:\n$- Cannot Retreat for this Encounter\n$- Turn End: At 50+ Dihui Star's Blade, replace a Base Skill with 'Rend Space - Echoshear [空間斬 - 殘]' at the next Turn Start (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)",
 						"PassiveResources": [
 							{
@@ -18543,7 +18543,7 @@
 					]
 				},
 				"SupportSkill": {
-					"Name": "The Master's Tutelage [-]",
+					"Name": "The Master's Tutelage [師事]",
 					"Description": "When the ally with the earliest Deployment order uses a Base Skill, said ally gains 2 Poise (3 times per turn)",
 					"PassiveResources": [
 						{
@@ -18704,7 +18704,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Rend Space - Echoshear [空間斬 - 殘]",
-						"Description": "[On Use] For every String Severance [-], Base Power -1 and use Coin 1 an additional time\n[On Use] The final Coin gains Coin Power +1 for every (Entanglement)\n[On Use] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Raise Entanglement's Min & Max Stack cap by 1, reset Entanglement to minimum Stack (2 times per Encounter)\n[Attack End] Consume 50 Dihui Star's Blade\n<1>[On Hit] Gain +1 Poise Count\n[On Hit] Inflict1  Burn\n[On Hit] Inflict 1 Bleed\n<2>Deal +30% damage on Critical Hit\n[On Hit] Consume all Bladetrail [Afterimage] on target, deal Slash damage equal to (Bladetrail [Afterimage] consumed / 10)% of this Coin's final damage\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count",
+						"Description": "[On Use] For every String Severance [絕緣], Base Power -1 and use Coin 1 an additional time\n[On Use] The final Coin gains Coin Power +1 for every (Entanglement)\n[On Use] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Raise Entanglement's Min & Max Stack cap by 1, reset Entanglement to minimum Stack (2 times per Encounter)\n[Attack End] Consume 50 Dihui Star's Blade\n<1>[On Hit] Gain +1 Poise Count\n[On Hit] Inflict1  Burn\n[On Hit] Inflict 1 Bleed\n<2>Deal +30% damage on Critical Hit\n[On Hit] Consume all Bladetrail [Afterimage] on target, deal Slash damage equal to (Bladetrail [Afterimage] consumed / 10)% of this Coin's final damage\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 16,
@@ -18739,7 +18739,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "Rend Space - String Connection [空間斬 - 緣]",
-						"Description": "[Unclashable]\nThis Skill does not trigger target's Defense Skill\n[On Use] Gain 5 Poise\n[On Use] Gain Shin (心) - Dihui Star [-]\n[Attack End] Remove this unit's first Stagger Threshold (Once per Encounter)\n<1>[On Hit] Inflict 5 Burn\n[On Hit] Inflict 2 Bleed\n<2>[On Crit] Activate Burn on target, target loses 1 Burn Count",
+						"Description": "[Unclashable]\nThis Skill does not trigger target's Defense Skill\n[On Use] Gain 5 Poise\n[On Use] Gain Shin (心) - Dihui Star [地慧星]\n[Attack End] Remove this unit's first Stagger Threshold (Once per Encounter)\n<1>[On Hit] Inflict 5 Burn\n[On Hit] Inflict 2 Bleed\n<2>[On Crit] Activate Burn on target, target loses 1 Burn Count",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 14,
@@ -18758,7 +18758,7 @@
 							"Unclashable",
 							"Ignore Defense Skill",
 							"Poise Potency",
-							"Shin (心) - Dihui Star [-]",
+							"Shin (心) - Dihui Star [地慧星]",
 							"Remove Stagger Threshold",
 							"Burn Potency",
 							"Bleed Potency",
@@ -18770,7 +18770,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Phantom Step",
-					"Description": "[Combat Start] Target 1 The House of Spiders ally with the lattermost Deployment Order (2 times per turn)\n$ At 1+ String Severance [-], target 1 additional ally\n$ At Skill End of all the Skills equipped by the target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use 'Slay the Heavens - Tiansha [天殺]' against target as an Unopposed Attack (Once per Identity)\n$ Prioritizes The Pinky Apprentice Sinclair last\n[Combat Start] Gain +3 Poise Count (Once per turn)",
+					"Description": "[Combat Start] Target 1 The House of Spiders ally with the lattermost Deployment Order (2 times per turn)\n$ At 1+ String Severance [絕緣], target 1 additional ally\n$ At Skill End of all the Skills equipped by the target this turn, or if target is Staggered, or if target does not have any Skills remaining to be used, use 'Slay the Heavens - Tiansha [天殺]' against target as an Unopposed Attack (Once per Identity)\n$ Prioritizes The Pinky Apprentice Sinclair last\n[Combat Start] Gain +3 Poise Count (Once per turn)",
 					"DamageType": "Evade",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -18792,8 +18792,8 @@
 				},
 				"InstallPassives": [
 					{
-						"Name": "Saikai [-]",
-						"Description": "Upon entering the Encounter for the first time, gain 0 Entanglement and 0 String Severance [-]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap by 1 for every 3 The House of Spiders Identities in the Loadout (Including this unit)(Max 3)\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain 1 Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains +1 Skill Slot for every 3 The House of Spiders allies that are defeated (Max 3 times)\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music for the rest of the Encounter (Excluding certain Encounters)",
+						"Name": "Saikai [再会]",
+						"Description": "Upon entering the Encounter for the first time, gain 0 Entanglement and 0 String Severance [絕緣]\nUpon entering the Encounter for the first time, raise Entanglement's Min & Max Cap by 1 for every 3 The House of Spiders Identities in the Loadout (Including this unit)(Max 3)\nIf any of The House of Spiders allied Identities are on the field, transfer HP damage taken to The House of Spiders Identity that has the lowest current HP percentage\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following based on The House of Spiders ally death:\n$ Gain 1 Entanglement\n$ For this Encounter, gain additional effects based on which of The House of Spiders allied Identity was defeated\nIf there are no Identities left to Substitute or Return, Blade of the House of Spiders Ryōshū gains +1 Skill Slot for every 3 The House of Spiders allies that are defeated (Max 3 times)\n$ This effect cannot increase Skill Slots beyond the maximum Skill Slot cap of the Encounter\n$ For certain game contents, this effect can activate regardless of the contents' Skill Slot increase restriction\nWhen conditions are met, change battle music for the rest of the Encounter (Excluding certain Encounters)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -18803,13 +18803,13 @@
 						"ResourceType": "None",
 						"MiscTags": [
 							"Entanglement",
-							"String Severance [-]",
+							"String Severance [絕緣]",
 							"Transfer HP Damage",
 							"Unrelenting"
 						]
 					},
 					{
-						"Name": "Dihui Star [-]",
+						"Name": "Dihui Star [地慧星]",
 						"Description": "At 50+ Dihui Star's Blade, activate 'Rend Space - String Connection [空間斬 - 緣]' against a random enemy at the very end of that turn (Once per Encounter)\n$ After using 'Rend Space - String Connection [空間斬 - 緣]' due to this effect, apply the following effects on self:\n$- Cannot Retreat for this Encounter\n$- Turn End: At 50+ Dihui Star's Blade, replace a Base Skill with 'Rend Space - Echoshear [空間斬 - 殘]' at the next Turn Start (Prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)",
 						"PassiveResources": [
 							{
@@ -18856,7 +18856,7 @@
 					]
 				},
 				"SupportSkill": {
-					"Name": "The Master's Tutelage [-]",
+					"Name": "The Master's Tutelage [師事]",
 					"Description": "When the ally with the earliest Deployment order uses a Base Skill, said ally gains 2 Poise (3 times per turn)",
 					"PassiveResources": [
 						{
