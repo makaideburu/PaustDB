@@ -4333,5 +4333,14 @@
 			"Poise Count",
 			"Damage Reduction"
 		]
+	},
+	{
+		"Name": "Torn-out Butterfly",
+		"Description": "Final Power +2 for all Skills\nWhen staggered due to damage, immediately recover from Stagger and gain Shield equal to 100% HP (Once per turn, excluding forced Staggers)",
+		"Tags": [
+			"Final Power Up",
+			"Stagger Recovery",
+			"Shield"
+		]
 	}
 ]

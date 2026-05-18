@@ -11830,5 +11830,28 @@
         "Availability": [
             "MD7"
         ]
+    },
+    {
+        "Id": 999,
+        "Name": "Spiderweb Entangled in Red",
+        "Tag": "Keywordless",
+        "Abnormality": "Theme Pack: *Charm, Wander, Doubt*, *Textbook*, *Blade and Artwork*, *The Unsevering*",
+        "Affinity": "Wrath",
+        "Tier": 3,
+        "Cost": 250,
+        "Upgrades": [
+            {
+                "Description": "All allies gain 1 Offense Level and 1 Defense Level for every defeated ally (Max 10)\nIf Blade of the House of Spiders Ryōshū is in the Team loadout, any defeated Identities excluding Blade of the House of Spiders Ryōshū will not be revived after clearing an Encounter (Floor final boss nodes and Hidden nodes)\n[Effect applies to #1 Deployed Identity]\nTurn Start: If there are no surviving allies apart from this unit, gain Torn-out Butterfly\n[Effect applies only to Blade of the House of Spiders Ryōshū]\nUpon entering the Encounter for the first time, for every The House of Spiders allied Identity that is defeated, gain 5 Dihui Star's Blade\nFor every 2 defeated The House of Spiders allies, Final Power +1, Coin Power +1, and deal +10% damage (Max 3 and 30% respectively)\nIf there are no surviving allies apart from Blade of the House of Spiders Ryōshū, gain +12 modifier for all Choice Event Skill checks",
+                "Rank": 1,
+                "MiscTags": [
+                    "Offense Level Up",
+                    "Defense Level Up",
+                    "Torn-out Butterfly"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
     }
 ]
