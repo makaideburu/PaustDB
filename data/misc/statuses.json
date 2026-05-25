@@ -1939,7 +1939,7 @@
 	},
 	{
 		"Name": "Vendetta Mark",
-		"Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (Max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
+		"Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (Max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
 		"Tags": [
 			"Ally Damage Amp",
 			"Sibling Vengeance Mark"
@@ -4341,6 +4341,95 @@
 			"Final Power Up",
 			"Stagger Recovery",
 			"Shield"
+		]
+	},
+	{
+		"Name": "Book of Vengeance [The House of Spiders]",
+		"Description": "Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal SP on Hit using a Skill\nOn Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, Outis gains additional Stack of The Middle - Grudge\nOn Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, Ishmael gains additional Stack of The Middle - Grudge\nExpires at Turn End",
+		"Tags": [
+			"Heal SP",
+			"The Middle - Grudge"
+		]
+	},
+	{
+		"Name": "The Middle - Vengeance Tattoo [~~Great Sister~~]",
+		"Description": "Final Power +X for Base Skills for every Y Stack\nEnvy and Blunt Skills deal more damage for every X Stack",
+		"Tags": [
+			"Final Power Up",
+			"Envy Damage Amp",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "Check This Out, Kiddo!",
+		"Description": "Reduced when hit by X Skills\nAt X+ Stack, Base Skills gain Final Power +Y\nBlunt Skills deal more damage for every Stack",
+		"Tags": [
+			"Final Power Up",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "I Got Praised!",
+		"Description": "Reduced when hit by X Skills\nAt X+ Stack, Base Skills gain Final Power +Y\nBlunt Skills deal more damage for every Stack",
+		"Tags": [
+			"Final Power Up",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "Ridiculous Grit",
+		"Description": "Fix any Attack Type Resistances that exceed 'Normal' to Normal\nTake -(X x (The Middle - Vengeance Tattoo [Great Sister] x Y))% damage from Skills\nOn Clash Win, heal an additional (Clash count x X) SP\nTurn End: If this unit lost SP this turn due to its Skill effects, deal more damage next turn using Base Skills\nTurn End: Lose Stack",
+		"Tags": [
+			"Damage Type Resist Up",
+			"Damage Reduction",
+			"Heal SP"
+		]
+	},
+	{
+		"Name": "Sealed Sword",
+		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X Bleed on target\nOn final Coin Hit using Base Skills, if target has X+ Bleed, deal (Y% of Coin's final damage) Blunt damage",
+		"Tags": [
+			"Haste",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "First Seal Removed",
+		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Blunt damage",
+		"Tags": [
+			"Haste",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "Second Seal Removed",
+		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Slash damage",
+		"Tags": [
+			"Haste",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "Lævateinn",
+		"Description": "Turn Start: Inflict Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Pierce damage",
+		"Tags": [
+			"Field Burn Potency",
+			"Skill Change",
+			"Blunt Damage Amp"
+		]
+	},
+	{
+		"Name": "Avenging My Family",
+		"Description": "Envy Base Skills deal more damage\nBase Skills gain Final Power",
+		"Tags": [
+			"Envy Damage Amp",
+			"Final Power Up"
+		]
+	},
+	{
+		"Name": "Rising Fever",
+		"Description": "Lose Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (Including via Counter)\n$ At Turn End after activating X+ Envy Reson\nAt X Stack, use 'Time to Unpack!'",
+		"Tags": [
 		]
 	}
 ]

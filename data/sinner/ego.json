@@ -1059,12 +1059,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"FinalPowerOverride": [
-						0,
-						0,
-						0,
-						3
-					],
+					"FinalPowerOverride": [ 0, 0, 0, 3 ],
 					"UnbreakableBasePower": 8,
 					"UnbreakableCoinCount": 4,
 					"AttackWeight": 7,
@@ -1136,12 +1131,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"FinalPowerOverride": [
-						0,
-						0,
-						0,
-						3
-					],
+					"FinalPowerOverride": [ 0, 0, 0, 3 ],
 					"UnbreakableBasePower": 8,
 					"UnbreakableCoinCount": 4,
 					"AttackWeight": 7,
@@ -5140,11 +5130,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"CoinOverride": [
-						5,
-						5,
-						15
-					],
+					"CoinOverride": [ 5, 5, 15 ],
 					"UnbreakableCoinCount": 3,
 					"AttackWeight": 7,
 					"AttackWeightMod": 7,
@@ -5176,11 +5162,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"FinalPowerOverride": [
-						0,
-						0,
-						5
-					],
+					"FinalPowerOverride": [ 0, 0, 5 ],
 					"UnbreakableBasePower": 5,
 					"UnbreakableCoinCount": 3,
 					"AttackWeight": 7,
@@ -5223,11 +5205,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"CoinOverride": [
-						4,
-						4,
-						10
-					],
+					"CoinOverride": [ 4, 4, 10 ],
 					"UnbreakableCoinCount": 3,
 					"AttackWeight": 7,
 					"AttackWeightMod": 7,
@@ -5259,11 +5237,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"ClashesWithOverride": false,
-					"FinalPowerOverride": [
-						0,
-						0,
-						3
-					],
+					"FinalPowerOverride": [ 0, 0, 3 ],
 					"UnbreakableBasePower": 3,
 					"UnbreakableCoinCount": 3,
 					"AttackWeight": 7,
@@ -9982,8 +9956,7 @@
 					"AttackWeightMod": 5,
 					"MiscTags": [
 						"Self HP Damage",
-						"Party Burn",
-						"Burn Potency",
+						"Field Burn Potency",
 						"Raise Stagger Threshold"
 					]
 				},
@@ -10042,8 +10015,7 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Self HP Damage",
-						"Party Burn",
-						"Burn Potency",
+						"Field Burn Potency",
 						"Raise Stagger Threshold"
 					]
 				},

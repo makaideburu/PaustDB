@@ -13569,12 +13569,7 @@
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"ClashesWithCoinOverride": false,
-						"CoinOverride": [
-							5,
-							5,
-							5,
-							8
-						],
+						"CoinOverride": [ 5, 5, 5, 8 ],
 						"CoinModifier": 2,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 4,
@@ -27988,10 +27983,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						8,
-						10
-					],
+					"CoinOverride": [ 8, 10 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -28106,10 +28098,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						6,
-						8
-					],
+					"CoinOverride": [ 6, 8 ],
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
@@ -31491,12 +31480,7 @@
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 5,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						6,
-						6,
-						6,
-						16
-					],
+					"CoinOverride": [ 6, 6, 6, 16 ],
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
@@ -31644,12 +31628,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashesWithCoinOverride": false,
-					"CoinOverride": [
-						6,
-						6,
-						6,
-						16
-					],
+					"CoinOverride": [ 6, 6, 6, 16 ],
 					"CoinModifier": 4,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
@@ -41071,7 +41050,8 @@
 				},
 				"SkillThree": {
 					"SkillSlot": "S30",
-					"Name": "Le Fauvisme - Déchaînement Brutal",
+					"Name": "Le Fauvisme - Dechainment Brutal",
+					"DisplayName": "Le Fauvisme - Déchaînement Brutal",
 					"Description": "Deal +20% damage for every type of negative effect on target (Max 60%)\nIf target has Palette Vibrante, deal +20% damage\n[Before Use] If target has 6+ types of negative effect, activate as 'Burst Forth the Pulsing Crimson under Your Skin' (Once per turn)\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Mauled Color [Bleu]\n<4>[On Hit] Inflict +2 Bleed Count\n[On Hit] If target has 5+ types of negative effects, inflict 1 Touche Hardie next turn\n[On Hit] Inflict 1 Touche Hardie",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
@@ -49838,6 +49818,408 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Protection"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 12000,
+		"Sinner": "Outis",
+		"Identity": "The House of Spiders: The Middle Nursefather",
+		"DWorld": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": [ 0, 0 ],
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [ 0 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Stomping",
+					"Description": "Coin Power +X for every Y (Burn + Bleed) on target\n[Before Use] If unit has Laevateinn, activates as 'I'll Gut You Like a Fish'\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister], convert Coin 2 into Unbreakable Coin\n[On Use] Heal SP\n<1>[On Hit] Inflict Bleed Count\n[On Hit] Raise Stagger Threshold\n<2>[On Hit] Inflict Bleed\n[On Hit] If unit has The Middle - Vengeance Tattoo [Great Sister], inflict Bind next turn",
+					"DamageType": "Blunt",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Heal SP",
+						"Bleed Count",
+						"Raise Stagger Threshold",
+						"Bleed Potency",
+						"Bind"
+					],
+					"AltSkill":{
+						"SkillSlot": "S11",
+						"Name": "I'll Gut You Like a Fish",
+						"Description": "Laevateinn Skill\nCoin Power +X for every Y (Burn + Bleed) on target\n[On Use] Skill gains Offense Level equal to (Highest Reson / X)\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister], inflict additional Bleed On Coin Hit\n[Before Attack] Gain Burn equal to Coins in this Skill\n[Attack End] Lose SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n[On Hit] Raise Stagger Threshold\n<2>[Unbreakable Coin]\n[On Hit] Inflict Burn and Burn Count\n[On Hit] If unit has The Middle - Vengeance Tattoo [Great Sister], inflict Bind and Paralyze next turn",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Bleed Potency",
+							"Self Burn Potency",
+							"Self SP Damage",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"Raise Stagger Threshold",
+							"Burn Potency",
+							"Burn Count",
+							"Bind",
+							"Paralyze"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Don't Let Somethin' Like This Break You!",
+					"Description": "Coin Power +X for every Y (Burn + Bleed) on target\n[Before Use] If unit has Laevateinn, activate as Gut Stab [Laevateinn]\n[On Use] Skill gains Offense Level equal to (Highest Reson / X)\n[On Use] Convert this Skills Coins equal to The Middle - Vengeance Tattoo [Great Sister] into Unbreakable Coins, starting with Coin 3\n[On Use] At First Seal Removed or Second Seal Removed, inflict Burn by the base amount of Bleed this Skill inflicts On Coin Hit\n[On Use] Gain Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict Bleed\n[On Hit] Inflict Bind next turn\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Paralyze next turn\n<3>[On Hit] Inflict Bleed\n[On Hit] If unit has The Middle - Vengeance Tattoo [Great Sister], deal Blunt damage equal to (Burn + Bleed on target)% of Coin's final damage",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Aggro",
+						"Bleed Potency",
+						"Burn Potency",
+						"Bind",
+						"Paralyze"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Gut Stab [Laevateinn]",
+						"DisplayName": "Gut Stab [Lævateinn]",
+						"Description": "Laevateinn Skill\nIf target has X+ (Burn + Bleed), Final Power +Y\n[On Use] Skill gains Offense Level equal to (Highest Reson / X)\n[On Use] Gain Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Coins in this Skill\n[Attack End] Lose SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict Bind and Paralyze next turn",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 5,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Aggro",
+							"Self Burn Potency",
+							"Self SP Damage",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Bleed Potency",
+							"Burn Count",
+							"Bleed Count",
+							"Bind",
+							"Paralyze"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Stamp of Vengeance",
+					"Description": "Final Power +X for every Y (Burn + Bleed) on target\nAt X+ Envy A-Reson, Coin Power +Y\n[Before Use] If unit has Laevateinn, activate as 'Complete and Total Extermination [Laevateinn]'\n[On Use] Skill gains Offense Level equal to (Highest Reson)\n[On Use] Final Power +X for every The Middle - Vengeance Tattoo [Great Sister]\n[On Use] Convert Coins equal to The Middle - Vengeance Tattoo [Great Sister] into Unbreakable Coins, starting with Coin 3\n[On Use] At First Seal Removed or Second Seal Removed, inflict Burn by the base amount of Bleed the Skill inflicts On Coin Hit\n[Attack End] Consume all The Middle - Grudge on self\n[Attack End] If Skill was activated as a Counter, gain Blunt DMG Up next turn\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed Count\n<3>[On Hit] Inflict Bleed\n<4>[On Hit] Inflict Bleed Count",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Spend The Middle - Grudge",
+						"Blunt DMG Up",
+						"Bleed Potency",
+						"Burn Potency",
+						"Bleed Count",
+						"Burn Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Complete and Total Extermination [Laevateinn]",
+						"DisplayName": "Complete and Total Extermination [Lævateinn]",
+						"Description": "Laevateinn Skill\nFinal Power +X for every (Burn + Bleed)\nDeal more damage for every (Burn + Bleed) on target\n[On Use] Skill gains Offense Level equal to (Highest Reson)\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +X\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister] Inflict Bleed On Coin Hit\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End} If Skill was activated as Counter, gain Blunt DMG Up next turn\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Slash damage\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Slash damage\n<5>[Unbreakable Coin]\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Pierce damage\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Blunt damage",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 5,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Bleed Potency",
+							"Self Burn Potency",
+							"Self SP Damage",
+							"Spend The Middle - Grudge",
+							"Blunt DMG Up",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Burn Count",
+							"Bleed Potency",
+							"Bleed Count"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "Time to Unpack!",
+						"Description": "External effects cannot trigger Skill Reuse\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister], deal Slash damage equal to (X% of each Coin's final damage) On Coin Hit\n[Attack End] Remove a seal from the Sword\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n<3>[Unbreakable Coin]\n[On Hit] Raise Stagger Threshold\n<4>[Unbreakable Coin]\n[On Hit] Inflict Envy Fragility next turn",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 4,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Bleed Potency",
+							"Raise Stagger Threshold",
+							"Envy Fragility",
+							"First Seal Removed",
+							"Second Seal Removed",
+							"Lævateinn"
+						]
+					},
+					"CRTSkill": {
+						"SkillSlot": "S33",
+						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
+						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nExternal effects cannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +X for every Y (Burn + Bleed) on main target\n[On Use] Final Power +X and deal more damage for every The Middle - Vengeance Tattoo [Great Sister]\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal more damage\n[Attack End] Consume all The Middle - Grudge, gain The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain The Middle - Grudge\n<1>[Unbreakable Coin] If target's Blunt Resist is below 'Normal', treat it as Normal\n[On Hit] Inflict Burn and Burn Count\n[On Hit] Inflict Bleed and Bleed Count\n[On Hit] Deal Blunt damage equal to (X% of this Coin's final damage)",
+						"DamageType": "Blunt",
+						"SinType": "Envy",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Target Ally",
+							"Ignore Defense Skill",
+							"Spend The Middle - Grudge",
+							"Blunt Resist Down",
+							"The Middle - Grudge",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Burn Count",
+							"Bleed Potency",
+							"Bleed Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Rule Violation",
+					"Description": "[Combat Start] At X+ Sum of Envy A-Reson, use 'Stamp of Vengeance' or 'Complete and Total Extermination [Laevateinn]' as Counter\n[Combat Start] Gain X% missing HP as Shield\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Lower user's Stagger Threshold",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Counter",
+						"Skill Change",
+						"Shield",
+						"Bleed Potency",
+						"Lower Stagger Threshold"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Smell of Blood and Fire",
+						"Description": "This unit is considered an Identity that inflicts Burn and Bleed\nIf this unit's sword has First Seal Removed or Second Seal Removed, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					},
+					{
+						"Name": "Sealed Sword [Laevateinn]",
+						"DisplayName": "Sealed Sword [Lævateinn]",
+						"Description": "Upon entering the Encounter for the first time, gain Sealed Sword\nWhen each Seal is removed from the sword, gain Rising Fever corresponding to the unsealing stage\nWhen the following conditions are met, lose Rising Fever:\n$ Upon using 'Stamp of Vengeance', lose Stack (Including activation via Counter)\n$ At X+ Sum of Envy A-Reson, lose Stack at Turn End\nAt X Rising Fever Stack, use 'Time to Unpack!' as an Unopposed Attack at Skill End\n$ Turn End: At X Rising Fever Stack, if this unit failed to use 'Time to Unpack!' that turn, use 'Time to Unpack!' at next turn Combat Start\n$ When this unit has Sealed Sword, at X%- HP, use 'Time to Unpack!' regardless of Rising Fever Stack\nAt X%- HP, gain Ridiculous Grit\nWhen Staggered for the first time in this Encounter, recover from Stagger at Turn End and gain The Middle - Grudge\nTurn Start: At X The Middle - Grudge, replace a Base Skill on this unit's Dashboard with 'Stamp of Vengeance' or 'Complete and Total Extermination'\n$ Applies only on the Skill on the leftmost Slot's bottom row on the Dashboard\n$ Does not activate if either 'Stamp of Vengeance' or 'Complete and Total Extermination' is already in the affected Slot",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Sealed Sword",
+							"Rising Fever",
+							"Spend Rising Fever",
+							"Self Follow Up",
+							"Ridiculous Grit",
+							"Stagger Recovery",
+							"The Middle - Grudge",
+							"Skill Draw"
+						]
+					},
+					{
+						"Name": "Parenting",
+						"Description": "If The House of Spiders: The Middle Apprentice Ishmael is on the field alongside this unit, activate the following:\n$ On Clash Win, gain Check This Out, Kiddo! (If it was the first Skill this unit used in that turn, gain additional Check This Out, Kiddo!)\n$ On Hit using a Skill, gain Check This Out, Kiddo! (Does not gain Check This Out, Kiddo! from using Cracked Coins)\n[Applies to The House of Spiders: The Middle Apprentice Ishmael]\nWhen Ishmael wins a Clash, Ishmael gains I Got Praised! (If it was the first Skill Ishmael used in that turn, Ishmael gains additional I Got Praised!)\nOn Hit using Ishmael's Skill, Ishmael gains I Got Praised! (If the Skill that hit was a Skill 3 activated as Counter, gain additional I Got Praised!; Does not gain I Got Praised! from using Cracked Coins)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Check This Out, Kiddo!",
+							"Ally I Got Praised!"
+						]
+					},
+					{
+						"Name": "Saikai [再会] - The Middle",
+						"Description": "If the Encounter begins while this unit is already defeated, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following:\n$ Gain Entanglement\n$ Take less damage\n$ When hit, gain Offense Level Up",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					},
+					{
+						"Name": "Thanks... Kiddo.",
+						"Description": "When this unit has Laevateinn: When an ally that has less than X% HP loses a Clash against an enemy, use 'Good Girl. Your Sacrifice for the Family Won't Be Forgotten.' that targets said enemy as the main target and said ally as the sub-target\n$ The House of Spiders: The Middle Apprentice Ishmael has a Y% HP conditional instead\nIf this Skill killed an ally in The Middle, gain Envy DMG Up next turn\nIf this Skill killed The House of Spiders: The Middle Apprentice Ishmael, gain Avenging My Family next turn instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Self Follow Up",
+							"Target Ally",
+							"Envy DMG Up",
+							"Avenging My Family"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Book of Vengeance - The House of Spiders Special Clause",
+					"Description": "Turn End: Apply Vengeance Mark on X enemies that dealt the most Skill damage to an ally\nTurn End: Apply Book of Vengeance [The House of Spiders] on X enemies that dealt the most Skill damage to this unit\nCombat Start: Gain The Middle - Grudge for every X Envy Reson\nDuring Combat Phase, gain The Middle - Grudge when:\n$ This unit is hit by another unit's Skill\n$ The House of Spiders: The Middle Apprentice Ishmael is hit by another unit's Skill\nExcept this unit and The House of Spiders: The Middle Apprentice Ishmael, gain The Middle - Grudge when:\n$ A The Middle ally is hit by another unit's Skill\n$ A The House of Spiders ally is hit by another unit's Skill\nWhen this unit gains The Middle - Grudge, if target has Vengeance Mark, gain additional The Middle - Grudge\nGain The Middle - Vengeance Tattoo [Great Sister] when this unit consumes X The Middle - Grudge\nWhen The House of Spiders: The Middle Nursefather Outis is hit by another unit's Skill, The House of Spiders: The Middle Apprentice Ishmael gains The Middle - Grudge",
+					"DisplayDescription": "Turn End: Apply Vengeance Mark on X enemies that dealt the most Skill damage to an ally\nTurn End: Apply Book of Vengeance [The House of Spiders] on X enemies that dealt the most Skill damage to this unit\nCombat Start: Gain The Middle - Grudge for every X Envy Reson\nGain The Middle - Grudge when:\n$ This unit is hit\n$ The House of Spiders: The Middle Apprentice Ishmael is hit\nExcluding unit and The House of Spiders: The Middle Apprentice Ishmael, gain The Middle - Grudge when:\n$ A The Middle ally is hit\n$ A The House of Spiders ally is hit\nWhen gaining The Middle - Grudge, if target has Vengeance Mark, gain additional The Middle - Grudge\nGain The Middle - Vengeance Tattoo [Great Sister] for every X The Middle - Grudge consumed\nWhen The House of Spiders: The Middle Nursefather Outis is hit by another unit's Skill, The House of Spiders: The Middle Apprentice Ishmael gains The Middle - Grudge",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Vengeance Mark",
+						"Book of Vengeance [The House of Spiders]",
+						"The Middle - Grudge",
+						"The Middle - Vengeance Tattoo [~~Great Sister~~]"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Someone Mess With the Family?",
+					"Description": "Combat Start: Allies that equipped Counter Skills gain Damage Up and Protection\n$ The Middle allies gain Envy DMG Up and Protection instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Damage Up",
+						"Ally Protection",
+						"Ally Envy DMG Up"
 					]
 				}
 			}

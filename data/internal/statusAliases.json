@@ -20,10 +20,10 @@
 		]
 	},
 	{
-		"entry": "party burn",
+		"entry": "party burn potency",
 		"aliases": [
 			"self burn potency",
-			"ally burn"
+			"ally burn potency"
 		]
 	},
 	{
@@ -368,6 +368,13 @@
 		"entry": "ally burn count",
 		"aliases": [
 			"ally burn"
+		]
+	},
+	{
+		"entry": "field burn potency",
+		"aliases": [
+			"party burn potency",
+			"burn potency"
 		]
 	},
 	{
@@ -2987,6 +2994,72 @@
 			"final power up",
 			"stagger recovery",
 			"shield"
+		]
+	},
+	{
+		"entry": "book of vengeance [the house of spiders]",
+		"aliases": [
+			"heal sp",
+			"the middle - grudge"
+		]
+	},
+	{
+		"entry": "the middle - vengeance tattoo [~~great sister~~]",
+		"aliases": [
+			"final power up",
+			"envy damage amp",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "check this out, kiddo!",
+		"aliases": [
+			"final power up",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "ridiculous grit",
+		"aliases": [
+			"damage type resist up",
+			"damage reduction",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "sealed sword",
+		"aliases": [
+			"haste",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "first seal removed",
+		"aliases": [
+			"haste",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "second seal removed",
+		"aliases": [
+			"haste",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "lævateinn",
+		"aliases": [
+			"field burn potency",
+			"skill change",
+			"blunt damage amp"
+		]
+	},
+	{
+		"entry": "avenging my family",
+		"aliases": [
+			"envy damage amp",
+			"final power up"
 		]
 	}
 ]
