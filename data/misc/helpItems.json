@@ -176,6 +176,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.3.4.1 (2026-05-25)",
+				"```faust will respect your choice to use diacritics to search lævateinn. i guess.```"
+			],
+			[
 				"3.3.4 (2026-05-25)",
 				"```holy yap```"
 			],
@@ -190,10 +194,6 @@
 			[
 				"3.3.2 (2026-05-09)",
 				"```finagled char names```"
-			],
-			[
-				"3.3.1 (2026-04-29)",
-				"```exact matches working again```"
 			]
 		],
 		"OldItems": [
@@ -456,6 +456,10 @@
 			[
 				"3.3.0 (2026-04-27)",
 				"```finagled skill display to display less\nWILL no longer VOMIT WALL OF TEXTS```"
+			],
+			[
+				"3.3.1 (2026-04-29)",
+				"```exact matches working again```"
 			]
 		],
 		"HelpFooter": ""

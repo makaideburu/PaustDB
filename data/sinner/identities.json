@@ -41050,8 +41050,7 @@
 				},
 				"SkillThree": {
 					"SkillSlot": "S30",
-					"Name": "Le Fauvisme - Dechainment Brutal",
-					"DisplayName": "Le Fauvisme - Déchaînement Brutal",
+					"Name": "Le Fauvisme - Déchaînement Brutal",
 					"Description": "Deal +20% damage for every type of negative effect on target (Max 60%)\nIf target has Palette Vibrante, deal +20% damage\n[Before Use] If target has 6+ types of negative effect, activate as 'Burst Forth the Pulsing Crimson under Your Skin' (Once per turn)\n[On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (Max 2)\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Mauled Color [Rouge]\n<3>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Mauled Color [Bleu]\n<4>[On Hit] Inflict +2 Bleed Count\n[On Hit] If target has 5+ types of negative effects, inflict 1 Touche Hardie next turn\n[On Hit] Inflict 1 Touche Hardie",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
@@ -49929,8 +49928,7 @@
 					],
 					"AltSkill": {
 						"SkillSlot": "S21",
-						"Name": "Gut Stab [Laevateinn]",
-						"DisplayName": "Gut Stab [Lævateinn]",
+						"Name": "Gut Stab [Lævateinn]",
 						"Description": "Laevateinn Skill\nIf target has X+ (Burn + Bleed), Final Power +Y\n[On Use] Skill gains Offense Level equal to (Highest Reson / X)\n[On Use] Gain Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Coins in this Skill\n[Attack End] Lose SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict Bind and Paralyze next turn",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
@@ -49989,8 +49987,7 @@
 					],
 					"AltSkill": {
 						"SkillSlot": "S31",
-						"Name": "Complete and Total Extermination [Laevateinn]",
-						"DisplayName": "Complete and Total Extermination [Lævateinn]",
+						"Name": "Complete and Total Extermination [Lævateinn]",
 						"Description": "Laevateinn Skill\nFinal Power +X for every (Burn + Bleed)\nDeal more damage for every (Burn + Bleed) on target\n[On Use] Skill gains Offense Level equal to (Highest Reson)\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +X\n[On Use] If unit has The Middle - Vengeance Tattoo [Great Sister] Inflict Bleed On Coin Hit\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End} If Skill was activated as Counter, gain Blunt DMG Up next turn\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict Bleed\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Slash damage\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Slash damage\n<5>[Unbreakable Coin]\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Pierce damage\n[On Hit] Deal ((Burn + Bleed on target) x X)% Coin final damage Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
@@ -50121,8 +50118,7 @@
 						]
 					},
 					{
-						"Name": "Sealed Sword [Laevateinn]",
-						"DisplayName": "Sealed Sword [Lævateinn]",
+						"Name": "Sealed Sword [Lævateinn]",
 						"Description": "Upon entering the Encounter for the first time, gain Sealed Sword\nWhen each Seal is removed from the sword, gain Rising Fever corresponding to the unsealing stage\nWhen the following conditions are met, lose Rising Fever:\n$ Upon using 'Stamp of Vengeance', lose Stack (Including activation via Counter)\n$ At X+ Sum of Envy A-Reson, lose Stack at Turn End\nAt X Rising Fever Stack, use 'Time to Unpack!' as an Unopposed Attack at Skill End\n$ Turn End: At X Rising Fever Stack, if this unit failed to use 'Time to Unpack!' that turn, use 'Time to Unpack!' at next turn Combat Start\n$ When this unit has Sealed Sword, at X%- HP, use 'Time to Unpack!' regardless of Rising Fever Stack\nAt X%- HP, gain Ridiculous Grit\nWhen Staggered for the first time in this Encounter, recover from Stagger at Turn End and gain The Middle - Grudge\nTurn Start: At X The Middle - Grudge, replace a Base Skill on this unit's Dashboard with 'Stamp of Vengeance' or 'Complete and Total Extermination'\n$ Applies only on the Skill on the leftmost Slot's bottom row on the Dashboard\n$ Does not activate if either 'Stamp of Vengeance' or 'Complete and Total Extermination' is already in the affected Slot",
 						"PassiveResources": [
 							{
