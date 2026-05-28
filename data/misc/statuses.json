@@ -4302,7 +4302,7 @@
 	},
 	{
 		"Name": "String Severance [絕緣]",
-		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake less damage for every Stack",
+		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Nursefather Outis**: Take -20% damage. When hit, gain 1 Offense Level Up (2 times per turn)\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake less damage for every Stack",
 		"Tags": [
 			"Damage Reduction",
 			"Unbreakable Coin",
@@ -4345,7 +4345,7 @@
 	},
 	{
 		"Name": "Book of Vengeance [The House of Spiders]",
-		"Description": "Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal SP on Hit using a Skill\nOn Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, Outis gains additional Stack of The Middle - Grudge\nOn Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, Ishmael gains additional Stack of The Middle - Grudge\nExpires at Turn End",
+		"Description": "Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal 5 SP on Hit using a Skill (Once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, Outis gains 1 additional Stack of The Middle - Grudge (Once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, Ishmael gains 1 additional Stack of The Middle - Grudge (Once per Skill, 2 times per turn)\nExpires at Turn End",
 		"Tags": [
 			"Heal SP",
 			"The Middle - Grudge"
@@ -4353,7 +4353,7 @@
 	},
 	{
 		"Name": "The Middle - Vengeance Tattoo [~~Great Sister~~]",
-		"Description": "Final Power +X for Base Skills for every Y Stack\nEnvy and Blunt Skills deal more damage for every X Stack",
+		"Description": "Max Stack: 10\nFinal Power +1 for Base Skills for every 5 Stack (Max 2)\nEnvy and Blunt Skills deal +5% damage for every Stack",
 		"Tags": [
 			"Final Power Up",
 			"Envy Damage Amp",
@@ -4362,7 +4362,7 @@
 	},
 	{
 		"Name": "Check This Out, Kiddo!",
-		"Description": "Reduced when hit by X Skills\nAt X+ Stack, Base Skills gain Final Power +Y\nBlunt Skills deal more damage for every Stack",
+		"Description": "Max Stack: 10\nReduced by 1 when hit by 2 Skills\nAt 5+ Stack, Base Skills gain Final Power +1\nBlunt Skills deal +1% damage for every Stack",
 		"Tags": [
 			"Final Power Up",
 			"Blunt Damage Amp"
@@ -4370,7 +4370,7 @@
 	},
 	{
 		"Name": "I Got Praised!",
-		"Description": "Reduced when hit by X Skills\nAt X+ Stack, Base Skills gain Final Power +Y\nBlunt Skills deal more damage for every Stack",
+		"Description": "Max Stack: 10\nReduced by 1 when hit by 2 Skills\nAt 5+ Stack, Base Skills gain Final Power +1\nBlunt Skills deal +1% damage for every Stack (Max 10%)",
 		"Tags": [
 			"Final Power Up",
 			"Blunt Damage Amp"
@@ -4378,7 +4378,7 @@
 	},
 	{
 		"Name": "Ridiculous Grit",
-		"Description": "Fix any Attack Type Resistances that exceed 'Normal' to Normal\nTake -(X x (The Middle - Vengeance Tattoo [Great Sister] x Y))% damage from Skills\nOn Clash Win, heal an additional (Clash count x X) SP\nTurn End: If this unit lost SP this turn due to its Skill effects, deal more damage next turn using Base Skills\nTurn End: Lose Stack",
+		"Description": "Max Stack: 3\nFix any Attack Type Resistances that exceed 'Normal' to 'Normal'\nTake -(30 x (The Middle - Vengeance Tattoo [Great Sister] x 4))% damage from Skills (Max 50%, rounded down)\nOn Clash Win, heal an additional (Clash count x 5) SP (Max 15)\nTurn End: If this unit lost SP this turn due to its Skill effects, deal +10% damage next turn using Base Skills\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Damage Type Resist Up",
 			"Damage Reduction",
@@ -4387,7 +4387,7 @@
 	},
 	{
 		"Name": "Sealed Sword",
-		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X Bleed on target\nOn final Coin Hit using Base Skills, if target has X+ Bleed, deal (Y% of Coin's final damage) Blunt damage",
+		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4395,7 +4395,7 @@
 	},
 	{
 		"Name": "First Seal Removed",
-		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Blunt damage",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4403,7 +4403,7 @@
 	},
 	{
 		"Name": "Second Seal Removed",
-		"Description": "Turn End: Gain Haste next turn\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Slash damage",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4411,7 +4411,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal more damage for every X (Bleed + Bleed) on target\nOn final Coin Hit using Base Skills, if target has X+ (Bleed + Bleed), deal (Y% of Coin's final damage) Pierce damage",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (Rounded down)",
 		"Tags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4420,7 +4420,7 @@
 	},
 	{
 		"Name": "Avenging My Family",
-		"Description": "Envy Base Skills deal more damage\nBase Skills gain Final Power",
+		"Description": "Envy Base Skills deal +20% damage\nBase Skills gain Final Power +1",
 		"Tags": [
 			"Envy Damage Amp",
 			"Final Power Up"
@@ -4428,7 +4428,7 @@
 	},
 	{
 		"Name": "Rising Fever",
-		"Description": "Lose Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (Including via Counter)\n$ At Turn End after activating X+ Envy Reson\nAt X Stack, use 'Time to Unpack!'",
+		"Description": "Lose 1 Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (Including via Counter)\n$ At Turn End after activating 6+ Envy Reson\nAt 0 Stack, use 'Time to Unpack!'",
 		"Tags": [
 		]
 	}
