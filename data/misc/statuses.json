@@ -4431,5 +4431,11 @@
 		"Description": "Lose 1 Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (Including via Counter)\n$ At Turn End after activating 6+ Envy Reson\nAt 0 Stack, use 'Time to Unpack!'",
 		"Tags": [
 		]
+	},
+	{
+		"Name": "Blazing",
+		"Description": "Min & Max Speed +1\nThis turn's first-used Base Attack Skill gains Final Power +2\nTake 2% HP damage On Hit with the affected Skill (Max 10%; this damage does not Stagger or reduce this unit's HP below 1)\nExpires at Turn End",
+		"Tags": [
+		]
 	}
 ]

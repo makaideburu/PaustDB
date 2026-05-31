@@ -176,6 +176,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.3.4.3 (2026-05-30)",
+				"```unspaghetti'd the railway stuff```"
+			],
+			[
 				"3.3.4.2 (2026-05-28)",
 				"```big bad override```"
 			],
@@ -190,10 +194,6 @@
 			[
 				"3.3.3.1 (2026-05-14)",
 				"```threadspin threadspun threadspent```"
-			],
-			[
-				"3.3.3 (2026-05-13)",
-				"```statuses are now included in skill calculations, arbitrary criteria being that the effect relies on no other units other than the unit themselves\ngo yell in the discord if this is stupid and you see this```"
 			]
 		],
 		"OldItems": [
@@ -464,6 +464,10 @@
 			[
 				"3.3.2 (2026-05-09)",
 				"```finagled char names```"
+			],
+			[
+				"3.3.3 (2026-05-13)",
+				"```statuses are now included in skill calculations, arbitrary criteria being that the effect relies on no other units other than the unit themselves\ngo yell in the discord if this is stupid and you see this```"
 			]
 		],
 		"HelpFooter": ""

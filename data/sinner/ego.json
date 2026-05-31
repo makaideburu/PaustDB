@@ -429,6 +429,60 @@
 		},
 		"ThreadspinTiers": [
 			{
+				"Tier": 5,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "4th Match Flame",
+					"Description": "[Before Attack] Apply the following effects:\n$ Final Power +1 for every 6 Burn on all targets (Max 4)\n$ Deal +1% damage for every 1 Burn on all targets (Max 30%)\n<1>[On Hit] Inflict 4 Burn\n[Heads Hit] Inflict 6 Burn",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 14,
+					"CoinPower": 12,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 4,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 5,
+					"AttackWeightMod": 5,
+					"MiscTags": [
+						"Burn Potency"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "4th Match Flame",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Apply the following effects:\n$ Final Power +1 for every 6 Burn on all targets (Max 6)\n$ Deal +1.5% damage for every 1 Burn on all targets (Max 45%)\n[Clash Lose] Base Power -12\n[Attack End] Gain Blazing next turn (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n[On Hit without Cracking] Inflict 6 Burn",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 26,
+					"CoinPower": -12,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 6,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"UnbreakableBasePower": 14,
+					"AttackWeight": 5,
+					"AttackWeightMod": 5,
+					"MiscTags": [
+						"Burn Potency"
+					]
+				},
+				"Passive": {
+					"Name": "Ember",
+					"Description": "On clash win, inflict Burn by (Wrath A-Reson / 2) (Once per skill)",
+					"MiscTags": [
+						"Burn Potency"
+					]
+				}
+			},
+			{
 				"Tier": 4,
 				"Awakening": {
 					"SkillSlot": "EA0",
@@ -454,7 +508,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "4th Match Flame",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[Heads Hit] Inflict 4 Burn",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 4 Burn\n[Heads Hit] Inflict 6 Burn",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 24,
@@ -466,8 +520,8 @@
 					"ClashPowerModifier": 0,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
-					"AttackWeight": 3,
-					"AttackWeightMod": 3,
+					"AttackWeight": 5,
+					"AttackWeightMod": 5,
 					"MiscTags": [
 						"Burn Potency"
 					]
@@ -506,7 +560,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "4th Match Flame",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[Heads Hit] Inflict 4 Burn",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 4 Burn",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 24,
