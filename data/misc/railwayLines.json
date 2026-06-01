@@ -8,7 +8,7 @@
 				"Name": "Section #1: Attachment/Hunt/Fountainhead/Misting",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Hurting Teddy Bear",
@@ -70,7 +70,7 @@
 				"Name": "First Stop: Contact",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Recollected G Corp. Soldiers",
@@ -93,7 +93,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Recollected Festered G Corp. H. Manager",
@@ -140,7 +140,7 @@
 				"Name": "Station #2: Restoration",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Los Mariachis",
@@ -181,7 +181,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Los Mariachis",
@@ -246,7 +246,7 @@
 				"Name": "Station #3 - Sinkage",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Blubbering Toad",
@@ -318,7 +318,7 @@
 				"Name": "Station #4: Reunion",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "N Corp. Inquisitors",
@@ -341,7 +341,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "N Corp. Inquisitors",
@@ -388,7 +388,7 @@
 				"Name": "Station #5: Insulation",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Alleyway Watchdog",
@@ -478,7 +478,7 @@
 				"Name": "Station #6: Pickup",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "kqe-1j-23",
@@ -534,7 +534,7 @@
 				"Name": "Station #7: Headlessness",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Headless Ichthys",
@@ -624,7 +624,7 @@
 				"Name": "Station #8: Existence",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Proceeding Inquisitor",
@@ -685,7 +685,7 @@
 				"Name": "Station #9: Serum",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "K Corp. Checkpoint Security",
@@ -708,7 +708,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "K Corp. Checkpoint Security",
@@ -749,7 +749,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "K Corp. Class 3 Empowered Staff",
@@ -778,7 +778,7 @@
 				"Name": "Station #10: Forked Tongue",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Four-Legged Beast",
@@ -875,7 +875,7 @@
 				"Name": "Station #11: Energization",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Alleyway Watchdog",
@@ -1044,7 +1044,7 @@
 				"Name": "Station #12: Purity",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Kromer",
@@ -1141,7 +1141,7 @@
 				"Name": "Last Stop: Non-self",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "My Form Empties",
@@ -1276,7 +1276,7 @@
 				"Name": "First Stop: Curse",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "So That No One Will Cry",
@@ -1330,7 +1330,7 @@
 				"Name": "Station #2: Servitude",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Steam Transport Machine",
@@ -1384,7 +1384,7 @@
 				"Name": "Station #3: Rainfall",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Old Umbrella",
@@ -1458,7 +1458,7 @@
 				"Name": "Station #4: Arrears",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "T Corp. Class 3 Collectors",
@@ -1488,7 +1488,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Abnormalities": [
 							{
 								"Name": "T Corp. Class 3 Collectors",
@@ -1524,7 +1524,7 @@
 				"Name": "Station #5: Lure",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Faelantern",
@@ -1578,7 +1578,7 @@
 				"Name": "Station #6: Exploitation",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Shock Centipede",
@@ -1632,7 +1632,7 @@
 				"Name": "Station #7: Odd Stench",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Fairy Wine",
@@ -1767,7 +1767,7 @@
 				"Name": "Station #8: Cycle",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Hemorrhaging Dimension",
@@ -1895,7 +1895,7 @@
 				"Name": "Terminus: The Garden",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Sin-drenched Roses",
@@ -1975,7 +1975,7 @@
 				"Name": "First Stop: Cogwheel",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Whale of the Porous Hand Mermaid",
@@ -1998,7 +1998,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Whale of the Porous Hand Mermaid",
@@ -2045,7 +2045,7 @@
 				"Name": "Station #2: Waves",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Whale of the Thousand Strands Mermaid",
@@ -2068,7 +2068,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Flotsam",
@@ -2142,7 +2142,7 @@
 				"Name": "Station #3: Nostalgia",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Drenched Gossypium",
@@ -2178,7 +2178,7 @@
 				"Name": "Station #4: Interlude",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "**No Combat Encounters**",
@@ -2207,7 +2207,7 @@
 				"Name": "Station #5: Drudgery",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Green Slime",
@@ -2281,7 +2281,7 @@
 				"Name": "Station #6: Truth",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Candle",
@@ -2337,7 +2337,7 @@
 				"Name": "Station #7: Eclosion",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Ardor Blossom Moth",
@@ -2391,7 +2391,7 @@
 				"Name": "Station #8: Interlude",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "**No Combat Encounters**",
@@ -2421,7 +2421,7 @@
 				"Footer": "There's too many things with different resists in this stop. Icons are unavailable due to character limit.",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Pallidifed Thing-Shield",
@@ -2498,7 +2498,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Pallid White Mermaid",
@@ -2557,7 +2557,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "Pallid and Blue Mermaid",
@@ -2586,7 +2586,7 @@
 				"Name": "Station #10: Brainwash",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Blinded Pequod Town Villager",
@@ -2627,7 +2627,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Queequeg",
@@ -2692,7 +2692,7 @@
 				"Name": "Station #11: Gaslight",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Effloresced E.G.O::GasHarpoon",
@@ -2721,7 +2721,7 @@
 				"Name": "Station #12: Interlude",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "**No Combat Encounters**",
@@ -2750,7 +2750,7 @@
 				"Name": "Terminus: The Helix",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Grasp",
@@ -2830,7 +2830,7 @@
 				"Name": "Section #1: Banquet/Well Basin/Twisted",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Portrait of a Certain Day",
@@ -2880,7 +2880,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Edgar Family Butler",
@@ -2957,7 +2957,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "Nelly",
@@ -2986,7 +2986,7 @@
 				"Name": "Section #2: Chiseling/Cloudbrume/Boneflesh",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 1 - The One Who Shall Grip Sinclair",
@@ -3099,7 +3099,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Kurokumo Henchman/Henchwoman",
@@ -3140,7 +3140,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Mentor Meursault",
@@ -3259,7 +3259,7 @@
 				"Name": "Section #3: Forgery/Dreaming",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Don Quixote",
@@ -3372,8 +3372,9 @@
 						]
 					},
 					{
-						"WaveNumber": 1,
+						"Id": 2,
 						"ReinforcementWave": true,
+						"DisplayWave": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Seven Association South Section 6 Director Outis",
@@ -3486,7 +3487,8 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 3,
+						"DisplayWave": 2,
 						"Abnormalities": [
 							{
 								"Name": "Dreaming Electric Sheep",
@@ -3542,7 +3544,7 @@
 				"Name": "Section #4: Adamantine Wall/Feast",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Sunshower Heathcliff",
@@ -3655,8 +3657,9 @@
 						]
 					},
 					{
-						"WaveNumber": 1,
+						"Id": 2,
 						"ReinforcementWave": true,
+						"DisplayWave": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Dead Rabbits Boss Meursault",
@@ -3769,7 +3772,8 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 3,
+						"DisplayWave": 2,
 						"Abnormalities": [
 							{
 								"Name": "The King in Binds",
@@ -3811,7 +3815,7 @@
 				"Name": "Section #1: Attachment/Hunt/Fountainhead/Misting",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Hurting Teddy Bear",
@@ -3841,7 +3845,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Abnormalities": [
 							{
 								"Name": "Rose Hunter",
@@ -3891,7 +3895,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Abnormalities": [
 							{
 								"Name": "Peccatulum Pigritiae Class 3",
@@ -3971,7 +3975,7 @@
 						]
 					},
 					{
-						"WaveNumber": 4,
+						"Id": 4,
 						"Abnormalities": [
 							{
 								"Name": "Sleeping Bag of a Bygone Day",
@@ -4043,7 +4047,7 @@
 				"Name": "Section #2: Ironstrike/Rampage/Oblivion",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Full-Stop Office Rep Hong Lu",
@@ -4156,7 +4160,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Captain Ishmael",
@@ -4269,8 +4273,9 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 3,
 						"ReinforcementWave": true,
+						"DisplayWave": 2,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Magic Bullet Outis",
@@ -4383,7 +4388,8 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 4,
+						"DisplayWave": 3,
 						"Abnormalities": [
 							{
 								"Name": "Der Fluchschütze",
@@ -4457,7 +4463,7 @@
 				"Name": "Section #3: Motherhood/Treason/Blood Sin/Yearning",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "Dulcinea",
@@ -4534,7 +4540,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Peccatulum Invidiae Class 2 - The Manager of La Manchaland Don Quixote",
@@ -4647,7 +4653,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "The Priest",
@@ -4706,7 +4712,7 @@
 						]
 					},
 					{
-						"WaveNumber": 4,
+						"Id": 4,
 						"Abnormalities": [
 							{
 								"Name": "Four-Hundred Roses",
@@ -4766,7 +4772,7 @@
 				"Name": "Section #1: Weighing of Robes",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Butterfly of Entangled Lives::The Pupa",
@@ -4802,7 +4808,7 @@
 				"Name": "Section #2: Tarnishing",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Yinglong",
@@ -4850,7 +4856,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "Hongyu, The Crimson Jade",
@@ -4981,8 +4987,9 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 3,
 						"ReinforcementWave": true,
+						"DisplayWave": 2,
 						"Enemies":[
 							{
 								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Si Branch Gregor",
@@ -5095,7 +5102,8 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 4,
+						"DisplayWave": 3,
 						"Abnormalities": [
 							{
 								"Name": "Yinglong",
@@ -5179,7 +5187,8 @@
 						]
 					},
 					{
-						"WaveNumber": 4,
+						"Id": 5,
+						"DisplayWave": 4,
 						"Abnormalities": [
 							{
 								"Name": "Illusory Butterfly of Entangled Lives::The Past",
@@ -5215,7 +5224,7 @@
 				"Name": "Section #3: Heart of Innocence/Face of Things",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Will You Play?",
@@ -5373,7 +5382,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Abnormalities": [
 							{
 								"Name": "Distorted Hohenheim",
@@ -5403,7 +5412,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Abnormalities": [
 							{
 								"Name": "Illusory Butterfly of Entangled Lives::The Present",
@@ -5439,7 +5448,7 @@
 				"Name": "Section #3: Tangled Knots/Drowning Desire/Blind Folly",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Enemies": [
 							{
 								"Name": "The Pinky Nursefather - Shiomi Yoru",
@@ -5462,7 +5471,7 @@
 						]
 					},
 					{
-						"WaveNumber": 2,
+						"Id": 2,
 						"Enemies": [
 							{
 								"Name": "The Ring Nursefather - Callisto",
@@ -5503,7 +5512,7 @@
 						]
 					},
 					{
-						"WaveNumber": 3,
+						"Id": 3,
 						"Enemies": [
 							{
 								"Name": "The Index Nursefather - Rien",
@@ -5526,7 +5535,7 @@
 						]
 					},
 					{
-						"WaveNumber": 4,
+						"Id": 4,
 						"Abnormalities": [
 							{
 								"Name": "Illusory Butterfly of Entangled Lives::The Future",
@@ -5562,7 +5571,7 @@
 				"Name": "Section #4: Advent",
 				"Waves": [
 					{
-						"WaveNumber": 1,
+						"Id": 1,
 						"Abnormalities": [
 							{
 								"Name": "Butterfly of Entangled Lives::Imago",
