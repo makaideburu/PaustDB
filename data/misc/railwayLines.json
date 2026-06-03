@@ -12,7 +12,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Hurting Teddy Bear",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -63,7 +63,7 @@
 	},
 	{
 		"Id": 1,
-		"Name": "Madness",
+		"Name": "MADNESS",
 		"Stops": [
 			{
 				"Id": 1,
@@ -250,7 +250,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Blubbering Toad",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -391,8 +391,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Alleyway Watchdog",
-								"Refraction": "",
+								"Name": "Refracted Alleyway Watchdog",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -482,7 +482,7 @@
 						"Abnormalities": [
 							{
 								"Name": "kqe-1j-23",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -509,7 +509,7 @@
 						"Enemies": [
 							{
 								"Name": "Heart of the Townsfolk",
-								"Count": 0,
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1.5,
@@ -537,8 +537,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Headless Ichthys",
-								"Refraction": "",
+								"Name": "Refracted Headless Ichthys",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -628,7 +628,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Proceeding Inquisitor",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 2,
 								"Parts": [
 									{
@@ -653,7 +653,7 @@
 							},
 							{
 								"Name": "Everything There of an Inquisitor",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -782,7 +782,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Four-Legged Beast",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 2,
 								"Parts": [
 									{
@@ -807,7 +807,7 @@
 							},
 							{
 								"Name": "Slithering Inquisitor",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -878,8 +878,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Alleyway Watchdog",
-								"Refraction": "",
+								"Name": "Refracted Alleyway Watchdog",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -957,8 +957,8 @@
 								]
 							},
 							{
-								"Name": "Headless Ichthys",
-								"Refraction": "",
+								"Name": "Refracted Headless Ichthys",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1048,7 +1048,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Kromer",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1073,8 +1073,8 @@
 							},
 							{
 								"Name": "Kromer the Dreamer of Human Wholeness",
-								"Refraction": "",
-								"Count": 0,
+								"Notes": "",
+								"Count": -1,
 								"Parts": [
 									{
 										"Name": "Maw",
@@ -1145,7 +1145,7 @@
 						"Abnormalities": [
 							{
 								"Name": "My Form Empties",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1188,7 +1188,7 @@
 							},
 							{
 								"Name": "Lured Guido",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1213,7 +1213,7 @@
 							},
 							{
 								"Name": "Lured Aida",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1238,7 +1238,7 @@
 							},
 							{
 								"Name": "Lured Festered G Corp. H. Manager",
-								"Refraction": "",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1279,8 +1279,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "So That No One Will Cry",
-								"Refraction": "Sinking Weak",
+								"Name": "Refracted So That No One Will Cry",
+								"Notes": "Refracted Sinking Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1333,8 +1333,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Steam Transport Machine",
-								"Refraction": "Bleed/Tremor Resist, Sinking Weak",
+								"Name": "Refracted Steam Transport Machine",
+								"Notes": "Refracted Bleed/Tremor Resist, Refracted Sinking Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1387,8 +1387,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Old Umbrella",
-								"Count": 0,
+								"Name": "Refracted Old Umbrella",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1407,8 +1407,8 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Drifting Fox",
-								"Refraction": "Rupture/Sinking Resist, Bleed Weak",
+								"Name": "Refracted Drifting Fox",
+								"Notes": "Refracted Rupture/Sinking Resist, Refracted Bleed Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1461,8 +1461,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "T Corp. Class 3 Collectors",
-								"Refraction": "Rupture/Sinking Resist, Burn Weak",
+								"Name": "Refracted T Corp. Class 3 Collectors",
+								"Notes": "Refracted Rupture/Sinking Resist, Refracted Burn Weakness",
 								"Count": 2,
 								"Parts": [
 									{
@@ -1491,8 +1491,8 @@
 						"Id": 2,
 						"Abnormalities": [
 							{
-								"Name": "T Corp. Class 3 Collectors",
-								"Refraction": "Rupture/Sinking Resist, Burn Weak",
+								"Name": "Refracted T Corp. Class 3 Collectors",
+								"Notes": "Refracted Rupture/Sinking Resist, Refracted Burn Weakness",
 								"Count": 2,
 								"Parts": [
 									{
@@ -1527,8 +1527,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Faelantern",
-								"Refraction": "Rupture/Sinking Resist",
+								"Name": "Refracted Faelantern",
+								"Notes": "Refracted Rupture/Sinking Resist",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1581,8 +1581,8 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Shock Centipede",
-								"Refraction": "Sinking Weak",
+								"Name": "Refracted Shock Centipede",
+								"Notes": "Refracted Sinking Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1635,8 +1635,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Fairy Wine",
-								"Count": 0,
+								"Name": "Refracted Fairy Wine",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1653,8 +1653,8 @@
 								}
 							},
 							{
-								"Name": "Clover",
-								"Count": 0,
+								"Name": "Refracted Clover",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 2,
 									"Pierce": 1,
@@ -1673,8 +1673,8 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Fairy Gentleman",
-								"Refraction": "Bleed/Tremor Resist, Rupture Weak",
+								"Name": "Refracted Fairy Gentleman",
+								"Notes": "Refracted Bleed/Tremor Resist, Refracted Rupture Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1716,9 +1716,9 @@
 								]
 							},
 							{
-								"Name": "Fairy-Long-Legs",
-								"Refraction": "Bleed/Tremor Resist, Rupture Weak",
-								"Count": 0,
+								"Name": "Refracted Fairy-Long-Legs",
+								"Notes": "Refracted Bleed/Tremor Resist, Refracted Rupture Weakness",
+								"Count": -1,
 								"Parts": [
 									{
 										"Name": "Body, Left Arm",
@@ -1770,8 +1770,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Hemorrhaging Dimension",
-								"Count": 0,
+								"Name": "Refracted Hemorrhaging Dimension",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1788,8 +1788,8 @@
 								}
 							},
 							{
-								"Name": "Poisonous Dimension",
-								"Count": 0,
+								"Name": "Refracted Poisonous Dimension",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1806,8 +1806,8 @@
 								}
 							},
 							{
-								"Name": "Tremoring Dimension",
-								"Count": 0,
+								"Name": "Refracted Tremoring Dimension",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1824,8 +1824,8 @@
 								}
 							},
 							{
-								"Name": "Electrifying Dimension",
-								"Count": 0,
+								"Name": "Refracted Electrifying Dimension",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -1844,8 +1844,8 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Wayward Passenger",
-								"Refraction": "Burn/Rupture Resist, Tremor Weak",
+								"Name": "Refracted Wayward Passenger",
+								"Notes": "Refracted Burn/Rupture Resist, Refracted Tremor Weakness",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1898,28 +1898,135 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Sin-drenched Roses",
-								"Count": 0,
+								"Name": "Refracted Wrath-drenched Rose",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
 									"Blunt": 1
 								},
 								"SinResist": {
-									"Wrath": -100,
-									"Lust": -100,
-									"Sloth": -100,
-									"Gluttony": -100,
-									"Gloom": -100,
-									"Pride": -100,
-									"Envy": -100
+									"Wrath": 2,
+									"Lust": 0.5,
+									"Sloth": 0.5,
+									"Gluttony": 0.5,
+									"Gloom": 0.5,
+									"Pride": 0.5,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Lust-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 2,
+									"Sloth": 0.5,
+									"Gluttony": 0.5,
+									"Gloom": 0.5,
+									"Pride": 0.5,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Sloth-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 0.5,
+									"Sloth": 2,
+									"Gluttony": 0.5,
+									"Gloom": 0.5,
+									"Pride": 0.5,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Gluttony-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 0.5,
+									"Sloth": 0.5,
+									"Gluttony": 2,
+									"Gloom": 0.5,
+									"Pride": 0.5,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Gloom-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 0.5,
+									"Sloth": 0.5,
+									"Gluttony": 0.5,
+									"Gloom": 2,
+									"Pride": 0.5,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Pride-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 0.5,
+									"Sloth": 0.5,
+									"Gluttony": 0.5,
+									"Gloom": 0.5,
+									"Pride": 2,
+									"Envy": 0.5
+								}
+							},
+							{
+								"Name": "Refracted Envy-drenched Rose",
+								"Count": -1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 0.5,
+									"Lust": 0.5,
+									"Sloth": 0.5,
+									"Gluttony": 0.5,
+									"Gloom": 0.5,
+									"Pride": 0.5,
+									"Envy": 2
 								}
 							}
 						],
 						"Abnormalities": [
 							{
-								"Name": "Sign of Roses",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Sign of Roses",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1978,7 +2085,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Whale of the Porous Hand Mermaid",
+								"Name": "Refracted Whale of the Porous Hand Mermaid",
 								"Count": 6,
 								"DamageResist": {
 									"Slash": 1,
@@ -2001,7 +2108,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Whale of the Porous Hand Mermaid",
+								"Name": "Refracted Whale of the Porous Hand Mermaid",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 1,
@@ -2019,7 +2126,7 @@
 								}
 							},
 							{
-								"Name": "Whale of the Porous Hand Soldier Mermaid",
+								"Name": "Refracted Whale of the Porous Hand Soldier Mermaid",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 1,
@@ -2048,7 +2155,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Whale of the Thousand Strands Mermaid",
+								"Name": "Refracted Whale of the Thousand Strands Mermaid",
 								"Count": 6,
 								"DamageResist": {
 									"Slash": 1.2,
@@ -2071,8 +2178,8 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Flotsam",
-								"Count": 0,
+								"Name": "Refracted Flotsam",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": -100,
 									"Pierce": -100,
@@ -2091,8 +2198,7 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Dream Devouring Siltcurrent",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Dream Devouring Siltcurrent",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2145,8 +2251,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Drenched Gossypium",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Drenched Gossypium",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2182,7 +2287,7 @@
 						"Enemies": [
 							{
 								"Name": "**No Combat Encounters**",
-								"Count": 0,
+								"Count": -1,
 								"DamageResist": {
 									"Slash": -100,
 									"Pierce": -100,
@@ -2210,8 +2315,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Green Slime",
-								"Count": 0,
+								"Name": "Refracted Green Slime",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": -100,
 									"Pierce": -100,
@@ -2230,8 +2335,7 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Ambling Pearl",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Ambling Pearl",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2284,7 +2388,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Candle",
+								"Name": "Refracted Candle",
 								"Count": 5,
 								"DamageResist": {
 									"Slash": 1,
@@ -2304,8 +2408,7 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Skin Prophet",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Skin Prophet",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2340,8 +2443,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Ardor Blossom Moth",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Ardor Blossom Moth",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2395,7 +2497,7 @@
 						"Enemies": [
 							{
 								"Name": "**No Combat Encounters**",
-								"Count": 0,
+								"Count": -1,
 								"DamageResist": {
 									"Slash": -100,
 									"Pierce": -100,
@@ -2418,13 +2520,12 @@
 			{
 				"Id": 9,
 				"Name": "Station #9: Pallidification",
-				"Footer": "There's too many things with different resists in this stop. Icons are unavailable due to character limit.",
 				"Waves": [
 					{
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Pallidifed Thing-Shield",
+								"Name": "Refracted Pallidifed Thing-Shield",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 0.75,
@@ -2442,7 +2543,7 @@
 								}
 							},
 							{
-								"Name": "Pallidifed Thing-Club",
+								"Name": "Refracted Pallidifed Thing-Club",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 0.75,
@@ -2460,7 +2561,7 @@
 								}
 							},
 							{
-								"Name": "Pallidifed Thing-Pirate",
+								"Name": "Refracted Pallidifed Thing-Pirate",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.75,
@@ -2478,7 +2579,7 @@
 								}
 							},
 							{
-								"Name": "Pallidifed Thing-Hook",
+								"Name": "Refracted Pallidifed Thing-Hook",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -2501,7 +2602,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Pallid White Mermaid",
+								"Name": "Refracted Pallid White Mermaid",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 0.8,
@@ -2519,7 +2620,7 @@
 								}
 							},
 							{
-								"Name": "Pallid Blue Mermaid",
+								"Name": "Refracted Pallid Blue Mermaid",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 1,
@@ -2537,7 +2638,7 @@
 								}
 							},
 							{
-								"Name": "Pallid Entwined Mermaid",
+								"Name": "Refracted Pallid Entwined Mermaid",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 0.8,
@@ -2560,7 +2661,7 @@
 						"Id": 3,
 						"Enemies": [
 							{
-								"Name": "Pallid and Blue Mermaid",
+								"Name": "Refracted Pallid and Blue Mermaid",
 								"Count": 3,
 								"DamageResist": {
 									"Slash": 1,
@@ -2589,7 +2690,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Blinded Pequod Town Villager",
+								"Name": "Refracted Blinded Pequod Town Villager",
 								"Count": 3,
 								"DamageResist": {
 									"Slash": 0.75,
@@ -2607,7 +2708,7 @@
 								}
 							},
 							{
-								"Name": "Gagged Pequod Town Villager",
+								"Name": "Refracted Gagged Pequod Town Villager",
 								"Count": 3,
 								"DamageResist": {
 									"Slash": 0.75,
@@ -2630,7 +2731,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Queequeg",
+								"Name": "Refracted Queequeg",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -2648,7 +2749,7 @@
 								}
 							},
 							{
-								"Name": "Starbuck",
+								"Name": "Refracted Starbuck",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -2666,7 +2767,7 @@
 								}
 							},
 							{
-								"Name": "Ahab",
+								"Name": "Refracted Ahab",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -2695,7 +2796,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Effloresced E.G.O::GasHarpoon",
+								"Name": "Refracted Effloresced E.G.O::GasHarpoon",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -2753,8 +2854,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Grasp",
-								"Count": 0,
+								"Name": "Refracted Grasp",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -2773,8 +2874,7 @@
 						],
 						"Abnormalities": [
 							{
-								"Name": "Spiral of Contempt",
-								"Refraction": "No Status Refractions",
+								"Name": "Refracted Spiral of Contempt",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2833,8 +2933,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Portrait of a Certain Day",
-								"Refraction": "",
+								"Name": "Refracted Portrait of a Certain Day",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2860,8 +2959,8 @@
 						],
 						"Enemies": [
 							{
-								"Name": "Portrait",
-								"Count": 0,
+								"Name": "Refracted Portrait",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -2883,7 +2982,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Edgar Family Butler",
+								"Name": "Refracted Edgar Family Butler",
 								"Count": 6,
 								"DamageResist": {
 									"Slash": 2,
@@ -2901,7 +3000,7 @@
 								}
 							},
 							{
-								"Name": "Wuthering Heights Butler",
+								"Name": "Refracted Wuthering Heights Butler",
 								"Count": 2,
 								"DamageResist": {
 									"Slash": 1,
@@ -2919,7 +3018,7 @@
 								}
 							},
 							{
-								"Name": "Josephine",
+								"Name": "Refracted Josephine",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -2937,7 +3036,7 @@
 								}
 							},
 							{
-								"Name": "Hindley, The Reaved Lamenter",
+								"Name": "Refracted Hindley, The Reaved Lamenter",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -2960,7 +3059,7 @@
 						"Id": 3,
 						"Enemies": [
 							{
-								"Name": "Nelly",
+								"Name": "Refracted Nelly",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1.25,
@@ -2987,9 +3086,10 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Footer": "Present as Support Passives:\nLCB Sinner Yi Sang, Kurokumo Clan Wakashu Ryōshū, Kurokumo Clan Wakashu Hong Lu, LCB Sinner Ishmael, Blade Lineage Salsu Outis, Kurokumo Clan Captain Gregor",
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 1 - The One Who Shall Grip Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - The One Who Shall Grip Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3007,7 +3107,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 1 - The One Who Grips Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - The One Who Grips Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3025,7 +3125,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3043,7 +3143,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 1 - N Corp. Kleinhammer Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Kleinhammer Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3061,7 +3161,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Mittelhammer Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3079,7 +3179,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 1 - N Corp. Großhammer Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 1 - N Corp. Großhammer Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3102,7 +3202,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Kurokumo Henchman/Henchwoman",
+								"Name": "Refracted Kurokumo Henchman/Henchwoman",
 								"Count": 4,
 								"DamageResist": {
 									"Slash": 1.5,
@@ -3120,7 +3220,7 @@
 								}
 							},
 							{
-								"Name": "Kurokumo Clan Captain Jun",
+								"Name": "Refracted Kurokumo Clan Captain Jun",
 								"Count": 4,
 								"DamageResist": {
 									"Slash": 1.2,
@@ -3141,9 +3241,10 @@
 					},
 					{
 						"Id": 3,
+						"Footer": "Present as Support Passives:\nEdgar Family Chief Butler Ryōshū, LCB Sinner Hong Lu, Shi Association South Section 3 Heathcliff, The Pequod Captain Ishmael, LCB Sinner Rodion, G Corp. Manager Corporal Gregor",
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Mentor Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Mentor Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3161,7 +3262,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Salsu Yi Sang",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Yi Sang",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3179,7 +3280,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Salsu Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3197,7 +3298,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Salsu Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3215,7 +3316,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Salsu Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3233,7 +3334,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Blade Lineage Salsu Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Blade Lineage Salsu Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3262,7 +3363,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3280,7 +3381,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rabbit Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rabbit Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3298,7 +3399,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3316,7 +3417,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Seven Association South Section 4 Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Seven Association South Section 4 Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3334,7 +3435,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3352,7 +3453,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - K Corp. Class 3 Excision Staff Hong Lu",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - K Corp. Class 3 Excision Staff Hong Lu",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3377,7 +3478,7 @@
 						"DisplayWave": 1,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Seven Association South Section 6 Director Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Seven Association South Section 6 Director Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3395,7 +3496,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3413,7 +3514,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Ring Pointilist Student Yi Sang ",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Ring Pointilist Student Yi Sang ",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3431,7 +3532,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Pequod Captain Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Pequod Captain Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3449,7 +3550,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Zwei Association South Section 4 Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Zwei Association South Section 4 Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3467,7 +3568,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3491,8 +3592,7 @@
 						"DisplayWave": 2,
 						"Abnormalities": [
 							{
-								"Name": "Dreaming Electric Sheep",
-								"Refraction": "",
+								"Name": "Refracted Dreaming Electric Sheep",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3518,7 +3618,7 @@
 						],
 						"Enemies": [
 							{
-								"Name": "Generator",
+								"Name": "Refracted Generator",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3547,7 +3647,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Sunshower Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Sunshower Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3565,7 +3665,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Edgar Family Chief Butler Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Chief Butler Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3583,7 +3683,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Edgar Family Heir Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Heir Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3601,7 +3701,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Wuthering Heights Chief Butler Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Wuthering Heights Chief Butler Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3619,7 +3719,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Wuthering Heights Butler Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Wuthering Heights Butler Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3637,7 +3737,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Edgar Family Butler Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Edgar Family Butler Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3662,7 +3762,7 @@
 						"DisplayWave": 1,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dead Rabbits Boss Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dead Rabbits Boss Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3680,7 +3780,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Hong Lu",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Hong Lu",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -3698,7 +3798,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3716,7 +3816,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Yi Sang",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dieci Association South Section 4 Yi Sang",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -3734,7 +3834,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Cinq Association South Section 5 Director Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 5 Director Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3752,7 +3852,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association South Section 4 Director Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -3776,8 +3876,7 @@
 						"DisplayWave": 2,
 						"Abnormalities": [
 							{
-								"Name": "The King in Binds",
-								"Refraction": "",
+								"Name": "The Refracted King in Binds",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3818,8 +3917,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Hurting Teddy Bear",
-								"Refraction": "",
+								"Name": "Refracted Hurting Teddy Bear",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3848,8 +3946,7 @@
 						"Id": 2,
 						"Abnormalities": [
 							{
-								"Name": "Rose Hunter",
-								"Refraction": "",
+								"Name": "Refracted Rose Hunter",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3875,8 +3972,8 @@
 						],
 						"Enemies": [
 							{
-								"Name": "Barbed Lasso",
-								"Count": 0,
+								"Name": "Refracted Barbed Lasso",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 2,
 									"Pierce": 2,
@@ -3898,8 +3995,8 @@
 						"Id": 3,
 						"Abnormalities": [
 							{
-								"Name": "Peccatulum Pigritiae Class 3",
-								"Refraction": "",
+								"Name": "Refracted Peccatulum Pigritiae Class 3",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3923,8 +4020,8 @@
 								]
 							},
 							{
-								"Name": "Peccatulum Irae Class 3",
-								"Refraction": "",
+								"Name": "Refracted Peccatulum Irae Class 3",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3948,8 +4045,8 @@
 								]
 							},
 							{
-								"Name": "Peccatulum Morositatis Class 3",
-								"Refraction": "",
+								"Name": "Refracted Peccatulum Morositatis Class 3",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -3978,8 +4075,8 @@
 						"Id": 4,
 						"Abnormalities": [
 							{
-								"Name": "Sleeping Bag of a Bygone Day",
-								"Refraction": "",
+								"Name": "Refracted Sleeping Bag of a Bygone Day",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -4020,7 +4117,7 @@
 									},
 									{
 										"Name": "Person",
-										"Count": 0,
+										"Count": -1,
 										"DamageResist": {
 											"Slash": 1.25,
 											"Pierce": 1.25,
@@ -4048,9 +4145,10 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Footer": "Present as Support Passives:\nDevyat' Association North Section 3 Rodion, Devyat' Association North Section 3 Sinclair, W Corp. L3 Cleanup Agent Outis, W Corp. L3 Cleanup Agent Don Quixote, Cinq Association West Section 3 Meursault, Seven Association South Section 4 Faust",
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Full-Stop Office Rep Hong Lu",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Full-Stop Office Rep Hong Lu",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4068,7 +4166,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Solemn Lament Yi Sang",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Solemn Lament Yi Sang",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4086,7 +4184,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Twinhook Pirates First Mate Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Twinhook Pirates First Mate Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4104,7 +4202,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4122,7 +4220,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - LCCB Assistant Manager Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4140,7 +4238,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Full-Stop Office Fixer Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Full-Stop Office Fixer Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4163,7 +4261,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Captain Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Captain Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4181,7 +4279,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4199,7 +4297,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4217,7 +4315,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Hong Lu",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Hong Lu",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4235,7 +4333,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4253,7 +4351,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Wakashu Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4278,7 +4376,7 @@
 						"DisplayWave": 2,
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Magic Bullet Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Magic Bullet Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4296,7 +4394,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - LCE E.G.O::Ardor Blossom Star Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - LCE E.G.O::Ardor Blossom Star Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4314,7 +4412,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Dawn Office Fixer Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Dawn Office Fixer Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4332,7 +4430,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - LCE E.G.O::Lantern Yi Sang",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - LCE E.G.O::Lantern Yi Sang",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4350,7 +4448,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Little Sister Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Sister Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4368,7 +4466,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Little Brother Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Brother Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4392,8 +4490,7 @@
 						"DisplayWave": 3,
 						"Abnormalities": [
 							{
-								"Name": "Der Fluchschütze",
-								"Refraction": "",
+								"Name": "Refracted Der Fluchschütze",
 								"Count": 1,
 								"Parts": [
 									{
@@ -4419,8 +4516,8 @@
 						],
 						"Enemies": [
 							{
-								"Name": "Old G Corp. Head Manager",
-								"Count": 0,
+								"Name": "Refracted Old G Corp. Head Manager",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1,
@@ -4437,8 +4534,8 @@
 								}
 							},
 							{
-								"Name": "Downcast Veteran",
-								"Count": 0,
+								"Name": "Refracted Downcast Veteran",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 2,
 									"Pierce": 1,
@@ -4466,7 +4563,7 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "Dulcinea",
+								"Name": "Refracted Dulcinea",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4484,8 +4581,8 @@
 								}
 							},
 							{
-								"Name": "Bloodfiends of the Parade",
-								"Count": 0,
+								"Name": "Refracted Bloodfiends of the Parade",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 0.8,
@@ -4502,8 +4599,8 @@
 								}
 							},
 							{
-								"Name": "Bloodbags of the Parade",
-								"Count": 0,
+								"Name": "Refracted Bloodbags of the Parade",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 0.8,
@@ -4520,8 +4617,8 @@
 								}
 							},
 							{
-								"Name": "Fanghunt Bloodbags",
-								"Count": 0,
+								"Name": "Refracted Fanghunt Bloodbags",
+								"Count": -1,
 								"DamageResist": {
 									"Slash": 1,
 									"Pierce": 1.5,
@@ -4541,9 +4638,10 @@
 					},
 					{
 						"Id": 2,
+						"Footer": "Present as Support Passives:\nThe Ring Pointilist Student Yi Sang, The One Who Grips Faust, Kurokumo Clan Wakashu Hong Lu, Kurokumo Clan Wakashu Heathcliff, Kurokumo Clan Captain Ishmael, The One Who Shall Grip Sinclair",
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Manager of La Manchaland Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Manager of La Manchaland Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4561,7 +4659,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Princess of La Manchaland Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Princess of La Manchaland Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -4579,7 +4677,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Barber of La Manchaland Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Barber of La Manchaland Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4597,7 +4695,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Priest of La Manchaland Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Priest of La Manchaland Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4615,7 +4713,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Red Eyes & Penitence Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Red Eyes & Penitence Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4633,7 +4731,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - R Corp. 4th Pack Rhino Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4656,7 +4754,7 @@
 						"Id": 3,
 						"Enemies": [
 							{
-								"Name": "The Priest",
+								"Name": "The Refracted Priest",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4674,7 +4772,7 @@
 								}
 							},
 							{
-								"Name": "The Barber",
+								"Name": "The Refracted Barber",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.8,
@@ -4692,7 +4790,7 @@
 								}
 							},
 							{
-								"Name": "Dulcinea",
+								"Name": "Refracted Dulcinea",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4715,8 +4813,7 @@
 						"Id": 4,
 						"Abnormalities": [
 							{
-								"Name": "Four-Hundred Roses",
-								"Refraction": "",
+								"Name": "Refracted Four-Hundred Roses",
 								"Count": 1,
 								"Parts": [
 									{
@@ -4775,8 +4872,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Butterfly of Entangled Lives::The Pupa",
-								"Refraction": "",
+								"Name": "Refracted Butterfly of Entangled Lives::The Pupa",
 								"Count": 1,
 								"Parts": [
 									{
@@ -4811,8 +4907,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Yinglong",
-								"Refraction": "",
+								"Name": "Refracted Yinglong",
 								"Count": 1,
 								"Parts": [
 									{
@@ -4853,13 +4948,33 @@
 									}
 								]
 							}
+						],
+						"Enemies": [
+							{
+								"Name": "Refracted Flower-burying Pin",
+								"Count": 1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 1,
+									"Lust": 1,
+									"Sloth":1,
+									"Gluttony": 1.5,
+									"Gloom": 1.5,
+									"Pride": 1,
+									"Envy": 1.5
+								}
+							}
 						]
 					},
 					{
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "Hongyu, The Crimson Jade",
+								"Name": "Refracted Hongyu, The Crimson Jade",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -4877,7 +4992,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Lord of Hongyuan Hong Lu",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Lord of Hongyuan Hong Lu",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4895,7 +5010,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Adept Faust",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Adept Faust",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4913,7 +5028,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Wu Branch Adept Yi Sang",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Wu Branch Adept Yi Sang",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4931,7 +5046,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Ryōshū",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Ryōshū",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4949,7 +5064,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Mao Branch Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4967,7 +5082,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Si Branch Rodion",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Si Branch Rodion",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -4992,7 +5107,7 @@
 						"DisplayWave": 2,
 						"Enemies":[
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Si Branch Gregor",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Si Branch Gregor",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -5010,7 +5125,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - You Branch Adept Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - You Branch Adept Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -5028,7 +5143,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - Wei Branch Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - Wei Branch Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -5046,7 +5161,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Heishou Pack - You Branch Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Heishou Pack - You Branch Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.5,
@@ -5064,7 +5179,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Family Hierarch Candidate Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Family Hierarch Candidate Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -5082,7 +5197,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - Cinq Association West Section 3 Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - Cinq Association West Section 3 Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -5106,8 +5221,8 @@
 						"DisplayWave": 3,
 						"Abnormalities": [
 							{
-								"Name": "Yinglong",
-								"Refraction": "",
+								"Name": "Refracted Yinglong",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5184,6 +5299,26 @@
 									}
 								]
 							}
+						],
+						"Enemies": [
+							{
+								"Name": "Refracted Flower-burying Pin",
+								"Count": 1,
+								"DamageResist": {
+									"Slash": 1,
+									"Pierce": 1,
+									"Blunt": 1
+								},
+								"SinResist": {
+									"Wrath": 1,
+									"Lust": 1,
+									"Sloth":1,
+									"Gluttony": 1.5,
+									"Gloom": 1.5,
+									"Pride": 1,
+									"Envy": 1.5
+								}
+							}
 						]
 					},
 					{
@@ -5191,8 +5326,8 @@
 						"DisplayWave": 4,
 						"Abnormalities": [
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Past",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Past",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5227,8 +5362,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Will You Play?",
-								"Refraction": "",
+								"Name": "Refracted Will You Play?",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5272,7 +5406,7 @@
 						],
 						"Enemies": [
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The House of Spiders: The Middle Nursefather Outis",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The House of Spiders: The Middle Nursefather Outis",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -5290,7 +5424,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Big Brother Heathcliff",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Big Brother Heathcliff",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -5308,7 +5442,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The House of Spiders: The Middle Apprentice Ishmael",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The House of Spiders: The Middle Apprentice Ishmael",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -5326,7 +5460,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Little Brother Sinclair",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Brother Sinclair",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1,
@@ -5344,7 +5478,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Little Sister Don Quixote",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Sister Don Quixote",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -5362,7 +5496,7 @@
 								}
 							},
 							{
-								"Name": "Peccatulum Invidiae Class 2 - The Middle Little Brother Meursault",
+								"Name": "Refracted Peccatulum Invidiae Class 2 - The Middle Little Brother Meursault",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 2,
@@ -5385,8 +5519,7 @@
 						"Id": 2,
 						"Abnormalities": [
 							{
-								"Name": "Distorted Hohenheim",
-								"Refraction": "",
+								"Name": "Refracted Distorted Hohenheim",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5415,8 +5548,8 @@
 						"Id": 3,
 						"Abnormalities": [
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Present",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Present",
+								"Notes": "",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5451,7 +5584,8 @@
 						"Id": 1,
 						"Enemies": [
 							{
-								"Name": "The Pinky Nursefather - Shiomi Yoru",
+								"Name": "The Refracted Pinky Nursefather - Shiomi Yoru",
+								"Notes": "||Changes Panic Type to 'Refracted Affection and Resentment'||",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1.2,
@@ -5474,7 +5608,7 @@
 						"Id": 2,
 						"Enemies": [
 							{
-								"Name": "The Ring Nursefather - Callisto",
+								"Name": "The Refracted Ring Nursefather - Callisto",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.8,
@@ -5492,7 +5626,7 @@
 								}
 							},
 							{
-								"Name": "The Ring Apprentice - Albina",
+								"Name": "The Refracted Ring Apprentice - Albina",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 0.8,
@@ -5515,7 +5649,8 @@
 						"Id": 3,
 						"Enemies": [
 							{
-								"Name": "The Index Nursefather - Rien",
+								"Name": "The Refracted Index Nursefather - Rien",
+								"Notes": "||Changes Panic Type to 'Refracted Imitation of a Father'||",
 								"Count": 1,
 								"DamageResist": {
 									"Slash": 1.2,
@@ -5538,8 +5673,7 @@
 						"Id": 4,
 						"Abnormalities": [
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Future",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Future",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5574,8 +5708,7 @@
 						"Id": 1,
 						"Abnormalities": [
 							{
-								"Name": "Butterfly of Entangled Lives::Imago",
-								"Refraction": "",
+								"Name": "Refracted Butterfly of Entangled Lives::Imago",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5599,8 +5732,7 @@
 								]
 							},
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Past",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Past",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5624,8 +5756,7 @@
 								]
 							},
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Present",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Present",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5649,8 +5780,7 @@
 								]
 							},
 							{
-								"Name": "Illusory Butterfly of Entangled Lives::The Future",
-								"Refraction": "",
+								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Future",
 								"Count": 1,
 								"Parts": [
 									{

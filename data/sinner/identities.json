@@ -7617,7 +7617,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-						"Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Coin Power +1 for every 10 Rupture on target (Max 2)\n[On use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
+						"Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's, Coin Power +1 for every 2 Speed difference (Max 2)\n[On Use] Coin Power +1 for every 10 Rupture on target (Max 2)\n[On Use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Haste]\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
 						"DamageType": "Slash",
 						"SinType": "Gluttony",
 						"BasePower": 5,
@@ -7812,7 +7812,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-						"Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
+						"Description": "If unit's Speed is faster than target's, deal +(Speed difference x Rupture on target)% damage (Max 50%)\nIf unit's Speed is faster than target's by 2 or more, Coin Power +1\n[On Use] If target has 15+ Rupture, Coin Power +1\n[On Use] At 10+ Speed, gain 20 Poise; at less than 4 Poise Count, raise Poise Count to 4\n[On Use] Gain 3 Strider [Mao]\n[Clash Win] Inflict +2 Rupture Count\n[After Attack] Spend 10 Tianjiu Star's Blade\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict Deathrite [Fissure]\n[On Hit] Inflict Deathrite [Haste]\n<2>[On Hit] Inflict 1 Rupture\n<3>At 10+ Speed, deal +30% damage\n[On Hit] Inflict 3 Rupture\n[On Hit] At 10+ Speed, Reuse Coin once\n[Reuse - On Hit] Inflict Deathrite [Fissure]",
 						"DamageType": "Slash",
 						"SinType": "Gluttony",
 						"BasePower": 5,
@@ -18333,7 +18333,7 @@
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeightMod": 3,
 						"MiscTags": [
 							"Unclashable",
 							"Ignore Defense Skill",
@@ -18362,7 +18362,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
-					"AttackWeightMod": 1,
+					"AttackWeightMod": 3,
 					"MiscTags": [
 						"Poise Potency",
 						"Attack Weight Increase",
@@ -18635,7 +18635,7 @@
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
-						"AttackWeightMod": 1,
+						"AttackWeightMod": 3,
 						"MiscTags": [
 							"Unclashable",
 							"Ignore Defense Skill",
@@ -18665,7 +18665,7 @@
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
-					"AttackWeightMod": 1,
+					"AttackWeightMod": 3,
 					"MiscTags": [
 						"Poise Potency",
 						"Attack Weight Increase",

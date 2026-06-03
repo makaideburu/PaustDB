@@ -4441,5 +4441,37 @@
 			"Final Power Up",
 			"Self HP Damage"
 		]
+	},
+	{
+		"Name": "Refracted Affection and Resentment (Low Morale)",
+		"Description": "Deal and take +10% damage",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Refracted Affection and Resentment (Panic)",
+		"Description": "Deal and take +20% damage",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Refracted Imitation of a Father (Low Morale)",
+		"Description": "Turn Start: Gain 5 Burn and 5 Bleed",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Refracted Imitation of a Father (Panic)",
+		"Description": "Turn Start: Gain 5 Burn, +3 Burn Count, 5 Bleed, and +3 Bleed Count",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
 	}
 ]
