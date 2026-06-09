@@ -700,7 +700,7 @@
 	},
 	{
 		"Name": "Sinking Deluge",
-		"Description": "Deal SP Damage by (Sinking Count x Sinking Potency), then remove all Sinking. If target's SP is -45 or lower, excess SP damage is dealt as Gloom-affinity HP damage. (Units with no SP take the entirety as Gloom-affinity HP damage).",
+		"Description": "Deal SP Damage by (Sinking Count x Sinking Potency), then remove all Sinking. If the target's SP is -45 or lower, excess SP damage is dealt as Gloom-affinity HP damage. (Units with no SP take the entirety as Gloom-affinity HP damage).",
 		"Tags": []
 	},
 	{
@@ -863,18 +863,26 @@
 	},
 	{
 		"Name": "Swordplay of the Homeland",
-		"Description": "If unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3/# of Coins)(Min 1) and +(30/# of Coins)% damage on Critical Hit\nIf unit has 7+ Poise upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and +(50/# of Coins)% more damage on Critical Hit",
-		"Tags": []
+		"Description": "If this unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3/# of Coins)(Min 1) and +(30/# of Coins)% damage on Critical Hit\nIf this unit has 7+ Poise upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and +(50/# of Coins)% more damage on Critical Hit",
+		"Tags": [
+			"Plus Coin Power",
+			"Ally Damage Amp",
+			"Ally Critical Damage Amp"
+		]
 	},
 	{
 		"Name": "Sword of the Homeland - Rending",
 		"Description": "Skill 1 gains Final Power by the effect's Count for this turn.",
-		"Tags": []
+		"Tags": [
+			"Final Power Up"
+		]
 	},
 	{
 		"Name": "Sword of the Homeland - Penetrating",
 		"Description": "Skill 2 gains Final Power by the effect's Count for this turn.",
-		"Tags": []
+		"Tags": [
+			"Final Power Up"
+		]
 	},
 	{
 		"Name": "Amplitude Conversion",
@@ -1545,7 +1553,7 @@
 	},
 	{
 		"Name": "Resanguination (Low Morale)",
-		"Description": "If target does not have Bleed, Clash Power -1; On Hit, heal HP equal to Bleed Potency on target",
+		"Description": "If the target does not have Bleed, Clash Power -1; On Hit, heal HP equal to Bleed Potency on target",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -1553,7 +1561,7 @@
 	},
 	{
 		"Name": "Resanguination (Panic)",
-		"Description": "If the target has Bleed, Clash Power +2; if target does not have Bleed, Clash Power -2; On Hit, heal HP equal to Bleed Potency on target",
+		"Description": "If the target has Bleed, Clash Power +2; if the target does not have Bleed, Clash Power -2; On Hit, heal HP equal to Bleed Potency on target",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -1779,7 +1787,7 @@
 	},
 	{
 		"Name": "Fairy Lure",
-		"Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains +10 Aggro\nTake +50% damage\nWhen hit, inflict 1 Rupture against the attacker (3 times per target's Skill)\nAt less than 50% HP, inflict +1 Rupture\nIf target has 15+ Rupture, this buff does not inflict Rupture\nReduced by 1at Turn End",
+		"Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains +10 Aggro\nTake +50% damage\nWhen hit, inflict 1 Rupture against the attacker (3 times per target's Skill)\nAt less than 50% HP, inflict +1 Rupture\nIf the target has 15+ Rupture, this buff does not inflict Rupture\nReduced by 1at Turn End",
 		"Tags": [
 			"Aggro",
 			"Rupture Potency"
@@ -1968,7 +1976,7 @@
 	},
 	{
 		"Name": "Serpent Arm",
-		"Description": "Max Stack: 3\nTurn End: Gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if target has Rupture, gain 5 Poise\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 3\nTurn End: Gain 3 Poise and +2 Poise Count next turn\nOn Base Attack Skill use, if the target has Rupture, gain 5 Poise\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Poise Potency",
 			"Poise Count"
@@ -2201,13 +2209,13 @@
 	},
 	{
 		"Name": "Flower-burying Wedge [埋花櫼]",
-		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End' at Turn End. Remove Flower-burying Wedge when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End' next turn based on this unit's Speed.",
+		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End [終]' at Turn End. Remove Flower-burying Wedge [埋花櫼] when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End [終]' next turn based on this unit's Speed.",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Down",
 			"Unrelenting",
 			"Tarnished Blood",
-			"Skill Change"
+			"Self Follow Up"
 		]
 	},
 	{
@@ -2245,7 +2253,7 @@
 	},
 	{
 		"Name": "Assist [援]",
-		"Description": "Max Stack: 1\nIf target has 5+ negative effects, Clash Power +1 and deal +10% damage",
+		"Description": "Max Stack: 1\nIf the target has 5+ negative effects, Clash Power +1 and deal +10% damage",
 		"Tags": [
 			"Ally Clash Power Up",
 			"Ally Damage Amp"
@@ -2575,7 +2583,7 @@
 	},
 	{
 		"Name": "Violent Collections",
-		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (Max 15%)",
+		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf this unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (Max 15%)",
 		"Tags": [
 		]
 	},
@@ -2628,7 +2636,7 @@
 	},
 	{
 		"Name": "Exalted Command",
-		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if unit B's Skill 3 is not unlocked",
+		"Description": "If this unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if this unit B's Skill 3 is not unlocked",
 		"Tags": [
 			"Ally Follow Up"
 		]
@@ -2643,7 +2651,7 @@
 	},
 	{
 		"Name": "Your Will Guides My Blade.",
-		"Description": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End.\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills",
+		"Description": "If this unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 1 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End.\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills",
 		"Tags": [
 			"Ally Follow Up"
 		]
@@ -2690,7 +2698,7 @@
 	},
 	{
 		"Name": "Linebreaker",
-		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x 10) Shield this turn\nAt max Stack, Final Power +2\nWhen hit, if unit took 100+ damage from a single Skill, gain 1 Protection after Skill End (2 times per turn; includes Shield HP damage; does not count Keyword damage)",
+		"Description": "Max Stack: 5\nTurn Start: Gain (Shield x 10) Shield this turn\nAt max Stack, Final Power +2\nWhen hit, if this unit took 100+ damage from a single Skill, gain 1 Protection after Skill End (2 times per turn; includes Shield HP damage; does not count Keyword damage)",
 		"Tags": [
 			"Shield",
 			"Final Power Up",
@@ -2713,7 +2721,7 @@
 	},
 	{
 		"Name": "Bloodflame [血炎]",
-		"Description": "Max Stack: 3\nThis unit inflicts +1 Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n$ If unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 3\nThis unit inflicts +1 Burn and Rupture with its Base Skills\nWhile this unit has this effect, heal 3 SP upon Staggering or killing an enemy (3 times per turn)\n$ If this unit's SP is at max when the above effect activates, gain 1 Offense Level Up and 1 Haste next turn\nLose 1 Stack at Turn End",
 		"Tags": [
 			"Offense Level Up",
 			"Haste"
@@ -2962,7 +2970,7 @@
 	},
 	{
 		"Name": "Hardblood Armor",
-		"Description": "Max Stack: 5\nIf unit isn't at max HP: After Skill attack, heal 10% of HP damage dealt (Once per turn; max 40)\nAfter Attack: If unit dealt HP damage, lose 1 Stack (Once per turn)\nIf Lust Reson activated, halve the HP healed, but do not lose any Hardblood Armor stack",
+		"Description": "Max Stack: 5\nIf this unit isn't at max HP: After Skill attack, heal 10% of HP damage dealt (Once per turn; max 40)\nAfter Attack: If this unit dealt HP damage, lose 1 Stack (Once per turn)\nIf Lust Reson activated, halve the HP healed, but do not lose any Hardblood Armor stack",
 		"Tags": [
 			"Heal HP"
 		]
@@ -2977,7 +2985,7 @@
 	},
 	{
 		"Name": "La Mancha Parade",
-		"Description": "Max Stack: 4\nTake +10% damage from Lust Skills\nIf target is a <La Manchaland> Identity, take +20% damage regardless of Skill Affinity\nAt max Stack, deal -20% damage against <La Manchaland> Identities\nLose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
+		"Description": "Max Stack: 4\nTake +10% damage from Lust Skills\nIf the target is a <La Manchaland> Identity, take +20% damage regardless of Skill Affinity\nAt max Stack, deal -20% damage against <La Manchaland> Identities\nLose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
 		"Tags": [
 			"Focused Damage Amp",
 			"Focused Damage Reduction"
@@ -3603,13 +3611,13 @@
 	},
 	{
 		"Name": "The Middle - Grudge",
-		"Description": "Max Stack: 15\nIf target has Vengeance Mark, deal +20% damage",
+		"Description": "Max Stack: 15\nIf the target has Vengeance Mark, deal +20% damage",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Thermal Blades",
-		"Description": "Max Stack: 2\nIf target hit by Base Skills has Burn, heal 3 SP (2 times per turn)\nInflict Burn when inflicting Bleed with certain Skill Coins\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 2\nIf the target hit by Base Skills has Burn, heal 3 SP (2 times per turn)\nInflict Burn when inflicting Bleed with certain Skill Coins\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Heal SP",
 			"Burn Potency"
@@ -4128,7 +4136,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Chien",
-		"Description": "Deal +5% damage for every 3 Mauled Color on target (Max 15%)\nInflict +1 Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if target does not have Bleed, inflict +2 Bleed Count on target (Once per turn)",
+		"Description": "Deal +5% damage for every 3 Mauled Color on target (Max 15%)\nInflict +1 Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if the target does not have Bleed, inflict +2 Bleed Count on target (Once per turn)",
 		"Tags": [
 			"Damage Amp",
 			"Bleed Potency",
@@ -4154,7 +4162,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Loup",
-		"Description": "Min & Max Speed +1\nInflict more +1 Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (Once per turn)\nOn Hit, if target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (Once per turn)",
+		"Description": "Min & Max Speed +1\nInflict more +1 Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if the target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (Once per turn)\nOn Hit, if the target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (Once per turn)",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4211,7 +4219,7 @@
 	},
 	{
 		"Name": "Charm of the Beastly",
-		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (Once per turn)\nTurn End: This effect expires",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if the target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (Once per turn)\nTurn End: This effect expires",
 		"Tags": [
 			"Coin Power",
 			"Blunt Power Up"
@@ -4219,7 +4227,7 @@
 	},
 	{
 		"Name": "Faltering Inspiration (Low Morale)",
-		"Description": "If target has Mauled Color, deal +10% damage\nGain 1 Fragile",
+		"Description": "If the target has Mauled Color, deal +10% damage\nGain 1 Fragile",
 		"Tags": [
 			"Low Morale",
 			"Panic Type"
@@ -4227,7 +4235,7 @@
 	},
 	{
 		"Name": "Faltering Inspiration (Panic)",
-		"Description": "If target has Mauled Color, deal +20% damage\nGain 2 Fragile",
+		"Description": "If the target has Mauled Color, deal +20% damage\nGain 2 Fragile",
 		"Tags": [
 			"Panic",
 			"Panic Type"
@@ -4311,6 +4319,7 @@
 			"Sinking Potency",
 			"Defense Level Up",
 			"Burn Potency",
+			"Offense Level Up",
 			"Somatic Frisson-inspiring Melody",
 			"Shield",
 			"Poise Count",
@@ -4387,7 +4396,7 @@
 	},
 	{
 		"Name": "Sealed Sword",
-		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (Rounded down)",
+		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4395,7 +4404,7 @@
 	},
 	{
 		"Name": "First Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (Rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4403,7 +4412,7 @@
 	},
 	{
 		"Name": "Second Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (Rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (Rounded down)",
 		"Tags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4411,7 +4420,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (Rounded down)",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (Rounded down)",
 		"Tags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4472,6 +4481,100 @@
 		"Tags": [
 			"Panic",
 			"Panic Type"
+		]
+	},
+	{
+		"Name": "Trussed [Hong Lu]",
+		"Description": "Lose Min & Max Speed\nTake more Pride damage\nExpires when the inflicter Retreats, is killed, or inflicts it on a different target\n$ Replaced when Trussed by another unit\nTurn End: Lose Stack if the inflicter did not hit this unit this turn",
+		"Tags": [
+			"Min Speed Down",
+			"Max Speed Down",
+			"Pride Damage Amp"
+		]
+	},
+	{
+		"Name": "Avulsion Wound",
+		"Description": "Turn Start: Gain Bleed\nTurn End: Gain Bind next turn\nTurn End: Lose Stack",
+		"Tags": [
+			"Bleed Potency",
+			"Bind"
+		]
+	},
+	{
+		"Name": "Prisoner Transport Arrangements",
+		"Description": "In a Clash against enemies that have Trussed [Hong Lu], gain Clash Power\nOn Hit against enemies that have Trussed [Hong Lu], inflict Bleed and gain Poise\nIf there are no Trussed [Hong Lu] targets, expires",
+		"Tags": [
+			"Clash Power Up",
+			"Bleed Potency",
+			"Poise Potency"
+		]
+	},
+	{
+		"Name": "Drink to the Fallen",
+		"Description": "Turn Start: Gain Poise for every X Stack\n$ Blade Lineage Mentor Meursault gains even more Poise\nBase Skills deal +(Poise on self x X)% damage on Critical Hit\nBase Skills that gain Poise or Poise Count gain Clash Power\nTurn End: Lose X Stack",
+		"Tags": [
+			"Poise Potency",
+			"Critical Damage Amp",
+			"Clash Power Up"
+		]
+	},
+	{
+		"Name": "Resentment",
+		"Description": "Gain Min & Max Speed\nOn Hit, heal HP by X% of damage dealt using the Skill",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Heal HP"
+		]
+	},
+	{
+		"Name": "Resentful Scabbard",
+		"Description": "When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\nIn Memoriam Passive now ignores conditionals and activates at max potential\nWhen activating Pride Reson, apply Sword of the Homeland - The True Essence on all allies other than this unit\nOn Using 'Yield My Flesh', until Skill End:\n$ This damage does not reduce this unit's HP below X\n$ Lose (Poise on self / X) Clash Power (Rounded down)\nOn Using 'To Claim Their Bones', gain Poise",
+		"Tags": [
+			"Growing Resentment",
+			"Ally Sword of the Homeland - The True Essence",
+			"Unrelenting",
+			"Self Clash Power Down",
+			"Poise Potency"
+		]
+	},
+	{
+		"Name": "Growing Resentment",
+		"Description": "'To Claim Their Bones' gains (Stack / X) Final Power (Rounded down)\nOn Hit using the final Coin of either 'Yield My Flesh' or 'To Claim Their Bones', deal +(Stack / X)% damage, then this effect expires",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Sword of the Homeland - The True Essence",
+		"Description": "Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / X) (Rounded down)\nIf this unit is a Blade Lineage Salsu, Base Skills gain Final Power and deal +(X / # of Coins)% damage\nTurn End: Gain Haste next turn, and this effect expires",
+		"Tags": [
+			"Final Power Up",
+			"Haste"
+		]
+	},
+	{
+		"Name": "Dokkaebi Arms",
+		"Description": "Take less damage\nOn Skill Use, gain Haste next turn\nCombat End: This effect expires, and gain Poise Count",
+		"Tags": [
+			"Damage Reduction",
+			"Haste",
+			"Poise Count"
+		]
+	},
+	{
+		"Name": "Bearing of a Salsu",
+		"Description": "Gain Offense Level for every X Stack\nOn Attack Hit with Slash Skills, gain Poise\nLose X Stack when an allied Blade Lineage Identity is defeated",
+		"Tags": [
+			"Offense Level Up",
+			"Poise Potency"
+		]
+	},
+	{
+		"Name": "Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+		"Description": "Can gain up to X Stacks per turn\nSlash Base Attack Skills deal more damage for every X Stack\nDefense Skills lose Clash Power for every X Stack\nTurn End: Gain Haste next turn for every X Stack",
+		"Tags": [
+			"Slash Damage Amp",
+			"Haste"
 		]
 	}
 ]

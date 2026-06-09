@@ -1007,7 +1007,7 @@
         "Cost": 204,
         "Upgrades": [
             {
-                "Description": "When hitting an enemy with an Envy Affinity Skill or a Skill that inflicts Burn or Unique Burn, inflict additional Burn by half the Skill's total Coins. (Rounded up)\n$ [Cannot Stack] When Move-in Reg. Heathcliff E.G.O Passive [Circuit Wiring] activates, this effect does not activate\nOn Hit, if target has 99 Burn Potency, inflict 1 Resident Reg. Microchip (Once per enemy, 3 times per turn)",
+                "Description": "When hitting an enemy with an Envy Affinity Skill or a Skill that inflicts Burn or Unique Burn, inflict additional Burn by half the Skill's total Coins. (Rounded up)\n$ [Cannot Stack] When Move-in Reg. Heathcliff E.G.O Passive [Circuit Wiring] activates, this effect does not activate\nOn Hit, if the target has 99 Burn Potency, inflict 1 Resident Reg. Microchip (Once per enemy, 3 times per turn)",
                 "Rank": 1,
                 "MiscTags": [
                     "Burn Potency",
@@ -2941,7 +2941,7 @@
         "Cost": 416,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture\nSkills that inflict Rupture or Rupture Count: Inflict an additional 3 Rupture and +1 Rupture Count (Once per Skill)\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count. (This effect ends when Rupture drops below 10)\nIf target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count. (3 times per Encounter)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture\nSkills that inflict Rupture or Rupture Count: Inflict an additional 3 Rupture and +1 Rupture Count (Once per Skill)\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count. (This effect ends when Rupture drops below 10)\nIf the target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count. (3 times per Encounter)",
                 "Rank": 1,
                 "MiscTags": [
                     "Rupture Potency",
@@ -3001,7 +3001,7 @@
         "Cost": 427,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, except Backup Units)\nOn Hit against an enemy with a Skill, inflict 5 Sinking.\nTurn Start: All enemies (or all Abnormality parts) regain (Sinking Count each enemy lost On Hit last turn / 2) Sinking Count\nOn Hit with a Base Attack Skill: Deal (Sinking on target / 10) Gloom damage (Min 1; rounded down)\nOn Hit with an Attack Skill: If target's SP is below 0, deal more damage the further the target's SP is from 0 (+1% per SP); if target is Panicked, deal +50% damage instead\nIf target does not have SP, deal +1% damage for every 2 Sinking on target; if target has 90+ Sinking, deal +50% instead",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking. (Except E.G.O Skills, except Backup Units)\nOn Hit against an enemy with a Skill, inflict 5 Sinking.\nTurn Start: All enemies (or all Abnormality parts) regain (Sinking Count each enemy lost On Hit last turn / 2) Sinking Count\nOn Hit with a Base Attack Skill: Deal (Sinking on target / 10) Gloom damage (Min 1; rounded down)\nOn Hit with an Attack Skill: If the target's SP is below 0, deal more damage the further the target's SP is from 0 (+1% per SP); if the target is Panicked, deal +50% damage instead\nIf the target does not have SP, deal +1% damage for every 2 Sinking on target; if the target has 90+ Sinking, deal +50% instead",
                 "Rank": 1,
                 "MiscTags": [
                     "Sinking Potency",
@@ -6890,7 +6890,7 @@
         "Cost": 153,
         "Upgrades": [
             {
-                "Description": "When winning a Clash with a Skill that consumed Tremor Count: If target does not have Tremor, inflict +2 Tremor Count\nAt 3+ Sloth Res including this Skill, inflict +3 Tremor Count instead",
+                "Description": "When winning a Clash with a Skill that consumed Tremor Count: If the target does not have Tremor, inflict +2 Tremor Count\nAt 3+ Sloth Res including this Skill, inflict +3 Tremor Count instead",
                 "Rank": 1,
                 "MiscTags": [
                     "Tremor Count"
@@ -6933,7 +6933,7 @@
         "Cost": 248,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that consumed Tremor Count on self: if target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that consumed Tremor Count on self: if the target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)",
                 "Rank": 1,
                 "MiscTags": [
                     "Tremor Count",
@@ -6956,7 +6956,7 @@
         "Cost": 405,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (Max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count. (Except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (Max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (Max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (Once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (Except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
                 "Rank": 1,
                 "MiscTags": [
                     "Tremor Potency",
@@ -6981,7 +6981,7 @@
         "Cost": 200,
         "Upgrades": [
             {
-                "Description": "If target has 15- Rupture, inflict +1 Potency when inflicting Rupture",
+                "Description": "If the target has 15- Rupture, inflict +1 Potency when inflicting Rupture",
                 "Rank": 1,
                 "MiscTags": [
                     "Rupture Potency"
@@ -7002,7 +7002,7 @@
         "Cost": 249,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nRupture effects deal +100% damage against enemy Shield\nIf target has 15- Rupture, inflict +2 Potency when inflicting Rupture\nIf Rupture cannot be applied due to Skill effects, Plus Coin Power +1 instead\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (Min 1; rounded down)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nRupture effects deal +100% damage against enemy Shield\nIf the target has 15- Rupture, inflict +2 Potency when inflicting Rupture\nIf Rupture cannot be applied due to Skill effects, Plus Coin Power +1 instead\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (Min 1; rounded down)",
                 "Rank": 1,
                 "MiscTags": [
                     "Rupture Potency",
@@ -7024,7 +7024,7 @@
         "Cost": 406,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (Max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (Min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count. (Except E.G.O Skills, except Backup Units)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (Max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if the target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (Min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
                 "Rank": 1,
                 "MiscTags": [
                     "Rupture Potency",
@@ -7049,7 +7049,7 @@
         "Cost": 156,
         "Upgrades": [
             {
-                "Description": "When using base Attack Skills, if target has 5+ Sinking, heal (Sinking on target / 10) SP (Max 3)",
+                "Description": "When using base Attack Skills, if the target has 5+ Sinking, heal (Sinking on target / 10) SP (Max 3)",
                 "Rank": 1,
                 "MiscTags": [
                     "Heal SP"
@@ -7188,7 +7188,7 @@
         "Cost": 205,
         "Upgrades": [
             {
-                "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count (Including Unique Charge)",
+                "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If the target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count (Including Unique Charge)",
                 "Rank": 1,
                 "MiscTags": [
                     "Charge Count"
@@ -7209,7 +7209,7 @@
         "Cost": 205,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, except Backup Units)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, except Backup Units)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If the target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
                 "Rank": 1,
                 "MiscTags": [
                     "Charge Count",
@@ -7231,7 +7231,7 @@
         "Cost": 410,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, except Backup Units)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with a Skill 3 that consumes or gains Charge Count on self, if target is defeated, or the ally who used the Skill is at 3+ Charge, they add 1 Skill 3 to the list of Skills for the upcoming turn (Once per turn per ally)\nAll allies gain Self-Resonance Circuitry at Turn Start.",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge. (Except E.G.O Skills, except Backup Units)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with a Skill 3 that consumes or gains Charge Count on self, if the target is defeated, or the ally who used the Skill is at 3+ Charge, they add 1 Skill 3 to the list of Skills for the upcoming turn (Once per turn per ally)\nAll allies gain Self-Resonance Circuitry at Turn Start.",
                 "Rank": 1,
                 "MiscTags": [
                     "Charge Count",
@@ -7773,7 +7773,7 @@
         "Cost": 148,
         "Upgrades": [
             {
-                "Description": "Turn Start: Inflict 1 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(7.5 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 1 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(7.5 x Stagger Level)% damage",
                 "Rank": 1,
                 "MiscTags": [
                     "Bind",
@@ -7781,7 +7781,7 @@
                 ]
             },
             {
-                "Description": "Turn Start: Inflict 2 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(10 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 2 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(10 x Stagger Level)% damage",
                 "Rank": 2,
                 "MiscTags": [
                     "Bind",
@@ -7789,7 +7789,7 @@
                 ]
             },
             {
-                "Description": "Turn Start: Inflict 3 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(12.5 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 3 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(12.5 x Stagger Level)% damage",
                 "Rank": 3,
                 "MiscTags": [
                     "Bind",
@@ -7811,7 +7811,7 @@
         "Cost": 392,
         "Upgrades": [
             {
-                "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if target is at -45 SP, deal (Sinking on target / 2) Gloom damage (Once per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (Once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (Each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
+                "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if the target is at -45 SP, deal (Sinking on target / 2) Gloom damage (Once per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (Once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (Each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
                 "Rank": 1,
                 "MiscTags": [
                     "HP Damage"
@@ -8210,7 +8210,7 @@
         "Cost": 152,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #7 Deployed Identity]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead",
+                "Description": "[Effect applies to #7 Deployed Identity]\nGain +1 more Tremor Count from Skill or Coin effects\nIf the target is in Stagger, Low Morale, or Panic, gain +2 instead",
                 "Rank": 1,
                 "MiscTags": [
                     "Self Tremor Count"
@@ -8253,7 +8253,7 @@
         "Cost": 251,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #1, #2, #7, #8 Deployed Identities]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
+                "Description": "[Effect applies to #1, #2, #7, #8 Deployed Identities]\nGain +1 more Tremor Count from Skill or Coin effects\nIf the target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
                 "Rank": 1,
                 "MiscTags": [
                     "Self Tremor Count",
@@ -8439,7 +8439,7 @@
         "Cost": 255,
         "Upgrades": [
             {
-                "Description": "If target has 1.5 or lower Pierce Resistance, Pierce Resistance +0.3",
+                "Description": "If the target has 1.5 or lower Pierce Resistance, Pierce Resistance +0.3",
                 "Rank": 1,
                 "MiscTags": [
                     "Resist Down"
@@ -8994,7 +8994,7 @@
         "Cost": 401,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when there are 2+ The Middle Identities (Except Backup Units)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf target has Vengeance Mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
+                "Description": "Turn Start: Activates for the whole Encounter when there are 2+ The Middle Identities (Except Backup Units)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf the target has Vengeance Mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
                 "Rank": 1,
                 "MiscTags": [
                     "Faction Buff: The Middle",
@@ -9154,7 +9154,7 @@
         "Cost": 261,
         "Upgrades": [
             {
-                "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$ On Hit with a Skill: If target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$ At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (Once per turn per Identity)",
+                "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$ On Hit with a Skill: If the target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$ At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (Once per turn per Identity)",
                 "Rank": 1,
                 "MiscTags": [
                     "Poise Potency",
@@ -9266,7 +9266,7 @@
         "Cost": 254,
         "Upgrades": [
             {
-                "Description": "When an ally hits with a Skill, if target has -30 or less SP, deal Gloom damage equal to Sinking on target (Once per Skill)\nIf it was a Pierce Skill, deal (Sinking Count on target / 2) bonus fixed damage (Once per Skill)",
+                "Description": "When an ally hits with a Skill, if the target has -30 or less SP, deal Gloom damage equal to Sinking on target (Once per Skill)\nIf it was a Pierce Skill, deal (Sinking Count on target / 2) bonus fixed damage (Once per Skill)",
                 "Rank": 1,
                 "MiscTags": [
                     "HP Damage"
@@ -9453,7 +9453,7 @@
         "Cost": 172,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #3 Deployed Identity]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +10% damage with Attack Skills",
+                "Description": "[Effect applies to #3 Deployed Identity]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if the target has Time Moratorium, deal +10% damage with Attack Skills",
                 "Rank": 1,
                 "MiscTags": [
                     "Unrelenting",
@@ -9465,7 +9465,7 @@
                 ]
             },
             {
-                "Description": "[Effect applies to #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +12.5% damage with Attack Skills",
+                "Description": "[Effect applies to #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up and 1 Fragile at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 1 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if the target has Time Moratorium, deal +12.5% damage with Attack Skills",
                 "Rank": 2,
                 "MiscTags": [
                     "Unrelenting",
@@ -9477,7 +9477,7 @@
                 ]
             },
             {
-                "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 2 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if target has Time Moratorium, deal +15% damage with Attack Skills",
+                "Description": "[Effect applies to #1, #2, #3 Deployed Identities]\nWhen this unit takes lethal damage, their HP does not drop below 1. Instantly heal 80% of their max HP and recover from Stagger. (Once per Encounter, rounded up)\nWhen the E.G.O Gift activates, starting next turn, gain 2 Attack Power Up at every Turn Start for this Encounter.\nIf the affected unit is a T Corp. Employee, gain 2 additional Borrowed Time when gaining Stacks\nIf the affected unit is a T Corp. Employee, if the target has Time Moratorium, deal +15% damage with Attack Skills",
                 "Rank": 3,
                 "MiscTags": [
                     "Unrelenting",
@@ -9767,7 +9767,7 @@
         "Cost": 201,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$ Gain 3 Haste next turn (Once per turn)\n$ On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$ On Hit after Clash Win: If target has both Burn and Tremor (Including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$ Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
+                "Description": "[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$ Gain 3 Haste next turn (Once per turn)\n$ On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$ On Hit after Clash Win: If the target has both Burn and Tremor (Including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$ Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
                 "Rank": 1,
                 "MiscTags": [
                     "Haste",
@@ -10365,7 +10365,7 @@
         "Cost": 404,
         "Upgrades": [
             {
-                "Description": "Turn Start: At 30+ total sum of Sinking Potency and Sinking Count on all enemies, apply the following:\n$ Skills that inflict Sinking or Sinking Count: Final Power +1 (Includes Unique Sinking, excludes E.G.O Skills)\n$ When 6+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Skills that inflict Sinking or Sinking Count also deal +20% damage (Including Unique Sinking, excluding E.G.O Skills)\n$- If target is at -45 SP, additional +10% damage\n$ When 10+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Plus Coin Skills that inflict Sinking or Sinking Count also gain Coin Power +1 (Including Unique Sinking and Backup Units; excluding E.G.O Skills)\n$- Minus Coin Skills: Instead of Coin Power, gain Base Power +(4 / # of Coins) (Min 1; rounded down)",
+                "Description": "Turn Start: At 30+ total sum of Sinking Potency and Sinking Count on all enemies, apply the following:\n$ Skills that inflict Sinking or Sinking Count: Final Power +1 (Includes Unique Sinking, excludes E.G.O Skills)\n$ When 6+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Skills that inflict Sinking or Sinking Count also deal +20% damage (Including Unique Sinking, excluding E.G.O Skills)\n$- If the target is at -45 SP, additional +10% damage\n$ When 10+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Plus Coin Skills that inflict Sinking or Sinking Count also gain Coin Power +1 (Including Unique Sinking and Backup Units; excluding E.G.O Skills)\n$- Minus Coin Skills: Instead of Coin Power, gain Base Power +(4 / # of Coins) (Min 1; rounded down)",
                 "Rank": 1,
                 "MiscTags": [
                     "Final Power",
@@ -11167,7 +11167,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "On Hit with a Pierce Skill against an enemy: Gain 1 Haste and 1 Pierce DMG Up next turn (2 times per turn per Identity)\n$ On enemy Kill with said Skill: Gain 1 additional Haste and 2 additional Pierce DMG Up next turn (Once per turn per Identity)\nOn Hit by an ally with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 2 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (Max 4)\n$ If the enemy has 10+ Pink Petals, inflict 2 Tremor On Hit (3 times per turn)\nTurn End: Inflict 2 Bind and 3 Defense Level Down next turn against enemies/Parts with 5+ (Sinking + Tremor)\n$ If target has 10+ (Sinking + Tremor), inflict 2 Bind, 1 Paralyze, and 4 Defense Level Down instead\nTurn End: If all enemies have remaining Pink Petals Stack, all allies gain 1 Attack Power Up next turn",
+                "Description": "On Hit with a Pierce Skill against an enemy: Gain 1 Haste and 1 Pierce DMG Up next turn (2 times per turn per Identity)\n$ On enemy Kill with said Skill: Gain 1 additional Haste and 2 additional Pierce DMG Up next turn (Once per turn per Identity)\nOn Hit by an ally with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 2 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (Max 4)\n$ If the enemy has 10+ Pink Petals, inflict 2 Tremor On Hit (3 times per turn)\nTurn End: Inflict 2 Bind and 3 Defense Level Down next turn against enemies/Parts with 5+ (Sinking + Tremor)\n$ If the target has 10+ (Sinking + Tremor), inflict 2 Bind, 1 Paralyze, and 4 Defense Level Down instead\nTurn End: If all enemies have remaining Pink Petals Stack, all allies gain 1 Attack Power Up next turn",
                 "Rank": 1,
                 "MiscTags": [
                     "Haste",
@@ -11285,7 +11285,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\n[Applies to #1 Deployed Identity]\nIn a Clash, gain 1 Glimpse of Precognition with every Clash. Inflict 2 Tremor and Burn on target (10 times per Skill)\nOn Clash Win, trigger Amplitude Conversion into Tremor - Scorch and trigger Tremor Burst on main target. Target loses 1 Tremor Count\nOn Hit with a Skill, if target is Staggered, deal +30% damage\nOn Crit, trigger Tremor Burst; target loses 1 Tremor Count (2 times per Skill)",
+                "Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\n[Applies to #1 Deployed Identity]\nIn a Clash, gain 1 Glimpse of Precognition with every Clash. Inflict 2 Tremor and Burn on target (10 times per Skill)\nOn Clash Win, trigger Amplitude Conversion into Tremor - Scorch and trigger Tremor Burst on main target. Target loses 1 Tremor Count\nOn Hit with a Skill, if the target is Staggered, deal +30% damage\nOn Crit, trigger Tremor Burst; target loses 1 Tremor Count (2 times per Skill)",
                 "Rank": 1,
                 "MiscTags": [
                     "Coin Power",
@@ -11314,7 +11314,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nIn a Clash, gain Clash Power +1 for every 30 (Sinking on target + Poise on self) (Max 5)\nDeal +25% damage with Unbreakable Coins\nTake -25% damage from Unbreakable Coins\n[The Index-faction Exclusive Effect]\nUpon entering the Encounter for the first time, gain 6 Grace of the Prescript\nIf unit is an Identity that can gain Unlock, gain Unlock - II as well\nDeal +50% damage against The Prescript's Target",
+                "Description": "Allies' Plus Coin Skills: Gain Coin Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nAllies' Minus Coin Skills: Gain Final Power +(8 / # of Coins) (Min 1; including E.G.O Skills, rounded down)\nIn a Clash, gain Clash Power +1 for every 30 (Sinking on target + Poise on self) (Max 5)\nDeal +25% damage with Unbreakable Coins\nTake -25% damage from Unbreakable Coins\n[The Index-faction Exclusive Effect]\nUpon entering the Encounter for the first time, gain 6 Grace of the Prescript\nIf this unit is an Identity that can gain Unlock, gain Unlock - II as well\nDeal +50% damage against The Prescript's Target",
                 "Rank": 1,
                 "MiscTags": [
                     "Coin Power",
@@ -11722,7 +11722,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "On Clash Win against targets that have Burn, (20 + (Wrath Reson x 10))% chance to activate Burn once and reduce target's Burn Count by 1 (4 times per turn)\n$ If target has 90+ Burn Potency, the above effect activates at a 100% chance (Focused Encounters, the Part)",
+                "Description": "On Clash Win against targets that have Burn, (20 + (Wrath Reson x 10))% chance to activate Burn once and reduce target's Burn Count by 1 (4 times per turn)\n$ If the target has 90+ Burn Potency, the above effect activates at a 100% chance (Focused Encounters, the Part)",
                 "Rank": 1,
                 "MiscTags": [
                     "Burn Proc"

@@ -153,7 +153,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Bygone Days",
-					"Description": "[After Attack] Randomly inflict (6 + (Gloom Reson x 1.5)) Sinking between targets\n<1>[On Hit] If target has 6+ Sinking, inflict 2 Bind next turn",
+					"Description": "[After Attack] Randomly inflict (6 + (Gloom Reson x 1.5)) Sinking between targets\n<1>[On Hit] If the target has 6+ Sinking, inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 15,
@@ -175,7 +175,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Bygone Days",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 3+ Gloom Reson, Atk Weight +1\n[Before Attack] At 5+ Gloom Reson, additional Atk Weight +1\n<1>[On Hit] Inflict 2 Sinking, inflict 2 Bind next turn\n[On Hit] If target has 6+ Sinking, inflict 2 Bind next turn",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 3+ Gloom Reson, Atk Weight +1\n[Before Attack] At 5+ Gloom Reson, additional Atk Weight +1\n<1>[On Hit] Inflict 2 Sinking, inflict 2 Bind next turn\n[On Hit] If the target has 6+ Sinking, inflict 2 Bind next turn",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 22,
@@ -197,7 +197,7 @@
 				},
 				"Passive": {
 					"Name": "Fractured Yesterday",
-					"Description": "If target has 6+ Sinking, Clash Power +1\nIf target has 4+ Sinking Count, Clash Power +1",
+					"Description": "If the target has 6+ Sinking, Clash Power +1\nIf the target has 4+ Sinking Count, Clash Power +1",
 					"MiscTags": []
 				}
 			},
@@ -206,7 +206,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Bygone Days",
-					"Description": "[After Attack] Randomly inflict (6 + Gloom Reson) Sinking between targets\n<1>[On Hit] If target has 6+ Sinking, inflict 2 Bind next turn",
+					"Description": "[After Attack] Randomly inflict (6 + Gloom Reson) Sinking between targets\n<1>[On Hit] If the target has 6+ Sinking, inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 15,
@@ -228,7 +228,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Bygone Days",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 3+ Gloom Reson, Atk Weight +1\n<1>[On Hit] Inflict 2 Sinking, inflict 2 Bind next turn\n[On Hit] If target has 6+ Sinking, inflict 1 Bind next turn",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 3+ Gloom Reson, Atk Weight +1\n<1>[On Hit] Inflict 2 Sinking, inflict 2 Bind next turn\n[On Hit] If the target has 6+ Sinking, inflict 1 Bind next turn",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 22,
@@ -250,7 +250,7 @@
 				},
 				"Passive": {
 					"Name": "Fractured Yesterday",
-					"Description": "If target has 6+ Sinking, Clash Power +1\nIf target has 4+ Sinking Count, Clash Power +1",
+					"Description": "If the target has 6+ Sinking, Clash Power +1\nIf the target has 4+ Sinking Count, Clash Power +1",
 					"MiscTags": []
 				}
 			}
@@ -822,7 +822,7 @@
 				},
 				"Passive": {
 					"Name": "Next",
-					"Description": "After Attack: If target is killed, gain +2 Poise Count (2 times per turn)",
+					"Description": "After Attack: If the target is killed, gain +2 Poise Count (2 times per turn)",
 					"MiscTags": [
 						"Poise Count"
 					]
@@ -886,7 +886,7 @@
 				},
 				"Passive": {
 					"Name": "Next",
-					"Description": "After Attack: If target is killed, gain +2 Poise Count (2 times per turn)",
+					"Description": "After Attack: If the target is killed, gain +2 Poise Count (2 times per turn)",
 					"MiscTags": [
 						"Poise Count"
 					]
@@ -1132,7 +1132,7 @@
 				},
 				"Passive": {
 					"Name": "Skyweaving",
-					"Description": "If target has Shattered World, inflict +1 Burn Potency and Sinking Potency with this unit's Base Attack Skills (Max 8 times per turn)\nFor every enemy killed due to Burn Damage, gain a DMG Up next turn for a random Attack Type (3 per turn; randomized per instance)",
+					"Description": "If the target has Shattered World, inflict +1 Burn Potency and Sinking Potency with this unit's Base Attack Skills (Max 8 times per turn)\nFor every enemy killed due to Burn Damage, gain a DMG Up next turn for a random Attack Type (3 per turn; randomized per instance)",
 					"MiscTags": [
 						"Damage Type DMG Up"
 					]
@@ -1204,7 +1204,7 @@
 				},
 				"Passive": {
 					"Name": "Skyweaving",
-					"Description": "If target has Shattered World, inflict +1 Burn Potency and Sinking Potency with this unit's Base Attack Skills (Max 8 times per turn)\nFor every enemy killed due to Burn Damage, gain a DMG Up next turn for a random Attack Type (3 per turn; randomized per instance)",
+					"Description": "If the target has Shattered World, inflict +1 Burn Potency and Sinking Potency with this unit's Base Attack Skills (Max 8 times per turn)\nFor every enemy killed due to Burn Damage, gain a DMG Up next turn for a random Attack Type (3 per turn; randomized per instance)",
 					"MiscTags": [
 						"Damage Type DMG Up"
 					]
@@ -1363,7 +1363,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Hex Nail",
-					"Description": "<1>[On Hit] Inflict 3 Pierce Fragility\n[On Hit] Inflict 1 Envy Fragility\n[Heads Hit] Inflict 3 Curse\n[Heads Hit] Inflict 3 Nails\n[Heads Hit] If target has Curse, +50% Damage",
+					"Description": "<1>[On Hit] Inflict 3 Pierce Fragility\n[On Hit] Inflict 1 Envy Fragility\n[Heads Hit] Inflict 3 Curse\n[Heads Hit] Inflict 3 Nails\n[Heads Hit] If the target has Curse, +50% Damage",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 16,
@@ -1387,7 +1387,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Hex Nail",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 1 Pierce Fragility\n[On Hit] Inflict 3 Envy Fragility\n[On Hit] Inflict 3 Curse\n[On Hit] Inflict 3 Nails\n[Heads Hit] If target has Curse, +50% Damage",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 1 Pierce Fragility\n[On Hit] Inflict 3 Envy Fragility\n[On Hit] Inflict 3 Curse\n[On Hit] Inflict 3 Nails\n[Heads Hit] If the target has Curse, +50% Damage",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 20,
@@ -1673,7 +1673,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Lasso",
-					"Description": "[Indiscriminate] Targets randomly\nIf the sum of this unit and target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 Rupture on target (Max 2)\n[Before Attack] Gain 2 Haste next turn\n[After Attack] If target is Staggered or defeated, gain 1 Gluttony Power Up next turn\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Inflict 4 Rupture\n<3>[On Hit] Inflict 2 Lasso\n[On Hit] Deal +2% damage for every Rupture on target (Max 60%)",
+					"Description": "[Indiscriminate] Targets randomly\nIf the sum of this unit and target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 Rupture on target (Max 2)\n[Before Attack] Gain 2 Haste next turn\n[After Attack] If the target is Staggered or defeated, gain 1 Gluttony Power Up next turn\n<1>[On Hit] Inflict +2 Rupture Count\n<2>[On Hit] Inflict 4 Rupture\n<3>[On Hit] Inflict 2 Lasso\n[On Hit] Deal +2% damage for every Rupture on target (Max 60%)",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 4,
@@ -1697,7 +1697,7 @@
 				},
 				"Passive": {
 					"Name": "Sprawling Lasso",
-					"Description": "After Attack, if target is Staggered or defeated, inflict +1 Rupture Count against 2 random enemies (Once per turn; cannot stack; in Focused Encounters, 2 random Parts)",
+					"Description": "After Attack, if the target is Staggered or defeated, inflict +1 Rupture Count against 2 random enemies (Once per turn; cannot stack; in Focused Encounters, 2 random Parts)",
 					"MiscTags": [
 						"Rupture Count"
 					]
@@ -1755,7 +1755,7 @@
 				},
 				"Passive": {
 					"Name": "Sprawling Lasso",
-					"Description": "After Attack, if target is Staggered or defeated, inflict +1 Rupture Count against 2 random enemies (Once per turn; cannot stack; in Focused Encounters, 2 random Parts)",
+					"Description": "After Attack, if the target is Staggered or defeated, inflict +1 Rupture Count against 2 random enemies (Once per turn; cannot stack; in Focused Encounters, 2 random Parts)",
 					"MiscTags": [
 						"Rupture Count"
 					]
@@ -2225,7 +2225,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Command : Meltdown",
-					"Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 25%)\n$ If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
+					"Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 25%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -2292,7 +2292,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Command : Meltdown",
-					"Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 15%)\n$ If unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
+					"Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 15%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 14,
@@ -2319,7 +2319,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Command : Meltdown",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has 6+ (Rupture + Rupture Count), Base Power +1\n[Before Attack] At 3+ highest Reson, Atk Weight +1\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Rupture Count\n[Unbreakable Coin]\n[On Hit] Inflict 2 Burn",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has 6+ (Rupture + Rupture Count), Base Power +1\n[Before Attack] At 3+ highest Reson, Atk Weight +1\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Rupture Count\n[Unbreakable Coin]\n[On Hit] Inflict 2 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 2,
@@ -3153,7 +3153,7 @@
 				},
 				"Passive": {
 					"Name": "Tempestuous Screaming",
-					"Description": "If target is defeated at this unit's Slash or Envy Skill End, gain 1 Attack Power Up next turn (Once per turn)",
+					"Description": "If the target is defeated at this unit's Slash or Envy Skill End, gain 1 Attack Power Up next turn (Once per turn)",
 					"MiscTags": [
 						"Attack Power Up"
 					]
@@ -3209,7 +3209,7 @@
 				},
 				"Passive": {
 					"Name": "Tempestuous Screaming",
-					"Description": "If target is defeated at this unit's Slash or Envy Skill End, gain 1 Attack Power Up next turn (Once per turn)",
+					"Description": "If the target is defeated at this unit's Slash or Envy Skill End, gain 1 Attack Power Up next turn (Once per turn)",
 					"MiscTags": [
 						"Attack Power Up"
 					]
@@ -3249,7 +3249,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Fluid Sac",
-					"Description": "<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage\n[On Hit] Inflict 2 Sinking",
+					"Description": "<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf the target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage\n[On Hit] Inflict 2 Sinking",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 20,
@@ -3272,7 +3272,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Fluid Sac",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 10 Tremor\n[On Hit] Inflict 10 Sinking\nIf target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 10 Tremor\n[On Hit] Inflict 10 Sinking\nIf the target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 42,
@@ -3304,7 +3304,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Fluid Sac",
-					"Description": "<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage",
+					"Description": "<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 25 SP damage\nIf the target is Staggered, in Low Morale, or in Panic, deal 30% of damage dealt as bonus damage",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 20,
@@ -3326,7 +3326,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Fluid Sac",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 7 Tremor\n[On Hit] Inflict 7 Sinking\nIf target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 7 Tremor\n[On Hit] Inflict 7 Sinking\nIf the target is NOT Staggered, in Low Morale, nor in Panic, deal 50% of damage dealt as bonus damage",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 42,
@@ -3694,7 +3694,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Yearning-Mircalla",
-					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (Max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 5)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (Max 10)",
+					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf the target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (Max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (Max 100%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 5)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (Max 10)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 30,
@@ -3730,7 +3730,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Yearning-Mircalla",
-					"Description": "This unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power +1\nClash Power +1 for every 100 Bloodfeast Consumed by this unit (Max 3)\n[Before Attack] At less than 75 Bloodfeast, inflict 1 Bleed with every Hit\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[Unbreakable Coin]\nDeal +0.1% damage for every Bloodfeast Consumed (Shared) (Max 10%)\n<2>[Unbreakable Coin]\nAt 100+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 15%)\n<3>[Unbreakable Coin]\nAt 200+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 25%)\n<4>[Unbreakable Coin]\nAt 300+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 40%)\n[Hit after Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 3)",
+					"Description": "This unit's HP does not drop below 1 while using this Skill\nIf the target has 10+ Bleed, Coin Power +1\nClash Power +1 for every 100 Bloodfeast Consumed by this unit (Max 3)\n[Before Attack] At less than 75 Bloodfeast, inflict 1 Bleed with every Hit\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[Unbreakable Coin]\nDeal +0.1% damage for every Bloodfeast Consumed (Shared) (Max 10%)\n<2>[Unbreakable Coin]\nAt 100+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 15%)\n<3>[Unbreakable Coin]\nAt 200+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 25%)\n<4>[Unbreakable Coin]\nAt 300+ Bloodfeast Consumed (Shared), deal +0.1% damage for every Value (Max 40%)\n[Hit after Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 3)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -3755,7 +3755,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Yearning-Mircalla",
-					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (Max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +10% damage for every 100 Bloodfeast Consumed (Shared) (Max 50%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 4)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (Max 10)",
+					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf the target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (Max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +10% damage for every 100 Bloodfeast Consumed (Shared) (Max 50%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (Max 4)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (Max 10)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 30,
@@ -3855,7 +3855,7 @@
 					"SkillSlot": "EC0",
 					"Name": "In the Name of Love and Hate",
 					"DisplayName": "Maximized Reversed Arcana Slave - Erasure of Hatred",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count spent (Max 50%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Reson (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$ If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2.5% damage for every Charge Count spent (Max 50%)\n[Before Attack] If the target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If this unit has Hysteria, deal +10% damage for every Charge instead (Max 50%)\n[Before Attack] Deal +10% damage for every 2 Envy Reson (Max 30%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (14 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 4)\n$ If this unit has Regressive Transformation - Reversed, inflict +1 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 31,
@@ -3886,7 +3886,7 @@
 					"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
 					"MiscTags": [
 						"Charge Potency",
-						"Skill Draw"
+						"Skill Pool Modification"
 					]
 				}
 			},
@@ -3929,7 +3929,7 @@
 					"SkillSlot": "EC0",
 					"Name": "In the Name of Love and Hate",
 					"DisplayName": "Maximized Reversed Arcana Slave - Erasure of Hatred",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count spent (Max 40%)\n[Before Attack] If target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Reson (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain Atk Weight by Charge (Max 5)\n$ If this unit has Regressive Transformation - Reversed, gain Atk Weight by (Charge + 1) instead (Max 5)\n[Before Attack] Consume all Charge Count and deal +2% damage for every Charge Count spent (Max 40%)\n[Before Attack] If the target has Mark of Villainy, deal +5% damage for every Charge (Max 25%)\n$ If this unit has Hysteria, deal +7% damage for every Charge instead (Max 35%)\n[Before Attack] Deal +7% damage for every 2 Envy Reson (Max 21%, rounded down)\n[Before Attack] Base Power -12 for every Cracked Coin (Max -24)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Hysteria\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy against main target next turn\n[On Hit] Inflict (Charge - 1) Sinking (Max 3)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 31,
@@ -3960,7 +3960,7 @@
 					"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
 					"MiscTags": [
 						"Charge Potency",
-						"Skill Draw"
+						"Skill Pool Modification"
 					]
 				}
 			}
@@ -4158,7 +4158,7 @@
 				},
 				"Passive": {
 					"Name": "Opened Can",
-					"Description": "On Hit, if target has 5+ Sinking, Inflict 1 Defense Power Down. (5 times per turn)",
+					"Description": "On Hit, if the target has 5+ Sinking, Inflict 1 Defense Power Down. (5 times per turn)",
 					"MiscTags": [
 						"Defense Power Down"
 					]
@@ -4214,7 +4214,7 @@
 				},
 				"Passive": {
 					"Name": "Opened Can",
-					"Description": "On Hit, if target has 5+ Sinking, Inflict 1 Defense Power Down. (5 times per turn)",
+					"Description": "On Hit, if the target has 5+ Sinking, Inflict 1 Defense Power Down. (5 times per turn)",
 					"MiscTags": [
 						"Defense Power Down"
 					]
@@ -4254,7 +4254,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Red Eyes",
-					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If target has 3+ Bind, inflict 1 Plus Coin Drop next turn\n[On Hit] If target's Speed is lower than user's, inflict 2 Slash Fragility next turn",
+					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If the target has 3+ Bind, inflict 1 Plus Coin Drop next turn\n[On Hit] If the target's Speed is lower than user's, inflict 2 Slash Fragility next turn",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 18,
@@ -4277,7 +4277,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Red Eyes",
-					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If target has 3+ Bind, inflict 2 Plus Coin Drop next turn\n[On Hit] If target's Speed is lower than user's, inflict 1-3 Slash Fragility next turn",
+					"Description": "[Indiscriminate] Targets randomly\n<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If the target has 3+ Bind, inflict 2 Plus Coin Drop next turn\n[On Hit] If the target's Speed is lower than user's, inflict 1-3 Slash Fragility next turn",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 26,
@@ -4310,7 +4310,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Red Eyes",
-					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If target has 3+ Bind, inflict 1 Plus Coin Drop next turn\n[On Hit] If target's Speed is lower than user's, inflict 2 Slash Fragility next turn",
+					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If the target has 3+ Bind, inflict 1 Plus Coin Drop next turn\n[On Hit] If the target's Speed is lower than user's, inflict 2 Slash Fragility next turn",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 18,
@@ -4333,7 +4333,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Red Eyes",
-					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If target has 3+ Bind, inflict 2 Plus Coin Drop next turn\n[On Hit] If target's Speed is lower than user's, inflict 1-3 Slash Fragility next turn",
+					"Description": "<1>[On Hit] Inflict 3 Bind next turn\n[On Hit] If the target has 3+ Bind, inflict 2 Plus Coin Drop next turn\n[On Hit] If the target's Speed is lower than user's, inflict 1-3 Slash Fragility next turn",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 26,
@@ -4735,7 +4735,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Red Eyes (Open)",
-					"Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +7\n<1>[On Hit] If target has 3+ Bind, deal +40% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
+					"Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +7\n<1>[On Hit] If the target has 3+ Bind, deal +40% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 22,
@@ -4757,7 +4757,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Red Eyes (Open)",
-					"Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +10\n<1>[On Hit] If target has 3+ Bind, deal +50% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
+					"Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +10\n<1>[On Hit] If the target has 3+ Bind, deal +50% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 33,
@@ -4789,7 +4789,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Red Eyes (Open)",
-					"Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +4\n<1>[On Hit] If target has 3+ Bind, deal +20% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
+					"Description": "If main target's Speed is lower than user's by 3 or more, Coin Power +4\n<1>[On Hit] If the target has 3+ Bind, deal +20% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 22,
@@ -4811,7 +4811,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Red Eyes (Open)",
-					"Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +7\n<1>[On Hit] If target has 3+ Bind, deal +30% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
+					"Description": "[Indiscriminate] Targets randomly\nIf main target's Speed is lower than user's by 3 or more, Final Power +7\n<1>[On Hit] If the target has 3+ Bind, deal +30% damage\nIf this skill staggers or defeats a target, heal user and the ally with the least HP by 10% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 33,
@@ -6121,7 +6121,7 @@
 				},
 				"Passive": {
 					"Name": "Untempered Agitation",
-					"Description": "At the start of the combat phase, if targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
+					"Description": "At the start of the combat phase, if the targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
 					"MiscTags": [
 						"Burn Potency",
 						"Base Power"
@@ -6188,10 +6188,110 @@
 				},
 				"Passive": {
 					"Name": "Untempered Agitation",
-					"Description": "At the start of the combat phase, if targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
+					"Description": "At the start of the combat phase, if the targeted by 2 or more skills, this unit's skills have +1 Base Power; when hit, inflict 1 Burn on the attacker. (5 times per turn)",
 					"MiscTags": [
 						"Burn Potency",
 						"Base Power"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 5000,
+		"Sinner": "Meursault",
+		"Grade": "HE",
+		"Season": 7,
+		"Sanity": 0,
+		"CorrosionSanity": 0,
+		"Abnormality": "???",
+		"SinResist": {
+			"Wrath": -100,
+			"Lust": -100,
+			"Sloth": -100,
+			"Gluttony": -100,
+			"Gloom": -100,
+			"Pride": -100,
+			"Envy": -100
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 0,
+			"Pride": 0,
+			"Envy": 0
+		},
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Shadow-vested Bladesinger [-]",
+					"Description": "When used for the first time in an Encounter, consume less SP\n$ If Blade Lineage Mentor Meursault used this Skill, also consume fewer E.G.O resources\nClash Power +X and deal more damage for every Y Poise on self\nIf this unit gained Drink to the Fallen during this Encounter, deal more damage against the main target\n$ If this unit is Blade Lineage Mentor Meursault, deal even more damage against the main target\n[Before Attack] Gain (Highest Reson / X) Atk Weight (Rounded down)\n[Before Attack] (X + Highest Reson) allies with the earliest Deployment orders gain Poise Count\n[Attack End] X other Blade Lineage Identities that have the lowest SP heal SP\n[Attack End] Gain Drink to the Fallen next turn\n<1>[On Hit] Inflict Bleed\n<2>[On Hit] Inflict Bleed Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Attack Weight Increase",
+						"Ally Poise Count",
+						"Ally Heal SP",
+						"Drink to the Fallen",
+						"Bleed Potency",
+						"Bleed Count"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Shadow-vested Bladesinger [-]",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +X and deal more damage for every Y Poise on self\nIf this unit gained Drink to the Fallen during this Encounter, deal more damage against the main target\n$ Blade Lineage Mentor Meursault does even more damage against the main target\n[Before Use] Base Power -X for every Cracked Coin\n[Before Attack] All enemies and allies gain Poise Count, Slash DMG Up, and Slash Fragility\n[Attack End] X other Blade Lineage allies that have the lowest SP heal SP\n[Attack End] Gain Drink to the Fallen next turn\n<1>[Unbreakable Coin]\n[On Crit] Final Coin gains Final Power\n[On Hit] Inflict Bleed\n<2>[Unbreakable Coin]\n[On Crit] Final Coin gains Final Power\n[On Hit] Inflict Bleed\n<3>[Unbreakable Coin]\n[On Crit] Final Coin gains Final Power\n[On Hit] Inflict Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict Bleed Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Field Poise Count",
+						"Field Slash DMG Up",
+						"Field Slash Fragility",
+						"Ally Heal SP",
+						"Drink to the Fallen",
+						"Unbreakable Coin",
+						"Bleed Potency",
+						"Bleed Count"
+					]
+				},
+				"Passive": {
+					"Name": "Beads of Liquor at Bladepoint",
+					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict Bleed on target\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[When Used]\nWhen an ally is defeated, gain Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain more Drink to the Fallen\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire:\nResentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x X)% HP; then Drink to the Fallen expires (This effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (Excluding forced Staggers)",
+					"MiscTags": [
+						"Keyword Modification",
+						"Bleed Potency",
+						"Drink to the Fallen",
+						"Resentment",
+						"Resentful Scabbard",
+						"Unrelenting",
+						"Heal HP",
+						"Stagger Recovery"
 					]
 				}
 			}
@@ -6281,7 +6381,7 @@
 				},
 				"Passive": {
 					"Name": "Bloodthirsty Banquet",
-					"Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
+					"Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if the target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
 					"MiscTags": [
 						"Heal HP",
 						"Bleed Potency"
@@ -6293,7 +6393,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Yearning-Mircalla",
-					"Description": "If target has 6+ Bleed, Coin Power +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ Highest Reson, activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ Highest Reson, activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Reson / 2)) times. (3 times max)",
+					"Description": "If the target has 6+ Bleed, Coin Power +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ Highest Reson, activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ Highest Reson, activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (Highest Reson / 2)) times. (3 times max)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -6343,7 +6443,7 @@
 				},
 				"Passive": {
 					"Name": "Bloodthirsty Banquet",
-					"Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
+					"Description": "When this unit deals or takes Bleed damage, heal HP equal to Bleed damage (Max 10 per turn)\nWhen activating a Skill/Coin effect that inflicts Bleed, if the target has Rose Wedge, inflict 1 Bleed against the target. (2 times per turn)",
 					"MiscTags": [
 						"Heal HP",
 						"Bleed Potency"
@@ -7565,7 +7665,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "To Remain Oneself [宁作吾]",
-					"Description": "[On Use] Gain 4 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit does not have Thunderer or Higher Thunderer, recuperate half of E.G.O resources and SP spent by this Skill (Rounded down)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +25% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +45% damage\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 3 Sinking",
+					"Description": "[On Use] Gain 4 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If this unit does not have Thunderer or Higher Thunderer, recuperate half of E.G.O resources and SP spent by this Skill (Rounded down)\n[Before Attack] If this unit has Thunderer, Atk Weight +1 and deal +25% damage\n[Before Attack] If this unit has Higher Thunderer, Atk Weight +2 and deal +45% damage\n[After Attack] Gain 5 Thunderer\n$ If this unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If this unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf this unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 3 Sinking",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 10,
@@ -7590,7 +7690,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "To Remain Oneself [宁作吾]",
-					"Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 4 Poise and +4 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +2, Base Power +2, Coin Power +2\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
+					"Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 4 Poise and +4 Poise Count\n[Before Attack] If this unit has Thunderer or Higher Thunderer, Atk Weight +2, Base Power +2, Coin Power +2\n[After Attack] Gain 5 Thunderer\n$ If this unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf this unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 30%)\nIf this unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -7629,7 +7729,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "To Remain Oneself [宁作吾]",
-					"Description": "[On Use] Gain 3 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If unit has Thunderer, Atk Weight +1 and deal +15% damage\n[Before Attack] If unit has Higher Thunderer, Atk Weight +2 and deal +27% damage\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 2 Sinking",
+					"Description": "[On Use] Gain 3 Poise\n[Before Attack] Final Power +1 for every 5 (Poise + Poise Count) (Max 2)\n[Before Attack] If this unit has Thunderer, Atk Weight +1 and deal +15% damage\n[Before Attack] If this unit has Higher Thunderer, Atk Weight +2 and deal +27% damage\n[After Attack] Gain 5 Thunderer\n$ If this unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<2>If this unit has Thunderer, deal +(Poise)% damage on Critical Hit (Max 20%)\nIf this unit has Higher Thunderer, deal +(Poise + Poise Count)% damage on Critical Hit (Max 40%)\n[On Hit] Inflict 2 Sinking",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 8,
@@ -7654,7 +7754,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "To Remain Oneself [宁作吾]",
-					"Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 3 Poise and +3 Poise Count\n[Before Attack] If unit has Thunderer or Higher Thunderer, Atk Weight +1, Base Power +1, Coin Power +1\n[After Attack] Gain 5 Thunderer\n$ If unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf unit has Thunderer, deal +(Poise / 2)% damage on Critical Hit (Max 30%)\nIf unit has Higher Thunderer, deal +((Poise + Poise Count_ / 2)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
+					"Description": "[Indiscriminate] Targets randomly\n[On Use] Gain 3 Poise and +3 Poise Count\n[Before Attack] If this unit has Thunderer or Higher Thunderer, Atk Weight +1, Base Power +1, Coin Power +1\n[After Attack] Gain 5 Thunderer\n$ If this unit has Thunderer or Higher Thunderer, consume all Stacks and gain 5 Higher Thunderer\n<1>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 10% of damage dealt (Max 10)\n<2>[Unbreakable Coin]\n[On Hit] Deal bonus Pride damage by 15% of damage dealt (Max 15)\n<3>[Unbreakable Coin]\nIf this unit has Thunderer, deal +(Poise / 2)% damage on Critical Hit (Max 30%)\nIf this unit has Higher Thunderer, deal +((Poise + Poise Count_ / 2)% damage on Critical Hit (Max 60%)\n[On Hit] Inflict 2 Sinking and +2 Sinking Count\n[On Hit] Deal bonus Pride damage by 25% of damage dealt (Max 25)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 2,
@@ -7796,7 +7896,7 @@
 				},
 				"Passive": {
 					"Name": "Crying Tears",
-					"Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
+					"Description": "If the target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
 					"MiscTags": [
 						"Party Sin DMG Up",
 						"Party Damage Type DMG Up"
@@ -7882,7 +7982,7 @@
 				},
 				"Passive": {
 					"Name": "Crying Tears",
-					"Description": "If target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
+					"Description": "If the target is defeated after this unit's Attack or Counter Skills (Once per turn):\n$ Gain 2 Haste next turn\n$ All allies, including this unit gain 1 DMG Up to the Damage Type and Affinity of the activating Skill\n$ Inflict 1 Attack Power Down to all enemies next turn\n\nWhen this unit dies (Once per turn):\n$ Apply 1 Gluttony DMG Up and 1 Pierce DMG Up to all allies next turn\n$ Inflict 1 Attack Power Down to all enemies next turn",
 					"MiscTags": [
 						"Party Sin DMG Up",
 						"Party Damage Type DMG Up"
@@ -8511,7 +8611,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Move-in Reg.",
-					"Description": "[Indiscriminate] Prioritizes targets with the most HP\nCoin Power +1 for every 6 Burn on main target (Max 3)\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 3) Charge Count (Max 10)\n$ At 5+ Envy Reson, gain +10 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 60%)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>If target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count\n[On Kill] Gain +2 Charge Count",
+					"Description": "[Indiscriminate] Prioritizes targets with the most HP\nCoin Power +1 for every 6 Burn on main target (Max 3)\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 3) Charge Count (Max 10)\n$ At 5+ Envy Reson, gain +10 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 60%)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>If the target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count\n[On Kill] Gain +2 Charge Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -8574,7 +8674,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Move-in Reg.",
-					"Description": "[Indiscriminate] Prioritizes targets with the most HP\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 2) Charge Count (Max 8)\n$ At 5+ Envy Reson, gain +8 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 55%)\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>If target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~2 Charge Count\n[On Kill] Gain +2 Charge Count",
+					"Description": "[Indiscriminate] Prioritizes targets with the most HP\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 2) Charge Count (Max 8)\n$ At 5+ Envy Reson, gain +8 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 55%)\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>If the target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~2 Charge Count\n[On Kill] Gain +2 Charge Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -10270,7 +10370,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Gain (Highest Reson + 5) Tremor Count (Max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst twice; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "If the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Gain (Highest Reson + 5) Tremor Count (Max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst twice; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -10296,7 +10396,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf main target is in Stagger, Low Morale, or Panic, Base Power +2\n[Before Attack] Gain (Highest Reson. + 5) Tremor Count (Max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nIf main target is in Stagger, Low Morale, or Panic, Base Power +2\n[Before Attack] Gain (Highest Reson. + 5) Tremor Count (Max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 18,
@@ -10334,7 +10434,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Gain (Highest Reson + 5) Tremor Count (Max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "If the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Gain (Highest Reson + 5) Tremor Count (Max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -10360,7 +10460,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf main target is in Stagger, Low Morale, or Panic, Base Power +1\n[Before Attack] Gain (Highest Reson. + 5) Tremor Count (Max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nIf main target is in Stagger, Low Morale, or Panic, Base Power +1\n[Before Attack] Gain (Highest Reson. + 5) Tremor Count (Max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 18,
@@ -10747,7 +10847,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "What is Cast",
-					"Description": "If target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed\n[On Hit] Gain +2 SP Heal Efficiency next turn\n[On Hit] Gain -2 SP Loss Efficiency next turn",
+					"Description": "If the target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed\n[On Hit] Gain +2 SP Heal Efficiency next turn\n[On Hit] Gain -2 SP Loss Efficiency next turn",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 15,
@@ -10781,7 +10881,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "What is Cast",
-					"Description": "If target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed",
+					"Description": "If the target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 15,
@@ -10813,7 +10913,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "What is Cast",
-					"Description": "If target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed",
+					"Description": "If the target's HP is above 50%, +30% damage\n<1>[On Hit] Inflict 4 Bleed",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 15,
@@ -11036,7 +11136,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Rime Shank",
-					"Description": "If target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +5 Sinking Count",
+					"Description": "If the target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +5 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 15,
@@ -11059,7 +11159,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Rime Shank",
-					"Description": "[Indiscriminate] Targets the unit with the most HP\nIf target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +8 Sinking Count",
+					"Description": "[Indiscriminate] Targets the unit with the most HP\nIf the target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +8 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 21,
@@ -11083,7 +11183,7 @@
 				},
 				"Passive": {
 					"Name": "Coldness",
-					"Description": "On hit, if target has 5+ Sinking, inflict 1 Bind and Attack Power Down. (3 times per unit)",
+					"Description": "On hit, if the target has 5+ Sinking, inflict 1 Bind and Attack Power Down. (3 times per unit)",
 					"MiscTags": [
 						"Bind",
 						"Attack Power Down"
@@ -11095,7 +11195,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Rime Shank",
-					"Description": "If target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict +3 Sinking Count",
+					"Description": "If the target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict +3 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 15,
@@ -11118,7 +11218,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Rime Shank",
-					"Description": "[Indiscriminate] Targets the unit with the most HP\nIf target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict +6 Sinking Count",
+					"Description": "[Indiscriminate] Targets the unit with the most HP\nIf the target's HP is above 50%, +30% damage\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Inflict +6 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 21,
@@ -11140,7 +11240,7 @@
 				},
 				"Passive": {
 					"Name": "Coldness",
-					"Description": "On hit, if target has 5+ Sinking, inflict 1 Bind and Attack Power Down. (3 times per unit)",
+					"Description": "On hit, if the target has 5+ Sinking, inflict 1 Bind and Attack Power Down. (3 times per unit)",
 					"MiscTags": [
 						"Bind",
 						"Attack Power Down"
@@ -11657,7 +11757,7 @@
 				},
 				"Passive": {
 					"Name": "Iron Stake against the Heart",
-					"Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
+					"Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf the target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
 					"MiscTags": [
 						"Defense Level Down",
 						"Bleed Potency",
@@ -11720,7 +11820,7 @@
 				},
 				"Passive": {
 					"Name": "Iron Stake against the Heart",
-					"Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
+					"Description": "When inflicting Bleed or Unique Bleed against an enemy with Base Attack Skills, inflict 1 Defense Level Down (Once per turn)\nIf the target has Bleed or Unique Bleed, inflict additional 2 Bleed (Once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 Curse against the target enemy (2 times per turn)",
 					"MiscTags": [
 						"Defense Level Down",
 						"Bleed Potency",
@@ -12334,7 +12434,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Impending Day",
-					"Description": "If target's HP is below 25%, +40% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
+					"Description": "If the target's HP is below 25%, +40% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 28,
@@ -12356,7 +12456,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Impending Day",
-					"Description": "[Indiscriminate] Targets randomly\nIf target's HP is below 25%, +50% damage\n<1>[Failed Kill] Gain 10 Bleed next turn\n[Failed Kill] Gain 3 Attack Power Up next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target's HP is below 25%, +50% damage\n<1>[Failed Kill] Gain 10 Bleed next turn\n[Failed Kill] Gain 3 Attack Power Up next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 28,
@@ -12388,7 +12488,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Impending Day",
-					"Description": "If target's HP is below 25%, +20% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
+					"Description": "If the target's HP is below 25%, +20% damage\n<1>[On Kill] Gain 1 Attack Power Up next turn\n[On Kill] Heal all allies for 15% of their max HP",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 28,
@@ -12410,7 +12510,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Impending Day",
-					"Description": "[Indiscriminate] Targets randomly\nIf target's HP is below 25%, +25% damage\n<1>[Failed Kill] Gain 10 Bleed next turn\n[Failed Kill] Gain 3 Attack Power Up next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target's HP is below 25%, +25% damage\n<1>[Failed Kill] Gain 10 Bleed next turn\n[Failed Kill] Gain 3 Attack Power Up next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 28,
@@ -12471,7 +12571,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Lifetime Stew",
-					"Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
+					"Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if the target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 18,
@@ -12532,7 +12632,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Lifetime Stew",
-					"Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
+					"Description": "[Indiscriminate] Targets the unit with the least HP\nIf the target is an ally, this deals 0 damage\n<1>[Heads Hit] If the target is an ally, heal them for 10% of user's max HP\n[Tails Hit] Inflict 7 Burn; if the target is an ally, give 2 Haste and 1 E.G.O Resource Amp next turn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 18,
@@ -12622,7 +12722,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Hex Nail",
-					"Description": "[Before Attack] For every 3 Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 2 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Curse, inflict 1 Clash Power Down (Once per turn)\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
+					"Description": "[Before Attack] For every 3 Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 2 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Curse, inflict 1 Clash Power Down (Once per turn)\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 9,
@@ -12649,7 +12749,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Hex Nail",
-					"Description": "[Indiscriminate] Targets randomly\n[After Attack] If target has Curse, immediately activate it twice and reduce it by 2\n<1>[Tails Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 4 Curse\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Envy Reson, including this Skill, inflict 1 Clash Power Down (Once per turn)\n[Tails Hit] Inflict 2 Bind next turn (Once per turn)\n[Tails Hit] Inflict 2 Defense Level Down next turn (Once per turn)",
+					"Description": "[Indiscriminate] Targets randomly\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Tails Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 4 Curse\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Envy Reson, including this Skill, inflict 1 Clash Power Down (Once per turn)\n[Tails Hit] Inflict 2 Bind next turn (Once per turn)\n[Tails Hit] Inflict 2 Defense Level Down next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 25,
@@ -12688,7 +12788,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Hex Nail",
-					"Description": "[Before Attack] At 4+ Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 3 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
+					"Description": "[Before Attack] At 4+ Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 3 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 7,
@@ -12714,7 +12814,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Hex Nail",
-					"Description": "[Indiscriminate] Targets randomly\n[After Attack] If target has Curse, immediately activate it twice and reduce it by 2\n<1>[Tails Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 4 Curse\n[On Hit] Inflict 3 Nails\n[Tails Hit] Inflict 2 Bind next turn (Once per turn)",
+					"Description": "[Indiscriminate] Targets randomly\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Tails Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 4 Curse\n[On Hit] Inflict 3 Nails\n[Tails Hit] Inflict 2 Bind next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 22,
@@ -12927,7 +13027,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "9:2",
-					"Description": "[Before Attack] At 4+ Lust Reson, Atk Weight +1\n[Before Attack] At 4+ Highest Lust A-Reson, additional Atk Weight +1\n<1>[On Hit] If target has no Burn, inflict 4 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If target has 10+ Burn, inflict 1 Attack Power Down and 1 Defense Power Down next turn",
+					"Description": "[Before Attack] At 4+ Lust Reson, Atk Weight +1\n[Before Attack] At 4+ Highest Lust A-Reson, additional Atk Weight +1\n<1>[On Hit] If the target has no Burn, inflict 4 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If the target has 10+ Burn, inflict 1 Attack Power Down and 1 Defense Power Down next turn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 26,
@@ -12951,7 +13051,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "9:2",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Lust Reson, Atk Weight +1\n[Before Attack] At 4+ Highest Lust A-Reson, additional Atk Weight +1\n<1>[On Hit] If target has no Burn, inflict 6 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If target has 10+ Burn, inflict 2 Lust Fragility next turn",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Lust Reson, Atk Weight +1\n[Before Attack] At 4+ Highest Lust A-Reson, additional Atk Weight +1\n<1>[On Hit] If the target has no Burn, inflict 6 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If the target has 10+ Burn, inflict 2 Lust Fragility next turn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 33,
@@ -12986,7 +13086,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "9:2",
-					"Description": "[Before Attack] At 4+ Lust Reson, Atk Weight +1\n<1>[On Hit] If target has no Burn, inflict 4 Burn\n[On Hit] Inflict 4 Burn",
+					"Description": "[Before Attack] At 4+ Lust Reson, Atk Weight +1\n<1>[On Hit] If the target has no Burn, inflict 4 Burn\n[On Hit] Inflict 4 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 26,
@@ -13008,7 +13108,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "9:2",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Lust Reson, Atk Weight +1\n<1>[On Hit] If target has no Burn, inflict 6 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If target has 10+ Burn, inflict 1 Lust Fragility next turn",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 4+ Lust Reson, Atk Weight +1\n<1>[On Hit] If the target has no Burn, inflict 6 Burn\n[On Hit] Inflict 4 Burn\n[Tails Hit] If the target has 10+ Burn, inflict 1 Lust Fragility next turn",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 33,
@@ -13100,7 +13200,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Harmony",
-					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 15 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 15 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 14,
@@ -13132,7 +13232,7 @@
 				},
 				"Passive": {
 					"Name": "That... was Indeed a Rhythm",
-					"Description": "Turn Start: Gain 2 Rhythm\nOn Target Kill: This unit heals 5% HP and heals 5 SP (Once per turn)\n$ If target was killed by E.G.O Skill - Harmony, double the amount this effect heals\nTurn End: If this unit lost SP this turn, heal (4 + sum of Burn and Bleed on all enemies / 10) SP (Max 10; rounded down)",
+					"Description": "Turn Start: Gain 2 Rhythm\nOn Target Kill: This unit heals 5% HP and heals 5 SP (Once per turn)\n$ If the target was killed by E.G.O Skill - Harmony, double the amount this effect heals\nTurn End: If this unit lost SP this turn, heal (4 + sum of Burn and Bleed on all enemies / 10) SP (Max 10; rounded down)",
 					"MiscTags": [
 						"Heal HP",
 						"Heal SP"
@@ -13171,7 +13271,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Harmony",
-					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 12 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 12 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 14,
@@ -13203,7 +13303,7 @@
 				},
 				"Passive": {
 					"Name": "That... was Indeed a Rhythm",
-					"Description": "Turn Start: Gain 2 Rhythm\nOn Target Kill: This unit heals 5% HP and heals 5 SP (Once per turn)\n$ If target was killed by E.G.O Skill - Harmony, double the amount this effect heals\nTurn End: If this unit lost SP this turn, heal (4 + sum of Burn and Bleed on all enemies / 10) SP (Max 10; rounded down)",
+					"Description": "Turn Start: Gain 2 Rhythm\nOn Target Kill: This unit heals 5% HP and heals 5 SP (Once per turn)\n$ If the target was killed by E.G.O Skill - Harmony, double the amount this effect heals\nTurn End: If this unit lost SP this turn, heal (4 + sum of Burn and Bleed on all enemies / 10) SP (Max 10; rounded down)",
 					"MiscTags": [
 						"Heal HP",
 						"Heal SP"
@@ -13406,7 +13506,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "To Páthos Máthos",
-					"Description": "If target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture\n[On Kill] Give 1 Attack Power Up to a random ally next turn",
+					"Description": "If the target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture\n[On Kill] Give 1 Attack Power Up to a random ally next turn",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 20,
@@ -13438,7 +13538,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "To Páthos Máthos",
-					"Description": "If target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture",
+					"Description": "If the target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 20,
@@ -13469,7 +13569,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "To Páthos Máthos",
-					"Description": "If target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture",
+					"Description": "If the target's HP is below 50%, +30% damage\n<1>[On Hit] Inflict 4 Rupture",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 20,
@@ -13580,7 +13680,7 @@
 				},
 				"Passive": {
 					"Name": "Loser's Penalty: Voodoo",
-					"Description": "On Clash Win, deal 4 Envy damage to target\n$ At less than 33% HP, or if target has 33%- HP, inflict 1 Power Down next turn (Once per turn)\n$ Does not inflict Power Down in the same turn the E.G.O Gift Voodoo Doll activated",
+					"Description": "On Clash Win, deal 4 Envy damage to target\n$ At less than 33% HP, or if the target has 33%- HP, inflict 1 Power Down next turn (Once per turn)\n$ Does not inflict Power Down in the same turn the E.G.O Gift Voodoo Doll activated",
 					"MiscTags": [
 						"Power Down"
 					]
@@ -13646,7 +13746,7 @@
 				},
 				"Passive": {
 					"Name": "Loser's Penalty: Voodoo",
-					"Description": "On Clash Win, deal 4 Envy damage to target\n$ At less than 33% HP, or if target has 33%- HP, inflict 1 Power Down next turn (Once per turn)\n$ Does not inflict Power Down in the same turn the E.G.O Gift Voodoo Doll activated",
+					"Description": "On Clash Win, deal 4 Envy damage to target\n$ At less than 33% HP, or if the target has 33%- HP, inflict 1 Power Down next turn (Once per turn)\n$ Does not inflict Power Down in the same turn the E.G.O Gift Voodoo Doll activated",
 					"MiscTags": [
 						"Power Down"
 					]
@@ -14488,7 +14588,7 @@
 				},
 				"Passive": {
 					"Name": "Seven Bullets",
-					"Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
+					"Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf the target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
 					"MiscTags": [
 						"Burn Potency",
 						"Dark Flame"
@@ -14554,7 +14654,7 @@
 				},
 				"Passive": {
 					"Name": "Seven Bullets",
-					"Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
+					"Description": "On Hit with Base Attack Skills: Inflict (Magic Bullet / 3) Burn (3 times per turn)\nFor Lobotomy E.G.O::Magic Bullet, inflict Burn equal to Magic Bullet instead (3 times per turn)\nIf the target has 30+ Burn, inflict 1 Dark Flame instead (2 times per turn)",
 					"MiscTags": [
 						"Burn Potency",
 						"Dark Flame"
@@ -14646,7 +14746,7 @@
 				},
 				"Passive": {
 					"Name": "Grand Welcome",
-					"Description": "After Attack from this unit: If target is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random affinity (3 times per turn)",
+					"Description": "After Attack from this unit: If the target is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random affinity (3 times per turn)",
 					"MiscTags": [
 						"Gain Resources"
 					]
@@ -14704,7 +14804,7 @@
 				},
 				"Passive": {
 					"Name": "Grand Welcome",
-					"Description": "After Attack from this unit: If target is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random affinity (3 times per turn)",
+					"Description": "After Attack from this unit: If the target is Staggered or defeated, gain +1 Pride E.G.O resource and +1 E.G.O resource for 1 other random affinity (3 times per turn)",
 					"MiscTags": [
 						"Gain Resources"
 					]
@@ -15172,7 +15272,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Bygone Days",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has Curse, deal +50% damage\n<1>[On Hit] Inflict 2 Gloom Fragility, inflict 1 additional Gloom Fragility for every 2 Gloom Reson (Max 2)\n[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 3 Curse",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has Curse, deal +50% damage\n<1>[On Hit] Inflict 2 Gloom Fragility, inflict 1 additional Gloom Fragility for every 2 Gloom Reson (Max 2)\n[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 3 Curse",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 27,
@@ -15194,7 +15294,7 @@
 				},
 				"Passive": {
 					"Name": "If I Could Go Back...",
-					"Description": "After Attack: If target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 (Sinking + Sinking Count) (Max 3)\nIf there are 2 or more 'least-owned E.G.O resource', select 1 of those Affinities at random",
+					"Description": "After Attack: If the target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 (Sinking + Sinking Count) (Max 3)\nIf there are 2 or more 'least-owned E.G.O resource', select 1 of those Affinities at random",
 					"MiscTags": [
 						"Gain Resources"
 					]
@@ -15252,7 +15352,7 @@
 				},
 				"Passive": {
 					"Name": "If I Could Go Back...",
-					"Description": "After Attack: If target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 (Sinking + Sinking Count) (Max 3)\nIf there are 2 or more 'least-owned E.G.O resource', select 1 of those Affinities at random",
+					"Description": "After Attack: If the target is defeated after this unit's attack, gain 1 E.G.O resource for the least-owned E.G.O resource.\nGain 1 additional E.G.O resource for every 5 (Sinking + Sinking Count) (Max 3)\nIf there are 2 or more 'least-owned E.G.O resource', select 1 of those Affinities at random",
 					"MiscTags": [
 						"Gain Resources"
 					]
@@ -15577,7 +15677,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Reson)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the Highest Reson next turn",
+					"Description": "If the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Reson)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If the target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the Highest Reson next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -15606,7 +15706,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 20 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Reson)% missing HP on self (Max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and 2 Fragility of the Highest Reson next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 20 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + Highest Reson)% missing HP on self (Max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If the target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and 2 Fragility of the Highest Reson next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 22,
@@ -15646,7 +15746,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Reson)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
+					"Description": "If the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[After Attack] At max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Reson)% missing HP on self (Max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If the target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -15674,7 +15774,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Reson)% missing HP on self (Max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal +1% damage for every SP below 0 (Max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + Highest Reson)% missing HP on self (Max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If the target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 22,
@@ -15917,7 +16017,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
+						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,
@@ -15953,7 +16053,7 @@
 					"SkillSlot": "EC0",
 					"Name": "Unbrilliant Glory",
 					"DisplayName": "Unbrilliant Glory - Flowing",
-					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +30% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +160% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +30% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +160% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 20,
@@ -15984,7 +16084,7 @@
 				},
 				"Passive": {
 					"Name": "Wanderer",
-					"Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
+					"Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If this unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
 					"MiscTags": [
 						"Man in Scabbard",
 						"Stagger Recovery"
@@ -16022,7 +16122,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
+						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,
@@ -16058,7 +16158,7 @@
 					"SkillSlot": "EC0",
 					"Name": "Unbrilliant Glory",
 					"DisplayName": "Unbrilliant Glory - Flowing",
-					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +25% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +120% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +25% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +120% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 20,
@@ -16089,7 +16189,7 @@
 				},
 				"Passive": {
 					"Name": "Wanderer",
-					"Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
+					"Description": "Gain Man in Scabbard:\n$ 1 for every 3 HP damage taken from getting hit\n$ 1 for every 5 Shield HP damage taken from getting hit\n$ 10 per Staggered ally when allies become Staggered\n$ 20 per dead ally when allies are killed\nTurn Start: If this unit is Staggered due to damage and at 40 Man in Scabbard, fix all Resistance values to 2 for the turn and recover from Stagger (Once per Encounter, excludes forced Stagger)",
 					"MiscTags": [
 						"Man in Scabbard",
 						"Stagger Recovery"

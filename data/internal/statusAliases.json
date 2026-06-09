@@ -1687,7 +1687,7 @@
 			"defense level down",
 			"unrelenting",
 			"tarnished blood",
-			"skill change"
+			"self follow up"
 		]
 	},
 	{
@@ -3069,6 +3069,145 @@
 			"max speed",
 			"final power up",
 			"self hp damage"
+		]
+	},
+	{
+		"entry": "trussed [hong lu]",
+		"aliases": [
+			"min speed down",
+			"max speed down",
+			"pride damage amp"
+		]
+	},
+	{
+		"entry": "avulsion wound",
+		"aliases": [
+			"bleed potency",
+			"bind"
+		]
+	},
+	{
+		"entry": "prisoner transport arrangements",
+		"aliases": [
+			"clash power up",
+			"bleed potency",
+			"poise potency"
+		]
+	},
+	{
+		"entry": "field poise count",
+		"aliases": [
+			"party poise count",
+			"enemy poise count"
+		]
+	},
+	{
+		"entry": "field slash dmg up",
+		"aliases": [
+			"party slash dmg up",
+			"enemy slash dmg up"
+		]
+	},
+	{
+		"entry": "field slash fragility",
+		"aliases": [
+			"party slash fragility",
+			"slash fragility"
+		]
+	},
+	{
+		"entry": "party slash fragility",
+		"aliases": [
+			"ally slash fragility",
+			"self slash fragility"
+		]
+	},
+	{
+		"entry": "drink to the fallen",
+		"aliases": [
+			"poise potency",
+			"critical damage amp",
+			"clash power up"
+		]
+	},
+	{
+		"entry": "resentment",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"heal hp"
+		]
+	},
+	{
+		"entry": "resentful scabbard",
+		"aliases": [
+			"growing resentment",
+			"ally sword of the homeland - the true essence",
+			"unrelenting",
+			"self clash power down",
+			"poise potency"
+		]
+	},
+	{
+		"entry": "growing resentment",
+		"aliases": [
+		]
+	},
+	{
+		"entry": "ally sword of the homeland - the true essence",
+		"aliases": [
+			"ally final power up",
+			"ally haste"
+		]
+	},
+	{
+		"entry": "ally sword of the homeland - rending",
+		"aliases": [
+			"ally final power up"
+		]
+	},
+	{
+		"entry": "ally sword of the homeland - penetrating",
+		"aliases": [
+			"ally final power up"
+		]
+	},
+	{
+		"entry": "swordplay of the homeland",
+		"aliases": [
+			"plus coin power",
+			"damage amp",
+			"critical damage amp"
+		]
+	},
+	{
+		"entry": "ally swordplay of the homeland",
+		"aliases": [
+			"ally plus coin power",
+			"ally damage amp",
+			"ally critical damage amp"
+		]
+	},
+	{
+		"entry": "dokkaebi arms",
+		"aliases": [
+			"damage reduction",
+			"haste",
+			"poise count"
+		]
+	},
+	{
+		"entry": "bearing of a salsu",
+		"aliases": [
+			"offense level up",
+			"poise potency"
+		]
+	},
+	{
+		"entry": "mook workshop - ye [-] stance ii bladedraw / thrust force: dokkaebi fire",
+		"aliases": [
+			"slash damage amp",
+			"haste"
 		]
 	}
 ]
