@@ -27910,16 +27910,18 @@
 		"DWorld": "???",
 		"Season": 7,
 		"Traits": [
+			"Fixer",
+			"S Corp."
 		],
-		"Speed": [ 0, 0 ],
-		"BaseHP": 0,
-		"GrowthHP": 0,
-		"StaggerThresholds": [ 0 ],
+		"Speed": [ 4, 6 ],
+		"BaseHP": 84,
+		"GrowthHP": 2.9,
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": -0.5,
+			"Pierce": 2,
+			"Blunt": 1
 		},
 		"UptieTiers": [
 			{
@@ -27927,17 +27929,18 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Constricting Ohra Bonds",
-					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Bleed on target)\n[On Use] If the target has Trussed [Hong Lu], Final Power +X\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n[On Hit] Inflict Bleed Count\n<2>[On Hit] Inflict Bleed\n<3>[On Hit] Inflict Bind next turn\n[On Hit] If the target has Trussed [Hong Lu], increase Trussed Stack on target",
+					"Description": "[On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (Max 2)\n[On Use] If the target has Trussed [Hong Lu], Final Power +1\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 4 Poise\n[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 1 Bind next turn\n[On Hit] If the target has Trussed [Hong Lu], inflict 1 Trussed [Hong Lu]",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 2,
+					"CoinPower": 3,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
@@ -27953,18 +27956,19 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Avulsion Slash",
-					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Bleed on target)\n[On Use] If the target has Trussed [Hong Lu], Final Power +X\n[On Use] Gain Poise Count\n<1>[On Hit] Gain Poise\n[On Hit] Inflict Bleed\n<2>[On Hit] If the target has X+ Trussed [Hong Lu], consume Trussed [Hong Lu] on target to Reuse this Coin\n[On Crit] Inflict Avulsion Wound\n[Reuse - On Hit] Gain Haste next turn\n[Reuse - On Hit] Activate Bleed on target; target loses Bleed Count",
+					"Description": "[On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (Max 2)\n[On Use] If the target has Trussed [Hong Lu], Final Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 3 Poise\n[On Hit] Inflict 2 Bleed\n<2>[On Hit] If the target has 2+ Trussed [Hong Lu], consume 1 Trussed [Hong Lu] on target to Reuse this Coin (Once per Skill)\n[On Crit] Inflict 1 Avulsion Wound\n[Reuse - On Hit] Gain 2 Haste next turn\n[Reuse - On Hit] Activate Bleed on target; target loses 1 Bleed Count",
 					"DamageType": "Slash",
 					"SinType": "Lust",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 6,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
-					"CoinCountModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinModifier": 2,
+					"CoinCountModifier": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -27981,17 +27985,18 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Hunter's Scouring",
-					"Description": "[On Use] Coin Power +X for every Y (Poise on self + Bleed on target)\n[On Use] If the target has Avulsion Wound, deal more damage\n[On Use] If the target has Trussed [Hong Lu], convert all Coins in this Skill to Unbreakable Coins, Final Power +X, and the final Coin applies the following On Hit:\n$ Inflict Bleed Count\n$ Inflict Attack Power Down next turn\n[On Use] Gain Poise\n[On Use] Gain Poise Count\n<1>[On Hit] Inflict Bind next turn\n[On Hit] If the target does not have Trussed [Hong Lu], inflict Trussed [Hong Lu]\n<2>[On Hit] Inflict Bleed Count\n<3>[On Hit] Inflict Bleed\n<4>Deal more damage on Critical Hit\n[On Hit] Inflict Bleed\n[On Hit] Inflict Avulsion Wound\n[On Crit] Inflict Avulsion Wound\n[On Crit] Inflict Pride Fragility next turn",
+					"Description": "[On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (Max 2)\n[On Use] If the target has Avulsion Wound, deal +20% damage\n[On Use] If the target has Trussed [Hong Lu], convert all Coins in this Skill to Unbreakable Coins, Final Power +1, and the final Coin applies the following On Hit:\n$ Inflict +2 Bleed Count\n$ Inflict 1 Attack Power Down next turn\n[On Use] Gain 5 Poise\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Bind next turn\n[On Hit] If the target does not have Trussed [Hong Lu], inflict Trussed [Hong Lu]\n<2>[On Hit] Inflict +2 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>Deal +50% damage on Critical Hit\n[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 1 Avulsion Wound\n[On Crit] Inflict 1 Avulsion Wound\n[On Crit] Inflict 1 Pride Fragility next turn",
 					"DamageType": "Slash",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 4,
+					"CoinPower": 3,
 					"CoinCount": 4,
-					"Level": 0,
+					"Level": 4,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 4,
 					"AttackWeight": 1,
@@ -28012,16 +28017,17 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Throwing the Ohra Bond",
-					"Description": "[Clashable Counter]\n[On Use] At X+ (Poise on self + Bleed on target), Clash Power +X\n[On Use] Gain Poise\n[Clash Win] Gain Poise Count\n<1>[Unbreakable Coin]\n[On Hit] Inflict Trussed [Hong Lu]\n[On Hit without Cracking] Inflict Bleed",
+					"Description": "[Clashable Counter]\n[On Use] At 6+ (Poise on self + Bleed on target), Clash Power +2\n[On Use] Gain 5 Poise\n[Clash Win] Gain +3 Poise Count\n<1>[Unbreakable Coin]\n[On Hit] Inflict Trussed [Hong Lu]\n[On Hit without Cracking] Inflict 1 Bleed",
 					"DamageType": "Slash",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 8,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
+					"ClashPowerModifier": 2,
+					"ClashPowerModifierStatuses": 1,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
 					"UnbreakableCoinCount": 1,
@@ -28051,29 +28057,29 @@
 					}
 				],
 				"PassiveSkill": {
-					"Name": "Scouring Hunterband [-]",
-					"Description": "If this unit's Speed is faster than the target's, deal +(Speed difference x X)% damage\n$ If the target has Trussed [Hong Lu], double the above damage increase effect\nCombat Start: Deal more damage for every ally that has a Slash Pride Skill equipped this turn",
+					"Name": "Scouring Hunterband [推刷巾]",
+					"Description": "If this unit's Speed is faster than the target's, deal +(Speed difference x 2)% damage (Max 10%)\n$ If the target has Trussed [Hong Lu], double the above damage increase effect (Max 20%)\nCombat Start: Deal +5% damage for every ally that has a Slash Pride Skill equipped this turn (Max 30%)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
 					"MiscTags": [
 
 					]
 				},
 				"SupportSkill": {
 					"Name": "Spiteful Pursuit",
-					"Description": "When 1 ally with the earliest Deployment order attacks an enemy that has Bind, deal more damage",
+					"Description": "When 1 ally with the earliest Deployment order attacks an enemy that has Bind, deal +10% damage",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Pride",
+							"ResourceCount": 5
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Damage Amp"
 					]
@@ -36834,16 +36840,20 @@
 		"DWorld": "???",
 		"Season": 7,
 		"Traits": [
+			"Limbus Company",
+			"LCD",
+			"Blade Lineage",
+			"Syndicate"
 		],
-		"Speed": [ 0, 0 ],
-		"BaseHP": 0,
-		"GrowthHP": 0,
-		"StaggerThresholds": [ 0 ],
+		"Speed": [ 4, 6 ],
+		"BaseHP": 85,
+		"GrowthHP": 2.96,
+		"StaggerThresholds": [ 40 ],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -100,
-			"Pierce": -100,
-			"Blunt": -100
+			"Slash": -0.5,
+			"Pierce": 1,
+			"Blunt": 2
 		},
 		"UptieTiers": [
 			{
@@ -36851,23 +36861,23 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Rending Arts",
-					"Description": "[On Use] At X+ Poise, Coin Power +Y\n[On Use] Clash Power +X for every Y Bleed on target\n[On Use] At X+ Haste, Clash Power +Y\n[On Use] Gain Poise Count\n[Attack End] If this unit has Haste, gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<1>[On Hit] Gain Poise\n<2>[On Hit] Gain Poise\n[On Hit] Inflict Bleed\n[On Hit] If this unit has Dokkaebi Arms and X+ Haste, Reuse this Coin",
+					"Description": "[On Use] At 5+ Poise, Coin Power +1\n[On Use] Clash Power +1 for every 5 Bleed on target (Max 2)\n[On Use] At 3+ Haste, Clash Power +1\n[On Use] Gain +2 Poise Count\n[Attack End] If this unit has Haste, gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire (Once per turn)\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed\n[On Hit] If this unit has Dokkaebi Arms and 3+ Haste, Reuse this Coin (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 2,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
-					"CoinCountModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinModifier": 1,
+					"CoinCountModifier": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Poise Count",
-						"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 						"Poise Potency",
 						"Bleed Potency"
 					]
@@ -36875,23 +36885,23 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Acupuncture",
-					"Description": "At X+ Poise, Coin Power +Y\n[On Use] Clash Power +X for every Y Bleed on target\n[On Use] At X+ Haste, Clash Power +Y\n[On Use] Gain Poise Count\n[Attack End] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every X Haste on self\n<1>[On Hit] Gain Poise\n[On Hit] Inflict Bleed\n<2>[On Hit] Gain Poise\n[On Hit] Inflict Bleed\n<3>[On Hit] Inflict Bleed Count\n[On Hit] If this unit has Dokkaebi Arms and X+ Haste, Reuse this Coin\n[On Crit] Gain Haste next turn",
+					"Description": "At 5+ Poise, Coin Power +1\n[On Use] Clash Power +1 for every 5 Bleed on target (Max 2)\n[On Use] At 3+ Haste, Clash Power +2\n[On Use] Gain +3 Poise Count\n[Attack End] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (Max 2, once per turn)\n<1>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict +1 Bleed Count\n[On Hit] If this unit has Dokkaebi Arms and 3+ Haste, Reuse this Coin (Once per turn)\n[On Crit] Gain 2 Haste next turn (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 3,
+					"CoinPower": 4,
 					"CoinCount": 3,
-					"Level": 0,
+					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
-					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
-					"CoinCountModifier": 0,
+					"ClashPowerModifier": 4,
+					"CoinModifier": 1,
+					"CoinCountModifier": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Poise Count",
-						"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 						"Poise Potency",
 						"Bleed Potency",
 						"Bleed Count",
@@ -36900,13 +36910,13 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "To Claim Their Bones",
-						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal more damage for every X% missing HP on self\nDeal more damage on Critical Hit for every X Haste on self\n[On Use] Deal more damage for every X Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self\n[On Use] Deal more damage on Critical Hit for every X Poise on self\n<1>[On Hit] Gain Poise\n[On Hit] Inflict Slash Fragility\n<2>[On Hit] Inflict Bleed\n[On Hit] Inflict Paralyze next turn",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (Max 20%)\nDeal +3% damage on Critical Hit for every Haste on self (Max 15%)\n[On Use] Deal +1% damage for every Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self (Max 15%)\n[On Use] Deal +1.5% damage on Critical Hit for every Poise on self (Max 30%)\n<1>[On Hit] Gain 3 Poise\n[On Hit] Inflict 1 Slash Fragility\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Paralyze next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 5,
+						"CoinPower": 4,
 						"CoinCount": 2,
-						"Level": 0,
+						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
@@ -36927,26 +36937,26 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Lucent Rippling Flame",
-					"Description": "Deal more damage on Critical Hit for every X Poise on self\n[On Use] Final Power +X for every Y Haste on self\n[On Use] Coin Power +X for every Y (Poise on self + Bleed on target)\n[On Use] At X+ Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, convert all Coins into Unbreakable Coins\n[On Use] Gain Poise\n[On Use] Gain Haste next turn\n[Attack End] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every X Haste on self\n<1>[On Hit] Gain Poise Count\n[On Crit] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<2>[On Hit] Gain Poise\n[On Crit] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<3>Deal more damage on Critical Hit for every X Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n[On Hit] Inflict Bleed\n[On Hit] Inflict Slash Fragility\n[On Crit] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+					"Description": "Deal +1.5% damage on Critical Hit for every Poise on self (Max 30%)\n[On Use] Final Power +1 for every 2 Haste on self (Max 2)\n[On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (Max 2)\n[On Use] At 10+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, convert all Coins into Unbreakable Coins\n[On Use] Gain 3 Poise\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Attack End] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (Max 3, once per turn)\n<1>[On Hit] Gain +3 Poise Count\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<2>[On Hit] Gain 2 Poise\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<3>Deal +2% damage on Critical Hit for every Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire (Max 20%)\n[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Slash Fragility (Once per turn)\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 					"DamageType": "Slash",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
-					"CoinCount": 4,
-					"Level": 0,
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
-					"CoinModifier": 0,
+					"CoinModifier": 2,
 					"CoinCountModifier": 0,
-					"UnbreakableCoinCount": 4,
+					"UnbreakableCoinCount": 3,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Unbreakable Coin",
 						"Poise Potency",
 						"Haste",
-						"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 						"Poise Count",
 						"Bleed Potency",
 						"Slash Fragility"
@@ -36954,28 +36964,27 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Even the Balance - Lucent Rippling Flame",
-						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal more damage on Critical Hit for every X Poise on self\nDeal more damage on Critical Hit for every X Haste on self\n[On Use] Gain Poise Count\n[Attack End] Consume all Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self\n<1>[On Hit] Gain Poise\n[On Crit] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<2>[On Hit] Inflict Bleed\n[On Crit] Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<3>[On Hit] Inflict Bleed\n[On Crit] Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<4>At X+ Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, deal more damage on Critical Hit for every Y excess Stacks\n[On Hit] Inflict Bleed\n[On Crit] If this unit has X+ Haste, Reuse this Coin",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every Poise on self (Max 30%)\nDeal +5% damage on Critical Hit for every Haste on self (Max 25%)\n[On Use] Gain +3 Poise Count\n[Attack End] Consume all Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self\n<1>[On Hit] Gain 3 Poise\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<2>[On Hit] Inflict 1 Bleed\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<3>[On Hit] Inflict 1 Bleed\n[On Crit] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<4>At 15+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, deal +5% damage on Critical Hit for every excess Stack (Max 25%)\n[On Hit] Inflict 1 Bleed\n[On Crit] At 5+ Haste, Reuse this Coin (Once per Skill)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 5,
+						"CoinPower": 3,
 						"CoinCount": 4,
-						"Level": 0,
+						"Level": 4,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 0,
-						"CoinCountModifier": 0,
-						"UnbreakableCoinCount": 4,
+						"CoinCountModifier": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
 							"Unclashable",
 							"Ignore Defense Skill",
 							"Poise Count",
-							"Spend Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+							"Spend Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 							"Poise Potency",
-							"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+							"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 							"Bleed Potency"
 						]
 					}
@@ -36983,18 +36992,20 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "I'll Light the Path Forward",
-					"Description": "[Clashable Guard]\n[Combat Start] Gain Assist Defense\n[On Use] Gain Haste next turn\n[On Use] Gain Poise Count\n[Clash Win] Gain Poise\n[Skill End] If this unit has Haste, gain X Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[On Use] Gain 2 Haste next turn (Once per turn)\n[On Use] Gain +2 Poise Count (Once per turn)\n[Clash Win] Gain 3 Poise\n[Skill End] If this unit has Haste, gain 2 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire (Once per turn)\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Pride",
-					"BasePower": 0,
-					"CoinPower": 0,
+					"BasePower": 5,
+					"CoinPower": 8,
 					"CoinCount": 1,
-					"Level": 0,
+					"Level": 2,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -5,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -37003,22 +37014,23 @@
 						"Haste",
 						"Poise Count",
 						"Poise Potency",
-						"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
 						"Unbreakable Coin"
 					],
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Observing the Stones on the Road",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Heal SP on the target this unit guarded using Assist Defense\n[On Use] Gain Poise\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Heal 5 SP on the target this unit guarded using Assist Defense\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gloom",
-						"BasePower": 0,
-						"CoinPower": 0,
+						"BasePower": 4,
+						"CoinPower": 9,
 						"CoinCount": 1,
-						"Level": 0,
+						"Level": 2,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": -5,
 						"CoinModifier": 0,
 						"CoinCountModifier": 0,
 						"AttackWeight": 1,
@@ -37034,7 +37046,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Demonfire Spinecleaver",
-						"Description": "On Base Attack Skill End, if this unit has X+ Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, activate 'Even the Balance - Lucent Rippling Flame'\nOn Defense Skill Clash Lose, if this unit has X+ Haste, this unit cannot be Staggered from taking damage until Defense Skill End, and activates 'To Claim Their Bones' after being hit (Excluding forced Staggers)",
+						"Description": "On Base Attack Skill End, if this unit has 15+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, activate 'Even the Balance - Lucent Rippling Flame'\nOn Defense Skill Clash Lose, if this unit has 3+ Haste, this unit cannot be Staggered from taking damage until Defense Skill End, and activates 'To Claim Their Bones' after being hit (2 times per turn, excluding forced Staggers)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -37049,7 +37061,7 @@
 					},
 					{
 						"Name": "To Where I Must Return",
-						"Description": "Upon entering the Encounter for the first time, this unit gains Bearing of a Salsu for every X Blade Lineage Identities on the field excluding this unit\nIf X+ Blade Lineage Identities, excluding this unit, are defeated in this Encounter:\n$ Before Skill Use, if this unit did not have Swordplay of the Homeland, gain Swordplay of the Homeland\n$ When this unit gains Poise and Poise Count with its Skill or Coin effects, gain additional Poise and Poise Count\n$ If Y+ Blade Lineage Identities are defeated, gain X more Poise and Poise Count instead",
+						"Description": "Upon entering the Encounter for the first time, this unit gains Bearing of a Salsu for every Blade Lineage Identities on the field excluding this unit (Max 3)\nIf 3+ Blade Lineage Identities, excluding this unit, are defeated in this Encounter:\n$ Before Skill Use, if this unit did not have Swordplay of the Homeland, gain Swordplay of the Homeland\n$ When this unit gains Poise and Poise Count with its Skill or Coin effects, gain 1 additional Poise and Poise Count\n$ If 5+ Blade Lineage Identities are defeated, gain 2 more Poise and Poise Count instead",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -37067,30 +37079,278 @@
 				],
 				"PassiveSkill": {
 					"Name": "Limbus Company Specialized Custom Prosthetic Prototype mk5 - Dokkaebi Arms",
-					"Description": "Combat Start: Gain Dokkaebi Arms and heal X SP for allied Blade Lineage Identities excluding this unit\nCombat Start: If there is an allied Identity at less than X% HP on the field, excluding this unit, gain Assist Defense\nSkill End: Gain Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every X Poise on self",
+					"Description": "Combat Start: Gain Dokkaebi Arms and heal (Pride Reson) SP for allied Blade Lineage Identities excluding this unit\nCombat Start: If there is an allied Identity at less than 50% HP on the field, excluding this unit, gain 1 Assist Defense (Once per turn)\nSkill End: Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every 3 Poise on self (Max 5, 2 times per turn)",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Res",
 					"MiscTags": [
 						"Dokkaebi Arms",
 						"Assist Defense",
-						"Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire"
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire"
 					]
 				},
 				"SupportSkill": {
 					"Name": "Cut Down What Must Be Felled",
-					"Description": "The ally with the fastest Speed deals more damage with Slash Skills\n$ If the said ally has Haste, deal additional damage",
+					"Description": "The ally with the fastest Speed deals +10% damage with Slash Skills\n$ If the said ally has Haste, deal +15% damage using Slash Skills instead",
 					"PassiveResources": [
 						{
-							"ResourceSin": "None",
-							"ResourceCount": -1
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
 						}
 					],
-					"ResourceType": "None",
+					"ResourceType": "Reson",
+					"MiscTags": [
+						"Ally Slash Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Rending Arts",
+					"Description": "[On Use] At 3+ Haste, Clash Power +1\n[On Use] Gain +2 Poise Count\n[Attack End] If this unit has Haste, gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire (Once per turn)\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Poise Potency",
+						"Bleed Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Acupuncture",
+					"Description": "[On Use] At 3+ Haste, Clash Power +2\n[On Use] Gain +3 Poise Count\n[Attack End] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (Max 2, once per turn)\n<1>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed\n<2>[On Hit] Gain 2 Poise\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict +1 Bleed Count\n[On Crit] Gain 2 Haste next turn (Once per turn)",
+					"DamageType": "Slash",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 2,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Poise Count",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+						"Poise Potency",
+						"Bleed Potency",
+						"Bleed Count",
+						"Haste"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "To Claim Their Bones",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (Max 20%)\nDeal +3% damage on Critical Hit for every Haste on self (Max 15%)\n[On Use] Deal +1% damage for every Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self (Max 15%)\n<1>[On Hit] Gain 3 Poise\n[On Hit] Inflict 1 Slash Fragility\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 Paralyze next turn",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Poise Potency",
+							"Slash Fragility",
+							"Bleed Potency",
+							"Paralyze"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Lucent Rippling Flame",
+					"Description": "Deal +1.5% damage on Critical Hit for every Poise on self (Max 30%)\n[On Use] Final Power +1 for every 2 Haste on self (Max 2)\n[On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (Max 2)\n[On Use] At 10+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, convert all Coins into Unbreakable Coins\n[On Use] Gain 3 Poise\n[On Use] Gain 2 Haste next turn (Once per turn)\n[Attack End] Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (Max 3, once per turn)\n<1>[On Hit] Gain +3 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>Deal +2% damage on Critical Hit for every Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire (Max 20%)\n[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Slash Fragility (Once per turn)",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Poise Potency",
+						"Haste",
+						"Poise Count",
+						"Bleed Potency",
+						"Slash Fragility"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Even the Balance - Lucent Rippling Flame",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every Poise on self (Max 30%)\n[On Use] Gain +3 Poise Count\n[Attack End] Consume all Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire on self\n<1>[On Hit] Gain 3 Poise\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 1 Bleed\n<4>At 15+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, deal +5% damage on Critical Hit for every excess Stack (Max 25%)\n[On Hit] Inflict 1 Bleed\n[On Crit] At 5+ Haste, Reuse this Coin (Once per Skill)",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Poise Count",
+							"Spend Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+							"Poise Potency",
+							"Bleed Potency"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "I'll Light the Path Forward",
+					"Description": "[Clashable Guard]\n[Combat Start] Gain 1 Assist Defense (Once per turn)\n[On Use] Gain 2 Haste next turn (Once per turn)\n[On Use] Gain +2 Poise Count (Once per turn)\n[Clash Win] Gain 3 Poise\n<1>[Unbreakable Coin]",
+					"DamageType": "Defend",
+					"SinType": "None",
+					"BasePower": 5,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": -5,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Guard",
+						"Assist Defense",
+						"Haste",
+						"Poise Count",
+						"Poise Potency",
+						"Unbreakable Coin"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Observing the Stones on the Road",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
+						"DamageType": "Defend",
+						"SinType": "Gloom",
+						"BasePower": 4,
+						"CoinPower": 9,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": -5,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Guard",
+							"Assist Defense Skill",
+							"Poise Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Demonfire Spinecleaver",
+						"Description": "On Base Attack Skill End, if this unit has 15+ Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire, activate 'Even the Balance - Lucent Rippling Flame'\nOn Defense Skill Clash Lose, if this unit has 3+ Haste, this unit cannot be Staggered from taking damage until Defense Skill End, and activates 'To Claim Their Bones' after being hit (2 times per turn, excluding forced Staggers)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Self Follow Up",
+							"Nullify Stagger"
+						]
+					},
+					{
+						"Name": "To Where I Must Return",
+						"Description": "Upon entering the Encounter for the first time, this unit gains Bearing of a Salsu for every Blade Lineage Identities on the field excluding this unit (Max 3)\nIf 3+ Blade Lineage Identities, excluding this unit, are defeated in this Encounter:\n$ Before Skill Use, if this unit did not have Swordplay of the Homeland, gain Swordplay of the Homeland\n$ When this unit gains Poise and Poise Count with its Skill or Coin effects, gain 1 additional Poise and Poise Count\n$ If 5+ Blade Lineage Identities are defeated, gain 2 more Poise and Poise Count instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Bearing of a Salsu",
+							"Swordplay of the Homeland",
+							"Poise Potency",
+							"Poise Count"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Limbus Company Specialized Custom Prosthetic Prototype mk5 - Dokkaebi Arms",
+					"Description": "Combat Start: Gain Dokkaebi Arms and heal (Pride Reson) SP for allied Blade Lineage Identities excluding this unit\nCombat Start: If there is an allied Identity at less than 50% HP on the field, excluding this unit, gain 1 Assist Defense (Once per turn)\nSkill End: Gain 1 Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire for every 3 Poise on self (Max 5, 2 times per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Dokkaebi Arms",
+						"Assist Defense",
+						"Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Cut Down What Must Be Felled",
+					"Description": "The ally with the fastest Speed deals +10% damage with Slash Skills\n$ If the said ally has Haste, deal +15% damage using Slash Skills instead",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Reson",
 					"MiscTags": [
 						"Ally Slash Damage Amp"
 					]
@@ -50552,7 +50812,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Rule Violation",
-					"Description": "[Combat Start] At 6+ Sum of Envy A-Reson, use 'Stamp of Vengeance' or 'Complete and Total Extermination [Laevateinn]' as Counter (From leftmost slot, 2 times per turn)\n[Combat Start] Gain 30% missing HP as Shield (Once per turn(\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Lower user's Stagger Threshold by 10",
+					"Description": "[Combat Start] At 6+ Sum of Envy A-Reson, use 'Stamp of Vengeance' or 'Complete and Total Extermination [Laevateinn]' as Counter (From leftmost slot, 2 times per turn)\n[Combat Start] Gain 30% missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Lower user's Stagger Threshold by 10",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -50937,7 +51197,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Rule Violation",
-					"Description": "[Combat Start] Gain 30% missing HP as Shield (Once per turn(\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Lower user's Stagger Threshold by 5",
+					"Description": "[Combat Start] Gain 30% missing HP as Shield (Once per turn)\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Lower user's Stagger Threshold by 5",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,

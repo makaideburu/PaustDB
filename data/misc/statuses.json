@@ -4485,7 +4485,7 @@
 	},
 	{
 		"Name": "Trussed [Hong Lu]",
-		"Description": "Lose Min & Max Speed\nTake more Pride damage\nExpires when the inflicter Retreats, is killed, or inflicts it on a different target\n$ Replaced when Trussed by another unit\nTurn End: Lose Stack if the inflicter did not hit this unit this turn",
+		"Description": "Base Stack: 3\nMin & Max Speed -2\nTake -10% Pride damage\nExpires when the inflicter Retreats, is killed, or inflicts it on a different target\n$ Replaced when Trussed by another unit\nTurn End: Lose 1 Stack if the inflicter did not hit this unit this turn",
 		"Tags": [
 			"Min Speed Down",
 			"Max Speed Down",
@@ -4494,7 +4494,7 @@
 	},
 	{
 		"Name": "Avulsion Wound",
-		"Description": "Turn Start: Gain Bleed\nTurn End: Gain Bind next turn\nTurn End: Lose Stack",
+		"Description": "Max Stack: 3\nTurn Start: Gain 2 Bleed\nTurn End: Gain 1 Bind next turn\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Bleed Potency",
 			"Bind"
@@ -4502,7 +4502,7 @@
 	},
 	{
 		"Name": "Prisoner Transport Arrangements",
-		"Description": "In a Clash against enemies that have Trussed [Hong Lu], gain Clash Power\nOn Hit against enemies that have Trussed [Hong Lu], inflict Bleed and gain Poise\nIf there are no Trussed [Hong Lu] targets, expires",
+		"Description": "Base Stack: 1\nIn a Clash against enemies that have Trussed [Hong Lu], gain Clash Power +1\nOn Hit against enemies that have Trussed [Hong Lu], inflict 1 Bleed and gain 2 Poise (2 Skills per turn)\nIf there are no Trussed [Hong Lu] targets, expires",
 		"Tags": [
 			"Clash Power Up",
 			"Bleed Potency",
@@ -4511,7 +4511,7 @@
 	},
 	{
 		"Name": "Drink to the Fallen",
-		"Description": "Turn Start: Gain Poise for every X Stack\n$ Blade Lineage Mentor Meursault gains even more Poise\nBase Skills deal +(Poise on self x X)% damage on Critical Hit\nBase Skills that gain Poise or Poise Count gain Clash Power\nTurn End: Lose X Stack",
+		"Description": "Max Stack: 4\nTurn Start: Gain 1 Poise for every Stack\n$ Blade Lineage Mentor Meursault gains 2 Poise for every Stack instead\nBase Skills deal +(Poise on self x 1.5)% damage on Critical Hit (Max 15%)\nBase Skills that gain Poise or Poise Count gain Clash Power +1\nTurn End: Lose 1 Stack",
 		"Tags": [
 			"Poise Potency",
 			"Critical Damage Amp",
@@ -4520,7 +4520,7 @@
 	},
 	{
 		"Name": "Resentment",
-		"Description": "Gain Min & Max Speed\nOn Hit, heal HP by X% of damage dealt using the Skill",
+		"Description": "Min & Max Speed +2\nOn Hit, heal HP by 10% of damage dealt using the Skill (Can heal up to 50% of this unit's max HP per Skill)",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4529,7 +4529,7 @@
 	},
 	{
 		"Name": "Resentful Scabbard",
-		"Description": "When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\nIn Memoriam Passive now ignores conditionals and activates at max potential\nWhen activating Pride Reson, apply Sword of the Homeland - The True Essence on all allies other than this unit\nOn Using 'Yield My Flesh', until Skill End:\n$ This damage does not reduce this unit's HP below X\n$ Lose (Poise on self / X) Clash Power (Rounded down)\nOn Using 'To Claim Their Bones', gain Poise",
+		"Description": "When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\nIn Memoriam Passive now ignores conditionals and activates at max potential\nWhen activating Pride Reson, apply Sword of the Homeland - The True Essence on all allies other than this unit\nOn Using 'Yield My Flesh', until Skill End:\n$ This damage does not reduce this unit's HP below 10 (Once per turn)\n$ Lose (Poise on self / 2) Clash Power (Rounded down)\nOn Using 'To Claim Their Bones', gain 4 Poise",
 		"Tags": [
 			"Growing Resentment",
 			"Ally Sword of the Homeland - The True Essence",
@@ -4540,13 +4540,13 @@
 	},
 	{
 		"Name": "Growing Resentment",
-		"Description": "'To Claim Their Bones' gains (Stack / X) Final Power (Rounded down)\nOn Hit using the final Coin of either 'Yield My Flesh' or 'To Claim Their Bones', deal +(Stack / X)% damage, then this effect expires",
+		"Description": "Max Stack: 999\n'To Claim Their Bones' gains (Stack / 100) Final Power (Max 6; rounded down)\nOn Hit using the final Coin of either 'Yield My Flesh' or 'To Claim Their Bones', deal +(Stack / 10)% damage, then this effect expires",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Sword of the Homeland - The True Essence",
-		"Description": "Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / X) (Rounded down)\nIf this unit is a Blade Lineage Salsu, Base Skills gain Final Power and deal +(X / # of Coins)% damage\nTurn End: Gain Haste next turn, and this effect expires",
+		"Description": "Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (Max 2, rounded down)\nIf this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\nTurn End: Gain 1 Haste next turn, and this effect expires",
 		"Tags": [
 			"Final Power Up",
 			"Haste"
@@ -4554,7 +4554,7 @@
 	},
 	{
 		"Name": "Dokkaebi Arms",
-		"Description": "Take less damage\nOn Skill Use, gain Haste next turn\nCombat End: This effect expires, and gain Poise Count",
+		"Description": "Take -15% damage\nOn Skill Use, gain 1 Haste next turn (2 times per turn)\nCombat End: This effect expires, and gain +2 Poise Count",
 		"Tags": [
 			"Damage Reduction",
 			"Haste",
@@ -4563,15 +4563,15 @@
 	},
 	{
 		"Name": "Bearing of a Salsu",
-		"Description": "Gain Offense Level for every X Stack\nOn Attack Hit with Slash Skills, gain Poise\nLose X Stack when an allied Blade Lineage Identity is defeated",
+		"Description": "Max Stack: 3\nGain Offense Level for every Stack\nOn Attack Hit with Slash Skills, gain 1 Poise (2 times per turn)\nLose 1 Stack when an allied Blade Lineage Identity is defeated",
 		"Tags": [
 			"Offense Level Up",
 			"Poise Potency"
 		]
 	},
 	{
-		"Name": "Mook Workshop - Ye [-] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
-		"Description": "Can gain up to X Stacks per turn\nSlash Base Attack Skills deal more damage for every X Stack\nDefense Skills lose Clash Power for every X Stack\nTurn End: Gain Haste next turn for every X Stack",
+		"Name": "Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
+		"Description": "Max Stack: 20\nCan gain up to 10 Stacks per turn\nSlash Base Attack Skills deal +1% damage for every 2 Stack (Max 10%)\nDefense Skills lose 1 Clash Power for every 2 Stack (Max 5)\nTurn End: Gain 1 Haste next turn for every 5 Stack (Max 3)",
 		"Tags": [
 			"Slash Damage Amp",
 			"Haste"
