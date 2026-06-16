@@ -5520,7 +5520,7 @@
 				},
 				"Passive": {
 					"Name": "Final Augment",
-					"Description": "If the E.G.O Skill <Screwloose Wallop> is used at 25%- HP, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns.",
+					"Description": "If the E.G.O Skill <Screwloose Wallop> is used at less than 25% HP, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns.",
 					"MiscTags": [
 						"Attack Power Up",
 						"Defense Power Up",
@@ -5578,7 +5578,7 @@
 				},
 				"Passive": {
 					"Name": "Final Augment",
-					"Description": "If the E.G.O Skill <Screwloose Wallop> is used at 25%- HP, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns.",
+					"Description": "If the E.G.O Skill <Screwloose Wallop> is used at less than 25% HP, gain 3 Attack Power Up, Defense Power Up, and Haste every turn, but then die in 3 turns.",
 					"MiscTags": [
 						"Attack Power Up",
 						"Defense Power Up",
@@ -7594,7 +7594,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Effervescent Corrosion",
-					"Description": "[Before Attack] At 50%- HP, Atk Weight +1\nAt 25%- HP, gain additional Atk Weight +1\n<1>[On Hit] Inflict Rupture by (Gluttony Reson/2)\n[On Hit] Inflict 2 Gluttony Fragility next turn\n[On Hit] Inflict 2 Bind next turn",
+					"Description": "[Before Attack] At less than 50% HP, Atk Weight +1\nAt less than 25% HP, gain additional Atk Weight +1\n<1>[On Hit] Inflict Rupture by (Gluttony Reson/2)\n[On Hit] Inflict 2 Gluttony Fragility next turn\n[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -7618,7 +7618,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Effervescent Corrosion",
-					"Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] At 50%- HP, Atk Weight +1\nAt 25%- HP, gain additional Atk Weight +1\n<1>[On Hit] Inflict Rupture Count by (Gluttony Reson/3)\n[On Hit] Heal 50% of damage dealt\n[On Hit] Inflict 2 Bind next turn",
+					"Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] At less than 50% HP, Atk Weight +1\nAt less than 25% HP, gain additional Atk Weight +1\n<1>[On Hit] Inflict Rupture Count by (Gluttony Reson/3)\n[On Hit] Heal 50% of damage dealt\n[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 27,
@@ -7643,7 +7643,7 @@
 				},
 				"Passive": {
 					"Name": "Green Slime",
-					"Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
+					"Description": "If struck at less than 50% HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
 					"MiscTags": [
 						"Rupture Potency"
 					]
@@ -7654,7 +7654,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Effervescent Corrosion",
-					"Description": "[Before Attack] At 50%- HP, Atk Weight +1\n<1>[On Hit] Inflict Rupture by (Gluttony Reson/2)\n[Heads Hit] Inflict 2 Gluttony Fragility next turn\n[On Hit] Inflict 2 Bind next turn",
+					"Description": "[Before Attack] At less than 50% HP, Atk Weight +1\n<1>[On Hit] Inflict Rupture by (Gluttony Reson/2)\n[Heads Hit] Inflict 2 Gluttony Fragility next turn\n[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -7678,7 +7678,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Effervescent Corrosion",
-					"Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] At 50%- HP, Atk Weight +1\n<1>[On Hit] Inflict Rupture Count by (Gluttony Reson/3)\n[On Hit] Heal 30% of damage dealt\n[On Hit] Inflict 2 Bind next turn",
+					"Description": "[Indiscriminate] Targets the unit with the least HP\n[Before Attack] At less than 50% HP, Atk Weight +1\n<1>[On Hit] Inflict Rupture Count by (Gluttony Reson/3)\n[On Hit] Heal 30% of damage dealt\n[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 27,
@@ -7703,7 +7703,7 @@
 				},
 				"Passive": {
 					"Name": "Green Slime",
-					"Description": "If struck at 50%- HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
+					"Description": "If struck at less than 50% HP, inflict 1 Rupture on the attacker.\nActivates (Highest Gluttony A-Reson) times per turn",
 					"MiscTags": [
 						"Rupture Potency"
 					]
@@ -8413,7 +8413,7 @@
 				},
 				"Passive": {
 					"Name": "Temperamental Discharge",
-					"Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
+					"Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt less than 40% HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
 					"MiscTags": [
 						"Spend Charge Count",
 						"Heal HP"
@@ -8472,7 +8472,7 @@
 				},
 				"Passive": {
 					"Name": "Temperamental Discharge",
-					"Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt 40%- HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
+					"Description": "When hit, spend 1 Charge Count to heal 2.5% of max HP\nAt less than 40% HP, gain 1 Charge Count before activating the healing effect. (Can gain up to 10 Charge Count per turn)",
 					"MiscTags": [
 						"Spend Charge Count",
 						"Heal HP"
@@ -11666,7 +11666,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Pursuance",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 50%- HP, Atk Weight +2\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 20 SP Damage\n[On Hit] If the target is Staggered or defeated, heal 7 SP on self",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than 50% HP, Atk Weight +2\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 20 SP Damage\n[On Hit] If the target is Staggered or defeated, heal 7 SP on self",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 34,
@@ -11723,7 +11723,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Pursuance",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At 50%- HP, Atk Weight +1\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 20 SP Damage\n[Tails Hit] If the target is Staggered or defeated, heal 5 SP on self",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] At less than 50% HP, Atk Weight +1\n<1>[On Hit] Trigger Tremor Burst\n[On Hit] Deal 20 SP Damage\n[Tails Hit] If the target is Staggered or defeated, heal 5 SP on self",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 34,
@@ -12959,7 +12959,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Lantern",
-					"Description": "[Before Attack] At 50%- HP, Attack Weight +2\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 15% of max HP",
+					"Description": "[Before Attack] At less than 50% HP, Attack Weight +2\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 15% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 18,
@@ -12982,7 +12982,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Lantern",
-					"Description": "[Indiscriminate] Targets the unit with the most HP\n[Before Attack] At 50%- HP, Attack Weight +2\n<1>[Tails Hit] Inflict +3 Rupture Count\n[On Hit] Inflict 5 Defense Level Down\n<1>[On Hit] Heal self by 50% of damage dealt",
+					"Description": "[Indiscriminate] Targets the unit with the most HP\n[Before Attack] At less than 50% HP, Attack Weight +2\n<1>[Tails Hit] Inflict +3 Rupture Count\n[On Hit] Inflict 5 Defense Level Down\n<1>[On Hit] Heal self by 50% of damage dealt",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 30,
@@ -13018,7 +13018,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Lantern",
-					"Description": "[Before Attack] At 50%- HP, Attack Weight +1\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 12% of max HP",
+					"Description": "[Before Attack] At less than 50% HP, Attack Weight +1\n<1>[Heads Hit] Inflict 3 Rupture\n[On Hit] Heal 2 allies with the lowest HP by 12% of max HP",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 18,
@@ -13041,7 +13041,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Lantern",
-					"Description": "[Indiscriminate] Targets the unit with the most HP\n[Before Attack] At 50%- HP, Attack Weight +1\n<1>[Tails Hit] Inflict +3 Rupture Count\n[On Hit] Inflict 3 Defense Level Down\n<1>[On Hit] Heal self by 50% of damage dealt",
+					"Description": "[Indiscriminate] Targets the unit with the most HP\n[Before Attack] At less than 50% HP, Attack Weight +1\n<1>[Tails Hit] Inflict +3 Rupture Count\n[On Hit] Inflict 3 Defense Level Down\n<1>[On Hit] Heal self by 50% of damage dealt",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 30,
@@ -13423,7 +13423,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Tears of the Tarnished Blood [汚血泣涙]",
-					"Description": "Coin Power +1 for every 6 Flower-burying Pin [埋花針] (Max 3)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Reson (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
+					"Description": "Coin Power +1 for every 6 Flower-burying Pin [埋花針] (Max 3)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Reson (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] Inflict 3 Rupture\n[On Hit] At less than 30% HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 8,
@@ -13451,7 +13451,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Tears of the Tarnished Blood [汚血泣涙]",
-					"Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 10 Flower-burying Pin [埋花針] (Max 2)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Reson + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
+					"Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 10 Flower-burying Pin [埋花針] (Max 2)\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Reson + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>Deal +1% damage for every 2% missing HP on self (Max 40%)\n[On Hit] At less than 30% HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 20,
@@ -13490,7 +13490,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Tears of the Tarnished Blood [汚血泣涙]",
-					"Description": "At 6+ Flower-burying Pin [埋花針], Coin Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Reson (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 3 Rupture\n[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
+					"Description": "At 6+ Flower-burying Pin [埋花針], Coin Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain Flower-burying Pin [埋花針] by Gluttony Reson (Max 5)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 3 Rupture\n[On Hit] At less than 30% HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 8,
@@ -13518,7 +13518,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Tears of the Tarnished Blood [汚血泣涙]",
-					"Description": "[Indiscriminate] Targets randomly\nAt 10+ Flower-burying Pin [埋花針], Base Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Reson + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>[On Hit] At 30%- HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
+					"Description": "[Indiscriminate] Targets randomly\nAt 10+ Flower-burying Pin [埋花針], Base Power +1\n[Combat Start] Gain Denial [不許]\n[Before Attack] Gain (Gluttony Reson + 4) Flower-burying Pin [埋花針] (Max 10)\n[Before Attack] Take (Flower-burying Pin [埋花針] x 2) HP damage\nDoes not Stagger; removes passed Stagger Thresholds\n<1>[On Hit] Inflict +1 Rupture Count\n[On Hit] Inflict 3 Rupture\n<2>[On Hit] At less than 30% HP, or 20 Flower-burying Pin [埋花針], reuse this Coin (Once per Skill)\n[Reuse - On Hit] Consume all HP on self to deal +20% damage with this Coin (Once per turn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 20,

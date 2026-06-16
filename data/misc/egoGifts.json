@@ -1111,7 +1111,7 @@
         "Cost": 212,
         "Upgrades": [
             {
-                "Description": "Encounter Start: Gain +1 E.G.O resource for every Sin Affinity",
+                "Description": "Encounter Start: Gain +1 E.G.O Resource for every Sin Affinity\nUpon winning an Encounter, gain 2 E.G.O resource for the 2 least-owned Affinities",
                 "Rank": 1,
                 "MiscTags": [
                     "Gain Resources"
@@ -2754,7 +2754,7 @@
         "Cost": 421,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn. (Except E.G.O Skills, except Backup Units)\nFirst Turn Start of a Wave: Inflict 3 Burn Count to all enemies (or all Abnormality parts); randomly inflict a total of 15 Burn between all enemies (or all Abnormality parts).\nPlus Coin Skills that inflict Burn, Burn Count, or Unique Burn: Final Power +1, Coin Power +1, inflicted Burn +1, inflicted Burn Count +1.\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (Min 1; rounded down)\nWhen winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins + 1) Burn to the target",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn. (Except E.G.O Skills, except Backup Units)\nTurn Start: Inflict +6 Burn Count to all enemies (or all Abnormality parts); randomly inflict a total of 15 Burn between all enemies (or all Abnormality parts) (Once per Wave)\nPlus Coin Skills that inflict Burn, Burn Count, or Unique Burn: Final Power +1, Coin Power +1, inflicted Burn +1, inflicted Burn Count +1.\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (Min 1; rounded down)\nWhen winning a Clash with a Skill that inflicts Burn, Burn Count, or Unique Burn, inflict (# of remaining Coins + 1) Burn to the target",
                 "Rank": 1,
                 "MiscTags": [
                     "Burn Potency",
@@ -3416,12 +3416,13 @@
         "Cost": 432,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates when there are 3+ Blade Lineage Identities. (Except Backup Units)\nAll allies deal +50% Slash damage.\nBlade Lineage Identities: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -36; 'To Claim Their Bones' Skill deals +50% damage.",
+                "Description": "Turn Start: Activates when there are 3+ Blade Lineage Identities. (Except Backup Units)\nAll allies deal +50% Slash damage.\nBlade Lineage Identities: Skill 1 gains Coin Power +1.\nSingle-Coin Skill 1 gains Coin Power +3.\n[Blade Lineage Mentor Meursault Only] 'Yield My Flesh' Skill Final Clash Power -36; 'To Claim Their Bones' Skill deals +50% damage\nCannot be Staggered by damage during the turn this unit has equipped the 'Yield My Flesh' Skill",
                 "Rank": 1,
                 "MiscTags": [
                     "Faction Buff: Blade Lineage",
                     "Slash Damage Amp",
-                    "Coin Power"
+                    "Coin Power",
+                    "Nullify Stagger"
                 ]
             }
         ],
@@ -3907,7 +3908,7 @@
         "Cost": 242,
         "Upgrades": [
             {
-                "Description": "If there are no other allies remaining at Turn End, consume 5% of remaining HP next turn to gain 2 Attack Power Up. (Does not activate at 25%- HP)\nIf this unit has 50%- HP, gain 3 Attack Power Up instead.",
+                "Description": "If there are no other allies remaining at Turn End, consume 5% of remaining HP next turn to gain 2 Attack Power Up. (Does not activate at less than 25% HP)\nIf this unit has 50%- HP, gain 3 Attack Power Up instead.",
                 "Rank": 1,
                 "MiscTags": [
                     "Self HP Damage",
@@ -6087,7 +6088,7 @@
         "Cost": 197,
         "Upgrades": [
             {
-                "Description": "When an ally with Charge Count loses a Clash, gain Shield equal to Charge Count. (Once per turn)\nWhen at 50%- HP, gain (Charge Count x 2) Shield instead. (Once per turn\nIf a MultiCrack Office Identity received HP damage during this Encounter: Next turn, they heal 33% of the HP lost last turn. (Rounded down)",
+                "Description": "When an ally with Charge Count loses a Clash, gain Shield equal to Charge Count. (Once per turn)\nWhen at less than 50% HP, gain (Charge Count x 2) Shield instead. (Once per turn\nIf a MultiCrack Office Identity received HP damage during this Encounter: Next turn, they heal 33% of the HP lost last turn. (Rounded down)",
                 "Rank": 1,
                 "MiscTags": [
                     "Shield",
@@ -7649,14 +7650,14 @@
         "Cost": 202,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At 30%- HP, gain 1 Attack Power Up",
+                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At less than 30% HP, gain 1 Attack Power Up",
                 "Rank": 1,
                 "MiscTags": [
                     "Attack Power Up"
                 ]
             },
             {
-                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At 40%- HP, gain 1 Attack Power Up\nTurn Start: If there is a Staggered ally, gain +6 Aggro next turn and gain 4 Defense Level Up next turn",
+                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At less than 40% HP, gain 1 Attack Power Up\nTurn Start: If there is a Staggered ally, gain +6 Aggro next turn and gain 4 Defense Level Up next turn",
                 "Rank": 2,
                 "MiscTags": [
                     "Attack Power Up",
@@ -7665,7 +7666,7 @@
                 ]
             },
             {
-                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At 50%- HP, gain 1 Attack Power Up\nTurn Start: If there is a Staggered ally, gain +6 Aggro next turn and gain 4 Defense Level Up next turn",
+                "Description": "[Effect applies to #6 Deployed Identity]\nTurn End: At less than 50% HP, gain 1 Attack Power Up\nTurn Start: If there is a Staggered ally, gain +6 Aggro next turn and gain 4 Defense Level Up next turn",
                 "Rank": 3,
                 "MiscTags": [
                     "Attack Power Up",
@@ -7710,7 +7711,7 @@
         "Cost": 243,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 45%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 20%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)",
+                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt less than 45% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt less than 20% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)",
                 "Rank": 1,
                 "MiscTags": [
                     "Offense Level Up",
@@ -7718,7 +7719,7 @@
                 ]
             },
             {
-                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (Max 20%)",
+                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt less than 65% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt less than 40% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 2)% damage (Max 20%)",
                 "Rank": 2,
                 "MiscTags": [
                     "Offense Level Up",
@@ -7727,7 +7728,7 @@
                 ]
             },
             {
-                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt 65%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt 40%- HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (Max 30%)",
+                "Description": "[Effect applies to #5, #6 Deployed Identity]\nAt less than 65% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Clash Win (2 times per turn per Identity)\nAt less than 40% HP, gain 1 Offense Level Up and 1 HP Healing Boost on Skill Use instead (2 times per turn per Identity)\nAfter winning a Clash after 5+ Clashes, the Skill that won the Clash deals +(# of Clashes x 3)% damage (Max 30%)",
                 "Rank": 3,
                 "MiscTags": [
                     "Offense Level Up",
@@ -8187,10 +8188,11 @@
         "Cost": 397,
         "Upgrades": [
             {
-                "Description": "Chain Battles: Starting from the #7 Deployed Sinner, at the start of the same turn it Substitutes in, heal 10 SP, gain 2 Clash Power Up, and gain 1 E.G.O Resource for their Skill 1, 2, and 3",
+                "Description": "If an Identity has Substituted in, the said Identity heals 10 SP and gains 2 Offense Level Up 2 Clash Power Up at the start of the same turn it Substitutes in, and gain 1 E.G.O Resource for their Skill 1, 2, and 3",
                 "Rank": 1,
                 "MiscTags": [
                     "Heal SP",
+                    "Offense Level Up",
                     "Clash Power",
                     "Gain Resources"
                 ]
@@ -10388,7 +10390,7 @@
         "Cost": 403,
         "Upgrades": [
             {
-                "Description": "Max Burn Potency +11\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)",
+                "Description": "Max Burn Potency +11\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 1,
                 "MiscTags": [
                     "Burn Potency Limit Increase",
@@ -10396,7 +10398,7 @@
                 ]
             },
             {
-                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)",
+                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 2,
                 "MiscTags": [
                     "Burn Potency Limit Increase",
@@ -10404,7 +10406,7 @@
                 ]
             },
             {
-                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)\nWhen activating Burn, (Wrath Reson x 10)% chance to deal (Burn Potency x Burn Count / 11) Wrath damage and reduce target's Burn Count by 1 (Max chance: 50%; Once per turn)",
+                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (Once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 3,
                 "MiscTags": [
                     "Burn Potency Limit Increase",
@@ -11722,10 +11724,12 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "On Clash Win against targets that have Burn, (20 + (Wrath Reson x 10))% chance to activate Burn once and reduce target's Burn Count by 1 (4 times per turn)\n$ If the target has 90+ Burn Potency, the above effect activates at a 100% chance (Focused Encounters, the Part)",
+                "Description": "Max Burn Potency +30\nOn Clash Win against targets that have Burn, activate Burn on target once and reduce the target's Burn Count by 1 (Once per Identity)\nOn Skill Use against enemies that have Burn, gain Offense Level equal to (Burn Potency on the main target / 10) (Max 8)",
                 "Rank": 1,
                 "MiscTags": [
-                    "Burn Proc"
+                    "Burn Potency Limit Increase",
+                    "Burn Proc",
+                    "Offense Level Up"
                 ]
             }
         ],
@@ -11847,6 +11851,167 @@
                     "Offense Level Up",
                     "Defense Level Up",
                     "Torn-out Butterfly"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "N Corp. Service de Clous Briefcase",
+        "Tag": "Bleed",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Lust",
+        "Tier": 2,
+        "Cost": 199,
+        "Upgrades": [
+            {
+                "Description": "When hitting an enemy using a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, inflict 1 Nails (Once per Skill)\nWhen triggering Tremor Burst on an enemy that has Nails, inflict 1 Bind next turn (3 times per Skill)",
+                "Rank": 1,
+                "MiscTags": [
+                    "Nails",
+                    "Bind"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "Ohra Bond",
+        "Tag": "Poise",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Pride",
+        "Tier": 3,
+        "Cost": 247,
+        "Upgrades": [
+            {
+                "Description": "On Crit against an enemy, inflict 1 Bind next turn (3 times per turn)\nOn Hit using a Skill against an enemy that has Bind, gain 1 Poise (2 times per turn per Identity)\nTurn Start: All enemies that have Bleed gain Offense Level Down equal to Bind on themselves (Max 5)\nTurn Start: If all enemies (Focused Encounters, all Parts) have Bind, all allies gain 3 Poise",
+                "Rank": 1,
+                "MiscTags": [
+                    "Bind",
+                    "Poise Potency",
+                    "Offense Level Down"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "Flagroot Cane Sword",
+        "Tag": "Slash",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Gloom",
+        "Tier": 2,
+        "Cost": 201,
+        "Upgrades": [
+            {
+                "Description": "If an ally was not hit by an enemy this turn, the said ally gains 1 Slash DMG Up next turn\nWhen an ally is hit by an enemy, the said ally gains 4 Poise, and gains 1 Crit DMG Up this turn and next turn (Once per turn per Identity)\n$ If the affected ally is a Blade Lineage Identity, gain double the effects of this E.G.O Gift",
+                "Rank": 1,
+                "MiscTags": [
+                    "Slash DMG Up",
+                    "Crit DMG Up",
+                    "Poise Potency",
+                    "Faction Buff: Blade Lineage"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "Crushed Wooden Manacle",
+        "Tag": "Slash",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Envy",
+        "Tier": 2,
+        "Cost": 202,
+        "Upgrades": [
+            {
+                "Description": "On Hit against an enemy using a Slash Skill, inflict 1 Defense Level Down next turn (2 times per Skill)\nIf an ally is faster than the enemy, the said ally deals +3% damage using Base Attack Skills for every Speed Difference (Max 12$)\n$ If the enemy has Bind, double the above damage boost and its maximum cap",
+                "Rank": 1,
+                "MiscTags": [
+                    "Defense Level Down",
+                    "Damage Amp"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "Unadorned Sword-guard",
+        "Tag": "Slash",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Sloth",
+        "Tier": 1,
+        "Cost": 146,
+        "Upgrades": [
+            {
+                "Description": "Slash Skills deal +1% damage for every Poise (Max 15%)",
+                "Rank": 1,
+                "MiscTags": [
+                    "Slash Damage Amp"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "Baekja Water Dropper",
+        "Tag": "Keywordless",
+        "Abnormality": "Theme Pack: [Mnestic Experience]",
+        "Affinity": "Gluttony",
+        "Tier": 3,
+        "Cost": 251,
+        "Upgrades": [
+            {
+                "Description": "When an allied Identity gains Assist Defense, the said ally gains 2 Damage Up and 2 Protection\n[Applies to #1 Deployed Identity]\nTurn End: Gain 2 Haste next turn\nWhen an Identity's Speed is faster than the enemy's, deal +3% damage for every Speed difference (Max 30%)",
+                "Rank": 1,
+                "MiscTags": [
+                    "Damage Up",
+                    "Protection",
+                    "Haste",
+                    "Damage Amp"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD7"
+        ]
+    },
+    {
+        "Id": 999,
+        "Name": "The Book of the Homeland Swordplay [本國劍譜]",
+        "Tag": "Slash",
+        "Abnormality": "Fusion: ||Overused Whetstone + Red Tassel + Unadorned Sword-guard||",
+        "Affinity": "Pride",
+        "Tier": 4,
+        "Cost": 381,
+        "Upgrades": [
+            {
+                "Description": "If an enemy has 1.5 or lower Slash Resist, Slash Resist +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (< 1.0 Resist; Staggered states do not count) to Slash, deal +(5 + (Target's Slash Resist x 10))% damage (Max 25%)\nSlash Skills deal +1.5% damage for every Poise (Max 30%)\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (Only counts Identities on the field at Encounter Start)\nCombat Start: Apply 1 Sword of the Homeland - Striking on allied Blade Lineage Identities that have equipped Wrath or Pride Skills\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply Sword of the Homeland - Striking on it every turn",
+                "Rank": 1,
+                "MiscTags": [
+                    "Slash Resist Down",
+                    "Offense Level Up",
+                    "Slash Damage Amp",
+                    "Faction Buff: Blade Lineage",
+                    "Sword of the Homeland - Striking"
                 ]
             }
         ],

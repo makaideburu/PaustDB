@@ -1081,7 +1081,7 @@
 		]
 	},
 	{
-		"Name": "Resentment (Low Morale)",
+		"Name": "Resentment (Low Morale) [Distorted Bamboo-Hatted Kim]",
 		"Description": "Turn Start: Gain 2 Damage Up and 3 Defense Level Down",
 		"Tags": [
 			"Low Morale",
@@ -1089,7 +1089,7 @@
 		]
 	},
 	{
-		"Name": "Resentment (Panic)",
+		"Name": "Resentment (Panic) [Distorted Bamboo-Hatted Kim]",
 		"Description": "Turn Start: Gain 1 Attack Power Up and 5 Defense Level Down",
 		"Tags": [
 			"Panic",
@@ -1488,7 +1488,7 @@
 	},
 	{
 		"Name": "Ailing Heart",
-		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt 50%- HP, gain 1 Defense Level Up for every 3 Stack\nAt 40%- HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (Min 1; rounded down; heal up to 30 HP per Skill)",
+		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt less than 50% HP, gain 1 Defense Level Up for every 3 Stack\nAt less than 40% HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (Min 1; rounded down; heal up to 30 HP per Skill)",
 		"Tags": [
 			"Defense Level Up",
 			"Heal HP"
@@ -4575,6 +4575,100 @@
 		"Tags": [
 			"Slash Damage Amp",
 			"Haste"
+		]
+	},
+	{
+		"Name": "Resentment (Low Morale) [Aeng-du]",
+		"Description": "Turn Start: Gain 1 Attack Power Up and 1 Defense Power Down\nTurn End: Gain 2 Haste next turn",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Resentment (Panic) [Aeng-du]",
+		"Description": "Turn Start: Gain 2 Attack Power Up and 2 Defense Power Down\nTurn End: Gain 2 Haste next turn",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Deep-rooted Regret (Low Morale)",
+		"Description": "Turn Start: Gain 2 Damage Down and heal 40 HP",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Deep-rooted Regret (Panic)",
+		"Description": "Turn Start: Gain 3 Damage Down and heal 60 HP",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Jumbled Memories (Low Morale)",
+		"Description": "Turn Start: Gain 1~3 Offense Level Up and 1~3 Defense Level Down",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Jumbled Memories (Panic)",
+		"Description": "Turn Start: Gain 1~5 Offense Level Up and 1~5 Defense Level Down",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Intelligence Obsession (Low Morale)",
+		"Description": "In a Clash against targets that have Intelligence Gathering, Base Power +1 and deal +10% damage\nTurn End: Gain 1 Fragile",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Intelligence Obsession (Panic)",
+		"Description": "In a Clash against targets that have Intelligence Gathering, Base Power +1 and deal +20% damage\nTurn End: Gain 2 Fragile",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Intelligence Gathering",
+		"Description": "When using a Skill of identical rank to the Skill photographed, Clash Power -5\nDefense Skill and E.G.O Skills are counted separately\nExpires at Turn End",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Developed Memories (Low Morale)",
+		"Description": "Gain 1 Fragile, deal +10% damage, and deal +15% damage on Critical Hit",
+		"Tags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Developed Memories (Panic)",
+		"Description": "Gain 2 Fragile, deal +10% damage, deal +30% damage on Critical Hit, and _double the effects inflicted by the Coins of the 'Bow of the Homeland [Sal] - Arrowloose' Skill_",
+		"Tags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Sword of the Homeland - Striking",
+		"Description": "Max Stack: 1\nPlus Coin Power +1, deal +15% damage on Critical Hit\nExpires at Turn End",
+		"Tags": [
+			"Plus Coin Power",
+			"Critical Damage Amp"
 		]
 	}
 ]
