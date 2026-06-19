@@ -12004,7 +12004,7 @@
         "Cost": 381,
         "Upgrades": [
             {
-                "Description": "If an enemy has 1.5 or lower Slash Resist, Slash Resist +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (< 1.0 Resist; Staggered states do not count) to Slash, deal +(5 + (Target's Slash Resist x 10))% damage (Max 25%)\nSlash Skills deal +1.5% damage for every Poise (Max 30%)\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (Only counts Identities on the field at Encounter Start)\nCombat Start: Apply 1 Sword of the Homeland - Striking on allied Blade Lineage Identities that have equipped Wrath or Pride Skills\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply Sword of the Homeland - Striking on it every turn",
+                "Description": "If an enemy has 1.5 or lower Slash Resist, Slash Resist +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (< 1.0 Resist; Staggered states do not count) to Slash, deal +(5 + (Target's Slash Resist x 10))% damage (Max 25%)\nSlash Skills deal +1.5% damage for every Poise (Max 30%)\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply Sword of the Homeland - Striking on it every turn\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (Only counts Identities on the field at Encounter Start)\nCombat Start: Apply 1 Sword of the Homeland - Striking on allied Blade Lineage Identities that have equipped Wrath or Pride Skills",
                 "Rank": 1,
                 "MiscTags": [
                     "Slash Resist Down",

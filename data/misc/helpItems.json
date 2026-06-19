@@ -176,6 +176,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.0.3 (2026-06-18)",
+				"```ego display improvements```"
+			],
+			[
 				"3.4.0.2 (2026-06-11)",
 				"```bugfix for tier querying```"
 			],
@@ -190,10 +194,6 @@
 			[
 				"3.3.4.3 (2026-05-30)",
 				"```unspaghetti'd the railway stuff```"
-			],
-			[
-				"3.3.4.2 (2026-05-28)",
-				"```big bad override```"
 			]
 		],
 		"OldItems": [
@@ -480,6 +480,10 @@
 			[
 				"3.3.4.1 (2026-05-25)",
 				"```faust will respect your choice to use diacritics to search lævateinn. i guess.```"
+			],
+			[
+				"3.3.4.2 (2026-05-28)",
+				"```big bad override```"
 			]
 		],
 		"HelpFooter": ""
