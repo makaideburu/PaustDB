@@ -42638,7 +42638,7 @@
 						"Name": "Sezionatura di Coniglio",
 						"Description": "[Unclashable]\nDoes not trigger Defense Skills, external effects cannot trigger Skill Reuse\n[On Use] At X+ Poise, Final Power +Y\n[On Use] Base Power +X for every Y (Burn + Tremor on target)\n<1>[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
 						"DamageType": "Slash",
-						"SinType": "Pride",
+						"SinType": "Lust",
 						"BasePower": 0,
 						"CoinPower": 0,
 						"CoinCount": 2,
@@ -42803,11 +42803,10 @@
 					"AttackWeightMod": 1,
 					"MiscTags": [
 						"Clashable Counter",
-						"Skill Change",
-						"Bleed Potency",
-						"Mauled Color [Rouge]",
-						"Sinking Potency",
-						"Mauled Color [Bleu]"
+						"Spend Eye of Precognition",
+						"Reload",
+						"Burn Potency",
+						"Tremor Potency"
 					],
 					"AltSkill": {
 						"SkillSlot": "SD1",
