@@ -1440,7 +1440,7 @@
 	},
 	{
 		"Name": "Focused Attack",
-		"Description": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on the target Slot's Focused Attack stack.\n1x Stack: Gain Clash Power +1\n2x Stack: Gain Base Power +1\n3x Stack: Gain Base Power +1 and Coin Power +1\nExpires if, for a turn, the unit who inflicted it fails to hit the Slot inflicted with their Focused Attack\nExpires if the unit who inflicted Focused Attack inflicts it on a different Slot\nReplaced if a different unit inflicts Focused Attack on a Slot already inflicted with Focused Attack\nAt the start of the next turn, if a Slot inflicted with Focused Attack is no longer present, rearrange all Focused Attack inflicted against the Slots of that Part in Deployment Order",
+		"Description": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on target Slot's Focused Attack stack.\n1x Stack: Gain Clash Power +1\n2x Stack: Gain Base Power +1\n3x Stack: Gain Base Power +1 and Coin Power +1\nExpires if, for a turn, the unit who inflicted it fails to hit the Slot inflicted with their Focused Attack\nExpires if the unit who inflicted Focused Attack inflicts it on a different Slot\nReplaced if a different unit inflicts Focused Attack on a Slot already inflicted with Focused Attack\nAt the start of the next turn, if a Slot inflicted with Focused Attack is no longer present, rearrange all Focused Attack inflicted against the Slots of that Part in Deployment Order",
 		"Tags": [
 			"Clash Power Up",
 			"Base Power Up"
@@ -1753,7 +1753,7 @@
 	},
 	{
 		"Name": "The Sixth Magic Bullet",
-		"Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\nMinus Coin Skill Base Power -22\nMinus Coin Power -12",
+		"Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on the main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\nMinus Coin Skill Base Power -22\nMinus Coin Power -12",
 		"Tags": [
 			"The Magic Bullet",
 			"Attack Weight Increase",
@@ -4669,6 +4669,70 @@
 		"Tags": [
 			"Plus Coin Power",
 			"Critical Damage Amp"
+		]
+	},
+	{
+		"Name": "The Duel Escalates",
+		"Description": "Affects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\nCan gain up to X Stacks per turn",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Severed Tendon",
+		"Description": "Lose Base Power\nExpires at Turn End",
+		"Tags": [
+			"Base Power Down"
+		]
+	},
+	{
+		"Name": "Maturing Textbook",
+		"Description": "Base Skills deal more damage\nCan gain up to X Stacks per turn",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Eye of Precognition",
+		"Description": "Can lose up to X Stacks per turn",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Eye of Precognition - Overheat",
+		"Description": "Offense Level +X and Defense Level -Y\nTurn Start: Gain X Stack\nAt X Stack, convert into Eye of Precognition",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Accelerating Future",
+		"Description": "Deal more damage using Base Skills for every X Stack\nBase Skills gain Clash Power +X for every Y Stack\nAt X Stack, base Skills gain Coin Power\nSkill End: This effect expires",
+		"Tags": [
+			"Clash Power Up",
+			"Coin Power"
+		]
+	},
+	{
+		"Name": "Game Target",
+		"Description": "Take more damage from Base Skills used by The House of Spiders: The Thumb Nursefather Rodion",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Shin (心) - Disgrace",
+		"Description": "Gain Min & Max Speed\nInflict additional Tremor and Burn Potency and Count using Base Skills\nDeal more damage for every X Poise Potency on self",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Tremor Potency",
+			"Burn Potency",
+			"Tremor Count",
+			"Burn Count"
+		]
+	},
+	{
+		"Name": "Acceleration Round",
+		"Description": "Unique Ammo\nSpent when using certain Skills",
+		"Tags": [
+			"Unique Ammo"
 		]
 	}
 ]

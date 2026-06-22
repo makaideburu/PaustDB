@@ -2225,7 +2225,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Command : Meltdown",
-					"Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 25%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
+					"Description": "If main target has Burn or Rupture, Final Power +3\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on the main target (Max 25%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 2\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 15 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 3 Rupture\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -2252,7 +2252,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Command : Meltdown",
-					"Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 6 (Rupture + Rupture Count) on main target (Max 2)\n[Before Attack] Atk Weight +1 for every 3 highest Reson (Max 2)\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect x 2) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n[Unbreakable Coin]\n[Coin Start] If this Skill's damage did not Stagger or kill any target, deal +30% damage\n[On Hit] Inflict 3 Burn",
+					"Description": "[Indiscriminate] Targets randomly\nBase Power +1 for every 6 (Rupture + Rupture Count) on the main target (Max 2)\n[Before Attack] Atk Weight +1 for every 3 highest Reson (Max 2)\n[After Attack] Gain 10 Hardened Shell-Barrier\n[After Attack] If this Skill's damage did not Stagger or kill any target, take HP damage equal to 20% of this unit's max HP; gain (HP damage taken due to this effect x 2) Shield\n$ This damage does not kill this unit. Max the Hardened Shell-Barrier Stack at Turn End and gain 2 Damage Up next turn (Once per turn)\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n[Unbreakable Coin]\n[Coin Start] If this Skill's damage did not Stagger or kill any target, deal +30% damage\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -2292,7 +2292,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Command : Meltdown",
-					"Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on main target (Max 15%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
+					"Description": "If main target has Burn or Rupture, Final Power +2\n[Before Attack] Deal +1% damage for every (Rupture + Rupture Count) on the main target (Max 15%)\n$ If this unit has Hardened Shell-Barrier, multiply the effect and maximum cap by 1.5\n[After Attack] Gain 7 Hardened Shell-Barrier\n[After Attack] Heal self and an ally with the least HP by 30% of this unit's max HP\n$ If this unit is at max HP, heal 2 other allies instead\n[After Attack] Heal 10 SP for 2 allies, including this unit, with the lowest SP\n<1>[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 2 Burn",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 14,
@@ -3822,7 +3822,7 @@
 					"SkillSlot": "EA0",
 					"Name": "In the Name of Love and Hate",
 					"DisplayName": "In the Name of Love and Hate - Major Arcana Slave!!!",
-					"Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 2)) random other allies (Max 4)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$ If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$ If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
+					"Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 2)) random other allies (Max 4)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\n$ If this unit has Here Comes Magical Girl!, gain (Charge) Atk Weight instead (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 10%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count (10 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on the main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 4)\n$ If this unit has Here Comes Magical Girl!, inflict +1 Rupture Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 16,
@@ -3896,7 +3896,7 @@
 					"SkillSlot": "EA0",
 					"Name": "In the Name of Love and Hate",
 					"DisplayName": "In the Name of Love and Hate - Major Arcana Slave!!!",
-					"Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 3)) random other allies (Max 3)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
+					"Description": "[Before Attack] Apply 1 Magical Girl's Chant to (1 + (Envy Reson / 3)) random other allies (Max 3)\n$ If this unit has Here Comes Magical Girl!, apply 2 Magical Girl's Chant instead\n[Before Attack] Gain (Charge - 1) Atk Weight (Max 5)\nConsume all Charge Count on self to heal (2 + (Envy Reson / 2)) allies with the least HP by (Charge Count spent)% HP (Max 5 allies; max 8%)\n[After Attack] If this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 Magical Arcana\n<1>[Unbreakable Coin]\n[On Hit] Gain +1 Charge Count (5 per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict Mark of Villainy on the main target next turn\n[On Hit] Inflict (Charge - 1) Rupture (Max 3)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 16,
@@ -6563,7 +6563,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Crushbound Past",
-					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$ At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (Max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$ At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (Max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -6592,7 +6592,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Crushbound Past",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on the main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 30,
@@ -6631,7 +6631,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Crushbound Past",
-					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (Max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (Max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (Max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -6660,7 +6660,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Crushbound Past",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (Max 100%)\n$ If highest Reson was Sloth Reson, deal +20% damage for every highest Reson instead (Max 100%)\n[Before Attack] If main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack]When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (Max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (Max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 30,
@@ -7925,7 +7925,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Tears of the Tarnished Blood - The End [終]",
-						"Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n$ At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+						"Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on the main target (Max 3)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n$ At 5+: Atk Weight +3; Base Power +3\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
 						"DamageType": "Pierce",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -8011,7 +8011,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Tears of the Tarnished Blood - The End [終]",
-						"Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
+						"Description": "This Skill does not consume E.G.O resources\n[Unclashable]\nDeal +3% damage for every Flower-burying Wedge [埋花櫼] (Max 9%)\nDeal +6% damage for every Tarnished Blood (Max 30%)\n[On Use] Coin Power +1 for every 5 Rupture on the main target (Max 2)\n[On Use] Based on the Tarnished Blood value:\n$ At 3+: Atk Weight +1; Base Power +1\n$ At 4+: Atk Weight +2; Base Power +2\n[After Attack] Remove all Flower-burying Wedge [埋花櫼] and Tarnished Blood from self, then die\n<1>[On Hit] Inflict +3 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n<3>[On Hit] Inflict 2 Rupture\n<4>[On Hit] Inflict 2 Rupture",
 						"DamageType": "Pierce",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -8665,7 +8665,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Move-in Reg.",
-					"Description": "Coin Power +1 for every 6 Burn on main target (Max 3)\n[Before Attack] Gain +(Highest Reson + 1) Charge Count (Max 7)\n$ At 4+ Envy Reson, gain +7 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 45%)\n$ If this consumed 5+ Charge Count, Base Power +1\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count",
+					"Description": "Coin Power +1 for every 6 Burn on the main target (Max 3)\n[Before Attack] Gain +(Highest Reson + 1) Charge Count (Max 7)\n$ At 4+ Envy Reson, gain +7 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 45%)\n$ If this consumed 5+ Charge Count, Base Power +1\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -8690,7 +8690,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Move-in Reg.",
-					"Description": "[Indiscriminate] Prioritizes targets with the most HP\nCoin Power +1 for every 6 Burn on main target (Max 3)\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 3) Charge Count (Max 10)\n$ At 5+ Envy Reson, gain +10 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 60%)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>If the target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count\n[On Kill] Gain +2 Charge Count",
+					"Description": "[Indiscriminate] Prioritizes targets with the most HP\nCoin Power +1 for every 6 Burn on the main target (Max 3)\n[Before Attack] At less than 10 Charge Count, take 10% HP damage and gain +10 Charge Count (Does not kill or Stagger this unit)\n[Before Attack] Gain +(Highest Reson + 3) Charge Count (Max 10)\n$ At 5+ Envy Reson, gain +10 Charge Count instead\n[Before Attack] Consume all Charge Count on self; deal +3% damage for every Charge Count consumed (Max 60%)\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>If the target has Resident Reg. Microchip, deal +20% damage\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 2 Resident Reg. Microchip\n[On Hit] Gain +1~3 Charge Count\n[On Kill] Gain +2 Charge Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -9989,7 +9989,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Bygone Days",
-					"Description": "[Before Attack] At 4+ highest Reson, gain +1 Atk Weight\nIf said Reson was Gloom Reson, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 20%)\nIf the highest Reson was an X+ Gloom Reson, heal 10% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 4+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
+					"Description": "[Before Attack] At 4+ highest Reson, gain +1 Atk Weight\nIf said Reson was Gloom Reson, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on the main target) / 3)% HP (Max 20%)\nIf the highest Reson was an X+ Gloom Reson, heal 10% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 4+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 17,
@@ -10015,7 +10015,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Bygone Days",
-					"Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Reson, heal 1 additional ally\nIf said Reson was a Gloom Reson, heal 5% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] Inflict 1 Gloom Fragility for every 3 Gloom Reson (Max 2)\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
+					"Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on the main target) / 3)% HP (Max 15%)\nAt 4+ Highest Reson, heal 1 additional ally\nIf said Reson was a Gloom Reson, heal 5% more of max HP\n<1>[On Hit] Inflict +3 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] Inflict 1 Gloom Fragility for every 3 Gloom Reson (Max 2)\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 28,
@@ -10054,7 +10054,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Bygone Days",
-					"Description": "[Before Attack] At 4+ highest Reson, gain +1 Atk Weight\nIf said Reson was Gloom Reson, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 1 Curse\n[On Hit] At 4+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
+					"Description": "[Before Attack] At 4+ highest Reson, gain +1 Atk Weight\nIf said Reson was Gloom Reson, gain +1 Atk Weight\n[After Attack] Heal 2 allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on the main target) / 3)% HP (Max 15%)\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 1 Curse\n[On Hit] At 4+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 17,
@@ -10080,7 +10080,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Bygone Days",
-					"Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on main target) / 3)% HP (Max 15%)\nAt 4+ Highest Reson, heal 1 additional ally\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 3+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
+					"Description": "[Indiscriminate] Prioritizes targets with the most Sinking\n[Before Attack] Lose HP by 10% of max HP (does not get Staggered due to this effect)\n[After Attack] Heal 3 other allies with the lowest HP percentages by (10 + (Sum of Sinking and Sinking Count on the main target) / 3)% HP (Max 15%)\nAt 4+ Highest Reson, heal 1 additional ally\n<1>[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict 2 Curse\n[On Hit] At 3+ Gloom Reson, inflict 1 Gloom Fragility\n[On Hit] Inflict 2 The Uninvited\n[On Hit] Inflict 2 Echoes of the Manor next turn",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 28,
@@ -10607,7 +10607,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Tidal Elegy",
-					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on main target (Max 2)\n[Before Attack] If main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (Max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (Max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (Core and connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on the main target (Max 2)\n[Before Attack] If main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (Max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (Max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (Max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (Once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 8,
@@ -12079,7 +12079,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Indicant's Trial",
-					"Description": "[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Reson) allies with the least HP percentages for 20% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Reson / 3)) Searing Birdcage next turn on main target (Max 3; rounded down)",
+					"Description": "[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Reson) allies with the least HP percentages for 20% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Reson / 3)) Searing Birdcage next turn on the main target (Max 3; rounded down)",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 8,
@@ -12104,7 +12104,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Indicant's Trial",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] Inflict +1 Burn Count\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Reson) Searing Birdcage next turn on main target (Max 5)\n<2>[Unbreakable Coin]\nDeal +2% damage on main target for every Burn on main target (Max 100%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Reson) allies with the least HP percentages (Max 6 allies; once per Skill)",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] Inflict +1 Burn Count\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Reson) Searing Birdcage next turn on the main target (Max 5)\n<2>[Unbreakable Coin]\nDeal +2% damage on the main target for every Burn on the main target (Max 100%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Reson) allies with the least HP percentages (Max 6 allies; once per Skill)",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 8,
@@ -12144,7 +12144,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Indicant's Trial",
-					"Description": "[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Reson) allies with the least HP percentages for 18% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Reson / 3)) Searing Birdcage next turn on main target (Max 3; rounded down)",
+					"Description": "[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n[After Attack] Heal (1 + Highest Reson) allies with the least HP percentages for 18% of their max HP (Max 3 allies)\n[After Attack] For 3 Turns, Lose 10 SP at Turn End\n<1>[On Hit] Inflict 8 Burn\n[On Hit] If this hits the main target, inflict (1 + (Wrath Reson / 3)) Searing Birdcage next turn on the main target (Max 3; rounded down)",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 8,
@@ -12169,7 +12169,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Indicant's Trial",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Reson) Searing Birdcage next turn on main target (Max 4)\n<2>[Unbreakable Coin]\nDeal +1% damage on main target for every Burn on main target (Max 50%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Reson) allies with the least HP percentages (Max 5 allies; once per Skill)",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain (Highest Reson / 2) Atk Weight (Max 3; rounded down)\n<1>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 10 Burn\n[On Hit without Cracking] If this hits the main target, inflict (1 + Wrath Reson) Searing Birdcage next turn on the main target (Max 4)\n<2>[Unbreakable Coin]\nDeal +1% damage on the main target for every Burn on the main target (Max 50%)\n[On Kill] Apply 1 Wrath Power Up and 1 Wrath DMG Up to (1 + Highest Reson) allies with the least HP percentages (Max 5 allies; once per Skill)",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 8,
@@ -12801,7 +12801,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Hex Nail",
-					"Description": "[Before Attack] For every 3 Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 2 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Curse, inflict 1 Clash Power Down (Once per turn)\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
+					"Description": "[Before Attack] For every 3 Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 2 negative effect on target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[On Hit] At 4+ Curse, inflict 1 Clash Power Down (Once per turn)\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 9,
@@ -12867,7 +12867,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Hex Nail",
-					"Description": "[Before Attack] At 4+ Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 3 negative effect on the target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
+					"Description": "[Before Attack] At 4+ Envy Reson, including this Skill, Atk Weight +1 (Max 2)\n[After Attack] If the target has Curse, immediately activate it twice and reduce it by 2\n<1>[Heads Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Curse\nInflict 1 additional Curse for every 3 negative effect on target that aren't Curse or Nails (Max 2)\n[On Hit] Inflict 3 Nails\n[Heads Hit] Inflict 2 Bind next turn (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Envy",
 					"BasePower": 7,
@@ -13252,7 +13252,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Harmony",
-					"Description": "Clash Power +1 for every 2 (Burn + Bleed) on main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[On Target Kill] All allies gain 2 Rhythm next turn (Once per Skill)\n[Attack End] Heal 12 SP for (1 + highest Reson) other allies with the least SP (Max 4 units)\n[Attack End] For 2 turns, lose 8 SP at Combat End\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Burn\n<3>[Heads Hit] At 10%+ HP, take 4 ~ 8 HP damage\n$ Then, Reuse this Coin (4 times per Skill)\n$ Does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
+					"Description": "Clash Power +1 for every 2 (Burn + Bleed) on the main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[On Target Kill] All allies gain 2 Rhythm next turn (Once per Skill)\n[Attack End] Heal 12 SP for (1 + highest Reson) other allies with the least SP (Max 4 units)\n[Attack End] For 2 turns, lose 8 SP at Combat End\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Burn\n<3>[Heads Hit] At 10%+ HP, take 4 ~ 8 HP damage\n$ Then, Reuse this Coin (4 times per Skill)\n$ Does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 6,
@@ -13279,7 +13279,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Harmony",
-					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 15 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on the main target (Max 10)\nDeal more damage based on missing HP on self (Max 20%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 15 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 3 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 14,
@@ -13323,7 +13323,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Harmony",
-					"Description": "Clash Power +1 for every 2 (Burn + Bleed) on main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[On Target Kill] All allies gain 2 Rhythm next turn (Once per Skill)\n[Attack End] Heal 10 SP for (1 + highest Reson) other allies with the least SP (Max 4 units)\n[Attack End] For 2 turns, lose 8 SP at Combat End\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Burn\n<3>[Heads Hit] At 10%+ HP, take 4 ~ 8 HP damage\n$ Then, Reuse this Coin (4 times per Skill)\n$ Does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
+					"Description": "Clash Power +1 for every 2 (Burn + Bleed) on the main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[On Target Kill] All allies gain 2 Rhythm next turn (Once per Skill)\n[Attack End] Heal 10 SP for (1 + highest Reson) other allies with the least SP (Max 4 units)\n[Attack End] For 2 turns, lose 8 SP at Combat End\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Burn\n<3>[Heads Hit] At 10%+ HP, take 4 ~ 8 HP damage\n$ Then, Reuse this Coin (4 times per Skill)\n$ Does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 6,
@@ -13350,7 +13350,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Harmony",
-					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 12 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 2 (Bleed + Burn) on the main target (Max 8)\nDeal more damage based on missing HP on self (Max 15%)\nDeal -50% damage against sub-targets\n[Before Attack] Gain Atk Weight equal to (Highest Reson / 2) (Max 2; rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin\n[Attack End] Heal 12 SP for 4 other allies with the least SP\n[Attack End] All allies gain 2 Rhythm, 1 Wrath DMG Up, 1 Lust DMG Up, 1 Envy DMG Up, and 1 Fragile next turn\n$ If the target was killed, activate the effect above once more\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<3>[Unbreakable Coin]\n[On Hit] At 10%+ HP, take 10 ~ 20 HP damage\n$ Then, Reuse this Coin if the sum of HP lost due to this above effect is less than 50 (4 times per Skill)\n$ This damage does not Stagger or reduce this unit's HP below 1\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Bleed\n[On Hit] 1 random ally gains 1 ~ 2 Rhythm next turn (Once per Coin)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 14,
@@ -15639,7 +15639,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Solemn Lament",
-					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal more damage the further their SP value is from 0 (+1% damage for every missing SP; max 45%)\nAgainst targets without SP: deal +1% damage for every 2 Sinking on the target (max 45%)\n[On Kill] Heal 5 SP\n<1>[On Hit] Inflict 5 Butterfly (The Living)\n[On Hit] Inflict 5 Butterfly (The Departed)\n[On Hit] Inflict +3 Sinking Count\n[On Hit] If the target has 50%- HP, inflict Gloom Damage equal to 'All' Butterfly values on target",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal more damage the further their SP value is from 0 (+1% damage for every missing SP; max 45%)\nAgainst targets without SP: deal +1% damage for every 2 Sinking on target (max 45%)\n[On Kill] Heal 5 SP\n<1>[On Hit] Inflict 5 Butterfly (The Living)\n[On Hit] Inflict 5 Butterfly (The Departed)\n[On Hit] Inflict +3 Sinking Count\n[On Hit] If the target has 50%- HP, inflict Gloom Damage equal to 'All' Butterfly values on target",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 32,
@@ -15694,7 +15694,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Solemn Lament",
-					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal more damage the further their SP value is from 0 (+1% damage for every missing SP; max 45%)\nAgainst targets without SP: deal +1% damage for every 2 Sinking on the target (max 45%)\n[On Kill] Heal 5 SP\n<1>[On Hit] Inflict 4 Butterfly (The Living)\n[On Hit] Inflict 4 Butterfly (The Departed)\n[On Hit] Inflict +3 Sinking Count",
+					"Description": "[Indiscriminate] Targets randomly\nIf the target has less than 0 SP, deal more damage the further their SP value is from 0 (+1% damage for every missing SP; max 45%)\nAgainst targets without SP: deal +1% damage for every 2 Sinking on target (max 45%)\n[On Kill] Heal 5 SP\n<1>[On Hit] Inflict 4 Butterfly (The Living)\n[On Hit] Inflict 4 Butterfly (The Departed)\n[On Hit] Inflict +3 Sinking Count",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 32,
@@ -16096,7 +16096,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
+						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 10)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,
@@ -16132,7 +16132,7 @@
 					"SkillSlot": "EC0",
 					"Name": "Unbrilliant Glory",
 					"DisplayName": "Unbrilliant Glory - Flowing",
-					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +30% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +160% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +30% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +160% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on the main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 20,
@@ -16201,7 +16201,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
+						"Description": "[Unclashable]\nCannot Trigger Skill Reuse\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (Max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (Max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (Max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (Max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If the target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this is the 4th Coin, deal Sloth damage equal to target's Tremor (Max 5)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,
@@ -16237,7 +16237,7 @@
 					"SkillSlot": "EC0",
 					"Name": "Unbrilliant Glory",
 					"DisplayName": "Unbrilliant Glory - Flowing",
-					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +25% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +120% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nWhen attacking 3+ targets: If Coins 1~3 hit without Cracking, the final Coin deals +25% damage (Once per Coin; each Part is 1 target)\nAt 40 Man in Scabbard, Base Power +1\n[Before Attack] Consume all Man in Scabbard, and gain (All effects rounded down):\n$ For every 10 Stack consumed, gain 1 Defense Level Up (Once per turn)\n$ If 40 Stack was consumed, the final Coin deals +120% damage and gain 2 Protection (Once per turn)\n[Before Attack] Deal +3% damage for every 6 (Burn + Tremor) on the main target (Max 15%)\n[Before Attack] Base Power -4 for every Cracked Coin (Max -16)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If 40 Man in Scabbard was consumed, the leftmost Skill Slot on the Dashboard gains +8 Aggro next turn (Once per turn)\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit without Cracking] If the target has 15+ Tremor, trigger Tremor Burst; reduce enemy's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 20,

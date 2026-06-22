@@ -2503,7 +2503,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Assignment Evaluation",
-					"Description": "On Hit, if the target has 4+ Bleed, heal 2 SP\nHeal 1 additional SP for every negative effect on the target (Max 3)\nIf this unit's SP is at max, gain 2 Offense Level Up next turn when this unit heals SP with this effect\nActivates 4 times max per turn",
+					"Description": "On Hit, if the target has 4+ Bleed, heal 2 SP\nHeal 1 additional SP for every negative effect on target (Max 3)\nIf this unit's SP is at max, gain 2 Offense Level Up next turn when this unit heals SP with this effect\nActivates 4 times max per turn",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -2637,7 +2637,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Assignment Evaluation",
-					"Description": "On Hit, if the target has 6+ Bleed, heal 2 SP\nHeal 1 additional SP for every negative effect on the target (Max 3)\nIf this unit's SP is at max, gain 1 Offense Level Up next turn when this unit heals SP with this effect\nActivates 4 times max per turn",
+					"Description": "On Hit, if the target has 6+ Bleed, heal 2 SP\nHeal 1 additional SP for every negative effect on target (Max 3)\nIf this unit's SP is at max, gain 1 Offense Level Up next turn when this unit heals SP with this effect\nActivates 4 times max per turn",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -3334,7 +3334,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "I Shall Fire / Anytime",
-						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] This Coin only damages the main target\n<2>[Unbreakable Coin] This Coin only damages sub-targets\n$ If the first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +40% damage for every Torn Memory\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on main target\n[On Hit] Inflict 5 Bleed and +2 Bleed Count",
+						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] This Coin only damages the main target\n<2>[Unbreakable Coin] This Coin only damages sub-targets\n$ If the first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +40% damage for every Torn Memory\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 5 Bleed and +2 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 4,
@@ -3513,7 +3513,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "I Shall Fire / Anytime",
-						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] damages main target\n<2>[Unbreakable Coin] damages sub-targets\n$ If first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +30% damage for every Torn Memory\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on main target\n[On Hit] Inflict 3 Bleed and +1 Bleed Count",
+						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] damages main target\n<2>[Unbreakable Coin] damages sub-targets\n$ If first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +30% damage for every Torn Memory\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 3 Bleed and +1 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 3,
@@ -6227,7 +6227,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Seven Association Tea Time",
-					"Description": "1 ally with the fastest Speed deals more damage based on the target's Rupture when attacking with a damage type that the target is 'Weak' or 'Fatal' (Resistance > x1) to. (+1.5% per 1 Rupture; Max 15%)\nIf the ally is a Seven Association Fixer, deal further increased damage. (+0.5% per 1 Rupture; Max 5%)",
+					"Description": "1 ally with the fastest Speed deals more damage based on target's Rupture when attacking with a damage type that the target is 'Weak' or 'Fatal' (Resistance > x1) to. (+1.5% per 1 Rupture; Max 15%)\nIf the ally is a Seven Association Fixer, deal further increased damage. (+0.5% per 1 Rupture; Max 5%)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -6347,7 +6347,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Seven Association Tea Time",
-					"Description": "1 ally with the fastest Speed deals more damage based on the target's Rupture when attacking with a damage type that the target is 'Weak' or 'Fatal' (Resistance > x1) to. (+1.5% per 1 Rupture; Max 15%)\nIf the ally is a Seven Association Fixer, deal further increased damage. (+0.5% per 1 Rupture; Max 5%)",
+					"Description": "1 ally with the fastest Speed deals more damage based on target's Rupture when attacking with a damage type that the target is 'Weak' or 'Fatal' (Resistance > x1) to. (+1.5% per 1 Rupture; Max 15%)\nIf the ally is a Seven Association Fixer, deal further increased damage. (+0.5% per 1 Rupture; Max 5%)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -11504,7 +11504,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "I Command Thee, Halt!",
-					"Description": "[On Use] Clash Power +1 for every 6 Tremor on target (Max 2)\n[On Use] If the target has Bind, Clash Power +1\n[On Use] Consume 10 Tremor Count on self to gain Coin Power +2\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 3 Tremor\n<4>[On Hit] If the target has 10+ Tremor, consume 10 Tremor on the target and inflict 2 Time Moratorium\nIf this unit is in a Borrowed Time state, this effect does not consume the target's Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If the target's Speed is slower than this unit's, trigger Amplitude Conversion into Tremor - Chain",
+					"Description": "[On Use] Clash Power +1 for every 6 Tremor on target (Max 2)\n[On Use] If the target has Bind, Clash Power +1\n[On Use] Consume 10 Tremor Count on self to gain Coin Power +2\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 3 Tremor\n<4>[On Hit] If the target has 10+ Tremor, consume 10 Tremor on target and inflict 2 Time Moratorium\nIf this unit is in a Borrowed Time state, this effect does not consume the target's Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If the target's Speed is slower than this unit's, trigger Amplitude Conversion into Tremor - Chain",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -11638,7 +11638,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "I Command Thee, Halt!",
-					"Description": "[On Use] If the target has 6+ Tremor, Clash Power +1\n[On Use] Consume 10 Tremor Count on self to gain Coin Power +2\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 3 Tremor\n<4>[On Hit] If the target has 10+ Tremor, consume 10 Tremor on the target and inflict 2 Time Moratorium\nIf this unit is in a Borrowed Time state, this effect does not consume the target's Tremor\n[On Hit] If the target's Speed is slower than this unit's, trigger Amplitude Conversion into Tremor - Chain",
+					"Description": "[On Use] If the target has 6+ Tremor, Clash Power +1\n[On Use] Consume 10 Tremor Count on self to gain Coin Power +2\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 3 Tremor\n<4>[On Hit] If the target has 10+ Tremor, consume 10 Tremor on target and inflict 2 Time Moratorium\nIf this unit is in a Borrowed Time state, this effect does not consume the target's Tremor\n[On Hit] If the target's Speed is slower than this unit's, trigger Amplitude Conversion into Tremor - Chain",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 2,
@@ -17121,7 +17121,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Cascading Gaze of Awe Underneath Contempt",
-						"Description": "External effects cannot trigger Skill Reuse\nPrioritizes enemies with Gaze or Contempt as sub-targets\n$ Deal -50% damage against sub-targets\n$ Deal +200% damage against a single target\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on main target (Max 4)\n[On Use] Deal +2% damage for every (Bleed + Tremor) on main target (Max 100%)\n[On Use] Deal +10% damage for every (Gaze on all targets) (Max 70%)\n[After Attack] Consume Gaze or Contempt on all targets that were hit\n<1>[Unbreakable Coin]\nIf the target has Contempt, deal +235% damage\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Bleed and +2 Bleed Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+						"Description": "External effects cannot trigger Skill Reuse\nPrioritizes enemies with Gaze or Contempt as sub-targets\n$ Deal -50% damage against sub-targets\n$ Deal +200% damage against a single target\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on the main target (Max 4)\n[On Use] Deal +2% damage for every (Bleed + Tremor) on the main target (Max 100%)\n[On Use] Deal +10% damage for every (Gaze on all targets) (Max 70%)\n[After Attack] Consume Gaze or Contempt on all targets that were hit\n<1>[Unbreakable Coin]\nIf the target has Contempt, deal +235% damage\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n[On Hit] Inflict 4 Bleed and +2 Bleed Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 14,
@@ -17331,7 +17331,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Cascading Gaze of Awe Underneath Contempt",
-						"Description": "External effects cannot trigger Skill Reuse\nPrioritizes enemies with Gaze or Contempt as sub-targets\n$ Deal -50% damage against sub-targets\n$ Deal +200% damage against a single target\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on main target (Max 2)\n[On Use] Deal +2% damage for every (Bleed + Tremor) on main target (Max 50%)\n[On Use] Deal +7% damage for every (Gaze on all targets) (Max 49%)\n[After Attack] Consume Gaze or Contempt on all targets that were hit\n<1>[Unbreakable Coin]\nIf the target has Contempt, deal +180% damage\n[On Hit] Inflict 3 Tremor and +1 Tremor Count\n[On Hit] Inflict 3 Bleed and +1 Bleed Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+						"Description": "External effects cannot trigger Skill Reuse\nPrioritizes enemies with Gaze or Contempt as sub-targets\n$ Deal -50% damage against sub-targets\n$ Deal +200% damage against a single target\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on the main target (Max 2)\n[On Use] Deal +2% damage for every (Bleed + Tremor) on the main target (Max 50%)\n[On Use] Deal +7% damage for every (Gaze on all targets) (Max 49%)\n[After Attack] Consume Gaze or Contempt on all targets that were hit\n<1>[Unbreakable Coin]\nIf the target has Contempt, deal +180% damage\n[On Hit] Inflict 3 Tremor and +1 Tremor Count\n[On Hit] Inflict 3 Bleed and +1 Bleed Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 						"DamageType": "Pierce",
 						"SinType": "Lust",
 						"BasePower": 12,
@@ -18355,7 +18355,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rend Space [空間斬]",
-					"Description": "[On Use] Final Power +1 for every 4 Poise (Max 5)\n[On Use] Base Power +1 for every 6 (Burn + Bleed) on main target (Max 5)\n[On Use] Deal +5% damage for every Entanglement on self\n[On Use] Gain 5 Poise\n[On Use] Atk Weight +1 for every 2 Entanglement on self (Max 2)\n[On Use] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Randomly inflict (Entanglement + 10) Bladetrail [Afterimage] between targets hit\n<1>Deal +50% damage on Critical Hit\n[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Burn\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage",
+					"Description": "[On Use] Final Power +1 for every 4 Poise (Max 5)\n[On Use] Base Power +1 for every 6 (Burn + Bleed) on the main target (Max 5)\n[On Use] Deal +5% damage for every Entanglement on self\n[On Use] Gain 5 Poise\n[On Use] Atk Weight +1 for every 2 Entanglement on self (Max 2)\n[On Use] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Randomly inflict (Entanglement + 10) Bladetrail [Afterimage] between targets hit\n<1>Deal +50% damage on Critical Hit\n[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Burn\n[On Crit] Activate Burn on target; target loses 1 Burn Count\n[On Crit] Activate Bleed on target; target loses 1 Bleed Count\n[On Crit] Deal Slash damage equal to (Entanglement x 4)% of this Coin's final damage",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 10,
@@ -21882,7 +21882,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Double Slash - Blast [爆]",
-					"Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 3)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn",
+					"Description": "Final Power +1 for every 4 (Burn + Tremor on the main target) (Max 3)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -21909,7 +21909,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Triple Slash - Blast [爆]",
-					"Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 4)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "Final Power +1 for every 4 (Burn + Tremor on the main target) (Max 4)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict 2 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +2 Burn Count\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -21940,7 +21940,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Tanglecleaver [快刀亂麻]",
-					"Description": "If this unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If this unit does not have Savage Tigermark Round, cancel activation\nCoin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 3 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Inflict +3 Burn Count\n<3>Spend 1 Tigermark Round; deal +50% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ If Tigermark Round was spent, repeat above effect 2 more times",
+					"Description": "If this unit has Savage Tigermark Round, activate 'Savage Tigerslayer's Perfected Flurry of Blades' instead\n[Before Use] If this unit does not have Savage Tigermark Round, cancel activation\nCoin Power +1 for every 8 (Burn + Tremor on the main target) (Max 2)\n<1>Spend 1 Tigermark Round\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 3 Burn\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Inflict +3 Burn Count\n<3>Spend 1 Tigermark Round; deal +50% damage\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ If Tigermark Round was spent, repeat above effect 2 more times",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 5,
@@ -21973,7 +21973,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Savage Tigerslayer's Perfected Flurry of Blades [超絕猛虎殺擊亂斬]",
-						"Description": "Coin Power +1 for every 8 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Spend 1 Savage Tigermark Round\n[On Hit] Inflict 3 Burn\n<4>Spend 1 Savage Tigermark Round\n[On Hit] Inflict +3 Burn Count\n<5>Spend 1 Savage Tigermark Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\nIf Savage Tigermark Round was spent, repeat above effect 2 more times",
+						"Description": "Coin Power +1 for every 8 (Burn + Tremor on the main target) (Max 2)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Spend 1 Savage Tigermark Round\n[On Hit] Inflict 3 Burn\n<4>Spend 1 Savage Tigermark Round\n[On Hit] Inflict +3 Burn Count\n<5>Spend 1 Savage Tigermark Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\nIf Savage Tigermark Round was spent, repeat above effect 2 more times",
 						"DamageType": "Blunt",
 						"SinType": "Wrath",
 						"BasePower": 3,
@@ -22006,7 +22006,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "I'm Burning Up.",
-					"Description": "[Clashable Counter]\nFinal Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +2\n<1>[On Hit] Inflict 1 Tremor (2 times per turn)\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
+					"Description": "[Clashable Counter]\nFinal Power +1 for every 4 (Burn + Tremor on the main target) (Max 2)\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +2\n<1>[On Hit] Inflict 1 Tremor (2 times per turn)\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 5,
@@ -22086,7 +22086,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Double Slash - Blast [爆]",
-					"Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn",
+					"Description": "Final Power +1 for every 4 (Burn + Tremor on the main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -22113,7 +22113,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Triple Slash - Blast [爆]",
-					"Description": "Final Power +1 for every 4 (Burn + Tremor on main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Burn Count\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "Final Power +1 for every 4 (Burn + Tremor on the main target) (Max 2)\n<1>[On Hit] Inflict 1 Tremor\n<2>Spend 1 Tigermark Round\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Burn\n<3>Spend 1 Tigermark Round\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Burn Count\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -22210,7 +22210,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "I'm Burning Up.",
-					"Description": "[Clashable Counter]\nIf the target has 4+ (Burn + Tremor on main target), Final Power +1\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +1\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
+					"Description": "[Clashable Counter]\nIf the target has 4+ (Burn + Tremor on the main target), Final Power +1\nIf Tigermark Round or Savage Tigermark Round is at 0, Clash Power +1\n<2>[On Hit] Inflict +1 Tremor Count (2 times per turn)",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -22403,7 +22403,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Ouvertüre",
-						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 100 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (Highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred) allies; excludes allies at max Stack)\n$ If there was a Lust Reson, apply +1 Hardblood Armor\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n$ At 2+ Focused Performance, inflict +2 La Mancha Parade to 1 target (Once per turn)\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
+						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 100 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on the main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (Highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred) allies; excludes allies at max Stack)\n$ If there was a Lust Reson, apply +1 Hardblood Armor\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n$ At 2+ Focused Performance, inflict +2 La Mancha Parade to 1 target (Once per turn)\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -22624,7 +22624,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Ouvertüre",
-						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 85 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (Highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred) allies; excludes allies at max Stack)\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
+						"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (Max 85 per Skill)\n[On Use] Clash Power +2 for every 3 Bleed on the main target (Max 8)\n[On Use] Deal +10% damage for every 2 Bleed Count on target (Max 40%)\n[On Use] Apply 2 Hardblood Armor to self and (Highest Reson) allies (2 times per turn; max 4 allies; prioritizes <La Manchaland>, then <Bloodfiend>(Higher Kindred) allies; excludes allies at max Stack)\n[After Attack] Consume all Hardblood Armor on self\n[After Attack] Increase Bloodfeast by 10 for every target defeated by this Skill (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bleed\n[On Hit without Cracking] Inflict 1 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 La Mancha Parade\n[On Hit without Cracking] Gain 1 Hardblood Armor next turn for every target this Skill Staggered, Part Broke, or defeated (Max 3)",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -22827,7 +22827,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Field Test - Dust Spark",
-					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2- Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on main target (Max 3)\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
+					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2- Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on the main target (Max 3)\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -22988,7 +22988,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Field Test - Dust Spark",
-					"Description": "Deal +5% damage for every 5 Spore on target\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on main target (Max 2)\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 1 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +1 Bleed Count",
+					"Description": "Deal +5% damage for every 5 Spore on target\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on the main target (Max 2)\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 1 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +1 Bleed Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 3,
@@ -24522,7 +24522,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rampage",
-					"Description": "At 6+ Speed, Coin Power +1\nDeal more damage based on the target's missing HP (+0.5% per 1% missing HP)\n<1>[Heads Hit] Heal 1 SP per Bleed on target (Max 10)\n<3>[On Hit] Inflict 1 Bleed\n<4>[On Hit] Inflict 2 Bleed",
+					"Description": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.5% per 1% missing HP)\n<1>[Heads Hit] Heal 1 SP per Bleed on target (Max 10)\n<3>[On Hit] Inflict 1 Bleed\n<4>[On Hit] Inflict 2 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -24641,7 +24641,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rampage",
-					"Description": "At 8+ Speed, Coin Power +1\nDeal more damage based on the target's missing HP (+0.3% per 1% missing HP)\n<1>[Heads Hit] Heal 1 SP per Bleed on target (Max 5)\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[Heads Hit] Inflict 2 Bleed",
+					"Description": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.3% per 1% missing HP)\n<1>[Heads Hit] Heal 1 SP per Bleed on target (Max 5)\n<3>[Heads Hit] Inflict 1 Bleed\n<4>[Heads Hit] Inflict 2 Bleed",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -27420,7 +27420,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
-					"Description": "[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on main target (Max 3)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins on this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (Once per turn)\n[On Hit] Gain 1 Haste next turn (Once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (Once per turn)\n[On Hit] Gain 1 Slash DMG Up next turn (Once per turn)\n<4>Deal +5% damage for every type of negative effect on target (Max 30%)\n[On Hit] Inflict +1 Bleed Count",
+					"Description": "[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on the main target (Max 3)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins on this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (Once per turn)\n[On Hit] Gain 1 Haste next turn (Once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (Once per turn)\n[On Hit] Gain 1 Slash DMG Up next turn (Once per turn)\n<4>Deal +5% damage for every type of negative effect on target (Max 30%)\n[On Hit] Inflict +1 Bleed Count",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -27718,7 +27718,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
-					"Description": "[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on main target (Max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins on this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (Once per turn)\n[On Hit] Gain 1 Haste next turn (Once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (Once per turn)\n[On Hit] Gain 1 Slash DMG Up next turn (Once per turn)\n<4>Deal +5% damage for every type of negative effect on target (Max 30%)\n[On Hit] Inflict +1 Bleed Count",
+					"Description": "[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on the main target (Max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins on this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (Once per turn)\n[On Hit] Gain 1 Haste next turn (Once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (Once per turn)\n[On Hit] Gain 1 Slash DMG Up next turn (Once per turn)\n<4>Deal +5% damage for every type of negative effect on target (Max 30%)\n[On Hit] Inflict +1 Bleed Count",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -32141,7 +32141,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Bloodflame Massacre [血炎亂舞]",
-					"Description": "[Unfocused Volley]\nDeal +1.5% damage for every Burn on self (Max 30%)\n[Combat Start] If this unit has Bloodflame [血炎] or less than 50% HP, convert all Coins to Unbreakable Coins\n[Before Use] At 20 Battleblood Instinct, activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀]' instead\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[After Attack] Gain +2 Burn Count\n<1>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<2>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<3>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<4>[On Hit] Inflict +3 Rupture Count\n[On Hit] Deal ((Burn on self + Burn on target)% of this Coin's final damage) Gluttony damage against all targets (Max 20%)",
+					"Description": "[Unfocused Volley]\nDeal +1.5% damage for every Burn on self (Max 30%)\n[Combat Start] If this unit has Bloodflame [血炎] or less than 50% HP, convert all Coins to Unbreakable Coins\n[Before Use] At 20 Battleblood Instinct, activate 'Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀]' instead\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on the main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[After Attack] Gain +2 Burn Count\n<1>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<2>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<3>[On Hit] Apply 2 Burn to target and self\n[Heads Hit] At 50%+ HP, take Burn damage by Burn on self\n<4>[On Hit] Inflict +3 Rupture Count\n[On Hit] Deal ((Burn on self + Burn on target)% of this Coin's final damage) Gluttony damage against all targets (Max 20%)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -32170,7 +32170,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀]",
-						"Description": "[Unfocused Volley]\nDeal +3% damage for every Burn on self (Max 60%)\nDeal +1% damage for every 2% (missing HP% on self + missing HP% on target) (Max 50%)\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If this unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)\n[On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets\n$ If this is the final Coin, heal HP by the damage the above effect dealt",
+						"Description": "[Unfocused Volley]\nDeal +3% damage for every Burn on self (Max 60%)\nDeal +1% damage for every 2% (missing HP% on self + missing HP% on target) (Max 50%)\n[On Use] Gain 3 Bloodflame [血炎]\n[On Use] Coin Power +1 for every 6 (Burn + Rupture) on the main target (Max 2)\n[On Use] Clash Power +1 for every 20% missing HP on self (Max 3)\n[Clash Win] Gain 10 Burn\n[After Attack] Consume all Battleblood Instinct\n[After Attack] At 20+ Burn on self, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Rupture Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Rupture\n<4>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] If this unit has 20+ Burn or less than 50% HP, Reuse this Coin (Once per Skill)\n[On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets\n$ If this is the final Coin, heal HP by the damage the above effect dealt",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 5,
@@ -32578,7 +32578,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
-					"Description": "Final Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\nFinal Power +1 for every 2 Envy Reson (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If main target has Vengeance Mark, Final Power +2\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (Max 6 per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Deal (Envy Reson x 5)% of this Skill's final damage as bonus Blunt damage (Max 30%)",
+					"Description": "Final Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\nFinal Power +1 for every 2 Envy Reson (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If main target has Vengeance Mark, Final Power +2\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (Max 6 per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Deal (Envy Reson x 5)% of this Skill's final damage as bonus Blunt damage (Max 30%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 10,
@@ -32603,7 +32603,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "COMPLETE AND TOTAL EXTERMINATION!!",
-						"Description": "Cannot trigger Skill Reuse\nDeal +1% damage for every 1% missing HP on self (Max 30%)\nFinal Power +1 for every 4 (Burn + Bleed) on main target (Max 5)\n[Combat Start] This Skill gains (Highest Reson) Offense Level\n[On Use] If main target has Vengeance Mark, Final Power +3\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (Max 4)\n[Attack End] Consume 15 Vengeance Tattoo on self\n<1>[Unbreakable Coin]\nIf the target is Staggered, deal +20% damage\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal (Envy Reson x 7)% of this Skill's final damage as bonus Blunt damage (Max 42%)",
+						"Description": "Cannot trigger Skill Reuse\nDeal +1% damage for every 1% missing HP on self (Max 30%)\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 5)\n[Combat Start] This Skill gains (Highest Reson) Offense Level\n[On Use] If main target has Vengeance Mark, Final Power +3\n[On Use] At 20+ Book of Vengeance [Heathcliff], Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n[On Kill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (Max 4)\n[Attack End] Consume 15 Vengeance Tattoo on self\n<1>[Unbreakable Coin]\nIf the target is Staggered, deal +20% damage\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal (Envy Reson x 7)% of this Skill's final damage as bonus Blunt damage (Max 42%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -32780,7 +32780,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
-					"Description": "Final Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn",
+					"Description": "Final Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[Combat Start] This Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] At 6+ Envy A-Reson, Atk Weight +1\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (Focused Encounters, Parts)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Bleed\n[On Hit] Inflict 5 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 10,
@@ -32887,6 +32887,268 @@
 					"ResourceType": "Owned",
 					"MiscTags": [
 						"Ally Attack Power Up"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 7311,
+		"DisplayId": 7000,
+		"Sinner": "Heathcliff",
+		"Identity": "The House of Spiders: The Thumb Apprentice",
+		"DWorld": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": [ 0, 0 ],
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [ 0 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "La Spada di Palermo",
+					"Description": "[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Tremor Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Colpi Sottani",
+					"Description": "[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[Clash Win] If target has The Duel Escalates, inflict Tremor Count\n<1>[On Hit] Inflict Burn and Burn Count\n<2>[On Hit] Inflict Tremor and Tremor Count\n<3>[On Hit] If this unit has Maturing Textbook, or if target has The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor Count",
+						"Burn Potency",
+						"Burn Count",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Il Cacciatore",
+					"Description": "[Before Use] Ifg target has X The Duel Escalates, activate 'Sezionatura di Cervo' instead\n[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[On Use] Gain the following effects based on The Duel Escalates Stack on target:\n$ Deal more damage for every Stack\n$ X+ The Duel Escalates: Inflict more Tremor Potency\n$ X++ The Duel Escalates: Inflict more Tremor Count\n$ X+++ The Duel Escalates: Inflict more Burn Potency\n$ X++++ The Duel Escalates: Inflict more Burn Count\n[On Use] If this unit has Maturing Textbook, or if target has X+ The Duel Escalates, convert all Coins on this Skill to Unbreakable Coins\n<1>[On Hit] Inflict Burn and Burn Count\n<2>[On Hit] Inflict Tremor and Tremor Count\n<3>Deal more damage for every X Maturing Textbook Stack\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If this unit has Maturing Textbook, or if target has X+ The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Unbreakable Coin",
+						"Burn Potency",
+						"Burn Count",
+						"Tremor Potency",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Sezionatura di Cervo",
+						"Description": "[On Use]\n$ Gain +(Maturing Textbook - X) Atk Weight\n$ Coin Power +X for every Y (Burn + Tremor) on the main target\n$ When attacking X target(s), deal more damage\n$ Deal more damage for every X excess Atk Weight beyond the # of actual targets\n[Attack End] Consume all The Duel Escalates on the main target\n$ Gain X Maturing Textbook, if the main target is defeated, gain Y Maturing Textbook instead\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn and Burn Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Tremor and Tremor Count\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[Coin Start] This Coin gains Coin Power for every X Maturing Textbook\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 4,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 8,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Attack Weight Increase",
+							"Spend The Duel Escalates",
+							"Maturing Textbook",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Burn Count",
+							"Tremor Potency",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Measuring Blade Reach",
+					"Description": "[Clashable Counter]\nDeal more damage for every X The Duel Escalates on target\n[On Use] Final Power +X for every Y (Burn + Tremor) on target\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Burn Potency",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "I Will Protect",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use]\n$ Gain Protection\n$ Heal SP for the unit protected by Assist Defense\n<1>[Unbreakable Coin]",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Guard",
+							"Assist Defense Skill",
+							"Protection",
+							"Ally Heal SP",
+							"Unbreakable Coin"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Duello Disperato",
+						"Description": "At Base Skill End against an enemy:\n$ If the target is defeated while having The Duel Escalates (on any of its Parts), gain X Maturing Textbook\n$ If the main target isn't defeated, inflict X The Duel Escalates on the main target; if there was a Clash against the said main target using said Base Skill, inflict Y The Duel Escalates on the main target instead\nAt Clash Start against a target that has The Duel Escalates, heal SP equal to The Duel Escalates Stack on target",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Maturing Textbook",
+							"The Duel Escalates",
+							"Heal SP"
+						]
+					},
+					{
+						"Name": "Desperate Struggle",
+						"Description": "If the House of Spiders: The Thumb Nursefather Rodion is on the field, activate the following (Does not activate in turns where this unit is Panicked or Staggered):\n$ When The Thumb Nursefather Rodion (That has Eye of Precognition) hits an enemy with a Base Skill, at its Attack End, follow up with 'La Spada di Palermo' as an Unopposed Attack against the target\nCombat Start: When The Thumb Nursefather (That has Eye of Precognition - Overheat) is targeted by an enemy's Unopposed Skill, The Thumb Apprentice Heathcliff gains Assist Defense (This Assist Defense activates only for The House of Spiders: The Thumb Nursefather Rodion)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Self Follow Up",
+							"Assist Defense"
+						]
+					},
+					{
+						"Name": "Saikai [再会] - The Thumb",
+						"Description": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following:\n$ Gain 1 Entanglement\n$ On Clash Win using a Base Skill, inflict X Tremor and trigger Tremor Burst; reduce target's Tremor Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Palermitan Style",
+					"Description": "Gain the following effects based on (Maturing Textbook on self + The Duel Escalates on the main target):\n$ Base Skills deal more damage for every combined Stack\n$ X+ Stack: Clash Power +Y\n$ X++ Stack: Base Skills gain +Y Base Power\n$ X+++ Stack: On Hit using a Base Skill, inflict Severed Tendon next turn\n$ X++++ Stack: Base Skills gain Final Power +Y\n$ X+++++ Stack: Base Skills deal more damage\nTake less damage for every X (Maturing Textbook on self + The Duel Escalates) on the enemy attacking this unit",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Severed Tendon",
+						"Damage Reduction"
+					]
+				},
+				"SupportSkill": {
+					"Name": "In One-on-one Duels...",
+					"Description": "1 ally with the fastest Speed: On Clash Win using Base Attack Skills, inflict Burn Count on target\n$ Prioritizes 'The Thumb' Identities\n$ If the ally is a 'The Thumb' Identity, inflict Burn Count and Tremor Count instead\n$ Combat Start: If there is only 1 enemy on the field (Abnormalities, a Core), this effect inflict more Burn Count and Tremor Count",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Burn Count",
+						"Tremor Count"
 					]
 				}
 			}
@@ -35652,7 +35914,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Ink Over",
-					"Description": "Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Kill] Gain 2 Slash Power Up next turn (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 3 Bleed\n<3>Deal +10% damage for every type of negative effect on the target (Max 100%)\n[On Hit] Activate Bleed 3 times on target; reduce their Bleed Count by 3",
+					"Description": "Coin Power +1 for every 6 Bleed on target (Max 2)\n[On Kill] Gain 2 Slash Power Up next turn (Once per turn)\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 3 Bleed\n<3>Deal +10% damage for every type of negative effect on target (Max 100%)\n[On Hit] Activate Bleed 3 times on target; reduce their Bleed Count by 3",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -35989,7 +36251,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Crimson Spring",
-					"Description": "[Before Attack] If main target has 5+ types of negative effects, Atk Weight +1\n[Before Attack] At 3+ Launcher [始], Atk Weight +1\n[On Use] Coin Power +2 for every 3 types of negative effects on main target (Max 6)\n[On Use] Coin Power +1 for every 7 (Rupture + Rupture Count) on main target (Max 5)\n[Clash Win] Gain 4 Poise\n<1>[Unbreakable Coin]\nDeal +(50 + Poise on self + Rupture on main target)% damage (Max 75%)\nDeal +(80 + Poise on self + Rupture on main target)% damage on Critical Hit (Max 105%)\n+5% damage on Critical Hit for every Launcher [始] (Max 30%)\n[On Hit] Inflict 5 Rupture\n[On Crit] Inflict +1 Rupture Count\n[On Crit] Gain 2 Poise and +1 Poise Count\n[On Crit Kill] Gain +2 Poise Count (3 times per turn)",
+					"Description": "[Before Attack] If main target has 5+ types of negative effects, Atk Weight +1\n[Before Attack] At 3+ Launcher [始], Atk Weight +1\n[On Use] Coin Power +2 for every 3 types of negative effects on the main target (Max 6)\n[On Use] Coin Power +1 for every 7 (Rupture + Rupture Count) on the main target (Max 5)\n[Clash Win] Gain 4 Poise\n<1>[Unbreakable Coin]\nDeal +(50 + Poise on self + Rupture on the main target)% damage (Max 75%)\nDeal +(80 + Poise on self + Rupture on the main target)% damage on Critical Hit (Max 105%)\n+5% damage on Critical Hit for every Launcher [始] (Max 30%)\n[On Hit] Inflict 5 Rupture\n[On Crit] Inflict +1 Rupture Count\n[On Crit] Gain 2 Poise and +1 Poise Count\n[On Crit Kill] Gain +2 Poise Count (3 times per turn)",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 8,
@@ -36165,7 +36427,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Crimson Spring",
-					"Description": "[Before Attack] If main target has 5+ types of negative effects, Atk Weight +1\n[On Use] Coin Power +2 for every 3 types of negative effects on main target (Max 4)\n[On Use] Coin Power +1 for every 7 (Rupture + Rupture Count) on main target (Max 3)\n[Clash Win] Gain 4 Poise\n<1>[Unbreakable Coin]\nDeal +(20 + Poise on self + Rupture on main target)% damage (Max 40%)\nDeal +(45 + Poise on self + Rupture on main target)% damage on Critical Hit (Max 65%)\n+5% damage on Critical Hit for every Launcher [始] (Max 30%)\n[On Hit] Inflict 5 Rupture\n[On Crit] Gain 2 Poise and +1 Poise Count\n[On Crit Kill] Gain +2 Poise Count (3 times per turn)",
+					"Description": "[Before Attack] If main target has 5+ types of negative effects, Atk Weight +1\n[On Use] Coin Power +2 for every 3 types of negative effects on the main target (Max 4)\n[On Use] Coin Power +1 for every 7 (Rupture + Rupture Count) on the main target (Max 3)\n[Clash Win] Gain 4 Poise\n<1>[Unbreakable Coin]\nDeal +(20 + Poise on self + Rupture on the main target)% damage (Max 40%)\nDeal +(45 + Poise on self + Rupture on the main target)% damage on Critical Hit (Max 65%)\n+5% damage on Critical Hit for every Launcher [始] (Max 30%)\n[On Hit] Inflict 5 Rupture\n[On Crit] Gain 2 Poise and +1 Poise Count\n[On Crit Kill] Gain +2 Poise Count (3 times per turn)",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 8,
@@ -37183,7 +37445,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Observing the Stones on the Road",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Heal 5 SP on the target this unit guarded using Assist Defense\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Heal 5 SP on target this unit guarded using Assist Defense\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gloom",
 						"BasePower": 4,
@@ -42320,6 +42582,338 @@
 						"Sinking Potency",
 						"Ally Offense Level Up",
 						"Ally Defense Level Up"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 9311,
+		"DisplayId": 9000,
+		"Sinner": "Rodion",
+		"Identity": "The House of Spiders: The Thumb Nursefather",
+		"DWorld": "???",
+		"Season": 7,  
+		"Traits": [
+		],
+		"Speed": [ 0, 0 ],
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [ 0, 0 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Colpi di Taglio",
+					"Description": "[On Use] At X+ Poise, Final Power +Y\n[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal more damage for every X Stack lost\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Burn Count\n<2>[On Hit] Inflict Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Eye of Precognition",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Sezionatura di Coniglio",
+						"Description": "[Unclashable]\nDoes not trigger Defense Skills, external effects cannot trigger Skill Reuse\n[On Use] At X+ Poise, Final Power +Y\n[On Use] Base Power +X for every Y (Burn + Tremor on target)\n<1>[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Pride",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Burn Count",
+							"Tremor Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "I'll Gladly Blast a Hole Through Ya",
+					"Description": "Turn Start: If this unit does not have Acceleration Round, activate as 'Sezionatura di Cervo'\n[On Use] At X+ Poise, Final Power +Y\n[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal more damage for every X Stack lost\n<1>Spend Acceleration Round\n[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>Spend Acceleration Round\n[On Hit] Inflict Tremor and Tremor Count\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Spend Eye of Precognition",
+						"Spend Acceleration Round",
+						"Burn Potency",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Sezionatura di Cervo",
+						"Description": "[On Use] If this unit is in Eye of Precognition - Overheat state, Final Power +X and convert all Coins into Unbreakable Coins\n[On Use] Gain Poise Count\n[On Use] Coin Power +X for every Y (Burn + Tremor on target)\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal more damage for every X Stack lost\n<1>[On Hit] Gain Poise\n[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor and Tremor Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] If target has X+ Tremor, trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Sloth",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unbreakable Coin",
+							"Poise Count",
+							"Spend Eye of Precognition",
+							"Poise Potency",
+							"Burn Potency",
+							"Tremor Potency",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Sezionatura di Elefante",
+					"Description": "[On Use] At X+ Poise, Final Power +X\n[On Use] Coin Power +X for every (Burn + Tremor on target)\n[Before Attack] Lose up to X Eye of Precognition Stack on self\n<1>Spend Acceleration Round\n[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>Spend Acceleration Round\n[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<3>Spend Acceleration Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<4>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n$ Activate the above effect once more for every Acceleration Round spent by this Skill",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Eye of Precognition",
+						"Spend Acceleration Round",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Disposal",
+						"Description": "If target has X%- current HP, deal more damage\nWhen attacking Game Target, Coin Power +X\n[On Use] If this unit has X+ Acceleration Round, Coin Power +X\n[On Use] Final Power +X for every Y (Burn + Tremor on target)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn\n[On Kill] Reload\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to X Acceleration Round\nDeal more damage for every X Acceleration Round that will be spent by this Coin effect\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n$ Activate the above effect once more for every Acceleration Round spent",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 5,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Skill Draw",
+							"Reload",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Tremor Potency",
+							"Burn Count",
+							"Tremor Count",
+							"Unbreakable Coin",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Spend Acceleration Round",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Fuck Off!",
+					"Description": "[Clashable Counter]\n[On Use] Final Power +X for every Y (Burn + Tremor on target)\n[On Use] Lose Eye of Precognition Stack on self\n[Turn End] If this unit has X- Acceleration Round, reload Acceleration Round to Y\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Burn\n[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Skill Change",
+						"Bleed Potency",
+						"Mauled Color [Rouge]",
+						"Sinking Potency",
+						"Mauled Color [Bleu]"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Precognition",
+						"Description": "Upon successfully evading all Coins on a Skill, use 'Sezionatura di Coniglio' as an Unopposed Attack against the attacker\nCoin Power +X for every Y Eye of Precognition Stacks on self\nBase Power +X for every Y excess Eye of Precognition Stacks on self past Y Stacks\n[On Use] Gain Poise Count\n[On Evade] Gain Poise\n[On Evade] Heal SP\n[Skill End] Lose Eye of Precognition Stack on self",
+						"DamageType": "Evade",
+						"SinType": "Gloom",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Self Follow Up",
+							"Poise Count",
+							"Poise Potency",
+							"Heal SP",
+							"Spend Eye of Precognition"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Eye of Precognition",
+						"Description": "Upon entering the Encounter for the first time, gain Eye of Precognition\nAt 0 Eye of Precognition Stack, convert Eye of Precognition into Eye of Precognition - Overheat\nWhile this unit has Eye of Precognition, activate the following effects:\n$ In a Clash, gain Accelerating Future with every Clash\n$ When attacked by an Unopposed Attack, Unbreakable Coin Attack, or losing a Clash with an Attack Skill, activate the 'Precognition' Skill\nThe following causes this unit to lose Eye of Precognition Stack:\n$ Lose X Eye of Precognition Stack with every Clash\n$ When this unit activates the 'Precognition' Skill via Passive effect due to being attacked by an Unopposed Attack or Unbreakable Coin Attack, lose X Eye of Precognition Stack\n$ When this unit activates 'Precognition' Skill via Passive effect due to losing a Clash, lose X Eye of Precognition Stack\nAt the end of the turn this unit's Eye of Precognition is converted into Eye of Precognition - Overheat, activate the following effects:\n$ Reload\n$ At the start of the turn, if this unit has no 'Disposal' on the Dashboard, replace a Base Skill with 'Disposal' (Prioritizes the Skill on the leftmost Slot's top row)\nThe following causes this unit to gain Shin (心) - Disgrace next turn:\n$ This unit's Eye of Precognition Stack drops to 0\nThis unit is Staggered\n$ The House of Spiders: The Thumb Apprentice Heathcliff is defeated (If the said Identity is already defeated when this unit Substitutes in, gain Shin (心) - Disgrace at Turn Start)\nTurn End: When Staggered for the first time in this Encounter, recover from Stagger (Excluding forced Staggers)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Eye of Precognition",
+							"Eye of Precognition - Overheat",
+							"Accelerating Future",
+							"Self Follow Up",
+							"Spend Eye of Precognition",
+							"Reload",
+							"Skill Draw",
+							"Shin (心) - Disgrace",
+							"Stagger Recovery"
+						]
+					},
+					{
+						"Name": "The Shame of Famiglia Bognatelli",
+						"Description": "Gain Poise and Poise Count for every X Acceleration Round spent\nWhen flipping a Coin that spends Acceleration Round, the attack does not get cancelled even when this unit is out of Acceleration Round\nThis Identity counts only as an Identity that inflict Burn and Tremor\nTurn Start: If this unit has 'Disposal' on its Dashboard, inflict Game Target on the enemy this unit attacked last in the previous turn (In Focused Encounters, the Parts)\n$ If there are no targets that satisfy the condition above, inflict Game Target on the enemy that has the lowest HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Poise Potency",
+							"Poise Count",
+							"Keyword Modification",
+							"Game Target"
+						]
+					},
+					{
+						"Name": "Saikai [再会] - The Thumb",
+						"Description": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following:\n$ Gain 1 Entanglement\n$ Defense Skill gains Coin Power +X, Base Attack Skills deal more damage against targets that have Shield",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "La Spada di Palermo",
+					"Description": "If this unit has X+ Acceleration Round, Skill 3 gains Coin Power +X and deals more damage\nDeal more damage using Base Skills for every X Burn on the main target\n$ If the main target has Shield, deal even more damage using Base Skills",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+					]
+				},
+				"SupportSkill": {
+					"Name": "Weaklings, Not Worth Shit",
+					"Description": "1 ally with the fastest Speed: When triggering Tremor Burst on the enemy, gain Offense Level Up next turn\n$ If said ally is a 'The Thumb' Identity, gain Haste as well",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Offense Level Up",
+						"Ally Haste"
 					]
 				}
 			}
@@ -47923,7 +48517,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Artwork Inspection",
-					"Description": "If the target has 6+ Bleed, Coin Power +1\nDeal +12.5% damage for every negative effect on the target (Max 50%)\n[On Use] Apply 1 Haste next turn to 2 allies adjacent to this unit on the Dashboard\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Potency for 1 of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\n[After Attack] If the target is Staggered or Defeated, apply 1 Pierce DMG Up next turn to 1 other ally with the highest SP\nIf the affected ally is a member of the Ring, apply 1 Pierce Power Up as well",
+					"Description": "If the target has 6+ Bleed, Coin Power +1\nDeal +12.5% damage for every negative effect on target (Max 50%)\n[On Use] Apply 1 Haste next turn to 2 allies adjacent to this unit on the Dashboard\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Potency for 1 of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\n[After Attack] If the target is Staggered or Defeated, apply 1 Pierce DMG Up next turn to 1 other ally with the highest SP\nIf the affected ally is a member of the Ring, apply 1 Pierce Power Up as well",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 4,
@@ -48056,7 +48650,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Artwork Inspection",
-					"Description": "Deal +10% damage for every negative effect on the target (Max 30%)\n[On Use] Apply 1 Haste next turn to 2 allies adjacent to this unit on the Dashboard\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Potency for 1 of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\n[After Attack] If the target is Staggered or Defeated, apply 1 Pierce DMG Up next turn to 1 other ally with the highest SP",
+					"Description": "Deal +10% damage for every negative effect on target (Max 30%)\n[On Use] Apply 1 Haste next turn to 2 allies adjacent to this unit on the Dashboard\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Inflict 3 Potency for 1 of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\n[After Attack] If the target is Staggered or Defeated, apply 1 Pierce DMG Up next turn to 1 other ally with the highest SP",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 4,
@@ -48796,7 +49390,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "The Marksman's Smoking Pipe",
-					"Description": "If the main target's Defense Level is currently lowered by 4 or more, gain (Burn on main target) Poise before attack. (Max 20 per turn)",
+					"Description": "If the main target's Defense Level is currently lowered by 4 or more, gain (Burn on the main target) Poise before attack. (Max 20 per turn)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -48921,7 +49515,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "The Marksman's Smoking Pipe",
-					"Description": "If the main target's Defense Level is currently lowered by 4 or more, gain (Burn on main target/2) Poise before attack. (Max 20 per turn)",
+					"Description": "If the main target's Defense Level is currently lowered by 4 or more, gain (Burn on the main target/2) Poise before attack. (Max 20 per turn)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -50941,7 +51535,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -51326,7 +51920,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -54942,7 +55536,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Purge Enforcer of the Famiglie",
-					"Description": "When this unit kills an enemy or breaks a Part, gain 2 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 2 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on the target (Once per turn)\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 2 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 2 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on target (Once per turn)\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -55155,7 +55749,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Purge Enforcer of the Famiglie",
-					"Description": "When this unit kills an enemy or breaks a Part, gain 1 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 1 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on the target (Once per turn)",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 1 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 1 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on target (Once per turn)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
