@@ -1984,7 +1984,7 @@
 	},
 	{
 		"Name": "Deathrite [Venom]",
-		"Description": "Base Stack: 5\n-Deathrite\n-When getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\n-When losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\n-When losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while active",
+		"Description": "Base Stack: 5\nDeathrite\nWhen getting Rupture triggered by a Critical Hit from the target, lose 1 Stack\nWhen losing Stacks due to this effect, gain 1 Offense Level Down or 1 Defense Level Down (3 times per turn)\nWhen losing Stacks due to this effect, if the Stack drops to 0, take Gluttony damage equal to Rupture on self\nCannot gain additional Stacks of this effect while active",
 		"Tags": [
 			"Deathrite",
 			"Offense Level Down",
@@ -2000,7 +2000,7 @@
 	},
 	{
 		"Name": "Deathrite [Fissure]",
-		"Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\nWhen this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\n-Cannot gain additional Stacks of this effect while it is already active",
+		"Description": "Base Stack: 3\nWhen getting Rupture triggered while this unit has Deathrite, lose 1 Stack, and gain 1 Bind next turn\nWhen this effect activates, if this unit is to gain 3 or more Bind next turn, lose 2 Stacks instead of gaining Bind\nAt 0 Stack, take Gluttony damage equal to Rupture on self\nCannot gain additional Stacks of this effect while it is already active",
 		"Tags": [
 			"Deathrite",
 			"Bind"
@@ -2018,7 +2018,7 @@
 	},
 	{
 		"Name": "Twisted Curse Talisman",
-		"Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (Once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (Max 2)\n-Cannot gain additional Stacks of this effect while it is already active",
+		"Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (Once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (Max 2)\nCannot gain additional Stacks of this effect while it is already active",
 		"Tags": [
 			"Rupture Count",
 			"Attack Power Down"
@@ -2209,7 +2209,7 @@
 	},
 	{
 		"Name": "Flower-burying Wedge [埋花櫼]",
-		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\n-Cannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End [終]' at Turn End. Remove Flower-burying Wedge [埋花櫼] when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End [終]' next turn based on this unit's Speed.",
+		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\nCannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End [終]' at Turn End. Remove Flower-burying Wedge [埋花櫼] when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End [終]' next turn based on this unit's Speed.",
 		"Tags": [
 			"Offense Level Up",
 			"Defense Level Down",
@@ -2227,7 +2227,7 @@
 	},
 	{
 		"Name": "Flower-burying Pin [埋花針]",
-		"Description": "Max Stack: 20\n-Gain 1 Stack at Turn End or when hit\n-Gain 1 Offense Level per 5 Stack\nIf the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\nExpires on death or Retreat",
+		"Description": "Max Stack: 20\nGain 1 Stack at Turn End or when hit\nGain 1 Offense Level per 5 Stack\nIf the unit with this effect dies, inflict Gluttony damage equal to Stack and inflict 5 Rupture\nExpires on death or Retreat",
 		"Tags": [
 			"Offense Level Up",
 			"Rupture Potency"
@@ -2428,7 +2428,9 @@
 		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
 		"Tags": [
 			"Min Speed",
-			"Max Speed"
+			"Max Speed",
+			"Tremor Potency",
+			"Tremor Count"
 		]
 	},
 	{
@@ -2436,7 +2438,9 @@
 		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (Max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
 		"Tags": [
 			"Min Speed",
-			"Max Speed"
+			"Max Speed",
+			"Tremor Potency",
+			"Tremor Count"
 		]
 	},
 	{
@@ -4310,9 +4314,12 @@
 	},
 	{
 		"Name": "String Severance [絕緣]",
-		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Index Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Nursefather Outis**: Take -20% damage. When hit, gain 1 Offense Level Up (2 times per turn)\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake -7.5% damage for every Stack",
+		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Thumb Nursefather Rodion**: Defense Skill gains Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield\n$ **The Thumb Apprentice Heathcliff**: On Clash Win using a Base Skill, inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1 (2 times per turn)\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Index Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Nursefather Outis**: Take -20% damage. When hit, gain 1 Offense Level Up (2 times per turn)\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake -7.5% damage for every Stack",
 		"Tags": [
 			"Damage Reduction",
+			"Tremor Potency",
+			"Tremor Burst",
+			"Spend Enemy Tremor Count",
 			"Unbreakable Coin",
 			"Damage Amp",
 			"Poise Potency",
@@ -4673,38 +4680,38 @@
 	},
 	{
 		"Name": "The Duel Escalates",
-		"Description": "Affects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\nCan gain up to X Stacks per turn",
+		"Description": "Max Stack:5\nAffects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\nCan gain up to 3 Stacks per turn",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Severed Tendon",
-		"Description": "Lose Base Power\nExpires at Turn End",
+		"Description": "Max Stack: 1\nBase Power -1\nExpires at Turn End",
 		"Tags": [
 			"Base Power Down"
 		]
 	},
 	{
 		"Name": "Maturing Textbook",
-		"Description": "Base Skills deal more damage\nCan gain up to X Stacks per turn",
+		"Description": "Max Stack:3\nBase Skills deal +(10 + (Stack x 5))% damage\nCan gain up to 2 Stacks per turn",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Eye of Precognition",
-		"Description": "Can lose up to X Stacks per turn",
+		"Description": "Max Stack: 30\nCan lose up to 10 Stacks per turn",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Eye of Precognition - Overheat",
-		"Description": "Offense Level +X and Defense Level -Y\nTurn Start: Gain X Stack\nAt X Stack, convert into Eye of Precognition",
+		"Description": "Offense Level +3 and Defense Level -3\nTurn Start: Gain 10 Stack\nAt 30 Stack, convert into Eye of Precognition",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Accelerating Future",
-		"Description": "Deal more damage using Base Skills for every X Stack\nBase Skills gain Clash Power +X for every Y Stack\nAt X Stack, base Skills gain Coin Power\nSkill End: This effect expires",
+		"Description": "Max Stack: 5\nBase Skills deal +3% for every Stack (Max 15%)\nBase Skills gain Clash Power +1 for every 2 Stack\nAt 5 Stack, Base Skills gain Coin Power +1\nSkill End: This effect expires",
 		"Tags": [
 			"Clash Power Up",
 			"Coin Power"
@@ -4712,13 +4719,13 @@
 	},
 	{
 		"Name": "Game Target",
-		"Description": "Take more damage from Base Skills used by The House of Spiders: The Thumb Nursefather Rodion",
+		"Description": "Take +15% damage from Base Skills used by The House of Spiders: The Thumb Nursefather Rodion",
 		"Tags": [
 		]
 	},
 	{
 		"Name": "Shin (心) - Disgrace",
-		"Description": "Gain Min & Max Speed\nInflict additional Tremor and Burn Potency and Count using Base Skills\nDeal more damage for every X Poise Potency on self",
+		"Description": "Gain Min & Max Speed +1\nInflict +1 more Tremor and Burn Potency and Count using Base Skills\nDeal +3% damage for every 3 Poise Potency on self (Max 15%)",
 		"Tags": [
 			"Min Speed",
 			"Max Speed",
@@ -4730,7 +4737,7 @@
 	},
 	{
 		"Name": "Acceleration Round",
-		"Description": "Unique Ammo\nSpent when using certain Skills",
+		"Description": "Max Capacity:10\nUnique Ammo\nSpent when using certain Skills",
 		"Tags": [
 			"Unique Ammo"
 		]
