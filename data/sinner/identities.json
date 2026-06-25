@@ -32941,7 +32941,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Colpi Sottani",
-					"Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (Max 2)\n[Clash Win] If target has The Duel Escalates, inflict +1 Tremor Count\n<1>[On Hit] Inflict 2 Burn and +2 Burn Count\n<2>[On Hit] Inflict Tremor and Tremor Count\n<3>[On Hit] If this unit has Maturing Textbook, or if target has The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (Max 2)\n[Clash Win] If target has The Duel Escalates, inflict +1 Tremor Count\n<1>[On Hit] Inflict 2 Burn and +2 Burn Count\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>[On Hit] If this unit has Maturing Textbook, or if target has The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -33056,8 +33056,8 @@
 						"SkillSlot": "SD1",
 						"Name": "I Will Protect",
 						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use]\n$ Gain 2 Protection (Once per turn)\n$ Heal 5 SP for the unit protected by Assist Defense\n<1>[Unbreakable Coin]",
-						"DamageType": "Slash",
-						"SinType": "Wrath",
+						"DamageType": "Defend",
+						"SinType": "Gloom",
 						"BasePower": 3,
 						"CoinPower": 10,
 						"CoinCount": 1,
@@ -33075,6 +33075,248 @@
 							"Assist Defense Skill",
 							"Protection",
 							"Ally Heal SP",
+							"Unbreakable Coin"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Duello Disperato",
+						"Description": "At Base Skill End against an enemy:\n$ If the target is defeated while having The Duel Escalates (on any of its Parts), gain 1 Maturing Textbook\n$ If the main target isn't defeated, inflict 1 The Duel Escalates on the main target; if there was a Clash against the said main target using said Base Skill, inflict 2 The Duel Escalates on the main target instead\nAt Clash Start against a target that has The Duel Escalates, heal SP equal to The Duel Escalates Stack on target (Max 5 per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Maturing Textbook",
+							"The Duel Escalates",
+							"Heal SP"
+						]
+					},
+					{
+						"Name": "Desperate Struggle",
+						"Description": "If the House of Spiders: The Thumb Nursefather Rodion is on the field, activate the following (Does not activate in turns where this unit is Panicked or Staggered):\n$ When The Thumb Nursefather Rodion (That has Eye of Precognition) hits an enemy with a Base Skill, at its Attack End, follow up with 'La Spada di Palermo' as an Unopposed Attack against the target (Once per turn)\nCombat Start: When The Thumb Nursefather (That has Eye of Precognition - Overheat) is targeted by an enemy's Unopposed Skill, The Thumb Apprentice Heathcliff gains 1 Assist Defense (This Assist Defense activates only for The House of Spiders: The Thumb Nursefather Rodion)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Self Follow Up",
+							"Assist Defense"
+						]
+					},
+					{
+						"Name": "Saikai [再会] - The Thumb",
+						"Description": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following:\n$ Gain 1 Entanglement\n$ On Clash Win using a Base Skill, inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1 (2 times per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Palermitan Style",
+					"Description": "Gain the following effects based on (Maturing Textbook on self + The Duel Escalates on the main target):\n$ Base Skills deal +3% damage for every combined Stack (Max 15%)\n$ 1+ Stack: Clash Power +1\n$ 2+ Stack: Base Skills gain +1 Base Power\n$ 3+ Stack: On Hit using a Base Skill, inflict 1 Severed Tendon next turn\n$ 4+ Stack: Base Skills gain Final Power +1\n$ 5+ Stack: Base Skills deal +15% damage\nTake -3% damage for every X (Maturing Textbook on self + The Duel Escalates) on the enemy attacking this unit (Max -15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+						"Severed Tendon",
+						"Damage Reduction"
+					]
+				},
+				"SupportSkill": {
+					"Name": "In One-on-one Duels...",
+					"Description": "1 ally with the fastest Speed: On Clash Win using Base Attack Skills, inflict +1 Burn Count on target (Once per turn)\n$ Prioritizes 'The Thumb' Identities\n$ If the ally is a 'The Thumb' Identity, inflict +1 Burn Count and +1 Tremor Count instead\n$ Combat Start: If there is only 1 enemy on the field (Abnormalities, a Core), this effect inflict +1 more Burn Count and Tremor Count",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Burn Count",
+						"Tremor Count"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "La Spada di Palermo",
+					"Description": "[On Use] If target has 6+ (Burn + Tremor), Coin Power +1\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Tremor",
+					"DamageType": "Slash",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Burn Potency",
+						"Tremor Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Colpi Sottani",
+					"Description": "[On Use] If target has 6+ (Burn + Tremor), Coin Power +1\n<1>[On Hit] Inflict +2 Burn Count\n<2>[On Hit] Inflict +2 Tremor Count\n<3>[On Hit] If this unit has Maturing Textbook, or if target has The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Tremor Count",
+						"Burn Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Il Cacciatore",
+					"Description": "[Before Use] If target has 5 The Duel Escalates, activate 'Sezionatura di Cervo' instead (Once per turn)\n[On Use] If target has 6+ (Burn + Tremor), Coin Power +1\n[On Use] Gain the following effects based on The Duel Escalates Stack on target:\n$ 1+ The Duel Escalates: Inflict +1 more Tremor Potency\n$ 2+ The Duel Escalates: Inflict +1 more Tremor Count\n$ 3+ The Duel Escalates: Inflict +1 more Burn Potency\n$ 4+ The Duel Escalates: Inflict +1 more Burn Count\n[On Use] If this unit has Maturing Textbook, or if target has 3+ The Duel Escalates, convert all Coins on this Skill to Unbreakable Coins\n<1>[On Hit] Inflict 2 Burn and +2 Burn Count\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>Deal +10% damage for every Maturing Textbook on self (Max 30%)\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this unit has Maturing Textbook, or if target has 3+ The Duel Escalates, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Unbreakable Coin",
+						"Burn Potency",
+						"Burn Count",
+						"Tremor Potency",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Sezionatura di Cervo",
+						"Description": "[On Use]\n$ Gain +(Maturing Textbook - 1) Atk Weight (Max 2)\n$ Coin Power +1 for every 6 (Burn + Tremor) on the main target (Max 2)\n$ When attacking just 1 target, deal +15% damage (Focused Encounters, 1 Part)\n$ Deal +15% damage for every excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[Attack End] Consume all The Duel Escalates on the main target\n$ Gain 1 Maturing Textbook, if the main target is defeated, gain 2 Maturing Textbook instead\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Burn and +3 Burn Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Tremor and +3 Tremor Count\n<3>[Unbreakable Coin]\n<4>[Unbreakable Coin]\n[Coin Start] This Coin gains Coin Power +1 for every Maturing Textbook (Max 3)\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 1,
+						"CoinModifier": 2,
+						"ClashesWithCoinOverride": false,
+						"CoinOverride": [ 6, 6, 6, 9 ],
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"MiscTags": [
+							"Attack Weight Increase",
+							"Spend The Duel Escalates",
+							"Maturing Textbook",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Burn Count",
+							"Tremor Potency",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Measuring Blade Reach",
+					"Description": "[Clashable Counter]\nDeal +10% damage for every The Duel Escalates on target (Max 50%)\n<1>[On Hit] Inflict 1 Burn (2 times per turn)\n<2>[On Hit] Inflict 1 Tremor (2 times per turn)",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 2,
+					"Level": 1,
+					"BasePowerModifier": 1,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 1,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Burn Potency",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "I Will Protect",
+						"Description": "[Clashable Guard]\nAssist Defense Skill\n<1>[Unbreakable Coin]",
+						"DamageType": "Defend",
+						"SinType": "None",
+						"BasePower": 3,
+						"CoinPower": 8,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 1,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 1,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Guard",
+							"Assist Defense Skill",
 							"Unbreakable Coin"
 						]
 					}
@@ -42638,6 +42880,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
@@ -42653,7 +42896,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "Sezionatura di Coniglio",
-						"Description": "[Unclashable]\nDoes not trigger Defense Skills, external effects cannot trigger Skill Reuse\n[On Use] At 6+ Poise, Final Power +1\n[On Use] Base Power +1 for every 4 (Burn + Tremor) on target (Max 2)\n<1>[On Hit] Inflict +1 Burn Count\n[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+						"Description": "[Unclashable]\nDoes not trigger Defense Skills, external effects cannot trigger Skill Reuse\n[On Use] At 6+ Poise, Final Power +1\n[On Use] Base Power +1 for every 6 (Burn + Tremor) on target (Max 2)\n<1>[On Hit] Inflict +1 Burn Count\n[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -42680,7 +42923,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "I'll Gladly Blast a Hole Through Ya",
-					"Description": "Turn Start: If this unit does not have Acceleration Round, activate as 'Sezionatura di Cervo'\n[On Use] At 6+ Poise, Final Power +1\n[On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (Max 2)\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal +5% damage for every Stack lost (Max 15%)\n<1>Spend 1 Acceleration Round\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>Spend 1 Acceleration Round\n[On Hit] Inflict 1 Tremor and +1 Tremor Count\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "Turn Start: If this unit does not have Acceleration Round, activate as 'Sezionatura di Cervo'\n[On Use] At 6+ Poise, Final Power +1\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal +5% damage for every Stack lost (Max 15%)\n<1>Spend 1 Acceleration Round\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>Spend 1 Acceleration Round\n[On Hit] Inflict 1 Tremor and +1 Tremor Count\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -42690,6 +42933,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 2,
 					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
@@ -42718,6 +42962,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 2,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 2,
 						"CoinPowerModifierStatuses": 1,
 						"CoinCountModifier": 0,
@@ -42752,6 +42997,7 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 1,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 3,
 					"CoinPowerModifierStatuses": 1,
 					"CoinCountModifier": 0,
@@ -42772,7 +43018,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Disposal",
-						"Description": "If target has 50%- current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\nDeal +10% damage for every Acceleration Round that will be spent by this Coin effect (Max 50%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 3 times)",
+						"Description": "If target has 50%- current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\nDeal +10% damage for every Acceleration Round that will be spent by this Coin (Max 50%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 3 times)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 5,
@@ -42782,6 +43028,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 5,
 						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 3,
 						"CoinPowerModifierStatuses": 1,
 						"CoinCountModifier": 0,
@@ -42808,7 +43055,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Fuck Off!",
-					"Description": "[Clashable Counter]\n[On Use] Final Power +1 for every 4 (Burn + Tremor on target) (Max 2)\n[On Use] Lose 4 Eye of Precognition on self\n[Turn End] If this unit has less than 5 Acceleration Round, reload Acceleration Round to 5 (Once per turn)\n<1>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor",
+					"Description": "[Clashable Counter]\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 2)\n[On Use] Lose 4 Eye of Precognition on self\n[Turn End] If this unit has less than 5 Acceleration Round, reload Acceleration Round to 5 (Once per turn)\n<1>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -42816,10 +43063,12 @@
 					"CoinCount": 2,
 					"Level": 2,
 					"BasePowerModifier": 0,
-					"FinalPowerModifier": 0,
+					"FinalPowerModifier": 2,
 					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
 					"CoinModifier": 0,
 					"CoinCountModifier": 0,
+					"CoinPowerModifierStatuses": 1,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"MiscTags": [
@@ -42843,7 +43092,6 @@
 						"FinalPowerModifier": 0,
 						"ClashPowerModifier": 0,
 						"CoinModifier": 4,
-						"CoinPowerModifierStatuses": 1,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"MiscTags": [
@@ -42851,6 +43099,328 @@
 							"Poise Count",
 							"Poise Potency",
 							"Heal SP",
+							"Spend Eye of Precognition"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Eye of Precognition",
+						"Description": "Upon entering the Encounter for the first time, gain 30 Eye of Precognition\nAt 0 Eye of Precognition Stack, convert Eye of Precognition into Eye of Precognition - Overheat\nWhile this unit has Eye of Precognition, activate the following effects:\n$ In a Clash, gain 1 Accelerating Future with every Clash (5 times per Skill)\n$ When attacked by an Unopposed Attack, Unbreakable Coin Attack, or losing a Clash with an Attack Skill, activate the 'Precognition' Skill (Once per turn)\nThe following causes this unit to lose Eye of Precognition Stack:\n$ Lose 1 Eye of Precognition with every Clash\n$ When this unit activates the 'Precognition' Skill via Passive effect due to being attacked by an Unopposed Attack or Unbreakable Coin Attack, lose 3 Eye of Precognition\n$ When this unit activates 'Precognition' Skill via Passive effect due to losing a Clash, lose 5 Eye of Precognition\nAt the end of the turn this unit's Eye of Precognition is converted into Eye of Precognition - Overheat, activate the following effects:\n$ Reload (Once per Encounter)\n$ At the start of the turn, if this unit has no 'Disposal' on the Dashboard, replace a Base Skill with 'Disposal' (Prioritizes the Skill on the leftmost Slot's top row)\nThe following causes this unit to gain Shin (心) - Disgrace next turn:\n$ This unit's Eye of Precognition Stack drops to 0\nThis unit is Staggered\n$ The House of Spiders: The Thumb Apprentice Heathcliff is defeated (If the said Identity is already defeated when this unit Substitutes in, gain Shin (心) - Disgrace at Turn Start)\nTurn End: When Staggered for the first time in this Encounter, recover from Stagger (Excluding forced Staggers)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Eye of Precognition",
+							"Eye of Precognition - Overheat",
+							"Accelerating Future",
+							"Self Follow Up",
+							"Spend Eye of Precognition",
+							"Reload",
+							"Skill Draw",
+							"Shin (心) - Disgrace",
+							"Stagger Recovery"
+						]
+					},
+					{
+						"Name": "The Shame of Famiglia Bognatelli",
+						"Description": "Gain 2 Poise and +2 Poise Count for every Acceleration Round spent\nWhen flipping a Coin that spends Acceleration Round, the attack does not get cancelled even when this unit is out of Acceleration Round\nThis Identity counts only as an Identity that inflict Burn and Tremor\nTurn Start: If this unit has 'Disposal' on its Dashboard, inflict Game Target on the enemy this unit attacked last in the previous turn (In Focused Encounters, the Part)\n$ If there are no targets that satisfy the condition above, inflict Game Target on the enemy that has the lowest HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Poise Potency",
+							"Poise Count",
+							"Keyword Modification",
+							"Game Target"
+						]
+					},
+					{
+						"Name": "Saikai [再会] - The Thumb",
+						"Description": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following:\n$ Gain 1 Entanglement\n$ Defense Skill gains Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "La Spada di Palermo",
+					"Description": "If this unit has 1+ Acceleration Round, Skill 3 gains Coin Power +1 and deals +25% damage\nDeal +1% damage using Base Skills for every 2 Burn on the main target (Max 15%)\n$ If the main target has Shield, deal +3% damage using Base Skills instead (Max 45%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						},
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"MiscTags": [
+					]
+				},
+				"SupportSkill": {
+					"Name": "Weaklings, Not Worth Shit",
+					"Description": "1 ally with the fastest Speed: When triggering Tremor Burst on the enemy, gain 2 Offense Level Up next turn (Once per turn)\n$ If said ally is a 'The Thumb' Identity, gain 1 Haste as well (Once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"MiscTags": [
+						"Ally Offense Level Up",
+						"Ally Haste"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Colpi di Taglio",
+					"Description": "[On Use] At 6+ Poise, Final Power +1\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal +5% damage for every Stack lost (Max 10%)\n<1>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict +1 Burn Count\n<2>[On Hit] Inflict +1 Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
+					"CoinModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Eye of Precognition",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Sezionatura di Coniglio",
+						"Description": "[Unclashable]\nDoes not trigger Defense Skills, external effects cannot trigger Skill Reuse\n[On Use] At 6+ Poise, Final Power +1\n<1>[On Hit] Inflict +1 Burn Count\n[On Hit] Inflict +1 Tremor Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+						"DamageType": "Slash",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Burn Count",
+							"Tremor Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "I'll Gladly Blast a Hole Through Ya",
+					"Description": "Turn Start: If this unit does not have Acceleration Round, activate as 'Sezionatura di Cervo'\n[On Use] At 6+ Poise, Final Power +1\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal +5% damage for every Stack lost (Max 15%)\n<1>Spend 1 Acceleration Round\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>Spend 1 Acceleration Round\n[On Hit] Inflict 1 Tremor and +1 Tremor Count\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
+					"CoinModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Spend Eye of Precognition",
+						"Spend Acceleration Round",
+						"Burn Potency",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Sezionatura di Cervo",
+						"Description": "[On Use] If this unit is in Eye of Precognition - Overheat state, Final Power +2 and convert all Coins into Unbreakable Coins\n[On Use] Gain +4 Poise Count\n[Clash Win] Lose (# of remaining Coins) Eye of Precognition Stack on self; deal +5% damage for every Stack lost (Max 15%)\n<1>[On Hit] Gain 5 Poise\n[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+						"DamageType": "Slash",
+						"SinType": "Sloth",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
+						"CoinModifier": 0,
+						"CoinPowerModifierStatuses": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unbreakable Coin",
+							"Poise Count",
+							"Spend Eye of Precognition",
+							"Poise Potency",
+							"Burn Potency",
+							"Tremor Potency",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Scorch"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Sezionatura di Elefante",
+					"Description": "[On Use] At 6+ Poise, Final Power +1\n[Before Attack] Lose up to 10 Eye of Precognition on self (Once per turn)\n<1>Spend 1 Acceleration Round\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>Spend 1 Acceleration Round\n[On Hit] Inflict +2 Burn Count\n[On Hit] Inflict +2 Tremor Count\n<3>Spend 1 Acceleration Round\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<4>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
+					"CoinModifier": 1,
+					"CoinPowerModifierStatuses": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Spend Eye of Precognition",
+						"Spend Acceleration Round",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Disposal",
+						"Description": "If target has 50%- current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 2 times)",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 5,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 5,
+						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
+						"CoinModifier": 3,
+						"CoinPowerModifierStatuses": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Skill Draw",
+							"Reload",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Tremor Potency",
+							"Burn Count",
+							"Tremor Count",
+							"Unbreakable Coin",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Spend Acceleration Round",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Fuck Off!",
+					"Description": "[Clashable Counter]\n[On Use] Lose 3 Eye of Precognition on self\n[Turn End] If this unit has less than 5 Acceleration Round, reload Acceleration Round to 5 (Once per turn)\n<1>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 2,
+					"CoinModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Spend Eye of Precognition",
+						"Reload",
+						"Burn Potency",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Precognition",
+						"Description": "Upon successfully evading all Coins on a Skill, use 'Sezionatura di Coniglio' as an Unopposed Attack against the attacker\nCoin Power +1 for every 2 Eye of Precognition Stacks on self (Max 4)\nBase Power +1 for every 2 excess Eye of Precognition Stacks on self past 10 Stacks (Max 4)\n[On Use] Gain +3 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Skill End] Lose 2 Eye of Precognition on self",
+						"DamageType": "Evade",
+						"SinType": "None",
+						"BasePower": 3,
+						"CoinPower": 7,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 4,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Self Follow Up",
+							"Poise Count",
+							"Poise Potency",
 							"Spend Eye of Precognition"
 						]
 					}
@@ -50733,7 +51303,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "T Corp. Microcavity Module",
-					"Description": "[On Use] Gain +4 Tremor Count\n[On Use] If the target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If the target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>If the target is in Amplitude Conversion or Amplitude Entanglement, deal +60% damage\n[On Hit] If the target isn't in Ampltiude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[On Use] Gain +4 Tremor Count\n[On Use] If the target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If the target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>If the target is in Amplitude Conversion or Amplitude Entanglement, deal +60% damage\n[On Hit] If the target isn't in Amplitude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 3,
@@ -50876,7 +51446,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "T Corp. Microcavity Module",
-					"Description": "[On Use] Gain +3 Tremor Count\n[On Use] If the target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If the target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>[On Hit] If the target isn't in Ampltiude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[On Use] Gain +3 Tremor Count\n[On Use] If the target has 6+ Tremor, Coin Power +1\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 2 Tremor\n[On Hit] If the target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count on self and target\n<3>[On Hit] If the target isn't in Amplitude Conversion or Amplitude Entanglement, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain\n[On Hit] If the target has 3+ Tremor Count, trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 3,
