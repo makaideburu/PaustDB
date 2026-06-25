@@ -32894,7 +32894,6 @@
 	},
 	{
 		"Id": 7311,
-		"DisplayId": 7000,
 		"Sinner": "Heathcliff",
 		"Identity": "The House of Spiders: The Thumb Apprentice",
 		"DWorld": "???",
@@ -32905,9 +32904,9 @@
 			"The Fingers"
 		],
 		"Speed": [ 4, 7 ],
-		"BaseHP": 260,
-		"GrowthHP": 0,
-		"StaggerThresholds": [ 0 ],
+		"BaseHP": 83,
+		"GrowthHP": 2.95,
+		"StaggerThresholds": [ 55, 20 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
@@ -33061,7 +33060,7 @@
 						"SinType": "Wrath",
 						"BasePower": 3,
 						"CoinPower": 10,
-						"CoinCount": 2,
+						"CoinCount": 1,
 						"Level": 0,
 						"BasePowerModifier": 1,
 						"FinalPowerModifier": 1,
@@ -42598,7 +42597,6 @@
 	},
 	{
 		"Id": 9311,
-		"DisplayId": 9000,
 		"Sinner": "Rodion",
 		"Identity": "The House of Spiders: The Thumb Nursefather",
 		"DWorld": "???",
@@ -42615,9 +42613,9 @@
 			"War Hero"
 		],
 		"Speed": [ 4, 7 ],
-		"BaseHP": 248,
-		"GrowthHP": 0,
-		"StaggerThresholds": [ 0 ],
+		"BaseHP": 66,
+		"GrowthHP": 3.03,
+		"StaggerThresholds": [ 60 ],
 		"Rarity": 3,
 		"DamageResist": {
 			"Slash": 0.5,
