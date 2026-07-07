@@ -57673,7 +57673,7 @@
 					},
 					{
 						"Name": "Dawn Office",
-						"Description": "Upon entering the Encounter for the first time, if there at X+ allied Dawn Office Identities (Including this unit) on the field, apply Dawn Office Stack on all Dawn Office Identities equal to the number of Dawn Office Identities on the field\nIf Dawn Office Fixer Sinclair is on the field, activate the following effects:\n$ Dawn Office Fixer Sinclair gains From Dawnbreak to Sunset\nTurn Start: If Dawn Office Rep Gregor is defeated, convert From Dawnbreak to Sunset on Dawn Office Fixer Sinclair into Blazing Sunset\nTurn Start: If Dawn Office Fixer Sinclair has less than 50% HP, apply Escape Apparatus on that unit",
+						"Description": "Upon entering the Encounter for the first time, if there are X+ allied Dawn Office Identities (Including this unit) on the field, apply Dawn Office Stack on all Dawn Office Identities equal to the number of Dawn Office Identities on the field\nIf Dawn Office Fixer Sinclair is on the field, activate the following effects:\n$ Dawn Office Fixer Sinclair gains From Dawnbreak to Sunset\n$ Turn Start: If Dawn Office Rep Gregor is defeated, convert From Dawnbreak to Sunset on Dawn Office Fixer Sinclair into Blazing Sunset\n$ Turn Start: If Dawn Office Fixer Sinclair has less than 50% HP, apply Escape Apparatus on that unit",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
