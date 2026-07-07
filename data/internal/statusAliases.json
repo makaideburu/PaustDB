@@ -3254,5 +3254,90 @@
 			"poise potency",
 			"poise count"
 		]
+	},
+	{
+		"entry": "fire butterfly coffin",
+		"aliases": [
+			"self burn potency",
+			"self burn count"
+		]
+	},
+	{
+		"entry": "overheated coffin",
+		"aliases": [
+			"self burn potency"
+		]
+	},
+	{
+		"entry": "battle instinct",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"burn potency",
+			"burn count"
+		]
+	},
+	{
+		"entry": "ally high noon",
+		"aliases": [
+			"spend scorchfield"
+		]
+	},
+	{
+		"entry": "ally loneliness at high noon",
+		"aliases": [
+			"spend scorchfield"
+		]
+	},
+	{
+		"entry": "light of daybreak",
+		"aliases": [
+			"self burn potency",
+			"burn potency",
+			"burn count"
+		]
+	},
+	{
+		"entry": "party dawnherald",
+		"aliases": [
+			"ally dawnherald",
+			"dawnherald"
+		]
+	},
+	{
+		"entry": "ally dawnherald",
+		"aliases": [
+			"ally damage amp",
+			"ally clash power up",
+			"ally base power up"
+		]
+	},
+	{
+		"entry": "dawnherald",
+		"aliases": [
+			"damage amp",
+			"clash power up",
+			"base power up"
+		]
+	},
+	{
+		"entry": "dawn office",
+		"aliases": [
+			"damage amp",
+			"clash power up",
+			"base power up"
+		]
+	},
+	{
+		"entry": "from dawnbreak to sunset",
+		"aliases": [
+			"scorchfield"
+		]
+	},
+	{
+		"entry": "blazing sunset",
+		"aliases": [
+			"scorchfield"
+		]
 	}
 ]

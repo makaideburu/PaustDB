@@ -4737,9 +4737,102 @@
 	},
 	{
 		"Name": "Acceleration Round",
-		"Description": "Max Capacity:10\nUnique Ammo\nSpent when using certain Skills",
+		"Description": "Max Capacity: 10\nUnique Ammo\nSpent when using certain Skills",
 		"Tags": [
 			"Unique Ammo"
+		]
+	},
+	{
+		"Name": "Fire Butterfly Coffin",
+		"Description": "Can gain up to X Stacks per turn\nOn Base Skill Hit: Gain Stack\nTurn End: At X+ Stacks, gain Burn next turn equal to half of surplus Stacks past X\n$ At X Stacks, gain Burn and Burn Count instead",
+		"Tags": [
+			"Self Burn Potency",
+			"Self Burn Count"
+		]
+	},
+	{
+		"Name": "Overheated Coffin",
+		"Description": "Turn End:\n$ Gain Burn next turn\n$ This effect expires",
+		"Tags": [
+			"Self Burn Potency"
+		]
+	},
+	{
+		"Name": "Battle Instinct",
+		"Description": "Min & Max Speed +X\nBase Skills inflict more Burn Potency and Burn Count on enemies\nSkill 'Eject' does more damage\nSkills 'Eject - High Noon' and 'Dismemberment at High Noon' deal more damage",
+		"Tags": [
+			"Min Speed",
+			"Max Speed",
+			"Burn Potency",
+			"Burn Count"
+		]
+	},
+	{
+		"Name": "High Noon",
+		"Description": "Min Speed +X\nOn Base Attack Skill Use: Base Power +X and deal more damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has X+ Burn, activate Burn on target; reduce target's Burn Count\nApply the following effects to Blazing Strike:\n$ Deal more damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count\n$ On Use: At X+ Volatile Passion, consume up to Y Scorchfield\n$ Deal more damage based on Scorchfield consumed",
+		"Tags": [
+			"Spend Scorchfield"
+		]
+	},
+	{
+		"Name": "Loneliness at High Noon",
+		"Description": "Min Speed +X\nOn Base Attack Skill Use: Base Power +X and deal more damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has X+ Burn, activate Burn on target; reduce target's Burn Count\nApply the following effects to Blazing Strike:\n$ Deal more damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count\n$ On Use: Consume up to X Scorchfield and deal more damage based on Scorchfield consumed\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage",
+		"Tags": [
+			"Spend Scorchfield"
+		]
+	},
+	{
+		"Name": "Scorchfield",
+		"Description": "Stores all Burn damage dealt in this zone\nResets when moving to a different zone\nThis value is shared by all characters",
+		"Tags": [
+		]
+	},
+	{
+		"Name": "Light of Daybreak",
+		"Description": "Can gain up to X Stack per turn\nTurn Start: Gain X Burn for every Y Stack; then, gain +Z Burn Count for every W Stack\nOn Hit using a Base Attack Skill, gain (X + (Burn on target / Y)) Stack\nAt X+ Stack, Base Skills inflict +Y more Burn Potency on enemies\nAt X+ Stack, Base Skills inflict +Y more Burn Count on enemies",
+		"Tags": [
+			"Self Burn Potency",
+			"Burn Potency",
+			"Burn Count"
+		]
+	},
+	{
+		"Name": "Dawnherald",
+		"Description": "Base Skills that inflict Burn, Burn Count, or Unique Burn deal more damage\n$ If said Skill is a Wrath Skill, deal even more damage\nBase Skills that inflict Burn, Burn Count, or Unique Burn gain Clash Power\n$ If this unit is a Dawn Office Identity, gain Base Power instead\nTurn End: Lose X Stack",
+		"Tags": [
+			"Damage Amp",
+			"Clash Power Up",
+			"Base Power Up"
+		]
+	},
+	{
+		"Name": "Dawn Office",
+		"Description": "Gain X Offense Level for every Y Stack\nTurn Start: At X Stack, heal Y SP\nTurn Start: If all other allied Identities that have Dawn Office are killed, expires",
+		"Tags": [
+			"Damage Amp",
+			"Clash Power Up",
+			"Base Power Up"
+		]
+	},
+	{
+		"Name": "From Dawnbreak to Sunset",
+		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below X\nWhen in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n$ Turn Start: Gain Shield equal to X% of max HP\nWhen hit while this unit has SHield, inflict X Burn against the attacker\nActivate Scorchfield on this field",
+		"Tags": [
+			"Scorchfield"
+		]
+	},
+	{
+		"Name": "Blazing Sunset",
+		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below X\nTurn Start: Enter the Volatile E.G.O::Waxen Pinion State, heal X% HP, and heal SP to max\nVolatile E.G.O::Waxen Pinion State is maintained even when this unit has 0 or lower SP at Turn Start\nWhen in Volatile E.G.O::Waxen Pinion State, gain the following effects:\n$ Turn Start: Gain Shield equal to X% of max HP\n$ When hit while this unit has Shield, inflict X Burn against the attacker\n$ Activate Scorchfield on this field",
+		"Tags": [
+			"Scorchfield"
+		]
+	},
+	{
+		"Name": "Escape Apparatus",
+		"Description": "When this unit takes damage that brings its HP down to X, this unit's HP does not drop below X for the turn\nTurn End: Recover from Stagger and Retreat from Encounter (Excluding forced Staggers; does not count as death)\n$ In Chain battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (Escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n$ When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (If this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+		"Tags": [
+			"Retreat"
 		]
 	}
 ]

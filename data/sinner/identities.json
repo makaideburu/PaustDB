@@ -9372,6 +9372,291 @@
 		]
 	},
 	{
+		"Id": 2311,
+		"DisplayId": 2000,
+		"Sinner": "Faust",
+		"Identity": "Dawn Office Fixer",
+		"DWorld": "???",
+		"Season": 9,
+		"IsWalpurgis": true,
+		"Traits": [
+		],
+		"Speed": [ 0, 0 ],
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [ 0 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Flash of Sunup",
+					"Description": "[On Use] Final Power +X for every Y (Burn + Tremor) on target\n[On Use] Gain Fire Butterfly Coffin\n[On Use] Clash Power +X for every Y Fire Butterfly Coffin\n[On Use] At X+ Fire Butterfly Coffin, Reuse the final Coin\n<1>[On Hit] Inflict Burn and Burn Count\n<2>[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Fire Butterfly Coffin",
+						"Burn Potency",
+						"Burn Count",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Seconded Offensive",
+						"Description": "[On Use] Apply the following effects based on Fire Butterfly Coffin Stack:\n$ Deal more damage for every Stack\n$ Final Power +X for every Stack\n<1>[On Hit] Inflict Tremor Count\n<2>[On Hit] Inflict Burn Count",
+						"DamageType": "Slash",
+						"SinType": "Gluttony",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Tremor Count",
+							"Burn Count"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Butterfly Slash",
+					"Description": "[On Use] Final Power +X for every Y (Burn + Tremor) on target\n[On Use] Gain Fire Butterfly Coffin\n[On Use] For every X Fire Butterfly Coffin:\n$ Clash Power +X\n$ Reuse the final Coin\n<1>[On Hit] For every X Fire Butterfly Coffin:\n$ Inflict Burn Count on target\n$ Inflict Tremor Count on target\n<2>[On Hit] Inflict Tremor\n[Reuse - On Hit] Inflict Burn\n[Reuse - On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Fire Butterfly Coffin",
+						"Burn Count",
+						"Tremor Count",
+						"Burn Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Eject",
+					"Description": "[Before Use] At X Fire Butterfly Coffin, activate as 'Eject - High Noon'\n[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[On Use] Gain Fire Butterfly Coffin\n[On Use] For every X Fire Butterfly Coffin:\n$ Clash Power +X\n$ Inflict Burn Count on target\n\n$ Inflict Tremor Count on target\n$ Reuse the Final Coin\n<1>[On Hit] Inflict Tremor\n<2>[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<3>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[Reuse - On Hit] Inflict Burn",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Skill Change",
+						"Fire Butterfly Coffin",
+						"Burn Count",
+						"Tremor Count",
+						"Tremor Potency",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Burn Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Eject - High Noon",
+						"Description": "[Unfocused Volley]\nDeal +(Burn on self + Burn on target)% damage (Counted per target)\nApply the following effects on target with every hit of this Skill:\n$ Inflict Burn or Tremor\n$ If target has no Tremor - Scorch, trigger Amplitude Conversion into Tremor - Scorch\n[On Use]\n$ Clash Power +X\n$ Coin Power +X, Clash Power +Y for every Z (Burn + Tremor) on the main target\n$ Inflict Burn Count on all targets\n$ Inflict Tremor Count on all targets\n[Attack End]\n$ Inflict Power Down next turn on all targets hit\n$ Gain Battle Instinct\n$ Gain Overheated Coffin\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\nReuse this Coin\nIf this unit has Battle Instinct, deal +(Burn Potency on target / X)% damage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unfocused Volley",
+							"Burn Potency",
+							"Tremor Potency",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Burn Count",
+							"Tremor Count",
+							"Power Down",
+							"Battle Instinct",
+							"Overheated Coffin",
+							"Unbreakable Coin",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Stigmatize",
+					"Description": "[Clashable Counter]\n[Combat Start] Gain Fire Butterfly Coffin\n[Before Use] At X Fire Butterfly Coffin, activate as 'Dismemberment at High Noon'\n$ If this unit has Overheated Coffin, the effect above does not activate\n[On Use] Coin Power +X for every Y Burn on self\n[On Use] Lose Burn on self\n[Clash Win] Lose Burn on self\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Fire Butterfly Coffin",
+						"Skill Change",
+						"Spend Self Burn Potency",
+						"Burn Potency",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Dismemberment at High Noon",
+						"Description": "[Unfocused Volley]\nDeal +(Missing HP percentage on self)% damage\nDeal +(Burn Potency on target)% damage (Counted per target)\nApply the following effects on target with every hit of this Skill:\n$ Inflict Burn or Tremor\n$ If target has no Tremor - Scorch, trigger Amplitude Conversion into Tremor - Scorch\n[On Use]\n$ Clash Power +X\n$ Coin Power +X, Clash Power +Y for every Z (Burn + Tremor) on the main target\n$ Inflict Burn Count on all targets\n$ Inflict Tremor Count on all targets\n[Attack End]\n$ Consume up to X Burn on self and heal (Y + Burn consumed)% HP\n$ Consume all Fire Butterfly Coffin\n$ Gain Battle Instinct\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\nReuse this Coin\nIf this unit has Battle Instinct, deal +(Burn Potency on target / X)% damage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 3,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Unfocused Volley",
+							"Burn Potency",
+							"Tremor Potency",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Burn Count",
+							"Tremor Count",
+							"Heal HP",
+							"Battle Instinct",
+							"Overheated Coffin",
+							"Unbreakable Coin",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Heatproof Coat",
+						"Description": "Upon entering the Encounter for the first time, gain +Fire Butterfly Coffin\nCannot be Staggered or fall below 1 HP due to Burn damage\nTake less damage from Burn effects\n$ At less than X% HP, take even less damage from Burn effects instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Fire Butterfly Coffin",
+							"Burn Damage Reduction"
+						]
+					},
+					{
+						"Name": "Seonbae",
+						"Description": "If Dawn Office Fixer Sinclair is on the field, activate the following effects:\n$ Dawn Office Fixer Sinclair gains High Noon\nTurn Start: If Dawn Office Fixer Faust is defeated, convert High Noon on Dawn Office Fixer Sinclair into Loneliness at High Noon",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Ally High Noon",
+							"Ally Loneliness at High Noon"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Feuerfalter [Stigma Workshop]",
+					"Description": "Combat Start: When this unit has Battle Instinct, gain X Fire Butterfly Coffin\nWhen other Dawn Office Identities meet the following conditions, Dawn Office Fixer Faust uses the 'Seconded Offensive' Skill against the targeted enemy\n$ At Base Skill Attack End: If the enemy that was hit is Staggered, use 'Seconded Offensive' against said enemy (Does not activate if said enemy was already Staggered Before Attack of the said Skill)\n$ Use 'Seconded Offensive' on the hit enemy at Attack End of the following Skills (Prioritizes Staggered targets):\n$- Dawn Office Rep Gregor's 'Dawnsplitter' and 'Crack of Dawn'\n$- Dawn Office Fixer Sinclair's 'Stigmatize' and 'Blazing Strike'\nIf Dawn Office Fixer Sinclair is on the field: On Hit using the Reused Coins of Dawn Office Fixer's Base Skills, deal additional Wrath damage equal to Burn on target\n$ Counts as activating Burn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Fire Butterfly Coffin",
+						"Self Follow Up",
+						"Burn Burst"
+					]
+				},
+				"SupportSkill": {
+					"Name": "The Lone Fixer",
+					"Description": "Combat Start: If there is only 1 surviving Identity, including Backup units, the said Identity gains Offense Level Up and Defense Level Up",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Ally Offense Level Up",
+						"Ally Defense Level Up"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 3101,
 		"Sinner": "Don Quixote",
 		"Identity": "LCB Sinner",
@@ -43024,9 +43309,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 5,
 						"ClashPowerModifier": 0,
-						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 3,
-						"CoinPowerModifierStatuses": 1,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 5,
 						"AttackWeight": 1,
@@ -43347,9 +43630,7 @@
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 5,
 						"ClashPowerModifier": 0,
-						"ClashPowerModifierStatuses": 2,
 						"CoinModifier": 3,
-						"CoinPowerModifierStatuses": 1,
 						"CoinCountModifier": 0,
 						"UnbreakableCoinCount": 5,
 						"AttackWeight": 1,
@@ -57167,6 +57448,278 @@
 					"ResourceType": "Res",
 					"MiscTags": [
 						"Ally Heal HP"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 13311,
+		"DisplayId": 13000,
+		"Sinner": "Gregor",
+		"Identity": "Dawn Office Rep",
+		"DWorld": "???",
+		"Season": 9,
+		"IsWalpurgis": true,
+		"Traits": [
+		],
+		"Speed": [ 0, 0 ],
+		"BaseHP": 0,
+		"GrowthHP": 0,
+		"StaggerThresholds": [ 0 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -100,
+			"Pierce": -100,
+			"Blunt": -100
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Flash of Sunup",
+					"Description": "[On Use] Final Power +X for every Y (Burn + Tremor) on target\n[On Use] At X+ Light of Daybreak, this Skill gains an extra Coin 2 as an Unbreakable Coin\n<1>[On Use] Inflict Burn\n[On Use] Inflict Tremor Count\n<2>[On Hit] Inflict Burn",
+					"DamageType": "Slash",
+					"SinType": "Sloth",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Burn Potency",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Sunset Blade",
+					"Description": "[On Use] Final Power +X for every Y (Burn + Tremor) on target\n[On Use] At X+ Light of Daybreak, gain the following effects:\n$ This Skill gains an extra Coin 3 as an Unbreakable Coin\n$ On Hit using the extra Coin, trigger Tremor Burst; reduce target's Tremor Count\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<3>[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Pride",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 3,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Unbreakable Coin",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Dawnsplitter",
+					"Description": "Deal +(Burn on self + Burn on target)% damage\n[Combat Start] Apply X Protection on Y random other allies (Prioritize allies that do not have Protection, among them, prioritize Dawn Office allies)\n[Before Use] At X Light of Daybreak, activate 'Crack of Dawn' instead\n[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[On Use] At X+ Light of Daybreak, gain the following effects:\n$ Final Power +X\n$ Convert all Coins in this Skill into Unbreakable Coins\n$ On final Coin Hit, activate Burn on target; reduce target's Burn Count\n[Attack End] Apply Dawnherald on all allies next turn\n$ At X+ Light of Daybreak, apply Y additional Dawnherald\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor\n<3>[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 4,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 4,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Ally Protection",
+						"Skill Change",
+						"Unbreakable Coin",
+						"Burn Proc",
+						"Spend Enemy Burn Count",
+						"Party Dawnherald",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count",
+						"Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Scorch",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Crack of Dawn",
+						"Description": "Deal more damage for every X excess Atk Weight beyond the # of actual targets (Focused Encounters, Parts)\n[On Use] Apply Protection next turn on X random other allies (Prioritize allies that do not have Protection, among them, prioritize Dawn Office allies)\n[On Use] At X+ Burn, Coin Power +Y\n[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[Attack End] Activate the following effects:\n$ Apply Dawnherald on all allies next turn\n$ Consume up to X Burn on self and heal (Y + Burn consumed)% HP\n$ Consume all Light of Daybreak on self\n<1>[Unbreakable Coin]\n[On Hit] Inflict Burn Count\n[On Hit] Inflict Tremor Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict Burn\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count\n[On Hit] Activate Burn on target; reduce target's Burn Count",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 4,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Ally Protection",
+							"Party Dawnherald",
+							"Spend Self Burn Potency",
+							"Spend Light of Daybreak",
+							"Unbreakable Coin",
+							"Burn Count",
+							"Tremor Count",
+							"Tremor Potency",
+							"Burn Potency",
+							"Amplitude Conversion",
+							"Tremor - Scorch",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Burn Proc",
+							"Spend Enemy Burn Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Guardian",
+					"Description": "[Clashable Counter]\n[Combat Start] Gain Assist Defense\n[Before Use] At X Light of Daybreak, activate 'Crack of Dawn' instead\n[On Use] Gain Light of Daybreak\n[On Use] Final Power +X for every Y (Burn + Tremor) on target\n[Clash Win] Lose Burn Count\n[Skill End] Lose Burn Potency\n<1>[On Hit] Inflict Burn\n[On Hit] Inflict Tremor\n<2>[On Hit] Inflict Burn Count",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 2,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"MiscTags": [
+						"Clashable Counter",
+						"Assist Defense",
+						"Skill Change",
+						"Light of Daybreak",
+						"Spend Self Burn Count",
+						"Spend Self Burn Potency",
+						"Burn Potency",
+						"Tremor Potency",
+						"Burn Count"
+					],
+					"AltSkill":{
+						"SkillSlot": "SD1",
+						"Name": "Heat Haze",
+						"Description": "[Clashable Counter]\nAssist Defense Skill\n[On Use] Gain Light of Daybreak\n[On Use] Gain Protection\n[On Use] Coin Power +X for every Y (Burn + Tremor) on target\n[On Use] At X+ Light of Daybreak, or if this unit 'Crack of Dawn' Skill this turn, convert all Coins in this Skill into Unbreakable Coins\n<1>[On Hit] Inflict Burn\n<2>[On Hit] Inflict Tremor",
+						"DamageType": "Slash",
+						"SinType": "Wrath",
+						"BasePower": 0,
+						"CoinPower": 0,
+						"CoinCount": 2,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"MiscTags": [
+							"Clashable Counter",
+							"Assist Defense Skill",
+							"Light of Daybreak",
+							"Protection",
+							"Unbreakable Coin",
+							"Burn Potency",
+							"Tremor Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "The Fixer at the Crack of Dawn",
+						"Description": "Upon entering the Encounter for the first time, gain Light of Daybreak\nCannot be Staggered or fall below 1 HP due to Burn damage\nTake less damage from Burn effects\n$ At less than X% HP, take -Y% damage from Burn effects instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Burn Damage Reduction"
+						]
+					},
+					{
+						"Name": "Dawn Office",
+						"Description": "Upon entering the Encounter for the first time, if there at X+ allied Dawn Office Identities (Including this unit) on the field, apply Dawn Office Stack on all Dawn Office Identities equal to the number of Dawn Office Identities on the field\nIf Dawn Office Fixer Sinclair is on the field, activate the following effects:\n$ Dawn Office Fixer Sinclair gains From Dawnbreak to Sunset\nTurn Start: If Dawn Office Rep Gregor is defeated, convert From Dawnbreak to Sunset on Dawn Office Fixer Sinclair into Blazing Sunset\nTurn Start: If Dawn Office Fixer Sinclair has less than 50% HP, apply Escape Apparatus on that unit",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"MiscTags": [
+							"Dawn Office",
+							"Ally Dawn Office",
+							"Ally From Dawnbreak to Sunset",
+							"Ally Blazing Sunset",
+							"Ally Escape Apparatus"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Morgenfeuer [Stigma Workshop]",
+					"Description": "When this unit has Dawnherald, gain Light of Daybreak On Hit using Base Attack Skills\nWhen other Dawn Office Identities meet the following conditions, Dawn Office Rep Gregor uses the 'Flash of Sunup' Skill against the targeted enemy\n$ At Base Skill Attack End: If the enemy that was hit is Staggered, use 'Flash of Sunup' against said enemy (Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n$ At Attack End of the following Skills, use 'Flash of Sunup' on the enemy they hit (Prioritizes Staggered targets)\n$- Dawn Office Fixer Faust's 'Eject', 'Eject - High Noon', and 'Dismemberment at High Noon'\n$- Dawn Office Fixer Sinclair's 'Stigmatize' and 'Blazing Strike'\nIf Dawn office Fixer SInclair is on the field: On Hit using extra Coins added to Dawn Office Rep Gregor's Base Skills, deal additional Wrath damage equal to Burn on the targeted enemy\n$ Counts as activating Burn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Light of Daybreak",
+						"Self Follow Up",
+						"Burn Burst"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Stigma Workshop Prosthesis",
+					"Description": "The ally who has the highest current HP inflicts Tremor On Hit against enemies that have Burn\n$ If said enemy has X+ Burn, trigger Tremor Burst on final Coin Hit; reduce target's Tremor Count",
+					"PassiveResources": [
+						{
+							"ResourceSin": "None",
+							"ResourceCount": -1
+						}
+					],
+					"ResourceType": "None",
+					"MiscTags": [
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
 					]
 				}
 			}
