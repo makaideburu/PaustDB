@@ -3323,9 +3323,13 @@
 	{
 		"entry": "dawn office",
 		"aliases": [
-			"damage amp",
-			"clash power up",
-			"base power up"
+			"offense level up"
+		]
+	},
+	{
+		"entry": "ally dawn office",
+		"aliases": [
+			"ally offense level up"
 		]
 	},
 	{
@@ -3338,6 +3342,12 @@
 		"entry": "blazing sunset",
 		"aliases": [
 			"scorchfield"
+		]
+	},
+	{
+		"entry": "unique status limit increase",
+		"aliases": [
+			"limit increase"
 		]
 	}
 ]
