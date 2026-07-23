@@ -64,6 +64,7 @@
 	{
 		"Id": 1,
 		"Name": "MADNESS",
+		"IsSectioned": false,
 		"Stops": [
 			{
 				"Id": 1,
@@ -1270,6 +1271,7 @@
 	{
 		"Id": 2,
 		"Name": "Mobius",
+		"IsSectioned": false,
 		"Stops": [
 			{
 				"Id": 1,
@@ -1280,7 +1282,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted So That No One Will Cry",
-								"Notes": "Refracted Sinking Weakness",
+								"Notes": "Apply Refracted Sinking (+1 Potency and Count when applying Sinking)",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1334,7 +1336,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Steam Transport Machine",
-								"Notes": "Refracted Bleed/Tremor Resist, Refracted Sinking Weakness",
+								"Notes": "Refracted Bleed and Tremor (Max 30 Potency, 5 Count)\nApply Refracted Sinking (+1 Potency and Count when applying Sinking)\n||Begins Encounter with __**Accumulated Past**__ equal to Current Railway turn count||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1408,7 +1410,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Drifting Fox",
-								"Notes": "Refracted Rupture/Sinking Resist, Refracted Bleed Weakness",
+								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\n Apply Refracted Bleed (+1 Potency and Count when applying Bleed)\n||Gains __**Protection Umbrella**__ equal to Current Cycle Count||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1462,7 +1464,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted T Corp. Class 3 Collectors",
-								"Notes": "Refracted Rupture/Sinking Resist, Refracted Burn Weakness",
+								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\nApply Refracted Burn (+1 Potency and Count when applying Burn)",
 								"Count": 2,
 								"Parts": [
 									{
@@ -1492,7 +1494,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted T Corp. Class 3 Collectors",
-								"Notes": "Refracted Rupture/Sinking Resist, Refracted Burn Weakness",
+								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\nApply Refracted Burn (+1 Potency and Count when applying Burn)\nSpawns on Cycle 3+",
 								"Count": 2,
 								"Parts": [
 									{
@@ -1528,7 +1530,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Faelantern",
-								"Notes": "Refracted Rupture/Sinking Resist",
+								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\n||+1 __**Charmed**__ per Cycle Count||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1582,7 +1584,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Shock Centipede",
-								"Notes": "Refracted Sinking Weakness",
+								"Notes": "Refracted Bleed and Tremor (Max 30 Potency, 5 Count)\n||+1 __**Self-charge**__ per Cycle Count (Max 8)||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1674,7 +1676,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Fairy Gentleman",
-								"Notes": "Refracted Bleed/Tremor Resist, Refracted Rupture Weakness",
+								"Notes": "Refracted Bleed and Tremor (Max 30 Potency, 5 Count)\nApply Refracted Rupture (+1 Potency and Count when applying Rupture)",
 								"Count": 1,
 								"Parts": [
 									{
@@ -1717,11 +1719,29 @@
 							},
 							{
 								"Name": "Refracted Fairy-Long-Legs",
-								"Notes": "Refracted Bleed/Tremor Resist, Refracted Rupture Weakness",
-								"Count": -1,
+								"Notes": "Refracted Bleed and Tremor (Max 30 Potency, 5 Count)\nApply Refracted Rupture (+1 Potency and Count when applying Rupture)\nSpawns on Cycle 5+",
+								"Count": 1,
 								"Parts": [
 									{
-										"Name": "Body, Left Arm",
+										"Name": "Body",
+										"Count": 1,
+										"DamageResist": {
+											"Slash": 1.5,
+											"Pierce": 1,
+											"Blunt": 0.5
+										},
+										"SinResist": {
+											"Wrath": 1,
+											"Lust": 0.5,
+											"Sloth": 1,
+											"Gluttony": 0.75,
+											"Gloom": 1,
+											"Pride": 1.5,
+											"Envy": 1.5
+										}
+									},
+									{
+										"Name": "Left Arm",
 										"Count": 1,
 										"DamageResist": {
 											"Slash": 1.5,
@@ -1845,7 +1865,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Wayward Passenger",
-								"Notes": "Refracted Burn/Rupture Resist, Refracted Tremor Weakness",
+								"Notes": "Refracted Burn and Rupture (Max 30 Potency, 5 Count)\nApply Refracted Tremor (+1 Potency and Count when applying Tremor)",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2027,6 +2047,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Sign of Roses",
+								"Notes": "||Gain +(Cycle Count x 5)% HP\nDeal -(Cycle Count x 5)% damage||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -2076,6 +2097,7 @@
 	{
 		"Id": 3,
 		"Name": "MirrorClock OrangeRoad",
+		"IsSectioned": false,
 		"Stops": [
 			{
 				"Id": 1,
@@ -2924,6 +2946,7 @@
 	{
 		"Id": 4,
 		"Name": "Masquerade",
+		"IsSectioned": true,
 		"Stops": [
 			{
 				"Id": 1,
@@ -3908,6 +3931,7 @@
 	{
 		"Id": 5,
 		"Name": "Merry Go Round",
+		"IsSectioned": true,
 		"Stops": [
 			{
 				"Id": 1,
@@ -4863,6 +4887,7 @@
 	{
 		"Id": 6,
 		"Name": "Maru no Uchi no Sanzu no Kawa",
+		"IsSectioned": true,
 		"Stops": [
 			{
 				"Id": 1,

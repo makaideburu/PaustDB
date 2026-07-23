@@ -131,7 +131,7 @@
 	},
 	{
 		"HelpNames": [
-			"tags"
+			"EffectTags"
 		],
 		"HelpTitle": "Effect Tags, Continued",
 		"HelpDescription": "Potentially Useful, But Unintuitive Tags",
@@ -152,7 +152,7 @@
 		"HelpItems": [
 			[
 				"\u200B",
-				"Faust has information available on enemies in Refraction Railway and their resists, to assist with planning and teambuilding.`-line`Denotes which Railway line you're looking for. Accepts either the Line Number (i.e. 2) or its name (i.e. Mobius), or will default to the latest/most current Railway Line.`-stop` Is required, and denotes which Stop of the Railway you're looking up. Same thing, Stop Number (i.e. 1) or its name (i.e. curse) ((Partial names are accepted.))\nAs of Line 4, Sections will be grouped together under the same 'Stop':```/limbus query:railway -line 4 -stop 2```...will provide Section 2 (The one with all the Peccatula Invidiae) rather than Stop 2 (The one with all the Butlers).\nNames are Spoiler tagged for those who care. Faust asserts that this used to actually matter."
+				"Faust has information available on enemies in Refraction Railway and their resists, to assist with planning and teambuilding.`-line`Denotes which Railway line you're looking for. Accepts either the Line Number (i.e. 2) or its name (i.e. Mobius), or will default to the latest/most current Railway Line.`-stop` Is ~~required~~ now optional. Omitting the `-stop` parameter will populate the drop down with all of the provided railway line's (or, if also omitted, the current line's) stations/sections and waves.\nAs of Line 4, Sections will be grouped together under the same 'Stop':```/limbus query:railway -line 4 -stop 2```...will provide Section 2 (The one with all the Peccatula Invidiae) rather than Stop 2 (The one with all the Butlers).\nNames are Spoiler tagged for those who care. Faust asserts that this used to actually matter."
 			]
 		],
 		"HelpFooter": ""
@@ -193,6 +193,14 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.2 (2026-07-18)",
+				"```technology's about to get crazy\nif you don't include a stop in the railway query it just gives you a list of all the stops now```"
+			],
+			[
+				"3.4.1.2 (2026-07-17)",
+				"```formatting improvements```"
+			],
+			[
 				"3.4.1.1 (2026-06-24)",
 				"```help item display improvements\n-noalt ignores all alternate skills```"
 			],
@@ -203,14 +211,6 @@
 			[
 				"3.4.0.2 (2026-06-11)",
 				"```bugfix for tier querying```"
-			],
-			[
-				"3.4.0.1 (2026-06-08)",
-				"```bugfix for gifts```"
-			],
-			[
-				"3.4.0 (2026-06-01)",
-				"```happy poise month btw\ncheck this out kiddo, drop downs save on char limit\nif anyone reads this go yell in discord if this sucks or not```"
 			]
 		],
 		"OldItems": [
@@ -505,6 +505,14 @@
 			[
 				"3.3.4.3 (2026-05-30)",
 				"```unspaghetti'd the railway stuff```"
+			],
+			[
+				"3.4.0 (2026-06-01)",
+				"```happy poise month btw\ncheck this out kiddo, drop downs save on char limit\nif anyone reads this go yell in discord if this sucks or not```"
+			],
+			[
+				"3.4.0.1 (2026-06-08)",
+				"```bugfix for gifts```"
 			]
 		],
 		"HelpFooter": ""

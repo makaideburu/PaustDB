@@ -3252,7 +3252,8 @@
 		"entry": "spend acceleration round", 
 		"aliases": [
 			"poise potency",
-			"poise count"
+			"poise count",
+			"spend unique ammo"
 		]
 	},
 	{
@@ -3348,6 +3349,20 @@
 		"entry": "unique status limit increase",
 		"aliases": [
 			"limit increase"
+		]
+	},
+	{
+		"entry": "dimensional castaway",
+		"aliases": [
+			"shield"
+		]
+	},
+	{
+		"entry": "quadricolor dimensions",
+		"aliases": [
+			"offense level up",
+			"defense level up",
+			"charge count"
 		]
 	}
 ]

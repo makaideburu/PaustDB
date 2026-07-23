@@ -275,75 +275,9 @@
 		]
 	},
 	{
-		"entry": "manifest e.g.o",
-		"aliases": [
-			"manifest ego"
-		]
-	},
-	{
 		"entry": "paralyze",
 		"aliases": [
 			"paralysis"
-		]
-	},
-	{
-		"entry": "tremor - decay",
-		"aliases": [
-			"tremor decay"
-		]
-	},
-	{
-		"entry": "tremor - fracture",
-		"aliases": [
-			"tremor fracture"
-		]
-	},
-	{
-		"entry": "tremor - reverb",
-		"aliases": [
-			"tremor reverb"
-		]
-	},
-	{
-		"entry": "tremor - everlasting",
-		"aliases": [
-			"tremor everlasting"
-		]
-	},
-	{
-		"entry": "tremor - superposition",
-		"aliases": [
-			"tremor superposition"
-		]
-	},
-	{
-		"entry": "tremor - chain",
-		"aliases": [
-			"tremor chain"
-		]
-	},
-	{
-		"entry": "tremor - clockwinding",
-		"aliases": [
-			"tremor clockwinding"
-		]
-	},
-	{
-		"entry": "tremor - scorch",
-		"aliases": [
-			"tremor scorch"
-		]
-	},
-	{
-		"entry": "tremor - distribution",
-		"aliases": [
-			"tremor distribution"
-		]
-	},
-	{
-		"entry": "tremor - hemorrhage",
-		"aliases": [
-			"tremor hemorrhage"
 		]
 	},
 	{
@@ -431,12 +365,6 @@
 		]
 	},
 	{
-		"entry": "strider [mao]",
-		"aliases": [
-			"strider mao"
-		]
-	},
-	{
 		"entry": "life from death [死中求活]",
 		"aliases": [
 			"life from death"
@@ -446,18 +374,6 @@
 		"entry": "heishou bolus contamination [黑獸丸染]",
 		"aliases": [
 			"heishou bolus contamination"
-		]
-	},
-	{
-		"entry": "your will guides my blade.",
-		"aliases": [
-			"your will guides my blade"
-		]
-	},
-	{
-		"entry": "strider [wu]",
-		"aliases": [
-			"strider wu"
 		]
 	},
 	{
@@ -517,105 +433,80 @@
 		]
 	},
 	{
-		"entry": "prescript: [paper slip]",
-		"aliases": [
-			"prescript paper slip"
-		]
-	},
-	{
 		"entry": "prescript: [paper slip] i",
 		"aliases": [
-			"prescript paper slip i",
 			"prescript paper slip 1"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] ii",
 		"aliases": [
-			"prescript paper slip ii",
 			"prescript paper slip 2"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] iii",
 		"aliases": [
-			"prescript paper slip iii",
 			"prescript paper slip 3"
 		]
 	},
 	{
 		"entry": "prescript: [paper slip] iv",
 		"aliases": [
-			"prescript paper slip iv",
 			"prescript paper slip 4"
 		]
 	},
 	{
 		"entry": "the prescript's target",
 		"aliases": [
-			"the prescripts target",
 			"prescripts target"
 		]
 	},
 	{
 		"entry": "the udjat [vanguard]",
 		"aliases": [
-			"the udjat vanguard",
 			"udjat vanguard"
-		]
-	},
-	{
-		"entry": "prescript: [device]",
-		"aliases": [
-			"prescript device"
 		]
 	},
 	{
 		"entry": "prescript: [device] i",
 		"aliases": [
-			"prescript device i",
 			"prescript device 1"
 		]
 	},
 	{
 		"entry": "prescript: [device] ii",
 		"aliases": [
-			"prescript device ii",
 			"prescript device 2"
 		]
 	},
 	{
 		"entry": "prescript: [device] iii",
 		"aliases": [
-			"prescript device iii",
 			"prescript device 3"
 		]
 	},
 	{
 		"entry": "prescript: [device] iv",
 		"aliases": [
-			"prescript device iv",
 			"prescript device 4"
 		]
 	},
 	{
 		"entry": "unlock - i",
 		"aliases": [
-			"unlock i",
 			"unlock 1"
 		]
 	},
 	{
 		"entry": "unlock - ii",
 		"aliases": [
-			"unlock ii",
 			"unlock 2"
 		]
 	},
 	{
 		"entry": "unlock - iii",
 		"aliases": [
-			"unlock iii",
 			"unlock 3"
 		]
 	},
@@ -624,12 +515,6 @@
 		"aliases": [
 			"shin - procuration",
 			"shin procuration"
-		]
-	},
-	{
-		"entry": "resident reg. microchip",
-		"aliases": [
-			"resident reg microchip"
 		]
 	},
 	{
@@ -645,139 +530,27 @@
 		]
 	},
 	{
-		"entry": "the middle - grudge",
-		"aliases": [
-			"the middle grudge"
-		]
-	},
-	{
-		"entry": "spend the middle - grudge",
-		"aliases": [
-			"spend the middle grudge"
-		]
-	},
-	{
 		"entry": "shin (心) - fate",
 		"aliases": [
 			"shin fate"
 		]
 	},
 	{
-		"entry": "procuration [hermes]",
-		"aliases": [
-			"procuration hermes"
-		]
-	},
-	{
-		"entry": "spend procuration [hermes]",
-		"aliases": [
-			"spend procuration hermes"
-		]
-	},
-	{
-		"entry": "wound-casing mask",
-		"aliases": [
-			"wound casing mask"
-		]
-	},
-	{
-		"entry": "spend wound-casing mask",
-		"aliases": [
-			"spend wound casing mask"
-		]
-	},
-	{
-		"entry": "bullet - solitude",
-		"aliases": [
-			"bullet solitude"
-		]
-	},
-	{
-		"entry": "spend bullet - solitude",
-		"aliases": [
-			"spend bullet solitude"
-		]
-	},
-	{
-		"entry": "spore round [base]",
-		"aliases": [
-			"spore round base"
-		]
-	},
-	{
-		"entry": "spend spore round [base]",
-		"aliases": [
-			"spend spore round base"
-		]
-	},
-	{
-		"entry": "spore round [buckshot]",
-		"aliases": [
-			"spore round buckshot"
-		]
-	},
-	{
-		"entry": "spend spore round [buckshot]",
-		"aliases": [
-			"spend spore round buckshot"
-		]
-	},
-	{
-		"entry": "reload [germination]",
-		"aliases": [
-			"reload germination"
-		]
-	},
-	{
-		"entry": "the self unbound - flow state",
-		"aliases": [
-			"the self unbound flow state"
-		]
-	},
-	{
 		"entry": "artwork: fascia",
 		"aliases": [
-			"artwork fascia",
 			"fascia"
-		]
-	},
-	{
-		"entry": "somatic frisson-inspiring melody",
-		"aliases": [
-			"somatic frisson inspiring melody"
-		]
-	},
-	{
-		"entry": "mauled color [rouge]",
-		"aliases": [
-			"mauled color rouge"
-		]
-	},
-	{
-		"entry": "mauled color [bleu]",
-		"aliases": [
-			"mauled color bleu"
 		]
 	},
 	{
 		"entry": "le fauvisme - masque de chien",
 		"aliases": [
-			"le fauvisme masque de chien",
 			"masque de chien"
 		]
 	},
 	{
 		"entry": "le fauvisme - masque de loup",
 		"aliases": [
-			"le fauvisme masque de loup",
 			"masque de chien"
-		]
-	},
-	{
-		"entry": "l'hommage",
-		"aliases": [
-			"lhommage",
-			"l hommage"
 		]
 	},
 	{
@@ -798,24 +571,6 @@
 		"aliases": [
 			"my hair coupons",
 			"hair coupons"
-		]
-	},
-	{
-		"entry": "book of vengeance [heathcliff]",
-		"aliases": [
-			"book of vengeance heathcliff"
-		]
-	},
-	{
-		"entry": "bladetrail [afterimage]",
-		"aliases": [
-			"bladetrail afterimage"
-		]
-	},
-	{
-		"entry": "spend bladetrail [afterimage]",
-		"aliases": [
-			"spend bladetrail afterimage"
 		]
 	},
 	{
@@ -840,31 +595,6 @@
 		"entry": "rend space [空間斬]",
 		"aliases": [
 			"rend space"
-		]
-	},
-	{
-		"entry": "book of vengeance [the house of spiders",
-		"aliases": [
-			"the book of vengeance the house of spiders",
-			"the book of vengeance house of spiders"
-		]
-	},
-	{
-		"entry": "the middle - vengeance tattoo [~~great sister~~]",
-		"aliases": [
-			"the middle vengeance tattoo great sister"
-		]
-	},
-	{
-		"entry": "check this out, kiddo!",
-		"aliases": [
-			"check this out kiddo"
-		]
-	},
-	{
-		"entry": "ally i got praised!",
-		"aliases": [
-			"ally i got praised"
 		]
 	},
 	{
