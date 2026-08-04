@@ -3877,7 +3877,7 @@
 		"Name": "Exquisite Aesthetics",
 		"Description": "Plus Coin Skills gain Coin Power +1\nMinus Coin Skills gain Base Power +(4 / # of Coins)\nDeal +30% damage with Skills",
 		"EffectTags": [
-			"Coin Power",
+			"Adaptive Coin Power",
 			"Damage Amp"
 		]
 	},
@@ -3984,7 +3984,8 @@
 		"EffectTags": [
 			"Clash Power Up",
 			"Base Power Up",
-			"Coin Power"
+			"Plus Coin Boost",
+			"Minus Coin Drop"
 		]
 	},
 	{
@@ -4127,7 +4128,7 @@
 		"Description": "Max Stack: 5\nClash Power +2 for every Stack\nFor every 2 Stack:\n$ Plus Coin Skills gain Coin Power +1\n$ Minus Coin Skills gain Final Power +2\nExpires at Turn End",
 		"EffectTags": [
 			"Clash Power Up",
-			"Coin Power"
+			"Adaptive Coin Power"
 		]
 	},
 	{
@@ -4771,6 +4772,7 @@
 		"Name": "High Noon",
 		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +2 and deal +(45 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +100% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n$ Deal +1% damage based on Scorchfield consumed (Max 100%)",
 		"EffectTags": [
+			"Identity Exclusive Effect",
 			"Spend Scorchfield"
 		]
 	},
@@ -4778,6 +4780,7 @@
 		"Name": "Loneliness at High Noon",
 		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +3 and deal +(90 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +150% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: Consume up to 100 Scorchfield and deal +1.5% damage based on Scorchfield consumed (Max 150%)\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (Once per Encounter)",
 		"EffectTags": [
+			"Identity Exclusive Effect",
 			"Spend Scorchfield"
 		]
 	},
@@ -4818,6 +4821,7 @@
 		"Name": "From Dawnbreak to Sunset",
 		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 5 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 25\nWhen in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n$ Turn Start: Gain Shield equal to 15% of max HP\n$ When hit while this unit has Shield, inflict 1 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
 		"EffectTags": [
+			"Identity Exclusive Effect",
 			"Scorchfield"
 		]
 	},
@@ -4825,6 +4829,7 @@
 		"Name": "Blazing Sunset",
 		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 8 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 45\nTurn Start: Enter the Volatile E.G.O::Waxen Pinion State, heal 50% HP, and heal SP to max (Once per Encounter)\nVolatile E.G.O::Waxen Pinion State is maintained even when this unit has 0 or lower SP at Turn Start\nWhen in Volatile E.G.O::Waxen Pinion State, gain the following effects:\n$ Turn Start: Gain Shield equal to 20% of max HP\n$ When hit while this unit has Shield, inflict 2 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
 		"EffectTags": [
+			"Identity Exclusive Effect",
 			"Scorchfield"
 		]
 	},

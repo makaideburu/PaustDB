@@ -14595,7 +14595,7 @@
 					},
 					{
 						"Name": "Will of the Prescript",
-						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain more 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If this unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
+						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If this unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -14632,7 +14632,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "The Great Magicked Beeper Knoweth My Desire!",
-					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with the Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
+					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with The Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -14891,7 +14891,7 @@
 					},
 					{
 						"Name": "Will of the Prescript",
-						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain more 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If this unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
+						"Description": "Turn End: If Prescript was executed this turn, heal 4 SP and gain 1 Grace of the Prescript (Once per turn)\n$ When executing Prescript, if main target has The Prescript's Target, heal 8 SP and gain 3 Grace of the Prescript instead\nTurn End: If Prescript was not executed this turn, gain 5 Karmic Consequence\n$ At Unlock - III, does not gain Karmic Consequence\n$ If this unit attempted to execute Prescript at Combat Start, but could not target the enemy during the Turn, does not gain Karmic Consequence",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -14928,7 +14928,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "The Great Magicked Beeper Knoweth My Desire!",
-					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with the Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
+					"Description": "Deal +2% damage with Skills marked with Mark of the Prescript for every Grace of the Prescript (Max 16%)\n$ At 9 Grace of the Prescript, deal +20% damage with Base Skills instead\nOn hit with a Base Attack Skill against targets with The Prescript's Target, heal 3 SP (Once per Skill; 2 times per turn)\n$ Heal additional SP based on Unlock Stage",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -19459,7 +19459,8 @@
 					],
 					"ResourceType": "Owned",
 					"EffectTags": [
-						"Bladetrail [Afterimage]"
+						"Bladetrail [Afterimage]",
+						"E.G.O Exclusive Effect"
 					]
 				},
 				"SupportSkill": {
@@ -19761,7 +19762,8 @@
 					],
 					"ResourceType": "Owned",
 					"EffectTags": [
-						"Bladetrail [Afterimage]"
+						"Bladetrail [Afterimage]",
+						"E.G.O Exclusive Effect"
 					]
 				},
 				"SupportSkill": {
@@ -27959,7 +27961,8 @@
 						"Unrelenting",
 						"Tarnished Blood",
 						"Heal HP",
-						"Damage Up"
+						"Damage Up",
+						"E.G.O Exclusive Effect"
 					]
 				},
 				"SupportSkill": {
@@ -28191,7 +28194,8 @@
 						"Unrelenting",
 						"Tarnished Blood",
 						"Heal HP",
-						"Damage Up"
+						"Damage Up",
+						"E.G.O Exclusive Effect"
 					]
 				},
 				"SupportSkill": {
@@ -31133,7 +31137,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Mutilated Tattoos",
-					"Description": "Gain 1 Offense Level Up and 1 Defense Level Up next turn every time an ally (including this unit) is attacked, gain 2 each instead if the attacked ally is from The Pequod. (Max 9)\nDeal more 1% more damage for every 1% missing HP.",
+					"Description": "Gain 1 Offense Level Up and 1 Defense Level Up next turn every time an ally (including this unit) is attacked, gain 2 each instead if the attacked ally is from The Pequod. (Max 9)\nDeal +1% damage for every 1% missing HP.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -31255,7 +31259,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Mutilated Tattoos",
-					"Description": "Gain 1 Offense Level Up and 1 Defense Level Up next turn every time an ally (including this unit) is attacked. (Max 6)\nDeal more 0.4% more damage for every 1% missing HP.",
+					"Description": "Gain 1 Offense Level Up and 1 Defense Level Up next turn every time an ally (including this unit) is attacked. (Max 6)\nDeal +0.4% damage for every 1% missing HP.",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -33480,7 +33484,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Watch Your Back!",
-					"Description": "If the target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] If the target has Vengeance Mark, Final Power +2\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Use] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
+					"Description": "If the target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] If the target has Vengeance Mark, Final Power +2\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Hit] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -33682,7 +33686,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Watch Your Back!",
-					"Description": "If the target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Use] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
+					"Description": "If the target has 6+ (Burn + Bleed), Coin Power +1\n[Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard\n[Combat Start] This Skill gains (Highest Reson / 2) Offense Level (Max 3; rounded down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n<1>[On Hit] Inflict +3 Bleed Count\n[On Hit] Inflict +1 Burn Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 Paralyze\n[On Hit] Inflict 3 Burn",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -50878,7 +50882,6 @@
 						"Self SP Damage",
 						"Magic Bullet",
 						"Spend Magic Bullet",
-						"Spend Ammo",
 						"Dark Flame"
 					]
 				},
@@ -51003,7 +51006,6 @@
 						"Self SP Damage",
 						"Magic Bullet",
 						"Spend Magic Bullet",
-						"Spend Ammo",
 						"Dark Flame"
 					]
 				},
@@ -52989,7 +52991,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Complete and Total Extermination [Lævateinn]",
-						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) on target (Max 3)\nDeal +1% damage for every (Burn + Bleed) on target (Max 40%)\n[On Use] Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister] Inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End] If Skill was activated as a Counter, gain 1 Blunt DMG Up next turn (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n[On Hit] Deal ((Burn + Bleed) on target x 2)% of this Coin final damage as Slash damage (Max 50%)\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Deal ((Burn + Bleed) on target x 2)% of this Coin's final damage as Slash damage (Max 50%)\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Pierce damage (Max 25%)\n[On Hit] Deal (Burn + Bleed on target)% of this Coin final damage as Blunt damage (Max 25%)",
+						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) on target (Max 3)\nDeal +1% damage for every (Burn + Bleed) on target (Max 40%)\n[On Use] Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister] Inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End] If Skill was activated as a Counter, gain 1 Blunt DMG Up next turn (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (Max 50%)\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (Max 50%)\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Pierce damage (Max 25%)\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Blunt damage (Max 25%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 4,
@@ -53373,7 +53375,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Complete and Total Extermination [Lævateinn]",
-						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) (Max 3)\nDeal +1% damage for every (Burn + Bleed) (Max 20%)\n[On Use] Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed)% Coin final damage Pierce damage (Max 25%)\n[On Hit] Deal (Burn + Bleed)% Coin final damage Blunt damage (Max 25%)",
+						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) (Max 3)\nDeal +1% damage for every (Burn + Bleed) (Max 20%)\n[On Use] Skill gains (Highest Reson) Offense Level (Max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Pierce damage (Max 25%)\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Blunt damage (Max 25%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 3,
@@ -57847,7 +57849,8 @@
 						"EffectTags": [
 							"Offense Level Up",
 							"Ally Offense Level Up",
-							"Self HP Damage"
+							"Self HP Damage",
+							"E.G.O Exclusive Effect"
 						]
 					}
 				],
@@ -58054,7 +58057,8 @@
 						"EffectTags": [
 							"Offense Level Up",
 							"Ally Offense Level Up",
-							"Self HP Damage"
+							"Self HP Damage",
+							"E.G.O Exclusive Effect"
 						]
 					}
 				],

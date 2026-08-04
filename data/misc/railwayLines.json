@@ -2954,6 +2954,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Banquet",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Portrait of a Certain Day",
@@ -3003,6 +3004,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Well Basin",
 						"Enemies": [
 							{
 								"Name": "Refracted Edgar Family Butler",
@@ -3080,6 +3082,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Twisted",
 						"Enemies": [
 							{
 								"Name": "Refracted Nelly",
@@ -3109,6 +3112,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Chiseling",
 						"Footer": "Present as Support Passives:\nLCB Sinner Yi Sang, Kurokumo Clan Wakashu Ryōshū, Kurokumo Clan Wakashu Hong Lu, LCB Sinner Ishmael, Blade Lineage Salsu Outis, Kurokumo Clan Captain Gregor",
 						"Enemies": [
 							{
@@ -3223,6 +3227,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Cloudbrume",
 						"Enemies": [
 							{
 								"Name": "Refracted Kurokumo Henchman/Henchwoman",
@@ -3264,6 +3269,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Boneflesh",
 						"Footer": "Present as Support Passives:\nEdgar Family Chief Butler Ryōshū, LCB Sinner Hong Lu, Shi Association South Section 3 Heathcliff, The Pequod Captain Ishmael, LCB Sinner Rodion, G Corp. Manager Corporal Gregor",
 						"Enemies": [
 							{
@@ -3384,6 +3390,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Forgery",
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - W Corp. L3 Cleanup Agent Don Quixote",
@@ -3498,6 +3505,7 @@
 					{
 						"Id": 2,
 						"ReinforcementWave": true,
+						"Name": "Forgery",
 						"DisplayWave": 1,
 						"Enemies": [
 							{
@@ -3613,6 +3621,7 @@
 					{
 						"Id": 3,
 						"DisplayWave": 2,
+						"Name": "Dreaming",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Dreaming Electric Sheep",
@@ -3668,6 +3677,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Adamantine Wall",
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - Lobotomy E.G.O::Sunshower Heathcliff",
@@ -3782,6 +3792,7 @@
 					{
 						"Id": 2,
 						"ReinforcementWave": true,
+						"Name": "Adamantine Wall",
 						"DisplayWave": 1,
 						"Enemies": [
 							{
@@ -3897,6 +3908,7 @@
 					{
 						"Id": 3,
 						"DisplayWave": 2,
+						"Name": "Feast",
 						"Abnormalities": [
 							{
 								"Name": "The Refracted King in Binds",
@@ -3939,6 +3951,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Attachment",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Hurting Teddy Bear",
@@ -3968,6 +3981,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Hunt",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Rose Hunter",
@@ -4017,6 +4031,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Fountainhead",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Peccatulum Pigritiae Class 3",
@@ -4097,6 +4112,7 @@
 					},
 					{
 						"Id": 4,
+						"Name": "Misting",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Sleeping Bag of a Bygone Day",
@@ -4169,6 +4185,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Ironstrike",
 						"Footer": "Present as Support Passives:\nDevyat' Association North Section 3 Rodion, Devyat' Association North Section 3 Sinclair, W Corp. L3 Cleanup Agent Outis, W Corp. L3 Cleanup Agent Don Quixote, Cinq Association West Section 3 Meursault, Seven Association South Section 4 Faust",
 						"Enemies": [
 							{
@@ -4283,6 +4300,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Rampage",
 						"Enemies": [
 							{
 								"Name": "Refracted Peccatulum Invidiae Class 2 - Kurokumo Clan Captain Ishmael",
@@ -4397,6 +4415,7 @@
 					{
 						"Id": 3,
 						"ReinforcementWave": true,
+						"Name": "Rampage",
 						"DisplayWave": 2,
 						"Enemies": [
 							{
@@ -4512,6 +4531,7 @@
 					{
 						"Id": 4,
 						"DisplayWave": 3,
+						"Name": "Oblivion",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Der Fluchschütze",
@@ -4585,6 +4605,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Motherhood",
 						"Enemies": [
 							{
 								"Name": "Refracted Dulcinea",
@@ -4662,6 +4683,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Treason",
 						"Footer": "Present as Support Passives:\nThe Ring Pointilist Student Yi Sang, The One Who Grips Faust, Kurokumo Clan Wakashu Hong Lu, Kurokumo Clan Wakashu Heathcliff, Kurokumo Clan Captain Ishmael, The One Who Shall Grip Sinclair",
 						"Enemies": [
 							{
@@ -4776,6 +4798,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Blood Sin",
 						"Enemies": [
 							{
 								"Name": "The Refracted Priest",
@@ -4835,6 +4858,7 @@
 					},
 					{
 						"Id": 4,
+						"Name": "Yearning",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Four-Hundred Roses",
@@ -4895,6 +4919,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Weighing of Robes",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Butterfly of Entangled Lives::The Pupa",
@@ -4930,6 +4955,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Tarnishing",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Yinglong",
@@ -4997,6 +5023,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Tarnishing",
 						"Enemies": [
 							{
 								"Name": "Refracted Hongyu, The Crimson Jade",
@@ -5129,6 +5156,7 @@
 					{
 						"Id": 3,
 						"ReinforcementWave": true,
+						"Name": "Tarnishing",
 						"DisplayWave": 2,
 						"Enemies":[
 							{
@@ -5244,6 +5272,7 @@
 					{
 						"Id": 4,
 						"DisplayWave": 3,
+						"Name": "Tarnishing",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Yinglong",
@@ -5349,6 +5378,7 @@
 					{
 						"Id": 5,
 						"DisplayWave": 4,
+						"Name": "Eclosion",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Past",
@@ -5385,6 +5415,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Heart of Innocence",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Will You Play?",
@@ -5542,6 +5573,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Face of Things",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Distorted Hohenheim",
@@ -5571,6 +5603,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Eclosion",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Present",
@@ -5607,6 +5640,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Tangled Knots",
 						"Enemies": [
 							{
 								"Name": "The Refracted Pinky Nursefather - Shiomi Yoru",
@@ -5631,6 +5665,7 @@
 					},
 					{
 						"Id": 2,
+						"Name": "Drowning Desire",
 						"Enemies": [
 							{
 								"Name": "The Refracted Ring Nursefather - Callisto",
@@ -5672,6 +5707,7 @@
 					},
 					{
 						"Id": 3,
+						"Name": "Blind Folly",
 						"Enemies": [
 							{
 								"Name": "The Refracted Index Nursefather - Rien",
@@ -5696,6 +5732,7 @@
 					},
 					{
 						"Id": 4,
+						"Name": "Eclosion",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Illusory Butterfly of Entangled Lives::The Future",
@@ -5731,6 +5768,7 @@
 				"Waves": [
 					{
 						"Id": 1,
+						"Name": "Advent",
 						"Abnormalities": [
 							{
 								"Name": "Refracted Butterfly of Entangled Lives::Imago",

@@ -471,13 +471,16 @@
 					"AttackWeight": 5,
 					"AttackWeightMod": 5,
 					"EffectTags": [
+						"Blazing",
+						"Unbreakable Coin",
 						"Burn Potency"
 					]
 				},
 				"Passive": {
 					"Name": "Ember",
-					"Description": "On clash win, inflict Burn by (Wrath A-Reson / 2) (Once per skill)",
+					"Description": "On Use of a Wrath Skill or a Skill that inflicts Burn or Burn Count: At 6+ total sum of Burn on all targets, Clash Power +1\nOn Clash Win, inflict Burn by (Wrath Reson x 2) (Max 8 per skill)",
 					"EffectTags": [
+						"Clash Power Up",
 						"Burn Potency"
 					]
 				}
@@ -992,6 +995,7 @@
 					"Name": "TheWilt-wingedButterflyFeedsUponThePauperDewInMistedBreath",
 					"Description": "If target has Butterfly, gain Clash Power +1\nOn Hit against targets that have 15+ (Sinking + both Butterfly), inflict 1 Butterfly (The Living) and 1 Butterfly (The Departed) (Once per turn; Focused Encounters, the Part)\n\n[Always Active - Lobotomy E.G.O::Solemn Lament Yi Sang Exclusive Effect]\nOn Hit, Base Skills inflict 2 Tremor on target (Once per Skill)\nThis Identity counts as an 'Identity that inflicts Tremor and Sinking'\n$ This Identity's Base Skills count as 'Skills that inflict Tremor and Sinking'\n\n[Effect on Use - Lobotomy E.G.O::Solemn Lament Yi Sang Exclusive Effect]\nMaximum cap +10 for the sum of The Living & The Departed Potency and Count\nAfter Reloading, heal 10 SP and Discard 1 Base Attack Skill(s) of the lowest Rank in all of this unit's Skill Slots (Except 'Goodbye Now, a Sorrow in You') (2 times per turn)\nTurn End: If this unit had a Defense Skill equipped this turn, heal 10 SP\nTurn End: When Staggered, recover from Stagger, then Reload (Excluding forced Staggers) (Once per Encounter; excluding forced Staggers)",
 					"EffectTags": [
+						"Identity Exclusive Effect",
 						"Butterfly",
 						"Keyword Modification",
 						"Status Limit Increase",
@@ -2633,10 +2637,12 @@
 						"Burn Potency",
 						"Heal HP",
 						"Blunt DMG Up",
-						"Wrath DMG Up"
+						"Wrath DMG Up",
+						"Identity Exclusive Effect"
 					]
 				}
-			},{
+			},
+			{
 				"Tier": 4,
 				"Awakening": {
 					"SkillSlot": "EA0",
@@ -2698,7 +2704,8 @@
 						"Burn Potency",
 						"Heal HP",
 						"Blunt DMG Up",
-						"Wrath DMG Up"
+						"Wrath DMG Up",
+						"Identity Exclusive Effect"
 					]
 				}
 			}
@@ -2978,6 +2985,99 @@
 					"Name": "Immoderate Passion",
 					"Description": "At the start of the combat phase, gain Haste and Defense Power Down next turn by (Lust A-Reson / 2) this turn.",
 					"EffectTags": []
+				}
+			}
+		]
+	},
+	{
+		"Id": 3102,
+		"DisplayId": 3000,
+		"Sinner": "Don Quixote",
+		"Grade": "ZAYIN",
+		"Season": 7,
+		"Sanity": 0,
+		"CorrosionSanity": 0,
+		"Abnormality": "Will You Play?",
+		"SinResist": {
+			"Wrath": -100,
+			"Lust": -100,
+			"Sloth": -100,
+			"Gluttony": -100,
+			"Gloom": -100,
+			"Pride": -100,
+			"Envy": -100
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 0,
+			"Pride": 0,
+			"Envy": 0
+		},
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "I'll Go fer Scissors. How 'Bout You?",
+					"Description": "[Attack End After Clash Win] Heal X% HP and Y SP each for (Z + Envy Reson / W) allies that have the lowest current HP percentages\n[Clash Lose] Gain (Envy Reson x X) Shield\n[Clash Lose] Deal more damage to the main target\n<1>[Unbreakable Coin]\n[Hit After Clash Win] Inflict Power Down next turn\n[On Hit] Inflict Bleed",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Heal HP",
+						"Ally Heal HP",
+						"Heal SP",
+						"Ally Heal SP",
+						"Shield",
+						"Unbreakable Coin",
+						"Power Down",
+						"Bleed Potency"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "I'll Go fer Scissors. How 'Bout You?",
+					"Description": "[Indiscriminate] Targets randomly\nFinal Power +X for every Y Envy Reson\n[Clash Win] Deal more damage to the main target\n[Clash Lose] Gain Shield equal to (Envy Reson x X)\n[Clash Lose] This Skill inflicts more Power Down\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n<3>[Unbreakable Coin]\n[On Hit] Inflict Power Down next turn\n[On Hit] Inflict Bleed",
+					"DamageType": "Slash",
+					"SinType": "Envy",
+					"BasePower": 0,
+					"CoinPower": 0,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Shield",
+						"Unbreakable Coin",
+						"Power Down",
+						"Bleed Potency"
+					]
+				},
+				"Passive": {
+					"Name": "'Tis Thy Turn to Swallow the Needle!",
+					"Description": "Envy Skills do more damage\n$ Said Skills deal even more damage for every X Envy Reson\nTurn Start: Gain Offense Level Up equal to (Cumulative HP damage taken by this unit in this Encounter (including Shield damage) / X)\nCombat Start: On Envy A-Reson, inflict Needle to all enemies (In Focused Encounters, all Parts)",
+					"EffectTags": [
+						"Offense Level Up",
+						"Needle"
+					]
 				}
 			}
 		]
@@ -4036,7 +4136,8 @@
 						"Charge Count",
 						"Mark of Villainy",
 						"Rupture Potency",
-						"Rupture Count"
+						"Rupture Count",
+						"Identity Exclusive Effect"
 					]
 				},
 				"Corrosion": {
@@ -4066,7 +4167,8 @@
 						"Unbreakable Coin",
 						"Charge Count",
 						"Sinking Potency",
-						"Sinking Count"
+						"Sinking Count",
+						"Identity Exclusive Effect"
 					]
 				},
 				"Passive": {
@@ -4074,7 +4176,8 @@
 					"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
 					"EffectTags": [
 						"Charge Potency",
-						"Skill Pool Modification"
+						"Skill Pool Modification",
+						"Identity Exclusive Effect"
 					]
 				}
 			},
@@ -4110,7 +4213,8 @@
 						"Charge Count",
 						"Mark of Villainy",
 						"Rupture Potency",
-						"Rupture Count"
+						"Rupture Count",
+						"Identity Exclusive Effect"
 					]
 				},
 				"Corrosion": {
@@ -4140,7 +4244,8 @@
 						"Unbreakable Coin",
 						"Charge Count",
 						"Sinking Potency",
-						"Sinking Count"
+						"Sinking Count",
+						"Identity Exclusive Effect"
 					]
 				},
 				"Passive": {
@@ -4148,7 +4253,8 @@
 					"Description": "Gain 1 Charge every time this unit consumes 10 cumulative Charge Count\n$ If this unit already gains Charge by consuming Charge Count on self, this effect does not stack\n$ This unit's Base Attack Skills that consume Charge Count deal +5% damage for every Charge (Max 25%)\nIf this unit is Lobotomy E.G.O::In the Name of Love and Hate, gain 1 additional Skill 3 use",
 					"EffectTags": [
 						"Charge Potency",
-						"Skill Pool Modification"
+						"Skill Pool Modification",
+						"Identity Exclusive Effect"
 					]
 				}
 			}
@@ -6476,6 +6582,7 @@
 					"Name": "Beads of Liquor at Bladepoint",
 					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (Once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire:\nResentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (Once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (Excluding forced Staggers)",
 					"EffectTags": [
+						"Identity Exclusive Effect",
 						"Keyword Modification",
 						"Bleed Potency",
 						"Drink to the Fallen",
@@ -6551,6 +6658,7 @@
 					"Name": "Beads of Liquor at Bladepoint",
 					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (Once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire:\nResentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (Once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (Excluding forced Staggers)",
 					"EffectTags": [
+						"Identity Exclusive Effect",
 						"Keyword Modification",
 						"Bleed Potency",
 						"Drink to the Fallen",
@@ -13724,7 +13832,6 @@
 						"Nullify Stagger",
 						"Rupture Count",
 						"Rupture Potency",
-						"Skill Reuse",
 						"Self Instant Death"
 					]
 				},
@@ -13791,7 +13898,6 @@
 						"Nullify Stagger",
 						"Rupture Count",
 						"Rupture Potency",
-						"Skill Reuse",
 						"Self Instant Death"
 					]
 				},

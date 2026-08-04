@@ -193,24 +193,24 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.3.2 (2026-08-04)",
+				"```rip wall of Radiant Vanity```"
+			],
+			[
+				"3.4.3.1 (2026-08-04)",
+				"```effect queries just weren't working i guess```"
+			],
+			[
+				"3.4.3 (2026-08-04)",
+				"```always actives have spots in the drop down now```"
+			],
+			[
+				"3.4.2.1 (2026-08-01)",
+				"```here's a lumpsum changelog\ni actually don't remember what i fixed.```"
+			],
+			[
 				"3.4.2 (2026-07-18)",
 				"```technology's about to get crazy\nif you don't include a stop in the railway query it just gives you a list of all the stops now```"
-			],
-			[
-				"3.4.1.2 (2026-07-17)",
-				"```formatting improvements```"
-			],
-			[
-				"3.4.1.1 (2026-06-24)",
-				"```help item display improvements\n-noalt ignores all alternate skills```"
-			],
-			[
-				"3.4.1 (2026-06-18)",
-				"```ego display improvements```"
-			],
-			[
-				"3.4.0.2 (2026-06-11)",
-				"```bugfix for tier querying```"
 			]
 		],
 		"OldItems": [
@@ -513,6 +513,22 @@
 			[
 				"3.4.0.1 (2026-06-08)",
 				"```bugfix for gifts```"
+			],
+			[
+				"3.4.0.2 (2026-06-11)",
+				"```bugfix for tier querying```"
+			],
+			[
+				"3.4.1 (2026-06-18)",
+				"```ego display improvements```"
+			],
+			[
+				"3.4.1.1 (2026-06-24)",
+				"```help item display improvements\n-noalt ignores all alternate skills```"
+			],
+			[
+				"3.4.1.2 (2026-07-17)",
+				"```formatting improvements```"
 			]
 		],
 		"HelpFooter": ""

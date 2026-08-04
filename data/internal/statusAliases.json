@@ -20,6 +20,36 @@
 		]
 	},
 	{
+		"entry": "identity exclusive effect",
+		"aliases": [
+			"exclusive effect"
+		]
+	},
+	{
+		"entry": "ally identity exclusive effect",
+		"aliases": [
+			"ally exclusive effect"
+		]
+	},
+	{
+		"entry": "e.g.o exclusive effect",
+		"aliases": [
+			"exclusive effect"
+		]
+	},
+	{
+		"entry": "ally e.g.o exclusive effect",
+		"aliases": [
+			"ally exclusive effect"
+		]
+	},
+	{
+		"entry": "ally exclusive effect",
+		"aliases": [
+			"exclusive effect"
+		]
+	},
+	{
 		"entry": "party burn potency",
 		"aliases": [
 			"self burn potency",
@@ -1544,15 +1574,13 @@
 	{
 		"entry": "faction buff: t corp.",
 		"aliases": [
-			"faction buff",
-			"faction buff: t corp"
+			"faction buff"
 		]
 	},
 	{
 		"entry": "faction buff: w corp.",
 		"aliases": [
-			"faction buff",
-			"faction buff: w corp"
+			"faction buff"
 		]
 	},
 	{
@@ -2555,7 +2583,7 @@
 	{
 		"entry": "exquisite aesthetics",
 		"aliases": [
-			"coin power",
+			"adaptive coin power",
 			"damage amp"
 		]
 	},
@@ -2668,7 +2696,8 @@
 		"aliases": [
 			"clash power up",
 			"base power up",
-			"coin power"
+			"plus coin boost",
+			"minus coin drop"
 		]
 	},
 	{
@@ -2818,7 +2847,7 @@
 		"entry": "glimpse of precognition",
 		"aliases": [
 			"clash power up",
-			"coin power"
+			"adaptive coin power"
 		]
 	},
 	{
@@ -3281,12 +3310,14 @@
 	{
 		"entry": "ally high noon",
 		"aliases": [
+			"ally identity exclusive effect",
 			"spend scorchfield"
 		]
 	},
 	{
 		"entry": "ally loneliness at high noon",
 		"aliases": [
+			"ally identity exclusive effect",
 			"spend scorchfield"
 		]
 	},
@@ -3334,14 +3365,16 @@
 		]
 	},
 	{
-		"entry": "from dawnbreak to sunset",
+		"entry": "ally from dawnbreak to sunset",
 		"aliases": [
+			"ally identity exclusive effect",
 			"scorchfield"
 		]
 	},
 	{
-		"entry": "blazing sunset",
+		"entry": "ally blazing sunset",
 		"aliases": [
+			"ally identity exclusive effect",
 			"scorchfield"
 		]
 	},
