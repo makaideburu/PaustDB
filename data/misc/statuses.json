@@ -825,7 +825,7 @@
 	},
 	{
 		"Name": "Magic Bullet",
-		"Description": "Max: 7\nLobotomy E.G.O::Magic Bullet Outis Skill 3 Only:\n0-3: +0 Coin +0 Base\n4-6: +2 Coin +2 Base\n7: +6 Coin +15 Base",
+		"Description": "Max: 7\nLobotomy E.G.O::Magic Bullet Outis Skill 3 Only:\n0~3: +0 Coin +0 Base\n4~6: +2 Coin +2 Base\n7: +6 Coin +15 Base",
 		"EffectTags": []
 	},
 	{
@@ -1350,7 +1350,7 @@
 	},
 	{
 		"Name": "Red Eyes",
-		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n$ Stage 1 (1 ~ 7): Red Eyes\n$ Stage 2 (8 ~ 15): Red Eyes - Alert\n$ Stage 3 (16 ~ 20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
+		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Red Eyes\n$ Stage 2 (8~15): Red Eyes - Alert\n$ Stage 3 (16~20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
 		"EffectTags": [
 			"Unique Charge",
 			"Bleed Potency"
@@ -1358,7 +1358,7 @@
 	},
 	{
 		"Name": "Penitence",
-		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n$ Stage 1 (1 ~ 7): Penitence\n$ Stage 2 (8 ~ 15): Penitence - Periphery\n$ Stage 3 (16 ~ 20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
+		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Penitence\n$ Stage 2 (8~15): Penitence - Periphery\n$ Stage 3 (16~20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
 		"EffectTags": [
 			"Unique Charge",
 			"Heal SP",

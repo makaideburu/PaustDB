@@ -3084,7 +3084,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Inner Ardor",
-					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP\nAt 4+ Wrath Reson, heal 1 additional ally",
+					"Description": "Turn End: Heal 1 ally with the least SP by (5 + highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP\nAt 4+ Wrath Reson, heal 1 additional ally",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -3203,7 +3203,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Inner Ardor",
-					"Description": "Turn End: Heal 1 ally with the least SP by (5 + Highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP",
+					"Description": "Turn End: Heal 1 ally with the least SP by (5 + highest Reson) (Max 10; excludes self and Panicked or E.G.O Corroded allies)\nIf said ally has Base Attack Skills that inflict Burn or Burn Count, heal 5 additional SP",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -3304,7 +3304,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Target Readjustment Fire",
-					"Description": "[Combat Start] Targets the lowest HP unit\n$ At 7 Torn Memory, prioritize an ally as the main target\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all\n$ If this unit lost Torn Memory and an ally is killed, heal 20 SP\n<1>[Unbreakable Coin]\nThis Coin only damages the main target\nIf the target is an ally:\n$ Their Pierce Resist becomes Fatal for the attack\n$ Deal +7% damage for every Torn Memory\n$ Deal +3% damage on Critical Hit for every Poise (Max 60%)\n<2>[Unbreakable Coin] This Coin only damages sub-targets\n$ If main target was an enemy, target them\n$ If an ally was not killed, target 1 random sub-target\nDeal +20% damage for every Torn Memory\n$ If an ally was killed, deal +40% damage instead\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 3 Bleed\n$ If an ally was killed, 5 Bleed and +2 Bleed Count instead",
+					"Description": "[Combat Start] Targets the lowest HP unit\n$ At 7 Torn Memory, prioritize an ally as the main target\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all\n$ If this unit lost Torn Memory and an ally is killed, heal 20 SP\n<1>[Unbreakable Coin]\nThis Coin only damages the main target\nIf the target is an ally:\n$ Their Pierce Resist becomes Fatal for the attack\n$ Deal +7% damage for every Torn Memory\n$ Deal +3% damage on Critical Hit for every Poise (Max 60%)\n<2>[Unbreakable Coin]\nThis Coin only damages sub-targets\n$ If main target was an enemy, target them\n$ If an ally was not killed, target 1 random sub-target\nDeal +20% damage for every Torn Memory\n$ If an ally was killed, deal +40% damage instead\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 3 Bleed\n$ If an ally was killed, 5 Bleed and +2 Bleed Count instead",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -3334,7 +3334,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "I Shall Fire / Anytime",
-						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] This Coin only damages the main target\n<2>[Unbreakable Coin] This Coin only damages sub-targets\n$ If the first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +40% damage for every Torn Memory\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 5 Bleed and +2 Bleed Count",
+						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] Coin Power +1 for every 5 Poise (Max 2)\n[On Use] Base Power +1 for every 3 Poise Count (Max 2)\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin]\nThis Coin only damages the main target\n<2>[Unbreakable Coin]\nThis Coin only damages sub-targets\n$ If the first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +40% damage for every Torn Memory\nDeal +5% damage on Critical Hit for every Poise (Max 50%)\nDeal +10% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 5 Bleed and +2 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 4,
@@ -3483,7 +3483,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Target Readjustment Fire",
-					"Description": "[Combat Start] Targets the lowest HP unit\n$ At 7 Torn Memory, prioritize an ally as the main target\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all\n$ If this unit lost Torn Memory and an ally is killed, heal 20 SP\n<1>[Unbreakable Coin]\nThis Coin only damages the main target\nIf the target is an ally:\n$ Their Pierce Resist becomes Fatal for the attack\n$ Deal +5% damage for every Torn Memory\n$ Deal +2% damage on Critical Hit for every Poise (Max 40%)\n<2>[Unbreakable Coin] This Coin only damages sub-targets\n$ If main target was an enemy, target them\n$ If an ally was not killed, target 1 random sub-target\nDeal +15% damage for every Torn Memory\n$ If an ally was killed, deal +30% damage instead\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 2 Bleed\n$ If an ally was killed, 3 Bleed and +1 Bleed Count instead",
+					"Description": "[Combat Start] Targets the lowest HP unit\n$ At 7 Torn Memory, prioritize an ally as the main target\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory (Max 7)\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] If this unit had 7 Torn Memory at Combat Start, lose them all\n$ If this unit lost Torn Memory and an ally is killed, heal 20 SP\n<1>[Unbreakable Coin]\nThis Coin only damages the main target\nIf the target is an ally:\n$ Their Pierce Resist becomes Fatal for the attack\n$ Deal +5% damage for every Torn Memory\n$ Deal +2% damage on Critical Hit for every Poise (Max 40%)\n<2>[Unbreakable Coin]\nThis Coin only damages sub-targets\n$ If main target was an enemy, target them\n$ If an ally was not killed, target 1 random sub-target\nDeal +15% damage for every Torn Memory\n$ If an ally was killed, deal +30% damage instead\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +(HP percentage lost from first Coin)% damage\n[On Hit] Inflict 2 Bleed\n$ If an ally was killed, 3 Bleed and +1 Bleed Count instead",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -3513,7 +3513,7 @@
 					"BLTSkill": {
 						"SkillSlot": "S32",
 						"Name": "I Shall Fire / Anytime",
-						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin] damages main target\n<2>[Unbreakable Coin] damages sub-targets\n$ If first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +30% damage for every Torn Memory\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 3 Bleed and +1 Bleed Count",
+						"Description": "[Combat Start] Targets N Corp. E.G.O::Contempt, Awe Ryōshū\n[Combat Start] Atk Weight +1 for every 3 Torn Memory (Max 2)\n[On Use] At 5+ Poise, Coin Power +1\n[On Use] At 3+ Poise Count, Base Power +1\n[On Use] Gain 1 Poise for every Torn Memory\n[After Attack] Lose (Torn Memory x 2) SP\n[After Attack] At 7 Torn Memory at Combat Start, lose them all; heal 20 SP\n<1>[Unbreakable Coin]\ndamages main target\n<2>[Unbreakable Coin]\ndamages sub-targets\n$ If first Coin did not Crit and N Corp. E.G.O::Contempt, Awe Ryōshū survived, target 1 sub-target\nDeal +30% damage for every Torn Memory\nDeal +2.5% damage on Critical Hit for every Poise (Max 25%)\nDeal +7% damage on Critical Hit for every Torn Memory\nDeal +1% damage for every 1% missing HP on the main target\n[On Hit] Inflict 3 Bleed and +1 Bleed Count",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 3,
@@ -4110,7 +4110,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "'Raise and Laugh the Blade, Cry the Waterfall Like the Scent of Fallen Leaves'",
-					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At 8- Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +25% damage\nIf this Skill has Mark of the Prescript, deal +20% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Convert Coins equal to (Unlock Stage + 1) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal to (Unlock stage)\n<2>[On Hit] Gain 3 Poise\n<3>[On Hit] Inflict 3 Sinking\n<4>Deal +20% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +3 Sinking Count",
+					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At less than 9 Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +25% damage\nIf this Skill has Mark of the Prescript, deal +20% damage\nCoin Power +1 for every 6 (Poise on self + Sinking on target) (Max 2)\n[On Use] Convert Coins equal to (Unlock Stage + 1) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n$ Gain Poise equal to (Unlock stage)\n<2>[On Hit] Gain 3 Poise\n<3>[On Hit] Inflict 3 Sinking\n<4>Deal +20% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +3 Sinking Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -4171,7 +4171,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "By Unpredictable Whim",
-					"Description": "At Unlock - III, Coin Power +2\n[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ At 5- Grace of the Prescript, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
+					"Description": "At Unlock - III, Coin Power +2\n[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ If Grace of the Prescript Stack is less than 6, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
 					"DamageType": "Evade",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -4369,7 +4369,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "'Raise and Laugh the Blade, Cry the Waterfall Like the Scent of Fallen Leaves'",
-					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At 8- Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +12.5% damage\nIf this Skill has Mark of the Prescript, deal +10% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict2 Sinking\n<4>Deal +10% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +2 Sinking Count",
+					"Description": "Turn Start: At 9 Procuration [Hermes], change this Skill to 'Furioso-Replica' (Once per turn)\n$ Prioritizes the leftmost, bottom row Slot on the Dashboard\n$ [Before Use] At less than 9 Procuration [Hermes], use as Skill 3\n(75 - (Karmic Consequence / 2))% chance to produce a Slash weapon\n$ Coins using Slash weapons deal +12.5% damage\nIf this Skill has Mark of the Prescript, deal +10% damage\nAt 6+ (Poise on self + Sinking on target), Coin Power +1\n[On Use] Convert Coins equal to (Unlock Stage) into Unbreakable Coins, beginning with the final Coin\n[On Use] Gain +3 Poise Count\n<2>[On Hit] Gain 2 Poise\n<3>[On Hit] Inflict2 Sinking\n<4>Deal +10% damage for every Unlock stage\n[On Crit] Gain +1 Poise Count\n[On Hit without Cracking] Inflict +2 Sinking Count",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -4430,7 +4430,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "By Unpredictable Whim",
-					"Description": "[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ At 5- Grace of the Prescript, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
+					"Description": "[Combat Start] Gain +2 Poise Count (Once per turn)\n[On Evade] Gain 2 Poise (2 times per turn)\n[Turn End] At below Unlock - II (Once per Encounter):\n$ Gain Unlock - II\n$ If Grace of the Prescript Stack is less than 6, raise the Stack to 6\n$ Gain 5 Karmic Consequence next turn for every Grace of the Prescript gained via the effect above",
 					"DamageType": "Evade",
 					"SinType": "None",
 					"BasePower": 4,
@@ -4647,7 +4647,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rip Space",
-					"Description": "[Before Use] At 15+ Charge Count, activate 'Four-dimensional Refraction Time Series Severance' instead\n[On Use] At 7 ~ 4 Charge Count:\n$ Consume all Charge Count and gain Coin Power +1 for every 7 Charge Count consumed (Max 2)\n[On Use] Final Power +1 for every 6 (Rupture + Dimensional Rift) on target (Max 4)\n[On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions\n<1>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 2 Dimensional Rift\n[On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (Max 20%)",
+					"Description": "[Before Use] At 15+ Charge Count, activate 'Four-dimensional Refraction Time Series Severance' instead\n[On Use] At 7~4 Charge Count:\n$ Consume all Charge Count and gain Coin Power +1 for every 7 Charge Count consumed (Max 2)\n[On Use] Final Power +1 for every 6 (Rupture + Dimensional Rift) on target (Max 4)\n[On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions\n<1>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 2 Dimensional Rift\n[On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (Max 20%)",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 5,
@@ -4827,7 +4827,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rip Space",
-					"Description": "[Before Use] At 15+ Charge Count, activate 'Four-dimensional Refraction Time Series Severance' instead\n[On Use] At 7 ~ 4 Charge Count:\n$ Consume all Charge Count and gain Coin Power +1 for every 7 Charge Count consumed (Max 2)\n[On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions\n<1>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 2 Dimensional Rift\n[On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (Max 20%)",
+					"Description": "[Before Use] At 15+ Charge Count, activate 'Four-dimensional Refraction Time Series Severance' instead\n[On Use] At 7~4 Charge Count:\n$ Consume all Charge Count and gain Coin Power +1 for every 7 Charge Count consumed (Max 2)\n[On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions\n<1>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +1 Charge Count\n[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n[On Hit] Inflict 2 Dimensional Rift\n[On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (Max 20%)",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -7334,7 +7334,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Charge Countercurrent",
-					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 4)% damage for every Charge Count consumed by this Skill (Max 180%)",
+					"Description": "[On Use] At 5~9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 4)% damage for every Charge Count consumed by this Skill (Max 180%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -7455,7 +7455,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Charge Countercurrent",
-					"Description": "[On Use] At 5 ~ 9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 3)% damage for every Charge Count consumed by this Skill (Max 120%)",
+					"Description": "[On Use] At 5~9 Charge Count consume 2(10 - current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<3>At 3+ Reson including this Skill, consume all Charge Count and deal +(Charge + 3)% damage for every Charge Count consumed by this Skill (Max 120%)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -14611,7 +14611,7 @@
 					},
 					{
 						"Name": "Unlock / Effloresced E.G.O::Procuration",
-						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf this unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf this unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0- SP, unit exits Effloresced E.G.O::Procuration",
+						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf this unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf this unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0 or less SP, unit exits Effloresced E.G.O::Procuration",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -14907,7 +14907,7 @@
 					},
 					{
 						"Name": "Unlock / Effloresced E.G.O::Procuration",
-						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf this unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf this unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0- SP, unit exits Effloresced E.G.O::Procuration",
+						"Description": "Turn End: At 3/6/9 Grace of the Prescript, gain Unlock - I / Unlock - II / Unlock - III\nIf this unit gained Unlock - I, consume 15 SP to enter Effloresced E.G.O::Procuration state:\n$ Before consuming SP, heal SP to 25 and gain Karmic Consequence equal to (SP healed / 5) (rounded up)\n$ At Turn Start after the above checks, if this unit has Unlock and is at 25+ SP, consume 15 SP to enter this state\nIf this unit gets Staggered when entering Effloresced E.G.O::Procuration, recover from Stagger (If this unit's Stagger cannot be naturally recovered from, does not enter Effloresced E.G.O::Procuration)\nGain Faith Beyond Question while in Effloresced E.G.O::Procuration\nAt 0 or less SP, unit exits Effloresced E.G.O::Procuration",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -16831,7 +16831,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "D.D.E.D.R.",
-					"Description": "[On Use] At 7-14 Charge Count, consume all Charge Count, and consume 3 x (15 - Charge Count Consumed)% HP to gain +5 Coin Power\n[On Use] Consume 15 Charge Count to gain +5 Coin Power\n<1>[Heads Hit] The final coin deals +10% damage\n<2>[Heads Hit] The final coin deals +10% damage\n<3>[Heads Hit] The final coin deals +10% damage\n<4>[On Kill] If the skill consumed 15 Charge Count on use, apply 7 Charge Barrier to self and 1 other ally",
+					"Description": "[On Use] At 7~14 Charge Count, consume all Charge Count, and consume 3 x (15 - Charge Count Consumed)% HP to gain +5 Coin Power\n[On Use] Consume 15 Charge Count to gain +5 Coin Power\n<1>[Heads Hit] The final coin deals +10% damage\n<2>[Heads Hit] The final coin deals +10% damage\n<3>[Heads Hit] The final coin deals +10% damage\n<4>[On Kill] If the skill consumed 15 Charge Count on use, apply 7 Charge Barrier to self and 1 other ally",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 3,
@@ -16949,7 +16949,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "D.D.E.D.R.",
-					"Description": "[On Use] At 7-14 Charge Count, consume all Charge Count, and consume 3 x (15-Charge Count Consumed)% HP to gain +3 Coin Power\n[On Use] Consume 15 Charge Count to gain +3 Coin Power\n<1>[Heads Hit] The final coin deals +5% damage\n<2>[Heads Hit] The final coin deals +5% damage\n<3>[Heads Hit] The final coin deals +5% damage\n<4>[On Kill] If the skill consumed 15 Charge Count on use, apply 5 Charge Barrier to self and 1 other ally",
+					"Description": "[On Use] At 7~14 Charge Count, consume all Charge Count, and consume 3 x (15 - Charge Count Consumed)% HP to gain +3 Coin Power\n[On Use] Consume 15 Charge Count to gain +3 Coin Power\n<1>[Heads Hit] The final coin deals +5% damage\n<2>[Heads Hit] The final coin deals +5% damage\n<3>[Heads Hit] The final coin deals +5% damage\n<4>[On Kill] If the skill consumed 15 Charge Count on use, apply 5 Charge Barrier to self and 1 other ally",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 3,
@@ -23733,7 +23733,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "E.G.O Alteration - Buckshot",
-					"Description": "Deal -50% damage against sub-targets\nDeal +15% damage for every 5 Spore on target\n[On Use] If main target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with final Coin\n[Attack End] At 1- Spore Round [Base], Reload [Germination]\n<1>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +1 Burn Count\n<2>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +2 Bleed Count\n<3>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +1 Burn Count",
+					"Description": "Deal -50% damage against sub-targets\nDeal +15% damage for every 5 Spore on target\n[On Use] If main target has 6+ (Burn + Bleed), Coin Power +1\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with final Coin\n[Attack End] At 1 or fewer Spore Round [Base], Reload [Germination]\n<1>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +1 Burn Count\n<2>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +2 Bleed Count\n<3>Spend 1 Spore Round [Buckshot]\n[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -23760,7 +23760,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Field Test - Dust Spark",
-					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2- Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on the main target (Max 3)\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
+					"Description": "Deal +50% damage based on excess Atk Weight beyond the number of actual targets (In Focused Encounters, Parts)\nDeal +10% damage for every 5 Spore on target\n[Before Use] At 2 or fewer Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base]\n[On Use] Coin Power +1 for every 6 (Burn + Bleed) on the main target (Max 3)\n[On Use] If this unit has Loyalty Pheromone, Clash Power +1\n[On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coins, beginning with 3rd Coin\n[On Use] At 3+ Loyalty Pheromone, Atk Weight +1\n[Attack End] Reload [Germination]\n<1>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 3 Burn\n<2>Coin only hits one target (Prioritizes main target)\nSpend 1 Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<3>Coin only hits one target (Prioritizes main target)\nSpend Spore Round [Base]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\nSpend 1 Spore Round [Buckshot]\nDeal -50% damage against sub-targets\nDeal +5% damage for every Loyalty Pheromone\n[On Hit without Cracking] At max Spore Stack:\n$ Deal (Burn x Spore / 10) Wrath damage (Rounded down)\n$- Counts as activating Burn\n$ Target loses 1 Burn Count\n$ Spore on target expires\n[On Hit] Inflict +1 Burn Count and +2 Bleed Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -26745,7 +26745,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "You're the Culprit!",
-					"Description": "[On Use] Clash Power +1 for every 6 Tremor on target (Max 2)\n[On Use] At 15- Tremor Count on self, Consume 10 Tremor Count to gain Coin Power +2\n[On Use] Consume 15 Tremor Count on self to gain Coin Power +3\n<1>[On Hit] If this Skill consumed Tremor Count On Use, trigger Amplitude Entanglement into Tremor - Reverb\n<2>[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n<3>[On Hit] If this Skill consumed 10+ Tremor Count On Use, trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n<4>[On Hit] If this Skill consumed 10+ Tremor Count On Use, trigger Tremor Burst; then, reduce the target's Tremor Count by 1\nIf this unit consumed less than 15 Tremor Count, trigger Tremor Burst on self after activating the above effect",
+					"Description": "[On Use] Clash Power +1 for every 6 Tremor on target (Max 2)\n[On Use] At less than 15 Tremor Count on self, Consume 10 Tremor Count to gain Coin Power +2\n[On Use] Consume 15 Tremor Count on self to gain Coin Power +3\n<1>[On Hit] If this Skill consumed Tremor Count On Use, trigger Amplitude Entanglement into Tremor - Reverb\n<2>[On Hit] Trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n<3>[On Hit] If this Skill consumed 10+ Tremor Count On Use, trigger Tremor Burst; then, reduce the target's Tremor Count by 1\n<4>[On Hit] If this Skill consumed 10+ Tremor Count On Use, trigger Tremor Burst; then, reduce the target's Tremor Count by 1\nIf this unit consumed less than 15 Tremor Count, trigger Tremor Burst on self after activating the above effect",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -27012,7 +27012,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Target Marked",
-					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of Highest Reson adds 25% chance to activate Target Spotted\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn",
+					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of highest Reson adds 25% chance to activate Target Spotted\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\nDeal +(Ammo spent x 10)% damage on Critical Hit\n<3>Deal +20% damage on Critical Hit\n[On Hit] Inflict 1 Bind next turn\n[On Hit] Inflict 1 Attack Power Down next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -27254,7 +27254,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Target Marked",
-					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of Highest Reson adds 20% chance to activate Target Spotted\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n<3>[On Hit] Inflict 1 Attack Power Down next turn",
+					"Description": "Base Power +1 for every Ammo to be spent by this Skill\n[On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson of highest Reson adds 20% chance to activate Target Spotted\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>Spend up to 3 Ammo\nDeal +(Ammo spent x 10)% damage\n<3>[On Hit] Inflict 1 Bind next turn\n<3>[On Hit] Inflict 1 Attack Power Down next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -27773,7 +27773,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]",
-					"Description": "[Combat Start] Apply 1 Gluttony DMG Up to all other allies that have a Gluttony Skill equipped this turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +2 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture",
+					"Description": "[Combat Start] Apply 1 Gluttony DMG Up to all other allies that have a Gluttony Skill equipped this turn (Once per turn)\n[On Use] Coin Power +1 for every 6 (target's Rupture + self Poise) (Max 2)\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +2 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\nDeal +50% damage\nDeal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -28008,7 +28008,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Tarnished Blood's Absolute Cleaver of Ambitions [汚血絕志竟成]",
-					"Description": "[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +1 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin] Deal +50% damage\n[On Hit] Inflict 2 Rupture",
+					"Description": "[On Use] At 6+ (target's Rupture + self Poise), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Gain +1 Poise Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Rupture\n<4>[Unbreakable Coin]\nDeal +50% damage\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -30244,7 +30244,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Photoelectric Mark",
-					"Description": "[On Use] At 5 ~ 9 Charge Count, consume 2(10 - Current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<1>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<2>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<3>[On Hit] Inflict 2 HP Healing Down\n[On Hit] Inflict Photoelectricity equal to Charge (Max 3)",
+					"Description": "[On Use] At 5~9 Charge Count, consume 2(10 - Current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +2\n<1>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<2>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<3>[On Hit] Inflict 2 HP Healing Down\n[On Hit] Inflict Photoelectricity equal to Charge (Max 3)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -30372,7 +30372,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Photoelectric Mark",
-					"Description": "[On Use] At 5 ~ 9 Charge Count, consume 2(10 - Current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<2>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<3>[On Hit] Inflict 2 HP Healing Down\n[On Hit] Inflict Photoelectricity equal to Charge (Max 3)",
+					"Description": "[On Use] At 5~9 Charge Count, consume 2(10 - Current Charge Count)% HP to raise Charge Count to 10\n[On Use] Consume 10 Charge Count to gain Coin Power +1\n<2>[On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down\n<3>[On Hit] Inflict 2 HP Healing Down\n[On Hit] Inflict Photoelectricity equal to Charge (Max 3)",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -37121,7 +37121,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Scattering Slash",
-					"Description": "[Combat Start] Gain 1 Protection (Once per turn)\n[Combat Start] Apply 2 Defense Power Up to (2 + Highest Reson) fastest allied Kurokumo Clan Identities (Including this unit; once per turn)",
+					"Description": "[Combat Start] Gain 1 Protection (Once per turn)\n[Combat Start] Apply 2 Defense Power Up to (2 + highest Reson) fastest allied Kurokumo Clan Identities (Including this unit; once per turn)",
 					"DamageType": "Evade",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -37850,11 +37850,12 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinPowerModifier": 0,
+					"CoinPowerModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"EffectTags": [
+						"Clashable Counter",
 						"Discard",
 						"Bright [光]",
 						"Sinking Count",
@@ -38038,11 +38039,12 @@
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 0,
 					"ClashPowerModifier": 0,
-					"CoinPowerModifier": 0,
+					"CoinPowerModifier": 2,
 					"CoinCountModifier": 0,
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"EffectTags": [
+						"Clashable Counter",
 						"Discard",
 						"Bright [光]",
 						"Sinking Count",
@@ -41365,7 +41367,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Courier Trunk - Decay Knife",
-					"Description": "Coin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit, but does not inflict Rupture with its On Hit effects\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\nAt 15- Courier Trunk - Rodion on self, gain 1 additional Courier Trunk - Rodion\n<2>[On Hit] Inflict 3 Rupture",
+					"Description": "Coin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit, but does not inflict Rupture with its On Hit effects\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\n$ If this unit has less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion\n<2>[On Hit] Inflict 3 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -41389,7 +41391,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Courier Trunk - Gadget Reveal",
-					"Description": "Deal +2% damage for every Courier Trunk - Rodion on self (Max 40%)\nCoin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\nAt 15- Courier Trunk - Rodion, gain 2 additional Courier Trunk - Rodion\n<2>[Heads Hit] Gain 1 Haste next turn\nAt 15+ Courier Trunk - Rodion, gain 1 additional Haste\n<3>[On Hit] Inflict 1 Defense Level Down for every 5 Courier Trunk - Rodion on self or 5 Rupture on target (Max 6, once per turn)",
+					"Description": "Deal +2% damage for every Courier Trunk - Rodion on self (Max 40%)\nCoin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\n$ If this unit has less than 15 Courier Trunk - Rodion, gain 2 additional Courier Trunk - Rodion\n<2>[Heads Hit] Gain 1 Haste next turn\nAt 15+ Courier Trunk - Rodion, gain 1 additional Haste\n<3>[On Hit] Inflict 1 Defense Level Down for every 5 Courier Trunk - Rodion on self or 5 Rupture on target (Max 6, once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -41414,7 +41416,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "I Trust Ya, Polu!",
-					"Description": "Deal +4% damage for every Courier Trunk - Rodion on self (Max 80%)\nCoin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Count On Hit; instead Reuse its last Coin\n<2>[On Hit] Inflict +3 Rupture Count\nInflict +1 additional Rupture Count for every 10 Courier Trunk - Rodion\n<3>[On Hit] At 15+ Courier Trunk - Rodion, deal +25% damage\n[After Attack] If the target is Staggered or Defeated, gain 2 Haste next turn (Once per turn)",
+					"Description": "Deal +4% damage for every Courier Trunk - Rodion on self (Max 80%)\nCoin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Count On Hit; instead Reuse its last Coin\n<2>[On Hit] Inflict +3 Rupture Count\n$ Inflict +1 additional Rupture Count for every 10 Courier Trunk - Rodion\n<3>[On Hit] At 15+ Courier Trunk - Rodion, deal +25% damage\n[After Attack] If the target is Staggered or Defeated, gain 2 Haste next turn (Once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 5,
@@ -41437,7 +41439,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Courier Support & Control Sequence",
-					"Description": "[Combat Start] At 15+ Courier Trunk - Rodion, activate 'Just... a Strategic Time Off!' instead\n[Combat Start] If this Skill is to be activated, gain (Courier Trunk - Rodion)% of this unit's Max HP as Shield (Max 25%, once per turn)\n[On Use] Gain 2 Courier Trunk - Rodion (Once per turn)\nAt less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion",
+					"Description": "[Combat Start] At 15+ Courier Trunk - Rodion, activate 'Just... a Strategic Time Off!' instead\n[Combat Start] If this Skill is to be activated, gain (Courier Trunk - Rodion)% of this unit's Max HP as Shield (Max 25%, once per turn)\n[On Use] Gain 2 Courier Trunk - Rodion (Once per turn)\n$ At less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 9,
@@ -41532,7 +41534,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Courier Trunk - Decay Knife",
-					"Description": "At 10+ Courier Trunk - Rodion on self or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit, but does not inflict Rupture with its On Hit effects\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\nAt 15- Courier Trunk - Rodion on self, gain 1 additional Courier Trunk - Rodion\n<2>[On Hit] Inflict 2 Rupture",
+					"Description": "At 10+ Courier Trunk - Rodion on self or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit, but does not inflict Rupture with its On Hit effects\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\n$ If this unit has less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion\n<2>[On Hit] Inflict 2 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -41556,7 +41558,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Courier Trunk - Gadget Reveal",
-					"Description": "Coin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\nAt 15- Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion\n<2>[Heads Hit] Gain 1 Haste next turn\n<3>[On Hit] Inflict 1 Defense Level Down for every 5 Courier Trunk - Rodion on self or 5 Rupture on target (Max 4, once per turn)",
+					"Description": "Coin Power +1 for every 10 Courier Trunk - Rodion on self or 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit\n<1>[On Hit] Gain 1 Courier Trunk - Rodion\n$ If this unit has less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion\n<2>[Heads Hit] Gain 1 Haste next turn\n<3>[On Hit] Inflict 1 Defense Level Down for every 5 Courier Trunk - Rodion on self or 5 Rupture on target (Max 4, once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -41604,7 +41606,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Courier Support & Control Sequence",
-					"Description": "[Combat Start] At 15+ Courier Trunk - Rodion, activate 'Just... a Strategic Time Off!' instead\n[Combat Start] If this Skill is to be activated, gain (Courier Trunk - Rodion/2)% of this unit's Max HP as Shield (Max 15%, once per turn)\n[On Use] Gain 2 Courier Trunk - Rodion (Once per turn)\nAt less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion",
+					"Description": "[Combat Start] At 15+ Courier Trunk - Rodion, activate 'Just... a Strategic Time Off!' instead\n[Combat Start] If this Skill is to be activated, gain (Courier Trunk - Rodion/2)% of this unit's Max HP as Shield (Max 15%, once per turn)\n[On Use] Gain 2 Courier Trunk - Rodion (Once per turn)\n$ At less than 15 Courier Trunk - Rodion, gain 1 additional Courier Trunk - Rodion",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 9,
@@ -43449,7 +43451,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Critique",
-						"Description": "[Clashable Counter]\nDeal +10% damage for every type of negative effect on target (Max 40%)\nIf the target has Palette Vibrante, deal +30% damage\n[On Use] If the target has Palette Vibrante, gain 2 Clash Power\n[On Use] If the target has 4+ (Bleed + Sinking), Final Power +3\n[On Use] Clash Power +2 for every 2 types of negative effect on target (Max 6)\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
+						"Description": "[Clashable Counter]\nDeal +10% damage for every type of negative effect on target (Max 40%)\nIf the target has Palette Vibrante, deal +30% damage\n[On Use] If the target has Palette Vibrante, gain 2 Clash Power Up\n[On Use] If the target has 4+ (Bleed + Sinking), Final Power +3\n[On Use] Clash Power +2 for every 2 types of negative effect on target (Max 6)\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
 						"BasePower": 5,
@@ -43458,13 +43460,15 @@
 						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
-						"ClashPowerModifier": 8,
+						"ClashPowerModifier": 6,
+						"ClashPowerModifierStatuses": 2,
 						"CoinPowerModifier": 0,
 						"CoinCountModifier": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"EffectTags": [
 							"Clashable Counter",
+							"Clash Power Up",
 							"Réflexion",
 							"Bleed Potency",
 							"Sinking Potency",
@@ -43672,7 +43676,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Critique",
-						"Description": "[Clashable Counter]\nDeal +8% damage for every type of negative effect on target (Max 40%)\nIf the target has Palette Vibrante, deal +30% damage\n[On Use] If the target has Palette Vibrante, gain 2 Clash Power\n[On Use] If the target has 4+ (Bleed + Sinking), Final Power +3\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
+						"Description": "[Clashable Counter]\nDeal +8% damage for every type of negative effect on target (Max 40%)\nIf the target has Palette Vibrante, deal +30% damage\n[On Use] If the target has Palette Vibrante, gain 2 Clash Power Up\n[On Use] If the target has 4+ (Bleed + Sinking), Final Power +3\n[Skill End] Gain 2 Réflexion\n<1>Reuse this Coin once for every 3 types of negative effect on target (Max 2 times)\n[On Hit] Inflict 1 Bleed (Once per Skill)\n[On Hit] Inflict 1 Sinking (Once per Skill)\n[On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu]\n[On Hit] If this is the 3rd Coin used, inflict 1 Touche Hardie",
 						"DamageType": "Blunt",
 						"SinType": "Lust",
 						"BasePower": 5,
@@ -43681,13 +43685,15 @@
 						"Level": 3,
 						"BasePowerModifier": 0,
 						"FinalPowerModifier": 3,
-						"ClashPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"ClashPowerModifierStatuses": 2,
 						"CoinPowerModifier": 0,
 						"CoinCountModifier": 2,
 						"AttackWeight": 1,
 						"AttackWeightMod": 1,
 						"EffectTags": [
 							"Clashable Counter",
+							"Clash Power Up",
 							"Réflexion",
 							"Bleed Potency",
 							"Sinking Potency",
@@ -43947,7 +43953,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Disposal",
-						"Description": "If target has 50%- current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\nDeal +10% damage for every Acceleration Round that will be spent by this Coin (Max 50%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 3 times)",
+						"Description": "If target has less than 50% current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\nDeal +10% damage for every Acceleration Round that will be spent by this Coin (Max 50%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 3 times)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 5,
@@ -44268,7 +44274,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Disposal",
-						"Description": "If target has 50%- current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 2 times)",
+						"Description": "If target has less than 50% current HP, deal +50% damage\nWhen attacking Game Target, Coin Power +1\n[On Use] If this unit has 1+ Acceleration Round, Coin Power +1\n[On Use] Final Power +1 for every 4 (Burn + Tremor) on target (Max 5)\n[On Kill] Upon killing Game Target, add 1 'Disposal' to the list of Skills for the next upcoming turn (Killing Game Target with the added 'Disposal' does not trigger this effect again)\n[On Kill] Reload (Once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n[On Hit] Inflict 2 Tremor\n<3>[Unbreakable Coin]\n[On Hit] Inflict +3 Burn Count\n[On Hit] Inflict +3 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<5>[Unbreakable Coin]\nSpend up to 5 Acceleration Round\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n$ Activate the above effect once more for every Acceleration Round spent (Max 2 times)",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 5,
@@ -46494,7 +46500,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Enough...",
-					"Description": "[Combat Start] Heal 5-10 SP",
+					"Description": "[Combat Start] Heal 5~10 SP",
 					"DamageType": "Defend",
 					"SinType": "Pride",
 					"BasePower": 17,
@@ -46618,7 +46624,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Enough...",
-					"Description": "[Combat Start] Heal 5-10 SP",
+					"Description": "[Combat Start] Heal 5~10 SP",
 					"DamageType": "Defend",
 					"SinType": "Pride",
 					"BasePower": 17,
@@ -47067,7 +47073,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Unstable Shell of E.G.O",
-						"Description": "Turn Start: At 45 SP, consume 20 SP to enter the Volatile E.G.O::Waxen Pinion state\nIf 2+ allies are defeated in a single turn, and this unit's SP isn't at -45 at Turn End, reset SP to 20; then, enter the Volatile E.G.O::Waxen Pinion state.\nIf both conditions are met at the same time, whichever condition that results in a higher SP goes into effect.\nIf this unit gets Staggered due to damage or raised Stagger Threshold when entering the Volatile E.G.O state, recover from Stagger\nIf the stagger is something that cannot be naturally recovered from, this unit does not enter the Volatile E.G.O state\nGain Volatile Passion while in the Volatile E.G.O state\nTurn Start: At 0- SP, exit the Volatile E.G.O::Waxen Pinion state",
+						"Description": "Turn Start: At 45 SP, consume 20 SP to enter the Volatile E.G.O::Waxen Pinion state\nIf 2+ allies are defeated in a single turn, and this unit's SP isn't at -45 at Turn End, reset SP to 20; then, enter the Volatile E.G.O::Waxen Pinion state.\nIf both conditions are met at the same time, whichever condition that results in a higher SP goes into effect.\nIf this unit gets Staggered due to damage or raised Stagger Threshold when entering the Volatile E.G.O state, recover from Stagger\nIf the stagger is something that cannot be naturally recovered from, this unit does not enter the Volatile E.G.O state\nGain Volatile Passion while in the Volatile E.G.O state\nTurn Start: At 0 or less SP, exit the Volatile E.G.O::Waxen Pinion state",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -47306,7 +47312,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Courier Trunk - Decay Hammer",
-					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture Count with On Hit effects; instead inflicting 2 Defense Level Down (Once per Coin)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, gain +1 Courier Trunk - Sinclair\n<2>[On Hit] Inflict +2 Rupture Count\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
+					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture Count with On Hit effects; instead inflicting 2 Defense Level Down (Once per Coin)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\n$ If this unit has less than 15 Courier Trunk - Sinclair, gain +1 Courier Trunk - Sinclair\n<2>[On Hit] Inflict +2 Rupture Count\n$ At 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -47330,7 +47336,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Courier Trunk - Demolition Gadget",
-					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 30- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count",
+					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] If this unit has less than 30 Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\n$ If this unit has less than 15 Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\n$ At 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\n$ At 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 4,
@@ -47356,7 +47362,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Poludnitsa... I trust you!",
-					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead final Coin gains +4 Coin Power\n[On Use] If the target has 15+ Rupture, deal +4% damage for every Courier Trunk - Sinclair (Max 120%)\n<1>[On Hit] Inflict +1 Rupture Count\nInflict +1 Rupture Count for every 10 Courier Trunk - Sinclair (Max 3)\n<2>[On Hit] Inflict 3 Rupture\nInflict +1 Rupture for every 8 Courier Trunk - Sinclair (Max 4)\n<3>[On Hit] If final Coin Power was not raised, gain 2 Haste next turn",
+					"Description": "Coin Power +1 for every 10 Courier Trunk - Sinclair or every 6 Rupture on target (Max 2)\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead final Coin gains +4 Coin Power\n[On Use] If the target has 15+ Rupture, deal +4% damage for every Courier Trunk - Sinclair (Max 120%)\n<1>[On Hit] Inflict +1 Rupture Count\n$ Inflict +1 Rupture Count for every 10 Courier Trunk - Sinclair (Max 3)\n<2>[On Hit] Inflict 3 Rupture\n$ Inflict +1 Rupture for every 8 Courier Trunk - Sinclair (Max 4)\n<3>[On Hit] If final Coin Power was not raised, gain 2 Haste next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 5,
@@ -47474,7 +47480,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Courier Trunk - Decay Hammer",
-					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture Count with On Hit effects; instead inflicting 2 Defense Level Down (Once per Coin)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, gain +1 Courier Trunk - Sinclair\n<2>[On Hit] Inflict +2 Rupture Count\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
+					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture Count with On Hit effects; instead inflicting 2 Defense Level Down (Once per Coin)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\n$ If this unit has less than 14 Courier Trunk - Sinclair, gain +1 Courier Trunk - Sinclair\n<2>[On Hit] Inflict +2 Rupture Count\n$ At 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -47498,7 +47504,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Courier Trunk - Demolition Gadget",
-					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] At 20- Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\nAt 14- Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\nAt 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
+					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead inflicting 2 Defense Level Down (Once per Coin)\n[On Use] If this unit has less than 20 Courier Trunk - Sinclair, gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Gain 1 Courier Trunk - Sinclair\n$ If this unit has less than 14 Courier Trunk - Sinclair, +2 Courier Trunk - Sinclair\n<2>[On Hit] Inflict 2 Rupture\n$ At 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count\n<3>[On Hit] Inflict 3 Rupture\n$ At 15+ Courier Trunk - Sinclair, inflict +1 Rupture Count",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 4,
@@ -47524,7 +47530,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Poludnitsa... I trust you!",
-					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead final Coin gains +2 Coin Power\n[On Use] If the target has 15+ Rupture, deal +3% damage for every Courier Trunk - Sinclair (Max 90%)\n<1>[On Hit] Inflict +1 Rupture Count\nInflict +1 Rupture Count for every 10 Courier Trunk - Sinclair (Max 2)\n<2>[On Hit] Inflict 3 Rupture\nInflict +1 Rupture for every 10 Courier Trunk - Sinclair (Max 2)\n<3>[On Hit] If final Coin Power was not raised, gain 1 Haste next turn",
+					"Description": "At 10+ Courier Trunk - Sinclair or 6+ Rupture on target, Coin Power +1\n[On Use] If the target has 15+ Rupture and 3+ Rupture Count, Skill does not inflict Rupture or Rupture Count On Hit; instead final Coin gains +2 Coin Power\n[On Use] If the target has 15+ Rupture, deal +3% damage for every Courier Trunk - Sinclair (Max 90%)\n<1>[On Hit] Inflict +1 Rupture Count\n$ Inflict +1 Rupture Count for every 10 Courier Trunk - Sinclair (Max 2)\n<2>[On Hit] Inflict 3 Rupture\n$ Inflict +1 Rupture for every 10 Courier Trunk - Sinclair (Max 2)\n<3>[On Hit] If final Coin Power was not raised, gain 1 Haste next turn",
 					"DamageType": "Blunt",
 					"SinType": "Wrath",
 					"BasePower": 5,
@@ -51394,7 +51400,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rip Dimension",
-					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +2\n[On Use] Consume 15 Charge Count to gain Coin Power +2\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 3 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
+					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7~14 Charge Count consume all Charge Count to gain Coin Power +2\n[On Use] Consume 15 Charge Count to gain Coin Power +2\n<1>[On Hit] Inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 3 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -51522,7 +51528,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Rip Dimension",
-					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7 ~ 14 Charge Count consume all Charge Count to gain Coin Power +1\n[On Use] Consume 15 Charge Count to gain Coin Power +1\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 2 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
+					"Description": "[Combat Start] To self and (Highest Reson) allies with Charge: apply Load equal to Charge on self (Max 5 other allies)\n[On Use] At 2+ Charge, and 7~14 Charge Count consume all Charge Count to gain Coin Power +1\n[On Use] Consume 15 Charge Count to gain Coin Power +1\n<2>[On Hit] Inflict 1 Rupture\n<3>[On Hit] Inflict 1 Rupture\n<4>[On Hit] If this Skill consumed 15 Charge Count On Use, inflict 2 Rupture\n[On Hit] Gain (5 - Charge) Charge Count (Min 0)",
 					"DamageType": "Slash",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -52564,7 +52570,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "The Vanguard will See it Done",
-					"Description": "If this unit has The Udjat [Vanguard], deal +50% damage\n[On Use] Gain +8 Aggro to this Skill Slot next turn\n[On Use] If the target has 6+ (Sinking + Tremor), Coin Power +1\n[On Use] Base Power +1 for every LCA Fracture Round to be spent by this Skill\n[After Attack] Gain 2 Protection next turn (Once per turn)\n[After Attack] At 2- LCA Fracture Round, Reload (5 times per Encounter)\n<1>Spend 2 LCA Fracture Round\nDeal +(LCA Fracture Round spent x 30)% damage\n[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Blue Sand next turn\n[On Hit] Inflict 1 Gloom Resist Down (Once per turn)\n<3>Spend 2 LCA Fracture Round\nDeal +(LCA Fracture Round spent x 30)% damage\n[On Hit] Inflict 2 Sinking\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has SP, trigger Tremor Burst; reduce target's Tremor Count by 1\nIf the target has 0- SP, inflict 1 Gloom Fragility (Once per turn)",
+					"Description": "If this unit has The Udjat [Vanguard], deal +50% damage\n[On Use] Gain +8 Aggro to this Skill Slot next turn\n[On Use] If the target has 6+ (Sinking + Tremor), Coin Power +1\n[On Use] Base Power +1 for every LCA Fracture Round to be spent by this Skill\n[After Attack] Gain 2 Protection next turn (Once per turn)\n[After Attack] At 2 or fewer LCA Fracture Round, Reload (5 times per Encounter)\n<1>Spend 2 LCA Fracture Round\nDeal +(LCA Fracture Round spent x 30)% damage\n[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Blue Sand next turn\n[On Hit] Inflict 1 Gloom Resist Down (Once per turn)\n<3>Spend 2 LCA Fracture Round\nDeal +(LCA Fracture Round spent x 30)% damage\n[On Hit] Inflict 2 Sinking\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has SP, trigger Tremor Burst; reduce target's Tremor Count by 1\nIf the target has 0 or less SP, inflict 1 Gloom Fragility (Once per turn)",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 6,
@@ -52715,7 +52721,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "The Vanguard will See it Done",
-					"Description": "[On Use] Gain +8 Aggro to this Skill Slot next turn\n[On Use] Base Power +1 for every LCA Fracture Round to be spent by this Skill\n[After Attack] Gain 2 Protection next turn (Once per turn)\n[After Attack] At 2- LCA Fracture Round, Reload (5 times per Encounter)\n<1>Spend 2 LCA Fracture Round\n[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Blue Sand next turn\n[On Hit] Inflict 1 Gloom Resist Down (Once per turn)\n<3>Spend 2 LCA Fracture Round\n[On Hit] Inflict 2 Sinking\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[On Use] Gain +8 Aggro to this Skill Slot next turn\n[On Use] Base Power +1 for every LCA Fracture Round to be spent by this Skill\n[After Attack] Gain 2 Protection next turn (Once per turn)\n[After Attack] At 2 or fewer LCA Fracture Round, Reload (5 times per Encounter)\n<1>Spend 2 LCA Fracture Round\n[On Hit] Inflict +2 Sinking Count\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 3 Blue Sand next turn\n[On Hit] Inflict 1 Gloom Resist Down (Once per turn)\n<3>Spend 2 LCA Fracture Round\n[On Hit] Inflict 2 Sinking\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 6,
@@ -53052,7 +53058,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -53436,7 +53442,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin] If the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nCannot trigger Skill Reuse, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (Max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (Max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -56894,7 +56900,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "Mercé",
-						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 4)\nDeal +1% damage for every 1% missing HP on enemy's (Core)\n$ If enemy's (Core) has 20%- HP, deal +120% damage instead\n[On Use] Gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Open Wound",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 4)\nDeal +1% damage for every 1% missing HP on enemy's (Core)\n$ If enemy's (Core) has less than 20% HP, deal +120% damage instead\n[On Use] Gain 1 Haste next turn (Once per turn)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Tremor\n[On Hit] Inflict 1 Open Wound",
 						"DamageType": "Pierce",
 						"SinType": "Sloth",
 						"BasePower": 4,
@@ -56922,7 +56928,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Stiletto Doppio",
-					"Description": "[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has 20%- HP, or has Fatal Wound, use 'Mercé'",
+					"Description": "[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has less than 20% HP, or has Fatal Wound, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -56950,7 +56956,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Execution",
-					"Description": "[Before Use] If the target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Tremor and +1 Tremor Count\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
+					"Description": "[Before Use] If the target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Tremor and +1 Tremor Count\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target is Staggered, has Fatal Wound, or (Core) has less than 20% HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -56980,7 +56986,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "The Night's Awl",
-						"Description": "Deal +15% damage for every (Haste on self + Bind on target) (Max 60%)\nIf the target has Shield, deal +30% damage (Core or Parts)\nDeal +1% damage for every 1% missing HP on enemy (Core)\n$ If enemy (Core) has 20%- HP, deal +100% damage instead\n[On Use] Inflict 5 Defense Level Down\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 3)\n[Clash Win] Inflict 4 Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +1 Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
+						"Description": "Deal +15% damage for every (Haste on self + Bind on target) (Max 60%)\nIf the target has Shield, deal +30% damage (Core or Parts)\nDeal +1% damage for every 1% missing HP on enemy (Core)\n$ If enemy (Core) has less than 20% HP, deal +100% damage instead\n[On Use] Inflict 5 Defense Level Down\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 3)\n[Clash Win] Inflict 4 Tremor and trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed and +1 Bleed Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +2 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 4,
@@ -57039,7 +57045,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Painless Mercy",
-						"Description": "Unless Reused via external effects, Night Awl Capitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
+						"Description": "Unless Reused via external effects, Night AwlsCapitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -57052,7 +57058,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Purge Enforcer of the Famiglie",
-					"Description": "When this unit kills an enemy or breaks a Part, gain 2 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 2 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on target (Once per turn)\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 2 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 2 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has less than 20% HP, use 'Mercé' on target (Once per turn)\n$ If there is only 1 surviving enemy after an attack, this Passive also activates when target is Staggered",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -57113,7 +57119,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "Mercé",
-						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 2)\nIf enemy's (Core) has 20%- HP, deal +80% damage\n[On Hit] Inflict 1 Open Wound",
+						"Description": "[Unclashable]\nSkill does not trigger Defense Skills or gain E.G.O resources\nCoin Power +1 for every 20% missing HP on enemy (Core) (Max 2)\nIf enemy's (Core) has less than 20% HP, deal +80% damage\n[On Hit] Inflict 1 Open Wound",
 						"DamageType": "Pierce",
 						"SinType": "Sloth",
 						"BasePower": 3,
@@ -57138,7 +57144,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Stiletto Doppio",
-					"Description": "[On Use] If the target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has 20%- HP, use 'Mercé'",
+					"Description": "[On Use] If the target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Inflict 1 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 1 Open Wound\n<3>[On Hit] If enemy's (Core) has less than 20% HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -57166,7 +57172,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Execution",
-					"Description": "[Before Use] If the target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] If the target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target is Staggered, has Fatal Wound, or (Core) has 20%- HP, use 'Mercé'",
+					"Description": "[Before Use] If the target has Deep Wound, activate 'The Night's Awl' instead (Once per turn)\n[On Use] If the target has 6+ (Bleed + Tremor), Coin Power +1\n[Clash Win] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<1>[On Hit] Inflict 2 Bleed\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict 1 Open Wound\n<4>[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target is Staggered, has Fatal Wound, or (Core) has less than 20% HP, use 'Mercé'",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -57195,7 +57201,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "The Night's Awl",
-						"Description": "Deal +10% damage for every (Haste on self + Bind on target) (Max 40%)\n$ If enemy (Core) has 20%- HP, deal +50% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +1 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
+						"Description": "Deal +10% damage for every (Haste on self + Bind on target) (Max 40%)\n$ If enemy (Core) has less than 20% HP, deal +50% damage\n[On Use] Coin Power +1 for every 4 (Bleed + Tremor) on target (Max 2)\n[Clash Win] Trigger Tremor Burst\n<1>[Unbreakable Coin]\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor and +1 Tremor Count\n<4>[Unbreakable Coin]\n[On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If the target has Bind, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Convert target's Deep Wound into Fatal Wound next turn",
 						"DamageType": "Pierce",
 						"SinType": "Pride",
 						"BasePower": 3,
@@ -57252,7 +57258,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Painless Mercy",
-						"Description": "Unless Reused via external effects, Night Awl Capitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
+						"Description": "Unless Reused via external effects, Night AwlsCapitano Gregor's Skill 'Mercé' can be used up to 2 times per turn",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -57265,7 +57271,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Purge Enforcer of the Famiglie",
-					"Description": "When this unit kills an enemy or breaks a Part, gain 1 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 1 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has 20%- HP, use 'Mercé' on target (Once per turn)",
+					"Description": "When this unit kills an enemy or breaks a Part, gain 1 Pierce Power Up next turn (Once per turn)\nWhen using a Base Attack Skill, if this unit's Speed is faster than target's, inflict Defense Power Down on target for every 2 Speed difference (Max 1 per turn)\nAfter ally Attack using Base Attack Skills, if the enemy's (Core) has less than 20% HP, use 'Mercé' on target (Once per turn)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -57327,7 +57333,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Intense Stare: Zero-Range",
-					"Description": "Coin Power +1 if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1-\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n[On Use] Gain 1 Bind next turn\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 3 Sinking",
+					"Description": "Coin Power +1 if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n[On Use] Gain 1 Bind next turn\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 3 Sinking",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 3,
@@ -57350,7 +57356,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Destroy the Visible with the Invisible",
-					"Description": "Clash Power +2 if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1-\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n<1>[On hit] Inflict +3 Sinking Count\nDeal (30% of this Coin's final damage) Blunt damage\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Deal (30% of this Coin's final damage) Blunt damage\n<3>[On Hit] Inflict 2 Burn\n<4>[On Hit] Inflict +2 Burn Count",
+					"Description": "Clash Power +2 if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n<1>[On hit] Inflict +3 Sinking Count\nDeal (30% of this Coin's final damage) Blunt damage\n<2>[On Hit] Inflict 2 Sinking\n[On Hit] Deal (30% of this Coin's final damage) Blunt damage\n<3>[On Hit] Inflict 2 Burn\n<4>[On Hit] Inflict +2 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 3,
@@ -57374,7 +57380,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Salvation for those Enchanted by the Lamp",
-					"Description": "Coin Power +1 and deal +40% damage if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1-\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n[On Use] If the target has Dazzle, convert all Coins on this Skill to Unbreakable Coins and Clash Power +3\n[After Attack] If the target is defeated or has 3 Dazzle, gain 1 Plus Coin Boost next turn (Once per turn)\n<1>[On Hit] Inflict +1 Burn Count\n[On Hit] Inflict +3 Sinking Count\n<2>[On Hit] Inflict 3 Burn\n[On Hit] Inflict 3 Sinking\n<3>If the target('s Core) has 25%- HP or has Dazzle, deal +60% damage\n[On Hit] If the target has Dazzle, deal Gloom damage equal to 80% of this Coin's final damage",
+					"Description": "Coin Power +1 and deal +40% damage if any conditions are met:\n$ Target's Speed is faster than this unit's by 3+\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n[On Use] If the target has 6+ (Sinking + Burn), Coin Power +1\n[On Use] If the target has Dazzle, convert all Coins on this Skill to Unbreakable Coins and Clash Power +3\n[After Attack] If the target is defeated or has 3 Dazzle, gain 1 Plus Coin Boost next turn (Once per turn)\n<1>[On Hit] Inflict +1 Burn Count\n[On Hit] Inflict +3 Sinking Count\n<2>[On Hit] Inflict 3 Burn\n[On Hit] Inflict 3 Sinking\n<3>If the target('s Core) has less than 25% HP or has Dazzle, deal +60% damage\n[On Hit] If the target has Dazzle, deal Gloom damage equal to 80% of this Coin's final damage",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 5,
@@ -57494,7 +57500,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Intense Stare: Zero-Range",
-					"Description": "Coin Power +1 if any conditions are met:\n$ Unit's speed is 1-\n$ Target has Dazzle\n[On Use] Gain 1 Bind next turn\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 2 Sinking",
+					"Description": "Coin Power +1 if any conditions are met:\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n[On Use] Gain 1 Bind next turn\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 2 Sinking",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 3,
@@ -57517,7 +57523,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Destroy the Visible with the Invisible",
-					"Description": "Clash Power +2 if any conditions are met:\n$ Unit's speed is 1-\n$ Target has Dazzle\n<1>[On hit] Inflict +2 Sinking Count\nDeal (30% of this Coin's final damage) Blunt damage\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Deal (30% of this Coin's final damage) Blunt damage\n<3>[On Hit] Inflict 2 Burn\n<4>[On Hit] Inflict +1 Burn Count",
+					"Description": "Clash Power +2 if any conditions are met:\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n<1>[On hit] Inflict +2 Sinking Count\nDeal (30% of this Coin's final damage) Blunt damage\n<2>[On Hit] Inflict 1 Sinking\n[On Hit] Deal (30% of this Coin's final damage) Blunt damage\n<3>[On Hit] Inflict 2 Burn\n<4>[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 3,
@@ -57541,7 +57547,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Salvation for those Enchanted by the Lamp",
-					"Description": "Coin Power +1 and deal +40% damage if any conditions are met:\n$ Unit's speed is 1-\n$ Target has Dazzle\n[On Use] If the target has Dazzle, convert all Coins on this Skill to Unbreakable Coins and Clash Power +3\n<1>[On Hit] Inflict +2 Sinking Count\n<2>[On Hit] Inflict 3 Burn\n[On Hit] Inflict 3 Sinking\n<3>If the target('s Core) has 25%- HP or has Dazzle, deal +60% damage\n[On Hit] If the target has Dazzle, deal Gloom damage equal to 80% of this Coin's final damage",
+					"Description": "Coin Power +1 and deal +40% damage if any conditions are met:\n$ Unit's speed is 1 or slower\n$ Target has Dazzle\n[On Use] If the target has Dazzle, convert all Coins on this Skill to Unbreakable Coins and Clash Power +3\n<1>[On Hit] Inflict +2 Sinking Count\n<2>[On Hit] Inflict 3 Burn\n[On Hit] Inflict 3 Sinking\n<3>If the target('s Core) has less than 25% HP or has Dazzle, deal +60% damage\n[On Hit] If the target has Dazzle, deal Gloom damage equal to 80% of this Coin's final damage",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 5,
@@ -57685,7 +57691,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Electric Release",
-					"Description": "[On Use] Deal +6% damage for every Charge on self (Max 30%)\n[On Use] At 3+/5+ Charge, Coin Power +1/+2\n[On Use] Clash Power +1 for every 5 Charge Count (Max 2)\n[On Use] At 9- Charge Count, gain +2 Charge Count\n<1>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture",
+					"Description": "[On Use] Deal +6% damage for every Charge on self (Max 30%)\n[On Use] At 3+/5+ Charge, Coin Power +1/+2\n[On Use] Clash Power +1 for every 5 Charge Count (Max 2)\n[On Use] At less than 10 Charge Count, gain +2 Charge Count\n<1>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture\n<2>[On Hit] Gain +2 Charge Count\n[On Hit] Inflict 1 Rupture",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -57838,7 +57844,7 @@
 					},
 					{
 						"Name": "Alternating Discharge Support",
-						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
+						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12 or less Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -58046,7 +58052,7 @@
 					},
 					{
 						"Name": "Alternating Discharge Support",
-						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12- Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
+						"Description": "Turn Start: If there are 3+ allies wearing E.G.O Gear including this unit, all relevant allies gain 1 Offense Level Up\nIf this unit has 12 or less Charge Count when consuming Charge Count due to AEDD Gregor's E.G.O Passive effect:\n$ On Heads Hit, instead of consuming 2 Charge Count, this unit consumes 4 Shield or HP to activate the E.G.O Passive effect\n$- This effect triggers only when this unit is at 25%+ HP",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
