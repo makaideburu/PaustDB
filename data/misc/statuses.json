@@ -1,75 +1,75 @@
 [
 	{
 		"Name": "Damage Up",
-		"Description": "Deal (Stack x 10)% more damage with skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with skills for one turn (max 100% at 10 Count)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Slash DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Slash skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Slash skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Up"
 		]
 	},
 	{
 		"Name": "Pierce DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Pierce skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Pierce skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Up"
 		]
 	},
 	{
 		"Name": "Blunt DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Blunt skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Blunt skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Up"
 		]
 	},
 	{
 		"Name": "Wrath DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Wrath skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Wrath skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Lust DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Lust skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Lust skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Sloth DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Sloth skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Sloth skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Gluttony DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Gluttony skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Gloom DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Gloom skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Gloom skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Pride DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Pride skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Pride skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
 	},
 	{
 		"Name": "Envy DMG Up",
-		"Description": "Deal (Stack x 10)% more damage with Envy skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with Envy skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Up"
 		]
@@ -162,150 +162,150 @@
 	},
 	{
 		"Name": "Protection",
-		"Description": "Take (Stack x 10)% less damage from skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from skills for one turn (max 100% at 10 Count)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Slash Protection",
-		"Description": "Take (Stack x 10)% less damage from Slash skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Slash skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Protection"
 		]
 	},
 	{
 		"Name": "Pierce Protection",
-		"Description": "Take (Stack x 10)% less damage from Pierce skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Pierce skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Protection"
 		]
 	},
 	{
 		"Name": "Blunt Protection",
-		"Description": "Take (Stack x 10)% less damage from Blunt skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Blunt skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Protection"
 		]
 	},
 	{
 		"Name": "Wrath Protection",
-		"Description": "Take (Stack x 10)% less damage from Wrath skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Wrath skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Lust Protection",
-		"Description": "Take (Stack x 10)% less damage from Lust skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Lust skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Sloth Protection",
-		"Description": "Take (Stack x 10)% less damage from Sloth skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Sloth skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Gluttony Protection",
-		"Description": "Take (Stack x 10)% less damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Gluttony skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Gloom Protection",
-		"Description": "Take (Stack x 10)% less damage from Gloom skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Gloom skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Pride Protection",
-		"Description": "Take (Stack x 10)% less damage from Pride skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Pride skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Envy Protection",
-		"Description": "Take (Stack x 10)% less damage from Envy skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% less damage from Envy skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Protection"
 		]
 	},
 	{
 		"Name": "Damage Down",
-		"Description": "Deal (Stack x 10)% less damage with skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with skills for one turn (max 100% at 10 Count)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Slash DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Slash skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Slash skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Down"
 		]
 	},
 	{
 		"Name": "Pierce DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Pierce skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Pierce skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Down"
 		]
 	},
 	{
 		"Name": "Blunt DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Blunt skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Blunt skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type DMG Down"
 		]
 	},
 	{
 		"Name": "Wrath DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Wrath skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Wrath skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Lust DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Lust skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Lust skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Sloth DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Sloth skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Sloth skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Gluttony DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Gluttony skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Gluttony skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Gloom DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Gloom skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Gloom skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Pride DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Pride skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Pride skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
 	},
 	{
 		"Name": "Envy DMG Down",
-		"Description": "Deal (Stack x 10)% less damage with Envy skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% less damage with Envy skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin DMG Down"
 		]
@@ -392,75 +392,75 @@
 	},
 	{
 		"Name": "Fragile",
-		"Description": "Take (Stack x 10)% more damage from skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from skills for one turn (max 100% at 10 Count)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Slash Fragility",
-		"Description": "Take (Stack x 10)% more damage from Slash skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Slash skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Fragility"
 		]
 	},
 	{
 		"Name": "Pierce Fragility",
-		"Description": "Take (Stack x 10)% more damage from Pierce skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Pierce skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Fragility"
 		]
 	},
 	{
 		"Name": "Blunt Fragility",
-		"Description": "Take (Stack x 10)% more damage from Blunt skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Blunt skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Type Fragility"
 		]
 	},
 	{
 		"Name": "Wrath Fragility",
-		"Description": "Take (Stack x 10)% more damage from Wrath skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Wrath skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Lust Fragility",
-		"Description": "Take (Stack x 10)% more damage from Lust skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Lust skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Sloth Fragility",
-		"Description": "Take (Stack x 10)% more damage from Sloth skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Sloth skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Gluttony Fragility",
-		"Description": "Take (Stack x 10)% more damage from Gluttony skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Gluttony skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Gloom Fragility",
-		"Description": "Take (Stack x 10)% more damage from Gloom skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Gloom skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Pride Fragility",
-		"Description": "Take (Stack x 10)% more damage from Pride skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Pride skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
 	},
 	{
 		"Name": "Envy Fragility",
-		"Description": "Take (Stack x 10)% more damage from Envy skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from Envy skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Sin Fragility"
 		]
@@ -587,12 +587,12 @@
 	},
 	{
 		"Name": "HP Healing Up",
-		"Description": "Increases HP Healing provided by Passive abilities, Skill or Coin effects. (Max 5)",
+		"Description": "Increases HP Healing provided by Passive abilities, Skill or Coin effects (max 5)",
 		"EffectTags": []
 	},
 	{
 		"Name": "HP Healing Down",
-		"Description": "Decreases HP Healing provided by Passive abilities, Skill or Coin effects. (Max 5)",
+		"Description": "Decreases HP Healing provided by Passive abilities, Skill or Coin effects (max 5)",
 		"EffectTags": []
 	},
 	{
@@ -670,7 +670,7 @@
 	},
 	{
 		"Name": "Unjust Enrichment",
-		"Description": "Gained on Heads Hit against target with Bleed (Max 4)\nWhen 'Bullets are Pricey' Passive activates, consume all Unjust Enrichment stack to deal bonus damage.",
+		"Description": "Gained on Heads Hit against target with Bleed (max 4)\nWhen 'Bullets are Pricey' Passive activates, consume all Unjust Enrichment stack to deal bonus damage.",
 		"EffectTags": []
 	},
 	{
@@ -700,7 +700,7 @@
 	},
 	{
 		"Name": "Sinking Deluge",
-		"Description": "Deal SP Damage by (Sinking Count x Sinking Potency), then remove all Sinking. If the target's SP is -45 or lower, excess SP damage is dealt as Gloom-affinity HP damage. (Units with no SP take the entirety as Gloom-affinity HP damage).",
+		"Description": "Deal SP Damage by (Sinking Count x Sinking Potency), then remove all Sinking. If the target's SP is -45 or lower, excess SP damage is dealt as Gloom-affinity HP damage (Units with no SP take the entirety as Gloom-affinity HP damage).",
 		"EffectTags": []
 	},
 	{
@@ -722,12 +722,17 @@
 	},
 	{
 		"Name": "Declared Duel",
-		"Description": "Declarer has +1 Clash Power and gains 1 Haste next turn after a successful attack (Max 4 times per turn) against inflicted unit. Expires when declarer inflicts this status on another target. Replaced when another unit declares a duel.",
+		"Description": "Declarer has +1 Clash Power and gains 1 Haste next turn after a successful attack (max 4 times per turn) against inflicted unit. Expires when declarer inflicts this status on another target. Replaced when another unit declares a duel.",
+		"EffectTags": []
+	},
+	{
+		"Name": "Single Combat",
+		"Description": "Established when the attacked Slot is targeted by a single unit, and only by that single unit. This condition is established only between the attacking unit and the attacked Slot. (Does not apply to reused Skills)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Nails",
-		"Description": "Unique Bleed.\nTurn Start: Gain 1 Bleed and increase Bleed Count by (Stack). Turn End: Halve the Count (Rounded down).",
+		"Description": "Unique Bleed.\nTurn Start: Gain 1 Bleed and increase Bleed Count by (Stack). Turn End: Halve the Count (rounded down).",
 		"EffectTags": [
 			"Unique Bleed"
 		]
@@ -756,7 +761,7 @@
 	},
 	{
 		"Name": "Vengeance Mark",
-		"Description": "Applied to the unit that dealt the most damage to an ally. (Max 1)",
+		"Description": "Applied to the unit that dealt the most damage to an ally (max 1)",
 		"EffectTags": []
 	},
 	{
@@ -815,7 +820,7 @@
 	},
 	{
 		"Name": "Insight",
-		"Description": "The rank of the last Skill Discarded by the unit with this effect. (Base Value: 1)",
+		"Description": "The rank of the last Skill Discarded by the unit with this effect (Base Value: 1)",
 		"EffectTags": []
 	},
 	{
@@ -863,7 +868,7 @@
 	},
 	{
 		"Name": "Swordplay of the Homeland",
-		"Description": "If this unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3/# of Coins)(Min 1) and +(30/# of Coins)% damage on Critical Hit\nIf this unit has 7+ Poise upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and +(50/# of Coins)% more damage on Critical Hit",
+		"Description": "If this unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3/# of Coins)(min 1) and +(30/# of Coins)% damage on Critical Hit\nIf this unit has 7+ Poise upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and +(50/# of Coins)% more damage on Critical Hit",
 		"EffectTags": [
 			"Plus Coin Power",
 			"Ally Damage Amp",
@@ -1066,7 +1071,7 @@
 	},
 	{
 		"Name": "Organization Compulsion (Low Morale)",
-		"Description": "Lose 5 SP on Clash Lose. Gain 1 Haste next turn when hit (Max 2)",
+		"Description": "Lose 5 SP on Clash Lose. Gain 1 Haste next turn when hit (max 2)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -1074,7 +1079,7 @@
 	},
 	{
 		"Name": "Organization Compulsion (Panic)",
-		"Description": "Gain 2 Fragile. Gain 2 Haste next turn when hit (Max 3)",
+		"Description": "Gain 2 Fragile. Gain 2 Haste next turn when hit (max 3)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -1169,12 +1174,12 @@
 	},
 	{
 		"Name": "Volatile Passion",
-		"Description": "On Hit, inflict 1 Burn\nIf the main target has Burn, +1 Final Power\nWhen hit, if this unit had a Defense Skill chained at Combat Start, inflict Burn against the attacker for the turn\nTurn End: Lose (# of turns spent in Volatile E.G.O state x 5) SP. (Max SP loss: 40)",
+		"Description": "On Hit, inflict 1 Burn\nIf the main target has Burn, +1 Final Power\nWhen hit, if this unit had a Defense Skill chained at Combat Start, inflict Burn against the attacker for the turn\nTurn End: Lose (# of turns spent in Volatile E.G.O state x 5) SP (max SP loss: 40)",
 		"EffectTags": []
 	},
 	{
 		"Name": "Blubberbubble",
-		"Description": "This effect counts as a 'Shield Management' effect.\nTurn End: Reduce Count by 1.\nThis unit does not lose Shield at Turn End as long as it has the Blubberbubble effect (Unless depleted by damage or effect).\nIf the Shield affected by Blubberbubble breaks due to taking damage, inflict 4 Sinking Potency/Count against the attacker (randomly split between Potency and Count).\nThis unit can stack its Shield value by using this effect. However, as long as Blubberbubble is in effect, the max Shield cannot exceed 60% of this unit's Max HP.",
+		"Description": "This effect counts as a 'Shield Management' effect.\nTurn End: Reduce Count by 1.\nThis unit does not lose Shield at Turn End as long as it has the Blubberbubble effect (unless depleted by damage or effect).\nIf the Shield affected by Blubberbubble breaks due to taking damage, inflict 4 Sinking Potency/Count against the attacker (randomly split between Potency and Count).\nThis unit can stack its Shield value by using this effect. However, as long as Blubberbubble is in effect, the max Shield cannot exceed 60% of this unit's Max HP.",
 		"EffectTags": [
 			"Shield Management"
 		]
@@ -1195,7 +1200,7 @@
 	},
 	{
 		"Name": "Tremor - Everlasting",
-		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (Max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -1217,14 +1222,14 @@
 	},
 	{
 		"Name": "Tremor - Chain",
-		"Description": "Lose 1 Clash Power for every 10 Tremor on self (Max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Lose 1 Clash Power for every 10 Tremor on self (max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
 	},
 	{
 		"Name": "Broken Unity (Low Morale)",
-		"Description": "Gain 1 Fragile. Gain +1 Tremor Count when hit. (3 times max)",
+		"Description": "Gain 1 Fragile. Gain +1 Tremor Count when hit (3 times max)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -1232,7 +1237,7 @@
 	},
 	{
 		"Name": "Broken Unity (Panic)",
-		"Description": "Gain 2 Fragile. Gain +2 Tremor Count when hit. (3 times max)",
+		"Description": "Gain 2 Fragile. Gain +2 Tremor Count when hit (3 times max)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -1240,7 +1245,7 @@
 	},
 	{
 		"Name": "Erudition",
-		"Description": "Max Value: 6\nWhen Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\nIf this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (Once per turn)\nReduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\nExpires when Staggered",
+		"Description": "Max Value: 6\nWhen Discarding a Skill, gain (Erudition x 1.5)% of this unit's Max HP as Shield\nIf this unit Discards a Skill at 2+ Insight, gain 1 Clash Power (once per turn)\nReduced by 1 when taking HP damage after getting hit by an enemy's Attack Skill\nExpires when Staggered",
 		"EffectTags": [
 			"Shield",
 			"Clash Power Up"
@@ -1264,7 +1269,7 @@
 	},
 	{
 		"Name": "Load",
-		"Description": "Max Value: 6\nAttack Skills that consumed Charge Count deal +2.5% damage for every value on self (Max 15%)\nIf the affected ally is a W Corp. employee, deal +5% damage for every value instead (Max 30%)\nTurn End: This effect expires",
+		"Description": "Max Value: 6\nAttack Skills that consumed Charge Count deal +2.5% damage for every value on self (max 15%)\nIf the affected ally is a W Corp. employee, deal +5% damage for every value instead (max 30%)\nTurn End: This effect expires",
 		"EffectTags": []
 	},
 	{
@@ -1274,7 +1279,7 @@
 	},
 	{
 		"Name": "Photoelectricity",
-		"Description": "Max Value: 3\nWhen this unit is hit, the Attacker gains Charge Count equal to the value (Once per Skill)\nIf the Attacker has 5- Charge Count, gain +3 additional Charge Count\nTurn End: This effect expires",
+		"Description": "Max Value: 3\nWhen this unit is hit, the Attacker gains Charge Count equal to the value (once per Skill)\nIf the Attacker has 5- Charge Count, gain +3 additional Charge Count\nTurn End: This effect expires",
 		"EffectTags": [
 			"Charge Potency",
 			"Charge Support"
@@ -1282,7 +1287,7 @@
 	},
 	{
 		"Name": "Coffin",
-		"Description": "Max Value: 10\nAt Turn End:\n$ Gain 2 Damage Up next turn for every 3 Value (Max 6)\n$ Raise minimum Speed by 1 for every 4 value next turn (Max 2)\n$ Gain 1 Clash Power Up for every 5 value next turn (Max 2)",
+		"Description": "Max Value: 10\nAt Turn End:\n$ Gain 2 Damage Up next turn for every 3 Value (max 6)\n$ Raise minimum Speed by 1 for every 4 value next turn (max 2)\n$ Gain 1 Clash Power Up for every 5 value next turn (max 2)",
 		"EffectTags": [
 			"Damage Up",
 			"Min Speed",
@@ -1300,7 +1305,7 @@
 	},
 	{
 		"Name": "Dullahan",
-		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (At -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 - (Coffin / 2)) SP (Min 10)",
+		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (At -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 - (Coffin / 2)) SP (min 10)",
 		"EffectTags": [
 			"Self Defense Level Down",
 			"Offense Level Up",
@@ -1367,7 +1372,7 @@
 	},
 	{
 		"Name": "Only Ashes Remain",
-		"Description": "Cannot hold Red Eyes & Penitence\nWhen gaining Red Eyes with Base Skill effects, heal self and 1 ally with the lowest HP percentage by (Red Eyes gained)% of this unit's Max HP (Max 2 times per turn)\nWhen gaining Penitence with Base Skill effects, heal self and 1 ally with the least SP by (Penitence gained / 2) SP (2 times per turn)\nTurn End: This effect expires",
+		"Description": "Cannot hold Red Eyes & Penitence\nWhen gaining Red Eyes with Base Skill effects, heal self and 1 ally with the lowest HP percentage by (Red Eyes gained)% of this unit's Max HP (max 2 times per turn)\nWhen gaining Penitence with Base Skill effects, heal self and 1 ally with the least SP by (Penitence gained / 2) SP (2 times per turn)\nTurn End: This effect expires",
 		"EffectTags": [
 			"Status Block",
 			"Heal HP",
@@ -1385,7 +1390,7 @@
 	},
 	{
 		"Name": "Butterfly",
-		"Description": "Unique Sinking\nBase Value: 0; Max Value: 15\nThe Potency and Count of this effect are called 'The Living' and 'The Departed' respectively\nWhen hit, the attacker heals (The Living / 4) SP (Min 1; rounded down)\nWhen hit, and if this unit's SP is less than 0, take (Sinking Potency / 5) Gloom damage for every value of The Departed. (Max 30; rounded down. Deals half damage to targets without SP)\nTurn End: Reset The Departed to 0; gain Sinking equal to The Living and convert The Living to The Departed\nNo external effects can raise the amount of Butterfly inflicted. 'Inflict additional Sinking' effects inflict additional Sinking instead of inflicting additional Butterfly\nThis effect expires when both The Living and The Departed reach 0",
+		"Description": "Unique Sinking\nBase Value: 0; Max Value: 15\nThe Potency and Count of this effect are called 'The Living' and 'The Departed' respectively\nWhen hit, the attacker heals (The Living / 4) SP (min 1; rounded down)\nWhen hit, and if this unit's SP is less than 0, take (Sinking Potency / 5) Gloom damage for every value of The Departed (max 30; rounded down. Deals half damage to targets without SP)\nTurn End: Reset The Departed to 0; gain Sinking equal to The Living and convert The Living to The Departed\nNo external effects can raise the amount of Butterfly inflicted. 'Inflict additional Sinking' effects inflict additional Sinking instead of inflicting additional Butterfly\nThis effect expires when both The Living and The Departed reach 0",
 		"EffectTags": [
 			"Unique Sinking",
 			"Heal SP",
@@ -1421,7 +1426,7 @@
 	},
 	{
 		"Name": "The Uninvited",
-		"Description": "Max Value: 2\nUpon death, the last attacker heals 3 SP; then, a random ally without this effect gains 2 Stacks of this effect.\nTake +0.5% damage for every Sinking on self (Max 10%; for Focused Encounters, each part separately)\nTurn End: Reduced by 1",
+		"Description": "Max Value: 2\nUpon death, the last attacker heals 3 SP; then, a random ally without this effect gains 2 Stacks of this effect.\nTake +0.5% damage for every Sinking on self (max 10%; for Focused Encounters, each part separately)\nTurn End: Reduced by 1",
 		"EffectTags": [
 			"Ally Heal SP",
 			"Heal SP"
@@ -1461,12 +1466,12 @@
 	},
 	{
 		"Name": "Sewing Target",
-		"Description": "Max Value: 1\nTake +0.5% damage for every Bleed on self (Max 10%)\nTurn End: reduced by 1",
+		"Description": "Max Value: 1\nTake +0.5% damage for every Bleed on self (max 10%)\nTurn End: reduced by 1",
 		"EffectTags": []
 	},
 	{
 		"Name": "Lasso",
-		"Description": "Max Value: 3\nTurn End: Gain Rupture equal to this unit's current Speed (Max 5), and gain 1 Bind next turn\nTurn End: reduced by 1",
+		"Description": "Max Value: 3\nTurn End: Gain Rupture equal to this unit's current Speed (max 5), and gain 1 Bind next turn\nTurn End: reduced by 1",
 		"EffectTags": [
 			"Rupture Potency",
 			"Bind"
@@ -1474,12 +1479,12 @@
 	},
 	{
 		"Name": "Polydipsic Rose",
-		"Description": "Max Value: 5\nTurn End: At 10+ Bleed Potency, take Lust damage equal to 1% of this unit's Max HP (Max 30)\nTurn End: Reduced by 1",
+		"Description": "Max Value: 5\nTurn End: At 10+ Bleed Potency, take Lust damage equal to 1% of this unit's Max HP (max 30)\nTurn End: Reduced by 1",
 		"EffectTags": []
 	},
 	{
 		"Name": "Rose Wedge",
-		"Description": "Max Potency: 10\nMax Count: 4\nGain 1 Potency every time this unit takes 10 Bleed damage\nWhen gaining Bleed or Unique Bleed from getting Hit, gain 2 Bleed and inflict 1 Bleed against the Attacker (5 times per turn)\nAt 10 Potency, gain +1 Bleed Count as well when triggering the above effect\nTurn End: Lose 1 Count\nCombat End: At 10 Potency or 1 Count, this effect expires, and this unit takes (Potency x 10) Lust damage\nIf the unit inflicted with this effect dies, or when this effect expires: Increase Bloodfeast by (Potency x 10), and deal (Potency x 2) Lust damage against all its allies (Min 1)",
+		"Description": "Max Potency: 10\nMax Count: 4\nGain 1 Potency every time this unit takes 10 Bleed damage\nWhen gaining Bleed or Unique Bleed from getting Hit, gain 2 Bleed and inflict 1 Bleed against the Attacker (5 times per turn)\nAt 10 Potency, gain +1 Bleed Count as well when triggering the above effect\nTurn End: Lose 1 Count\nCombat End: At 10 Potency or 1 Count, this effect expires, and this unit takes (Potency x 10) Lust damage\nIf the unit inflicted with this effect dies, or when this effect expires: Increase Bloodfeast by (Potency x 10), and deal (Potency x 2) Lust damage against all its allies (min 1)",
 		"EffectTags": [
 			"Bleed Potency",
 			"Bleed Count",
@@ -1488,7 +1493,7 @@
 	},
 	{
 		"Name": "Ailing Heart",
-		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt less than 50% HP, gain 1 Defense Level Up for every 3 Stack\nAt less than 40% HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (Min 1; rounded down; heal up to 30 HP per Skill)",
+		"Description": "Max Value: 10\nTurn End: Gain 1 Stack\nTurn Start: Gain 1 Defense Level Up for every 3 Stack\nAt less than 50% HP, gain 1 Defense Level Up for every 3 Stack\nAt less than 40% HP, On Hit with Base Skills, heal (Stack x 5)% of damage dealt On Hit as HP (min 1; rounded down; heal up to 30 HP per Skill)",
 		"EffectTags": [
 			"Defense Level Up",
 			"Heal HP"
@@ -1585,7 +1590,7 @@
 	},
 	{
 		"Name": "Blooming Thorn",
-		"Description": "Max Value: 10\nGain 1 Defense Level Up for every 2 Stack (Max 5)\nWhen hit, inflict 1 Bleed against attacker and lose 1 Stack\n\nThe Princess of La Manchaland Rodion Only:\nAt max Stack, convert into the next Stage effect\nInflict +(Stage - 1) more Bleed and Rupture with Base Attack Skills On Hit",
+		"Description": "Max Value: 10\nGain 1 Defense Level Up for every 2 Stack (max 5)\nWhen hit, inflict 1 Bleed against attacker and lose 1 Stack\n\nThe Princess of La Manchaland Rodion Only:\nAt max Stack, convert into the next Stage effect\nInflict +(Stage - 1) more Bleed and Rupture with Base Attack Skills On Hit",
 		"EffectTags": [
 			"Defense Level Up",
 			"Bleed Potency",
@@ -1706,7 +1711,7 @@
 	},
 	{
 		"Name": "The First Magic Bullet",
-		"Description": "Deal +20% damage\nRaise target's Stagger Threshold by damage dealt (Max 30)",
+		"Description": "Deal +20% damage\nRaise target's Stagger Threshold by damage dealt (max 30)",
 		"EffectTags": [
 			"The Magic Bullet",
 			"Raise Stagger Threshold"
@@ -1714,7 +1719,7 @@
 	},
 	{
 		"Name": "The Second Magic Bullet",
-		"Description": "Deal +10% damage\nDeal damage to targets other than main target (Max 4); main target takes 0 damage\nOn Hit, inflict 3 Paralyze",
+		"Description": "Deal +10% damage\nDeal damage to targets other than main target (max 4); main target takes 0 damage\nOn Hit, inflict 3 Paralyze",
 		"EffectTags": [
 			"The Magic Bullet",
 			"Paralyze"
@@ -1732,7 +1737,7 @@
 	},
 	{
 		"Name": "The Fourth Magic Bullet",
-		"Description": "Deal +30% damage\nBefore Attack: Gain +3 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 20); inflict 3 Fragile next turn",
+		"Description": "Deal +30% damage\nBefore Attack: Gain +3 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (max 20); inflict 3 Fragile next turn",
 		"EffectTags": [
 			"The Magic Bullet",
 			"Attack Weight Increase",
@@ -1753,7 +1758,7 @@
 	},
 	{
 		"Name": "The Sixth Magic Bullet",
-		"Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (Max 30)\nReuse Coin for every 7 Burn on the main target (Max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\nMinus Coin Skill Base Power -22\nMinus Coin Power -12",
+		"Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (max 30)\nReuse Coin for every 7 Burn on the main target (max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\nMinus Coin Skill Base Power -22\nMinus Coin Power -12",
 		"EffectTags": [
 			"The Magic Bullet",
 			"Attack Weight Increase",
@@ -1762,7 +1767,7 @@
 	},
 	{
 		"Name": "The Seventh Magic Bullet",
-		"Description": "Deal +200% damage\nDeal +2.5% damage for every 1% missing HP on target (Max 200%)\nBefore Attack: For this attack, if Pierce Res on self or target are less than x2.0, change Pierce Damage Res on both target and self to x2.0\nAfter Attack: This unit dies",
+		"Description": "Deal +200% damage\nDeal +2.5% damage for every 1% missing HP on target (max 200%)\nBefore Attack: For this attack, if Pierce Res on self or target are less than x2.0, change Pierce Damage Res on both target and self to x2.0\nAfter Attack: This unit dies",
 		"EffectTags": [
 			"The Magic Bullet",
 			"Pierce Resist Down",
@@ -1802,7 +1807,7 @@
 	},
 	{
 		"Name": "Nebulizer ß",
-		"Description": "Max Stack: 5\nThis effect lasts for the duration of the Encounter\nWhen activating Pride A-Res, (Stack) allies gain 3 Poise and +3 Poise Count at Combat Start (Prioritizes allies that gain or use Poise or Poise Count; among them, prioritizes allies with the least Poise)",
+		"Description": "Max Stack: 5\nThis effect lasts for the duration of the Encounter\nWhen activating Pride A-Res, (Stack) allies gain 3 Poise and +3 Poise Count at Combat Start (prioritizes allies that gain or use Poise or Poise Count; among them, prioritizes allies with the least Poise)",
 		"EffectTags": [
 			"Ally Poise Potency",
 			"Ally Poise Count"
@@ -1938,7 +1943,7 @@
 	},
 	{
 		"Name": "Book of Vengeance",
-		"Description": "Max Stack: 30\nDeal +(Stack)% damage (Max 30%)\nGain the following effects next turn based on Stack:\nAt 10+ Stack: Gain 1 Blunt DMG Up\nAt 20+ Stack: Gain Max Speed +1 and 1 Power Up\nAt 30 Stack: Gain 2 Blunt DMG Up",
+		"Description": "Max Stack: 30\nDeal +(Stack)% damage (max 30%)\nGain the following effects next turn based on Stack:\nAt 10+ Stack: Gain 1 Blunt DMG Up\nAt 20+ Stack: Gain Max Speed +1 and 1 Power Up\nAt 30 Stack: Gain 2 Blunt DMG Up",
 		"EffectTags": [
 			"Blunt Damage Up",
 			"Max Speed",
@@ -1947,7 +1952,7 @@
 	},
 	{
 		"Name": "Vendetta Mark",
-		"Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (Max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
+		"Description": "Max Stack: 10\nConsumed by certain Skills or Passives\nTake +2% damage from The Middle enemies for every Stack (max 20%)\nTurn End: The unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
 		"EffectTags": [
 			"Ally Damage Amp",
 			"Sibling Vengeance Mark"
@@ -1962,7 +1967,7 @@
 	},
 	{
 		"Name": "Searing Birdcage",
-		"Description": "Max Stack: 5\nIf this unit has Burn, weaken Wrath Resist by 0.1 for every Stack (Does not weaken past 2.0)\nTurn End: Gain Bind equal to Stack next turn\nTurn End: Halve stack\nCannot gain additional Stacks of this effect while it is already active",
+		"Description": "Max Stack: 5\nIf this unit has Burn, weaken Wrath Resist by 0.1 for every Stack (does not weaken past 2.0)\nTurn End: Gain Bind equal to Stack next turn\nTurn End: Halve stack\nCannot gain additional Stacks of this effect while it is already active",
 		"EffectTags": [
 			"Wrath Resist Down",
 			"Bind"
@@ -2018,7 +2023,7 @@
 	},
 	{
 		"Name": "Twisted Curse Talisman",
-		"Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (Once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (Max 2)\nCannot gain additional Stacks of this effect while it is already active",
+		"Description": "Max Stack: 10\nExpires at Turn End\nAt 10+ Stack, when taking 30+ damage from a Skill: Gain +1 Rupture Count; take Gluttony damage equal to Rupture on self (once per turn)\nWhen this effect expires, gain (Stack / 4) Attack Power Down next turn (max 2)\nCannot gain additional Stacks of this effect while it is already active",
 		"EffectTags": [
 			"Rupture Count",
 			"Attack Power Down"
@@ -2026,7 +2031,7 @@
 	},
 	{
 		"Name": "Centipede Venom",
-		"Description": "Max Stack: 20\nTurn End: Gain (Stack / 4) Defense Level Down next turn (Rounded down)\nTurn End: Take Gluttony damage equal to Stack, and halve the Stack (Rounded down)\nUpon death, transfers to this unit's ally (For Focused Encounters, a different Part) with none or the least Centipede Venom Stacks.",
+		"Description": "Max Stack: 20\nTurn End: Gain (Stack / 4) Defense Level Down next turn (rounded down)\nTurn End: Take Gluttony damage equal to Stack, and halve the Stack (rounded down)\nUpon death, transfers to this unit's ally (for Focused Encounters, a different Part) with none or the least Centipede Venom Stacks.",
 		"EffectTags": [
 			"Defense Level Down"
 		]
@@ -2209,7 +2214,7 @@
 	},
 	{
 		"Name": "Flower-burying Wedge [埋花櫼]",
-		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (Once per Encounter)\nTurn End: Gain 1 Stack\nCannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End [終]' at Turn End. Remove Flower-burying Wedge [埋花櫼] when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End [終]' next turn based on this unit's Speed.",
+		"Description": "Base Stack: 0\nMax Stack: 3\nAll Coins on this unit's leftmost Base Attack Skill on the Dashboard become Unbreakable Coins\nTurn Start: Gain 2 Offense Level Up and 2 Defense Level Down for every Stack\nAt 3+ Stack, gain 1 Tarnished Blood (once per Encounter)\nTurn End: Gain 1 Stack\nCannot raise the effect's Stack by any other means than the ones above\nExpires on death or Retreat\n\nWhen this unit takes damage that brings their HP to 0: HP does not drop below 1, do not become Staggered or Defeated, and use 'Tears of the Tarnished Blood - The End [終]' at Turn End. Remove Flower-burying Wedge [埋花櫼] when the Skill ends.\nIf this unit takes fatal damage at Turn End, use 'Tears of the Tarnished Blood - The End [終]' next turn based on this unit's Speed.",
 		"EffectTags": [
 			"Offense Level Up",
 			"Defense Level Down",
@@ -2301,7 +2306,7 @@
 	},
 	{
 		"Name": "Beastly Instinct (Low Morale)",
-		"Description": "Deals +(HP percentage difference / 2)% damage to targets with higher HP percentages than this unit's (Max 10%)\nTurn Start: Gain 1 Attack Power Up, 1 Damage Up, and 1 Fragile",
+		"Description": "Deals +(HP percentage difference / 2)% damage to targets with higher HP percentages than this unit's (max 10%)\nTurn Start: Gain 1 Attack Power Up, 1 Damage Up, and 1 Fragile",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -2309,7 +2314,7 @@
 	},
 	{
 		"Name": "Beastly Instinct (Panic)",
-		"Description": "Deals +(HP percentage difference)% damage to targets with higher HP percentages than this unit's (Max 25%)\nTurn Start: Gain 1 Plus Coin Boost, 2 Damage Up, and 2 Fragile",
+		"Description": "Deals +(HP percentage difference)% damage to targets with higher HP percentages than this unit's (max 25%)\nTurn Start: Gain 1 Plus Coin Boost, 2 Damage Up, and 2 Fragile",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -2365,7 +2370,7 @@
 	},
 	{
 		"Name": "Inherited Will of Hongyuan (Low Morale)",
-		"Description": "All Parts gain 2 Attack Power Up and 1 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 1 Damage Up and 1 Fragile next turn (Once per turn)",
+		"Description": "All Parts gain 2 Attack Power Up and 1 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 1 Damage Up and 1 Fragile next turn (once per turn)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -2373,7 +2378,7 @@
 	},
 	{
 		"Name": "Inherited Will of Hongyuan (Panic)",
-		"Description": "All Parts gain 2 Attack Power Up and 2 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 2 Damage Up and 2 Fragile next turn (Once per turn)",
+		"Description": "All Parts gain 2 Attack Power Up and 2 Bind\nWhen the Body Part loses a Clash against Hong Lu: The Body Part gains 2 Damage Up and 2 Fragile next turn (once per turn)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -2425,7 +2430,7 @@
 	},
 	{
 		"Name": "Tiantui Star [天退星]",
-		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (Max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
+		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -2435,7 +2440,7 @@
 	},
 	{
 		"Name": "Shin (心) - Tiantui Star [天退星]",
-		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (Max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
+		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -2445,7 +2450,7 @@
 	},
 	{
 		"Name": "Overheat",
-		"Description": "Lose this effect when gaining Savage Tigermark Round\nMin and max Speed +2\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / 2) Clash Power (Max 10), but gain the following based on rounds spent:\n8+: Gain 1 Protection for every 10% missing HP on self at Turn Start (Max 5)\n14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (Max 150%)\n20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (Max 50%; except E.G.O Skills)",
+		"Description": "Lose this effect when gaining Savage Tigermark Round\nMin and max Speed +2\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / 2) Clash Power (max 10), but gain the following based on rounds spent:\n8+: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -2471,7 +2476,7 @@
 	},
 	{
 		"Name": "Near-light Superbattery",
-		"Description": "Max Stack: 100\nWhen consuming Charge Count, add the amount consumed to this buff's Stack\nMax Charge Count Cap +10\nGain 1 Charge Count when allies gain Charge or Charge Count\nWhen this unit consumes Charge Count with its Skills consume the same amount of Charge Count 1 more time (When there isn't enough available, consume as much as is available)\nDeal +10% damage for every 10 Stack\nEnemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (Max +0.5 Resist; does not activate against Staggered enemies)\nWhen the Identity with this effect dies, the buff and its Stack transfers to next Deployed ally.",
+		"Description": "Max Stack: 100\nWhen consuming Charge Count, add the amount consumed to this buff's Stack\nMax Charge Count Cap +10\nGain 1 Charge Count when allies gain Charge or Charge Count\nWhen this unit consumes Charge Count with its Skills consume the same amount of Charge Count 1 more time (when there isn't enough available, consume as much as is available)\nDeal +10% damage for every 10 Stack\nEnemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (max +0.5 Resist; does not activate against Staggered enemies)\nWhen the Identity with this effect dies, the buff and its Stack transfers to next Deployed ally.",
 		"EffectTags": [
 			"Charge Count Limit Increase",
 			"Damage Amp",
@@ -2480,14 +2485,14 @@
 	},
 	{
 		"Name": "Reflux",
-		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (For units without SP, at 60+ Sinking):\n$ Take (Sinking x Stack) Gloom damage\n$ Inflict 1 Reflux against 2 other targets with the least SP (For Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
+		"Description": "Max Stack: 3\nWhen hit, gain Sinking equal to Stack\nTurn End: If this unit has -30 or less SP (for units without SP, at 60+ Sinking):\n$ Take (Sinking x Stack) Gloom damage\n$ Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then deal (Sinking x Stack) Gloom damage to both targets, respectively",
 		"EffectTags": [
 			"Sinking Potency"
 		]
 	},
 	{
 		"Name": "Gluttonous Thorn",
-		"Description": "Max Stack: 9\nTurn End: Gain Bleed Count equal to Lust Res, then lose 1 Gluttonous Thorn (Max Bleed Count gain: 5)\nWhile this unit has this effect, if it gains Bleed beyond 99, increase Bloodfeast equal to the excess Bleed; then, gain Defense Level Down next turn equal to the Bloodfeast increased (Max Defense Level Down: 9)",
+		"Description": "Max Stack: 9\nTurn End: Gain Bleed Count equal to Lust Res, then lose 1 Gluttonous Thorn (max Bleed Count gain: 5)\nWhile this unit has this effect, if it gains Bleed beyond 99, increase Bloodfeast equal to the excess Bleed; then, gain Defense Level Down next turn equal to the Bloodfeast increased (max Defense Level Down: 9)",
 		"EffectTags": [
 			"Bleed Count",
 			"Bloodfeast",
@@ -2496,7 +2501,7 @@
 	},
 	{
 		"Name": "Here Comes Magical Girl!",
-		"Description": "For this turn, this unit uses Plus Coin Attack Skills\nBase Attack Skills deal +3% damage for every Love/Hate on self (Max 15%)",
+		"Description": "For this turn, this unit uses Plus Coin Attack Skills\nBase Attack Skills deal +3% damage for every Love/Hate on self (max 15%)",
 		"EffectTags": []
 	},
 	{
@@ -2529,7 +2534,7 @@
 	},
 	{
 		"Name": "Blessing",
-		"Description": "Turn Start: Gain 1 Protecting Sword for every 8 SP (Max 5)\nWhen Clash ends, inflict 2 Sinking (Once per turn)\nWhen hit, inflict 2 Sinking on the attacker (Once per turn)\nFor every 20 SP, inflict +1 Sinking with above effects (Max 2)\nReplace this unit's Base Skills with Plus Coin Skills",
+		"Description": "Turn Start: Gain 1 Protecting Sword for every 8 SP (max 5)\nWhen Clash ends, inflict 2 Sinking (once per turn)\nWhen hit, inflict 2 Sinking on the attacker (once per turn)\nFor every 20 SP, inflict +1 Sinking with above effects (max 2)\nReplace this unit's Base Skills with Plus Coin Skills",
 		"EffectTags": [
 			"Protecting Sword",
 			"Sinking Potency"
@@ -2545,7 +2550,7 @@
 	},
 	{
 		"Name": "Despair",
-		"Description": "Turn Start: Gain Piercing Sword for every -8 SP (Max 5)\nWhen Clash ends, inflict +1 Sinking Count (Once per turn)\nOn Hit with the first Coin of a Base Attack Skill, inflict +1 Sinking Count\nFor every -20 SP, inflict +1 Sinking Count with above effects (Max 2)\nReplace this unit's Base Attack Skills with Minus Coin Skills",
+		"Description": "Turn Start: Gain Piercing Sword for every -8 SP (max 5)\nWhen Clash ends, inflict +1 Sinking Count (once per turn)\nOn Hit with the first Coin of a Base Attack Skill, inflict +1 Sinking Count\nFor every -20 SP, inflict +1 Sinking Count with above effects (max 2)\nReplace this unit's Base Attack Skills with Minus Coin Skills",
 		"EffectTags": [
 			"Piercing Sword",
 			"Sinking Count"
@@ -2553,7 +2558,7 @@
 	},
 	{
 		"Name": "Piercing Sword",
-		"Description": "Max Stack: 5\nTurn Start: Gain 1 Offense Level Up for every Stack\nTurn Start: -(Stack x 0.15) Aggro to this unit's Skill Slots on the Dashboard (Max -0.75)\nExpires at Turn End",
+		"Description": "Max Stack: 5\nTurn Start: Gain 1 Offense Level Up for every Stack\nTurn Start: -(Stack x 0.15) Aggro to this unit's Skill Slots on the Dashboard (max -0.75)\nExpires at Turn End",
 		"EffectTags": [
 			"Offense Level Up",
 			"Aggro Down"
@@ -2587,7 +2592,7 @@
 	},
 	{
 		"Name": "Violent Collections",
-		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf this unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (Max 15%)",
+		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf this unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (max 15%)",
 		"EffectTags": [
 		]
 	},
@@ -2601,7 +2606,7 @@
 	},
 	{
 		"Name": "Blessing",
-		"Description": "Turn Start: Gain 2 Protection\nAdjust any Attack Type Resistances exceeding 1 to 1 (Unless Staggered)",
+		"Description": "Turn Start: Gain 2 Protection\nAdjust any Attack Type Resistances exceeding 1 to 1 (unless Staggered)",
 		"EffectTags": [
 			"Protection",
 			"Resistance Up"
@@ -2614,7 +2619,7 @@
 	},
 	{
 		"Name": "Tremor - Distribution",
-		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (Max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor",
 			"Offense Level Up"
@@ -2640,7 +2645,7 @@
 	},
 	{
 		"Name": "Exalted Command",
-		"Description": "If this unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End. (Does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if this unit B's Skill 3 is not unlocked",
+		"Description": "If this unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Base Skill 3 against the same enemy unit A attacked with its Skill. Activates at unit A's Attack End (does not activate as Empowered Skills)\nThe Skill used as an Assist Attack does not affect unit B's upcoming Skills\nDoes not activate if this unit B's Skill 3 is not unlocked",
 		"EffectTags": [
 			"Ally Follow Up"
 		]
@@ -2669,7 +2674,7 @@
 	},
 	{
 		"Name": "Leash-holder of All Heishou",
-		"Description": "Max Stack: 11\nGain the following based on Stack:\nFor every Stack, gain 1 Max Speed (Max 5) and deal +1% damage with Skills\nFor every 2 Stack, gain 1 Min Speed (Max 2) and 1 Defense Level Up\nFor every 3 Stack, gain 1 Offense Level Up\nAt 5+ Stack, gain 1 Damage Up and apply 1 Offense Level Up to all Heishou Pack Identities",
+		"Description": "Max Stack: 11\nGain the following based on Stack:\nFor every Stack, gain 1 Max Speed (max 5) and deal +1% damage with Skills\nFor every 2 Stack, gain 1 Min Speed (max 2) and 1 Defense Level Up\nFor every 3 Stack, gain 1 Offense Level Up\nAt 5+ Stack, gain 1 Damage Up and apply 1 Offense Level Up to all Heishou Pack Identities",
 		"EffectTags": [
 			"Max Speed",
 			"Min Speed",
@@ -2681,7 +2686,7 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination [黑獸丸染]",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n**Wu Adept Yi Sang**: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (Once per turn)\n**Mao Adept Faust**: Take -5% damage from skills\n**Wei Don Quixote**: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n**Mao Ryōshū**: If this unit's Speed is faster than target's, deal +5% damage\n**You Adept Heathcliff**: On Hit with this unit's Base Attack Skill: Deal +5% of Gluttony damage dealt as Wrath damage\n**Si Rodion**: Inflict 1 Rupture On Critical Hit\n**You Sinclair**: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n**Mao Outis**: Inflict +1 Rupture Count On Hit with Unopposed Attacks (Once per turn)\n**Si Gregor**: Gain +1 Poise Count when dealing Rupture damage (Once per turn)",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n**Wu Adept Yi Sang**: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\n**Mao Adept Faust**: Take -5% damage from skills\n**Wei Don Quixote**: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n**Mao Ryōshū**: If this unit's Speed is faster than target's, deal +5% damage\n**You Adept Heathcliff**: On Hit with this unit's Base Attack Skill: Deal 5% of Gluttony damage dealt as Wrath damage\n**Si Rodion**: Inflict 1 Rupture On Critical Hit\n**You Sinclair**: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n**Mao Outis**: Inflict +1 Rupture Count On Hit with Unopposed Attacks (once per turn)\n**Si Gregor**: Gain +1 Poise Count when dealing Rupture damage (once per turn)",
 		"EffectTags": [
 			"Rupture Count",
 			"Rupture Potency",
@@ -2693,7 +2698,7 @@
 	},
 	{
 		"Name": "Strider [Wu]",
-		"Description": "Max Stack: 3\nTurn End: Gain 2 Haste and (Stack x 2) Aggro next turn\nBefore Attack: Inflict (Stack) Tremor against main target (Max 6 per turn)\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 3\nTurn End: Gain 2 Haste and (Stack x 2) Aggro next turn\nBefore Attack: Inflict (Stack) Tremor against main target (max 6 per turn)\nLose 1 Stack at Turn End",
 		"EffectTags": [
 			"Haste",
 			"Aggro",
@@ -2711,7 +2716,7 @@
 	},
 	{
 		"Name": "Concussion",
-		"Description": "Max Stack: 2\nMultiply the Stagger Threshold raised and Rupture damage dealt against this unit by 1.2 (Rounded down)\nLose 1 Stack at Turn End",
+		"Description": "Max Stack: 2\nMultiply the Stagger Threshold raised and Rupture damage dealt against this unit by 1.2 (rounded down)\nLose 1 Stack at Turn End",
 		"EffectTags": [
 		]
 	},
@@ -2740,14 +2745,14 @@
 	},
 	{
 		"Name": "Gaze (N Corp. E.G.O::Contempt, Awe Ryōshū)",
-		"Description": "Max Stack: 7\nDeal and take +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
+		"Description": "Max Stack: 7\nDeal and take +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
 		"EffectTags": [
 			"Contempt"
 		]
 	},
 	{
 		"Name": "Contempt",
-		"Description": "Max Stack: 1\nDeal and take -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (Does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
+		"Description": "Max Stack: 1\nDeal and take -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
 		"EffectTags": [
 			"Gaze"
 		]
@@ -2772,7 +2777,7 @@
 	},
 	{
 		"Name": "Incandescent Indulgence",
-		"Description": "Gain 30% base HP for this Encounter\nTurn Start: Fully heal HP and SP (Once per Encounter)",
+		"Description": "Gain 30% base HP for this Encounter\nTurn Start: Fully heal HP and SP (once per Encounter)",
 		"EffectTags": [
 			"Max HP Up",
 			"Heal HP",
@@ -2781,7 +2786,7 @@
 	},
 	{
 		"Name": "Hardened Shell-Barrier",
-		"Description": "Max Stack: 10\nTurn Start: Gain (Stack / 3) Defense Level Up (Max 3; rounded down)\nImmediately before taking a hit from an enemy, consume half of Hardened Shell-Barrier and gain Protection equal to the Stack consumed (Once per turn; rounded up)\nTurn End: Lose 3 Stack",
+		"Description": "Max Stack: 10\nTurn Start: Gain (Stack / 3) Defense Level Up (max 3; rounded down)\nImmediately before taking a hit from an enemy, consume half of Hardened Shell-Barrier and gain Protection equal to the Stack consumed (once per turn; rounded up)\nTurn End: Lose 3 Stack",
 		"EffectTags": [
 			"Defense Level Up",
 			"Protection"
@@ -2805,7 +2810,7 @@
 	},
 	{
 		"Name": "Man in Scabbard",
-		"Description": "Max Stack: 40\nFor every (Stack / 8), gain 1 Aggro (Max 5; rounded down; leftmost Slot on the Dashboard)\nFor every (Stack / 20), gain 1 Protection (Max 2; rounded down)\nGain 10 Stacks at Turn End\nCan gain up to 20 per turn",
+		"Description": "Max Stack: 40\nFor every (Stack / 8), gain 1 Aggro (max 5; rounded down; leftmost Slot on the Dashboard)\nFor every (Stack / 20), gain 1 Protection (max 2; rounded down)\nGain 10 Stacks at Turn End\nCan gain up to 20 per turn",
 		"EffectTags": [
 			"Aggro",
 			"Protection"
@@ -2909,7 +2914,7 @@
 	},
 	{
 		"Name": "Heart of Compassion (Low Morale)",
-		"Description": "Deal +(Nervous Impairment on target / 2)% damage (Max 15%)\nTurn Start: Gain 1 Damage Up and 2 Fragile",
+		"Description": "Deal +(Nervous Impairment on target / 2)% damage (max 15%)\nTurn Start: Gain 1 Damage Up and 2 Fragile",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -2917,7 +2922,7 @@
 	},
 	{
 		"Name": "Heart of Compassion (Panic)",
-		"Description": "Deal +(Nervous Impairment on target)% damage (Max 30%)\nTurn Start: Gain 2 Damage Up and 3 Fragile",
+		"Description": "Deal +(Nervous Impairment on target)% damage (max 30%)\nTurn Start: Gain 2 Damage Up and 3 Fragile",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -2961,7 +2966,7 @@
 	},
 	{
 		"Name": "Overcharge",
-		"Description": "Become Immobilized\nTake -(10 + (Charge x 5))% damage (Max 25%)\nTurn Start: Gain Charge Barrier based on Charge on self (Max 5)\nTurn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\nGain Aggro to this unit's leftmost Skill based on Charge on self (Max 5)\nWhen hit, gain +1 Charge Count and 1 Load next turn (Max 5 per turn)\nIf this unit is in Panic or in E.G.O Corrosion at Turn Start, or this unit is Staggered, lose this effect",
+		"Description": "Become Immobilized\nTake -(10 + (Charge x 5))% damage (max 25%)\nTurn Start: Gain Charge Barrier based on Charge on self (max 5)\nTurn End: Gain +10 Charge Count and 2 Attack Power Up next turn, and lose this effect\nGain Aggro to this unit's leftmost Skill based on Charge on self (max 5)\nWhen hit, gain +1 Charge Count and 1 Load next turn (max 5 per turn)\nIf this unit is in Panic or in E.G.O Corrosion at Turn Start, or this unit is Staggered, lose this effect",
 		"EffectTags": [
 			"Self Immobilize",
 			"Damage Reduction",
@@ -2974,7 +2979,7 @@
 	},
 	{
 		"Name": "Hardblood Armor",
-		"Description": "Max Stack: 5\nIf this unit isn't at max HP: After Skill attack, heal 10% of HP damage dealt (Once per turn; max 40)\nAfter Attack: If this unit dealt HP damage, lose 1 Stack (Once per turn)\nIf Lust Reson activated, halve the HP healed, but do not lose any Hardblood Armor stack",
+		"Description": "Max Stack: 5\nIf this unit isn't at max HP: After Skill attack, heal 10% of HP damage dealt (once per turn; max 40)\nAfter Attack: If this unit dealt HP damage, lose 1 Stack (once per turn)\nIf Lust Reson activated, halve the HP healed, but do not lose any Hardblood Armor stack",
 		"EffectTags": [
 			"Heal HP"
 		]
@@ -3109,7 +3114,7 @@
 	},
 	{
 		"Name": "Protector's Stance",
-		"Description": "Max Stack: 2\nTake -(Stack x 10)% damage\nTurn Start: Gain Shield by Poise on self (Max 20)\nTurn End: Gain 3 Poise and +3 Poise Count; this unit's leftmost Skill Slot gains +5 Aggro next turn\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 2\nTake -(Stack x 10)% damage\nTurn Start: Gain Shield by Poise on self (max 20)\nTurn End: Gain 3 Poise and +3 Poise Count; this unit's leftmost Skill Slot gains +5 Aggro next turn\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Shield",
 			"Poise Potency",
@@ -3178,7 +3183,7 @@
 	},
 	{
 		"Name": "The Udjat [Vanguard]",
-		"Description": "Max Stack: 2\nMin & Max Speed +3\nCombat Start: Gain 1 Protection\nGain the following effects during the Combat Phase (Once per Skill, 3 times per turn)\n$ When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n$ Clash Start: In the first Clash, halve the target's chance to flip Heads for all its Coins\n$ For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\nTurn End: Reduce Stack by 1",
+		"Description": "Max Stack: 2\nMin & Max Speed +3\nCombat Start: Gain 1 Protection\nGain the following effects during the Combat Phase (once per Skill, 3 times per turn)\n$ When this unit is the main target of an Unopposed Attack Skill, halve the chance for the Skill's first Coin to flip Heads\n$ Clash Start: In the first Clash, halve the target's chance to flip Heads for all its Coins\n$ For both of the above effects, if the target uses Minus Coins, halve their chance to flip Tails instead\nTurn End: Reduce Stack by 1",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -3187,7 +3192,7 @@
 	},
 	{
 		"Name": "Sheut Fracture",
-		"Description": "Max Stack: 10\nUnique Sinking\nFor every Stack, take +1% damage when hit by Sloth and Gloom Skills\nAt max Stack, gain 1 Gloom Fragility (Once per turn), take Gloom damage equal to Sinking Potency on self (Lose 1 Sinking Count), then expire\nIf the unit with this effect dies, transfer half of its Stack to its ally (or allies) with the highest SP (Rounded down)\nTurn Start: If there are no LCA Identities on the field, expires",
+		"Description": "Max Stack: 10\nUnique Sinking\nFor every Stack, take +1% damage when hit by Sloth and Gloom Skills\nAt max Stack, gain 1 Gloom Fragility (once per turn), take Gloom damage equal to Sinking Potency on self (Lose 1 Sinking Count), then expire\nIf the unit with this effect dies, transfer half of its Stack to its ally (or allies) with the highest SP (rounded down)\nTurn Start: If there are no LCA Identities on the field, expires",
 		"EffectTags": [
 			"Unique Sinking",
 			"Spend Enemy Sinking Count",
@@ -3295,7 +3300,7 @@
 	},
 	{
 		"Name": "Textbook (Low Morale)",
-		"Description": "Clash Power +1 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 1 Fragile next turn (Once per turn)",
+		"Description": "Clash Power +1 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 1 Fragile next turn (once per turn)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -3303,7 +3308,7 @@
 	},
 	{
 		"Name": "Textbook (Panic)",
-		"Description": "Clash Power +2 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 2 Fragile next turn (Once per turn)",
+		"Description": "Clash Power +2 when Clashing against targets with The Duel Escalates\nClash Lose: Gain 2 Fragile next turn (once per turn)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -3417,14 +3422,14 @@
 	},
 	{
 		"Name": "Shattered World",
-		"Description": "Max Stack: 1\nExpires at Turn End\nTake 1.2x damage from Burn (Rounded down; except Unique Burn)\nTake +10% damage from Yi Sang's Wrath and Gloom Base Attack Skills",
+		"Description": "Max Stack: 1\nExpires at Turn End\nTake 1.2x damage from Burn (rounded down; except Unique Burn)\nTake +10% damage from Yi Sang's Wrath and Gloom Base Attack Skills",
 		"EffectTags": [
 			"Burn Amp"
 		]
 	},
 	{
 		"Name": "Entangled Life [羅生]",
-		"Description": "Max Stack: 999\nGain 1 Stack for every HP damage dealt by Ryōshū's Skills\nDeal +1% damage with Base Skills for every 33 Stack (Max 10%)",
+		"Description": "Max Stack: 999\nGain 1 Stack for every HP damage dealt by Ryōshū's Skills\nDeal +1% damage with Base Skills for every 33 Stack (max 10%)",
 		"EffectTags": [
 		]
 	},
@@ -3462,7 +3467,7 @@
 	},
 	{
 		"Name": "Mad Rampage (Low Morale)",
-		"Description": "Gain 2 Attack Power Up and 4 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (Max 5)",
+		"Description": "Gain 2 Attack Power Up and 4 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (max 5)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -3470,7 +3475,7 @@
 	},
 	{
 		"Name": "Mad Rampage (Panic)",
-		"Description": "Gain 3 Attack Power Up and 5 Defense Level Down; gain 1 Damage Up for every 25 HP damage taken last turn (Max 5)",
+		"Description": "Gain 3 Attack Power Up and 5 Defense Level Down; gain 1 Damage Up for every 25 HP damage taken last turn (max 5)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -3478,7 +3483,7 @@
 	},
 	{
 		"Name": "Fervor (Low Morale)",
-		"Description": "Gain 2 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (Max 5)",
+		"Description": "Gain 2 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (max 5)",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -3486,7 +3491,7 @@
 	},
 	{
 		"Name": "Fervor (Panic)",
-		"Description": "Gain 1 Attack Power Up and 3 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (Max 5)",
+		"Description": "Gain 1 Attack Power Up and 3 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (max 5)",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -3606,7 +3611,7 @@
 	},
 	{
 		"Name": "The Middle Styled Augmentation Tattoos",
-		"Description": "Max Stack: 10\nBase Skills gain Final Power +1 for every 5 Stack (Max 2)\nEnvy Skills and Blunt Skills deal +5% damage for every Stack (Max 50%)",
+		"Description": "Max Stack: 10\nBase Skills gain Final Power +1 for every 5 Stack (max 2)\nEnvy Skills and Blunt Skills deal +5% damage for every Stack (max 50%)",
 		"EffectTags": [
 			"Final Power Up",
 			"Envy Damage Amp",
@@ -3636,7 +3641,7 @@
 	},
 	{
 		"Name": "Dazzle",
-		"Description": "For every (Sinking + Burn), take +0.5% damage from Base Attack Skills (Max 10%)\nUnits with SP: Change their Panic Type to 'Dazzle'\nUnits without SP: Defense Level -2\nTurn End: Lose 1 Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
+		"Description": "For every (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to 'Dazzle'\nUnits without SP: Defense Level -2\nTurn End: Lose 1 Stack\nThis effect is not cumulative, inflicting it will replace the current value with the inflicted value\nApply the 'Units without SP' conditional to certain enemies that have SP but can't change Panic Types",
 		"EffectTags": [
 			"Damage Taken Amp",
 			"Change Panic Type",
@@ -3670,7 +3675,7 @@
 	},
 	{
 		"Name": "Guardians of the Forest",
-		"Description": "Before Attack, activate the following effects:\n$ Plus Coin Skills heal 4 SP (If already at max SP, gain 2 Offense Level Up next turn)\n$ Minus Coin Skills lose 8 SP (This effect cannot reduce the unit's SP below -40)\n$ Lose this effect",
+		"Description": "Before Attack, activate the following effects:\n$ Plus Coin Skills heal 4 SP (if already at max SP, gain 2 Offense Level Up next turn)\n$ Minus Coin Skills lose 8 SP (this effect cannot reduce the unit's SP below -40)\n$ Lose this effect",
 		"EffectTags": [
 			"Heal SP",
 			"Offense Level Up",
@@ -3720,7 +3725,7 @@
 	},
 	{
 		"Name": "Shin (心) - Fate",
-		"Description": "Min & Max Speed +1\nGain +1 Poise and Poise Count from Base Skills\nIf this unit's SP is higher than the target's, deal +1% damage for every 3 SP difference (Max 15%; units without SP are considered to be at 0 SP)",
+		"Description": "Min & Max Speed +1\nGain +1 Poise and Poise Count from Base Skills\nIf this unit's SP is higher than the target's, deal +1% damage for every 3 SP difference (max 15%; units without SP are considered to be at 0 SP)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -3748,7 +3753,7 @@
 	},
 	{
 		"Name": "Indulgence in Prescripts",
-		"Description": "Min & Max Speed +5\nApply the following effects to 'Furioso-Replica':\n$ On Hit, inflict +1 Sinking and gain +1 Poise\n$ On Hit, inflict +3 Sinking Count (Once per target)\n$ Deal +30% damage\nExpires at Turn End",
+		"Description": "Min & Max Speed +5\nApply the following effects to 'Furioso-Replica':\n$ On Hit, inflict +1 Sinking and gain +1 Poise\n$ On Hit, inflict +3 Sinking Count (once per target)\n$ Deal +30% damage\nExpires at Turn End",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed"
@@ -3841,14 +3846,14 @@
 	},
 	{
 		"Name": "Firepower",
-		"Description": "Deal (Stack x 10)% more damage with skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Deal (Stack x 10)% more damage with skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Damage Up"
 		]
 	},
 	{
 		"Name": "Delicateness",
-		"Description": "Take (Stack x 10)% more damage from skills for one turn. (Max 100% at 10 Count)",
+		"Description": "Take (Stack x 10)% more damage from skills for one turn (max 100% at 10 Count)",
 		"EffectTags": [
 			"Fragile"
 		]
@@ -3922,7 +3927,7 @@
 	},
 	{
 		"Name": "Faint Aroma",
-		"Description": "Max Stack: 30\nGain 1 Stack if this unit has taken Sinking damage\nUpon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies/Parts\nAt max Stack, gain 2 Tremor and trigger Tremor Burst on self; take Gloom damage equal to Sinking and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn\nIf this unit is killed, inflict (Remaining Faint Aroma on this unit / 2) randomly between this unit's allies (Rounded down)",
+		"Description": "Max Stack: 30\nGain 1 Stack if this unit has taken Sinking damage\nUpon Tremor Burst, apply 1~2 Faint Aroma on 3 other random allies/Parts\nAt max Stack, gain 2 Tremor and trigger Tremor Burst on self; take Gloom damage equal to Sinking and lose all Faint Aroma. Cannot gain Faint Aroma for the rest of the turn\nIf this unit is killed, inflict (Remaining Faint Aroma on this unit / 2) randomly between this unit's allies (rounded down)",
 		"EffectTags": [
 			"Tremor Potency",
 			"Tremor Burst"
@@ -4007,14 +4012,14 @@
 	},
 	{
 		"Name": "Pheromone Mark",
-		"Description": "For every 3 Burn on self, take +1% damage when hit (Max 20%)\nExpires at Turn End",
+		"Description": "For every 3 Burn on self, take +1% damage when hit (max 20%)\nExpires at Turn End",
 		"EffectTags": [
 			"Damage Amp"
 		]
 	},
 	{
 		"Name": "Pink Petals",
-		"Description": "Max Stack: 30\nFor every Stack, take +1% damage when hit by Gloom Skills (Max 15%)\nFor every 10 Stack, gain +1 Sinking Count when hit (2 times per turn)\nWhen Tremor Burst is triggered on this unit, take ((Sinking Potency + Pink Petals) / 5) Gloom damage\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 30\nFor every Stack, take +1% damage when hit by Gloom Skills (max 15%)\nFor every 10 Stack, gain +1 Sinking Count when hit (2 times per turn)\nWhen Tremor Burst is triggered on this unit, take ((Sinking Potency + Pink Petals) / 5) Gloom damage\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Gloom Damage Amp",
 			"Sinking Count"
@@ -4030,7 +4035,7 @@
 	},
 	{
 		"Name": "Charged Sting",
-		"Description": "Max Stack: 5\nFor every Stack, take +4% damage from Skills that gain or consume Charge Count (Including Unique Charge)\n$ For Envy Skills, strengthen this effect and take +8% damage for every Stack instead\nLose 1 Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (Excluding Base Attack Skills that inflict Charged Sting)",
+		"Description": "Max Stack: 5\nFor every Stack, take +4% damage from Skills that gain or consume Charge Count (including Unique Charge)\n$ For Envy Skills, strengthen this effect and take +8% damage for every Stack instead\nLose 1 Stack at Attack End or Turn End after being hit by Skills that fulfill the effect-triggering conditions above (excluding Base Attack Skills that inflict Charged Sting)",
 		"EffectTags": [
 		]
 	},
@@ -4043,7 +4048,7 @@
 	},
 	{
 		"Name": "Embers",
-		"Description": "Max Potency: 3\nMax Count: 6\nIf this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn (Including E.G.O Skills)\nIf this unit does not have Burn, reset Embers Count to 6 when hit (Independent of Skills that inflict Burn)\nAt 0 Embers Count, activate the following:\n$ Activate Burn on self once and lose 1 Burn Count\n$ Lose 1 Embers Potency\n$ At 1+ remaining Embers Potency, reset Embers Count to 6",
+		"Description": "Max Potency: 3\nMax Count: 6\nIf this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn (including E.G.O Skills)\nIf this unit does not have Burn, reset Embers Count to 6 when hit (Independent of Skills that inflict Burn)\nAt 0 Embers Count, activate the following:\n$ Activate Burn on self once and lose 1 Burn Count\n$ Lose 1 Embers Potency\n$ At 1+ remaining Embers Potency, reset Embers Count to 6",
 		"EffectTags": [
 			"Burn Proc",
 			"Spend Enemy Burn Count"
@@ -4058,7 +4063,7 @@
 	},
 	{
 		"Name": "Iron Maiden",
-		"Description": "Gain +4 Aggro to the leftmost Skill Slot\nTurn Start: Gain 1 Protection, 5 Defense Level Up, and Shield HP equal to 5% of this unit's current HP\nWhen hit by the last Coin of an attacker, deal Pierce damage equal to 20% of the said Coin's damage and inflict +2 Bleed Count (Once per Skill, 3 times per turn. Max damage per turn: 60)",
+		"Description": "Gain +4 Aggro to the leftmost Skill Slot\nTurn Start: Gain 1 Protection, 5 Defense Level Up, and Shield HP equal to 5% of this unit's current HP\nWhen hit by the last Coin of an attacker, deal Pierce damage equal to 20% of the said Coin's damage and inflict +2 Bleed Count (once per Skill, 3 times per turn. Max damage per turn: 60)",
 		"EffectTags": [
 			"Aggro",
 			"Protection",
@@ -4106,7 +4111,7 @@
 	},
 	{
 		"Name": "Corpus Theater",
-		"Description": "Base Stack: 3\nWhen this unit gains Bleed from enemy Attack Skills, randomly gain 1 of the following effects next turn and lose 1 Stack of this effect (Once per Skill):\n$ 3 Bleed Potency\n$ 1 Bind\n$ 1 Defense Power Down",
+		"Description": "Base Stack: 3\nWhen this unit gains Bleed from enemy Attack Skills, randomly gain 1 of the following effects next turn and lose 1 Stack of this effect (once per Skill):\n$ 3 Bleed Potency\n$ 1 Bind\n$ 1 Defense Power Down",
 		"EffectTags": [
 			"Bleed Potency",
 			"Bind",
@@ -4133,7 +4138,7 @@
 	},
 	{
 		"Name": "Mauled Color [Rouge]",
-		"Description": "Max Stack: 9\nWhen hit, gain 1 Bleed Potency for every 3 Stack (Once per turn)\nTurn End: Gain 1 Defense Level Down next turn for every 4 Stack (Max 2)\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 9\nWhen hit, gain 1 Bleed Potency for every 3 Stack (once per turn)\nTurn End: Gain 1 Defense Level Down next turn for every 4 Stack (max 2)\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Bleed Potency",
 			"Defense Level Down"
@@ -4141,7 +4146,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Chien",
-		"Description": "Deal +5% damage for every 3 Mauled Color on target (Max 15%)\nInflict +1 Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if the target does not have Bleed, inflict +2 Bleed Count on target (Once per turn)",
+		"Description": "Deal +5% damage for every 3 Mauled Color on target (max 15%)\nInflict +1 Bleed Potency and Sinking Potency with Base Skills\nBefore hitting with a Base Skill, if the target does not have Bleed, inflict +2 Bleed Count on target (once per turn)",
 		"EffectTags": [
 			"Damage Amp",
 			"Bleed Potency",
@@ -4151,7 +4156,7 @@
 	},
 	{
 		"Name": "Imperfections Addressed",
-		"Description": "Deal +10% damage\nOn Reuse of a Coin in The Ring Fauvist Docent Rodion's 'Critique' Skill, heal 3 SP (Once per turn)\nTurn End: If The Ring Fauvist Docent Rodion does not have Réflexion, expires",
+		"Description": "Deal +10% damage\nOn Reuse of a Coin in The Ring Fauvist Docent Rodion's 'Critique' Skill, heal 3 SP (once per turn)\nTurn End: If The Ring Fauvist Docent Rodion does not have Réflexion, expires",
 		"EffectTags": [
 			"Damage Amp",
 			"Heal SP"
@@ -4167,7 +4172,7 @@
 	},
 	{
 		"Name": "Le Fauvisme - Masque de Loup",
-		"Description": "Min & Max Speed +1\nInflict more +1 Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if the target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (Once per turn)\nOn Hit, if the target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (Once per turn)",
+		"Description": "Min & Max Speed +1\nInflict more +1 Bleed Potency and Sinking Potency with Base Skills\nOn Hit, if the target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (once per turn)\nOn Hit, if the target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (once per turn)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4179,7 +4184,7 @@
 	},
 	{
 		"Name": "Touche Hardie",
-		"Description": "Max Stack: 2\nTake +10% HP and SP damage from Bleed and Sinking effects for every Stack (Max 20%, rounded down)\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 2\nTake +10% HP and SP damage from Bleed and Sinking effects for every Stack (max 20%, rounded down)\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Bleed Amp",
 			"Sinking Amp"
@@ -4187,7 +4192,7 @@
 	},
 	{
 		"Name": "Palette Vibrante",
-		"Description": "Max Stack: 4\nTake +(Stack x 2.5)% damage from The Ring-faction Identities\n$ If the attacker is in both The Ring faction and School of Fauvism faction, take +(Stack x 5)% damage instead\nCombat Start: Randomly gain 1 Bleed, 1 Sinking, 1 Bleed Count, or 1 Sinking Count (Stack) times\nCombat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (Rounded down)",
+		"Description": "Max Stack: 4\nTake +(Stack x 2.5)% damage from The Ring-faction Identities\n$ If the attacker is in both The Ring faction and School of Fauvism faction, take +(Stack x 5)% damage instead\nCombat Start: Randomly gain 1 Bleed, 1 Sinking, 1 Bleed Count, or 1 Sinking Count (Stack) times\nCombat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (rounded down)",
 		"EffectTags": [
 			"Damage Amp",
 			"Bleed Potency",
@@ -4216,7 +4221,7 @@
 	},
 	{
 		"Name": "Beauty of the Physique",
-		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nBase Skills that consume Unique Charge gain Coin Power +1 (Excluding E.G.O Skills)\nTurn End: This effect expires",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nBase Skills that consume Unique Charge gain Coin Power +1 (excluding E.G.O Skills)\nTurn End: This effect expires",
 		"EffectTags": [
 			"Coin Power",
 			"Damage Amp"
@@ -4224,7 +4229,7 @@
 	},
 	{
 		"Name": "Charm of the Beastly",
-		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if the target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (Once per turn)\nTurn End: This effect expires",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if the target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (once per turn)\nTurn End: This effect expires",
 		"EffectTags": [
 			"Coin Power",
 			"Blunt Power Up"
@@ -4248,7 +4253,7 @@
 	},
 	{
 		"Name": "Coloriage Impulsif (Low Morale)",
-		"Description": "Deal +2.5% damage for every type of negative effect on target (Max 15%)\nGain 1 Fragile",
+		"Description": "Deal +2.5% damage for every type of negative effect on target (max 15%)\nGain 1 Fragile",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -4256,7 +4261,7 @@
 	},
 	{
 		"Name": "Coloriage Impulsif (Panic)",
-		"Description": "Deal +5% damage for every type of negative effect on target (Max 30%)\nGain 1 Fragile",
+		"Description": "Deal +5% damage for every type of negative effect on target (max 30%)\nGain 1 Fragile",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -4279,7 +4284,7 @@
 	},
 	{
 		"Name": "Scarlet Moth",
-		"Description": "Max Stack: 3\nTurn End: Heal (Stack)% HP (Min 1 HP)\nTurn End: Heal SP equal to Stack\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 3\nTurn End: Heal (Stack)% HP (min 1 HP)\nTurn End: Heal SP equal to Stack\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Heal HP",
 			"Heal SP"
@@ -4353,7 +4358,7 @@
 	},
 	{
 		"Name": "Torn-out Butterfly",
-		"Description": "Final Power +2 for all Skills\nWhen staggered due to damage, immediately recover from Stagger and gain Shield equal to 100% HP (Once per turn, excluding forced Staggers)",
+		"Description": "Final Power +2 for all Skills\nWhen staggered due to damage, immediately recover from Stagger and gain Shield equal to 100% HP (once per turn, excluding forced Staggers)",
 		"EffectTags": [
 			"Final Power Up",
 			"Stagger Recovery",
@@ -4362,7 +4367,7 @@
 	},
 	{
 		"Name": "Book of Vengeance [The House of Spiders]",
-		"Description": "Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal 5 SP on Hit using a Skill (Once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, Outis gains 1 additional Stack of The Middle - Grudge (Once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, Ishmael gains 1 additional Stack of The Middle - Grudge (Once per Skill, 2 times per turn)\nExpires at Turn End",
+		"Description": "Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal 5 SP on Hit using a Skill (once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, Outis gains 1 additional Stack of The Middle - Grudge (once per Skill, 2 times per turn)\nOn Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, Ishmael gains 1 additional Stack of The Middle - Grudge (once per Skill, 2 times per turn)\nExpires at Turn End",
 		"EffectTags": [
 			"Heal SP",
 			"The Middle - Grudge"
@@ -4370,7 +4375,7 @@
 	},
 	{
 		"Name": "The Middle - Vengeance Tattoo [~~Great Sister~~]",
-		"Description": "Max Stack: 10\nFinal Power +1 for Base Skills for every 5 Stack (Max 2)\nEnvy and Blunt Skills deal +5% damage for every Stack",
+		"Description": "Max Stack: 10\nFinal Power +1 for Base Skills for every 5 Stack (max 2)\nEnvy and Blunt Skills deal +5% damage for every Stack",
 		"EffectTags": [
 			"Final Power Up",
 			"Envy Damage Amp",
@@ -4387,7 +4392,7 @@
 	},
 	{
 		"Name": "I Got Praised!",
-		"Description": "Max Stack: 10\nReduced by 1 when hit by 2 Skills\nAt 5+ Stack, Base Skills gain Final Power +1\nBlunt Skills deal +1% damage for every Stack (Max 10%)",
+		"Description": "Max Stack: 10\nReduced by 1 when hit by 2 Skills\nAt 5+ Stack, Base Skills gain Final Power +1\nBlunt Skills deal +1% damage for every Stack (max 10%)",
 		"EffectTags": [
 			"Final Power Up",
 			"Blunt Damage Amp"
@@ -4395,7 +4400,7 @@
 	},
 	{
 		"Name": "Ridiculous Grit",
-		"Description": "Max Stack: 3\nFix any Attack Type Resistances that exceed 'Normal' to 'Normal'\nTake -(30 x (The Middle - Vengeance Tattoo [Great Sister] x 4))% damage from Skills (Max 50%, rounded down)\nOn Clash Win, heal an additional (Clash count x 5) SP (Max 15)\nTurn End: If this unit lost SP this turn due to its Skill effects, deal +10% damage next turn using Base Skills\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 3\nFix any Attack Type Resistances that exceed 'Normal' to 'Normal'\nTake -(30 x (The Middle - Vengeance Tattoo [Great Sister] x 4))% damage from Skills (max 50%, rounded down)\nOn Clash Win, heal an additional (Clash count x 5) SP (max 15)\nTurn End: If this unit lost SP this turn due to its Skill effects, deal +10% damage next turn using Base Skills\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Damage Type Resist Up",
 			"Damage Reduction",
@@ -4404,7 +4409,7 @@
 	},
 	{
 		"Name": "Sealed Sword",
-		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (Rounded down)",
+		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4412,7 +4417,7 @@
 	},
 	{
 		"Name": "First Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (Rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4420,7 +4425,7 @@
 	},
 	{
 		"Name": "Second Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (Rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp"
@@ -4428,7 +4433,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (Max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (Rounded down)",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (rounded down)",
 		"EffectTags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4445,13 +4450,13 @@
 	},
 	{
 		"Name": "Rising Fever",
-		"Description": "Lose 1 Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (Including via Counter)\n$ At Turn End after activating 6+ Envy Reson\nAt 0 Stack, use 'Time to Unpack!'",
+		"Description": "Lose 1 Stack when meeting one of the following conditions:\n$ Using 'Stamp of Vengeance' (including via Counter)\n$ At Turn End after activating 6+ Envy Reson\nAt 0 Stack, use 'Time to Unpack!'",
 		"EffectTags": [
 		]
 	},
 	{
 		"Name": "Blazing",
-		"Description": "Min & Max Speed +1\nThis turn's first-used Base Attack Skill gains Final Power +2\nTake 2% HP damage On Hit with the affected Skill (Max 10%; this damage does not Stagger or reduce this unit's HP below 1)\nExpires at Turn End",
+		"Description": "Min & Max Speed +1\nThis turn's first-used Base Attack Skill gains Final Power +2\nTake 2% HP damage On Hit with the affected Skill (max 10%; this damage does not Stagger or reduce this unit's HP below 1)\nExpires at Turn End",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4519,7 +4524,7 @@
 	},
 	{
 		"Name": "Drink to the Fallen",
-		"Description": "Max Stack: 4\nTurn Start: Gain 1 Poise for every Stack\n$ Blade Lineage Mentor Meursault gains 2 Poise for every Stack instead\nBase Skills deal +(Poise on self x 1.5)% damage on Critical Hit (Max 15%)\nBase Skills that gain Poise or Poise Count gain Clash Power +1\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 4\nTurn Start: Gain 1 Poise for every Stack\n$ Blade Lineage Mentor Meursault gains 2 Poise for every Stack instead\nBase Skills deal +(Poise on self x 1.5)% damage on Critical Hit (max 15%)\nBase Skills that gain Poise or Poise Count gain Clash Power +1\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Poise Potency",
 			"Critical Damage Amp",
@@ -4528,7 +4533,7 @@
 	},
 	{
 		"Name": "Resentment",
-		"Description": "Min & Max Speed +2\nOn Hit, heal HP by 10% of damage dealt using the Skill (Can heal up to 50% of this unit's max HP per Skill)",
+		"Description": "Min & Max Speed +2\nOn Hit, heal HP by 10% of damage dealt using the Skill (can heal up to 50% of this unit's max HP per Skill)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4537,7 +4542,7 @@
 	},
 	{
 		"Name": "Resentful Scabbard",
-		"Description": "When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\nIn Memoriam Passive now ignores conditionals and activates at max potential\nWhen activating Pride Reson, apply Sword of the Homeland - The True Essence on all allies other than this unit\nOn Using 'Yield My Flesh', until Skill End:\n$ This damage does not reduce this unit's HP below 10 (Once per turn)\n$ Lose (Poise on self / 2) Clash Power (Rounded down)\nOn Using 'To Claim Their Bones', gain 4 Poise",
+		"Description": "When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\nIn Memoriam Passive now ignores conditionals and activates at max potential\nWhen activating Pride Reson, apply Sword of the Homeland - The True Essence on all allies other than this unit\nOn Using 'Yield My Flesh', until Skill End:\n$ This damage does not reduce this unit's HP below 10 (once per turn)\n$ Lose (Poise on self / 2) Clash Power (rounded down)\nOn Using 'To Claim Their Bones', gain 4 Poise",
 		"EffectTags": [
 			"Growing Resentment",
 			"Ally Sword of the Homeland - The True Essence",
@@ -4548,13 +4553,13 @@
 	},
 	{
 		"Name": "Growing Resentment",
-		"Description": "Max Stack: 999\n'To Claim Their Bones' gains (Stack / 100) Final Power (Max 6; rounded down)\nOn Hit using the final Coin of either 'Yield My Flesh' or 'To Claim Their Bones', deal +(Stack / 10)% damage, then this effect expires",
+		"Description": "Max Stack: 999\n'To Claim Their Bones' gains (Stack / 100) Final Power (max 6; rounded down)\nOn Hit using the final Coin of either 'Yield My Flesh' or 'To Claim Their Bones', deal +(Stack / 10)% damage, then this effect expires",
 		"EffectTags": [
 		]
 	},
 	{
 		"Name": "Sword of the Homeland - The True Essence",
-		"Description": "Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (Max 2, rounded down)\nIf this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\nTurn End: Gain 1 Haste next turn, and this effect expires",
+		"Description": "Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (max 2, rounded down)\nIf this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\nTurn End: Gain 1 Haste next turn, and this effect expires",
 		"EffectTags": [
 			"Final Power Up",
 			"Haste"
@@ -4579,7 +4584,7 @@
 	},
 	{
 		"Name": "Mook Workshop - Ye [銳] Stance II Bladedraw / Thrust Force: Dokkaebi Fire",
-		"Description": "Max Stack: 20\nCan gain up to 10 Stacks per turn\nSlash Base Attack Skills deal +1% damage for every 2 Stack (Max 10%)\nDefense Skills lose 1 Clash Power for every 2 Stack (Max 5)\nTurn End: Gain 1 Haste next turn for every 5 Stack (Max 3)",
+		"Description": "Max Stack: 20\nCan gain up to 10 Stacks per turn\nSlash Base Attack Skills deal +1% damage for every 2 Stack (max 10%)\nDefense Skills lose 1 Clash Power for every 2 Stack (max 5)\nTurn End: Gain 1 Haste next turn for every 5 Stack (max 3)",
 		"EffectTags": [
 			"Slash Damage Amp",
 			"Haste"
@@ -4712,7 +4717,7 @@
 	},
 	{
 		"Name": "Accelerating Future",
-		"Description": "Max Stack: 5\nBase Skills deal +3% for every Stack (Max 15%)\nBase Skills gain Clash Power +1 for every 2 Stack\nAt 5 Stack, Base Skills gain Coin Power +1\nSkill End: This effect expires",
+		"Description": "Max Stack: 5\nBase Skills deal +3% for every Stack (max 15%)\nBase Skills gain Clash Power +1 for every 2 Stack\nAt 5 Stack, Base Skills gain Coin Power +1\nSkill End: This effect expires",
 		"EffectTags": [
 			"Clash Power Up",
 			"Coin Power"
@@ -4726,7 +4731,7 @@
 	},
 	{
 		"Name": "Shin (心) - Disgrace",
-		"Description": "Gain Min & Max Speed +1\nInflict +1 more Tremor and Burn Potency and Count using Base Skills\nDeal +3% damage for every 3 Poise Potency on self (Max 15%)",
+		"Description": "Gain Min & Max Speed +1\nInflict +1 more Tremor and Burn Potency and Count using Base Skills\nDeal +3% damage for every 3 Poise Potency on self (max 15%)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4745,7 +4750,7 @@
 	},
 	{
 		"Name": "Fire Butterfly Coffin",
-		"Description": "Max Stack: 30\nCan gain up to 20 Stacks per turn\nOn Base Skill Hit: Gain 2 Stack\nTurn End: At 20+ Stacks, gain Burn next turn equal to half of surplus Stacks past 20 (Rounded down)\n$ At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+		"Description": "Max Stack: 30\nCan gain up to 20 Stacks per turn\nOn Base Skill Hit: Gain 2 Stack\nTurn End: At 20+ Stacks, gain Burn next turn equal to half of surplus Stacks past 20 (rounded down)\n$ At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
 		"EffectTags": [
 			"Self Burn Potency",
 			"Self Burn Count"
@@ -4770,7 +4775,7 @@
 	},
 	{
 		"Name": "High Noon",
-		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +2 and deal +(45 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +100% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n$ Deal +1% damage based on Scorchfield consumed (Max 100%)",
+		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +2 and deal +(45 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +100% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n$ Deal +1% damage based on Scorchfield consumed (max 100%)",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Spend Scorchfield"
@@ -4778,7 +4783,7 @@
 	},
 	{
 		"Name": "Loneliness at High Noon",
-		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +3 and deal +(90 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +150% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: Consume up to 100 Scorchfield and deal +1.5% damage based on Scorchfield consumed (Max 150%)\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (Once per Encounter)",
+		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +3 and deal +(90 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +150% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: Consume up to 100 Scorchfield and deal +1.5% damage based on Scorchfield consumed (max 150%)\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (once per Encounter)",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Spend Scorchfield"
@@ -4792,7 +4797,7 @@
 	},
 	{
 		"Name": "Light of Daybreak",
-		"Description": "Max Stack: 30\nCan gain up to 20 Stack per turn\nTurn Start: Gain 1 Burn for every 5 Stack; then, gain +1 Burn Count for every 10 Stack\nOn Hit using a Base Attack Skill, gain (1 + (Burn on target / 3)) Stack (Max 3)\nAt 10+ Stack, Base Skills inflict +1 more Burn Potency on enemies\nAt 20+ Stack, Base Skills inflict +1 more Burn Count on enemies",
+		"Description": "Max Stack: 30\nCan gain up to 20 Stack per turn\nTurn Start: Gain 1 Burn for every 5 Stack; then, gain +1 Burn Count for every 10 Stack\nOn Hit using a Base Attack Skill, gain (1 + (Burn on target / 3)) Stack (max 3)\nAt 10+ Stack, Base Skills inflict +1 more Burn Potency on enemies\nAt 20+ Stack, Base Skills inflict +1 more Burn Count on enemies",
 		"EffectTags": [
 			"Self Burn Potency",
 			"Burn Potency",
@@ -4819,7 +4824,7 @@
 	},
 	{
 		"Name": "From Dawnbreak to Sunset",
-		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 5 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 25\nWhen in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n$ Turn Start: Gain Shield equal to 15% of max HP\n$ When hit while this unit has Shield, inflict 1 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
+		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 5 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 25\nWhen in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n$ Turn Start: Gain Shield equal to 15% of max HP\n$ When hit while this unit has Shield, inflict 1 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Scorchfield"
@@ -4827,7 +4832,7 @@
 	},
 	{
 		"Name": "Blazing Sunset",
-		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (Excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 8 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 45\nTurn Start: Enter the Volatile E.G.O::Waxen Pinion State, heal 50% HP, and heal SP to max (Once per Encounter)\nVolatile E.G.O::Waxen Pinion State is maintained even when this unit has 0 or lower SP at Turn Start\nWhen in Volatile E.G.O::Waxen Pinion State, gain the following effects:\n$ Turn Start: Gain Shield equal to 20% of max HP\n$ When hit while this unit has Shield, inflict 2 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
+		"Description": "If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\nTurn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3 (excluding forced Staggers; prioritizes the Skill of lowest rank)\nTurn Start: Heal 8 SP\nPassive 'Unstable Shell of Ego' effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 45\nTurn Start: Enter the Volatile E.G.O::Waxen Pinion State, heal 50% HP, and heal SP to max (once per Encounter)\nVolatile E.G.O::Waxen Pinion State is maintained even when this unit has 0 or lower SP at Turn Start\nWhen in Volatile E.G.O::Waxen Pinion State, gain the following effects:\n$ Turn Start: Gain Shield equal to 20% of max HP\n$ When hit while this unit has Shield, inflict 2 Burn against the attacker (2 times per turn)\n$ Activate Scorchfield on this field",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Scorchfield"
@@ -4835,7 +4840,7 @@
 	},
 	{
 		"Name": "Escape Apparatus",
-		"Description": "When this unit takes damage that brings its HP down to 10, this unit's HP does not drop below 10 for the turn\nTurn End: Recover from Stagger and Retreat from Encounter (Excluding forced Staggers; does not count as death)\n$ In Chain battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (Escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n$ When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (If this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+		"Description": "When this unit takes damage that brings its HP down to 10, this unit's HP does not drop below 10 for the turn\nTurn End: Recover from Stagger and Retreat from Encounter (excluding forced Staggers; does not count as death)\n$ In Chain battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (Escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n$ When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
 		"EffectTags": [
 			"Retreat"
 		]
@@ -4849,7 +4854,7 @@
 	},
 	{
 		"Name": "Quadricolor Dimensions",
-		"Description": "Max Stack: 4\nGain the following effects based on Stack\n$ 1+: Offense Level +1\n$ 2+: Defense Level +1\n$ 3+: Gain +1 more Charge Count from this unit's Skills\n$ 4+: This unit's Skills deal +(Charge Potency x 4)% damage (Max 20%)\nIf this unit gains this effect past its max cap, this unit gains the surplus Stack next turn\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 4\nGain the following effects based on Stack\n$ 1+: Offense Level +1\n$ 2+: Defense Level +1\n$ 3+: Gain +1 more Charge Count from this unit's Skills\n$ 4+: This unit's Skills deal +(Charge Potency x 4)% damage (max 20%)\nIf this unit gains this effect past its max cap, this unit gains the surplus Stack next turn\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Offense Level Up",
 			"Defense Level Up",
