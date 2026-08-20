@@ -3054,7 +3054,7 @@
 					"SinType": "Envy",
 					"BasePower": 4,
 					"CoinPower": 4,
-					"CoinCount": 1,
+					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 3,
@@ -3117,7 +3117,7 @@
 					"SinType": "Envy",
 					"BasePower": 4,
 					"CoinPower": 4,
-					"CoinCount": 1,
+					"CoinCount": 3,
 					"Level": 3,
 					"BasePowerModifier": 0,
 					"FinalPowerModifier": 2,
@@ -3199,7 +3199,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Lifetime Stew",
-					"Description": "[Indiscriminate] Targets the unit with the most HP\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[Before Attack] Apply 1 Lust Power Up and 1 Lust DMG Up next turn to allies according to their Deployment Order for every 6 Lust E.G.O resource owned (max 5 units)\n[Before Attack]\n$ Deal +5% damage for every 1 Lust E.G.O resource owned (max 100%)\n$ Then, consume (Lust Reson x 2) Lust E.G.O resource (max 8)\n$ Deal +20% damage for every 1 Lust E.G.O resource consumed (max 160%)\n<1>[On Hit] Inflict +4 Burn Count\n[On Hit] Inflict +4 Bleed Count",
+					"Description": "[Indiscriminate] Targets the unit with the most HP\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[Before Attack] Apply 1 Lust Power Up and 1 Lust DMG Up next turn to allies according to their Deployment Order for every 6 Lust E.G.O resource owned (max 5 units)\n[Before Attack]\n$ Deal +5% damage for every 1 Lust E.G.O resource owned (max 100%)\n$ Then, consume (Lust Reson x 2) Lust E.G.O resource (max 8)\n$ Deal +20% damage for every 1 Lust E.G.O resource consumed (max 160%)\n<1>[Unbreakable Coin]\n[On Hit] Inflict +4 Burn Count\n[On Hit] Inflict +4 Bleed Count",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 22,
@@ -3219,6 +3219,7 @@
 						"Ally Lust Power Up",
 						"Ally Lust DMG Up",
 						"Spend Additional Resources",
+						"Unbreakable Coin",
 						"Burn Count",
 						"Bleed Count"
 					]
@@ -6704,7 +6705,7 @@
 				},
 				"Passive": {
 					"Name": "Beads of Liquor at Bladepoint",
-					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire:\nResentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (excluding forced Staggers)",
+					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire: Resentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (excluding forced Staggers)",
 					"EffectTags": [
 						"Identity Exclusive Effect",
 						"Keyword Modification",
@@ -6781,7 +6782,7 @@
 				},
 				"Passive": {
 					"Name": "Beads of Liquor at Bladepoint",
-					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire:\nResentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (excluding forced Staggers)",
+					"Description": "[Always Active - Blade Lineage Mentor Meursault Exclusive Effect]\nOn Hit with a Base Skill, inflict 2 Bleed on target (once per Skill)\nThis Identity counts as an Identity that applies Bleed and Poise\n$ This Identity's Base Skills count as Skills that inflict Bleed and Poise\n\n[Effect on Use]\nWhen an ally is defeated, gain 1 Drink to the Fallen next turn\n$ If the defeated ally is in Blade Lineage, gain 2 Drink to the Fallen instead\nTurn Start: If this unit has Drink to the Fallen, enter Resentment state\n$ Blade Lineage Mentor Meursault gains Resentful Scabbard when the above effect activates\nTurn Start: If this unit does not have Drink to the Fallen, the following effects expire: Resentment, Growing Resentment, Resentful Scabbard\nWhen this unit has Drink to the Fallen: When this unit takes damage that brings its HP down to 0, heal (Drink to the Fallen Stack x 25)% HP; then Drink to the Fallen expires (once per Encounter; this effect activates after Identity Passives with similar effects)\n$ When Staggered, recover from Stagger (excluding forced Staggers)",
 					"EffectTags": [
 						"Identity Exclusive Effect",
 						"Keyword Modification",
@@ -8645,7 +8646,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Holiday",
-					"Description": "<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, inflict 1 Potency fo the selected effect next turn. Repeat the above process (2+(highest Glut. A-Reson)) times (7 times max)\n[On Kill] Randomly select one of the following effects: 2 Poise Count, 2 Charge Count, 2 Haste, 2 Offense Level Up, or 2 Defense Level Up.\nThen, apply the selected effect to 2 random allies next turn",
+					"Description": "<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, inflict 1 Potency fo the selected effect next turn. Repeat the above process (2 + (highest Gluttony A-Reson)) times (7 times max)\n[On Kill] Randomly select one of the following effects: 2 Poise Count, 2 Charge Count, 2 Haste, 2 Offense Level Up, or 2 Defense Level Up.\nThen, apply the selected effect to 2 random allies next turn",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -8667,7 +8668,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Holiday",
-					"Description": "[Indiscriminate] Targets the unit with the most SP\nIf the main target's SP is higher than 15, Atk Weight +1\n[Before Attack] Target loses 10 SP\n<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, apply 1 Potency of the selected effect next turn. Repeat the above process (2+(highest Glut. A-Reson)) times (7 times max)",
+					"Description": "[Indiscriminate] Targets the unit with the most SP\nIf the main target's SP is higher than 15, Atk Weight +1\n[Before Attack] Target loses 10 SP\n<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, apply 1 Potency of the selected effect next turn. Repeat the above process (2 + (highest Gluttony A-Reson)) times (7 times max)",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 25,
@@ -8689,7 +8690,7 @@
 				},
 				"Passive": {
 					"Name": "Infinite Hatred",
-					"Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\nInflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
+					"Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n$ Inflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n$ Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
 					"EffectTags": [
 						"Random Negative Status",
 						"Poise Potency",
@@ -8702,7 +8703,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Holiday",
-					"Description": "<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, inflict 1 Potency fo the selected effect next turn. Repeat the above process (2+(highest Glut. A-Reson)) times (7 times max)\n[On Kill] Randomly select one of the following effects: 2 Poise Count, 2 Charge Count, 2 Haste, 2 Offense Level Up, or 2 Defense Level Up.\nThen, apply the selected effect to 2 random allies next turn",
+					"Description": "<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, inflict 1 Potency fo the selected effect next turn. Repeat the above process (2 + (highest Gluttony A-Reson)) times (7 times max)\n[On Kill] Randomly select one of the following effects: 2 Poise Count, 2 Charge Count, 2 Haste, 2 Offense Level Up, or 2 Defense Level Up.\nThen, apply the selected effect to 2 random allies next turn",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 17,
@@ -8724,7 +8725,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Holiday",
-					"Description": "[Indiscriminate] Targets the unit with the most SP\nIf the main target's SP is higher than 15, Atk Weight +1\n[Before Attack] Target loses 10 SP\n<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, apply 1 Potency of the selected effect next turn. Repeat the above process (2+(highest Glut. A-Reson)) times (7 times max)",
+					"Description": "[Indiscriminate] Targets the unit with the most SP\nIf the main target's SP is higher than 15, Atk Weight +1\n[Before Attack] Target loses 10 SP\n<1>[On Hit] Randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking.\nThen, apply 1 Potency of the selected effect next turn. Repeat the above process (2 + (highest Gluttony A-Reson)) times (7 times max)",
 					"DamageType": "Blunt",
 					"SinType": "Gluttony",
 					"BasePower": 25,
@@ -8746,7 +8747,7 @@
 				},
 				"Passive": {
 					"Name": "Infinite Hatred",
-					"Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n Inflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
+					"Description": "When this unit has a status effect or a negative effect, and if the main target or the attacker has a positive effect:\n$ Inflict +1 more Burn, Bleed, Tremor, Rupture, and Sinking Potency to self and enemies with Skill effects or Coin effects\n$ Gain +1 more Poise and Charge Count with Skill effects or Coin effects",
 					"EffectTags": [
 						"Random Negative Status",
 						"Poise Potency",
@@ -14915,7 +14916,7 @@
 				},
 				"Passive": {
 					"Name": "Fair Presents",
-					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects:\nBurn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
+					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
 					"EffectTags": [
 						"Random Negative Status"
 					]
@@ -14973,7 +14974,7 @@
 				},
 				"Passive": {
 					"Name": "Fair Presents",
-					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects:\nBurn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
+					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
 					"EffectTags": [
 						"Random Negative Status"
 					]

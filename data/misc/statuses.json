@@ -868,7 +868,7 @@
 	},
 	{
 		"Name": "Swordplay of the Homeland",
-		"Description": "If this unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3/# of Coins)(min 1) and +(30/# of Coins)% damage on Critical Hit\nIf this unit has 7+ Poise upon Skill use, Skill 3 deals +(30/# of Coins)% more damage and +(50/# of Coins)% more damage on Critical Hit",
+		"Description": "If this unit has 5+ Poise upon Skill use, Skill 1 and 2 gain Coin Power +(3 / # of Coins)(min 1) and +(30 / # of Coins)% damage on Critical Hit\nIf this unit has 7+ Poise upon Skill use, Skill 3 deals +(30 / # of Coins)% more damage and +(50 / # of Coins)% more damage on Critical Hit",
 		"EffectTags": [
 			"Plus Coin Power",
 			"Ally Damage Amp",
@@ -1434,7 +1434,7 @@
 	},
 	{
 		"Name": "Defensive Stance",
-		"Description": "Max Value: 2\nReduced by 1 at Turn End\nWhen a unit gains this effect:\nFix this unit's Speed to its minimum value\nGain 5 Defense Level Up\nEach of this unit's Slots gain +(10 / # of this unit's Slots) Aggro\nWhen chaining Skills, this unit can draw enemies' attacks towards this unit regardless of Speed (Focused Encounters only)\nUpon Clash Win, trigger Tremor Burst\nCannot be Staggered by damage",
+		"Description": "Max Value: 2\nReduced by 1 at Turn End\nWhen a unit gains this effect$ Fix this unit's Speed to its minimum value\n$ Gain 5 Defense Level Up\n$ Each of this unit's Slots gain +(10 / # of this unit's Slots) Aggro\n$ When chaining Skills, this unit can draw enemies' attacks towards this unit regardless of Speed (Focused Encounters only)\n$ Upon Clash Win, trigger Tremor Burst\n$ Cannot be Staggered by damage",
 		"EffectTags": [
 			"Defense Level Up",
 			"Aggro",
@@ -1923,7 +1923,7 @@
 	},
 	{
 		"Name": "Nerve Strike",
-		"Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's/Part's Nerve Strike Stack\n1x Stack: Clash Power +1\n2x Stack: Base Power +1\n3x Stack: Clash Power +1 and Base Power +1\nExpires if the unit that inflicted it inflicts this effect against a different target/Part\nReplaced when another unit inflicts Nerve Strike",
+		"Description": "Max Stack: 3\nThe unit that inflicted this Nerve Strike gains the following effects based on target's (or targeted Part's) Nerve Strike Stack\n1x Stack: Clash Power +1\n2x Stack: Base Power +1\n3x Stack: Clash Power +1 and Base Power +1\nExpires if the unit that inflicted it inflicts this effect against a different target (or a different Part)\nReplaced when another unit inflicts Nerve Strike (Stacks are preserved)",
 		"EffectTags": []
 	},
 	{
@@ -2450,7 +2450,7 @@
 	},
 	{
 		"Name": "Overheat",
-		"Description": "Lose this effect when gaining Savage Tigermark Round\nMin and max Speed +2\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / 2) Clash Power (max 10), but gain the following based on rounds spent:\n8+: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
+		"Description": "Lose this effect when gaining Savage Tigermark Round\nMin and max Speed +2\nBase Attack Skills lose (cumulative Tigermark Round + Savage Tigermark Round spent / 2) Clash Power (max 10), but gain the following based on rounds spent:\n$ 8+: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n$ 14+: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n$ 20+: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4412,7 +4412,8 @@
 		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
-			"Blunt Damage Amp"
+			"Blunt Damage Amp",
+			"Sealed Sword [Lævateinn]"
 		]
 	},
 	{
@@ -4420,7 +4421,8 @@
 		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
-			"Blunt Damage Amp"
+			"Blunt Damage Amp",
+			"Sealed Sword [Lævateinn]"
 		]
 	},
 	{
@@ -4428,7 +4430,8 @@
 		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (rounded down)",
 		"EffectTags": [
 			"Haste",
-			"Blunt Damage Amp"
+			"Blunt Damage Amp",
+			"Sealed Sword [Lævateinn]"
 		]
 	},
 	{
@@ -4437,7 +4440,8 @@
 		"EffectTags": [
 			"Field Burn Potency",
 			"Skill Change",
-			"Blunt Damage Amp"
+			"Blunt Damage Amp",
+			"Sealed Sword [Lævateinn]"
 		]
 	},
 	{
@@ -4859,6 +4863,15 @@
 			"Offense Level Up",
 			"Defense Level Up",
 			"Charge Count"
+		]
+	},
+	{
+		"Name": "Witnessed - Eastern Cinq",
+		"Description": "Max Stack: 3\nOffense Level +(Stack)\nAt 2+ Stack, Base Skills gain +1 more Poise Potency\nAt 3+ Stack, Base Skills gain +1 more Poise Count",
+		"EffectTags": [
+			"Offense Level Up",
+			"Poise Potency",
+			"Poise Count"
 		]
 	}
 ]

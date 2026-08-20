@@ -3779,7 +3779,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Steed's Houndlike Loyalty [狗馬之心]",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\nIf Family Hierarch Candidate Ishmael is an Actively participating unit, activate the following:\nWhen Ishmael inflicts Rupture or Rupture Count with Skill effects, that unit gains 3 Poise (2 times per turn; excluding E.G.O Skills)\n$ Turn Start: Apply 1 Attack Power Up to Ishmael, if Ishmael has 10+ Poise, apply +1 Attack Power Up\n$ After this unit uses 'Obsidian Stormrider's Crescent Decapitator', Ishmael uses 'Crimson Spring' as Assist Attack (once per turn)",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\nIf Family Hierarch Candidate Ishmael is an Actively participating unit, activate the following:\n$ When Ishmael inflicts Rupture or Rupture Count with Skill effects, that unit gains 3 Poise (2 times per turn; excluding E.G.O Skills)\n$ Turn Start: Apply 1 Attack Power Up to Ishmael, if Ishmael has 10+ Poise, apply +1 Attack Power Up\n$ After this unit uses 'Obsidian Stormrider's Crescent Decapitator', Ishmael uses 'Crimson Spring' as Assist Attack (once per turn)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -3806,7 +3806,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Obsidian Stormrider [黑風馬脚]",
-					"Description": "Gain 1 Linebreaker when meeting one of the following conditions:\n$ Attack Start: Unit's Speed is faster than target's by 2+\n$ Unit triggers Tremor Burst twice with its Skills (including E.G.O Skills)\n$ Unit wins a Clash while having Strider [Wu]\nOnly 3 Linebreaker can be gained per turn; cannot gain Linebreaker from 'Obsidian Stormrider's Crescent Decapitator'\nWhen unit has Shield, gain (Shield HP / 10) Defense Level (max 5; rounded down)",
+					"Description": "Gain 1 Linebreaker when meeting one of the following conditions:\n$ Attack Start: Unit's Speed is faster than the target's by 2 or more\n$ Unit triggers Tremor Burst twice with its Skills (including E.G.O Skills)\n$ Unit wins a Clash while having Strider [Wu]\nOnly 3 Linebreaker can be gained per turn; cannot gain Linebreaker from 'Obsidian Stormrider's Crescent Decapitator'\nWhen unit has Shield, gain (Shield HP / 10) Defense Level (max 5; rounded down)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -3971,7 +3971,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Steed's Houndlike Loyalty [狗馬之心]",
-						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\nIf Family Hierarch Candidate Ishmael is an Actively participating unit, activate the following:\nWhen Ishmael inflicts Rupture or Rupture Count with Skill effects, that unit gains 3 Poise (2 times per turn; excluding E.G.O Skills)\n$ Turn Start: Apply 1 Attack Power Up to Ishmael, if Ishmael has 10+ Poise, apply +1 Attack Power Up\n$ After this unit uses 'Obsidian Stormrider's Crescent Decapitator', Ishmael uses 'Crimson Spring' as Assist Attack (once per turn)",
+						"Description": "When activating Exalted Command, The Lord of Hongyuan Hong Lu gains the following Heishou Bolus Contamination [黑獸丸染]:\n$ On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\nIf Family Hierarch Candidate Ishmael is an Actively participating unit, activate the following:\n$ When Ishmael inflicts Rupture or Rupture Count with Skill effects, that unit gains 3 Poise (2 times per turn; excluding E.G.O Skills)\n$ Turn Start: Apply 1 Attack Power Up to Ishmael, if Ishmael has 10+ Poise, apply +1 Attack Power Up\n$ After this unit uses 'Obsidian Stormrider's Crescent Decapitator', Ishmael uses 'Crimson Spring' as Assist Attack (once per turn)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -3998,7 +3998,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Obsidian Stormrider [黑風馬脚]",
-					"Description": "Gain 1 Linebreaker when meeting one of the following conditions:\n$ Attack Start: Unit's Speed is faster than target's by 2+\n$ Unit triggers Tremor Burst twice with its Skills (including E.G.O Skills)\n$ Unit wins a Clash while having Strider [Wu]\nOnly 3 Linebreaker can be gained per turn; cannot gain Linebreaker from 'Obsidian Stormrider's Crescent Decapitator'",
+					"Description": "Gain 1 Linebreaker when meeting one of the following conditions:\n$ Attack Start: Unit's Speed is faster than the target's by 2 or more\n$ Unit triggers Tremor Burst twice with its Skills (including E.G.O Skills)\n$ Unit wins a Clash while having Strider [Wu]\nOnly 3 Linebreaker can be gained per turn; cannot gain Linebreaker from 'Obsidian Stormrider's Crescent Decapitator'",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -7707,7 +7707,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Flame Moth",
-					"Description": "Combat Start: At 80%+ missing HP and less than 30 Burn, gain up to 30 Burn (once per Encounter)\nTurn End: Gain 1 Offense Level Up for every 6 Burn (max 5)\n\nOn death:\nInflict 2 Burn on all enemies; inflict Burn on self between all enemies (max 3 per enemy)\nGain 2 E.G.O resources for 2 least-owned E.G.O resources\n\nOn death due to A.B.S. Max Attunement [Degraded Corrosion]:\nInflict 3 Burn on all enemies; inflict Burn on self against all enemies (max 5 per enemy)\nGain 2 E.G.O resources for 2 least-owned E.G.O resources\nAt 30+ Burn, apply 3 Offense Level Up to 1 ally that gets Substituted in",
+					"Description": "Combat Start: At 80%+ missing HP and less than 30 Burn, gain up to 30 Burn (once per Encounter)\nTurn End: Gain 1 Offense Level Up for every 6 Burn (max 5)\nOn death:\n$ Inflict 2 Burn on all enemies; inflict Burn on self between all enemies (max 3 per enemy)\n$ Gain 2 E.G.O resources for 2 least-owned E.G.O resources\nOn death due to A.B.S. Max Attunement [Degraded Corrosion]:\n$ Inflict 3 Burn on all enemies; inflict Burn on self against all enemies (max 5 per enemy)\n$ Gain 2 E.G.O resources for 2 least-owned E.G.O resources\n$ At 30+ Burn, apply 3 Offense Level Up to 1 ally that gets Substituted in",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -7873,7 +7873,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Flame Moth",
-					"Description": "Combat Start: At 80%+ missing HP and less than 30 Burn, gain up to 30 Burn (once per Encounter)\nTurn End: Gain 1 Offense Level Up for every 6 Burn (max 5)\n\nOn death:\nInflict 2 Burn on all enemies; inflict Burn on self between all enemies (max 3 per enemy)\nGain 2 E.G.O resources for 2 least-owned E.G.O resources\n\nOn death due to A.B.S. Max Attunement [Degraded Corrosion]:\nInflict 3 Burn on all enemies; inflict Burn on self against all enemies (max 5 per enemy)\nGain 2 E.G.O resources for 2 least-owned E.G.O resources\nAt 30+ Burn, apply 3 Offense Level Up to 1 ally that gets Substituted in",
+					"Description": "Combat Start: At 80%+ missing HP and less than 30 Burn, gain up to 30 Burn (once per Encounter)\nTurn End: Gain 1 Offense Level Up for every 6 Burn (max 5)\nOn death:\n$ Inflict 2 Burn on all enemies; inflict Burn on self between all enemies (max 3 per enemy)\n$ Gain 2 E.G.O resources for 2 least-owned E.G.O resources\nOn death due to A.B.S. Max Attunement [Degraded Corrosion]:\n$ Inflict 3 Burn on all enemies; inflict Burn on self against all enemies (max 5 per enemy)\n$ Gain 2 E.G.O resources for 2 least-owned E.G.O resources\n$ At 30+ Burn, apply 3 Offense Level Up to 1 ally that gets Substituted in",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Wrath",
@@ -12904,7 +12904,7 @@
 					},
 					{
 						"Name": "Variant Sancho Hardblood Arts",
-						"Description": "Turn Start: At 15+ Hardblood, if each following unit is either defeated or participating in this Encounter, empower this unit's leftmost slot:\nThe Priest of La Manchaland Gregor: Skill 1\nThe Barber of La Manchaland Outis: Skill 2\nThis Unit: Skill 3\nThe Princess of La Manchaland Rodion: Defense Skill\n\nWhen other units among allies take Bleed damage or consume Bloodfeast, gain 2 Hardblood (3 times per turn)",
+						"Description": "Turn Start: At 15+ Hardblood, if each following unit is either defeated or participating in this Encounter, empower this unit's leftmost slot:\n$ The Priest of La Manchaland Gregor: Skill 1\n$ The Barber of La Manchaland Outis: Skill 2\n$ This Unit: Skill 3\n$ The Princess of La Manchaland Rodion: Defense Skill\nWhen other units among allies take Bleed damage or consume Bloodfeast, gain 2 Hardblood (3 times per turn)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -12919,7 +12919,7 @@
 					},
 					{
 						"Name": "Bearer of the Blood Kin",
-						"Description": "In an Encounter, if another allied <La Manchaland> unit is defeated:\nGain +1 Hardblood when gaining Hardblood from this unit's Base Attack Skills\nWhen 3+ other allied <La Manchaland> units are defeated: gain +3 additional Hardblood; at Turn Start, gain Responsibility",
+						"Description": "In an Encounter, if another allied <La Manchaland> unit is defeated: Gain +1 Hardblood when gaining Hardblood from this unit's Base Attack Skills\nWhen 3+ other allied <La Manchaland> units are defeated: gain +3 additional Hardblood; at Turn Start, gain Responsibility",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -13191,7 +13191,7 @@
 					},
 					{
 						"Name": "Variant Sancho Hardblood Arts",
-						"Description": "Turn Start: At 15+ Hardblood, if each following unit is either defeated or participating in this Encounter, empower this unit's leftmost slot:\nThe Priest of La Manchaland Gregor: Skill 1\nThe Barber of La Manchaland Outis: Skill 2\nThis Unit: Skill 3\nThe Princess of La Manchaland Rodion: Defense Skill\n\nWhen other units among allies take Bleed damage or consume Bloodfeast, gain 2 Hardblood (3 times per turn)",
+						"Description": "Turn Start: At 15+ Hardblood, if each following unit is either defeated or participating in this Encounter, empower this unit's leftmost slot:\n$ The Priest of La Manchaland Gregor: Skill 1\n$ The Barber of La Manchaland Outis: Skill 2\n$ This Unit: Skill 3\n$ The Princess of La Manchaland Rodion: Defense Skill\nWhen other units among allies take Bleed damage or consume Bloodfeast, gain 2 Hardblood (3 times per turn)",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -13206,7 +13206,7 @@
 					},
 					{
 						"Name": "Bearer of the Blood Kin",
-						"Description": "In an Encounter, if another allied <La Manchaland> unit is defeated:\nGain +1 Hardblood when gaining Hardblood from this unit's Base Attack Skills\nWhen 3+ other allied <La Manchaland> units are defeated: gain +3 additional Hardblood; at Turn Start, gain Responsibility",
+						"Description": "In an Encounter, if another allied <La Manchaland> unit is defeated: Gain +1 Hardblood when gaining Hardblood from this unit's Base Attack Skills\nWhen 3+ other allied <La Manchaland> units are defeated: gain +3 additional Hardblood; at Turn Start, gain Responsibility",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -17462,7 +17462,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Spiderhead / Skullface",
-					"Description": "When hitting an enemy with a Coin that gains Red Eyes:\nDeal +(Red Eyes / 2)% damage\nIf this unit's Speed is faster than target's by 3 or more, deal additional +(Red Eyes / 2)% damage\nIf the target has Bleed, gain 1 Red Eyes (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains Penitence:\nDeal +(Penitence / 2)% damage\nIf the target's SP is lower than this unit's, deal additional +(Penitence / 2)% damage\nAt 20+ SP, gain 1 Penitence (3 times per turn)\n\nWhen hit by an enemy, gain Penitence (max 3)",
+					"Description": "When hitting an enemy with a Coin that gains Red Eyes:\n$ Deal +(Red Eyes / 2)% damage\n$ If this unit's Speed is faster than target's by 3 or more, deal additional +(Red Eyes / 2)% damage\n$ If the target has Bleed, gain 1 Red Eyes (3 times per turn)\nWhen hitting an enemy with a Coin that gains Penitence:\n$ Deal +(Penitence / 2)% damage\n$ If the target's SP is lower than this unit's, deal additional +(Penitence / 2)% damage\n$ At 20+ SP, gain 1 Penitence (3 times per turn)\nWhen hit by an enemy, gain Penitence (max 3)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -17481,7 +17481,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Eat and Sleep",
-					"Description": "Combat Start:\n1 ally with the lowest HP percentage heals 3 HP\n1 ally with the least SP heals 3 SP",
+					"Description": "Combat Start:\n$ 1 ally with the lowest HP percentage heals 3 HP\n$ 1 ally with the least SP heals 3 SP",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -17644,7 +17644,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Spiderhead / Skullface",
-					"Description": "When hitting an enemy with a Coin that gains Red Eyes:\nDeal +(Red Eyes / 2)% damage\nIf the target has Bleed, gain 1 Red Eyes (3 times per turn)\n\nWhen hitting an enemy with a Coin that gains Penitence:\nDeal +(Penitence / 2)% damage\nAt 20+ SP, gain 1 Penitence (3 times per turn)",
+					"Description": "When hitting an enemy with a Coin that gains Red Eyes:\n$ Deal +(Red Eyes / 2)% damage\n$ If the target has Bleed, gain 1 Red Eyes (3 times per turn)\nWhen hitting an enemy with a Coin that gains Penitence:\n$ Deal +(Penitence / 2)% damage\n$ At 20+ SP, gain 1 Penitence (3 times per turn)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -17663,7 +17663,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Eat and Sleep",
-					"Description": "Combat Start:\n1 ally with the lowest HP percentage heals 3 HP\n1 ally with the least SP heals 3 SP",
+					"Description": "Combat Start:\n$ 1 ally with the lowest HP percentage heals 3 HP\n$ 1 ally with the least SP heals 3 SP",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Envy",
@@ -22005,7 +22005,7 @@
 				"InstallPassives": [
 					{
 						"Name": "In Memoriam",
-						"Description": "When 3+ Blade Lineage allies are defeated:\nWhen gaining Poise/Poise Count with this unit's own Skills and Coin effects, gain 1 more of each.\nWhen 5 or more Blade Lineage allies are defeated, gain 2 instead.\nCombat Start: Apply Swordplay of the Homeland to self",
+						"Description": "When 3+ Blade Lineage allies are defeated: When gaining Poise/Poise Count with this unit's own Skills and Coin effects, gain 1 more of each.\n$ When 5 or more Blade Lineage allies are defeated, gain 2 instead.\nCombat Start: Apply Swordplay of the Homeland to self",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -22171,7 +22171,7 @@
 				"InstallPassives": [
 					{
 						"Name": "In Memoriam",
-						"Description": "When 3+ Blade Lineage allies are defeated:\nWhen gaining Poise/Poise Count with this unit's own Skills and Coin effects, gain 1 more of each.\nWhen 5 or more Blade Lineage allies are defeated, gain 2 instead.\nCombat Start: Apply Swordplay of the Homeland to self",
+						"Description": "When 3+ Blade Lineage allies are defeated: When gaining Poise/Poise Count with this unit's own Skills and Coin effects, gain 1 more of each.\n$ When 5 or more Blade Lineage allies are defeated, gain 2 instead.\nCombat Start: Apply Swordplay of the Homeland to self",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -22985,7 +22985,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Tiantui Star's Blade [天退星刀]",
-					"Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that (successfully) spend Tigermark Round gain +1 Power and deal +10% damage\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that (successfully) spend Savage Tigermark Round gain +2 Power, deal +30% damage, and inflict +2 more Burn and Burn Count On Hit",
+					"Description": "When this unit has Tigermark Round:\n$ Convert all Coins of 'Tanglecleaver' into Unbreakable Coins\n$ Coins that (successfully) spend Tigermark Round gain +1 Power and deal +10% damage\nWhen this unit has Savage Tigermark Round:\n$ Convert all Coins of this unit's Base Attack Skills to Unbreakable Coins\n$ At 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\n$ Coins that (successfully) spend Savage Tigermark Round gain +2 Power, deal +30% damage, and inflict +2 more Burn and Burn Count On Hit",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Sloth",
@@ -23188,7 +23188,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Tiantui Star's Blade [天退星刀]",
-					"Description": "When this unit has Tigermark Round:\nConvert all Coins of 'Tanglecleaver' into Unbreakable Coins\nCoins that (successfully) spend Tigermark Round gain +1 Power\nWhen this unit has Savage Tigermark Round:\nConvert all Coins of this unit's Base Attack Skills to Unbreakable Coins\nAt 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\nCoins that (successfully) spend Savage Tigermark Round gain +2 Power",
+					"Description": "When this unit has Tigermark Round:\n$ Convert all Coins of 'Tanglecleaver' into Unbreakable Coins\n$ Coins that (successfully) spend Tigermark Round gain +1 Power\nWhen this unit has Savage Tigermark Round:\n$ Convert all Coins of this unit's Base Attack Skills to Unbreakable Coins\n$ At 0 Savage Tigermark Round, convert all Coins of this unit's Base Attack Skills that spend Unique Ammo to Unbreakable Coins\n$ Coins that (successfully) spend Savage Tigermark Round gain +2 Power",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Sloth",
@@ -26014,7 +26014,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Gaiety",
-					"Description": "Heal (2x Gluttony Reson) SP next turn",
+					"Description": "Heal (2 x Gluttony Reson) SP next turn",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -26127,7 +26127,7 @@
 				},
 				"PassiveSkill": {
 					"Name": "Gaiety",
-					"Description": "Heal (2x Gluttony Reson) SP next turn",
+					"Description": "Heal (2 x Gluttony Reson) SP next turn",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -27163,7 +27163,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Concentration",
-						"Description": "When flipping a Coin that consumes Ammo:\nEven when this unit is out of Ammo, the attack does not get cancelled.\nHowever, the affected Coins' On Hit effects do not activate in such cases",
+						"Description": "When flipping a Coin that consumes Ammo:\n$ Even when this unit is out of Ammo, the attack does not get cancelled.\n$ However, the affected Coins' On Hit effects do not activate in such cases",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -27405,7 +27405,7 @@
 				"InstallPassives": [
 					{
 						"Name": "Concentration",
-						"Description": "When flipping a Coin that consumes Ammo:\nEven when this unit is out of Ammo, the attack does not get cancelled.\nHowever, the affected Coins' On Hit effects do not activate in such cases",
+						"Description": "When flipping a Coin that consumes Ammo:\n$ Even when this unit is out of Ammo, the attack does not get cancelled.\n$ However, the affected Coins' On Hit effects do not activate in such cases",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -29004,7 +29004,6 @@
 					],
 					"ResourceType": "Res",
 					"EffectTags": [
-
 					]
 				},
 				"SupportSkill": {
@@ -29180,6 +29179,339 @@
 					"ResourceType": "Owned",
 					"EffectTags": [
 						"Ally Damage Amp"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 6310,
+		"Sinner": "Hong Lu",
+		"Identity": "Cinq Association East Section 3",
+		"DWorld": "???",
+		"Season": -7,
+		"Traits": [
+			"Cinq Association",
+			"Fixer"
+		],
+		"Speed": [ 4, 7 ],
+		"BaseHP": 82,
+		"GrowthHP": 2.82,
+		"StaggerThresholds": [ 70, 40, 20 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
+		},
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Fa Jin",
+					"Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] Clash Power +1 for every 6 (Poise on self + Burn on target) (max 2)\n[On Use] If target does not have Nerve Strike - Hong Lu, Clash Power +1\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Burn\n[On Hit] If target has 3+ Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Inflict 1 Burn",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 6,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count",
+						"Burn Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Virescent Flame Palm",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (max 2)\n[On Use] At 6+ (Poise on self + Burn on target), Final Power +1\n[Clash Win] Gain 3 Poise\n$ Gain Poise Count equal to Nerve Strike - Hong Lu on target\n<1>[On Hit] Gain +2 Poise Count\n[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict +1 Burn Count\n[On Hit] If target has 2+ Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Inflict Defense Level Down equal to Nerve Strike - Hong Lu on target (once per turn)",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Burn Potency",
+						"Burn Count",
+						"Defense Level Down"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Take the Hit to the Last Blow, Please?",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Use] At 6+ (Poise on self + Burn on target), Coin Power +1\n[Clash Win] Gain 5 Poise\n$ Gain Poise Count equal to Nerve Strike - Hong Lu on target\n<1>[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict 2 Burn\n<3>Deal +(Poise on self + Burn on target)% damage on Critical Hit (max 30%)\n[On Hit] Inflict +1 Burn Count\n[On Crit] Inflict 2 Defense Level Down\n[On Hit] If target has Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Deal Wrath damage equal to (Burn on target x 2)% of this Coin's final damage (max 40%)",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Burn Potency",
+						"Burn Count",
+						"Defense Level Down"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Light as a Tuft of Cloud",
+					"Description": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[Combat Start] Gain +3 Poise Count (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "A Duel Witnessed",
+						"Description": "Upon entering the Encounter for the first time, gain Witnessed - Eastern Cinq equal to the number of 'Cinq Association' Identities set as Backup or Support Units (max 3, including defeated units)\nAgainst the target a Base Attack Skill hit last, inflict 1 Nerve Strike - Hong Lu next turn (once per turn, in Focused Encounters, the Part)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Witnessed - Eastern Cinq",
+							"Nerve Strike"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Virescent Pyrojade",
+					"Description": "On Clash Win, if target has Nerve Strike, inflict 1 Nerve Strike - Hong Lu (once per turn)\nTurn End: Gain 1 Haste next turn for every 3 Poise Potency on self (max 2)\nDeal +(Burn Potency on target)% damage on Critical Hit (max 15%)\n$ Increase max cap by 5% for every 1 Nerve Strike - Hong Lu on the target",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Nerve Strike",
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "I'll Melt Open the Way Out",
+					"Description": "1 ally with the fastest Speed: On Clash Win against enemies that have Burn or 'Unique Burn', inflict 1 Bind next turn (once per turn)\n$ If target has 4- Burn Count, also inflict +1 Burn Count to the said target this turn\n$ If target has 5+ Burn Count, also inflict 3 Burn to the said target this turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Bind",
+						"Burn Count",
+						"Burn Potency"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Fa Jin",
+					"Description": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[On Use] If target does not have Nerve Strike - Hong Lu, Clash Power +1\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Inflict 1 Burn\n[On Hit] If target has 3+ Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Inflict 1 Burn",
+					"DamageType": "Pierce",
+					"SinType": "Gloom",
+					"BasePower": 6,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count",
+						"Burn Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Virescent Flame Palm",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (max 2)\n[Clash Win] Gain 3 Poise\n$ Gain Poise Count equal to Nerve Strike - Hong Lu on target\n<1>[On Hit] Gain +2 Poise Count\n[On Hit] Inflict 2 Burn\n<2>[On Hit] Inflict +1 Burn Count\n[On Hit] If target has 2+ Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Inflict Defense Level Down equal to Nerve Strike - Hong Lu on target (once per turn)",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Burn Potency",
+						"Burn Count",
+						"Defense Level Down"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Take the Hit to the Last Blow, Please?",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[Clash Win] Gain 3 Poise\n$ Gain Poise Count equal to Nerve Strike - Hong Lu on target\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Burn\n<3>Deal +(Poise on self + Burn on target)% damage on Critical Hit (max 20%)\n[On Hit] Inflict +1 Burn Count\n[On Crit] Inflict 2 Defense Level Down\n[On Hit] If target has Nerve Strike - Hong Lu, Reuse this Coin (once per Skill)\n[Reuse - On Hit] Deal Wrath damage equal to (Burn on target x 2)% of this Coin's final damage (max 40%)",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"ClashPowerModifierStatuses": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Burn Potency",
+						"Burn Count",
+						"Defense Level Down"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Light as a Tuft of Cloud",
+					"Description": "If this unit's Speed is faster than the attacker's by 2 or more, Coin Power +1\n[Combat Start] Gain +2 Poise Count (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "None",
+					"BasePower": 3,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"BasePowerModifierStatuses": 1,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "A Duel Witnessed",
+						"Description": "Upon entering the Encounter for the first time, gain Witnessed - Eastern Cinq equal to the number of 'Cinq Association' Identities set as Backup or Support Units (max 3, including defeated units)\nAgainst the target a Base Attack Skill hit last, inflict 1 Nerve Strike - Hong Lu next turn (once per turn, in Focused Encounters, the Part)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Witnessed - Eastern Cinq",
+							"Nerve Strike"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Virescent Pyrojade",
+					"Description": "On Clash Win, if target has Nerve Strike, inflict 1 Nerve Strike - Hong Lu (once per turn)\nTurn End: Gain 1 Haste next turn for every 5 Poise Potency on self (max 2)\nDeal +(Burn Potency on target)% damage on Critical Hit (max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Nerve Strike",
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "I'll Melt Open the Way Out",
+					"Description": "1 ally with the fastest Speed: On Clash Win against enemies that have Burn or 'Unique Burn', inflict 1 Bind next turn (once per turn)\n$ If target has 4- Burn Count, also inflict +1 Burn Count to the said target this turn\n$ If target has 5+ Burn Count, also inflict 3 Burn to the said target this turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Wrath",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Bind",
+						"Burn Count",
+						"Burn Potency"
 					]
 				}
 			}
@@ -32464,7 +32796,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Rules of the Backstreets",
-					"Description": "[Clashable Counter]\nIf Kurokumo Clan Captain Ishmael is on the field:\nTurn all Coins in this skill into Unbreakable Coins\nFinal Power +4 on Clash Lose\nDeal +10% damage for every type of negative effect on target (max 100%)\n[On Use] If this unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] If this unit has Dark Cloud Blade, Reuse Coin once (once per Skill)\n[On Hit] If this unit has Battle Ready, Reuse Coin once (once per Skill)",
+					"Description": "[Clashable Counter]\nIf Kurokumo Clan Captain Ishmael is on the field:\n$ Turn all Coins in this skill into Unbreakable Coins\n$ Final Power +4 on Clash Lose\nDeal +10% damage for every type of negative effect on target (max 100%)\n[On Use] If this unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] If this unit has Dark Cloud Blade, Reuse Coin once (once per Skill)\n[On Hit] If this unit has Battle Ready, Reuse Coin once (once per Skill)",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -32607,7 +32939,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Rules of the Backstreets",
-					"Description": "[Clashable Counter]\nIf Kurokumo Clan Captain Ishmael is on the field:\nTurn all Coins in this skill into Unbreakable Coins\nFinal Power +3 on Clash Lose\n[On Use] If this unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] If this unit has Dark Cloud Blade, Reuse Coin once (once per Skill)\n[On Hit] If this unit has Battle Ready, Reuse Coin once (once per Skill)",
+					"Description": "[Clashable Counter]\nIf Kurokumo Clan Captain Ishmael is on the field:\n$ Turn all Coins in this skill into Unbreakable Coins\n$ Final Power +3 on Clash Lose\n[On Use] If this unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] If this unit has Dark Cloud Blade, Reuse Coin once (once per Skill)\n[On Hit] If this unit has Battle Ready, Reuse Coin once (once per Skill)",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -33592,7 +33924,7 @@
 				"InstallPassives": [
 					{
 						"Name": "The Book of Vengeance",
-						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]\nTurn Start: At 15+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (excluding certain Encounters)\nCombat Start in the Turn this unit Substituted in or Returned to the field:\nUse 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply 1 Offense Level Up and 1 Defense Level Up on all The Middle-faction allies",
+						"Description": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 Vendetta Mark on said enemy and gain 1 Book of Vengeance [Heathcliff] (once per Skill)\nAlly Death: Gain 3 Book of Vengeance [Heathcliff]\nTurn Start: At 15+ Vengeance Tattoo:\n$ Replace a Base Skill with 'COMPLETE AND TOTAL EXTERMINATION!!' (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n$- If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n$ Change battle music until Turn End (excluding certain Encounters)\nCombat Start in the Turn this unit Substituted in or Returned to the field:\n$ Use 'MY HAIR COUPOOOOOOOOOOONS!!!!' on a random target\n$ Attack End of said Skill: Apply 1 Offense Level Up and 1 Defense Level Up on all The Middle-faction allies",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -36502,7 +36834,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Harpoon of Obsession",
-					"Description": "Deal more damage based on target's missing HP (+0.3% damage per 1% missing HP, max +30%\nCoin Power +1 for every 5 Bleed on target (max 2)\n[After Attack] If the target is Staggered or defeated, (1+(highest A-Reson/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count (4 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
+					"Description": "Deal more damage based on target's missing HP (+0.3% damage per 1% missing HP, max +30%\nCoin Power +1 for every 5 Bleed on target (max 2)\n[After Attack] If the target is Staggered or defeated, (1 + (highest A-Reson / 2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count (4 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -36565,7 +36897,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Captain of the Pequod",
-					"Description": "After Attack: If the enemy is defeated after this unit's attack:\nGain 4 Poise, +2 Poise Count. Then, gain Overheated Gas Harpoon next turn\n2 other allies with the least SP heal 7 SP and gain 4 Poise\nIf the ally is from The Pequod, heal an additional 5 SP. Then, once per turn, apply 1 Pierce Power Up next turn",
+					"Description": "After Attack: If the enemy is defeated after this unit's attack:\n$ Gain 4 Poise, +2 Poise Count. Then, gain Overheated Gas Harpoon next turn\n$ 2 other allies with the least SP heal 7 SP and gain 4 Poise\n$- If the ally is from The Pequod, heal an additional 5 SP. Then, once per turn, apply 1 Pierce Power Up next turn",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -36646,7 +36978,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Harpoon of Obsession",
-					"Description": "Deal more damage based on target's missing HP (+0.2% damage per 1% missing HP, max +20%\n[After Attack] If the target is Staggered or defeated, (1+(highest A-Reson/2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count (2 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
+					"Description": "Deal more damage based on target's missing HP (+0.2% damage per 1% missing HP, max +20%\n[After Attack] If the target is Staggered or defeated, (1 + (highest A-Reson / 2)) allies with the least SP heal 10 SP, gain 2 Poise and +4 Poise Count (2 times max. Max # of allies that can be healed: 4)\n<2>[On Hit] Inflict +1 Bleed Count\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Inflict +1 Burn Count",
 					"DamageType": "Pierce",
 					"SinType": "Wrath",
 					"BasePower": 4,
@@ -36706,7 +37038,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Captain of the Pequod",
-					"Description": "After Attack: If the enemy is defeated after this unit's attack:\nGain Heated Gas Harpoon next turn\n1 other ally with the least SP heals 7 SP\nIf the ally is from The Pequod, heal an additional 5 SP",
+					"Description": "After Attack: If the enemy is defeated after this unit's attack:\n$ Gain Heated Gas Harpoon next turn\n$ 1 other ally with the least SP heals 7 SP\n$- If the ally is from The Pequod, heal an additional 5 SP",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -37516,7 +37848,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Lingering Resolve",
-					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
+					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\n$ Combat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -37689,7 +38021,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Lingering Resolve",
-					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\nCombat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
+					"Description": "If this unit is defeated in an Encounter, apply Assist [援] to the next Substituting Identity next turn\nIf this unit is a Backup Unit or Retreated:\n$ Combat Start: Among Units who are at 50% HP or lower and used a Defense Skill, choose the Identity with the highest Deployment order. At Turn End, that Identity recovers from Stagger caused by damage and performs a Battlefield Retreat (2 times per Encounter)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Gluttony",
@@ -46720,7 +47052,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Engagement",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (max 2)\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (max 2)\n[Clash Win] Gain +2 Poise Count\n<1>[On Hit] Gain +1 Poise Count\n<2>[On Hit] Gain +1 Poise Count",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -46741,7 +47073,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Contre Attaque",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (max 3)\n[Clash Win] Consume 10 Poise Count, gain Poise equal to Poise Count consumed. Against targets with Declared Duel - Sinclair, gain Poise equal to (Poise Count consumed x 2) instead\n[Clash Win] If this unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+50% damage on Critical Hit",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every 2 Speed difference (max 3)\n[Clash Win] Consume 10 Poise Count, gain Poise equal to Poise Count consumed. Against targets with Declared Duel - Sinclair, gain Poise equal to (Poise Count consumed x 2) instead\n[Clash Win] If this unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile On Hit (twice per turn)\n<1>[On Hit] Inflict Declared Duel - Sinclair\n<3>+50% damage on Critical Hit",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -49007,7 +49339,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Backslash",
-					"Description": "<1>If user's speed is higher than target's, +20% damage\n<2>If user's speed is higher than target's, +20% damage",
+					"Description": "<1>If user's Speed is faster than target's, +20% damage\n<2>If user's Speed is faster than target's, +20% damage",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 5,
@@ -49116,7 +49448,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Backslash",
-					"Description": "<1>If user's speed is higher than target's, +20% damage\n<2>If user's speed is higher than target's, +20% damage",
+					"Description": "<1>If user's Speed is faster than target's, +20% damage\n<2>If user's Speed is faster than target's, +20% damage",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -49754,7 +50086,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Punition",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +2\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 4 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +2\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 4 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -49778,7 +50110,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Balestra Fente",
-					"Description": "At 7+ Poise, Final Power +4\n[Clash Win] Deal more damage based on Clash count (max 10)\n<1>[On Hit] Inflict Declared Duel - Outis\n[On Hit] Apply 2 Haste next turn to 2 allies with the slowest Speed\n[On Crit] +70% damage on Critical Hit",
+					"Description": "At 7+ Poise, Final Power +4\n[Clash Win] Gain Poise based on Clash count (max 10)\n<1>[On Hit] Inflict Declared Duel - Outis\n[On Hit] Apply 2 Haste next turn to 2 allies with the slowest Speed\n[On Crit] +70% damage on Critical Hit",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 8,
@@ -49793,6 +50125,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"EffectTags": [
+						"Poise Potency",
 						"Declared Duel",
 						"Ally Haste"
 					]
@@ -49800,7 +50133,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Retraite",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +1 for every Speed difference (Coin Power +1 for every 1 Speed difference; Max 3)\n[On Evade] Gain 1 Poise (max 10)",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1 for every Speed difference (Coin Power +1 for every 1 Speed difference; Max 3)\n[On Evade] Gain 1 Poise (max 10)",
 					"DamageType": "Evade",
 					"SinType": "Pride",
 					"BasePower": 5,
@@ -49835,7 +50168,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Mentor's Counsel",
-					"Description": "If the fastest ally's Speed is higher than Speed of all enemies, the fastest ally gains Clash Power +1\nIf said ally is a Cinq Association Fixer, the fastest ally deals +10% Damage",
+					"Description": "If the fastest ally's Speed is faster than Speed of all enemies, the fastest ally gains Clash Power +1\nIf said ally is a Cinq Association Fixer, the fastest ally deals +10% Damage",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -49877,7 +50210,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Punition",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 2 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Use] Gain +2 Poise Count\n[On Use] This Skill Slot gains 2 Aggro next turn\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Bind next turn",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 4,
@@ -49901,7 +50234,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Balestra Fente",
-					"Description": "At 7+ Poise, Final Power +2\n[Clash Win] Deal more damage based on Clash count (max 10)\n<1>[On Hit] Inflict Declared Duel - Outis\n[On Hit] Apply 2 Haste next turn to 2 allies with the slowest Speed\n[On Crit] +50% damage on Critical Hit",
+					"Description": "At 7+ Poise, Final Power +2\n[Clash Win] Gain Poise based on Clash count (max 10)\n<1>[On Hit] Inflict Declared Duel - Outis\n[On Hit] Apply 2 Haste next turn to 2 allies with the slowest Speed\n[On Crit] +50% damage on Critical Hit",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 8,
@@ -49916,6 +50249,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"EffectTags": [
+						"Poise Potency",
 						"Declared Duel",
 						"Ally Haste"
 					]
@@ -49923,7 +50257,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Retraite",
-					"Description": "If this unit's Speed is higher than the target's, Coin Power +1\n[On Evade] Gain 1 Poise (max 5)",
+					"Description": "If this unit's Speed is faster than the target's, Coin Power +1\n[On Evade] Gain 1 Poise (max 5)",
 					"DamageType": "Evade",
 					"SinType": "None",
 					"BasePower": 5,
@@ -49957,7 +50291,7 @@
 				},
 				"SupportSkill": {
 					"Name": "Mentor's Counsel",
-					"Description": "If the fastest ally's Speed is higher than Speed of all enemies, the fastest ally gains Clash Power +1",
+					"Description": "If the fastest ally's Speed is faster than Speed of all enemies, the fastest ally gains Clash Power +1",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Pride",
@@ -54169,7 +54503,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "You Fresh Enough?",
-					"Description": "If user's speed is higher than target's by 3+, Coin Power +3\n<1>[On Hit] Inflict +2 Bleed Count, inflict 2 Bind next turn",
+					"Description": "If user's Speed is faster than the target's by 3 or more, Coin Power +3\n<1>[On Hit] Inflict +2 Bleed Count, inflict 2 Bind next turn",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 6,
@@ -56018,7 +56352,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "The Unforgivable Sin",
-					"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (max 100 per Skill)\n[On Use] Deal +1.5% damage for every 1% missing HP on self (max 90%)\n[On Use] If the target has 6+ Bleed, Coin Power +1\n[On Use] Consume excess Bloodied Hand past 10 to gain:\nHeal (Stacks consumed x 3) HP\nIf 10+ Stacks were consumed, Coin Power +1\nIf 20+ Stacks were consumed, Reuse the final Coin\n[On Use] Gain 10 Bleed\n[After Attack] Heal 10% HP\n<1>[On Hit] Gain 3 Bloodied Hand\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +2 Rupture Count\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Rupture",
+					"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (max 100 per Skill)\n[On Use] Deal +1.5% damage for every 1% missing HP on self (max 90%)\n[On Use] If the target has 6+ Bleed, Coin Power +1\n[On Use] Consume excess Bloodied Hand past 10 to gain:\n$ Heal (Stacks consumed x 3) HP\n$ If 10+ Stacks were consumed, Coin Power +1\n$ If 20+ Stacks were consumed, Reuse the final Coin\n[On Use] Gain 10 Bleed\n[After Attack] Heal 10% HP\n<1>[On Hit] Gain 3 Bloodied Hand\n<2>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict +2 Rupture Count\n<3>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 2 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -56170,7 +56504,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "The Unforgivable Sin",
-					"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (max 100 per Skill)\n[On Use] Deal +1% damage for every 1% missing HP on self (max 60%)\n[On Use] If the target has 6+ Bleed, Coin Power +1\n[On Use] Consume excess Bloodied Hand past 10 to gain:\nHeal (Stacks consumed x 3) HP\nIf 10+ Stacks were consumed, Coin Power +1\n[On Use] Gain 10 Bleed\n[After Attack] Heal 10% HP\n<1>[On Hit] Gain 2 Bloodied Hand\n<2>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<3>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Rupture",
+					"Description": "On Hit with this Skill: Heal 50% of HP damage dealt (max 100 per Skill)\n[On Use] Deal +1% damage for every 1% missing HP on self (max 60%)\n[On Use] If the target has 6+ Bleed, Coin Power +1\n[On Use] Consume excess Bloodied Hand past 10 to gain\n$ Heal (Stacks consumed x 3) HP\n$ If 10+ Stacks were consumed, Coin Power +1\n[On Use] Gain 10 Bleed\n[After Attack] Heal 10% HP\n<1>[On Hit] Gain 2 Bloodied Hand\n<2>[On Hit] Inflict +1 Bleed Count\n[On Hit] Inflict +1 Rupture Count\n<3>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 Rupture",
 					"DamageType": "Blunt",
 					"SinType": "Lust",
 					"BasePower": 5,

@@ -3064,7 +3064,7 @@
         "Cost": 410,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply or gain Poise (except E.G.O Skills, except Backup Units)\nCombat Start: If a random ally with Poise Critical Hits on an enemy with a Skill, all allies gain 7 Poise and +7 Poise Count at the next Turn Start (once per turn)\nSkill 3 of Identities with Skills that apply or gain Poise or Poise Count: Final Power +3, Plus Coin Power +(12/# of Coins), damage dealt +(50/# of coins)%\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(8 / # of Coins) (min 1; rounded down)\nCombat Start: a random ally gains 3 Poise (prioritizes Identities that apply or gain Poise or Poise Count with their Attack Skills\nPrioritizes allies with Gloom Affinity Attack Skills; they gain 3 Poise and +2 Poise Count.",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply or gain Poise (except E.G.O Skills, except Backup Units)\nCombat Start: If a random ally with Poise Critical Hits on an enemy with a Skill, all allies gain 7 Poise and +7 Poise Count at the next Turn Start (once per turn)\nSkill 3 of Identities with Skills that apply or gain Poise or Poise Count: Final Power +3, Plus Coin Power +(12 / # of Coins), damage dealt +(50 / # of coins)%\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(8 / # of Coins) (min 1; rounded down)\nCombat Start: a random ally gains 3 Poise (prioritizes Identities that apply or gain Poise or Poise Count with their Attack Skills\nPrioritizes allies with Gloom Affinity Attack Skills; they gain 3 Poise and +2 Poise Count.",
                 "Rank": 1,
                 "EffectTags": [
                     "Poise Potency",
@@ -3416,7 +3416,7 @@
         "Cost": 255,
         "Upgrades": [
             {
-                "Description": "Activates upon Clash Win using a Skill that inflicts Bleed, Bleed Count, or Unique Bleed:\nInflict +(# of remaining Coins/2) Bleed Count to the target, and gain Offense Level Up equal to that value next turn.\nFor Skills with 2 or fewer Coins, use (# of remaining Coins + 3) to calculate instead.",
+                "Description": "Activates upon Clash Win using a Skill that inflicts Bleed, Bleed Count, or Unique Bleed\nInflict +(# of remaining Coins/2) Bleed Count to the target, and gain Offense Level Up equal to that value next turn.\nFor Skills with 2 or fewer Coins, use (# of remaining Coins + 3) to calculate instead.",
                 "Rank": 1,
                 "EffectTags": [
                     "Bleed Count",
@@ -4347,7 +4347,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "Activates when using E.G.O Awakening Skills that gain Poise or Poise Count (NOT Corrosion Skills)\nGain Final Power equal to (Pride E.G.O resource + Sum of other E.G.O resources / 3) consumed and deal +50% damage.\nPride E.G.O Awakening Skills: Gain additional Poise Count based on E.G.O grades Before Attack (ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on) and deal +(sum of all E.G.O resources consumed / 8)% damage.",
+                "Description": "Activates when using E.G.O Awakening Skills that gain Poise or Poise Count (NOT Corrosion Skills)\nGain Final Power equal to (Pride E.G.O resource + Sum of other E.G.O resources / 3) consumed and deal +50% damage.\nPride E.G.O Awakening Skills: Gain additional Poise Count based on E.G.O grades Before Attack (ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on) and deal +(sum of all E.G.O resources consumed x 8)% damage.",
                 "Rank": 1,
                 "EffectTags": [
                     "Final Power",
@@ -4370,21 +4370,21 @@
         "Cost": 256,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #3, #4 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
+                "Description": "[Effect applies to #3, #4 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40 / # of remaining Coins)% damage.",
                 "Rank": 1,
                 "EffectTags": [
                     "Slash Damage Amp"
                 ]
             },
             {
-                "Description": "[Effect applies to #3, #4, #5 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40/# of remaining Coins)% damage.",
+                "Description": "[Effect applies to #3, #4, #5 Deployed Identities]\nUnopposed Slash Skills deal +10% damage.\nClash Win: Slash Skills deal +(40 / # of remaining Coins)% damage.",
                 "Rank": 2,
                 "EffectTags": [
                     "Slash Damage Amp"
                 ]
             },
             {
-                "Description": "[Effect applies to #3, #4, #5, #6 Deployed Identities]\nUnopposed Slash Skills deal +12.5% damage.\nClash Win: Slash Skills deal +(50/# of remaining Coins)% damage.",
+                "Description": "[Effect applies to #3, #4, #5, #6 Deployed Identities]\nUnopposed Slash Skills deal +12.5% damage.\nClash Win: Slash Skills deal +(50 / # of remaining Coins)% damage.",
                 "Rank": 3,
                 "EffectTags": [
                     "Slash Damage Amp"
@@ -4540,7 +4540,7 @@
         "Cost": 190,
         "Upgrades": [
             {
-                "Description": "Pierce Skills gain Clash Power +1.\nSkills that consume Ammo deal +(40/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
+                "Description": "Pierce Skills gain Clash Power +1.\nSkills that consume Ammo deal +(40 / # of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
                 "Rank": 1,
                 "EffectTags": [
                     "Clash Power",
@@ -4548,7 +4548,7 @@
                 ]
             },
             {
-                "Description": "Pierce Skills gain Clash Power +1 and deal +5% damage.\nSkills that consume Ammo deal +(50/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
+                "Description": "Pierce Skills gain Clash Power +1 and deal +5% damage.\nSkills that consume Ammo deal +(50 / # of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
                 "Rank": 2,
                 "EffectTags": [
                     "Clash Power",
@@ -4557,7 +4557,7 @@
                 ]
             },
             {
-                "Description": "Pierce Skills gain Clash Power +1 and deal +10% damage.\nSkills that consume Ammo deal +(60/# of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
+                "Description": "Pierce Skills gain Clash Power +1 and deal +10% damage.\nSkills that consume Ammo deal +(60 / # of Coins)% damage.\nIf the unit is out of Ammo, gain 2 Ammo at the next Turn Start (once per encounter)",
                 "Rank": 3,
                 "EffectTags": [
                     "Clash Power",
@@ -5119,7 +5119,7 @@
         "Cost": 248,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that consumed Tremor Count on self: if the target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that consumed Tremor Count on self: if the target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)",
                 "Rank": 1,
                 "EffectTags": [
                     "Tremor Count",
@@ -5142,7 +5142,7 @@
         "Cost": 405,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units, excludes Self-Tremor Identities)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Tremor Burst or Amplitude Conversion against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Amplitude Conversion or Amplitude Entanglement against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
                 "Rank": 1,
                 "EffectTags": [
                     "Tremor Potency",
@@ -5231,7 +5231,7 @@
         "Cost": 406,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if the target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4/# of Coins) (min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nRupture effects deal +150% damage against enemy Shield\nTurn Start: Enemies or Parts with Rupture lose (3 + (Rupture / 2)) Offense and Defense Level (max 6)\nWhen inflicting Rupture or Rupture Count with Skill effects, inflict 2 Rupture and +1 Rupture Count; if the target has 15- Rupture, inflict +2 Rupture\nCoin Power +1 for Plus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture\nBase Power +(4 / # of Coins) (min 1; rounded down) for Minus Coin Skills that inflict Rupture, Rupture Count, or Unique Rupture",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -5319,7 +5319,7 @@
         "Cost": 401,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking (except E.G.O Skills, except Backup Units)\nWhen dealing HP damage On Hit with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End (once per turn per enemy)\nCombat Start: When activating Gloom or Lust A-Res, inflict 3 Sinking and +3 Sinking Count on all enemies (for Abnormalities, a random Part)\nBase Attack Skill End: If enemy has 10+ Sinking, heal (Sinking on target / 10) SP on self (max 5); inflict the same amount as Defense Level Down against the target (once per turn per enemy)\nTurn End: All allies gain Offense Level Up equal to the # of enemies with -45 SP or are Non-SP Units next turn (max 6)\nWhen activating any Sinking On Hit with a Base Attack Skill that gains or inflicts Sinking, Sinking Count, or Unique Sinking, heal 5 SP at Turn End (2 times per turn per Identity)\n$ If the unit was at 45 SP at Turn Start, inflict +3 Sinking Count instead\nTurn Start: Inflict 1 Reflux to a random enemy\nWhen an enemy with Reflux is killed, at next Turn Start, transfer the Reflux Stack to the enemy with the highest, but not maxed Reflux Stack\nCoin Power +1 to Plus Coins that inflict Sinking, Sinking Count, or Unique Sinking\nBase Power +(4/# of Coins) (min 1; rounded down) to Minus Coins that inflict Sinking, Sinking Count, or Unique Sinking",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Sinking, Sinking Count, or Unique Sinking (except E.G.O Skills, except Backup Units)\nWhen dealing HP damage On Hit with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 4 Sinking and +3 Sinking Count at Turn End (once per turn per enemy)\nCombat Start: When activating Gloom or Lust A-Res, inflict 3 Sinking and +3 Sinking Count on all enemies (for Abnormalities, a random Part)\nBase Attack Skill End: If enemy has 10+ Sinking, heal (Sinking on target / 10) SP on self (max 5); inflict the same amount as Defense Level Down against the target (once per turn per enemy)\nTurn End: All allies gain Offense Level Up equal to the # of enemies with -45 SP or are Non-SP Units next turn (max 6)\nWhen activating any Sinking On Hit with a Base Attack Skill that gains or inflicts Sinking, Sinking Count, or Unique Sinking, heal 5 SP at Turn End (2 times per turn per Identity)\n$ If the unit was at 45 SP at Turn Start, inflict +3 Sinking Count instead\nTurn Start: Inflict 1 Reflux to a random enemy\nWhen an enemy with Reflux is killed, at next Turn Start, transfer the Reflux Stack to the enemy with the highest, but not maxed Reflux Stack\nCoin Power +1 to Plus Coins that inflict Sinking, Sinking Count, or Unique Sinking\nBase Power +(4 / # of Coins) (min 1; rounded down) to Minus Coins that inflict Sinking, Sinking Count, or Unique Sinking",
                 "Rank": 1,
                 "EffectTags": [
                     "Sinking Potency",
@@ -8682,7 +8682,7 @@
         "Cost": 404,
         "Upgrades": [
             {
-                "Description": "Limbus Company Identities: Skill 2 gains Offense Level +2 and deals +20% damage; Skill 3 gains Offense Level +3 and deals +40% damage\nTurn Start: A Random ally gains 2 Offense Level Up for every Backup or defeated Limbus Company Identity\nDuring the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (Distributed equally, 2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times per turn)\nWhen 3+ Limbus Company Identities retreat or are defeated, randomly apply 8 Offense Level Up between all Identities instead.",
+                "Description": "Limbus Company Identities: Skill 2 gains Offense Level +2 and deals +20% damage; Skill 3 gains Offense Level +3 and deals +40% damage\nTurn Start: A Random ally gains 2 Offense Level Up for every Backup or defeated Limbus Company Identity\nDuring the Encounter, when an ally retreats or is defeated, randomly apply 3 Offense Level Up between all Identities at next Turn Start (distributed equally, 2 times per turn)\nWhen 3+ allies retreat or are defeated, randomly apply 6 Offense Level Up between all Identities at next Turn Start instead (2 times per turn)\nWhen 3+ Limbus Company Identities retreat or are defeated, randomly apply 8 Offense Level Up between all Identities instead.",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: Limbus Company",
@@ -8840,7 +8840,7 @@
         "Cost": 252,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #2, #4 Deployed Identities]\nWhen taking lethal damage, 60% chance to not take that damage and heal 30 HP (once per Encounter)\nThe above effect does not activate under the following conditions:\nWhen the Skill damage taken exceeds the unit's Max HP\nWhen the unit has the HP Healing Down effect",
+                "Description": "[Effect applies to #2, #4 Deployed Identities]\nWhen taking lethal damage, 60% chance to not take that damage and heal 30 HP (once per Encounter)\nThe above effect does not activate under the following conditions:\n$ When the Skill damage taken exceeds the unit's Max HP\n$ When the unit has the HP Healing Down effect",
                 "Rank": 1,
                 "EffectTags": [
                     "Unrelenting"
@@ -9623,7 +9623,7 @@
         "Cost": 250,
         "Upgrades": [
             {
-                "Description": "On Clash Lose: Gain 1 Protection and heal 3~6 SP (once per turn per Identity).\nWhen attacking an enemy with Unbreakable Coins from the Skill (except E.G.O Skills) that lost the Clash:\nPlus Coin Skills gain +(3 / # of Coins) Coin Power and deal +20% damage (min +1 Coin Power).\nMinus Coins deal +40% damage.",
+                "Description": "On Clash Lose: Gain 1 Protection and heal 3~6 SP (once per turn per Identity).\nWhen attacking an enemy with Unbreakable Coins from the Skill (except E.G.O Skills) that lost the Clash:\n$ Plus Coin Skills gain +(3 / # of Coins) Coin Power and deal +20% damage (min +1 Coin Power)\n$ Minus Coins deal +40% damage.",
                 "Rank": 1,
                 "EffectTags": [
                     "Protection",
@@ -10047,8 +10047,10 @@
                 "Description": "Limbus Company Identities:\n$ Turn Start: Gain (# of Limbus Company Identities participating in battle / 3) Clash Power Up (max 2; rounded down)\nLCE Identities:\n$ Deal +(# of Identities in battle wearing E.G.O Gear x 10)% damage (max 30%)\n$ On same-faction Ally Death: Gain 1 E.G.O resource for all Affinities, gain 1 Plus Coin Boost and 1 Minus Coin Drop for the rest of this Encounter (2 times per Encounter per Identity)",
                 "Rank": 1,
                 "EffectTags": [
+                    "Faction Buff: Limbus Company",
                     "Clash Power",
                     "Damage Amp",
+                    "Gain Resources",
                     "Plus Coin Boost",
                     "Minus Coin Drop"
                 ]
