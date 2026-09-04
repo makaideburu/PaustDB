@@ -1020,6 +1020,9 @@
             "MD2",
             "MD3",
             "MD4"
+        ],
+        "UniqueStatuses":[
+            "Resident Reg. Microchip"
         ]
     },
     {
@@ -1550,7 +1553,7 @@
         "Cost": 382,
         "Upgrades": [
             {
-                "Description": "First Turn Start of an Encounter: Inflict 1 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn (maxes  out at 30 Bleed)",
+                "Description": "First Turn Start of an Encounter: Inflict 1 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn (maxes out at 30 Bleed)",
                 "Rank": 1,
                 "EffectTags": [
                     "Bleed Potency",
@@ -1560,7 +1563,7 @@
                 ]
             },
             {
-                "Description": "First Turn Start of a Wave: Inflict 2 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn (maxes  out at 30 Bleed)",
+                "Description": "First Turn Start of a Wave: Inflict 2 Bleed and +15 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 3) Offense Level and Defense Level for the turn (maxes out at 30 Bleed)",
                 "Rank": 2,
                 "EffectTags": [
                     "Bleed Potency",
@@ -1570,7 +1573,7 @@
                 ]
             },
             {
-                "Description": "First Turn Start of a Wave: Inflict 4 Bleed and +20 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 2) Offense Level and Defense Level for the turn (maxes  out at 30 Bleed)",
+                "Description": "First Turn Start of a Wave: Inflict 4 Bleed and +20 Bleed Count to all enemies (or all Abnormality parts).\nTurn Start: Enemies with Bleed lose (Bleed / 2) Offense Level and Defense Level for the turn (maxes out at 30 Bleed)",
                 "Rank": 3,
                 "EffectTags": [
                     "Bleed Potency",
@@ -1737,7 +1740,7 @@
         "Cost": 381,
         "Upgrades": [
             {
-                "Description": "Turn Start: Inflict (Current Turn Count x 2) Tremor and +2 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
+                "Description": "Turn Start: Inflict (current Turn Count x 2) Tremor and +2 Tremor Count on all enemies (or all Abnormality parts).\nTurn End: Trigger Tremor Burst on all enemies (or all Abnormality parts).",
                 "Rank": 1,
                 "EffectTags": [
                     "Tremor Potency",
@@ -2419,6 +2422,9 @@
             "MD2",
             "MD3",
             "MD4"
+        ],
+        "UniqueStatuses":[
+            "Near-light Superbattery"
         ]
     },
     {
@@ -2677,7 +2683,7 @@
         "Cost": 216,
         "Upgrades": [
             {
-                "Description": "Turn End: Inflict 2 Bind to enemies (for Abnormalities, their parts) with 10+ Tremor.\nIf the target has 20+ Tremor, apply 2 Bind and 1 Paralyze instead.",
+                "Description": "Turn End: Inflict 2 Bind to enemies (for Abnormalities, their parts) with 10+ Tremor.\nIf target has 20+ Tremor, apply 2 Bind and 1 Paralyze instead.",
                 "Rank": 1,
                 "EffectTags": [
                     "Bind",
@@ -2685,7 +2691,7 @@
                 ]
             },
             {
-                "Description": "Turn End: Inflict 2 Bind and 2 Defense Level Down to enemies (for Abnormalities, their parts) with 8+ Tremor.\nIf the target has 15+ Tremor, apply 2 Bind, 1 Paralyze, and 2 Defense Level Down instead.",
+                "Description": "Turn End: Inflict 2 Bind and 2 Defense Level Down to enemies (for Abnormalities, their parts) with 8+ Tremor.\nIf target has 15+ Tremor, apply 2 Bind, 1 Paralyze, and 2 Defense Level Down instead.",
                 "Rank": 2,
                 "EffectTags": [
                     "Bind",
@@ -2694,7 +2700,7 @@
                 ]
             },
             {
-                "Description": "Turn End: Inflict 3 Bind and 3 Defense Level Down to enemies (for Abnormalities, their parts) with 5+ Tremor.\nIf the target has 10+ Tremor, apply 2 Bind, 1 Paralyze, and 4 Defense Level Down instead.",
+                "Description": "Turn End: Inflict 3 Bind and 3 Defense Level Down to enemies (for Abnormalities, their parts) with 5+ Tremor.\nIf target has 10+ Tremor, apply 2 Bind, 1 Paralyze, and 4 Defense Level Down instead.",
                 "Rank": 3,
                 "EffectTags": [
                     "Bind",
@@ -2941,7 +2947,7 @@
         "Cost": 416,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture\nSkills that inflict Rupture or Rupture Count: Inflict an additional 3 Rupture and +1 Rupture Count (once per Skill)\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count (this effect ends when Rupture drops below 10)\nIf the target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count (3 times per Encounter)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen hitting an enemy with a Skill, inflict 5 Rupture\nSkills that inflict Rupture or Rupture Count: Inflict an additional 3 Rupture and +1 Rupture Count (once per Skill)\nWhen Rupture Count on an enemy drops below 1, consume 10 Rupture instead of Rupture Count (this effect ends when Rupture drops below 10)\nIf target has less than 3 Rupture Count, inflict +1 Count when inflicting Rupture Count (3 times per Encounter)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -3129,7 +3135,7 @@
         "Cost": 406,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (maxes  at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (maxes  at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 10 Charge Count (5 times per Identity per Encounter; Unique Charge does not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (max 2)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 10 Charge Count (5 times per Identity per Encounter; Unique Charge does not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (max 2)",
                 "Rank": 1,
                 "EffectTags": [
                     "Charge Barrier",
@@ -3846,7 +3852,7 @@
         ]
     },
     {
-        "Id": "A-1-004-123",
+        "Id": "A-1-004-124",
         "Name": "Uncapped Defibrillator",
         "Tag": "Charge",
         "Abnormality": "Shock Centipede",
@@ -3884,7 +3890,7 @@
         ]
     },
     {
-        "Id": "A-1-004-124",
+        "Id": "A-1-004-125",
         "Name": "Grandeur",
         "Tag": "Sinking",
         "Abnormality": "My Form Empties",
@@ -3922,7 +3928,7 @@
         ]
     },
     {
-        "Id": "A-1-004-124",
+        "Id": "A-1-004-126",
         "Name": "Patrolling Flashlight",
         "Tag": "Charge",
         "Abnormality": "Wayward Passenger",
@@ -3960,7 +3966,7 @@
         ]
     },
     {
-        "Id": "A-1-004-125",
+        "Id": "A-1-004-127",
         "Name": "Distant Star",
         "Tag": "Sinking",
         "Abnormality": "None",
@@ -3982,7 +3988,7 @@
         ]
     },
     {
-        "Id": "A-1-004-125",
+        "Id": "A-1-004-128",
         "Name": "Imitative Generator",
         "Tag": "Charge",
         "Abnormality": "None",
@@ -4004,7 +4010,7 @@
         ]
     },
     {
-        "Id": "A-1-004-126",
+        "Id": "A-1-004-129",
         "Name": "Fragment of Decay",
         "Tag": "Sinking",
         "Abnormality": "None",
@@ -4027,7 +4033,7 @@
         ]
     },
     {
-        "Id": "A-1-004-126",
+        "Id": "A-1-004-130",
         "Name": "Fragment of Friction",
         "Tag": "Charge",
         "Abnormality": "None",
@@ -4050,7 +4056,7 @@
         ]
     },
     {
-        "Id": "A-1-004-127",
+        "Id": "A-1-004-131",
         "Name": "Devil's Share",
         "Tag": "Poise",
         "Abnormality": "None",
@@ -4088,7 +4094,7 @@
         ]
     },
     {
-        "Id": "A-1-004-127",
+        "Id": "A-1-004-132",
         "Name": "Scalpel",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -4123,7 +4129,7 @@
         ]
     },
     {
-        "Id": "A-1-004-128",
+        "Id": "A-1-004-133",
         "Name": "Deceptive Accord",
         "Tag": "Slash",
         "Abnormality": "Broken Wings",
@@ -4158,7 +4164,7 @@
         ]
     },
     {
-        "Id": "A-1-004-128",
+        "Id": "A-1-004-134",
         "Name": "Emerald Elytra",
         "Tag": "Poise",
         "Abnormality": "Fairy-Long-Legs",
@@ -4196,7 +4202,7 @@
         ]
     },
     {
-        "Id": "A-1-004-129",
+        "Id": "A-1-004-135",
         "Name": "Old Wooden Doll",
         "Tag": "Poise",
         "Abnormality": "So That No One Will Cry",
@@ -4231,7 +4237,7 @@
         ]
     },
     {
-        "Id": "A-1-004-129",
+        "Id": "A-1-004-136",
         "Name": "Tailor's Scissors",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -4269,7 +4275,7 @@
         ]
     },
     {
-        "Id": "A-1-004-130",
+        "Id": "A-1-004-137",
         "Name": "Finifugality",
         "Tag": "Poise",
         "Abnormality": "None",
@@ -4291,7 +4297,7 @@
         ]
     },
     {
-        "Id": "A-1-004-130",
+        "Id": "A-1-004-138",
         "Name": "Resolution",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -4338,7 +4344,7 @@
         ]
     },
     {
-        "Id": "A-1-004-131",
+        "Id": "A-1-004-139",
         "Name": "Fragment of Conceit",
         "Tag": "Poise",
         "Abnormality": "None",
@@ -4361,7 +4367,7 @@
         ]
     },
     {
-        "Id": "A-1-004-131",
+        "Id": "A-1-004-140",
         "Name": "Moment of Sentencing",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -4396,7 +4402,7 @@
         ]
     },
     {
-        "Id": "A-1-004-132",
+        "Id": "A-1-004-141",
         "Name": "Sundered Memory",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -4420,7 +4426,7 @@
         ]
     },
     {
-        "Id": "A-1-004-132",
+        "Id": "A-1-004-142",
         "Name": "UPS System",
         "Tag": "Charge",
         "Abnormality": "kqe-1j-23",
@@ -4458,7 +4464,7 @@
         ]
     },
     {
-        "Id": "A-1-004-133",
+        "Id": "A-1-004-143",
         "Name": "Carpenter's Nail",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -4493,7 +4499,7 @@
         ]
     },
     {
-        "Id": "A-1-004-134",
+        "Id": "A-1-004-144",
         "Name": "Once, A Blessing",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -4531,7 +4537,7 @@
         ]
     },
     {
-        "Id": "A-1-004-135",
+        "Id": "A-1-004-145",
         "Name": "Torn Bandolier",
         "Tag": "Pierce",
         "Abnormality": "Der Fluchschütze",
@@ -4571,7 +4577,7 @@
         ]
     },
     {
-        "Id": "A-1-004-136",
+        "Id": "A-1-004-146",
         "Name": "Keenbranch",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -4609,7 +4615,7 @@
         ]
     },
     {
-        "Id": "A-1-004-137",
+        "Id": "A-1-004-147",
         "Name": "Punctured Memory",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -4633,7 +4639,7 @@
         ]
     },
     {
-        "Id": "A-1-004-138",
+        "Id": "A-1-004-148",
         "Name": "Burial Curse",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -4669,7 +4675,7 @@
         ]
     },
     {
-        "Id": "A-1-004-139",
+        "Id": "A-1-004-149",
         "Name": "Compression Bandage",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -4707,7 +4713,7 @@
         ]
     },
     {
-        "Id": "A-1-004-140",
+        "Id": "A-1-004-150",
         "Name": "Temporal Bridle",
         "Tag": "Blunt",
         "Abnormality": "Cyclops",
@@ -4745,7 +4751,7 @@
         ]
     },
     {
-        "Id": "A-1-004-141",
+        "Id": "A-1-004-151",
         "Name": "Clasped Sculpture",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -4780,7 +4786,7 @@
         ]
     },
     {
-        "Id": "A-1-004-142",
+        "Id": "A-1-004-152",
         "Name": "Crushed Memory",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -4804,7 +4810,7 @@
         ]
     },
     {
-        "Id": "A-1-004-143",
+        "Id": "A-1-004-153",
         "Name": "Oracle",
         "Tag": "Keywordless",
         "Abnormality": "None",
@@ -4825,7 +4831,7 @@
         ]
     },
     {
-        "Id": "A-1-004-144",
+        "Id": "A-1-004-154",
         "Name": "Imposed Weight",
         "Tag": "Keywordless",
         "Abnormality": "None",
@@ -4847,7 +4853,7 @@
         ]
     },
     {
-        "Id": "A-1-005-145",
+        "Id": "A-1-005-155",
         "Name": "Decamillennial Stewpot",
         "Tag": "Burn",
         "Abnormality": "Basilisoup",
@@ -4868,7 +4874,7 @@
         ]
     },
     {
-        "Id": "A-1-005-146",
+        "Id": "A-1-005-156",
         "Name": "Decamillennial Hearthflame",
         "Tag": "Burn",
         "Abnormality": "Basilisoup",
@@ -4877,7 +4883,7 @@
         "Cost": 201,
         "Upgrades": [
             {
-                "Description": "Turn End: Enemies with 3+ Burn Count Activate Burn one more time (Reduce Burn Count by 1)",
+                "Description": "Turn End: Enemies with 3+ Burn Count Activate Burn one more time (reduce Burn Count by 1)",
                 "Rank": 1,
                 "EffectTags": [
                     "Burn Proc"
@@ -4889,7 +4895,7 @@
         ]
     },
     {
-        "Id": "A-1-005-147",
+        "Id": "A-1-005-157",
         "Name": "Secret Cookbook",
         "Tag": "Burn",
         "Abnormality": "Fusion: ||Melted Paraffin + Decamillennial Stewpot||",
@@ -4911,7 +4917,7 @@
         ]
     },
     {
-        "Id": "A-1-005-148",
+        "Id": "A-1-005-158",
         "Name": "Purloined Flame",
         "Tag": "Burn",
         "Abnormality": "Fusion: ||Burning Intellect + Decamillennial Hearthflame + Charred Disk||",
@@ -4920,7 +4926,7 @@
         "Cost": 404,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities that have Attack Skills that apply Burn or Unique Burn (except E.G.O Skills, except Backup Units)\nOn Hit with a Skill (including E.G.O Skills): If the target has 3+ Burn Count, Activate Burn once on target (target loses 1 Burn Count; activates once per Skill)\nTurn End: Targets with 3+ Burn Count Activate Burn one more time (target loses 1 Burn Count)\nIf a target with Burn is defeated (for Abnormalities, their Core), inflict its remaining Burn to one enemy with the least Burn at next Turn Start\nTurn Start: Inflict 4 Offense level Down to enemies with Burn\nIf a target with Burn is defeated, at next Turn Start, (defeated enemy's Burn / 15) allies with Skills that inflict Burn gain 2 Damage Up (once per turn)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities that have Attack Skills that apply Burn or Unique Burn (except E.G.O Skills, except Backup Units)\nOn Hit with a Skill (including E.G.O Skills): If target has 3+ Burn Count, Activate Burn once on target (target loses 1 Burn Count; activates once per Skill)\nTurn End: Targets with 3+ Burn Count Activate Burn one more time (target loses 1 Burn Count)\nIf a target with Burn is defeated (for Abnormalities, their Core), inflict its remaining Burn to one enemy with the least Burn at next Turn Start\nTurn Start: Inflict 4 Offense level Down to enemies with Burn\nIf a target with Burn is defeated, at next Turn Start, (defeated enemy's Burn / 15) allies with Skills that inflict Burn gain 2 Damage Up (once per turn)",
                 "Rank": 1,
                 "EffectTags": [
                     "Burn Proc",
@@ -4935,7 +4941,7 @@
         ]
     },
     {
-        "Id": "A-1-005-149",
+        "Id": "A-1-005-159",
         "Name": "Millarca",
         "Tag": "Bleed",
         "Abnormality": "Four-hundred Roses",
@@ -4956,7 +4962,7 @@
         ]
     },
     {
-        "Id": "A-1-005-150",
+        "Id": "A-1-005-160",
         "Name": "Ruptured Blood Sac",
         "Tag": "Bleed",
         "Abnormality": "Headless Icthys",
@@ -4977,7 +4983,7 @@
         ]
     },
     {
-        "Id": "A-1-005-151",
+        "Id": "A-1-005-161",
         "Name": "Devotion",
         "Tag": "Bleed",
         "Abnormality": "Fusion: ||Arrested Hymn + Millarca||",
@@ -5000,7 +5006,7 @@
         ]
     },
     {
-        "Id": "A-1-005-152",
+        "Id": "A-1-005-162",
         "Name": "Hemorrhagic Shock",
         "Tag": "Bleed",
         "Abnormality": "Fusion: ||Grimy Iron Stake + Ruptured Blood Sac + Rusted Cutting Knife||",
@@ -5024,7 +5030,7 @@
         ]
     },
     {
-        "Id": "A-1-005-153",
+        "Id": "A-1-005-163",
         "Name": "Gemstone Oscillator",
         "Tag": "Tremor",
         "Abnormality": "None",
@@ -5045,7 +5051,7 @@
         ]
     },
     {
-        "Id": "A-1-005-153",
+        "Id": "A-1-005-164",
         "Name": "Faded Overcoat",
         "Tag": "Sinking",
         "Abnormality": "None",
@@ -5066,7 +5072,7 @@
         ]
     },
     {
-        "Id": "A-1-005-154",
+        "Id": "A-1-005-165",
         "Name": "Wobbling Keg",
         "Tag": "Tremor",
         "Abnormality": "Drunkard",
@@ -5088,7 +5094,7 @@
         ]
     },
     {
-        "Id": "A-1-005-155",
+        "Id": "A-1-005-166",
         "Name": "Interlocked Cogs",
         "Tag": "Tremor",
         "Abnormality": "None",
@@ -5110,7 +5116,7 @@
         ]
     },
     {
-        "Id": "A-1-005-156",
+        "Id": "A-1-005-167",
         "Name": "Epicenter",
         "Tag": "Tremor",
         "Abnormality": "Fusion: ||Gemstone Oscillator + Wobbling Keg||",
@@ -5119,7 +5125,7 @@
         "Cost": 248,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that consumed Tremor Count on self: if the target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that consumed Tremor Count on self: if the target does not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(Tremor Count on self / 5) Clash Power (max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)",
                 "Rank": 1,
                 "EffectTags": [
                     "Tremor Count",
@@ -5133,7 +5139,7 @@
         ]
     },
     {
-        "Id": "A-1-005-157",
+        "Id": "A-1-005-168",
         "Name": "Omnivibro-octovacti-bell",
         "Tag": "Tremor",
         "Abnormality": "Fusion: ||Venomous Skin + Clockwork Spring + Epicenter||",
@@ -5142,7 +5148,7 @@
         "Cost": 405,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (max 3)\nWhen using a Skill that consumes Tremor Count on self: If the target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on enemy + 5)% damage (except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Amplitude Conversion or Amplitude Entanglement against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Tremor or Tremor Count (except E.G.O Skills, except Backup Units)\n(If an Identity only has Attack Skills that gain Tremor Count on self, this Gift does not activate for them)\nOn Clash Win with a Skill that inflicts Tremor, Tremor Count or consumes Tremor Count on self: Inflict +(# of remaining Coins) Tremor and gain +(# of remaining Coins) Tremor Count (max 3 per Skill). If the target did not have Tremor, inflict +3 Tremor Count\nTurn Start: Gain +(1 + (Tremor Count on self / 5) Clash Power Up (max 3)\nWhen using a Skill that consumes Tremor Count on self: If target is defeated or Staggered, gain +(Tremor Count consumed / 2) Tremor Count (once per Skill)\nSkills that consume Tremor Count on self deal +(Tremor consumed on self + Tremor on the enemy + 5)% damage (except E.G.O Skills, max 50%)\nWhen target has Tremor - Superposition, when triggering Amplitude Conversion or Amplitude Entanglement against the enemy with a type of Tremor they don't have in their Tremor - Superposition, extend the Tremor - Superposition on target to the next turn",
                 "Rank": 1,
                 "EffectTags": [
                     "Tremor Potency",
@@ -5158,7 +5164,7 @@
         ]
     },
     {
-        "Id": "A-1-005-158",
+        "Id": "A-1-005-169",
         "Name": "Shard of Apocalypse",
         "Tag": "Rupture",
         "Abnormality": "Doomsday Calendar",
@@ -5167,7 +5173,7 @@
         "Cost": 200,
         "Upgrades": [
             {
-                "Description": "If the target has 15- Rupture, inflict +1 Potency when inflicting Rupture",
+                "Description": "If target has 15- Rupture, inflict +1 Potency when inflicting Rupture",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency"
@@ -5179,7 +5185,7 @@
         ]
     },
     {
-        "Id": "A-1-005-159",
+        "Id": "A-1-005-170",
         "Name": "Thorny Rope Cuffs",
         "Tag": "Rupture",
         "Abnormality": "Rose Hunter",
@@ -5188,7 +5194,7 @@
         "Cost": 212,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen an enemy's Rupture Count drops below 1 in combat, consume 20 Rupture instead of Rupture Count (At less than 20 Rupture, this effect ends)\nOn Hit, when the target has 2 Rupture Count in combat, inflict +1 Rupture Count (2 times per Encounter)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen an enemy's Rupture Count drops below 1 in combat, consume 20 Rupture instead of Rupture Count (at less than 20 Rupture, this effect ends)\nOn Hit, when the target has 2 Rupture Count in combat, inflict +1 Rupture Count (2 times per Encounter)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Count"
@@ -5200,7 +5206,7 @@
         ]
     },
     {
-        "Id": "A-1-005-160",
+        "Id": "A-1-005-171",
         "Name": "Eerie Effigy",
         "Tag": "Rupture",
         "Abnormality": "Fusion: ||Bone Stake + Shard of Apocalypse||",
@@ -5209,7 +5215,7 @@
         "Cost": 249,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nRupture effects deal +100% damage against enemy Shield\nIf the target has 15- Rupture, inflict +2 Potency when inflicting Rupture\nIf Rupture cannot be applied due to Skill effects, Plus Coin Power +1 instead\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (min 1; rounded down)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nRupture effects deal +100% damage against enemy Shield\nIf target has 15- Rupture, inflict +2 Potency when inflicting Rupture\nIf Rupture cannot be applied due to Skill effects, Plus Coin Power +1 instead\n$ Minus Coin Skills: Instead of Plus Coin Power, Base Power +(4 / # of Coins) (min 1; rounded down)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -5222,7 +5228,7 @@
         ]
     },
     {
-        "Id": "A-1-005-161",
+        "Id": "A-1-005-172",
         "Name": "Ruin",
         "Tag": "Rupture",
         "Abnormality": "Fusion: ||Broken Revolver + Thunderbranch + Eerie Effigy||",
@@ -5246,7 +5252,7 @@
         ]
     },
     {
-        "Id": "A-1-005-162",
+        "Id": "A-1-005-173",
         "Name": "Cantabile",
         "Tag": "Sinking",
         "Abnormality": "Funeral of a Dying Butterfly",
@@ -5267,7 +5273,7 @@
         ]
     },
     {
-        "Id": "A-1-005-164",
+        "Id": "A-1-005-174",
         "Name": "Tangled Bones",
         "Tag": "Sinking",
         "Abnormality": "Tomb of Bone",
@@ -5288,7 +5294,7 @@
         ]
     },
     {
-        "Id": "A-1-005-165",
+        "Id": "A-1-005-175",
         "Name": "Surging Globe",
         "Tag": "Sinking",
         "Abnormality": "Fusion: ||Cantabile + Faded Overcoat||",
@@ -5310,7 +5316,7 @@
         ]
     },
     {
-        "Id": "A-1-005-166",
+        "Id": "A-1-005-176",
         "Name": "Impending Wave",
         "Tag": "Sinking",
         "Abnormality": "Fusion: ||Thorny Path + Distant Star + Surging Globe||",
@@ -5335,10 +5341,13 @@
         ],
         "Availability": [
             "MD5"
+        ],
+        "UniqueStatuses":[
+            "Reflux"
         ]
     },
     {
-        "Id": "A-1-005-167",
+        "Id": "A-1-005-177",
         "Name": "Recollection of a Certain Day",
         "Tag": "Poise",
         "Abnormality": "Portrait of a Certain Day",
@@ -5359,7 +5368,7 @@
         ]
     },
     {
-        "Id": "A-1-005-168",
+        "Id": "A-1-005-178",
         "Name": "Angel's Cut",
         "Tag": "Poise",
         "Abnormality": "Drunkard",
@@ -5381,7 +5390,7 @@
         ]
     },
     {
-        "Id": "A-1-005-169",
+        "Id": "A-1-005-179",
         "Name": "Reminiscence",
         "Tag": "Poise",
         "Abnormality": "Fusion: ||Pendant of Nostalgia + Recollection of a Certain Day||",
@@ -5404,7 +5413,7 @@
         ]
     },
     {
-        "Id": "A-1-005-170",
+        "Id": "A-1-005-180",
         "Name": "Cask Spirits",
         "Tag": "Poise",
         "Abnormality": "Fusion: ||Devil's Share + Angel's Cut + Endorphin Kit||",
@@ -5429,7 +5438,7 @@
         ]
     },
     {
-        "Id": "A-1-005-171",
+        "Id": "A-1-005-181",
         "Name": "Miniature Telepole",
         "Tag": "Charge",
         "Abnormality": "Alleyway Watchdog",
@@ -5438,7 +5447,7 @@
         "Cost": 205,
         "Upgrades": [
             {
-                "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If the target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count (including Unique Charge)",
+                "Description": "After Attack with an Attack Skill that consumed 7+ Charge Count on self: If target is defeated, gain (Charge Count consumed by Skill / 4) Charge Count (including Unique Charge)",
                 "Rank": 1,
                 "EffectTags": [
                     "Charge Count"
@@ -5450,7 +5459,7 @@
         ]
     },
     {
-        "Id": "A-1-005-172",
+        "Id": "A-1-005-182",
         "Name": "T-1B Octagonal Bolt",
         "Tag": "Charge",
         "Abnormality": "You Must Become Strong",
@@ -5472,7 +5481,7 @@
         ]
     },
     {
-        "Id": "A-1-005-173",
+        "Id": "A-1-005-183",
         "Name": "Insulator",
         "Tag": "Charge",
         "Abnormality": "Fusion: ||UPS System + Miniature Telepole||",
@@ -5481,7 +5490,7 @@
         "Cost": 205,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If the target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nAfter Attack with an Attack Skill that consumes Charge Count on self: If target is defeated, gain (Charge Count consumed by the Skill / 3) Charge Count\nTurn Start: At 2- Charge Count, gain +3 Charge Count\nTurn Start: At 3+ Charge Count, gain 1 Damage Up",
                 "Rank": 1,
                 "EffectTags": [
                     "Charge Count",
@@ -5494,7 +5503,7 @@
         ]
     },
     {
-        "Id": "A-1-005-174",
+        "Id": "A-1-005-184",
         "Name": "T-5 Perpetual Motion Machine",
         "Tag": "Charge",
         "Abnormality": "Fusion: ||Curriculum Vitae + Lightning Rod + Insulator||",
@@ -5503,7 +5512,7 @@
         "Cost": 410,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with a Skill 3 that consumes or gains Charge Count on self, if the target is defeated, or the ally who used the Skill is at 3+ Charge, they add 1 Skill 3 to the list of Skills for the upcoming turn (once per turn per ally)\nAll allies gain Self-Resonance Circuitry at Turn Start.",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nTurn Start: At less than 3 Charge Count, gain +3 Charge Count\nTurn Start: At 5+ Charge Count, gain +2 Min/Max Speed, 1 Attack Power Up, and 2 Damage Up\nAfter Attack with a Skill 3 that consumes or gains Charge Count on self, if the target is defeated, or the ally who used the Skill is at 3+ Charge, they add 1 Skill 3 to the list of Skills for the upcoming turn (once per turn per ally)\nAll allies gain Self Resonance Circuitry at Turn Start.",
                 "Rank": 1,
                 "EffectTags": [
                     "Charge Count",
@@ -5512,16 +5521,19 @@
                     "Attack Power Up",
                     "Damage Up",
                     "Skill Draw",
-                    "Party Self-Resonance Circuitry"
+                    "Party Self Resonance Circuitry"
                 ]
             }
         ],
         "Availability": [
             "MD5"
+        ],
+        "UniqueStatuses":[
+            "Self Resonance Circuitry"
         ]
     },
     {
-        "Id": "A-1-005-175",
+        "Id": "A-1-005-185",
         "Name": "Rebate Token",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5542,7 +5554,7 @@
         ]
     },
     {
-        "Id": "A-1-005-176",
+        "Id": "A-1-005-186",
         "Name": "New Release Pamphlet",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5563,7 +5575,7 @@
         ]
     },
     {
-        "Id": "A-1-005-177",
+        "Id": "A-1-005-187",
         "Name": "Special Catalogue",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5584,7 +5596,7 @@
         ]
     },
     {
-        "Id": "A-1-005-178",
+        "Id": "A-1-005-188",
         "Name": "Pre-order Discount",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5605,7 +5617,7 @@
         ]
     },
     {
-        "Id": "A-1-005-179",
+        "Id": "A-1-005-189",
         "Name": "Renewed Merch",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5626,7 +5638,7 @@
         ]
     },
     {
-        "Id": "A-1-005-180",
+        "Id": "A-1-005-190",
         "Name": "Trial Plan Guide",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5647,7 +5659,7 @@
         ]
     },
     {
-        "Id": "A-1-005-181",
+        "Id": "A-1-005-191",
         "Name": "Prestige Card",
         "Tag": "Keywordless",
         "Abnormality": "Shop",
@@ -5668,7 +5680,7 @@
         ]
     },
     {
-        "Id": "A-1-005-182",
+        "Id": "A-1-005-192",
         "Name": "Layered Bandages",
         "Tag": "Keywordless",
         "Abnormality": "Hurting Teddy Bear",
@@ -5696,7 +5708,7 @@
         ]
     },
     {
-        "Id": "A-1-005-183",
+        "Id": "A-1-005-193",
         "Name": "Overused Whetstone",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -5718,7 +5730,7 @@
         ]
     },
     {
-        "Id": "A-1-005-184",
+        "Id": "A-1-005-194",
         "Name": "Short Cane Sword",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -5762,7 +5774,7 @@
         ]
     },
     {
-        "Id": "A-1-005-185",
+        "Id": "A-1-005-195",
         "Name": "Cloudpattern Gourd Bottle",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -5809,7 +5821,7 @@
         ]
     },
     {
-        "Id": "A-1-005-186",
+        "Id": "A-1-005-196",
         "Name": "Broken Greatsword",
         "Tag": "Slash",
         "Abnormality": "None",
@@ -5837,7 +5849,7 @@
         ]
     },
     {
-        "Id": "A-1-005-187",
+        "Id": "A-1-005-197",
         "Name": "High-tensility Shoes",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -5859,7 +5871,7 @@
         ]
     },
     {
-        "Id": "A-1-005-188",
+        "Id": "A-1-005-198",
         "Name": "Plume of Proof",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -5903,7 +5915,7 @@
         ]
     },
     {
-        "Id": "A-1-005-189",
+        "Id": "A-1-005-199",
         "Name": "Torn Hems",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -5944,7 +5956,7 @@
         ]
     },
     {
-        "Id": "A-1-005-190",
+        "Id": "A-1-005-200",
         "Name": "Dueling Manual Book 3",
         "Tag": "Pierce",
         "Abnormality": "None",
@@ -5972,7 +5984,7 @@
         ]
     },
     {
-        "Id": "A-1-005-191",
+        "Id": "A-1-005-201",
         "Name": "Dimensional Recycle Bin",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -5994,7 +6006,7 @@
         ]
     },
     {
-        "Id": "A-1-005-192",
+        "Id": "A-1-005-202",
         "Name": "Pocket Flashcards",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -6035,7 +6047,7 @@
         ]
     },
     {
-        "Id": "A-1-005-193",
+        "Id": "A-1-005-203",
         "Name": "Dimensional Perception Modifier",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -6058,7 +6070,7 @@
         ]
     },
     {
-        "Id": "A-1-005-194",
+        "Id": "A-1-005-204",
         "Name": "The Book of Vengeance",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -6087,7 +6099,7 @@
         ]
     },
     {
-        "Id": "A-1-006-195",
+        "Id": "A-1-006-205",
         "Name": "WB Flask",
         "Tag": "Bleed",
         "Abnormality": "None",
@@ -6109,7 +6121,7 @@
         ]
     },
     {
-        "Id": "A-1-006-196",
+        "Id": "A-1-006-206",
         "Name": "Sanguine Fragrance Descends",
         "Tag": "Bleed",
         "Abnormality": "None",
@@ -6132,7 +6144,7 @@
         ]
     },
     {
-        "Id": "A-1-007-197",
+        "Id": "A-1-007-207",
         "Name": "Chance & Choice",
         "Tag": "None",
         "Abnormality": "Recurring Faith and Promise",
@@ -6153,7 +6165,7 @@
         ]
     },
     {
-        "Id": "A-1-007-198",
+        "Id": "A-1-007-208",
         "Name": "Meat Tenderizer",
         "Tag": "Blunt",
         "Abnormality": "None",
@@ -6174,7 +6186,7 @@
         ]
     },
     {
-        "Id": "A-1-007-199",
+        "Id": "A-1-007-209",
         "Name": "Blue Starshard",
         "Tag": "Sinking",
         "Abnormality": "None",
@@ -6405,7 +6417,7 @@
         "Cost": 217,
         "Upgrades": [
             {
-                "Description": "When an ally attacks an enemy that has Bleed with a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, deal +15% damage against the target.\nIf the target has 33%- HP, inflict +25% damage against the target instead.",
+                "Description": "When an ally attacks an enemy that has Bleed with a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, deal +15% damage against the target.\nIf target has 33%- HP, inflict +25% damage against the target instead.",
                 "Rank": 1,
                 "EffectTags": [
                     "Damage Amp"
@@ -6851,7 +6863,7 @@
         "Cost": 148,
         "Upgrades": [
             {
-                "Description": "Turn Start: Inflict 1 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(7.5 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 1 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(7.5 x Stagger Level)% damage",
                 "Rank": 1,
                 "EffectTags": [
                     "Bind",
@@ -6859,7 +6871,7 @@
                 ]
             },
             {
-                "Description": "Turn Start: Inflict 2 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(10 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 2 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(10 x Stagger Level)% damage",
                 "Rank": 2,
                 "EffectTags": [
                     "Bind",
@@ -6867,7 +6879,7 @@
                 ]
             },
             {
-                "Description": "Turn Start: Inflict 3 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If the target is Staggered, deal +(12.5 x Stagger Level)% damage",
+                "Description": "Turn Start: Inflict 3 Bind against enemies who recovered from Stagger last turn\nOn Hit from an ally with the highest HP percentage: If target is Staggered, deal +(12.5 x Stagger Level)% damage",
                 "Rank": 3,
                 "EffectTags": [
                     "Bind",
@@ -6889,7 +6901,7 @@
         "Cost": 392,
         "Upgrades": [
             {
-                "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if the target is at -45 SP, deal (Sinking on target / 2) Gloom damage (once per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (Each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
+                "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if the target is at -45 SP, deal (Sinking on target / 2) Gloom damage (once per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
                 "Rank": 1,
                 "EffectTags": [
                     "HP Damage"
@@ -7062,7 +7074,7 @@
         "Cost": 202,
         "Upgrades": [
             {
-                "Description": "On Hit with Skills that consume Charge Count: Inflict 1 Rupture (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Charge that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When dealing Rupture damage to enemies, gain +1 Charge Count (3 times per turn)\n$ At 8+: On Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill)",
+                "Description": "On Hit with Skills that consume Charge Count: Inflict 1 Rupture (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Charge that are Deployed (excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When dealing Rupture damage to enemies, gain +1 Charge Count (3 times per turn)\n$ At 8+: On Hit with Skills that consume Charge Count, inflict +1 Rupture Count (3 times per Skill)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -7106,7 +7118,7 @@
         "Cost": 255,
         "Upgrades": [
             {
-                "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormalities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (Excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$ At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
+                "Description": "Turn Start: Inflict 3 Rupture and +1 Rupture Count against all enemies (Abnormalities, all Parts)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are Deployed (excludes E.G.O Skills, includes Backup Units):\n$ At 6+: When Rupture damage occurs On Hit with a Skill, gain +1 Poise Count (3 times per turn)\n$ At 10+: On Crit with a Skill, inflict +1 Rupture Count (3 times per Skill)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -7129,7 +7141,7 @@
         "Cost": 261,
         "Upgrades": [
             {
-                "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (Excludes E.G.O Skills, includes Backup Units):\n$ On Hit with a Skill: If the target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$ At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (once per turn per Identity)",
+                "Description": "On Hit against enemies with 5+ Rupture: Gain 1 Poise and +1 Poise Count (3 times per Skill)\nBased on the number of Identities with Attack Skills that apply Rupture or gain Poise that are deployed (excludes E.G.O Skills, includes Backup Units):\n$ On Hit with a Skill: If target has 20+ Rupture, deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every Deployed Identity that fit the above condition)\n$ At 12+: On Hit with a Skill: If hit Critically, remove 1 random removable negative effect applied to self (once per turn per Identity)",
                 "Rank": 1,
                 "EffectTags": [
                     "Poise Potency",
@@ -7327,6 +7339,11 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Spark of Inspiration",
+            "Curio",
+            "Art Medium"
         ]
     },
     {
@@ -7396,6 +7413,12 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Spark of Inspiration",
+            "Curio",
+            "Art Medium",
+            "Exquisite Aesthetics"
         ]
     },
     {
@@ -7489,6 +7512,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Torn-out Butterfly"
         ]
     },
     {
@@ -7852,7 +7878,7 @@
         "Cost": 253,
         "Upgrades": [
             {
-                "Description": "If the target has 1.5 or lower Slash Resistance, Slash Resistance is weakened by 0.3.",
+                "Description": "If target has 1.5 or lower Slash Resistance, Slash Resistance is weakened by 0.3.",
                 "Rank": 1,
                 "EffectTags": [
                     "Resist Down"
@@ -8083,7 +8109,7 @@
         "Cost": 198,
         "Upgrades": [
             {
-                "Description": "Turn End: Inflict 1 Bind to the fastest enemy next turn (for Abnormalities, a Part)\nIf the target has Tremor or Unique Tremor, inflict 2 Bind instead.\nWhen an ally attacks targets with Bind, deal +(5 + (2.5 x Bind))% damage (max 15%)",
+                "Description": "Turn End: Inflict 1 Bind to the fastest enemy next turn (for Abnormalities, a Part)\nIf target has Tremor or Unique Tremor, inflict 2 Bind instead.\nWhen an ally attacks targets with Bind, deal +(5 + (2.5 x Bind))% damage (max 15%)",
                 "Rank": 1,
                 "EffectTags": [
                     "Damage Amp",
@@ -8105,7 +8131,7 @@
         "Cost": 250,
         "Upgrades": [
             {
-                "Description": "Deal +(5 + (2.5 x Speed difference))% damage against faster enemies with  2+ Speed difference (max 15%)\nTurn End: If an ally dealt damage with an Attack Skill (except E.G.O Skills) this turn against faster enemies with 2+ Speed difference, inflict 2 Bind and 1 Power Down to the enemy next turn (once per turn)",
+                "Description": "Deal +(5 + (2.5 x Speed difference))% damage against faster enemies with 2+ Speed difference (max 15%)\nTurn End: If an ally dealt damage with an Attack Skill (except E.G.O Skills) this turn against faster enemies with 2+ Speed difference, inflict 2 Bind and 1 Power Down to the enemy next turn (once per turn)",
                 "Rank": 1,
                 "EffectTags": [
                     "Damage Amp",
@@ -8705,7 +8731,7 @@
         "Cost": 212,
         "Upgrades": [
             {
-                "Description": "When defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (max 2 per enemy, rounded down)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (max 2 per enemy, rounded down)",
+                "Description": "When defeating a target with Rupture (in Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (in Focused Encounters, all Parts) (max 2 per enemy, rounded down)\nWhen defeating a target with Deathrite [Haste] (in Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (in Focused Encounters, all Parts) (max 2 per enemy, rounded down)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -8727,7 +8753,7 @@
         "Cost": 210,
         "Upgrades": [
             {
-                "Description": "If an ally's Speed is faster than target's, the ally inflicts (Speed difference / 3) additional Rupture or Rupture Count when inflicting them with Skills (max 3)",
+                "Description": "If an ally's Speed is faster than the target's, the ally inflicts (Speed difference / 3) additional Rupture or Rupture Count when inflicting them with Skills (max 3)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -8861,7 +8887,7 @@
         "Cost": 407,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen defeating a target with Rupture (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (Focused Encounters, all Parts) (max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (Focused Encounters, all Parts) (max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (max 2)\nWhen clashing against targets with Deathrite [Haste], gain (Rupture / 10) Coin Power instead (max 2)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Rupture or Rupture Count (except E.G.O Skills, except Backup Units)\nWhen defeating a target with Rupture (in Focused Encounters, a Part) with an Attack Skill, inflict the Rupture on target between all enemies (in Focused Encounters, all Parts) (max 3 per enemy)\nWhen defeating a target with Deathrite [Haste] (in Focused Encounters, a Part) with an Attack Skill, inflict the Rupture and Rupture Count on target between all enemies (in Focused Encounters, all Parts) (max 6 per enemy)\nWhen clashing against targets with Rupture, gain (Rupture / 20) Clash Power (max 2)\nWhen clashing against targets with Deathrite [Haste], gain (Rupture / 10) Coin Power instead (max 2)\nWhen dealing damage with Deathrite [Haste] effect, deal fixed damage by (Deathrite [Haste] damage / 2)",
                 "Rank": 1,
                 "EffectTags": [
                     "Rupture Potency",
@@ -8886,7 +8912,7 @@
         "Cost": 401,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when there are 2+ The Middle Identities (except Backup Units)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf the target has Vengeance Mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
+                "Description": "Turn Start: Activates for the whole Encounter when there are 2+ The Middle Identities (except Backup Units)\nWhen hit, all allies in the same faction deal +5% more Blunt damage (15% per turn)\nThe Middle Identities gain 1 Offense Level Up and deal +10% Blunt damage instead (3 per turn, 30% per turn)\nBlunt Skills gain Base Power +1\nThe Middle Identities gain Base Power +1 and Coin Power +1 instead\nIf target has Vengeance Mark, The Middle Identities gain Base Power +1, Coin Power +1, and deal +30% damage instead\nThe Middle Identities gain Min Speed +1 and Max Speed +1 for the Encounter",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: The Middle",
@@ -9139,7 +9165,7 @@
         "Cost": 243,
         "Upgrades": [
             {
-                "Description": "If the target has 1.5 or lower Blunt Resistance, Blunt Resistance +0.3",
+                "Description": "If target has 1.5 or lower Blunt Resistance, Blunt Resistance +0.3",
                 "Rank": 1,
                 "EffectTags": [
                     "Resist Down"
@@ -9240,6 +9266,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Beauty of the Physique"
         ]
     },
     {
@@ -9265,6 +9294,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Charm of the Beastly"
         ]
     },
     {
@@ -9299,7 +9331,7 @@
         "Cost": 247,
         "Upgrades": [
             {
-                "Description": "On Crit against an enemy, inflict 1 Bind next turn (3 times per turn)\nOn Hit using a Skill against an enemy that has Bind, gain 1 Poise (2 times per turn per Identity)\nTurn Start: All enemies that have Bleed gain Offense Level Down equal to Bind on themselves (max 5)\nTurn Start: If all enemies (Focused Encounters, all Parts) have Bind, all allies gain 3 Poise",
+                "Description": "On Crit against an enemy, inflict 1 Bind next turn (3 times per turn)\nOn Hit using a Skill against an enemy that has Bind, gain 1 Poise (2 times per turn per Identity)\nTurn Start: All enemies that have Bleed gain Offense Level Down equal to Bind on themselves (max 5)\nTurn Start: If all enemies (in Focused Encounters, all Parts) have Bind, all allies gain 3 Poise",
                 "Rank": 1,
                 "EffectTags": [
                     "Bind",
@@ -9413,7 +9445,7 @@
         "Cost": 381,
         "Upgrades": [
             {
-                "Description": "If an enemy has 1.5 or lower Slash Resist, Slash Resist +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (< 1.0 Resist; Staggered states do not count) to Slash, deal +(5 + (Target's Slash Resist x 10))% damage (max 25%)\nSlash Skills deal +1.5% damage for every Poise (max 30%)\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply Sword of the Homeland - Striking on it every turn\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (Only counts Identities on the field at Encounter Start)\nCombat Start: Apply 1 Sword of the Homeland - Striking on allied Blade Lineage Identities that have equipped Wrath or Pride Skills",
+                "Description": "If an enemy has 1.5 or lower Slash Resist, Slash Resist +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (< 1.0 Resist; Staggered states do not count) to Slash, deal +(5 + (target's Slash Resist x 10))% damage (max 25%)\nSlash Skills deal +1.5% damage for every Poise (max 30%)\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply Sword of the Homeland - Striking on it every turn\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (Only counts Identities on the field at Encounter Start)\nCombat Start: Apply 1 Sword of the Homeland - Striking on allied Blade Lineage Identities that have equipped Wrath or Pride Skills",
                 "Rank": 1,
                 "EffectTags": [
                     "Slash Resist Down",
@@ -9427,6 +9459,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Sword of the Homeland - Striking"
         ]
     },
     {
@@ -9439,7 +9474,7 @@
         "Cost": 152,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #7 Deployed Identity]\nGain +1 more Tremor Count from Skill or Coin effects\nIf the target is in Stagger, Low Morale, or Panic, gain +2 instead",
+                "Description": "[Effect applies to #7 Deployed Identity]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead",
                 "Rank": 1,
                 "EffectTags": [
                     "Self Tremor Count"
@@ -9526,7 +9561,7 @@
         "Cost": 251,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #1, #2, #7, #8 Deployed Identities]\nGain +1 more Tremor Count from Skill or Coin effects\nIf the target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
+                "Description": "[Effect applies to #1, #2, #7, #8 Deployed Identities]\nGain +1 more Tremor Count from Skill or Coin effects\nIf target is in Stagger, Low Morale, or Panic, gain +2 instead\nIf any enemies are in Stagger, Low Morale, or Panic at Turn Start, inflict 1 Offense Level Down or 2 Defense Level Down against all enemies (3 times per turn)\nOn Hit against enemies in Stagger, Low Morale, or Panic: inflict 1 Offense Level Down or 1 Defense Level Down (3 times per turn)",
                 "Rank": 1,
                 "EffectTags": [
                     "Self Tremor Count",
@@ -9762,6 +9797,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Tremor - Distribution"
         ]
     },
     {
@@ -9783,6 +9821,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Microprecision Time Acceleration"
         ]
     },
     {
@@ -9877,6 +9918,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Hardblood Cast"
         ]
     },
     {
@@ -9898,6 +9942,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Emergency Barrier Battery"
         ]
     },
     {
@@ -9966,6 +10013,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Emergency Barrier Battery"
         ]
     },
     {
@@ -10070,7 +10120,7 @@
         "Cost": 201,
         "Upgrades": [
             {
-                "Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for a turn (At 10+ Min Speed, this effect does not activate)\nIf an ally has Strider [Mao], the ally's Base Skills gain Clash Power +1 and deal +10% damage",
+                "Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for a turn (at 10+ Min Speed, this effect does not activate)\nIf an ally has Strider [Mao], the ally's Base Skills gain Clash Power +1 and deal +10% damage",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: Heishou Pack - Mao Branch",
@@ -10116,7 +10166,7 @@
         "Cost": 404,
         "Upgrades": [
             {
-                "Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for three turns (At 10+ Min Speed, this effect does not activate)\nBase Skills gain Clash Power +1 and deal +10% damage for every Strider [Mao] Stack\nWhen inflicting Deathrite [Haste], also inflict it on 2 enemies that do not have Deathrite [Haste] (once per turn; Focused Encounters, Parts)\nIf an ally's Speed is faster than its target's, the ally's Skills inflict (Speed difference / 3) more Rupture or Rupture Count (max 3)\nTurn End: Heishou Pack - Mao Branch allies gain 2 Haste next turn\nIf an ally's Speed is faster than it's target's, or when an ally uses an Unopposed Attack, the said ally deals +10% Slash damage for every (Speed difference / 3) (max 30%)\nIf an ally's Speed is faster than its target's, take -10% damage for every (Speed difference / 3) (max 30%)",
+                "Description": "When a Heishou Pack - Mao Branch Identity enters the Encounter for the first time, cap its Min Speed to 10 for three turns (at 10+ Min Speed, this effect does not activate)\nBase Skills gain Clash Power +1 and deal +10% damage for every Strider [Mao] Stack\nWhen inflicting Deathrite [Haste], also inflict it on 2 enemies that do not have Deathrite [Haste] (once per turn; Focused Encounters, Parts)\nIf an ally's Speed is faster than its target's, the ally's Skills inflict (Speed difference / 3) more Rupture or Rupture Count (max 3)\nTurn End: Heishou Pack - Mao Branch allies gain 2 Haste next turn\nIf an ally's Speed is faster than it's target's, or when an ally uses an Unopposed Attack, the said ally deals +10% Slash damage for every (Speed difference / 3) (max 30%)\nIf an ally's Speed is faster than its target's, take -10% damage for every (Speed difference / 3) (max 30%)",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: Heishou Pack - Mao Branch",
@@ -10235,6 +10285,9 @@
         ],
         "Availability": [
             "MD5"
+        ],
+        "UniqueStatuses":[
+            "Dhyāna"
         ]
     },
     {
@@ -10288,21 +10341,21 @@
         "Cost": 396,
         "Upgrades": [
             {
-                "Description": "Encounter Start: All allies gain (Current Floor x 2)% Max HP (max 20%)",
+                "Description": "Encounter Start: All allies gain (current Floor x 2)% Max HP (max 20%)",
                 "Rank": 1,
                 "EffectTags": [
                     "Max HP"
                 ]
             },
             {
-                "Description": "Encounter Start: All allies gain (Current Floor x 3)% Max HP (max 30%)",
+                "Description": "Encounter Start: All allies gain (current Floor x 3)% Max HP (max 30%)",
                 "Rank": 2,
                 "EffectTags": [
                     "Max HP"
                 ]
             },
             {
-                "Description": "Encounter Start: All allies gain (Current Floor x 5)% Max HP (max 50%)",
+                "Description": "Encounter Start: All allies gain (current Floor x 5)% Max HP (max 50%)",
                 "Rank": 3,
                 "EffectTags": [
                     "Max HP"
@@ -10463,6 +10516,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Gluttonous Thorn"
         ]
     },
     {
@@ -10496,7 +10552,7 @@
         "Cost": 398,
         "Upgrades": [
             {
-                "Description": "Combat Start: Gain 2 Firepower and 2 Delicateness\nStarting from the second turn, stacks of Damage Up and Fragile gained due to the above effect increases by 1 (Up to 8 times)",
+                "Description": "Combat Start: Gain 2 Firepower and 2 Delicateness\nStarting from the second turn, stacks of Damage Up and Fragile gained due to the above effect increases by 1 (up to 8 times)",
                 "Rank": 1,
                 "EffectTags": [
                     "Firepower",
@@ -10506,6 +10562,10 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Firepower",
+            "Delicateness"   
         ]
     },
     {
@@ -10582,7 +10642,7 @@
         "Cost": 250,
         "Upgrades": [
             {
-                "Description": "Lose 1 less SP when an ally loses SP due to their own Base Attack Skill effect\nIf the target has Sinking, deal +2% damage for every Heads Coin this Attack Skill flipped when attacking (max 16%)",
+                "Description": "Lose 1 less SP when an ally loses SP due to their own Base Attack Skill effect\nIf target has Sinking, deal +2% damage for every Heads Coin this Attack Skill flipped when attacking (max 16%)",
                 "Rank": 1,
                 "EffectTags": [
                     "Bleed Count",
@@ -10744,7 +10804,7 @@
         "Cost": 255,
         "Upgrades": [
             {
-                "Description": "If the target has 1.5 or lower Pierce Resistance, Pierce Resistance +0.3",
+                "Description": "If target has 1.5 or lower Pierce Resistance, Pierce Resistance +0.3",
                 "Rank": 1,
                 "EffectTags": [
                     "Resist Down"
@@ -10774,6 +10834,9 @@
         ],
         "Availability": [
             "MD5"
+        ],
+        "UniqueStatuses":[
+            "Requested Target"
         ]
     },
     {
@@ -10906,6 +10969,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Blessing (E.G.O Gift)"
         ]
     },
     {
@@ -10927,6 +10993,9 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Trauma Shield"
         ]
     },
     {
@@ -10961,7 +11030,7 @@
         "Cost": 250,
         "Upgrades": [
             {
-                "Description": "[Effects apply to #6 Deployed Identity]\nEncounter Start: Gain Pheromone\nTake -15% damage from enemies with Burn\nTurn End: Inflict Pheromone Mark next turn against the enemy (Focused Encounters, the Part) that dealt the most damage to this unit\n$ If allies did not take any damage from enemies, inflict Pheromone Mark next turn against 1 random enemy/Part",
+                "Description": "[Effects apply to #6 Deployed Identity]\nEncounter Start: Gain Pheromone\nTake -15% damage from enemies with Burn\nTurn End: Inflict Pheromone Mark next turn against the enemy (in Focused Encounters, the Part) that dealt the most damage to this unit\n$ If allies did not take any damage from enemies, inflict Pheromone Mark next turn against 1 random enemy/Part",
                 "Rank": 1,
                 "EffectTags": [
                     "Pheromone",
@@ -10972,6 +11041,10 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Pheromone",
+            "Pheromone Mark"
         ]
     },
     {
@@ -11073,6 +11146,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Hyped-up"
         ]
     },
     {
@@ -11088,11 +11164,9 @@
                 "Description": "On Use with a Skill that gains or spends Ammo: Gain 1 Haste and 2 Offense Level Up next turn (once per turn per Identity)\n$ For Skills that inflict Sinking, Sinking Count, or Unique Sinking, deal +(20 / # of Coins)% damage",
                 "Rank": 1,
                 "EffectTags": [
-                    "Blessed Gift",
-                    "Min Speed",
-                    "Max Speed",
-                    "Final Power",
-                    "Bind"
+                    "Haste",
+                    "Offense Level Up",
+                    "Damage Amp"
                 ]
             }
         ],
@@ -11119,6 +11193,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Pink Petals"
         ]
     },
     {
@@ -11152,7 +11229,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "Effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that gain or spend Ammo (except E.G.O Skills; counts all units in the Team)\nAt 2+:\n$ On Use with a Skill that gains or spends Ammo: Gain 2 Haste and 4 Offense Level Up next turn (once per Identity per turn)\nAt 5+:\n$ Skills used by Identities that gain or spend Ammo: Clash Power +1 and deal +10% damage\n$ Skills that gain or spend Ammo: Deal +(100 / # of Coins)% damage\n$ If an affected unit is out of Ammo, gain 4 Ammo at the next Turn Start (once per Identity per Encounter)\nAt 8+:\n$ Turn Start: Apply 1 Desperado to Identities that gain or spend Ammo\n$- If the affected unit did not spend Ammo last turn, apply 1 additional Desperado\n$ Combat End: Deal (Total sum of Desperado on all allies x 3) Pierce damage to 1 random enemy (max 30)\n$- Then, repeat the above effect (Number of Identities in the Team that gain or spend Ammo - 1) times",
+                "Description": "Effects are enhanced based on the number of Identities in the Team loadout with Attack Skills that gain or spend Ammo (except E.G.O Skills; counts all units in the Team)\nAt 2+:\n$ On Use with a Skill that gains or spends Ammo: Gain 2 Haste and 4 Offense Level Up next turn (once per Identity per turn)\nAt 5+:\n$ Skills used by Identities that gain or spend Ammo: Clash Power +1 and deal +10% damage\n$ Skills that gain or spend Ammo: Deal +(100 / # of Coins)% damage\n$ If an affected unit is out of Ammo, gain 4 Ammo at the next Turn Start (once per Identity per Encounter)\nAt 8+:\n$ Turn Start: Apply 1 Desperado to Identities that gain or spend Ammo\n$- If the affected unit did not spend Ammo last turn, apply 1 additional Desperado\n$ Combat End: Deal (total sum of Desperado on all allies x 3) Pierce damage to 1 random enemy (max 30)\n$- Then, repeat the above effect (Number of Identities in the Team that gain or spend Ammo - 1) times",
                 "Rank": 1,
                 "EffectTags": [
                     "Haste",
@@ -11167,6 +11244,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Desperado"
         ]
     },
     {
@@ -11179,7 +11259,7 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "On Hit with a Pierce Skill against an enemy: Gain 1 Haste and 1 Pierce DMG Up next turn (2 times per turn per Identity)\n$ On enemy Kill with said Skill: Gain 1 additional Haste and 2 additional Pierce DMG Up next turn (once per turn per Identity)\nOn Hit by an ally with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 2 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (max 4)\n$ If the enemy has 10+ Pink Petals, inflict 2 Tremor On Hit (3 times per turn)\nTurn End: Inflict 2 Bind and 3 Defense Level Down next turn against enemies/Parts with 5+ (Sinking + Tremor)\n$ If the target has 10+ (Sinking + Tremor), inflict 2 Bind, 1 Paralyze, and 4 Defense Level Down instead\nTurn End: If all enemies have remaining Pink Petals Stack, all allies gain 1 Attack Power Up next turn",
+                "Description": "On Hit with a Pierce Skill against an enemy: Gain 1 Haste and 1 Pierce DMG Up next turn (2 times per turn per Identity)\n$ On enemy Kill with said Skill: Gain 1 additional Haste and 2 additional Pierce DMG Up next turn (once per turn per Identity)\nOn Hit by an ally with a Skill that inflicts Sinking, Sinking Count, or Unique Sinking, inflict 2 Pink Petals\n$ Inflict 1 additional Pink Petals for every 5 Sinking on the enemy (max 4)\n$ If the enemy has 10+ Pink Petals, inflict 2 Tremor On Hit (3 times per turn)\nTurn End: Inflict 2 Bind and 3 Defense Level Down next turn against enemies/Parts with 5+ (Sinking + Tremor)\n$ If target has 10+ (Sinking + Tremor), inflict 2 Bind, 1 Paralyze, and 4 Defense Level Down instead\nTurn End: If all enemies have remaining Pink Petals Stack, all allies gain 1 Attack Power Up next turn",
                 "Rank": 1,
                 "EffectTags": [
                     "Haste",
@@ -11195,6 +11275,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Pink Petals"
         ]
     },
     {
@@ -11295,7 +11378,7 @@
         "Cost": 404,
         "Upgrades": [
             {
-                "Description": "Turn Start: At 30+ total sum of Sinking Potency and Sinking Count on all enemies, apply the following:\n$ Skills that inflict Sinking or Sinking Count: Final Power +1 (includes Unique Sinking, excludes E.G.O Skills)\n$ When 6+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Skills that inflict Sinking or Sinking Count also deal +20% damage (including Unique Sinking, excluding E.G.O Skills)\n$- If the target is at -45 SP, additional +10% damage\n$ When 10+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Plus Coin Skills that inflict Sinking or Sinking Count also gain Coin Power +1 (including Unique Sinking and Backup Units; excluding E.G.O Skills)\n$- Minus Coin Skills: Instead of Coin Power, gain Base Power +(4 / # of Coins) (min 1; rounded down)",
+                "Description": "Turn Start: At 30+ total sum of Sinking Potency and Sinking Count on all enemies, apply the following:\n$ Skills that inflict Sinking or Sinking Count: Final Power +1 (includes Unique Sinking, excludes E.G.O Skills)\n$ When 6+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Skills that inflict Sinking or Sinking Count also deal +20% damage (including Unique Sinking, excluding E.G.O Skills)\n$- If target is at -45 SP, additional +10% damage\n$ When 10+ Identities have Attack Skills that inflict Sinking, Sinking Count, or Unique Sinking, Plus Coin Skills that inflict Sinking or Sinking Count also gain Coin Power +1 (including Unique Sinking and Backup Units; excluding E.G.O Skills)\n$- Minus Coin Skills: Instead of Coin Power, gain Base Power +(4 / # of Coins) (min 1; rounded down)",
                 "Rank": 1,
                 "EffectTags": [
                     "Final Power",
@@ -11571,7 +11654,7 @@
         "Cost": 201,
         "Upgrades": [
             {
-                "Description": "[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$ Gain 3 Haste next turn (once per turn)\n$ On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$ On Hit after Clash Win: If the target has both Burn and Tremor (including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$ Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
+                "Description": "[Effect applies to #1 Deployed Identity]\nWhen using a Skill that spends Ammo:\n$ Gain 3 Haste next turn (once per turn)\n$ On Hit: Trigger Tremor Burst once (and consume 1 Tremor Count) (2 times per turn)\n$ On Hit after Clash Win: If target has both Burn and Tremor (including Unique Burn and Unique Tremor), inflict Wrath damage equal to (Burn + Tremor) (2 times per turn)\nAt 4+ Wrath Res:\n$ Wrath Skills gain Coin Power +2 on use\nOn Hit, if Ammo was spent, deal +30% damage",
                 "Rank": 1,
                 "EffectTags": [
                     "Haste",
@@ -11633,6 +11716,11 @@
         ],
         "Availability": [
             "MD6"
+        ],
+        "UniqueStatuses":[
+            "Backup Candy",
+            "Hunger",
+            "Incandescent Indulgence"
         ]
     },
     {
@@ -11654,6 +11742,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "K Corp. Emergency Ampule"
         ]
     },
     {
@@ -11806,6 +11897,9 @@
         ],
         "Availability": [
             "MD7"
+        ],
+        "UniqueStatuses":[
+            "Glimpse of Precognition"
         ]
     },
     {
@@ -11914,7 +12008,7 @@
         "Cost": 250,
         "Upgrades": [
             {
-                "Description": "When using a Plus Coin Skill, heal 5 SP; when using a Minus Coin Skill, lose 5 SP (Each unit's SP cannot drop below -40 from this effect, once per turn per Identity)\nTurn Start: At Max SP, or -30 or less SP, gain 1 Power Up and 2 Protection",
+                "Description": "When using a Plus Coin Skill, heal 5 SP; when using a Minus Coin Skill, lose 5 SP (each unit's SP cannot drop below -40 from this effect, once per turn per Identity)\nTurn Start: At Max SP, or -30 or less SP, gain 1 Power Up and 2 Protection",
                 "Rank": 1,
                 "EffectTags": []
             }

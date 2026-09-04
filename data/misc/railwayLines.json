@@ -1410,7 +1410,7 @@
 						"Abnormalities": [
 							{
 								"Name": "Refracted Drifting Fox",
-								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\n Apply Refracted Bleed (+1 Potency and Count when applying Bleed)\n||Gains __**Protection Umbrella**__ equal to Current Cycle Count||",
+								"Notes": "Refracted Rupture and Sinking (Max 30 Potency, 5 Count)\nApply Refracted Bleed (+1 Potency and Count when applying Bleed)\n||Gains __**Protection Umbrella**__ equal to Current Cycle Count||",
 								"Count": 1,
 								"Parts": [
 									{
@@ -5012,7 +5012,7 @@
 								"SinResist": {
 									"Wrath": 1,
 									"Lust": 1,
-									"Sloth":1,
+									"Sloth": 1,
 									"Gluttony": 1.5,
 									"Gloom": 1.5,
 									"Pride": 1,
@@ -5036,7 +5036,7 @@
 								"SinResist": {
 									"Wrath": 1,
 									"Lust": 1,
-									"Sloth":1,
+									"Sloth": 1,
 									"Gluttony": 1.5,
 									"Gloom": 1.5,
 									"Pride": 1,
@@ -5366,7 +5366,7 @@
 								"SinResist": {
 									"Wrath": 1,
 									"Lust": 1,
-									"Sloth":1,
+									"Sloth": 1,
 									"Gluttony": 1.5,
 									"Gloom": 1.5,
 									"Pride": 1,

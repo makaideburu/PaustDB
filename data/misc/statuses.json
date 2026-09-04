@@ -861,7 +861,7 @@
 	},
 	{
 		"Name": "Red Plum Blossom",
-		"Description": "Unique Bleed.\nMax Value: 10\n+10% chance for this unit to be Critically Hit if this unit is the main target.\nWhen struck by a Critical Hit, gain Bleed based on half the value and take +(Stack)x3% damage from Critical Hits.\nReduce Count by 1 when hit.",
+		"Description": "Unique Bleed.\nMax Value: 10\n+10% chance for this unit to be Critically Hit if this unit is the main target.\nWhen struck by a Critical Hit, gain Bleed equal to half the value and take +(Stack x 3)% damage from Critical Hits.\nReduce Count by 1 when hit.",
 		"EffectTags": [
 			"Unique Bleed"
 		]
@@ -1174,7 +1174,7 @@
 	},
 	{
 		"Name": "Volatile Passion",
-		"Description": "On Hit, inflict 1 Burn\nIf the main target has Burn, +1 Final Power\nWhen hit, if this unit had a Defense Skill chained at Combat Start, inflict Burn against the attacker for the turn\nTurn End: Lose (# of turns spent in Volatile E.G.O state x 5) SP (max SP loss: 40)",
+		"Description": "On Hit, inflict 1 Burn\nIf the main target has Burn, +1 Final Power\nWhen hit, if this unit had a Defense Skill chained at Combat Start, inflict 1 Burn against the attacker for the turn\nTurn End: Lose (# of turns spent in Volatile E.G.O state x 5) SP (max SP loss: 40)",
 		"EffectTags": []
 	},
 	{
@@ -1287,7 +1287,7 @@
 	},
 	{
 		"Name": "Coffin",
-		"Description": "Max Value: 10\nAt Turn End:\n$ Gain 2 Damage Up next turn for every 3 Value (max 6)\n$ Raise minimum Speed by 1 for every 4 value next turn (max 2)\n$ Gain 1 Clash Power Up for every 5 value next turn (max 2)",
+		"Description": "Max Value: 10\nAt Turn End:\n$ Gain 2 Damage Up next turn for every 3 Value (max 6)\n$ Raise minimum Speed by 1 for every 4 Value next turn (max 2)\n$ Gain 1 Clash Power Up for every 5 Value next turn (max 2)",
 		"EffectTags": [
 			"Damage Up",
 			"Min Speed",
@@ -1305,7 +1305,7 @@
 	},
 	{
 		"Name": "Dullahan",
-		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (At -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 - (Coffin / 2)) SP (min 10)",
+		"Description": "Max Value: 3\nLose 3 Defense Level\nGain 3 Offense Level\nRaise Min & Max Speed values by 1\nTurn End: Gain 1 Dullahan next turn (at -25 SP or less, however, completely lose Dullahan)\nTurn End: Lose (15 - (Coffin / 2)) SP (min 10)",
 		"EffectTags": [
 			"Self Defense Level Down",
 			"Offense Level Up",
@@ -1434,7 +1434,7 @@
 	},
 	{
 		"Name": "Defensive Stance",
-		"Description": "Max Value: 2\nReduced by 1 at Turn End\nWhen a unit gains this effect$ Fix this unit's Speed to its minimum value\n$ Gain 5 Defense Level Up\n$ Each of this unit's Slots gain +(10 / # of this unit's Slots) Aggro\n$ When chaining Skills, this unit can draw enemies' attacks towards this unit regardless of Speed (Focused Encounters only)\n$ Upon Clash Win, trigger Tremor Burst\n$ Cannot be Staggered by damage",
+		"Description": "Max Value: 2\nReduced by 1 at Turn End\nWhen a unit gains this effect$ Fix this unit's Speed to its minimum value\n$ Gain 5 Defense Level Up\n$ Each of this unit's Slots gain +(10 / # of this unit's Slots) Aggro\n$ When chaining Skills, this unit can draw enemies' attacks towards this unit regardless of Speed (in Focused Encounters only)\n$ Upon Clash Win, trigger Tremor Burst\n$ Cannot be Staggered by damage",
 		"EffectTags": [
 			"Defense Level Up",
 			"Aggro",
@@ -1566,7 +1566,7 @@
 	},
 	{
 		"Name": "Resanguination (Panic)",
-		"Description": "If the target has Bleed, Clash Power +2; if the target does not have Bleed, Clash Power -2; On Hit, heal HP equal to Bleed Potency on target",
+		"Description": "If target has Bleed, Clash Power +2; if the target does not have Bleed, Clash Power -2; On Hit, heal HP equal to Bleed Potency on target",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -1792,14 +1792,14 @@
 	},
 	{
 		"Name": "Fairy Lure",
-		"Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains +10 Aggro\nTake +50% damage\nWhen hit, inflict 1 Rupture against the attacker (3 times per target's Skill)\nAt less than 50% HP, inflict +1 Rupture\nIf the target has 15+ Rupture, this buff does not inflict Rupture\nReduced by 1at Turn End",
+		"Description": "Max Stack: 5\nTurn Start: Leftmost Slot on the Dashboard gains +10 Aggro\nTake +50% damage\nWhen hit, inflict 1 Rupture against the attacker (3 times per target's Skill)\nAt less than 50% HP, inflict +1 Rupture\nIf target has 15+ Rupture, this buff does not inflict Rupture\nReduced by 1at Turn End",
 		"EffectTags": [
 			"Aggro",
 			"Rupture Potency"
 		]
 	},
 	{
-		"Name": "Deep Breath",
+		"Name": "Deep Inhale",
 		"Description": "Max Stack: 20\nOn Crit: At 15+ Poise and 5+ Poise Count, consume (Poise / 5) Poise to deal +(Poise Consumed x 4)% more damage on Critical Hit; then lose 1 Stack",
 		"EffectTags": [
 			"Spend Poise Potency"
@@ -2038,7 +2038,7 @@
 	},
 	{
 		"Name": "Deception (Low Morale)",
-		"Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +10% damage against the target",
+		"Description": "If this unit's Speed is faster than the target's or when using an Unopposed Attack, deal +10% damage against the target",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -2046,7 +2046,7 @@
 	},
 	{
 		"Name": "Deception (Panic)",
-		"Description": "If this unit's Speed is faster than target's or when using an Unopposed Attack, deal +20% damage against the target; if this unit's Speed is faster than target's, take -20% damage",
+		"Description": "If this unit's Speed is faster than the target's or when using an Unopposed Attack, deal +20% damage against the target; if this unit's Speed is faster than the target's, take -20% damage",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -2258,7 +2258,7 @@
 	},
 	{
 		"Name": "Assist [援]",
-		"Description": "Max Stack: 1\nIf the target has 5+ negative effects, Clash Power +1 and deal +10% damage",
+		"Description": "Max Stack: 1\nIf target has 5+ negative effects, Clash Power +1 and deal +10% damage",
 		"EffectTags": [
 			"Ally Clash Power Up",
 			"Ally Damage Amp"
@@ -2423,14 +2423,14 @@
 	},
 	{
 		"Name": "Savage Tigermark Round",
-		"Description": "Max Capacity: 8\nUnique Ammo\nAt X+ (Tigermark Round + Savage Tigermark Round spent), gain Shin (心) - Tiantui Star [天退星] instead of Tiantui Star [天退星] from this unit's Passive",
+		"Description": "Max Capacity: 8\nUnique Ammo\nAt 8+ (Tigermark Round + Savage Tigermark Round spent), gain Shin (心) - Tiantui Star [天退星] instead of Tiantui Star [天退星] from this unit's Passive",
 		"EffectTags": [
 			"Unique Ammo"
 		]
 	},
 	{
 		"Name": "Tiantui Star [天退星]",
-		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
+		"Description": "Max Stack: 1\nMin and Max Speed +1\nIf this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\nInflict +1 more Tremor and Tremor Count with this unit's Skills\nIf this unit spent 8 or more Tigermark Round and Savage Tigermark Round, convert this buff into Shin (心) - Tiantui Star [天退星] next turn at Turn End",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -2440,7 +2440,7 @@
 	},
 	{
 		"Name": "Shin (心) - Tiantui Star [天退星]",
-		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
+		"Description": "Max Stack: 1\nMin and Max Speed +3\nIf this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\nInflict +2 more Tremor and Tremor Count with this unit's Skills",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -2467,7 +2467,7 @@
 		]
 	},
 	{
-		"Name": "Self-Resonance Circuitry",
+		"Name": "Self Resonance Circuitry",
 		"Description": "Total Sum of Charge Count currently owned by allies: X\nCumulative Charge Count consumed by allies: X\nOn Hit with a Skill: Deal +(sum of Charge Count on all allies / 3)% damage\nAll allies gain 1 Offense Level Up for every 100 cumulative Charge Count consumed by allies",
 		"EffectTags": [
 			"Damage Amp",
@@ -2533,7 +2533,7 @@
 		]
 	},
 	{
-		"Name": "Blessing",
+		"Name": "Blessing (Lobotomy E.G.O::The Sword Sharpened with Tears Rodion)",
 		"Description": "Turn Start: Gain 1 Protecting Sword for every 8 SP (max 5)\nWhen Clash ends, inflict 2 Sinking (once per turn)\nWhen hit, inflict 2 Sinking on the attacker (once per turn)\nFor every 20 SP, inflict +1 Sinking with above effects (max 2)\nReplace this unit's Base Skills with Plus Coin Skills",
 		"EffectTags": [
 			"Protecting Sword",
@@ -2592,7 +2592,7 @@
 	},
 	{
 		"Name": "Violent Collections",
-		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf this unit's Speed is faster than target's, deal +(Speed difference x 3)% damage (max 15%)",
+		"Description": "When this unit has Haste, gain +1 more Tremor Count from Base Skills\nIf this unit's Speed is faster than the target's, deal +(Speed difference x 3)% damage (max 15%)",
 		"EffectTags": [
 		]
 	},
@@ -2605,7 +2605,7 @@
 		]
 	},
 	{
-		"Name": "Blessing",
+		"Name": "Blessing (E.G.O Gift)",
 		"Description": "Turn Start: Gain 2 Protection\nAdjust any Attack Type Resistances exceeding 1 to 1 (unless Staggered)",
 		"EffectTags": [
 			"Protection",
@@ -2686,7 +2686,7 @@
 	},
 	{
 		"Name": "Heishou Bolus Contamination [黑獸丸染]",
-		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n**Wu Adept Yi Sang**: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\n**Mao Adept Faust**: Take -5% damage from skills\n**Wei Don Quixote**: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n**Mao Ryōshū**: If this unit's Speed is faster than target's, deal +5% damage\n**You Adept Heathcliff**: On Hit with this unit's Base Attack Skill: Deal 5% of Gluttony damage dealt as Wrath damage\n**Si Rodion**: Inflict 1 Rupture On Critical Hit\n**You Sinclair**: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n**Mao Outis**: Inflict +1 Rupture Count On Hit with Unopposed Attacks (once per turn)\n**Si Gregor**: Gain +1 Poise Count when dealing Rupture damage (once per turn)",
+		"Description": "Max Stack: 11\nEmpowers The Lord of Hongyuan Hong Lu based on the Heishou he activated combo with (stackable):\n**Wu Adept Yi Sang**: On Hit with a Base Skill's Final Coin, trigger Tremor Burst once (once per turn)\n**Mao Adept Faust**: Take -5% damage from skills\n**Wei Don Quixote**: Inflict 1 Sinking upon inflicting Rupture or Rupture Count by using a Skill (3 times per turn)\n**Mao Ryōshū**: If this unit's Speed is faster than the target's, deal +5% damage\n**You Adept Heathcliff**: On Hit with this unit's Base Attack Skill: Deal 5% of Gluttony damage dealt as Wrath damage\n**Si Rodion**: Inflict 1 Rupture On Critical Hit\n**You Sinclair**: When using a Skill to inflict Rupture or Rupture Count, inflict 1 Burn (3 times per turn)\n**Mao Outis**: Inflict +1 Rupture Count On Hit with Unopposed Attacks (once per turn)\n**Si Gregor**: Gain +1 Poise Count when dealing Rupture damage (once per turn)",
 		"EffectTags": [
 			"Rupture Count",
 			"Rupture Potency",
@@ -2745,14 +2745,14 @@
 	},
 	{
 		"Name": "Gaze (N Corp. E.G.O::Contempt, Awe Ryōshū)",
-		"Description": "Max Stack: 7\nDeal and take +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
+		"Description": "Max Stack: 7\nTake and deal +10% damage from and against Ryōshū for every Stack\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: At 7 Stack, convert into Contempt next turn",
 		"EffectTags": [
 			"Contempt"
 		]
 	},
 	{
 		"Name": "Contempt",
-		"Description": "Max Stack: 1\nDeal and take -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
+		"Description": "Max Stack: 1\nTake and deal -50% damage from and against Ryōshū\nTargets with Contempt cannot gain Gaze\nOn death, transfers to an ally/Part either without or with the least Contempt or Gaze (does not activate if killed during Skill attack of 'Cascading Gaze of Awe Underneath Contempt'\nTurn End: Expires, then gain 7 Gaze next turn",
 		"EffectTags": [
 			"Gaze"
 		]
@@ -2994,7 +2994,7 @@
 	},
 	{
 		"Name": "La Mancha Parade",
-		"Description": "Max Stack: 4\nTake +10% damage from Lust Skills\nIf the target is a <La Manchaland> Identity, take +20% damage regardless of Skill Affinity\nAt max Stack, deal -20% damage against <La Manchaland> Identities\nLose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
+		"Description": "Max Stack: 4\nTake +10% damage from Lust Skills\nIf target is a <La Manchaland> Identity, take +20% damage regardless of Skill Affinity\nAt max Stack, deal -20% damage against <La Manchaland> Identities\nLose 1 Stack either after this unit's Skill hits and ends or after the Skill that attacked this unit hits and ends",
 		"EffectTags": [
 			"Focused Damage Amp",
 			"Focused Damage Reduction"
@@ -3348,7 +3348,7 @@
 	},
 	{
 		"Name": "Shin (心) - Procuration",
-		"Description": "Max Stack: 1\nMin & Max Speed +2\nOffense Level +1, Defense Level +1\nGain +1 Poise Potency and Poise Count from Base Skills\nDeal +(Missing HP percentage / 2)% damage with Base Skills",
+		"Description": "Max Stack: 1\nMin & Max Speed +2\nOffense Level +1, Defense Level +1\nGain +1 Poise Potency and Poise Count from Base Skills\nDeal +(missing HP percentage / 2)% damage with Base Skills",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -3620,7 +3620,7 @@
 	},
 	{
 		"Name": "The Middle - Grudge",
-		"Description": "Max Stack: 15\nIf the target has Vengeance Mark, deal +20% damage",
+		"Description": "Max Stack: 15\nIf target has Vengeance Mark, deal +20% damage",
 		"EffectTags": [
 		]
 	},
@@ -3634,7 +3634,7 @@
 	},
 	{
 		"Name": "Moonlit Azure Blade",
-		"Description": "Max Stack: 40\nTurn Start: Gain 2 Shield for every Stack\nDeal +1% damage on Critical Hit based on Stack",
+		"Description": "Max Stack: 20\nTurn Start: Gain 2 Shield for every Stack\nDeal +1% damage on Critical Hit based on Stack",
 		"EffectTags": [
 			"Shield"
 		]
@@ -4040,7 +4040,7 @@
 		]
 	},
 	{
-		"Name": "Self-Charge",
+		"Name": "Self-charge",
 		"Description": "Max Stack: 20\nFinal Power +2\nGain Charge Count equal to Stack lost\nLose Stack at:\n$ Attack End of Skills that hit this unit (Lose 1 Stack)\n$ Attack End (Lose 3 Stack)\n$ Turn End (Lose 5 Stack)\nThis unit's HP cannot drop below 1 before this effect expires",
 		"EffectTags": [
 			"Final Power Up"
@@ -4056,7 +4056,7 @@
 	},
 	{
 		"Name": "Corpus Ingredient",
-		"Description": "Max Count:20\nUnique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\nTurn End: Lose 1 Count",
+		"Description": "Max Count: 20\nUnique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Count\nTurn End: Lose 1 Count",
 		"EffectTags": [
 			"Unique Charge"
 		]
@@ -4237,7 +4237,7 @@
 	},
 	{
 		"Name": "Faltering Inspiration (Low Morale)",
-		"Description": "If the target has Mauled Color, deal +10% damage\nGain 1 Fragile",
+		"Description": "If target has Mauled Color, deal +10% damage\nGain 1 Fragile",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -4245,7 +4245,7 @@
 	},
 	{
 		"Name": "Faltering Inspiration (Panic)",
-		"Description": "If the target has Mauled Color, deal +20% damage\nGain 2 Fragile",
+		"Description": "If target has Mauled Color, deal +20% damage\nGain 2 Fragile",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -4409,7 +4409,7 @@
 	},
 	{
 		"Name": "Sealed Sword",
-		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of Coin's final damage) Blunt damage (rounded down)",
+		"Description": "Turn End: Gain 2 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 Bleed on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ Bleed, deal (10% of this Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp",
@@ -4418,7 +4418,7 @@
 	},
 	{
 		"Name": "First Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Blunt damage (rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp",
@@ -4427,7 +4427,7 @@
 	},
 	{
 		"Name": "Second Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Slash damage (rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Slash damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp",
@@ -4436,7 +4436,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of Coin's final damage) Pierce damage (rounded down)",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Pierce damage (rounded down)",
 		"EffectTags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4470,7 +4470,7 @@
 	},
 	{
 		"Name": "Refracted Affection and Resentment (Low Morale)",
-		"Description": "Deal and take +10% damage",
+		"Description": "Take and deal +10% damage",
 		"EffectTags": [
 			"Low Morale",
 			"Panic Type"
@@ -4478,7 +4478,7 @@
 	},
 	{
 		"Name": "Refracted Affection and Resentment (Panic)",
-		"Description": "Deal and take +20% damage",
+		"Description": "Take and deal +20% damage",
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
@@ -4501,8 +4501,8 @@
 		]
 	},
 	{
-		"Name": "Trussed [Hong Lu]",
-		"Description": "Base Stack: 3\nMin & Max Speed -2\nTake -10% Pride damage\nExpires when the inflicter Retreats, is killed, or inflicts it on a different target\n$ Replaced when Trussed by another unit\nTurn End: Lose 1 Stack if the inflicter did not hit this unit this turn",
+		"Name": "Trussed",
+		"Description": "Base Stack: 3\nMin & Max Speed -2\nTake +10% Pride damage\nExpires when the inflicter Retreats, is killed, or inflicts it on a different target\n$ Replaced when Trussed by another unit\nTurn End: Lose 1 Stack if the inflicter did not hit this unit this turn",
 		"EffectTags": [
 			"Min Speed Down",
 			"Max Speed Down",
@@ -4519,7 +4519,7 @@
 	},
 	{
 		"Name": "Prisoner Transport Arrangements",
-		"Description": "Base Stack: 1\nIn a Clash against enemies that have Trussed [Hong Lu], gain Clash Power +1\nOn Hit against enemies that have Trussed [Hong Lu], inflict 1 Bleed and gain 2 Poise (2 Skills per turn)\nIf there are no Trussed [Hong Lu] targets, expires",
+		"Description": "Base Stack: 1\nIn a Clash against enemies that have Trussed, gain Clash Power +1\nOn Hit against enemies that have Trussed, inflict 1 Bleed and gain 2 Poise (2 Skills per turn)\nIf there are no Trussed targets, expires",
 		"EffectTags": [
 			"Clash Power Up",
 			"Bleed Potency",
@@ -4690,7 +4690,7 @@
 	},
 	{
 		"Name": "The Duel Escalates",
-		"Description": "Max Stack:5\nAffects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\nCan gain up to 3 Stacks per turn",
+		"Description": "Max Stack: 5\nAffects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\nCan gain up to 3 Stacks per turn",
 		"EffectTags": [
 		]
 	},
@@ -4703,7 +4703,7 @@
 	},
 	{
 		"Name": "Maturing Textbook",
-		"Description": "Max Stack:3\nBase Skills deal +(10 + (Stack x 5))% damage\nCan gain up to 2 Stacks per turn",
+		"Description": "Max Stack: 3\nBase Skills deal +(10 + (Stack x 5))% damage\nCan gain up to 2 Stacks per turn",
 		"EffectTags": [
 		]
 	},

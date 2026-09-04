@@ -57,7 +57,7 @@
 			],
 			[
 				"Notice on Skills",
-				"Always-active passives (Read: Pequod Captain Ishmael's 'Hour of the Hunt', Index Yi Sang's five passives that provide him his unique mechanics, etc.) will not be displayed in full on IDs, largely to the fault of the latter threatening to overload the 6000 character limit imposed by Discord."
+				"~~Always-active passives (Read: Pequod Captain Ishmael's 'Hour of the Hunt', Index Yi Sang's five passives that provide him his unique mechanics, etc.) will not be displayed in full on IDs, largely to the fault of the latter threatening to overload the 6000 character limit imposed by Discord.~~\nNo longer the case. Faust finds a way."
 			],
 			[
 				"Special Parameters",
@@ -193,6 +193,34 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.5 (2026-09-02)",
+				"```buffed speeds are now visible, ids now -sortby speed-able```"
+			],
+			[
+				"3.4.4.3 (2026-08-24)",
+				"```added unique status functionality to ego gifts```"
+			],
+			[
+				"3.4.4.2 (2026-08-24)",
+				"```made status pages more flexible to deal with wall of text statuses```"
+			],
+			[
+				"3.4.4.1 (2026-08-23)",
+				"```display page number on unique status pages for when you get lost on index yi sang's 7 pages of statuses```"
+			],
+			[
+				"3.4.4 (2026-08-23)",
+				"```unique statuses now in ids and ego\nwill add to gifts soon tm```"
+			],
+			[
+				"3.4.3.4 (2026-08-20)",
+				"```display improvement for ego gifts and statuses```"
+			],
+			[
+				"3.4.3.3 (2026-08-20)",
+				"```fix for skills being too long to be put in labels\nthis literally only affected lantern yi sang```"
+			],
+			[
 				"3.4.3.2 (2026-08-04)",
 				"```rip wall of Radiant Vanity```"
 			],
@@ -211,324 +239,322 @@
 			[
 				"3.4.2 (2026-07-18)",
 				"```technology's about to get crazy\nif you don't include a stop in the railway query it just gives you a list of all the stops now```"
-			]
-		],
-		"OldItems": [
-			[
-				"1.0",
-				"```Full release with all intended features and a completed ID/EGO database as of 2023-09-21.```"
-			],
-			[
-				"1.1",
-				"```E.G.O can now be queried via abnormality name. (i.e. -ego my form empties)\nE.G.O will now prioritize exact matches (Red Eyes is now queryable by name)```"
-			],
-			[
-				"1.2 (2023-12-02)",
-				"```E.G.O and IDs can now be queried via rarity/grade.\nUpdated database to Canto 5 Part 3.```"
-			],
-			[
-				"1.2.1 (2023-12-04)",
-				"```Pequod Heathcliff and Yi Sang preloaded into database```"
-			],
-			[
-				"1.2.2 (2023-12-14)",
-				"```Pursuance Rodion added to database```"
-			],
-			[
-				"1.3.0 (2023-12-15)",
-				"```E.G.O Gift Database added.```"
-			],
-			[
-				"1.3.1 (2023-12-21)",
-				"```Cinq Sinclair and Outis added to database\nE.G.O gift database updated for MD3H\nFixed bug related to skill potential```"
-			],
-			[
-				"1.3.2 (2023-12-28)",
-				"```Holiday Heathcliff and Outis added to database```"
-			],
-			[
-				"1.4.0 (2024-01-11)",
-				"```Backend data restructure\n'Shi' now aliases to 'Shi Association', no more SloShing jumpscares```"
-			],
-			[
-				"1.4.1 (2024-01-26)",
-				"```Further backend data restructure\nUpdate database to Dieci Yi Sang and Hong Lu```"
-			],
-			[
-				"1.5.0 (2024-02-07)",
-				"```why did they give captain ishmael a second passive```"
-			],
-			[
-				"1.6.0 (2024-03-28)",
-				"```i'm bad at keeping changelogs\nvarious bug fixes\nstatus db got added at some point\nfancy effect aliasing\ngosh i'm tired```"
-			],
-			[
-				"1.7.0 (2024-04-29)",
-				"```Separate sanity costs for Awakening and Corrosions\nOffense/Defense levels added\nUse -costs in an ego query to search for ego that use only the sins you provide (separate with commas)```"
-			],
-			[
-				"1.7.1 (2024-05-06)",
-				"```Gift database has been modified, source abnormalities and keywords are now valid parameters.```"
-			],
-			[
-				"1.8.0 (2024-07-05)",
-				"```backend stuff don't worry about it```"
-			],
-			[
-				"1.8.1 (2024-08-06)",
-				"```i wonder if anyone actually reads this\nIf they do, Charge now strictly refers to Charge Potency to retain consistency with the game. All previous instances of Charge are now Charge Count.```"
-			],
-			[
-				"1.8.2 (2024-08-22)",
-				"```Wild Hunt Heathcliff had enough text to warrant a brand new override. Coins will collapse to a x(X) if necessary.\nIDs with 'always active' Passives have them moved to the Defense Skill tab. Same reason as above.\nReminder that skills can be queried by name and the result will LIKELY be less ugly.```"
-			],
-			[
-				"2.0.0 (2024-09-05)",
-				"```verified and terrified\nLobotomy E.G.O Ryoshu has two sin costs in her passive. That's fun.```"
-			],
-			[
-				"2.1.0 (2024-09-17)",
-				"```largely trivial formatter update\nyou'd think the indents would've been made automatic sooner.```"
-			],
-			[
-				"2.2.1 (2024-10-17)",
-				"```just some housekeeping for da real ones who read this\nbarber outis's scissors are in fact cut down to just 'scissors' from there being no other reasonable way to make that fit into a discord embed\nweb frontend soon tm```"
-			],
-			[
-				"2.2.0 (2024-10-07)",
-				"```fixed the support query for sins\nenjoy getting 50 results figuring out what zwei ish can use solo```"
-			],
-			[
-				"2.3.0 (2024-10-24)",
-				"```please just one patch where nothing breaks\nsomehow meursault's yearning-mircalla had enough text to set off every override without heavy editing\nweb frontend sooner tm```"
-			],
-			[
-				"2.4.0 (2024-12-04)",
-				"```hi\nadded an override for coin power changing shenanigans\ntechnically was needed since lcb heath's but was circumvented because 2 power divides into 2 coins```"
-			],
-			[
-				"2.5.0 (2024-12-11)",
-				"```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
-			],
-			[
-				"2.5.0.1 (2024-12-11)",
-				"```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
-			],
-			[
-				"2.5.1 (2024-12-15)",
-				"```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
-			],
-			[
-				"2.5.2 (2024-12-23)",
-				"```Backend rework```"
-			],
-			[
-				"2.5.3 (2025-01-08)",
-				"```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
-			],
-			[
-				"2.5.3.1 (2025-01-09)",
-				"```Proper fix for brackets in Status Effects```"
-			],
-			[
-				"2.5.4 (2025-01-20)",
-				"```Inconsequential backend stuff\nConsequential frontend stuff:\nSorts have been finagled, will sort in descending order by default. Do -sort asc to go in the other direction.\nQueries now ignore spaces and special characters, Moth Faust's S3 isn't a nightmare to search for, but -skill . -s ryoshu no longer shows you skills she's SANGRIA'd.```"
-			],
-			[
-				"2.5.4.1 (2025-01-20)",
-				"```'Inconsequential' backend stuff became consequential error```"
-			],
-			[
-				"2.5.5 (2025-02-03)",
-				"```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
-			],
-			[
-				"2.5.6 (2025-02-20)",
-				"```Fix for Railway Stops not prioritizing Stop number over Station number```"
-			],
-			[
-				"2.6.0 (2025-04-28)",
-				"```:crab: THE IMAGE DUPE BUG IS GONE :crab:\nIt could've been squashed like, a year ago but it took this long to realize what the correct solution was.```"
-			],
-			[
-				"2.6.1 (2025-04-30)",
-				"```nothing happened here```"
-			],
-			[
-				"2.6.2 (2025-05-15)",
-				"```Inconsequential backend stuff that should be inconsequential for real```"
-			],
-			[
-				"2.6.2.1 (2025-05-19)",
-				"```oh no not again```"
-			],
-			[
-				"2.7 (2025-05-29)",
-				"```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
-			],
-			[
-				"2.7.1 (2025-07-08)",
-				"```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
-			],
-			[
-				"2.8.0 (2025-07-14)",
-				"```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
-			],
-			[
-				"2.8.1 (2025-07-17)",
-				"```fix for calc error with modified minus coins (did not matter until now)```"
-			],
-			[
-				"2.9.0 (2025-08-11)",
-				"```cover yourself in alt skills```"
-			],
-			[
-				"2.10.0 (2025-09-22)",
-				"```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
-			],
-			[
-				"3.0.0 (2025-10-30)",
-				"```stuff and things\nhopefully less ugliness in general now```"
-			],
-			[
-				"3.0.1 (2025-11-03)",
-				"```did you know captain ishmael is every heishou, all at once\ni do now```"
-			],
-			[
-				"3.0.2 (2025-11-20)",
-				"```did you know ego gifts have tiers?```"
-			],
-			[
-				"3.1.0 (2025-11-22)",
-				"```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
-			],
-			[
-				"3.1.1 (2025-11-22)",
-				"```sorts now respect usage of -mod in display```"
-			],
-			[
-				"3.2.0 (2025-12-02)",
-				"```fancy stuff\nuse -sortby hp to sort id results by hp\nuse -keyword to filter by the seven keyword souls\nuse -trait to sort by traits```"
-			],
-			[
-				"3.2.1 (2025-12-02)",
-				"```season query was supposed to be in this update```"
-			],
-			[
-				"3.2.2 (2025-12-06)",
-				"```backend stuff```"
-			],
-			[
-				"3.2.3 (2025-12-25)",
-				"```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
-			],
-			[
-				"3.2.4 (2025-12-29)",
-				"```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
-			],
-			[
-				"3.2.5 (2026-01-08)",
-				"```small fix for how hp sort is formatted```"
-			],
-			[
-				"3.2.6 (2026-01-11)",
-				"```id censor```"
-			],
-			[
-				"3.2.7 (2026-01-15)",
-				"``` — 10:56 AM\nwow seasonal ego dropped and i didn't have to rewire paus for it\nactually i will have to cause that's not actually correct\nit doesn't clash with the +5 final power\n\"just reuse the base power override\" no what if multiply coins happen\n\n — 12:28 PM\nme and my stupid ******* mouth```"
-			],
-			[
-				"3.2.7.1 (2026-01-16)",
-				"```coins are unbreakable```"
-			],
-			[
-				"3.2.7.2 (2026-02-04)",
-				"```calc bug with coins being unbreakable```"
-			],
-			[
-				"3.2.8 (2026-02-16)",
-				"```i'm not even going to see what happens if faust tries to print the 9 coin furioso-replica\nuse -se instead of -e to strict lookup effects (ryoshu contempt awe gives protection via contempt via gaze, but not directly)```"
-			],
-			[
-				"3.2.8.1 (2026-02-19)",
-				"```behold an override```"
-			],
-			[
-				"3.2.9 (2026-02-27)",
-				"```less ugly ego querier```"
-			],
-			[
-				"3.2.9.1 (2026-03-11)",
-				"```crash fix```"
-			],
-			[
-				"3.2.10 (2026-03-23)",
-				"```idk if we're doing formal world names anymore\ndisabled for now```"
-			],
-			[
-				"3.2.11 (2026-03-23)",
-				"```finagled skill display to display more\nWILL VOMIT WALL OF TEXTS```"
-			],
-			[
-				"3.3.0 (2026-04-27)",
-				"```finagled skill display to display less\nWILL no longer VOMIT WALL OF TEXTS```"
-			],
-			[
-				"3.3.1 (2026-04-29)",
-				"```exact matches working again```"
-			],
-			[
-				"3.3.2 (2026-05-09)",
-				"```finagled char names```"
-			],
-			[
-				"3.3.3 (2026-05-13)",
-				"```statuses are now included in skill calculations, arbitrary criteria being that the effect relies on no other units other than the unit themselves\ngo yell in the discord if this is stupid and you see this```"
-			],
-			[
-				"3.3.3.1 (2026-05-14)",
-				"```threadspin threadspun threadspent```"
-			],
-			[
-				"3.3.4 (2026-05-25)",
-				"```holy yap```"
-			],
-			[
-				"3.3.4.1 (2026-05-25)",
-				"```faust will respect your choice to use diacritics to search lævateinn. i guess.```"
-			],
-			[
-				"3.3.4.2 (2026-05-28)",
-				"```big bad override```"
-			],
-			[
-				"3.3.4.3 (2026-05-30)",
-				"```unspaghetti'd the railway stuff```"
-			],
-			[
-				"3.4.0 (2026-06-01)",
-				"```happy poise month btw\ncheck this out kiddo, drop downs save on char limit\nif anyone reads this go yell in discord if this sucks or not```"
-			],
-			[
-				"3.4.0.1 (2026-06-08)",
-				"```bugfix for gifts```"
-			],
-			[
-				"3.4.0.2 (2026-06-11)",
-				"```bugfix for tier querying```"
 			],
 			[
-				"3.4.1 (2026-06-18)",
-				"```ego display improvements```"
+				"3.4.1.2 (2026-07-17)",
+				"```formatting improvements```"
 			],
 			[
 				"3.4.1.1 (2026-06-24)",
 				"```help item display improvements\n-noalt ignores all alternate skills```"
 			],
 			[
-				"3.4.1.2 (2026-07-17)",
-				"```formatting improvements```"
+				"3.4.1 (2026-06-18)",
+				"```ego display improvements```"
+			],
+			[
+				"3.4.0.2 (2026-06-11)",
+				"```bugfix for tier querying```"
+			],
+			[
+				"3.4.0.1 (2026-06-08)",
+				"```bugfix for gifts```"
+			],
+			[
+				"3.4.0 (2026-06-01)",
+				"```happy poise month btw\ncheck this out kiddo, drop downs save on char limit\nif anyone reads this go yell in discord if this sucks or not```"
+			],
+			[
+				"3.3.4.3 (2026-05-30)",
+				"```unspaghetti'd the railway stuff```"
+			],
+			[
+				"3.3.4.2 (2026-05-28)",
+				"```big bad override```"
+			],
+			[
+				"3.3.4.1 (2026-05-25)",
+				"```faust will respect your choice to use diacritics to search lævateinn. i guess.```"
+			],
+			[
+				"3.3.4 (2026-05-25)",
+				"```holy yap```"
+			],
+			[
+				"3.3.3.1 (2026-05-14)",
+				"```threadspin threadspun threadspent```"
+			],
+			[
+				"3.3.3 (2026-05-13)",
+				"```statuses are now included in skill calculations, arbitrary criteria being that the effect relies on no other units other than the unit themselves\ngo yell in the discord if this is stupid and you see this```"
+			],
+			[
+				"3.3.2 (2026-05-09)",
+				"```finagled char names```"
+			],
+			[
+				"3.3.1 (2026-04-29)",
+				"```exact matches working again```"
+			],
+			[
+				"3.3.0 (2026-04-27)",
+				"```finagled skill display to display less\nWILL no longer VOMIT WALL OF TEXTS```"
+			],
+			[
+				"3.2.11 (2026-03-23)",
+				"```finagled skill display to display more\nWILL VOMIT WALL OF TEXTS```"
+			],
+			[
+				"3.2.10 (2026-03-23)",
+				"```idk if we're doing formal world names anymore\ndisabled for now```"
+			],
+			[
+				"3.2.9.1 (2026-03-11)",
+				"```crash fix```"
+			],
+			[
+				"3.2.9 (2026-02-27)",
+				"```less ugly ego querier```"
+			],
+			[
+				"3.2.8.1 (2026-02-19)",
+				"```behold an override```"
+			],
+			[
+				"3.2.8 (2026-02-16)",
+				"```i'm not even going to see what happens if faust tries to print the 9 coin furioso-replica\nuse -se instead of -e to strict lookup effects (ryoshu contempt awe gives protection via contempt via gaze, but not directly)```"
+			],
+			[
+				"3.2.7.2 (2026-02-04)",
+				"```calc bug with coins being unbreakable```"
+			],
+			[
+				"3.2.7.1 (2026-01-16)",
+				"```coins are unbreakable```"
+			],
+			[
+				"3.2.7 (2026-01-15)",
+				"``` — 10:56 AM\nwow seasonal ego dropped and i didn't have to rewire paus for it\nactually i will have to cause that's not actually correct\nit doesn't clash with the +5 final power\n\"just reuse the base power override\" no what if multiply coins happen\n\n — 12:28 PM\nme and my stupid ******* mouth```"
+			],
+			[
+				"3.2.6 (2026-01-11)",
+				"```id censor```"
+			],
+			[
+				"3.2.5 (2026-01-08)",
+				"```small fix for how hp sort is formatted```"
+			],
+			[
+				"3.2.4 (2025-12-29)",
+				"```maybe statuses and passives should have formatting\ndid you know? index faust has the word 'prescript' in her kit 43 times```"
+			],
+			[
+				"3.2.3 (2025-12-25)",
+				"```It's this time of the year.\nadd a 'p' to season query to search all previous seasons too\nloose matching now applies to keywords\nkeywords now apply to ego queries\nthis is almost an actual changelog wow```"
+			],
+			[
+				"3.2.2 (2025-12-06)",
+				"```backend stuff```"
+			],
+			[
+				"3.2.1 (2025-12-02)",
+				"```season query was supposed to be in this update```"
+			],
+			[
+				"3.2.0 (2025-12-02)",
+				"```fancy stuff\nuse -sortby hp to sort id results by hp\nuse -keyword to filter by the seven keyword souls\nuse -trait to sort by traits```"
+			],
+			[
+				"3.1.1 (2025-11-22)",
+				"```sorts now respect usage of -mod in display```"
+			],
+			[
+				"3.1.0 (2025-11-22)",
+				"```skills now have additional numbers ( final power - clash power / sum)\nchanges to sorts:\n   'p*tential' is now also 'sum'\n   apparently you could only use asc in the first slot of the sort. i dont know why. this is no longer the case.\n    'power' 'clash' 'sum' all assume you want the max of each```"
+			],
+			[
+				"3.0.2 (2025-11-20)",
+				"```did you know ego gifts have tiers?```"
+			],
+			[
+				"3.0.1 (2025-11-03)",
+				"```did you know captain ishmael is every heishou, all at once\ni do now```"
+			],
+			[
+				"3.0.0 (2025-10-30)",
+				"```stuff and things\nhopefully less ugliness in general now```"
+			],
+			[
+				"2.10.0 (2025-09-22)",
+				"```new override just dropped\ntl;dr hitting the last override makes it really ugly```"
+			],
+			[
+				"2.9.0 (2025-08-11)",
+				"```cover yourself in alt skills```"
+			],
+			[
+				"2.8.1 (2025-07-17)",
+				"```fix for calc error with modified minus coins (did not matter until now)```"
+			],
+			[
+				"2.8.0 (2025-07-14)",
+				"```happy walpipi\nuse -alt when when looking up an id to bring up their alt skills\nwarning: many chars look many ugly\nalso using the shorthand is less garbage /limbus id love and hate don -alt```"
+			],
+			[
+				"2.7.1 (2025-07-08)",
+				"```happy md6h\nimpending wave probably has like, 1700 characters raw, which is a bit more than the 1024 field limit for discord embeds.\nnot doing it for skills yet```"
+			],
+			[
+				"2.7 (2025-05-29)",
+				"```happy canto 8 finale\nhong lu's season ego has an alt skill, fingers crossed pre-existing architecture doesn't explode when reused for ego```"
+			],
+			[
+				"2.6.2.1 (2025-05-19)",
+				"```oh no not again```"
+			],
+			[
+				"2.6.2 (2025-05-15)",
+				"```Inconsequential backend stuff that should be inconsequential for real```"
+			],
+			[
+				"2.6.1 (2025-04-30)",
+				"```nothing happened here```"
+			],
+			[
+				"2.6.0 (2025-04-28)",
+				"```:crab: THE IMAGE DUPE BUG IS GONE :crab:\nIt could've been squashed like, a year ago but it took this long to realize what the correct solution was.```"
+			],
+			[
+				"2.5.6 (2025-02-20)",
+				"```Fix for Railway Stops not prioritizing Stop number over Station number```"
+			],
+			[
+				"2.5.5 (2025-02-03)",
+				"```Fixed error with exact skill name searching did not return only exact skill names if one was found```"
+			],
+			[
+				"2.5.4.1 (2025-01-20)",
+				"```'Inconsequential' backend stuff became consequential error```"
+			],
+			[
+				"2.5.4 (2025-01-20)",
+				"```Inconsequential backend stuff\nConsequential frontend stuff:\nSorts have been finagled, will sort in descending order by default. Do -sort asc to go in the other direction.\nQueries now ignore spaces and special characters, Moth Faust's S3 isn't a nightmare to search for, but -skill . -s ryoshu no longer shows you skills she's SANGRIA'd.```"
+			],
+			[
+				"2.5.3.1 (2025-01-09)",
+				"```Proper fix for brackets in Status Effects```"
+			],
+			[
+				"2.5.3 (2025-01-08)",
+				"```Formatting changes:\nSkills with empowered versions (i.e. Dawn Office Sinclair's Stigmatize becoming Blazing Strike) will have the empowered skill listed in the Skill description.\nWrestling with the character limit allows Fell Bullet Yi Sang to not force 'Torn Memory' to shorten to 'Memory'```"
+			],
+			[
+				"2.5.2 (2024-12-23)",
+				"```Backend rework```"
+			],
+			[
+				"2.5.1 (2024-12-15)",
+				"```MD5 Hard Gift Database has been updated\nBugfixes related to gift queries```"
+			],
+			[
+				"2.5.0.1 (2024-12-11)",
+				"```The Manager of La Manchaland Don Quixote's Ascendant Sancho Hardblood Arts - La Sangre\nwas too much for the embed to handle\nnew override hot off the presses\n    Thank you Don.```"
+			],
+			[
+				"2.5.0 (2024-12-11)",
+				"```dontent\nSeveral changes:\nUnits with alternate skills no longer have them in a second following embed.\n    You can thank Don for that.\nPrevious changes means that Meursault's To Claim Their Bones is now acknowledged as a Defense Skill.\n    You can thank Don for that.\nUnits with 'Always-active' Passives no longer have their descriptions when looking up an ID.\n    You can thank Don for that.\nThe sheer number of E.G.O Gifts in MD5 Hard is astounding, and the amount of proofreading is giving me a headache.\nFull Gift DB update is being put off until next week.\nSome of the new fusion gifts required formatter overrides.\nActually useful: If you're just looking up an ID or E.G.O, you can drop the -i -s -ego whatever and Faust will do her best to figure out what you wanted.\nlimbus id la mancha don\n    Thank you Don.```"
+			],
+			[
+				"2.4.0 (2024-12-04)",
+				"```hi\nadded an override for coin power changing shenanigans\ntechnically was needed since lcb heath's but was circumvented because 2 power divides into 2 coins```"
+			],
+			[
+				"2.3.0 (2024-10-24)",
+				"```please just one patch where nothing breaks\nsomehow meursault's yearning-mircalla had enough text to set off every override without heavy editing\nweb frontend sooner tm```"
+			],
+			[
+				"2.2.0 (2024-10-07)",
+				"```fixed the support query for sins\nenjoy getting 50 results figuring out what zwei ish can use solo```"
+			],
+			[
+				"2.2.1 (2024-10-17)",
+				"```just some housekeeping for da real ones who read this\nbarber outis's scissors are in fact cut down to just 'scissors' from there being no other reasonable way to make that fit into a discord embed\nweb frontend soon tm```"
+			],
+			[
+				"2.1.0 (2024-09-17)",
+				"```largely trivial formatter update\nyou'd think the indents would've been made automatic sooner.```"
+			],
+			[
+				"2.0.0 (2024-09-05)",
+				"```verified and terrified\nLobotomy E.G.O Ryoshu has two sin costs in her passive. That's fun.```"
+			],
+			[
+				"1.8.2 (2024-08-22)",
+				"```Wild Hunt Heathcliff had enough text to warrant a brand new override. Coins will collapse to a x(X) if necessary.\nIDs with 'always active' Passives have them moved to the Defense Skill tab. Same reason as above.\nReminder that skills can be queried by name and the result will LIKELY be less ugly.```"
+			],
+			[
+				"1.8.1 (2024-08-06)",
+				"```i wonder if anyone actually reads this\nIf they do, Charge now strictly refers to Charge Potency to retain consistency with the game. All previous instances of Charge are now Charge Count.```"
+			],
+			[
+				"1.8.0 (2024-07-05)",
+				"```backend stuff don't worry about it```"
+			],
+			[
+				"1.7.1 (2024-05-06)",
+				"```Gift database has been modified, source abnormalities and keywords are now valid parameters.```"
+			],
+			[
+				"1.7.0 (2024-04-29)",
+				"```Separate sanity costs for Awakening and Corrosions\nOffense/Defense levels added\nUse -costs in an ego query to search for ego that use only the sins you provide (separate with commas)```"
+			],
+			[
+				"1.6.0 (2024-03-28)",
+				"```i'm bad at keeping changelogs\nvarious bug fixes\nstatus db got added at some point\nfancy effect aliasing\ngosh i'm tired```"
+			],
+			[
+				"1.5.0 (2024-02-07)",
+				"```why did they give captain ishmael a second passive```"
+			],
+			[
+				"1.4.1 (2024-01-26)",
+				"```Further backend data restructure\nUpdate database to Dieci Yi Sang and Hong Lu```"
+			],
+			[
+				"1.4.0 (2024-01-11)",
+				"```Backend data restructure\n'Shi' now aliases to 'Shi Association', no more SloShing jumpscares```"
+			],
+			[
+				"1.3.2 (2023-12-28)",
+				"```Holiday Heathcliff and Outis added to database```"
+			],
+			[
+				"1.3.1 (2023-12-21)",
+				"```Cinq Sinclair and Outis added to database\nE.G.O gift database updated for MD3H\nFixed bug related to skill potential```"
+			],
+			[
+				"1.3.0 (2023-12-15)",
+				"```E.G.O Gift Database added.```"
+			],
+			[
+				"1.2.2 (2023-12-14)",
+				"```Pursuance Rodion added to database```"
+			],
+			[
+				"1.2.1 (2023-12-04)",
+				"```Pequod Heathcliff and Yi Sang preloaded into database```"
+			],
+			[
+				"1.2 (2023-12-02)",
+				"```E.G.O and IDs can now be queried via rarity/grade.\nUpdated database to Canto 5 Part 3.```"
+			],
+			[
+				"1.1",
+				"```E.G.O can now be queried via abnormality name. (i.e. -ego my form empties)\nE.G.O will now prioritize exact matches (Red Eyes is now queryable by name)```"
+			],
+			[
+				"1.0",
+				"```Full release with all intended features and a completed ID/EGO database as of 2023-09-21.```"
 			]
 		],
 		"HelpFooter": ""
