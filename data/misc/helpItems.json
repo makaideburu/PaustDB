@@ -193,6 +193,14 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.5.2 (2026-09-10)",
+				"```-mod can be moved to the -sortby param\n-sortby power mod asc```"
+			],
+			[
+				"3.4.5.1 (2026-09-08)",
+				"```sorting skills by power/clash will slightly account for offense/defense level```"
+			],
+			[
 				"3.4.5 (2026-09-02)",
 				"```buffed speeds are now visible, ids now -sortby speed-able```"
 			],

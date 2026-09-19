@@ -3135,7 +3135,7 @@
         "Cost": 406,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: Each Identity gains ((sum of total Charge Count + Unique Charge consumed by Skill use in this Encounter) / 4) Offense Level Up (maxes at 40 Charge Count + Unique Charge consumed)\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 10 Charge Count (5 times per Identity per Encounter; Unique Charge does not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (max 2)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that gain Charge Count or Unique Charge (except E.G.O Skills, except Backup Units)\nFirst Turn Start of a Wave: All allies gain 7 Charge Barrier\nTurn Start: All allies gain (Charge Count / 5 + 1) Damage Up (max 9; rounded up; including Unique Charge)\nEach Identity gains (total Charge Count consumed by Attack Skills during this Encounter / 4) Offense Level Up at Turn Start (maxes at 40 Charge Count consumed)\nEach Identity gains 1 Charge every time they consume 10 Charge Count (5 times per Identity per Encounter; Unique Charge does not count)\nTurn Start: All allies gain 1 Attack Power Up for every 2 Charge on themselves (max 2)",
                 "Rank": 1,
                 "EffectTags": [
                     "Charge Barrier",
@@ -4886,7 +4886,7 @@
                 "Description": "Turn End: Enemies with 3+ Burn Count Activate Burn one more time (reduce Burn Count by 1)",
                 "Rank": 1,
                 "EffectTags": [
-                    "Burn Proc"
+                    "Activate Burn"
                 ]
             }
         ],
@@ -4929,7 +4929,7 @@
                 "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities that have Attack Skills that apply Burn or Unique Burn (except E.G.O Skills, except Backup Units)\nOn Hit with a Skill (including E.G.O Skills): If target has 3+ Burn Count, Activate Burn once on target (target loses 1 Burn Count; activates once per Skill)\nTurn End: Targets with 3+ Burn Count Activate Burn one more time (target loses 1 Burn Count)\nIf a target with Burn is defeated (for Abnormalities, their Core), inflict its remaining Burn to one enemy with the least Burn at next Turn Start\nTurn Start: Inflict 4 Offense level Down to enemies with Burn\nIf a target with Burn is defeated, at next Turn Start, (defeated enemy's Burn / 15) allies with Skills that inflict Burn gain 2 Damage Up (once per turn)",
                 "Rank": 1,
                 "EffectTags": [
-                    "Burn Proc",
+                    "Activate Burn",
                     "Burn Potency",
                     "Offense Level Down",
                     "Damage Up"
@@ -4974,7 +4974,7 @@
                 "Description": "On ally Clash Win: activate enemy's Bleed once (3 times per turn)",
                 "Rank": 1,
                 "EffectTags": [
-                    "Bleed Proc"
+                    "Activate Bleed"
                 ]
             }
         ],
@@ -5018,7 +5018,7 @@
                 "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Bleed or Unique Bleed (except E.G.O Skills, except Backup Units)\nOn ally Clash Win: activate the enemy's Bleed once (once per turn per ally)\nEnemies become Staggerable by Bleed damage; if an enemy is Staggered due to Bleed damage mid-Clash, Activate Bleed (# of enemy's remaining Coins) times\nIf all enemies have Bleed, they lose 2 Defense Level. At Turn End, inflict (# of Bleed activations x 2) Defense Level Down (max 20)\nWhen inflict Bleed or Unique Bleed with Skill effects, inflict 3 Bleed and +1 Bleed Count on target",
                 "Rank": 1,
                 "EffectTags": [
-                    "Bleed Proc",
+                    "Activate Bleed",
                     "Defense Level Down",
                     "Bleed Potency",
                     "Bleed Count"
@@ -6695,19 +6695,19 @@
         "Id": "B-1-050-05",
         "Name": "The End of all Evil",
         "Tag": "Poise",
-        "Abnormality": "Theme Pack Fusion: ||Imposed Weight + Harpoon Prosthetic Leg [The Evil Defining] + Cetacean Heart [Crawling Abyss]||",
+        "Abnormality": "Theme Pack Fusion: ||Town-protecting Harpoon [Crawling Abyss] + Cetacean Heart [Crawling Abyss]||",
         "Affinity": "Pride",
         "Tier": 4,
         "Cost": 399,
         "Upgrades": [
             {
-                "Description": "Activates when there are 3+ The Pequod-faction Identities (excluding Backup units)\nOn Hit with an Attack Skill against enemies with Bleed: 50% chance to gain 3 Poise or +2 Poise Count (3 times per turn for each ally)\nOn Crit: 80% chance to not consume Poise Count (once per turn per ally; including E.G.O Skills and Counter Skills)\nOn Crit Heads Hit with a Base Skill: Inflict +1 more of the negative effect with that Coin (once per Turn per ally; including Counter Skills, excluding E.G.O Skills)\nIf #1 Deployed Identity kills an enemy, The Pequod-faction Identities gain 1 Pierce Power Up, 1 Protection, and 1 Crit DMG Up each turn for the rest of this Encounter (max 3 times per Encounter)\nIf one of The Pequod-faction Identities attacks and hits an enemy, heal 7 SP for The Pequod-faction Identity with the earliest Deployment order (once per Skill)\nWhen an ally kills an enemy, heal 15 SP for The Pequod-faction Identity with the earliest Deployment order if said Identity lost SP",
+                "Description": "Activates when there are 3+ The Pequod-faction Identities (excluding Backup units)\nOn Hit with an Attack Skill against enemies with Bleed or Unique Bleed: Gain 3 Poise or +2 Poise Count (3 times per turn for each ally)\nOn Crit: 80% chance to gain 1 Pierce Power Up next turn (2 times per turn per ally; including E.G.O Skills and Counter Skills)\n$ The Pequod-faction Identities gain 1 Plus Coin Boost next turn as well (once per turn per Identity)\nOn Crit Heads Hit with a Base Skill: Inflict +1 more of the negative effect with that Coin (once per turn per ally; including Counter Skills, excluding E.G.O Skills)\nOn enemy or ally death, The Pequod-faction Identities gain 1 Pierce Power Up, 1 Protection, and 1 Crit DMG Up each turn for the rest of this Encounter (max 3 times per Encounter)\nIf one of The Pequod-faction Identities attacks and hits an enemy, heal 7 SP for The Pequod-faction Identity with the earliest Deployment order (once per Skill)\nWhen an ally kills an enemy, heal 15 SP for The Pequod-faction Identity with the earliest Deployment order if said Identity lost SP",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: The Pequod",
                     "Poise Potency",
                     "Poise Count",
-                    "Freeze Poise Count",
+                    "Plus Coin Boost",
                     "Pierce Power Up",
                     "Protection",
                     "Crit DMG Up",
@@ -6972,7 +6972,7 @@
                     "Coin Power",
                     "Bleed Potency",
                     "Bleed Count",
-                    "Bleed Proc"
+                    "Activate Bleed"
                 ]
             },
             {
@@ -6982,7 +6982,7 @@
                     "Coin Power",
                     "Bleed Potency",
                     "Bleed Count",
-                    "Bleed Proc"
+                    "Activate Bleed"
                 ]
             }
         ],
@@ -7045,7 +7045,7 @@
         "Cost": 402,
         "Upgrades": [
             {
-                "Description": "All Bloodfiend allies: Base Skill Coin Power +1, deal +(Bloodfeast Consumed / 10)% Skill damage\nTurn End: Among allies with Bleed, 2 allies with the least HP heal 5% HP and gain 10 Shimmering [Bloodfiend] at next Turn Start\nOn enemy Kill, increase Bloodfeast by (Enemy Core max HP / 10) (max 50)\nTurn End: If an ally died this turn, all allies gain 2 Attack Power Up next turn\nIn Encounters where Backup enemies appear: When new enemies appear, inflict 5 Bleed and +3 Bleed Count against them at Combat Start\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, activate Bleed on all enemies twice and reduce their Bleed Count by 2",
+                "Description": "All Bloodfiend allies: Base Skill Coin Power +1, deal +(Bloodfeast Consumed / 10)% Skill damage\nTurn End: Among allies with Bleed, 2 allies with the least HP heal 5% HP and gain 10 Shimmering [Bloodfiend] at next Turn Start\nOn enemy Kill, increase Bloodfeast by (Enemy Core max HP / 10) (max 50)\nTurn End: If an ally died this turn, all allies gain 2 Attack Power Up next turn\nIn Encounters where Backup enemies appear: When new enemies appear, inflict 5 Bleed and +3 Bleed Count against them at Combat Start\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, Activate Bleed on all enemies twice and reduce their Bleed Count by 2",
                 "Rank": 1,
                 "EffectTags": [
                     "Faction Buff: Bloodfiend",
@@ -7055,7 +7055,7 @@
                     "Attack Power Up",
                     "Bleed Potency",
                     "Bleed Count",
-                    "Bleed Proc",
+                    "Activate Bleed",
                     "Spend Enemy Bleed Count"
                 ]
             }
@@ -7281,7 +7281,7 @@
         "Cost": 398,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn (except E.G.O Skills, except Backup Units)\nLiu Association Identities: Base Attack Skills gain Plus Coin Power +2 (Minus Coin Skills gain Base Power +(8 / # of Coins) (min 1; rounded down))\nNon-Skill 3 Skills (including E.G.O Skills) that inflict Burn, Burn Count, or Unique Burn deal +20% damage\nSkill 3 that inflict Burn, Burn Count, or Unique Burn gain Plus Coin Power +1 (Minus Coin Skills gain Base Power +(4 / # of Coins) (min 1; rounded down)) and deal +30% damage\n$ Identities in a faction deal +5% damage for every same-faction Identity in the Team (max 20%; including Backup Units)\nTurn End: 2 allies with the least SP heal 8 SP\n$ If affected allies are at 0- SP, heal 5 additional SP",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply Burn, Burn Count, or Unique Burn (except E.G.O Skills, except Backup Units)\nLiu Association Identities: Base Attack Skills gain Plus Coin Power +2 (Minus Coin Skills gain Base Power +(8 / # of Coins) (min 1; rounded down))\nNon-Skill 3 Skills (including E.G.O Skills) that inflict Burn, Burn Count, or Unique Burn deal +20% damage\nSkill 3 that inflict Burn, Burn Count, or Unique Burn gain Plus Coin Power +1 (Minus Coin Skills gain Base Power +(4 / # of Coins) (min 1; rounded down)) and deal +30% damage\n$ Identities in a faction deal +5% damage for every same-faction Identity in the Team (max 20%; including Backup Units)\nTurn End: 2 allies with the least SP heal 8 SP\n$ If affected allies are at 0 or less SP, heal 5 additional SP",
                 "Rank": 1,
                 "EffectTags": [
                     "Adaptive Coin Power",
@@ -8578,7 +8578,7 @@
                 "Rank": 1,
                 "EffectTags": [
                     "Burn Count",
-                    "Burn Proc"
+                    "Activate Burn"
                 ]
             }
         ],
@@ -8965,7 +8965,7 @@
         "Cost": 205,
         "Upgrades": [
             {
-                "Description": "Turn Start: Apply (Defense Level / 3) Shield to 1 ally with the highest Defense Level (prioritizes Heishou - Wu Identities; Max 15 Shield)\nWhen allies with Shield win a Clash, inflict (Speed / 2) Tremor; then gain 2 Haste and 2 Defense Level Up next turn (once per turn per Identity)",
+                "Description": "Turn Start: Apply (Defense Level / 3) Shield to 1 ally with the highest Defense Level (prioritizes Heishou - Wu Identities; max 15 Shield)\nWhen allies with Shield win a Clash, inflict (Speed / 2) Tremor; then gain 2 Haste and 2 Defense Level Up next turn (once per turn per Identity)",
                 "Rank": 1,
                 "EffectTags": [
                     "Shield",
@@ -9120,7 +9120,7 @@
         "Cost": 246,
         "Upgrades": [
             {
-                "Description": "Deal +20% damage with Blunt Skills against enemies that have 35+ Sinking Potency or are at 15- SP (Sinking is calculated per-Part)\n$ If said Blunt Skill is wither a Gloom Skill or a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, and hit the target, gain 1 Attack Power Up next turn (once per turn per Identity)",
+                "Description": "Deal +20% damage with Blunt Skills against enemies that have 35+ Sinking Potency or are at 15 or less SP (Sinking is calculated per-Part)\n$ If said Blunt Skill is wither a Gloom Skill or a Skill that inflicts Bleed, Bleed Count, or Unique Bleed, and hit the target, gain 1 Attack Power Up next turn (once per turn per Identity)",
                 "Rank": 1,
                 "EffectTags": [
                     "Damage Amp",
@@ -10344,21 +10344,21 @@
                 "Description": "Encounter Start: All allies gain (current Floor x 2)% Max HP (max 20%)",
                 "Rank": 1,
                 "EffectTags": [
-                    "Max HP"
+                    "Max HP Up"
                 ]
             },
             {
                 "Description": "Encounter Start: All allies gain (current Floor x 3)% Max HP (max 30%)",
                 "Rank": 2,
                 "EffectTags": [
-                    "Max HP"
+                    "Max HP Up"
                 ]
             },
             {
                 "Description": "Encounter Start: All allies gain (current Floor x 5)% Max HP (max 50%)",
                 "Rank": 3,
                 "EffectTags": [
-                    "Max HP"
+                    "Max HP Up"
                 ]
             }
         ],
@@ -11757,11 +11757,11 @@
         "Cost": 400,
         "Upgrades": [
             {
-                "Description": "Max Burn Potency +30\nOn Clash Win against targets that have Burn, activate Burn on target once and reduce the target's Burn Count by 1 (once per Identity)\nOn Skill Use against enemies that have Burn, gain Offense Level equal to (Burn Potency on the main target / 10) (max 8)",
+                "Description": "Max Burn Potency +30\nOn Clash Win against targets that have Burn, Activate Burn on target once and reduce the target's Burn Count by 1 (once per Identity)\nOn Skill Use against enemies that have Burn, gain Offense Level equal to (Burn Potency on the main target / 10) (max 8)",
                 "Rank": 1,
                 "EffectTags": [
                     "Burn Potency Limit Increase",
-                    "Burn Proc",
+                    "Activate Burn",
                     "Offense Level Up"
                 ]
             }

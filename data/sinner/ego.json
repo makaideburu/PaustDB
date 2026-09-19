@@ -944,7 +944,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Solemn Lament",
-					"Description": "[Unfocused Volley]\nWhen inflicting Butterfly using this Skill's effects:\n$ (chance to flip Heads)% chance to inflict The Departed\n$ If this unit did not inflict The Departed, inflict The Living instead (Calculates every Butterfly Stack independently)\nClash Power +1 for every 4 (Sinking + both Butterfly) on the main target (max 4)\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n$ [Before Attack] Gain a random assortment of (Gloom Reson + 1) The Living & The Departed (max 7)\n$ [Attack End] Reload\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict 3 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n[On Hit] Inflict 1 Gloom Fragility and 1 Gloom Resist Down this turn and next turn\n<5>[Unbreakable Coin]\nSpend all The Living & The Departed on self\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 2 Butterfly (The Living)\n[On Hit] Inflict 2 Butterfly (The Departed)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to (The Living & The Departed spent by this Coin x 2)% of this Coin's final damage",
+					"Description": "[Unfocused Volley]\nWhen inflicting Butterfly using this Skill's effects:\n$ (chance to flip Heads)% chance to inflict The Departed\n$ If this unit did not inflict The Departed, inflict The Living instead (Calculates every Butterfly Stack independently)\nClash Power +1 for every 4 (Sinking + both Butterfly) on the main target (max 4)\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n$ [Before Attack] Gain a random assortment of (Gloom Reson + 1) The Living & The Departed (max 7)\n$ [Attack End] Reload\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict 3 random Butterfly\n[On Hit] Inflict +1 Sinking Count\n[On Hit] Inflict 1 Gloom Fragility and 1 Gloom Resist Down this turn and next turn\n<5>[Unbreakable Coin]\nSpend all The Living & The Departed on self\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 2 Butterfly (The Living)\n[On Hit] Inflict 2 Butterfly (The Departed)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to (The Living & The Departed spent by this Coin x 2)% of this Coin's final damage",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 6,
@@ -977,7 +977,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Solemn Lament",
-					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 4 (Sinking + both Butterfly) on the main target (max 4)\n[Before Attack] Gain +(highest Reson x 2) Atk Weight (max 2, rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin (max -6)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Living)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Departed)\n[On Hit] Inflict 1 Gloom Fragility and 1 Gloom Resist Down this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to Sinking on target",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 4 (Sinking + both Butterfly) on the main target (max 4)\n[Before Attack] Gain +(highest Reson x 2) Atk Weight (max 2, rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin (max -6)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Living)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Departed)\n[On Hit] Inflict 1 Gloom Fragility and 1 Gloom Resist Down this turn and next turn\n<3>[Unbreakable Coin]\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to Sinking on target",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 16,
@@ -1024,7 +1024,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Solemn Lament",
-					"Description": "[Unfocused Volley]\nWhen inflicting Butterfly using this Skill's effects:\n$ (chance to flip Heads)% chance to inflict The Departed\n$ If this unit did not inflict The Departed, inflict The Living instead (Calculates every Butterfly Stack independently)\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n$ [Before Attack] Gain a random assortment of (Gloom Reson + 1) The Living & The Departed (max 7)\n$ [Attack End] Reload\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 random Butterfly\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n<4>[Unbreakable Coin]\n[On Hit] Inflict 3 random Butterfly\n<5>[Unbreakable Coin]\nSpend all The Living & The Departed on self\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 2 Butterfly (The Living)\n[On Hit] Inflict 2 Butterfly (The Departed)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to (The Living & The Departed spent by this Coin x 2)% of this Coin's final damage",
+					"Description": "[Unfocused Volley]\nWhen inflicting Butterfly using this Skill's effects:\n$ (chance to flip Heads)% chance to inflict The Departed\n$ If this unit did not inflict The Departed, inflict The Living instead (Calculates every Butterfly Stack independently)\nIf Lobotomy E.G.O::Solemn Lament Yi Sang used this Skill:\n$ [Before Attack] Gain a random assortment of (Gloom Reson + 1) The Living & The Departed (max 7)\n$ [Attack End] Reload\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 random Butterfly\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 random Butterfly\n<4>[Unbreakable Coin]\n[On Hit] Inflict 3 random Butterfly\n<5>[Unbreakable Coin]\nSpend all The Living & The Departed on self\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n[On Hit] Inflict 2 Butterfly (The Living)\n[On Hit] Inflict 2 Butterfly (The Departed)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target\n[On Hit] Deal Gloom damage equal to (The Living & The Departed spent by this Coin x 2)% of this Coin's final damage",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 6,
@@ -1057,7 +1057,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Solemn Lament",
-					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain +(highest Reson x 2) Atk Weight (max 2, rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin (max -6)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Living)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Departed)\n<3>[Unbreakable Coin]\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target",
+					"Description": "[Indiscriminate] Targets randomly\n[Before Attack] Gain +(highest Reson x 2) Atk Weight (max 2, rounded down)\n[Before Attack] Base Power -2 for every Cracked Coin (max -6)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Living)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 3 Butterfly (The Departed)\n<3>[Unbreakable Coin]\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Deal Gloom damage equal to the sum of both Butterfly on target",
 					"DamageType": "Pierce",
 					"SinType": "Gloom",
 					"BasePower": 16,
@@ -1303,7 +1303,7 @@
 						"Sinking Count",
 						"Shattered World",
 						"Burn Count",
-						"Burn Proc"
+						"Activate Burn"
 					]
 				},
 				"Corrosion": {
@@ -1336,7 +1336,7 @@
 						"Sinking Count",
 						"Shattered World",
 						"Burn Count",
-						"Burn Proc"
+						"Activate Burn"
 					]
 				},
 				"Passive": {
@@ -1375,7 +1375,7 @@
 						"Sinking Count",
 						"Shattered World",
 						"Burn Count",
-						"Burn Proc"
+						"Activate Burn"
 					]
 				},
 				"Corrosion": {
@@ -1408,7 +1408,7 @@
 						"Sinking Count",
 						"Shattered World",
 						"Burn Count",
-						"Burn Proc"
+						"Activate Burn"
 					]
 				},
 				"Passive": {
@@ -4217,7 +4217,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Yearning-Mircalla",
-					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (max 100%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (max 5)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (max 10)",
+					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and Activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +20% damage for every 100 Bloodfeast Consumed (Shared) (max 100%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (max 5)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (max 10)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 30,
@@ -4278,7 +4278,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Yearning-Mircalla",
-					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +10% damage for every 100 Bloodfeast Consumed (Shared) (max 50%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (max 4)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (max 10)",
+					"Description": "[Indiscriminate] Targets randomly\nThis unit's HP does not drop below 1 while using this Skill\nIf target has 10+ Bleed, Coin Power -1\nAt 200+ Bloodfeast Consumed by this unit, Coin Power -1\n[Before Attack] At less than 150 Bloodfeast, inflict 1 Bleed with every Hit\n[Before Attack] Gain 20 Bleed, and Activate Bleed on self immediately. Lose 2 Bleed Count\n<1>[On Hit] Inflict 1 Bleed for every 50 Bloodfeast Consumed (Shared) (max 10)\n[On Hit] At 100- Bloodfeast, inflict 10 Bleed\n<2>Deal +10% damage for every 100 Bloodfeast Consumed (Shared) (max 50%)\n[Hit After Clash Win] Inflict Polydipsic Rose based on highest Lust A-Reson (max 4)\n[Hit after Clash Win] Heal by 50% of HP damage dealt (max 10)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 30,
@@ -6704,7 +6704,6 @@
 						"Blunt Power Up",
 						"Burn Potency",
 						"Tremor Potency",
-						"Burn Spread",
 						"Tremor Burst"
 					]
 				},
@@ -6731,7 +6730,6 @@
 						"Blunt Power Up",
 						"Burn Potency",
 						"Tremor Potency",
-						"Burn Spread",
 						"Tremor Burst",
 						"Indiscriminate Burn",
 						"Indiscriminate Burn Count"
@@ -6771,7 +6769,6 @@
 						"Blunt Power Up",
 						"Burn Potency",
 						"Tremor Potency",
-						"Burn Spread",
 						"Tremor Burst"
 					]
 				},
@@ -6798,9 +6795,8 @@
 						"Blunt Power Up",
 						"Burn Potency",
 						"Tremor Potency",
-						"Burn Spread",
 						"Tremor Burst",
-						"Indiscriminate Burn",
+						"Indiscriminate Burn Potency",
 						"Indiscriminate Burn Count"
 					]
 				},
@@ -7040,7 +7036,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Yearning-Mircalla",
-					"Description": "Coin Power +1 for every 6 Bleed on target (max 2)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + highest Reson / 2) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (min 1)",
+					"Description": "Coin Power +1 for every 6 Bleed on target (max 2)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, Activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, Activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + highest Reson / 2) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (min 1)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -7057,14 +7053,14 @@
 					"EffectTags": [
 						"Self SP Damage",
 						"Bleed Potency",
-						"Bleed Proc",
+						"Activate Bleed",
 						"Rose Wedge"
 					]
 				},
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Yearning-Mircalla",
-					"Description": "[Indiscriminate] Targets randomly\nCoin Power +1 for every 6 (Bleed on self + target) (max 3)\n[On Use] Consume up to 10% of unit's max HP and deal (HP spent / 2) damage to all other units\nAt less than 50% of this unit's max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage dealt\n<1>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<2>[On Hit] Inflict 3 Bleed on self and target; activate Bleed on self and target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (highest Reson / 2)) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (min 1)",
+					"Description": "[Indiscriminate] Targets randomly\nCoin Power +1 for every 6 (Bleed on self + target) (max 3)\n[On Use] Consume up to 10% of unit's max HP and deal (HP spent / 2) damage to all other units\nAt less than 50% of this unit's max HP, inflict and activate 5 Bleed on all allies instead. Heal HP equal to Bleed damage dealt\n<1>[On Hit] Inflict 3 Bleed on self and target; Activate Bleed on self and target once\n<2>[On Hit] Inflict 3 Bleed on self and target; Activate Bleed on self and target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +2 Rose Wedge Count\nIf the target did not have Rose Wedge, inflict 4 Rose Wedge\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (highest Reson / 2)) times (3 times max)\n[On Kill] Deal overkill damage as fixed damage between all enemies (min 1)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 6,
@@ -7085,7 +7081,7 @@
 						"Heal HP",
 						"Bleed Potency",
 						"Self Bleed Potency",
-						"Bleed Proc",
+						"Activate Bleed",
 						"Self Bleed Proc",
 						"Rose Wedge"
 					]
@@ -7104,7 +7100,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Yearning-Mircalla",
-					"Description": "If target has 6+ Bleed, Coin Power +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (highest Reson / 2)) times (3 times max)",
+					"Description": "If target has 6+ Bleed, Coin Power +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n<1>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, Activate Bleed on target once\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] At 4+ highest Reson, Activate Bleed on target once\n<3>[Unbreakable Coin]\n[Hit after Clash Win] Inflict +2 Rose Wedge Count\n[On Hit] Inflict +1 Rose Wedge Count\n<4>[Unbreakable Coin]\n[Hit after Clash Win] Activate target's Bleed (1 + (highest Reson / 2)) times (3 times max)",
 					"DamageType": "Pierce",
 					"SinType": "Lust",
 					"BasePower": 5,
@@ -7121,7 +7117,7 @@
 					"EffectTags": [
 						"Self SP Damage",
 						"Bleed Potency",
-						"Bleed Proc",
+						"Activate Bleed",
 						"Rose Wedge"
 					]
 				},
@@ -7198,7 +7194,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Crushbound Past",
-					"Description": "[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$ At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n$ At 100+, Atk Weight +3 instead\n[Before Attack] For every 3 highest Reson, inflict 1 Tremor on all targets (max 3)\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] Heal (Accumulated Past x 2)% HP\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -7227,7 +7223,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Crushbound Past",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (max 100%)\n$ If the highest Reson was a Sloth Reson, deal +20% damage for every highest Reson instead (max 100%)\n[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack] When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (max 100%)\n$ If the highest Reson was a Sloth Reson, deal +20% damage for every highest Reson instead (max 100%)\n[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack] When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n[After Attack] Heal (Accumulated Past x 3)% HP\n<1>[Coin Start] Deal +2% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 30,
@@ -7266,7 +7262,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Crushbound Past",
-					"Description": "[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +1\n[After Attack] For 3 turns, lose 10 SP at Turn End\n[After Attack] When activating odd Sloth Reson in odd turns, or even Sloth Reson in even turns, heal 10 SP\n<1>[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson / 2) Tremor Count (max 3)\n[On Hit] Main target triggers Amplitude Entanglement into their current Tremor type\n<2>[On Hit] Inflict 4 Tremor\n<3>[Coin Start] Deal +1% damage for every Tremor on the main target (max 50%)\n<4>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If this coin's effects increased damage by 50%+, trigger Tremor Burst\n$ At 100%+ Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 4,
@@ -7295,7 +7291,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Crushbound Past",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (max 100%)\n$ If the highest Reson was a Sloth Reson, deal +20% damage for every highest Reson instead (max 100%)\n[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack] When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; reduce target's Tremor Count by 2",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +10% damage for every highest Reson (max 100%)\n$ If the highest Reson was a Sloth Reson, deal +20% damage for every highest Reson instead (max 100%)\n[Before Attack] If the main target has 30+ (Tremor + Tremor Count), Atk Weight +2\n[Before Attack] When activating even Sloth Reson in odd turns, or odd Sloth Reson in even turns, deal +12% damage\n<1>[Coin Start] Deal +1% damage for every (Tremor + Tremor Count) on the main target (max 100%)\n[On Hit] Inflict 5 Tremor and +2 Tremor Count\n[On Hit] Inflict +(Sloth Reson) Tremor Count (max 6)\n[On Hit] Main target triggers Amplitude Entanglement into current Tremor type\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2\n[On Hit] If this Coin's effects raised damage by 100%+, trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 30,
@@ -8555,7 +8551,7 @@
 					"SkillSlot": "EA0",
 					"Name": "Tears of the Tarnished Blood [汚血泣涙]",
 					"DisplayName": "Tears of the Tarnished Blood - Inception [始]",
-					"Description": "[Unclashable] Ignores target's Defense Skill; does not hit enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
+					"Description": "[Unclashable]\nIgnores target's Defense Skill\nThis Skill does not hit an enemy\n[After Attack] Gain Flower-burying Wedge [埋花櫼]\n<1>This unit takes fixed damage by this Skill's Final Power\n$ This damage does not Stagger or reduce this unit's HP below 1",
 					"DamageType": "Pierce",
 					"SinType": "Gluttony",
 					"BasePower": 20,
@@ -10563,7 +10559,7 @@
 						"Party Wrath Fragility",
 						"Party Wrath DMG Up",
 						"Enemy Wrath DMG Up",
-						"Burn Spread"
+						"Indiscriminate Burn Potency"
 					]
 				},
 				"Passive": {
@@ -10618,7 +10614,8 @@
 						"Wrath Fragility",
 						"Party Wrath Fragility",
 						"Party Wrath DMG Up",
-						"Enemy Wrath DMG Up"
+						"Enemy Wrath DMG Up",
+						"Indiscriminate Burn Potency"
 					]
 				},
 				"Passive": {
@@ -10845,8 +10842,7 @@
 						"Special Targeting",
 						"Target Rearmost",
 						"Raise Stagger Threshold",
-						"Burn Potency",
-						"Burn Spread"
+						"Burn Potency"
 					]
 				},
 				"Corrosion": {
@@ -10876,8 +10872,7 @@
 					"Name": "Shower of Fire",
 					"Description": "On hit, if the target had Burn, inflict 1 Burn on 3 random enemies",
 					"EffectTags": [
-						"Burn Potency",
-						"Burn Spread"
+						"Burn Potency"
 					]
 				}
 			},
@@ -10904,8 +10899,7 @@
 						"Special Targeting",
 						"Target Rearmost",
 						"Raise Stagger Threshold",
-						"Burn Potency",
-						"Burn Spread"
+						"Burn Potency"
 					]
 				},
 				"Corrosion": {
@@ -10935,8 +10929,7 @@
 					"Name": "Shower of Fire",
 					"Description": "On hit, if the target had Burn, inflict 1 Burn on 3 random enemies",
 					"EffectTags": [
-						"Burn Potency",
-						"Burn Spread"
+						"Burn Potency"
 					]
 				}
 			}
@@ -11128,7 +11121,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Gain (highest Reson + 5) Tremor Count (max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst twice; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Gain (highest Reson + 5) Tremor Count (max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst twice; then, reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -11154,7 +11147,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf the main target is in Stagger, Low Morale, or Panic, Base Power +2\n[Before Attack] Gain (highest Reson. + 5) Tremor Count (max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nIf the main target is in Stagger, Low Morale, or Panic, Base Power +2\n[Before Attack] Gain (highest Reson. + 5) Tremor Count (max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 18,
@@ -11192,7 +11185,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Gain (highest Reson + 5) Tremor Count (max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Gain (highest Reson + 5) Tremor Count (max 10)\n[After Attack] If any targets are in Stagger, Low Morale, or Panic, heal 10 SP\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; then, reduce target's Tremor Count by 2\n<2>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -11218,7 +11211,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf the main target is in Stagger, Low Morale, or Panic, Base Power +1\n[Before Attack] Gain (highest Reson. + 5) Tremor Count (max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\nIf the main target is in Stagger, Low Morale, or Panic, Base Power +1\n[Before Attack] Gain (highest Reson. + 5) Tremor Count (max 10)\n[Before Attack] Heal 10 HP\n[After Attack] Heal 5 SP for every enemy in Stagger, Low Morale, or Panic\n<1>[On Hit] Inflict +5 Tremor Count\n[On Hit] If the target isn't in Stagger, Low Morale, or Panic, inflict 5 Sinking and +2 Sinking Count\n<2>[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[On Hit] If the target isn't in Stagger, Low Morale, or Panic, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 18,
@@ -11286,7 +11279,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Tidal Elegy",
-					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (in Focused Encounters, a Core and its connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on the main target (max 2)\n[Before Attack] If the main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (in Focused Encounters, a Core and its connected Parts count as one target)\n[On Use] Clash Power +1 for every 4 Sinking on the main target (max 2)\n[Before Attack] If the main target has >1 Gloom Resist, deal +5% damage for every 0.1 Gloom Resist past 1 (max 20%)\n[Before Attack] At 2+ Gloom Reson, deal +10% damage for every Gloom Reson (max 40%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 3 Sinking\n[On Hit] Inflict 3 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 2 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 8,
@@ -11313,7 +11306,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Tidal Elegy",
-					"Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (max 3)\n[Before Attack] For every 3 highest Reson (if it was a Gloom Reson, for every 2 highest Reson): \n$ Atk Weight +1 (max 2)\n$ Deal +15% damage (max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If said Reson was a Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (max 3)\n[Before Attack] For every 3 highest Reson (if it was a Gloom Reson, for every 2 highest Reson): \n$ Atk Weight +1 (max 2)\n$ Deal +15% damage (max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If said Reson was a Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 2 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 13,
@@ -11355,7 +11348,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Tidal Elegy",
-					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (in Focused Encounters, a Core and its connected Parts count as one target)\n[On Use] If the main target has 4+ Sinking, Clash Power +1\n[Before Attack] If the main target has >1 Gloom Resist, deal +3% damage for every 0.1 Gloom Resist past 1 (max 15%)\n[Before Attack] At 2+ Gloom Reson, deal +8% damage for every Gloom Reson (max 32%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "When attacking a single target, Coin Power +2 and deal +100% damage (in Focused Encounters, a Core and its connected Parts count as one target)\n[On Use] If the main target has 4+ Sinking, Clash Power +1\n[Before Attack] If the main target has >1 Gloom Resist, deal +3% damage for every 0.1 Gloom Resist past 1 (max 15%)\n[Before Attack] At 2+ Gloom Reson, deal +8% damage for every Gloom Reson (max 32%)\n[After Attack] If 1+ target is killed, deal (Sinking on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most Sinking)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n[On Hit] Inflict 2 Tremor\n<2>[Unbreakable Coin]\n[On Hit without Cracking] Inflict 1 Bind next turn\n<3>[Unbreakable Coin]\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 2 Sinking against a random, non-targeted enemy (once per turn; Parts count as 1 target)\n$ When attacking a single target, apply to 3 targets instead\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 8,
@@ -11382,7 +11375,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Tidal Elegy",
-					"Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (max 2)\n[Before Attack] For every 3 highest Reson:\n$ Atk Weight +1 (max 2)\n$ Deal +15% damage (max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to  (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If said Reson was a Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1",
+					"Description": "[Indiscriminate] Targets randomly\n[On Use] Clash Power +1 for every 4 Sinking on target (max 2)\n[Before Attack] For every 3 highest Reson:\n$ Atk Weight +1 (max 2)\n$ Deal +15% damage (max 30%)\n[After Attack] Apply 1 Blunt DMG Up next turn to  (highest Reson) random allies (including this unit; max 4 allies; once per turn)\n$ If said Reson was a Gloom Reson or A-Reson, apply 1 Gloom DMG Up as well\n<1>[On Hit] Inflict 1 Sinking\n<2>[On Hit] Inflict 1 Sinking\n<3>[On Hit] Inflict 1 Tremor\n<4>[On Hit] Inflict 2 Tremor\n[On Hit] If there are Staggered, Part broken, or killed units among targets, inflict 1 Gloom Fragility against a random, non-targeted enemy (once per turn; Parts are 1 target)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Gloom",
 					"BasePower": 13,
@@ -15201,7 +15194,7 @@
 				},
 				"Passive": {
 					"Name": "Fair Presents",
-					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
+					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
 					"EffectTags": [
 						"Random Negative Status"
 					]
@@ -15259,7 +15252,7 @@
 				},
 				"Passive": {
 					"Name": "Fair Presents",
-					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per Turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
+					"Description": "When applying positive effects to other allies with Skill effects or Coin effects, randomly select one of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking\nThen, inflict 1 Potency of the selected effect to 1 random enemy (Activates 5 times per turn. Can be applied up to 5 times per enemy. For abnormalities, applied to a random part.)",
 					"EffectTags": [
 						"Random Negative Status"
 					]
@@ -15472,7 +15465,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Magic Bullet",
-					"Description": "Deal +3% damage for every 3 Burn on target (max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; Max 4)\n[After Attack] If the main target is defeated, inflict 4 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
+					"Description": "Deal +3% damage for every 3 Burn on target (max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; max 4)\n[After Attack] If the main target is defeated, inflict 4 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 22,
@@ -15499,7 +15492,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Magic Bullet",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +3% damage for every 3 Burn on target (max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; Max 4)\n[After Attack] If the main target is defeated, inflict 7 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 2) Burn Count (rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +3% damage for every 3 Burn on target (max 30%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; max 4)\n[After Attack] If the main target is defeated, inflict 7 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 2) Burn Count (rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 40,
@@ -15538,7 +15531,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Magic Bullet",
-					"Description": "Deal +2% damage for every 3 Burn on target (max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; Max 4)\n[After Attack] If the main target is defeated, inflict 3 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
+					"Description": "Deal +2% damage for every 3 Burn on target (max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; max 4)\n[After Attack] If the main target is defeated, inflict 3 Dark Flame on all enemies with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 22,
@@ -15565,7 +15558,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Magic Bullet",
-					"Description": "[Indiscriminate] Targets randomly\nDeal +2% damage for every 3 Burn on target (max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; Max 4)\n[After Attack] If the main target is defeated, inflict 5 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 3) Burn Count (rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +2% damage for every 3 Burn on target (max 20%)\n[Before Attack] At 0 Magic Bullet, gain 1 Magic Bullet\nMagic Bullet determines The Magic Bullet to fire (The First Magic Bullet ~ The Seventh Magic Bullet)\n[After Attack] Gain Magic Bullet by highest Reson (min 1; max 4)\n[After Attack] If the main target is defeated, inflict 5 Dark Flame on all targets (including allies) with Burn\n<1>[On Hit] Inflict Burn equal to Magic Bullet\n[On Hit] Inflict +(Magic Bullet / 3) Burn Count (rounded down)\n[On Hit] Inflict Dark Flame equal to Magic Bullet (once per turn per unit)",
 					"DamageType": "Pierce",
 					"SinType": "Pride",
 					"BasePower": 40,
@@ -16786,7 +16779,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + highest Reson)% missing HP on self (max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the highest Reson next turn",
+					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + highest Reson)% missing HP on self (max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and Fragility of the highest Reson next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -16815,7 +16808,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 20 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + highest Reson)% missing HP on self (max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and 2 Fragility of the highest Reson next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 20 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Heal (3 + highest Reson)% missing HP on self (max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down and 2 Fragility of the highest Reson next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 22,
@@ -16855,7 +16848,7 @@
 				"Awakening": {
 					"SkillSlot": "EA0",
 					"Name": "Christmas Nightmare",
-					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[After Attack] At max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + highest Reson)% missing HP on self (max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
+					"Description": "If target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[After Attack] At max HP, heal 10 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + highest Reson)% missing HP on self (max 30% per Skill)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 12,
@@ -16883,7 +16876,7 @@
 				"Corrosion": {
 					"SkillSlot": "EC0",
 					"Name": "Christmas Nightmare",
-					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + highest Reson)% missing HP on self (max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
+					"Description": "[Indiscriminate] Targets randomly\nIf target has less than 0 SP, deal +1% damage for every SP below 0 (max 45%)\n[Before Attack] Heal 10 HP\n[After Attack] At max HP, heal 15 SP at Turn End and gain 1 Attack Power Up next turn\n<1>[On Hit] Inflict 5 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Heal (2 + highest Reson)% missing HP on self (max 30%)\n[On Hit] Inflict 4 Sinking\n[On Hit] If target is in Stagger, Low Morale, or Panic, inflict 1 Attack Power Down next turn",
 					"DamageType": "Slash",
 					"SinType": "Sloth",
 					"BasePower": 22,
@@ -17130,7 +17123,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (all effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this Coin was used 4 times, deal Sloth damage equal to Tremor on target (max 10)",
+						"Description": "[Unclashable]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (all effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +100% damage and gain 2 Protection (once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +20% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit without Cracking] If this Coin was used 4 times, deal Sloth damage equal to Tremor on target (max 10)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,
@@ -17237,7 +17230,7 @@
 					"AltSkill": {
 						"SkillSlot": "EA1",
 						"Name": "Unbrilliant Glory - Incandescence",
-						"Description": "[Unclashable]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (all effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; reduce target's Tremor Count by 1\n[On Hit without Cracking] If this Coin was used 4 times, deal Sloth damage equal to Tremor on target (max 5)",
+						"Description": "[Unclashable]\nExternal effects cannot trigger this Skill to be Reused\nAt 40 Man in Scabbard, becomes Clashable\nAt 40 Man in Scabbard, cannot be Staggered from damage until Skill End; Clash Power +20\nConsume all Man in Scabbard, and gain (all effects rounded down):\n$ For every 20 Stack consumed, recuperate 1 E.G.O resource (Pride, then Wrath)\n$ For every 10 Stack consumed, Atk Weight +1 (max 4)\n$ For every 10 Stack consumed, gain 1 Defense Level Up (once per turn)\n$ If 40 Stack was consumed, the 4th Coin deals +80% damage and gain 2 Protection (once per turn)\n[Before Attack] Deal +5% damage for every 8 (Burn + Tremor on the main target) (max 25%)\n[After Attack] Heal 5 SP for every target that was Staggered or killed by Skill damage (max 25)\n[After Attack] Gain 1 Man in Scabbard\n[Turn End] If this Skill did not consume 40 Man in Scabbard, the leftmost Skill Slot gains +4 Aggro next turn (once per turn)\n<1>[Unbreakable Coin]\nReuse Coin ((Man in Scabbard spent / 10) - 1) times (max 3)\n[Coin Start] If this Coin isn't Cracked and targets 3+ enemies, the final coin deals +10% damage\n[On Hit] Inflict 1 Burn\n[On Hit] Inflict 1 Tremor\n[On Hit without Cracking] If this is the final Coin: If target has 15+ Tremor, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit without Cracking] If this Coin was used 4 times, deal Sloth damage equal to Tremor on target (max 5)",
 						"DamageType": "Slash",
 						"SinType": "Sloth",
 						"BasePower": 10,

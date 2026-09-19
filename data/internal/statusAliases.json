@@ -379,7 +379,7 @@
 	{
 		"entry": "burn burst",
 		"aliases": [
-			"burn proc"
+			"activate burn"
 		]
 	},
 	{
@@ -2768,7 +2768,7 @@
 	{
 		"entry": "embers",
 		"aliases": [
-			"burn proc",
+			"activate burn",
 			"spend enemy burn count"
 		]
 	},
@@ -3428,6 +3428,127 @@
 			"offense level up",
 			"poise potency",
 			"poise count"
+		]
+	},
+	{
+		"entry": "indiscriminate paralyze",
+		"aliases": [
+			"self paralyze",
+			"ally paralyze",
+			"paralyze"
+		]
+	},
+	{
+		"entry": "indiscriminate bind",
+		"aliases": [
+			"self bind",
+			"ally bind",
+			"bind"
+		]
+	},
+	{
+		"entry": "indiscriminate burn potency",
+		"aliases": [
+			"self burn potency",
+			"ally burn potency",
+			"burn potency"
+		]
+	},
+	{
+		"entry": "indiscriminate burn count",
+		"aliases": [
+			"self burn count",
+			"ally burn count",
+			"burn count"
+		]
+	},
+	{
+		"entry": "preservation",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "preservation potency",
+		"aliases": [
+			"unique charge potency",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "preservation count",
+		"aliases": [
+			"unique charge count",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "spend preservation count",
+		"aliases": [
+			"spend unique charge count"
+		]
+	},
+	{
+		"entry": "le noir: garbadine overcoat",
+		"aliases": [
+			"defense level up",
+			"aggro"
+		]
+	},
+	{
+		"entry": "armure éveillée",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"offense level up",
+			"defense level up",
+			"unbreakable coin",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "pulsation",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "pulsation potency",
+		"aliases": [
+			"unique charge potency",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "pulsation count",
+		"aliases": [
+			"unique charge count",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "spend pulsation count",
+		"aliases": [
+			"spend unique charge count"
+		]
+	},
+	{
+		"entry": "changing room",
+		"aliases": [
+			"damage reduction",
+			"remove stagger threshold",
+			"stagger recovery",
+			"aggro",
+			"pulsation count"
+		]
+	},
+	{
+		"entry": "full makeover",
+		"aliases": [
+			"min speed",
+			"max speed",
+			"max hp up",
+			"damage reduction"
 		]
 	}
 ]

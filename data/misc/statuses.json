@@ -830,7 +830,7 @@
 	},
 	{
 		"Name": "Magic Bullet",
-		"Description": "Max: 7\nLobotomy E.G.O::Magic Bullet Outis Skill 3 Only:\n0~3: +0 Coin +0 Base\n4~6: +2 Coin +2 Base\n7: +6 Coin +15 Base",
+		"Description": "Max: 7\nValue changes depending on certain Skill effects\n[Lobotomy E.G.O::Magic Bullet Outis Only]\nThe higher the value the higher the Base Power and Coin Power of Skill 3:\n$ 0~3 : Gain +0 Base Power and +0 Coin Power\n$ 4~6: Gain +2 Base Power and +2 Coin Power\n$ 7: Gain +15 Base Power and +6 Coin Power",
 		"EffectTags": []
 	},
 	{
@@ -1217,7 +1217,7 @@
 	},
 	{
 		"Name": "Time Moratorium",
-		"Description": "Does not take any damage as long as this effect is active, store all damage received instead\nCombat End: If there is only 1 Count left of this effect, the effect triggers Tremor Burst after dealing (100 + (Stack x 15)))% of stored damage as Sloth damage\nTurn End: Gain 1 Stack and lose 1 Count\nIf another instance of Time Moratorium is inflicted on a unit with Time Moratorium, this effect will immediately expire after triggering the Tremor Burst and Sloth Damage effects",
+		"Description": "Does not take any damage as long as this effect is active, store all damage received instead\nCombat End: If there is only 1 Count left of this effect, the effect triggers Tremor Burst (Stack) times after dealing (100 + (Stack x 15)))% of stored damage as Sloth damage\nTurn End: Gain 1 Stack and lose 1 Count\nIf another instance of Time Moratorium is inflicted on a unit with Time Moratorium, this effect will immediately expire after triggering the Tremor Burst and Sloth Damage effects",
 		"EffectTags": []
 	},
 	{
@@ -1355,7 +1355,7 @@
 	},
 	{
 		"Name": "Red Eyes",
-		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; Max 20 Value)\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Red Eyes\n$ Stage 2 (8~15): Red Eyes - Alert\n$ Stage 3 (16~20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
+		"Description": "Base Skill Coin effects inflict +1 Bleed\nUnique Charge (fixed Potency; max 20 Value)\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Red Eyes\n$ Stage 2 (8~15): Red Eyes - Alert\n$ Stage 3 (16~20): Red Eyes - Devouring\nThe amount of additional Bleed inflicted by the first line of this buff is equal to the buff enhancement stage",
 		"EffectTags": [
 			"Unique Charge",
 			"Bleed Potency"
@@ -1363,7 +1363,7 @@
 	},
 	{
 		"Name": "Penitence",
-		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; Max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Penitence\n$ Stage 2 (8~15): Penitence - Periphery\n$ Stage 3 (16~20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
+		"Description": "Heal 2 SP On Hit with Base Skill Coins that gain Penitence\nUnique Charge (fixed Potency; max 20 Value)\nTurn Start: Gain (Penitence)% of max HP as Shield\nEnhances the buff Stage based on Value\n$ Stage 1 (1~7): Penitence\n$ Stage 2 (8~15): Penitence - Periphery\n$ Stage 3 (16~20): Penitence - Confession\nThe amount of SP healed by the first line of this buff is equal to (buff enhancement stage x 2)",
 		"EffectTags": [
 			"Unique Charge",
 			"Heal SP",
@@ -1390,7 +1390,7 @@
 	},
 	{
 		"Name": "Butterfly",
-		"Description": "Unique Sinking\nBase Value: 0; Max Value: 15\nThe Potency and Count of this effect are called 'The Living' and 'The Departed' respectively\nWhen hit, the attacker heals (The Living / 4) SP (min 1; rounded down)\nWhen hit, and if this unit's SP is less than 0, take (Sinking Potency / 5) Gloom damage for every value of The Departed (max 30; rounded down. Deals half damage to targets without SP)\nTurn End: Reset The Departed to 0; gain Sinking equal to The Living and convert The Living to The Departed\nNo external effects can raise the amount of Butterfly inflicted. 'Inflict additional Sinking' effects inflict additional Sinking instead of inflicting additional Butterfly\nThis effect expires when both The Living and The Departed reach 0",
+		"Description": "Unique Sinking\nBase Value: 0; max Value: 15\nThe Potency and Count of this effect are called 'The Living' and 'The Departed' respectively\nWhen hit, the attacker heals (The Living / 4) SP (min 1; rounded down)\nWhen hit, and if this unit's SP is less than 0, take (Sinking Potency / 5) Gloom damage for every value of The Departed (max 30; rounded down. Deals half damage to targets without SP)\nTurn End: Reset The Departed to 0; gain Sinking equal to The Living and convert The Living to The Departed\nNo external effects can raise the amount of Butterfly inflicted. 'Inflict additional Sinking' effects inflict additional Sinking instead of inflicting additional Butterfly\nThis effect expires when both The Living and The Departed reach 0",
 		"EffectTags": [
 			"Unique Sinking",
 			"Heal SP",
@@ -4050,7 +4050,7 @@
 		"Name": "Embers",
 		"Description": "Max Potency: 3\nMax Count: 6\nIf this unit has Burn, lose 1 Embers Count when hit by a Skill that inflicts Burn, Burn Count or Unique Burn (including E.G.O Skills)\nIf this unit does not have Burn, reset Embers Count to 6 when hit (Independent of Skills that inflict Burn)\nAt 0 Embers Count, activate the following:\n$ Activate Burn on self once and lose 1 Burn Count\n$ Lose 1 Embers Potency\n$ At 1+ remaining Embers Potency, reset Embers Count to 6",
 		"EffectTags": [
-			"Burn Proc",
+			"Activate Burn",
 			"Spend Enemy Burn Count"
 		]
 	},
@@ -4229,7 +4229,7 @@
 	},
 	{
 		"Name": "Charm of the Beastly",
-		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if the target has 15- SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (once per turn)\nTurn End: This effect expires",
+		"Description": "Against enemies that have 20+ Bleed, Base Skills gain Coin Power +1 and deal +20% damage (Calculated as the sum of Bleed on all targets for Skills that have 2+ Atk Weight)\nOn Attack Start, if the target has 15 or less SP or 20+ Sinking Potency, gain 1 Blunt Power Up next turn (once per turn)\nTurn End: This effect expires",
 		"EffectTags": [
 			"Coin Power",
 			"Blunt Power Up"
@@ -4320,7 +4320,7 @@
 	},
 	{
 		"Name": "String Severance [絕緣]",
-		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Thumb Nursefather Rodion**: Defense Skill gains Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield\n$ **The Thumb Apprentice Heathcliff**: On Clash Win using a Base Skill, inflict 2 Tremor and trigger Tremor Burst; reduce target's Tremor Count by 1 (2 times per turn)\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Index Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Nursefather Outis**: Take -20% damage. When hit, gain 1 Offense Level Up (2 times per turn)\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake -7.5% damage for every Stack",
+		"Description": "Gain Stack for every The House of Spiders Nursefather ally death\nGain unique effects based on The House of Spiders ally death:\n$ **The Thumb Nursefather Rodion**: Defense Skill gains Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield\n$ **The Thumb Apprentice Heathcliff**: On Clash Win using a Base Skill, inflict 2 Tremor and trigger Tremor Burst; then, reduce target's Tremor Count by 1 (2 times per turn)\n$ **The Index Nursefather Yi Sang**: Upon using Base Attack Skills, convert the final Coin into an Unbreakable Coin. Deal +10% damage with Base Attack Skills' Unbreakable Coins\n$ **The Index Proxy - Effloresced E.G.O::Procuration Don Quixote**: Upon using Base Attack Skills, gain 2 Poise. On Crit using Base Attack Skills, inflict 1 Sinking\n$ **The Middle Nursefather Outis**: Take -20% damage. When hit, gain 1 Offense Level Up (2 times per turn)\n$ **The Middle Apprentice Ishmael**: Defense Level +2. Inflict +1 Burn Potency using Base Skills\n$ **The Ring Nursefather Hong Lu**: Gain Somatic Frisson-inspiring Melody\n$ **The Ring Apprentice Faust**: Gain Shield equal to 10% HP at every Turn Start\n$ **The Pinky Apprentice Sinclair**: Gain +1 Poise Count and 1 Crit DMG Up at every Turn Start\nTake -7.5% damage for every Stack",
 		"EffectTags": [
 			"Damage Reduction",
 			"Tremor Potency",
@@ -4418,7 +4418,7 @@
 	},
 	{
 		"Name": "First Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Blunt damage (rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Burn + Bleed), deal (10% of this Coin's final damage) Blunt damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp",
@@ -4427,7 +4427,7 @@
 	},
 	{
 		"Name": "Second Seal Removed",
-		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Slash damage (rounded down)",
+		"Description": "Turn End: Gain 1 Haste next turn\nBlunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Burn + Bleed), deal (10% of this Coin's final damage) Slash damage (rounded down)",
 		"EffectTags": [
 			"Haste",
 			"Blunt Damage Amp",
@@ -4436,7 +4436,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Bleed + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Bleed + Bleed), deal (10% of this Coin's final damage) Pierce damage (rounded down)",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Burn + Bleed), deal (10% of this Coin's final damage) Pierce damage (rounded down)",
 		"EffectTags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4779,7 +4779,7 @@
 	},
 	{
 		"Name": "High Noon",
-		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +2 and deal +(45 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +100% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n$ Deal +1% damage based on Scorchfield consumed (max 100%)",
+		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +2 and deal +(45 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, Activate Burn on target; then, reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +100% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, Activate Burn on target; then, reduce target's Burn Count by 1\n$ On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n$ Deal +1% damage based on Scorchfield consumed (max 100%)",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Spend Scorchfield"
@@ -4787,7 +4787,7 @@
 	},
 	{
 		"Name": "Loneliness at High Noon",
-		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +3 and deal +(90 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, activate Burn on target; reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +150% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, activate Burn on target; reduce target's Burn Count by 1\n$ On Use: Consume up to 100 Scorchfield and deal +1.5% damage based on Scorchfield consumed (max 150%)\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (once per Encounter)",
+		"Description": "Min Speed +2\nOn Base Attack Skill Use: Base Power +3 and deal +(90 / # of Coins)% damage\nApply the following effects to 'Sunset Blade'\n$ On Final Coin Hit: If target has 15+ Burn, Activate Burn on target; then, reduce target's Burn Count by 1\nApply the following effects to Blazing Strike:\n$ Deal +150% damage\n$ On Use: Convert all Coins into Unbreakable Coins\n$ On Hit against an enemy, Activate Burn on target; then, reduce target's Burn Count by 1\n$ On Use: Consume up to 100 Scorchfield and deal +1.5% damage based on Scorchfield consumed (max 150%)\nWhen this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (once per Encounter)",
 		"EffectTags": [
 			"Identity Exclusive Effect",
 			"Spend Scorchfield"
@@ -4872,6 +4872,171 @@
 			"Offense Level Up",
 			"Poise Potency",
 			"Poise Count"
+		]
+	},
+	{
+		"Name": "Preservation",
+		"Description": "Unique Charge\nMax Count: 20\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Charge Count\nTurn End: Lose 1 Count",
+		"EffectTags": [
+			"Unique Charge"
+		]
+	},
+	{
+		"Name": "Le Noir: Garbadine Overcoat",
+		"Description": "Max Stack: 100\nDefense Level +1 for every 25 Stacks\nGain +5 Aggro to the leftmost Slot\nWhen hit while this unit has Shield, gain 5 Stack (10 per turn)\nTurn End: If this unit has remaining Shield, gain 10 Stack\nApply the following when this unit gains or consumes Preservation Count due to its Skill or Passive effects:\n$ Gain Stack equal to Preservation Count gained (this effect's Stack is gained regardless of Preservation's max Count)\n$ Gain Stack equal to (Preservation Count consumed x 2)\n$ Can gain up to 30 Stacks per turn via this effect\nAt 100 Stack, convert this effect into Armure Éveillée next turn",
+		"EffectTags": [
+			"Defense Level Up",
+			"Aggro",
+			"Armure Éveillée"
+		]
+	},
+	{
+		"Name": "Armure Éveillée",
+		"Description": "Max Stack: 100\nMin & Max Speed +2\nOffense Level +1 and Defense Level +1 for every 25 Stack\nConvert all Base Attack Skill Coins into Unbreakable Coins\nTurn Start: Heal 8 SP\nAt 0 Stack, convert this effect into Le Noir: Garbadine Overcoat",
+		"EffectTags": [
+			"Min Speed",
+			"Max Speed",
+			"Offense Level Up",
+			"Defense Level Up",
+			"Unbreakable Coin",
+			"Heal SP",
+			"Le Noir: Garbadine Overcoat"
+		]
+	},
+	{
+		"Name": "Pulsation",
+		"Description": "Unique Charge\nMax Count: 20\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Charge Count\nTurn End: Lose 1 Count",
+		"EffectTags": [
+			"Unique Charge"
+		]
+	},
+	{
+		"Name": "Changing Room",
+		"Description": "Max Stack: 2\nFix this unit's Speed to 1\nTake -50% damage from Skills\nImmediately after gaining this effect, remove Stagger Thresholds; when Staggered, recover from Stagger\nTurn Start: Gain 10 Aggro\nWhen hit, gain 1 Pulsation Count (20 times per turn)\nTurn End: Lose 1 Stack\nCannot Retreat\nCannot enter E.G.O Corrosion; instead, enters default Panic State (is affected by Panic-changing effects)\nWhile in this state, aside from its exclusive Skill 'As the Voice Says, I Gladly Withdraw into Myself', cannot equip Defense Skills or E.G.O Skills",
+		"EffectTags": [
+			"Damage Reduction",
+			"Remove Stagger Threshold",
+			"Stagger Recovery",
+			"Aggro",
+			"Pulsation Count"
+		]
+	},
+	{
+		"Name": "Full Makeover",
+		"Description": "Min & Max Speed +1\nMax HP increased by 25%\nTake -10% damage from Skills\nBase Skills inflict +1 more Bleed Potency on enemies",
+		"EffectTags": [
+			"Min Speed",
+			"Max Speed",
+			"Max HP Up",
+			"Damage Reduction"
+		]
+	},
+	{
+		"Name": "FOMO (Low Morale)",
+		"Description": "Offense Level +1 for every 20% missing HP on self (max 2)\nGain 1 Fragile",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "FOMO (Panic)",
+		"Description": "Offense Level +1 for every 20% missing HP on self (max 2)\nGain 1 Fragile",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Leave the Leather Behind! (Low Morale)",
+		"Description": "Defense Level -3, Offense Level +1",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Leave the Leather Behind! (Panic)",
+		"Description": "Defense Level -5, Offense Level +2",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Back into My Shell... (Low Morale)",
+		"Description": "Max Speed -1, Defense Level +1",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Back into My Shell... (Panic)",
+		"Description": "Max Speed -5, Defense Level +3",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Culinary Yearning (Low Morale)",
+		"Description": "Offense Level +1 and take +3% damage for every Got an appetite, you hear? Stack on self",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Culinary Yearning (Panic)",
+		"Description": "Offense Level +2 and take +5% damage for every Got an appetite, you hear? Stack on self",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Got an appetite, you hear?",
+		"Description": "Max Stack: 3\nOffense Level +1 for every Stack\nAt 3 Stacks, deal +50% damage\nExpires when Sous Chef uses the 'Aah! I'm on lunch break, you hear?' Skill",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Messy Sewing (Low Morale)",
+		"Description": "Turn Start: Gain 1 Attack Power Down",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Messy Sewing (Panic)",
+		"Description": "Turn Start: Gain 1 Attack Power Down and 1 Damage Down",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Inner Schism (Low Morale)",
+		"Description": "Defense Level -3, Offense Level +3\nIn a Clash against targets that have 5 Baptism [Crimson], Clash Power +2",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Inner Schism (Panic)",
+		"Description": "Defense Level -5, Offense Level +3\nDeal +10% damage\nIn a Clash against targets that have 3+ Baptism [Crimson], Clash Power +3",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Baptism [Crimson]",
+		"Description": "Max Effect: 5\nOffense Level +1 for every 3 Bleed Potency on self (max 3)\nAt max Stack, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\nOn Base Attack Skill Use, gain +(Stack x 2) Bleed Count\nOn E.G.O Skill or Defense Skill Use, lose 3 Stacks",
+		"EffectTags": [
 		]
 	}
 ]
