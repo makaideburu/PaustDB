@@ -3550,5 +3550,68 @@
 			"max hp up",
 			"damage reduction"
 		]
+	},
+	{
+		"entry": "inertia of drifting",
+		"aliases": [
+			"unique charge"
+		]
+	},
+	{
+		"entry": "inertia of drifting potency",
+		"aliases": [
+			"unique charge potency",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "inertia of drifting count",
+		"aliases": [
+			"unique charge count",
+			"unique charge"
+		]
+	},
+	{
+		"entry": "spend inertia of drifting count",
+		"aliases": [
+			"spend unique charge count"
+		]
+	},
+	{
+		"entry": "duality",
+		"aliases": [
+			"conditional indiscriminate"
+		]
+	},
+	{
+		"entry": "mark of shearing",
+		"aliases": [
+			"heal sp",
+			"offense level up"
+		]
+	},
+	{
+		"entry": "second is welcome-snipping",
+		"aliases": [
+			"offense level up",
+			"defense level up",
+			"heal sp"
+		]
+	},
+	{
+		"entry": "ally second is welcome-snipping",
+		"aliases": [
+			"ally offense level up",
+			"ally defense level up",
+			"ally heal sp"
+		]
+	},
+	{
+		"entry": "fracturing of the senses",
+		"aliases": [
+			"tremor count",
+			"tremor potency",
+			"critical damage amp"
+		]
 	}
 ]

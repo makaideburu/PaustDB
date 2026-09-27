@@ -193,6 +193,10 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
+				"3.4.5.3 (2026-09-27)",
+				"```no longer vrooms and vrooms```"
+			],
+			[
 				"3.4.5.2 (2026-09-10)",
 				"```-mod can be moved to the -sortby param\n-sortby power mod asc```"
 			],

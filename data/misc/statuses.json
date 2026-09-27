@@ -5038,5 +5038,51 @@
 		"Description": "Max Effect: 5\nOffense Level +1 for every 3 Bleed Potency on self (max 3)\nAt max Stack, double the amount of damage taken from Bleed; this unit cannot be defeated due to Bleed damage\nOn Base Attack Skill Use, gain +(Stack x 2) Bleed Count\nOn E.G.O Skill or Defense Skill Use, lose 3 Stacks",
 		"EffectTags": [
 		]
+	},
+	{
+		"Name": "Inertia of Drifting",
+		"Description": "Max Count: 20\nUnique Charge\nInteracts the same way as normal Charge does to effects that raise or reduce Charge Potency and Charge Count\nTurn End: Lose 1 Count",
+		"EffectTags": [
+			"Unique Charge"
+		]
+	},
+	{
+		"Name": "Duality",
+		"Description": "Skills can target allied Identities\nUpon auto-targeting Skills, or in Regular Encounters, prioritize the ally with the earliest Deployment Order\n$ If target is an ally, the attack does not hit, and does not trigger Defense Skills (including Clashable Defense Skills)\nIf target is an ally, activate this Skill at Combat Start",
+		"EffectTags": [
+			"Conditional Indiscriminate"
+		]
+	},
+	{
+		"Name": "Mark of Shearing",
+		"Description": "Max Stack: 4\nWhen a target that has this effect is defeated, the unit that inflicted this effect heals 5 SP and gains 1 Offense Level Up next turn (3 times per turn)",
+		"EffectTags": [
+			"Heal SP",
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Second is Welcome-snipping",
+		"Description": "Max Stack: 1\nOffense Level +3, Defense Level +3\nOn Skill Use, heal 5 SP if this unit is a Charge Identity (once per turn)\nOn Base Skill Hit, deal Slash damage equal to 5% of each Coin's final damage\nExpires at Turn End",
+		"EffectTags": [
+			"Offense Level Up",
+			"Defense Level Up",
+			"Heal SP"
+		]
+	},
+	{
+		"Name": "Blossom Scissors",
+		"Description": "Max Stack: 2\nDeal +7% damage for every Stack",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Fracturing of the Senses",
+		"Description": "Max Stack: 5\nWhen other allies are hit, gain +1 Tremor Count, and lose 1 Stack (once per Skill)\nIf there are no other allies on the field, gain 2 Tremor Potency when hit, and lose 1 Stack (once per Skill)\nWhen hit by a Crit Attack, take +(Tremor Potency on self)% damage (max 15%)",
+		"EffectTags": [
+			"Tremor Count",
+			"Tremor Potency",
+			"Critical Damage Amp"
+		]
 	}
 ]

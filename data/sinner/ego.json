@@ -7446,6 +7446,172 @@
 		]
 	},
 	{
+		"Id": 6102,
+		"Sinner": "Hong Lu",
+		"Grade": "ZAYIN",
+		"Season": 8,
+		"Sanity": 15,
+		"CorrosionSanity": 20,
+		"Abnormality": "Resident of Metropolaris",
+		"SinResist": {
+			"Wrath": 2,
+			"Lust": 1,
+			"Sloth": 1,
+			"Gluttony": 1,
+			"Gloom": 1,
+			"Pride": 2,
+			"Envy": 0.75
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 2,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 0,
+			"Pride": 1,
+			"Envy": 2
+		},
+		"UniqueStatuses":[
+			"Photoelectricity"
+		],
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Repudiation",
+					"Description": "[On Use] Gain Clash Power equal to Charge Potency on self (max 3)\n[Before Attack] Gain +5 Charge Count\n[Before Attack] Consume up to 10 Charge Count on self; then, apply 5 Charge Barrier on self and (1 + (Charge Count consumed / 2)) random other allies (max 7 units; rounded down)\n[On Hit] Gain +2 Charge Count\n<2>[On Hit] Inflict 2 Photoelectricity",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 10,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Charge Barrier",
+						"Ally Charge Barrier",
+						"Photoelectricity"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Repudiation",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +25% damage against targets that have Shield\n[Before Attack] Base Power -6 for every Cracked Coin (max -12)\n[Before Attack] Gain Final Power equal to Charge Potency on self (max 3)\n[Before Attack] Gain +5 Charge Count\n[Before Attack] Consume up to 10 Charge Count on self; then, apply 7 Charge Barrier on self and on (1 + (Charge Count consumed / 2) random other allies (max 7 units; rounded down)\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count\n<2>[Unbreakable Coin]\n[Coin Start] Consume up to 10 Charge Count; then, this Coin gains Final Power equal to Count consumed\n[On Hit] Inflict 2 Photoelectricity",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 22,
+					"CoinPower": -6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
+					"UnbreakableBasePower": 10,
+					"ClashesWithOverride": false,
+					"FinalPowerOverride": [ 3, 13 ],
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Charge Barrier",
+						"Ally Charge Barrier",
+						"Unbreakable Coin",
+						"Photoelectricity"
+					]
+				},
+				"Passive": {
+					"Name": "The City Where No One Can Hurt Another",
+					"Description": "Max Charge Count +5\nSkill 3 (except E.G.O Skills) that consume Charge Count or Unique Charge deals +10% damage\nTurn End: If this unit was not hit this turn, heal 4 SP\n$ If this unit has 2+ Minus Coin Base Attack Skills, lose 4 SP instead (this effect cannot reduce this unit's SP below -40)",
+					"EffectTags": [
+						"Charge Count Limit Increase",
+						"Heal SP",
+						"Self SP Damage"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Repudiation",
+					"Description": "[On Use] Gain Clash Power equal to Charge Potency on self (max 2)\n[Before Attack] Gain +3 Charge Count\n[Before Attack] Consume up to 8 Charge Count on self; then, apply 5 Charge Barrier on self and (1 + (Charge Count consumed / 2)) random other allies (max 6 units; rounded down)\n[On Hit] Gain +2 Charge Count\n<2>[On Hit] Inflict 1 Photoelectricity",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 10,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Charge Barrier",
+						"Ally Charge Barrier",
+						"Photoelectricity"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Repudiation",
+					"Description": "[Indiscriminate] Targets randomly\nDeal +20% damage against targets that have Shield\n[Before Attack] Base Power -6 for every Cracked Coin (max -12)\n[Before Attack] Gain Final Power equal to Charge Potency on self (max 2)\n[Before Attack] Gain +4 Charge Count\n[Before Attack] Consume up to 8 Charge Count on self; then, apply 7 Charge Barrier on self and on (1 + (Charge Count consumed / 2) random other allies (max 6 units; rounded down)\n<1>[Unbreakable Coin]\n[On Hit] Gain +2 Charge Count\n<2>[Unbreakable Coin]\n[Coin Start] Consume up to 10 Charge Count; then, this Coin gains Final Power equal to Count consumed\n[On Hit] Inflict 1 Photoelectricity",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 22,
+					"CoinPower": -6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
+					"UnbreakableBasePower": 10,
+					"ClashesWithOverride": false,
+					"FinalPowerOverride": [ 3, 13 ],
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Charge Count",
+						"Spend Charge Count",
+						"Charge Barrier",
+						"Ally Charge Barrier",
+						"Unbreakable Coin",
+						"Photoelectricity"
+					]
+				},
+				"Passive": {
+					"Name": "The City Where No One Can Hurt Another",
+					"Description": "Max Charge Count +5\nSkill 3 (except E.G.O Skills) that consume Charge Count or Unique Charge deals +10% damage\nTurn End: If this unit was not hit this turn, heal 4 SP\n$ If this unit has 2+ Minus Coin Base Attack Skills, lose 4 SP instead (this effect cannot reduce this unit's SP below -40)",
+					"EffectTags": [
+						"Charge Count Limit Increase",
+						"Heal SP",
+						"Self SP Damage"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 6201,
 		"Sinner": "Hong Lu",
 		"Grade": "TETH",
@@ -12144,6 +12310,176 @@
 					"Description": "On Heads Hit with a Pierce Skill, inflict 1 Bind (2 times per turn)",
 					"EffectTags": [
 						"Bind"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 9203,
+		"Sinner": "Rodion",
+		"Grade": "TETH",
+		"Season": 8,
+		"Sanity": 20,
+		"CorrosionSanity": 25,
+		"Abnormality": "Wandering Heart",
+		"SinResist": {
+			"Wrath": 2,
+			"Lust": 1,
+			"Sloth": 0.5,
+			"Gluttony": 1,
+			"Gloom": 1,
+			"Pride": 2,
+			"Envy": 1
+		},
+		"Cost": {
+			"Wrath": 2,
+			"Lust": 0,
+			"Sloth": 2,
+			"Gluttony": 0,
+			"Gloom": 1,
+			"Pride": 1,
+			"Envy": 0
+		},
+		"UniqueStatuses":[
+			"Fracturing of the Senses"
+		],
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Mirror-touch",
+					"Description": "Clash Power +1 for every 6 (Poise on self + Tremor on the main target) (max 4)\n[Before Attack] Gain (4 + highest Reson) Poise (max 8)\n[Before Attack] Gain +4 Poise Count\n[Attack End] Randomly inflict (1 + highest Reson) Fracturing of the Senses between targets, 1 Stack at a time (max 5)\n<1>[On Hit] Inflict 4 Tremor\n<2>[On Hit] Inflict +3 Tremor Count\n<3>[On Hit] Inflict 2 Offense Level Down\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 11,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 4,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Fracturing of the Senses",
+						"Tremor Potency",
+						"Tremor Count",
+						"Offense Level Down",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Mirror-touch",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 6 (Poise on self + Tremor on the main target) (max 4)\n[Before Attack] Gain (4 + highest Reson) Poise (max 10)\n[Before Attack] Gain +4 Poise Count\n[Before Attack] Base Power -4 for every Cracked Coin (max -12)\n[Before Attack] At 10+ Poise Count, consume 4 Poise Count on self and deal +40% damage on Critical Hit against the main target\n[Attack End] Randomly inflict (1 + highest Reson) Fracturing of the Senses between targets, 1 Stack at a time (max 5)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 5 Tremor\n[On Hit] Inflict +1 Tremor Count\n[On Hit] If target has 4+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[Unbreakable Coin]\n[On Hit] Inflict +1 Tremor Count\n[On Hit] If target has 4+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[Unbreakable Coin]\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict 3 Offense Level Down\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 23,
+					"CoinPower": -4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 4,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"UnbreakableBasePower": 11,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Fracturing of the Senses",
+						"Tremor Potency",
+						"Tremor Count",
+						"Offense Level Down",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"Passive": {
+					"Name": "Schismatic Stereognosis",
+					"Description": "When this unit gains Poise Potency or Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
+					"EffectTags": [
+						"Poise Count",
+						"Tremor Potency"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Mirror-touch",
+					"Description": "Clash Power +1 for every 6 (Poise on self + Tremor on the main target) (max 3)\n[Before Attack] Gain (3 + highest Reson) Poise (max 8)\n[Before Attack] Gain +3 Poise Count\n[Attack End] Randomly inflict (1 + highest Reson) Fracturing of the Senses between targets, 1 Stack at a time (max 5)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +2 Tremor Count\n<3>[On Hit] Inflict 2 Offense Level Down\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 11,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Fracturing of the Senses",
+						"Tremor Potency",
+						"Tremor Count",
+						"Offense Level Down",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Mirror-touch",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 6 (Poise on self + Tremor on the main target) (max 3)\n[Before Attack] Gain (3 + highest Reson) Poise (max 10)\n[Before Attack] Gain +3 Poise Count\n[Before Attack] Base Power -4 for every Cracked Coin (max -12)\n[Before Attack] At 10+ Poise Count, consume 4 Poise Count on self and deal +30% damage on Critical Hit against the main target\n[Attack End] Randomly inflict (1 + highest Reson) Fracturing of the Senses between targets, 1 Stack at a time (max 5)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Tremor\n[On Hit] Inflict +1 Tremor Count\n[On Hit] If target has 4+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[Unbreakable Coin]\n[On Hit] Inflict +1 Tremor Count\n[On Hit] If target has 4+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Tremor Count\n[On Hit] Inflict 3 Offense Level Down\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 23,
+					"CoinPower": -4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"UnbreakableBasePower": 11,
+					"AttackWeight": 3,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Fracturing of the Senses",
+						"Tremor Potency",
+						"Tremor Count",
+						"Offense Level Down",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"Passive": {
+					"Name": "Schismatic Stereognosis",
+					"Description": "When this unit gains Poise Potency or Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
+					"EffectTags": [
+						"Poise Count",
+						"Tremor Potency"
 					]
 				}
 			}
