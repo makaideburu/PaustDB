@@ -3613,5 +3613,90 @@
 			"tremor potency",
 			"critical damage amp"
 		]
+	},
+	{
+		"entry": "sanctum of conservation",
+		"aliases": [
+			"party shield",
+			"ally offense level up",
+			"ally defense level up",
+			"min speed down",
+			"max speed down"
+		]
+	},
+	{
+		"entry": "party shield",
+		"aliases": [
+			"ally shield",
+			"shield"
+		]
+	},
+	{
+		"entry": "blessing of the obsidian god",
+		"aliases": [
+			"shield",
+			"unbreakable coin",
+			"nullify stagger"
+		]
+	},
+	{
+		"entry": "promised nail",
+		"aliases": [
+			"bind"
+		]
+	},
+	{
+		"entry": "tremor - conservation",
+		"aliases": [
+			"unique tremor"
+		]
+	},
+	{
+		"entry": "party offense level up",
+		"aliases": [
+			"ally offense level up",
+			"offense level up"
+		]
+	},
+	{
+		"entry": "party damage up",
+		"aliases": [
+			"ally damage up",
+			"damage up"
+		]
+	},
+	{
+		"entry": "party crit dmg up",
+		"aliases": [
+			"ally crit dmg up",
+			"crit dmg up"
+		]
+	},
+	{
+		"entry": "ashen bullet",
+		"aliases": [
+			"unique ammo"
+		]
+	},
+	{
+		"entry": "spend ashen bullet",
+		"aliases": [
+			"spend unique ammo"
+		]
+	},
+	{
+		"entry": "black wings",
+		"aliases": [
+			"charge count",
+			"offense level up"
+		]
+	},
+	{
+		"entry": "ally black wings",
+		"aliases": [
+			"ally charge count",
+			"ally offense level up",
+			"ally damage amp"
+		]
 	}
 ]

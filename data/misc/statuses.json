@@ -896,7 +896,7 @@
 	},
 	{
 		"Name": "Tremor - Decay",
-		"Description": "Lose 1 Defense Level for every 4 Tremor on self.\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Lose 1 Defense Level for every 4 Tremor on self.\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -1151,7 +1151,7 @@
 	},
 	{
 		"Name": "Tremor - Fracture",
-		"Description": "When Staggered, and when the sum of Tremor and Tremor Count adds up to 20 or higher, raise Stagger Level by 1\nCannot exceed maximum Stagger Level with this effect\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "When Staggered, and when the sum of Tremor and Tremor Count adds up to 20 or higher, raise Stagger Level by 1\nCannot exceed maximum Stagger Level with this effect\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor",
 			"Stagger Level"
@@ -1186,7 +1186,7 @@
 	},
 	{
 		"Name": "Tremor - Reverb",
-		"Description": "On Tremor Burst, take Sloth damage equal to Tremor on self\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "On Tremor Burst, take Sloth damage equal to Tremor on self\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -1200,7 +1200,7 @@
 	},
 	{
 		"Name": "Tremor - Everlasting",
-		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "When hit by Skills or Coin effects that Trigger Tremor Burst, (Tremor on self)% chance to trigger an additional Tremor Burst (max 50%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -1222,7 +1222,7 @@
 	},
 	{
 		"Name": "Tremor - Chain",
-		"Description": "Lose 1 Clash Power for every 10 Tremor on self (max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Lose 1 Clash Power for every 10 Tremor on self (max 3)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -1621,7 +1621,7 @@
 	},
 	{
 		"Name": "Tremor - Clockwinding",
-		"Description": "Max Speed +1\nConsume Tremor Count on self to inflict +1 Tremor or Tremor Count when inflicting them with this unit's Skill or Coin effects\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Max Speed +1\nConsume Tremor Count on self to inflict +1 Tremor or Tremor Count when inflicting them with this unit's Skill or Coin effects\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor",
 			"Tremor Potency",
@@ -2402,7 +2402,7 @@
 	},
 	{
 		"Name": "Tremor - Scorch",
-		"Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
+		"Description": "On Tremor Burst, take Wrath damage equal to (Tremor + Burn on self / 2), and lose 1 Burn Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -2619,7 +2619,7 @@
 	},
 	{
 		"Name": "Tremor - Distribution",
-		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1.",
+		"Description": "Turn End: Gain ((sum of all allies' Tremor Count) / # of surviving allies) Offense Level Up next turn (max 5)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1.",
 		"EffectTags": [
 			"Unique Tremor",
 			"Offense Level Up"
@@ -2738,7 +2738,7 @@
 	},
 	{
 		"Name": "Tremor - Hemorrhage",
-		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / 2), and lose 1 Bleed Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency.\nTurn End: Reduce Count by 1",
+		"Description": "On Tremor Burst, take Lust damage equal to (Tremor + Bleed on self / 2), and lose 1 Bleed Count\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1",
 		"EffectTags": [
 			"Unique Tremor"
 		]
@@ -4735,7 +4735,7 @@
 	},
 	{
 		"Name": "Shin (心) - Disgrace",
-		"Description": "Gain Min & Max Speed +1\nInflict +1 more Tremor and Burn Potency and Count using Base Skills\nDeal +3% damage for every 3 Poise Potency on self (max 15%)",
+		"Description": "Gain Min & Max Speed +1\nInflict +1 more Tremor Potency, Tremor Count, Burn Potency and Burn Count using Base Skills\nDeal +3% damage for every 3 Poise Potency on self (max 15%)",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -5083,6 +5083,255 @@
 			"Tremor Count",
 			"Tremor Potency",
 			"Critical Damage Amp"
+		]
+	},
+	{
+		"Name": "Sanctum of Conservation",
+		"Description": "Max Stack: 5\nApply the following effect on all allied Identities:\n$ On Skill Use, each ally gains Shield equal to (Preservation Potency on Don Quixote x 2)% of their respective max HP (once per turn, max 10%)\nApply the following effects on all 'Le Noir' allied Identities\n$ Offense Level +(Preservation Potency on Don Quixote / 3) (max 2; rounded down)\n$ Defense Level +(Preservation Potency on Don Quixote / 2) (max 3; rounded down)\nApply the following effects on all enemies:\n$ Min & Max Speed -1 (this effect cannot reduce Min & Max SPeed below 1)\n$ Stagger Threshold raised by Tremor Burst +10%\n$ Take +10% damage from Skills that consume Charge Count or Unique Charge\n$ From 'Le Noir' allied Identities Skills, take +20% damage instead\nTurn End: Lose 1 Stack",
+		"EffectTags": [
+			"Party Shield",
+			"Ally Offense Level Up",
+			"Ally Defense Level Up",
+			"Min Speed Down",
+			"Max Speed Down"
+		]
+	},
+	{
+		"Name": "Blessing of the Obsidian God",
+		"Description": "Max Stack: 100\nTurn Start: Gain Shield equal to (Stack / 5)% of this unit's max HP (rounded down)\nAt 25+ Stack, On Base Attack Skill Use, convert all Coins into Unbreakable Coins\n$ At 40+ Stack, this unit cannot be Staggered (excluding forced Staggers)",
+		"EffectTags": [
+			"Shield",
+			"Unbreakable Coin",
+			"Nullify Stagger"
+		]
+	},
+	{
+		"Name": "Promised Nail",
+		"Description": "Max Stack: 30\nUpon Tremor Burst due to Skill effects, take 1 Sloth damage for every Stack (max 10; once per Skill)\nTurn End: At 4+ Stack, gain 1 Bind next turn\nTurn Start: If Haute Couture::Le Noir Brand Manager Don Quixote is not on the field, expires",
+		"EffectTags": [
+			"Bind"
+		]
+	},
+	{
+		"Name": "Tremor - Conservation",
+		"Description": "On Tremor Burst, take Sloth damage equal to (60 + sum of Charge Potency or Unique Charge on the attacker x 8)% of Tremor Potency, and reduce Tremor Count by 1 (max 120%)\nWhen hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\nTurn End: Reduce Count by 1",
+		"EffectTags": [
+			"Unique Tremor"
+		]
+	},
+	{
+		"Name": "Into the First Shell... (Low Morale)",
+		"Description": "Offense Level -2, Defense Level +2",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Into the First Shell... (Panic)",
+		"Description": "Offense Level -3, Defense Level +4",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Trembling Hands (Low Morale)",
+		"Description": "Take +7.5% damage\nEvery time this unit is hit, gain +1 Tremor Count (once per Skill, max 5 per turn)",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Trembling Hands (Panic)",
+		"Description": "Take +15% damage\nEvery time this unit is hit, gain 1 Tremor and +1 Tremor Count (once per Skill, max 5 per turn)",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Unforgotten Pain (Low Morale)",
+		"Description": "Gain 3 Protection",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Unforgotten Pain (Panic)",
+		"Description": "Gain 5 Protection",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Jammed Machine (Low Morale)",
+		"Description": "Skills deal -5% damage against targets with slower Speed than this unit's",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Jammed Machine (Panic)",
+		"Description": "Skills deal -10% damage against targets with slower Speed than this unit's",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Disabled Overseeing (Low Morale)",
+		"Description": "Skill Final Power +1\nTurn Start: Apply 1 Attack Power Down to all other allies",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Disabled Overseeing (Panic)",
+		"Description": "Skill Final Power +1\nTurn Start: Apply 1 Attack Power Down and 1 Damage Down to all other allies",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Bereaved of Child (Low Morale)",
+		"Description": "On Skill Use, if Pwie is the main target, Clash Power +3, Base Power +2\nWhen hit, inflict 1 Tangling (3 times per Skill)",
+		"DisplayDescription": "On Skill Use, if **** is the main target, Clash Power +3, Base Power +2\nWhen hit, inflict 1 Tangling (3 times per Skill)",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Bereaved of Child (Panic)",
+		"Description": "All Attacks target Pwie\nCombat Start: Convert all Skill Coins into Unbreakable Coins\nOn Skill Use, if Pwie is the main target, Clash Power +6, Base Power +4",
+		"DisplayDescription": "All Attacks target ****\nCombat Start: Convert all Skill Coins into Unbreakable Coins\nOn Skill Use, if **** is the main target, Clash Power +6, Base Power +4",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Tangling",
+		"Description": "Max Stack: 30\nTake +1% damage for every Stack\nBase Power -1 for every 10 Stacks\nTurn End: Gain 1 Bind next turn for every 3 Stacks (max 10)\nOn Defense Skill Use, lose half of the Stacks (rounded up)",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Ashen Bullet",
+		"Description": "Unique Ammo\nMax Capacity: 5\nThis Ammo cannot be gained or raised due to external effects, excluding the 'Hollow' E.G.O Skill",
+		"EffectTags": [
+			"Unique Ammo"
+		]
+	},
+	{
+		"Name": "Black Wings",
+		"Description": "Max Stack: 12\nTurn Start: Gain (Stack / 4) Charge Count (rounded down)\nTurn Start: Gain 1 Offense Level Up for every 4 Stacks\nThis unit's Skills that gain or consume Charge or Poise deal +(Stack)% damage",
+		"EffectTags": [
+			"Charge Count",
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Sync Error (Low Morale)",
+		"Description": "Take +12.5% damage\nMin & Max Speed -1\nDeal -15% damage using Skills that consume Preservation",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Sync Error (Panic)",
+		"Description": "Take +20% damage\nMin & Max Speed -2\nDeal -25% damage using Skills that consume Preservation",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Compunction (Low Morale)",
+		"Description": "Min & Max Speed -1\nTake +10% damage from targets with faster Speed than self",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Compunction (Panic)",
+		"Description": "Min & Max Speed -2\nTake +15% damage from targets with faster Speed than self",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Die Hämmer (Low Morale)",
+		"Description": "Unobservable",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Die Hämmer (Panic)",
+		"Description": "Unobservable",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Le Désir (Low Morale)",
+		"Description": "Offense Level +3, Defense Level +3",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Le Désir (Panic)",
+		"Description": "Offense Level +5, Defense Level +5",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Farther Past the Hide! (Low Morale)",
+		"Description": "Defense Level -2, Offense Level +2",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "Farther Past the Hide! (Panic)",
+		"Description": "Defense Level -5, Offense Level +3",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "La Nausée (Low Morale)",
+		"Description": "Deal -10% damage",
+		"EffectTags": [
+			"Low Morale",
+			"Panic Type"
+		]
+	},
+	{
+		"Name": "La Nausée (Panic)",
+		"Description": "Base Power -1, deal -10% damage",
+		"EffectTags": [
+			"Panic",
+			"Panic Type"
 		]
 	}
 ]

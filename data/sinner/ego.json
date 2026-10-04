@@ -2973,6 +2973,258 @@
 		]
 	},
 	{
+		"Id": 2402,
+		"Sinner": "Faust",
+		"Grade": "WAW",
+		"Season": 8,
+		"Sanity": 15,
+		"CorrosionSanity": 25,
+		"Abnormality": "Hollowed Man",
+		"SinResist": {
+			"Wrath": 2,
+			"Lust": 1,
+			"Sloth": 1,
+			"Gluttony": 2,
+			"Gloom": 0.75,
+			"Pride": 0.5,
+			"Envy": 0.5
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 0,
+			"Gluttony": 0,
+			"Gloom": 2,
+			"Pride": 4,
+			"Envy": 2
+		},
+		"UniqueStatuses":[
+			"Ashen Bullet",
+			"Black Wings"
+		],
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Hollow",
+					"DisplayName": "Le Trou",
+					"Description": "[Unclashable]\nWhen used for the first time in an Encounter, consume 5 less SP, 2 fewer Gloom, 2 fewer Pride, and 2 fewer Envy E.G.O Resources\nAt 1+ Ashen Bullet, activate as 'Boucher un trou' instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[Attack End] Gain 5 Ashen Bullet\n[Attack End] Gain 5 Poise\n[Attack End] Gain +3 Poise Count\n[Attack End] Gain +5 Charge Count\n[Attack End] Gain 4 Black Wings",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Unclashable",
+						"Ashen Bullet",
+						"Poise Potency",
+						"Poise Count",
+						"Charge Count",
+						"Black Wings"
+					],
+					"AltSkill": {
+						"SkillSlot": "EA1",
+						"Name": "Boucher un trou",
+						"Description": "External effects cannot trigger this Skill to be reused\nDeal +10% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 10)\nClash Power +2 for every Ashen Bullet\n[Before Attack] When attacking just 1 target, deal +100% damage (in Focused Encounters, the Core and its connected Parts count as a single target)\n[Before Attack] Spend all Ashen Bullet and apply the following effects:\n$ Gain 2 Poise, +1 Poise Count, and +2 Charge Count for every Ashen Bullet spent\n$ Deal +8% damage for every Ashen Bullet spent\n[Attack End] Apply 5 Poise and +2 Poise Count on (2 + highest Reson) allies (max 7 units)\nIf this Skill spent 5 Ashen Bullet, heal 5 SP\n[Attack End] Gain 1 Ashen Bullet\n<1>[Unbreakable Coin]\nReuse this Coin (Ashen Bullet spent - 1) times (max 4 times)\n[On Hit] Inflict 1 Sinking",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 2,
+						"CoinCount": 1,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 20,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 4,
+						"AttackWeight": 7,
+						"AttackWeightMod": 7,
+						"EffectTags": [
+							"Spend Ashen Bullet",
+							"Poise Potency",
+							"Poise Count",
+							"Charge Count",
+							"Ally Poise Potency",
+							"Ally Poise Count",
+							"Heal SP",
+							"Ashen Bullet",
+							"Unbreakable Coin",
+							"Sinking Potency"
+						]
+					}
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Hollow",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 10)\n[Before Attack] Gain +3 Poise Count and +5 Charge Count\n[Before Attack] Consume up to 15 excess Charge Count beyond 10 on self to deal +(Charge Count consumed x 5)% damage\n[Before Attack] At max Ashen Bullet, spend all Ashen Bullet to apply the following effects on all allies next turn\n$ 1 Offense Level Up\n$ 1 Damage Up (once per turn)\n$ 1 Crit DMG Up (once per turn)\n[Before Attack] Base Power -3 for every Cracked Coin (max -9)\n[Attack End] Gain 1 Ashen Bullet and 2 Black Wings\n[Attack End] Apply 5 Poise, +2 Poise Count, and 2 Black Wings on (2 + highest Reson) random allies (max 7 units)\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n<3>[Unbreakable Coin]",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 16,
+					"CoinPower": -3,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 10,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 7,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Poise Count",
+						"Charge Count",
+						"Spend Charge Count",
+						"Spend Ashen Bullet",
+						"Party Offense Level Up",
+						"Party Damage Up",
+						"Party Crit DMG Up",
+						"Ashen Bullet",
+						"Black Wings",
+						"Poise Potency",
+						"Ally Poise Potency",
+						"Ally Poise Count",
+						"Ally Black Wings",
+						"Unbreakable Coin",
+						"Sinking Count",
+						"Sinking Potency"
+					]
+				},
+				"Passive": {
+					"Name": "Le Trou de Vidange",
+					"Description": "If this unit has 5 Ashen Bullet, does not consume E.G.O Resource when using 'Hollow' E.G.O's Skills (both Awakening and Corrosion)\nTurn Start: Gain 1 Ashen Bullet and 1 Black Wings\nWhen an ally defeats an enemy, the said ally heals 5 SP and gains 1 Attack Power Up next turn (once per turn)\nCharge Count max cap +5\nIf this unit gains Charge Count past the max Charge Count Cap, this unit randomly gains Poise or Poise Count equal to the surplus Charge Count gained (max 6 Charge Count converted per turn)",
+					"EffectTags": [
+						"Ashen Bullet",
+						"Black Wings",
+						"Ally Heal SP",
+						"Ally Attack Power Up",
+						"Charge Count Limit Increase",
+						"Poise Potency",
+						"Poise Count"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Hollow",
+					"DisplayName": "Le Trou",
+					"Description": "[Unclashable]\nWhen used for the first time in an Encounter, consume 5 less SP, 2 fewer Gloom, 2 fewer Pride, and 2 fewer Envy E.G.O Resources\nAt 1+ Ashen Bullet, activate as 'Boucher un trou' instead\nThis Skill does not hit an enemy, does not trigger Defense Skills, and external effects cannot trigger this Skill to be Reused\n[Attack End] Gain 5 Ashen Bullet\n[Attack End] Gain 5 Poise\n[Attack End] Gain +3 Poise Count\n[Attack End] Gain +5 Charge Count\n[Attack End] Gain 4 Black Wings",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 1,
+					"Level": 0,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Unclashable",
+						"Ashen Bullet",
+						"Poise Potency",
+						"Poise Count",
+						"Charge Count",
+						"Black Wings"
+					],
+					"AltSkill": {
+						"SkillSlot": "EA1",
+						"Name": "Boucher un trou",
+						"Description": "External effects cannot trigger this Skill to be reused\nDeal +5% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 7)\nClash Power +2 for every Ashen Bullet\n[Before Attack] When attacking just 1 target, deal +50% damage (in Focused Encounters, the Core and its connected Parts count as a single target)\n[Before Attack] Spend all Ashen Bullet and apply the following effects:\n$ Gain 2 Poise, +1 Poise Count, and +2 Charge Count for every Ashen Bullet spent\n$ Deal +8% damage for every Ashen Bullet spent\nIf this Skill spent 5 Ashen Bullet, heal 5 SP\n[Attack End] Gain 1 Ashen Bullet\n<1>[Unbreakable Coin]\nReuse this Coin (Ashen Bullet spent - 1) times (max 4 times)\n[On Hit] Inflict 1 Sinking",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 1,
+						"CoinCount": 1,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 17,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 4,
+						"AttackWeight": 7,
+						"AttackWeightMod": 7,
+						"EffectTags": [
+							"Spend Ashen Bullet",
+							"Poise Potency",
+							"Poise Count",
+							"Charge Count",
+							"Heal SP",
+							"Ashen Bullet",
+							"Unbreakable Coin",
+							"Sinking Potency"
+						]
+					}
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Hollow",
+					"Description": "[Indiscriminate] Targets randomly\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 7)\n[Before Attack] Gain +3 Poise Count and +5 Charge Count\n[Before Attack] Consume up to 15 excess Charge Count beyond 10 on self to deal +(Charge Count consumed x 3)% damage\n[Before Attack] At max Ashen Bullet, spend all Ashen Bullet to apply the following effects on all allies next turn\n$ 1 Offense Level Up\n$ 1 Damage Up (once per turn)\n$ 1 Crit DMG Up (once per turn)\n[Before Attack] Base Power -3 for every Cracked Coin (max -9)\n[Attack End] Gain 1 Ashen Bullet and 2 Black Wings\n[Attack End] Apply 5 Poise and +2 Poise Count on (2 + highest Reson) random allies (max 7 units)\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Sinking Count\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Sinking\n<3>[Unbreakable Coin]",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 16,
+					"CoinPower": -3,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 7,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 7,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Poise Count",
+						"Charge Count",
+						"Spend Charge Count",
+						"Spend Ashen Bullet",
+						"Party Offense Level Up",
+						"Party Damage Up",
+						"Party Crit DMG Up",
+						"Ashen Bullet",
+						"Black Wings",
+						"Poise Potency",
+						"Ally Poise Potency",
+						"Ally Poise Count",
+						"Unbreakable Coin",
+						"Sinking Count",
+						"Sinking Potency"
+					]
+				},
+				"Passive": {
+					"Name": "Le Trou de Vidange",
+					"Description": "If this unit has 5 Ashen Bullet, does not consume E.G.O Resource when using 'Hollow' E.G.O's Skills (both Awakening and Corrosion)\nTurn Start: Gain 1 Ashen Bullet and 1 Black Wings\nWhen an ally defeats an enemy, the said ally heals 5 SP and gains 1 Attack Power Up next turn (once per turn)\nCharge Count max cap +5\nIf this unit gains Charge Count past the max Charge Count Cap, this unit randomly gains Poise or Poise Count equal to the surplus Charge Count gained (max 6 Charge Count converted per turn)",
+					"EffectTags": [
+						"Ashen Bullet",
+						"Black Wings",
+						"Ally Heal SP",
+						"Ally Attack Power Up",
+						"Charge Count Limit Increase",
+						"Poise Potency",
+						"Poise Count"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 3101,
 		"Sinner": "Don Quixote",
 		"Grade": "ZAYIN",
@@ -7322,6 +7574,196 @@
 						"Damage Up",
 						"Protection",
 						"Accumulated Past"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 5403,
+		"Sinner": "Meursault",
+		"Grade": "WAW",
+		"Season": 8,
+		"Sanity": 20,
+		"CorrosionSanity": 25,
+		"Abnormality": "Hollowed Man",
+		"SinResist": {
+			"Wrath": 2,
+			"Lust": 1,
+			"Sloth": 1,
+			"Gluttony": 2,
+			"Gloom": 0.75,
+			"Pride": 0.5,
+			"Envy": 0.5
+		},
+		"Cost": {
+			"Wrath": 0,
+			"Lust": 0,
+			"Sloth": 2,
+			"Gluttony": 0,
+			"Gloom": 2,
+			"Pride": 4,
+			"Envy": 4
+		},
+		"UniqueStatuses":[
+			"Ashen Bullet",
+			"Black Wings"
+		],
+		"ThreadspinTiers": [
+			{
+				"Tier": 4,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Hollow",
+					"Description": "If the target is defeated before this Skill is finished, prioritize a target that has the lowest HP (for Focused Encounters, the Part)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 10)\nClash Power +2 for every Ashen Bullet on self\n[Before Attack] Gain +3 Poise Count and +5 Charge Count\n[Before Attack] Consume 3(5 - Ashen Bullet) SP to gain up to max Ashen Bullet\n[Attack End] Gain 2 Black Wings\n<1>[Unbreakable Coin]\nThis Coin hits only the main target\nSpend 1 Ashen Bullet\nDeal +20% damage on Critical Hit\nIf this is the first Coin:\n$ Deal +(Charge Count x 5)% damage (max 100%)\n$ Deal +(Poise x Poise Count)% damage on Critical Hit (max 100%)\n$ For this Coin, change target's Pierce Resist to Fatal\n[On Hit] Inflict 1 Pierce Fragility (once per Skill)\n[On Hit] Inflict 1 Sinking\n[On Crit] Final Coin Power +1\n[Current Coin Attack End] At 1+ Ashen Bullet, Reuse this Coin (max 4 times per Skill)\n<2>[Unbreakable Coin]\nDeal +50% damage on Critical Hit\n[Coin Start] When attacking just 1 target, deal +100% damage (in Focused Encounters, a Core)\n[Coin Start] Coin Power +1 for every 4 Charge Count (max 5)\n[On Hit] Inflict +3 Sinking Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 12,
+					"CoinPower": 2,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 20,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 4,
+					"ClashesWithOverride": false,
+					"CoinOverride": [ 2, 2, 2, 2, 2, 7 ],
+					"FinalPowerOverride": [ 0, 0, 0, 0, 0, 5 ],
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Poise Count",
+						"Charge Count",
+						"Self SP Damage",
+						"Ashen Bullet",
+						"Black Wings",
+						"Unbreakable Coin",
+						"Pierce Fragility",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Hollow",
+					"Description": "[Indiscriminate] Targets randomly\nThis Skill does not trigger Defense Skills (including Clashable Defense Skills)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 10)\n[Before Attack] When attacking just 1 target, deal +200% damage (in Focused Encounters, a Core)\n[Before Attack] Final Power +(Ashen Bullet)\n[Before Attack] If this unit does not have Ashen Bullet, gain 1 Ashen Bullet\n[Before Attack] Base Power -2 for every Cracked Coin (max -4)\n[On Kill] Heal 5 SP\n<1>[Unbreakable Coin]\n[Coin Start] Gain 5 Black Wings\n[Coin Start] Gain +5 Charge Count\n[Coin Start] Gain 5 Poise\n[On Hit] Inflict 1 Bind next turn\n<2>[Unbreakable Coin]\nThis Coin has (Ashen Bullet x 20)% chance to flip Tails regardless of this unit's SP\n[Heads]\n$ This Coin does not hit\n$ [Current Coin Attack End] Gain 5 Poise\n$ [Current Coin Attack End] Gain +3 Poise Count\n$ [Current Coin Attack End] Remove 1 random removable negative effect applied to self\n$ [Current Coin Attack End] Gain 2 Ashen Bullet\n$ [Current Coin Attack End] Refund half of the E.G.O Resources consumed by this Skill (rounded down)\n[Tails]\n$ Deal +(Charge Count x 5)% damage (max 100%)\n$ Deal +130% damage on Critical Hit\n$ [On Hit] Deal Pierce damage equal to 20% of this Coin's final damage\n$ [On Kill] Heal 5% HP\n$ [Current Coin Attack End] Consume all Ashen Bullet on self\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +3 Sinking Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 16,
+					"CoinPower": -2,
+					"CoinCount": 1,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 5,
+					"ClashPowerModifier": 10,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 12,
+					"UnbreakableCoinCount": 2,
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Ignore Defense Skill",
+						"Ashen Bullet",
+						"Heal SP",
+						"Unbreakable Coin",
+						"Black Wings",
+						"Charge Count",
+						"Poise Potency",
+						"Bind",
+						"Poise Count",
+						"Status Cleanse",
+						"Heal HP",
+						"Spend Ashen Bullet",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"Passive": {
+					"Name": "L'Hémorragie interne",
+					"Description": "[Always Active]\nIf this unit has 5 Ashen Bullet, does not consume E.G.O Resource when using 'Hollow' E.G.O's Skills (both Awakening and Corrosion)\nTurn Start: Gain 1 Ashen Bullet\n[Effect on Use]\nTurn Start: Gain 1 Black Wings\nHeal 5 SP every time this unit consumes or loses 3 cumulative Ammo, and gain 1 Power Up next turn (including Unique Ammo; counts up to 9 Ammo per turn)",
+					"EffectTags": [
+						"Ashen Bullet",
+						"Black Wings",
+						"Heal SP",
+						"Power Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"Awakening": {
+					"SkillSlot": "EA0",
+					"Name": "Hollow",
+					"Description": "If the target is defeated before this Skill is finished, prioritize a target that has the lowest HP (for Focused Encounters, the Part)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 7)\nClash Power +2 for every Ashen Bullet on self\n[Before Attack] Gain +3 Poise Count and +5 Charge Count\n[Before Attack] Consume 3(5 - Ashen Bullet) SP to gain up to max Ashen Bullet\n[Attack End] Gain 2 Black Wings\n<1>[Unbreakable Coin]\nThis Coin hits only the main target\nSpend 1 Ashen Bullet\nDeal +15% damage on Critical Hit\nIf this is the first Coin:\n$ Deal +(Charge Count x 5)% damage (max 100%)\n$ Deal +(Poise x Poise Count)% damage on Critical Hit (max 100%)\n$ For this Coin, change target's Pierce Resist to Fatal\n[On Hit] Inflict 1 Sinking\n[On Crit] Final Coin Power +1\n[Current Coin Attack End] At 1+ Ashen Bullet, Reuse this Coin (max 4 times per Skill)\n<2>[Unbreakable Coin]\nDeal +50% damage on Critical Hit\n[Coin Start] When attacking just 1 target, deal +50% damage (in Focused Encounters, a Core)\n[On Hit] Inflict +3 Sinking Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 12,
+					"CoinPower": 1,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 17,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 4,
+					"ClashesWithOverride": false,
+					"FinalPowerOverride": [ 0, 0, 0, 0, 0, 5 ],
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Poise Count",
+						"Charge Count",
+						"Self SP Damage",
+						"Ashen Bullet",
+						"Black Wings",
+						"Unbreakable Coin",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"Corrosion": {
+					"SkillSlot": "EC0",
+					"Name": "Hollow",
+					"Description": "[Indiscriminate] Targets randomly\nThis Skill does not trigger Defense Skills (including Clashable Defense Skills)\nClash Power +1 for every 4 (Poise Potency + Charge Count) (max 7)\n[Before Attack] When attacking just 1 target, deal +100% damage (in Focused Encounters, a Core)\n[Before Attack] If this unit does not have Ashen Bullet, gain 1 Ashen Bullet\n[Before Attack] Base Power -2 for every Cracked Coin (max -4)\n<1>[Unbreakable Coin]\n[Coin Start] Gain 5 Black Wings\n[Coin Start] Gain +5 Charge Count\n[Coin Start] Gain 5 Poise\n<2>[Unbreakable Coin]\nThis Coin has (Ashen Bullet x 20)% chance to flip Tails regardless of this unit's SP\n[Heads]\n$ This Coin does not hit\n$ [Current Coin Attack End] Gain 5 Poise\n$ [Current Coin Attack End] Gain +3 Poise Count\n$ [Current Coin Attack End] Gain 2 Ashen Bullet\n$ [Current Coin Attack End] Refund half of the E.G.O Resources consumed by this Skill (rounded down)\n[Tails]\n$ Deal +(Charge Count x 4)% damage (max 80%)\n$ Deal +100% damage on Critical Hit\n$ [On Hit] Deal Pierce damage equal to 15% of this Coin's final damage\n$ [Current Coin Attack End] Consume all Ashen Bullet on self\n[On Hit] Inflict 5 Sinking\n[On Hit] Inflict +3 Sinking Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 16,
+					"CoinPower": -2,
+					"CoinCount": 1,
+					"Level": 5,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 7,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableBasePower": 12,
+					"UnbreakableCoinCount": 2,
+					"AttackWeight": 7,
+					"AttackWeightMod": 7,
+					"EffectTags": [
+						"Ignore Defense Skill",
+						"Ashen Bullet",
+						"Heal SP",
+						"Unbreakable Coin",
+						"Black Wings",
+						"Charge Count",
+						"Poise Potency",
+						"Poise Count",
+						"Spend Ashen Bullet",
+						"Sinking Potency",
+						"Sinking Count"
+					]
+				},
+				"Passive": {
+					"Name": "L'Hémorragie interne",
+					"Description": "[Always Active]\nIf this unit has 5 Ashen Bullet, does not consume E.G.O Resource when using 'Hollow' E.G.O's Skills (both Awakening and Corrosion)\nTurn Start: Gain 1 Ashen Bullet\n[Effect on Use]\nTurn Start: Gain 1 Black Wings\nHeal 5 SP every time this unit consumes or loses 3 cumulative Ammo, and gain 1 Power Up next turn (including Unique Ammo; counts up to 9 Ammo per turn)",
+					"EffectTags": [
+						"Ashen Bullet",
+						"Black Wings",
+						"Heal SP",
+						"Power Up"
 					]
 				}
 			}
@@ -12407,7 +12849,7 @@
 				},
 				"Passive": {
 					"Name": "Schismatic Stereognosis",
-					"Description": "When this unit gains Poise Potency or Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
+					"Description": "When this unit gains Poise Potency or Poise Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
 					"EffectTags": [
 						"Poise Count",
 						"Tremor Potency"
@@ -12476,7 +12918,7 @@
 				},
 				"Passive": {
 					"Name": "Schismatic Stereognosis",
-					"Description": "When this unit gains Poise Potency or Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
+					"Description": "When this unit gains Poise Potency or Poise Count, gain +1 Poise Count (2 times per turn)\nIf this unit is a Poise Identity or a Tremor Identity, Base Skills that have 1 base Atk Weight or are Unfocused Volley deal +10% damage\nAt Attack End, if target is Staggered or defeated, randomly inflict 1/3 of Tremor Potency on target between other random enemies next turn (rounded up; for Focused Encounters, Parts)\n$ This effect does not stack with the effects of the E.G.O Gift 'Mirror Tactile Synaesthesia'",
 					"EffectTags": [
 						"Poise Count",
 						"Tremor Potency"

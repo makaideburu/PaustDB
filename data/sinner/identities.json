@@ -15144,6 +15144,597 @@
 		]
 	},
 	{
+		"Id": 3310,
+		"Sinner": "Don Quixote",
+		"Identity": "Haute Couture::Le Noir Brand Manager",
+		"Season": 8,
+		"Traits": [
+			"Sisyphe",
+			"Le Noir"
+		],
+		"Speed": [ 4, 7 ],
+		"BaseHP": 88,
+		"GrowthHP": 3.05,
+		"StaggerThresholds": [ 40 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": -1,
+			"Pierce": 2,
+			"Blunt":  0.5
+		},
+		"UniqueStatuses":[
+			"Preservation",
+			"Promised Nail",
+			"Blessing of the Obsidian God",
+			"Tremor - Conservation",
+			"Sanctum of Conservation"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Cometh the Nail",
+					"Description": "[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 3)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage\n[On Use] Apply +4 Charge Count on self and 1 other 'Le Noir' allied Identity that has the lowest Charge Count (once per turn)\n<1>[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Gain +5 Preservation Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 3, 8 ],
+					"UnbreakableCoinCount": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Preservation Count",
+						"Ally Charge Count",
+						"Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Judgment!",
+						"Description": "[Unclashable]\nThis Skill has the following properties:\n$ Does not trigger Defense Skills\n$ External effects cannot trigger this Skill to be Reused\n$ Target's HP cannot be reduced below 1 until this Skill ends\n[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 3)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 4 Tremor",
+						"DamageType": "Blunt",
+						"SinType": "Pride",
+						"BasePower": 6,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 8 ],
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Ignore Defense Skill",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Tremor Potency"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Summoneth the Nail",
+					"Description": "[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 3)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +30% damage\n[Before Attack] The final Coin gains Final Power +1 for every highest Reson (max 4)\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 4 Tremor\n<2>[On Hit] Gain +8 Preservation Count\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 3, 12 ],
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Potency",
+						"Preservation Count",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "I Sever Thine Advent!",
+					"Description": "[Combat Start] Gain 3 Sanctum of Conservation (once per turn)\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up on self and 1 other 'Le Noir' allied Identity with the fastest Speed (once per turn)\n[On Use] Coin Power +1 for every 6 (Tremor + Promised Nail) on target (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage\n[Before Attack] The final Coin gains Final Power +1 for every highest Reson (max 4)\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 4 Tremor\n<2>[On Hit] Inflict +3 Tremor Count\n<3>[On Hit] Gain +4 Preservation Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 3,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 0, 0, 9 ],
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Sanctum of Conservation",
+						"Offense Level Up",
+						"Ally Offense Level Up",
+						"Defense Level Up",
+						"Ally Defense Level Up",
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Potency",
+						"Tremor Count",
+						"Preservation Count",
+						"Amplitude Conversion",
+						"Tremor - Conservation",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S30",
+						"Name": "With Each Smite, I Sever Thine Advent!",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up all 'Le Noir' allied Identities (once per turn)\n[On Use] Coin Power +1 for every 6 total sum of (Tremor + Promised Nail) on all targets (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1\n[On Use] Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Before Attack] The final Coin gains Final Power +2 for every highest Reson (max 8)\n[Attack End] Consume all Blessing of the Obsidian God\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +4 Preservation Count (once per Coin)\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Apply the following effects on target depending on its respective Promised Nail Stack\n$ If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n$ Deal Sloth damage equal to (Promised Nail on target x 3)% of this Coin's final damage (max 90%)\n$ Consume all Promised Nail on target",
+						"DamageType": "Blunt",
+						"SinType": "Sloth",
+						"BasePower": 6,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 3,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 0, 0, 8 ],
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Offense Level Up",
+							"Ally Offense Level Up",
+							"Defense Level Up",
+							"Ally Defense Level Up",
+							"Spend Blessing of the Obsidian God",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Tremor Potency",
+							"Tremor Count",
+							"Preservation Count",
+							"Amplitude Conversion",
+							"Tremor - Conservation",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Spend Enemy Promised Nail"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Witness Ye in Silence",
+					"Description": "[Combat Start] Gain 3 Sanctum of Conservation (once per turn)\n[Combat Start] Heal 6 SP on self and 1 other 'Le Noir' allied Identity that has the lowest SP (once per turn)\n[Combat Start] Apply the following effects based on Blessing of the Obsidian God on self\n$ At 100 Blessing of the Obsidian God, activate 'With Each Smite, I Sever Thine Advent!' instead (once per turn; can activate for Unopposed Attacks)\n$ At fewer than 100 Blessing of the Obsidian God, gain Shield equal to (Blessing of the Obsidian God / 10)% of this unit's max HP (once per turn)\n[Combat Start] Gain +4 Preservation Count (once per turn)\n[On Use] Coin Power +1 for every 6 (Tremor + Promised Nail) on target (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Gain +4 Preservation Count",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 3,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Counter",
+						"Sanctum of Conservation",
+						"Heal SP",
+						"Ally Heal SP",
+						"Skill Change",
+						"Shield",
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Count",
+						"Preservation Count"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Malleus Promissionis",
+						"Description": "Upon entering the Encounter for the first time, gain +10 Preservation Count and apply +2 Charge Count on other 'Le Noir' allied Identities\nWhen inflicting Promised Nail using Skill effects:\n$ At 12+ Preservation Count, inflict +1 more Promised Nail and consume 4 Preservation Count\n$ At fewer than 12 Preservation Count, consume 2 Preservation Count\n$ At insufficient Preservation Count, does not inflict Promised Nail\n$ Skills that inflict Promised Nail due to this effect count as Skills that consume Charge Count\nGain 1 Preservation Potency every time this unit consumes 10 cumulative Preservation Count in this Encounter",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Preservation Count",
+							"Ally Charge Count",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Preservation Potency"
+						]
+					},
+					{
+						"Name": "Mission of Conservation",
+						"Description": "Upon entering the Encounter for the first time, gain 25 Blessing of the Obsidian God\nWhen consuming Preservation Count, or when gaining Preservation Count past its max cap, gain (Preservation Count consumed or surplus Preservation Count x 5) Blessing of the Obsidian God (max 30 per turn)\nWhen an allied Identity that has Shield is hit, this unit gains 2 Blessing of the Obsidian God (max 10 per turn)\n$ If said allied Identity is a Charge Identity, gain 5 Blessing of the Obsidian God instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Blessing of the Obsidian God"
+						]
+					},
+					{
+						"Name": "The Lord's Will and Values Be With Us...",
+						"Description": "Before Attack of another 'Le Noir' allied Identity on an enemy, this unit uses 'Judgment!' Skill as an Unopposed Attack against the main target (once per turn)\nOn the final Coin Start of a Base Skill, said Coin gains Final Power +(Preservation Potency on self + (Promised Nail on target / 2)) (max 5)\nIf this unit has Sanctum of Conservation, Base Skill 1/2/3 gain Clash Power +1/+2/+3\nWhe Tremor Burst triggers on a target that has Promised Nail, this unit and 1 other allied Charge Identity that has the lowest Charge Count gain +2 Charge Count (2 times per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Self Follow Up",
+							"Preservation Count",
+							"Ally Charge Count"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Obsidian Covenant",
+					"Description": "Combat End: If this unit has Sanctum of Conservation, gain 2 Haste next turn\nThis unit's Base Attack Skills deal +(Preservation Potency on self x 6)% damage against the main target (max 30%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 1
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Formation Conservation",
+					"Description": "All allied Charge Identity take -2% damage this turn for every allied Charge Identity on the field at Combat Start (max -10%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Damage Reduction"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Cometh the Nail",
+					"Description": "[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage\n[On Use] Apply +3 Charge Count on self and 1 other 'Le Noir' allied Identity that has the lowest Charge Count (once per turn)\n<1>[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Gain +4 Preservation Count",
+					"DamageType": "Blunt",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 2, 7 ],
+					"UnbreakableCoinCount": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Preservation Count",
+						"Ally Charge Count",
+						"Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Judgment!",
+						"Description": "[Unclashable]\nThis Skill has the following properties:\n$ Does not trigger Defense Skills\n$ External effects cannot trigger this Skill to be Reused\n$ Target's HP cannot be reduced below 1 until this Skill ends\n[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 3 Tremor",
+						"DamageType": "Blunt",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 7 ],
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Ignore Defense Skill",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Tremor Potency"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Summoneth the Nail",
+					"Description": "[On Use] Final Power +1 for every 4 (Tremor + Promised Nail) on target (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage\n[Before Attack] The final Coin gains Final Power +1 for every highest Reson (max 4)\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 3 Tremor\n<2>[On Hit] Gain +7 Preservation Count\n[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 6,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 2,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 2, 11 ],
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Potency",
+						"Preservation Count",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "I Sever Thine Advent!",
+					"Description": "[Combat Start] Gain 3 Sanctum of Conservation (once per turn)\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up on self and 1 other 'Le Noir' allied Identity with the fastest Speed (once per turn)\n[On Use]If target has 6+ (Tremor + Promised Nail), Coin Power +1\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage\n[Before Attack] The final Coin gains Final Power +1 for every highest Reson (max 4)\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +3 Tremor Count\n<3>[On Hit] Gain +3 Preservation Count\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 0, 0, 9 ],
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Sanctum of Conservation",
+						"Offense Level Up",
+						"Ally Offense Level Up",
+						"Defense Level Up",
+						"Ally Defense Level Up",
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Potency",
+						"Tremor Count",
+						"Preservation Count",
+						"Amplitude Conversion",
+						"Tremor - Conservation",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S30",
+						"Name": "With Each Smite, I Sever Thine Advent!",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up all 'Le Noir' allied Identities (once per turn)\n[On Use]At 6+ total sum of (Tremor + Promised Nail) on all targets, Coin Power +1\n[On Use] At 3+ Preservation Potency, Coin Power +1\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Before Attack] The final Coin gains Final Power +2 for every highest Reson (max 8)\n[Attack End] Consume all Blessing of the Obsidian God\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 1 Tremor\n<3>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +3 Preservation Count (once per Coin)\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Apply the following effects on target depending on its respective Promised Nail Stack\n$ If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n$ Deal Sloth damage equal to (Promised Nail on target x 1.5)% of this Coin's final damage (max 45%)\n$ Consume all Promised Nail on target",
+						"DamageType": "Blunt",
+						"SinType": "Sloth",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 0, 0, 8 ],
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Offense Level Up",
+							"Ally Offense Level Up",
+							"Defense Level Up",
+							"Ally Defense Level Up",
+							"Spend Blessing of the Obsidian God",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Tremor Potency",
+							"Tremor Count",
+							"Preservation Count",
+							"Amplitude Conversion",
+							"Tremor - Conservation",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Spend Enemy Promised Nail"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Witness Ye in Silence",
+					"Description": "[Combat Start] Gain 3 Sanctum of Conservation (once per turn)\n[Combat Start] Heal 5 SP on self and 1 other 'Le Noir' allied Identity that has the lowest SP (once per turn)\n[Combat Start] Apply the following effects based on Blessing of the Obsidian God on self\n$ At 100 Blessing of the Obsidian God, activate 'With Each Smite, I Sever Thine Advent!' instead (once per turn; can activate for Unopposed Attacks)\n$ At fewer than 100 Blessing of the Obsidian God, gain Shield equal to (Blessing of the Obsidian God / 10)% of this unit's max HP (once per turn)\n[Combat Start] Gain +3 Preservation Count (once per turn)\n[On Use]If target has 6+ (Tremor + Promised Nail), Coin Power +1\n[On Use] At 3+ Preservation Potency, Coin Power +1 and deal +10% damage\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict +2 Tremor Count\n<2>[On Hit] Gain +3 Preservation Count",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Counter",
+						"Sanctum of Conservation",
+						"Heal SP",
+						"Ally Heal SP",
+						"Skill Change",
+						"Shield",
+						"Promised Nail",
+						"Spend Preservation Count",
+						"Tremor Count",
+						"Preservation Count"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Malleus Promissionis",
+						"Description": "Upon entering the Encounter for the first time, gain +10 Preservation Count and apply +2 Charge Count on other 'Le Noir' allied Identities\nWhen inflicting Promised Nail using Skill effects:\n$ At 12+ Preservation Count, inflict +1 more Promised Nail and consume 4 Preservation Count\n$ At fewer than 12 Preservation Count, consume 2 Preservation Count\n$ At insufficient Preservation Count, does not inflict Promised Nail\n$ Skills that inflict Promised Nail due to this effect count as Skills that consume Charge Count\nGain 1 Preservation Potency every time this unit consumes 10 cumulative Preservation Count in this Encounter",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Preservation Count",
+							"Ally Charge Count",
+							"Promised Nail",
+							"Spend Preservation Count",
+							"Preservation Potency"
+						]
+					},
+					{
+						"Name": "Mission of Conservation",
+						"Description": "Upon entering the Encounter for the first time, gain 25 Blessing of the Obsidian God\nWhen consuming Preservation Count, or when gaining Preservation Count past its max cap, gain (Preservation Count consumed or surplus Preservation Count x 5) Blessing of the Obsidian God (max 30 per turn)\nWhen an allied Identity that has Shield is hit, this unit gains 2 Blessing of the Obsidian God (max 10 per turn)\n$ If said allied Identity is a Charge Identity, gain 5 Blessing of the Obsidian God instead",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Blessing of the Obsidian God"
+						]
+					},
+					{
+						"Name": "The Lord's Will and Values Be With Us...",
+						"Description": "Before Attack of another 'Le Noir' allied Identity on an enemy, this unit uses 'Judgment!' Skill as an Unopposed Attack against the main target (once per turn)\nOn the final Coin Start of a Base Skill, said Coin gains Final Power +(Preservation Potency on self + (Promised Nail on target / 2)) (max 5)\nIf this unit has Sanctum of Conservation, Base Skill 1/2/3 gain Clash Power +1/+2/+3\nWhe Tremor Burst triggers on a target that has Promised Nail, this unit and 1 other allied Charge Identity that has the lowest Charge Count gain +2 Charge Count (2 times per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Self Follow Up",
+							"Preservation Count",
+							"Ally Charge Count"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Obsidian Covenant",
+					"Description": "Combat End: If this unit has Sanctum of Conservation, gain 1 Haste next turn\nThis unit's Base Attack Skills deal +(Preservation Potency on self x 3)% damage against the main target (max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 1
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 1
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Formation Conservation",
+					"Description": "All allied Charge Identity take -2% damage this turn for every allied Charge Identity on the field at Combat Start (max -10%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Damage Reduction"
+					]
+				}
+			}
+		]
+	},
+	{
 		"Id": 4101,
 		"Sinner": "Ryōshū",
 		"Identity": "LCB Sinner",
@@ -31433,7 +32024,7 @@
 					],
 					"ResourceType": "Owned",
 					"EffectTags": [
-						"Charge Count Limit Increase"
+						"Ally Charge Count Limit Increase"
 					]
 				}
 			},
@@ -31561,7 +32152,7 @@
 					],
 					"ResourceType": "Owned",
 					"EffectTags": [
-						"Charge Count Limit Increase"
+						"Ally Charge Count Limit Increase"
 					]
 				}
 			}
@@ -46077,7 +46668,6 @@
 	},
 	{
 		"Id": 9312,
-		"DisplayId": 9000,
 		"Sinner": "Rodion",
 		"Identity": "Haute Couture::Alteration Shop",
 		"DWorld": "???",
@@ -58797,7 +59387,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Snake Fang",
-					"Description": "[On Use] Coin Power +1 for every 10 (Poise on unit + Rupture on target) (max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit} inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
+					"Description": "[On Use] Coin Power +1 for every 10 (Poise on unit + Rupture on target) (max 2)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
@@ -58927,7 +59517,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Snake Fang",
-					"Description": "[On Use] At 10+ (Poise on unit + Rupture on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit} inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
+					"Description": "[On Use] At 10+ (Poise on unit + Rupture on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] inflict 1 Rupture\n<2>[On Hit] Inflict 1 Rupture\n[On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
 					"DamageType": "Slash",
 					"SinType": "Pride",
 					"BasePower": 3,
