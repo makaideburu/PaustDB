@@ -1920,7 +1920,7 @@
 					"EffectTags": [
 						"Spend Self Tremor Count",
 						"Sinking Potency",
-						"Attack Weight Increase"
+						"Atk Weight Increase"
 					]
 				},
 				"SkillThree": {
@@ -2039,7 +2039,7 @@
 					"EffectTags": [
 						"Spend Self Tremor Count",
 						"Sinking Potency",
-						"Attack Weight Increase"
+						"Atk Weight Increase"
 					]
 				},
 				"SkillThree": {
@@ -3344,7 +3344,7 @@
 						"Special Targeting",
 						"Target Lowest HP",
 						"Target Lowest HP Ally",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Torn Memory",
 						"Self SP Damage",
 						"Heal SP",
@@ -3373,7 +3373,7 @@
 						"EffectTags": [
 							"Special Targeting",
 							"Target Specific Ally",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend Torn Memory",
 							"Self SP Damage",
 							"Heal SP",
@@ -3523,7 +3523,7 @@
 						"Special Targeting",
 						"Target Lowest HP",
 						"Target Lowest HP Ally",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Torn Memory",
 						"Self SP Damage",
 						"Heal SP",
@@ -3553,7 +3553,7 @@
 						"EffectTags": [
 							"Special Targeting",
 							"Target Specific Ally",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend Torn Memory",
 							"Self SP Damage",
 							"Heal SP",
@@ -6905,7 +6905,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Self Tremor Count",
 						"Self Tremor Count",
 						"Self SP Damage",
@@ -7033,7 +7033,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Self Tremor Count",
 						"Self Tremor Count",
 						"Self SP Damage",
@@ -7742,7 +7742,7 @@
 						"EffectTags": [
 							"Self Instant Death",
 							"Unrelenting",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Burn Potency"
 						]
 					}
@@ -7908,7 +7908,7 @@
 						"EffectTags": [
 							"Self Instant Death",
 							"Unrelenting",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Burn Potency"
 						]
 					}
@@ -8139,7 +8139,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Swiftfeet Protection",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (once per turn)\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (once per turn)\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -8334,7 +8334,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Swiftfeet Protection",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (once per turn)\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[On Use] This Skill gains Defense Level +1 for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on Max HP at activation)\n[On Use] Cannot be Staggered by damage until this Skill ends\n[On Use] Gain 2 Protection (once per turn)\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gluttony",
 						"BasePower": 4,
@@ -9252,7 +9252,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Butcher - Ribs",
-					"Description": "Iron Maiden Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -9276,7 +9276,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "Butcher - Ribs",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
 						"DamageType": "Slash",
 						"SinType": "Gluttony",
 						"BasePower": 3,
@@ -9302,7 +9302,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Fascia Hungers",
-					"Description": "Iron Maiden Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -9328,7 +9328,7 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "Time for Your Meal, Fascia",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
 						"DamageType": "Slash",
 						"SinType": "Envy",
 						"BasePower": 4,
@@ -9357,7 +9357,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Repressed Flesh",
-					"Description": "Iron Maiden Skill\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +3% damage for every Count consumed\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +3% damage for every Count consumed\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -9382,7 +9382,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Liberation of the Repressed Flesh",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain 1 Slash DMG Up next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict 4 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain 1 Slash DMG Up next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -9399,7 +9399,7 @@
 						"AttackWeightMod": 3,
 						"EffectTags": [
 							"Spend Corpus Ingredient Count",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Unbreakable Coin",
 							"Bleed Potency",
 							"Bind",
@@ -9414,7 +9414,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Exhibition Arrangements",
-					"Description": "[Clashable Guard]\nIron Maiden Skill\n[Clash Win] Inflict +2 Bleed Count on the attacker (2 times per turn)\n[Clash Win] Deal Pierce damage equal to (Bleed Potency x 2) on the attacker (max damage: 30)\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\nIron Maiden exclusive Skill\n[Clash Win] Inflict +2 Bleed Count on the attacker (2 times per turn)\n[Clash Win] Deal Pierce damage equal to (Bleed Potency x 2) on the attacker (max damage: 30)\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "Lust",
 					"BasePower": 4,
@@ -9436,7 +9436,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "The Exhibition Begins",
-						"Description": "The Self Unbound - Flow State Skill\n[Combat Start] Gain 1 Assist Defense\n[On Evade] Inflict 1 Bind next turn against the attacker (once per turn)\n[On Evade] Gain 1 Haste next turn (once per turn)",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[Combat Start] Gain 1 Assist Defense\n[On Evade] Inflict 1 Bind next turn against the attacker (once per turn)\n[On Evade] Gain 1 Haste next turn (once per turn)",
 						"DamageType": "Evade",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -9459,7 +9459,7 @@
 					"BLTSkill": {
 						"SkillSlot": "SD2",
 						"Name": "No Acts of Vandalism Allowed.",
-						"Description": "[Clashable Counter]\nThe Self Unbound - Flow State Skill\nAssist Defense Skill\nDeal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Coin Power +1 for every 6 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Bleed",
+						"Description": "[Clashable Counter]\nThe Self Unbound - Flow State exclusive Skill\nAssist Defense exclusive Skill\nDeal +10% damage for every type of negative effect on target (max 30%)\n[On Use] Coin Power +1 for every 6 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Bleed",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -9560,7 +9560,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "Butcher - Ribs",
-					"Description": "Iron Maiden Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
 					"DamageType": "Slash",
 					"SinType": "Gluttony",
 					"BasePower": 3,
@@ -9584,7 +9584,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "Butcher - Ribs",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +5% damage for every type of negative effect on target (max 20%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +5% damage for every type of negative effect on target (max 20%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Defense Level Down next turn (once per turn)\n[On Hit] Gain 2 Defense Level Up next turn (once per turn)",
 						"DamageType": "Slash",
 						"SinType": "Gluttony",
 						"BasePower": 3,
@@ -9610,7 +9610,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Fascia Hungers",
-					"Description": "Iron Maiden Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Clash Power +1 for every type of negative effect on target (max 2)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
 					"DamageType": "Slash",
 					"SinType": "Envy",
 					"BasePower": 4,
@@ -9636,7 +9636,7 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "Time for Your Meal, Fascia",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +5% damage for every type of negative effect on target (max 20%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +5% damage for every type of negative effect on target (max 20%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Gain +4 Corpus Ingredient Count",
 						"DamageType": "Slash",
 						"SinType": "Envy",
 						"BasePower": 4,
@@ -9665,7 +9665,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Repressed Flesh",
-					"Description": "Iron Maiden Skill\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +3% damage for every Count consumed\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
+					"Description": "Iron Maiden exclusive Skill\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +3% damage for every Count consumed\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n<3>[On Hit] Inflict 1 Damage Down next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
 					"DamageType": "Slash",
 					"SinType": "Lust",
 					"BasePower": 3,
@@ -9690,7 +9690,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Liberation of the Repressed Flesh",
-						"Description": "The Self Unbound - Flow State Skill\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain 1 Slash DMG Up next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain:\n$ Final Power +2\n$ Deal +1% damage for every Count consumed\n$ At 3+/5+ Corpus Ingredient, Atk Weight +1/+2\n$ Convert all Coins into Unbreakable Coins\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 1 Bind next turn (once per turn)\n[On Hit] Gain 1 Haste next turn (once per turn)\n<3>[On Hit] Inflict Damage Down next turn\n[On Hit] Gain 1 Slash DMG Up next turn (once per turn)\n<4>Deal +5% damage for every type of negative effect on target (max 30%)\n[On Hit] Inflict +1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 3,
@@ -9707,7 +9707,7 @@
 						"AttackWeightMod": 3,
 						"EffectTags": [
 							"Spend Corpus Ingredient Count",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Unbreakable Coin",
 							"Bleed Potency",
 							"Bind",
@@ -9722,7 +9722,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Exhibition Arrangements",
-					"Description": "[Clashable Guard]\nIron Maiden Skill\n[Clash Win] Inflict +1 Bleed Count on the attacker (2 times per turn)\n[Clash Win] Deal Pierce damage equal to (Bleed Potency x 2) on the attacker (max damage: 20)\n<1>[Unbreakable Coin]",
+					"Description": "[Clashable Guard]\nIron Maiden exclusive Skill\n[Clash Win] Inflict +1 Bleed Count on the attacker (2 times per turn)\n[Clash Win] Deal Pierce damage equal to (Bleed Potency x 2) on the attacker (max damage: 20)\n<1>[Unbreakable Coin]",
 					"DamageType": "Defend",
 					"SinType": "None",
 					"BasePower": 3,
@@ -9744,7 +9744,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "The Exhibition Begins",
-						"Description": "The Self Unbound - Flow State Skill\n[Combat Start] Gain 1 Assist Defense\n[On Evade] Inflict 1 Bind next turn against the attacker (once per turn)",
+						"Description": "The Self Unbound - Flow State exclusive Skill\n[Combat Start] Gain 1 Assist Defense\n[On Evade] Inflict 1 Bind next turn against the attacker (once per turn)",
 						"DamageType": "Evade",
 						"SinType": "None",
 						"BasePower": 3,
@@ -9766,7 +9766,7 @@
 					"BLTSkill": {
 						"SkillSlot": "SD2",
 						"Name": "No Acts of Vandalism Allowed.",
-						"Description": "[Clashable Counter]\nThe Self Unbound - Flow State Skill\nAssist Defense Skill\nDeal +5% damage for every type of negative effect on target (max 20%)\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count",
+						"Description": "[Clashable Counter]\nThe Self Unbound - Flow State exclusive Skill\nAssist Defense exclusive Skill\nDeal +5% damage for every type of negative effect on target (max 20%)\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain:\n$ Clash Power +1\n$ Convert the final Coin into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 3,
@@ -12892,7 +12892,7 @@
 						"Spend Bloodfeast",
 						"Hardblood",
 						"Self Bleed Potency",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Bleed Potency"
 					],
 					"AltSkill": {
@@ -12916,7 +12916,7 @@
 						"AttackWeightMod": 4,
 						"EffectTags": [
 							"Heal HP",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend Hardblood",
 							"Bleed Potency",
 							"Unbreakable Coin"
@@ -13181,7 +13181,7 @@
 						"Spend Bloodfeast",
 						"Hardblood",
 						"Self Bleed Potency",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Bleed Potency"
 					],
 					"AltSkill": {
@@ -13204,7 +13204,7 @@
 						"AttackWeightMod": 4,
 						"EffectTags": [
 							"Heal HP",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend Hardblood",
 							"Bleed Potency",
 							"Unbreakable Coin"
@@ -13804,7 +13804,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend Love/Hate Count",
 							"Love/Hate Count",
 							"Self SP Damage",
@@ -13859,7 +13859,7 @@
 						"EffectTags": [
 							"Spend Hysteria",
 							"Spend Magical Arcana",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Heal SP",
 							"Self SP Damage",
 							"Unbreakable Coin",
@@ -14084,7 +14084,7 @@
 						"EffectTags": [
 							"Spend Hysteria",
 							"Spend Magical Arcana",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Heal SP",
 							"Self SP Damage",
 							"Unbreakable Coin",
@@ -17853,7 +17853,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Poise Count",
 						"Poise Potency",
 						"B.M."
@@ -17977,7 +17977,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Poise Count",
 						"Poise Potency",
 						"B.M."
@@ -20108,7 +20108,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Poise Potency",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Bladetrail [Afterimage]",
 						"Bleed Potency",
 						"Burn Potency",
@@ -20412,7 +20412,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Poise Potency",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Bladetrail [Afterimage]",
 						"Bleed Potency",
 						"Burn Potency",
@@ -23264,7 +23264,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Nullify Stagger",
 							"Bleed Potency",
 							"Paralyze"
@@ -23431,7 +23431,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Bleed Potency",
 							"Paralyze"
 						]
@@ -24263,7 +24263,7 @@
 							"Tiantui Star [天退星]",
 							"Stagger Recovery",
 							"Shin (心) - Tiantui Star [天退星]",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Overheat"
 						]
 					}
@@ -24466,7 +24466,7 @@
 							"Tiantui Star [天退星]",
 							"Stagger Recovery",
 							"Shin (心) - Tiantui Star [天退星]",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Overheat"
 						]
 					}
@@ -25079,7 +25079,7 @@
 					"EffectTags": [
 						"Spore Round [Base]",
 						"Unbreakable Coin",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Reload [Germination]",
 						"Spend Spore Round [Base]",
 						"Burn Potency",
@@ -28832,7 +28832,7 @@
 						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Charge Count",
 						"Sinking Potency",
 						"Raise Stagger Threshold",
@@ -28958,7 +28958,7 @@
 						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Charge Count",
 						"Sinking Potency",
 						"Raise Stagger Threshold",
@@ -29197,7 +29197,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Rupture Potency",
 							"Slash Resist Down",
 							"Attack Power Up"
@@ -29430,7 +29430,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 2,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Rupture Potency",
 							"Slash Resist Down",
 							"Attack Power Up"
@@ -29710,7 +29710,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Spend Corpus Ingredient Count",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Unbreakable Coin",
 						"Bleed Potency",
 						"Bind",
@@ -29740,7 +29740,7 @@
 						"AttackWeightMod": 5,
 						"EffectTags": [
 							"Spend Corpus Ingredient Count",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Heal SP",
 							"Ally Heal SP",
 							"Somatic Frisson-inspiring Melody",
@@ -29783,7 +29783,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Please. Vandalism is Prohibited.",
-						"Description": "[Clashable Counter]\nAssist Defense Skill\nDeal +10% damage for every type of negative effects on target (max 30%)\n[On Use] Coin Power +1 for every 6 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient to gain:\n$ Clash Power +1\n$ Convert the final Coin on this Skill into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Bleed",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\nDeal +10% damage for every type of negative effects on target (max 30%)\n[On Use] Coin Power +1 for every 6 Bleed on target (max 2)\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient to gain:\n$ Clash Power +1\n$ Convert the final Coin on this Skill into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count\n<2>[On Hit] Inflict 2 Bleed",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 4,
@@ -30007,7 +30007,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Spend Corpus Ingredient Count",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Unbreakable Coin",
 						"Bleed Potency",
 						"Bind",
@@ -30037,7 +30037,7 @@
 						"AttackWeightMod": 5,
 						"EffectTags": [
 							"Spend Corpus Ingredient Count",
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Heal SP",
 							"Ally Heal SP",
 							"Somatic Frisson-inspiring Melody",
@@ -30079,7 +30079,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Please. Vandalism is Prohibited.",
-						"Description": "[Clashable Counter]\nAssist Defense Skill\nDeal +5% damage for every type of negative effects on target (max 30%)\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient to gain:\n$ Clash Power +1\n$ Convert the final Coin on this Skill into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\nDeal +5% damage for every type of negative effects on target (max 30%)\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient to gain:\n$ Clash Power +1\n$ Convert the final Coin on this Skill into Unbreakable Coin\n<1>[On Hit] Inflict +1 Bleed Count",
 						"DamageType": "Slash",
 						"SinType": "Lust",
 						"BasePower": 3,
@@ -31199,7 +31199,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Self HP Damage"
 					]
 				},
@@ -33304,7 +33304,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 4,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Self SP Damage",
 						"Sinking Potency",
 						"Impending Ruin"
@@ -33488,7 +33488,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Self SP Damage",
 						"Sinking Potency",
 						"Impending Ruin"
@@ -35244,7 +35244,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Vengeance Tattoo",
 						"Unbreakable Coin",
 						"Bleed Potency",
@@ -35269,7 +35269,7 @@
 						"AttackWeight": 3,
 						"AttackWeightMod": 4,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Gain Resources",
 							"Spend Vengeance Tattoo",
 							"Bleed Potency",
@@ -35446,7 +35446,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Unbreakable Coin",
 						"Bleed Potency",
 						"Burn Potency"
@@ -35671,7 +35671,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend The Duel Escalates",
 							"Maturing Textbook",
 							"Unbreakable Coin",
@@ -35711,7 +35711,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "I Will Protect",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use]\n$ Gain 2 Protection (once per turn)\n$ Heal 5 SP for the unit protected by Assist Defense\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use]\n$ Gain 2 Protection (once per turn)\n$ Heal 5 SP for the unit protected by Assist Defense\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gloom",
 						"BasePower": 3,
@@ -35915,7 +35915,7 @@
 						"AttackWeight": 1,
 						"AttackWeightMod": 3,
 						"EffectTags": [
-							"Attack Weight Increase",
+							"Atk Weight Increase",
 							"Spend The Duel Escalates",
 							"Maturing Textbook",
 							"Unbreakable Coin",
@@ -35955,7 +35955,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "I Will Protect",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "None",
 						"BasePower": 3,
@@ -39191,7 +39191,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 3,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Poise Potency",
 						"Unbreakable Coin",
 						"Rupture Potency",
@@ -39366,7 +39366,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 2,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Poise Potency",
 						"Unbreakable Coin",
 						"Rupture Potency",
@@ -40390,7 +40390,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Observing the Stones on the Road",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Heal 5 SP on target this unit guarded using Assist Defense\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use] Heal 5 SP on target this unit guarded using Assist Defense\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gloom",
 						"BasePower": 4,
@@ -40639,7 +40639,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Observing the Stones on the Road",
-						"Description": "[Clashable Guard]\nAssist Defense Skill\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use] Gain 3 Poise\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Gloom",
 						"BasePower": 4,
@@ -45301,7 +45301,7 @@
 						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Charge Count",
 						"Sinking Count",
 						"Raise Stagger Threshold",
@@ -45434,7 +45434,7 @@
 						"Charge Count",
 						"Conditional Indiscriminate",
 						"Unfocused Volley",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Charge Count",
 						"Sinking Count",
 						"Raise Stagger Threshold",
@@ -49691,7 +49691,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Self SP Damage",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Burn Count"
 					]
 				},
@@ -49859,7 +49859,7 @@
 					"AttackWeightMod": 2,
 					"EffectTags": [
 						"Self SP Damage",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Burn Count"
 					]
 				},
@@ -51395,7 +51395,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Unbreakable Coin",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Moonlit Azure Blade",
 						"Bleed Potency"
 					]
@@ -51572,7 +51572,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Unbreakable Coin",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Moonlit Azure Blade",
 						"Bleed Potency"
 					]
@@ -51673,6 +51673,954 @@
 					"EffectTags": [
 						"Ally Heal SP",
 						"Ally Shield"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 11310,
+		"Sinner": "Sinclair",
+		"Identity": "Haute Couture::The Crimson God of Le Rouge",
+		"DWorld": "???",
+		"Season": 8,
+		"Traits": [
+			"Sisyphe",
+			"Le Rouge"
+		],
+		"Speed": [ 4, 7 ],
+		"SpeedModifier": [ 3, 3 ],
+		"BaseHP": 77,
+		"GrowthHP": 2.9,
+		"StaggerThresholds": [ 55 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
+		},
+		"UniqueStatuses":[
+			"Pulsation",
+			"Duality",
+			"Relentless Hunger",
+			"Noble Dignity",
+			"Uncontrollable Rampage",
+			"Desperate Hunger",
+			"",
+			"Attending the Divine",
+			"Crimson Cradle",
+			"L'Abject",
+			"Buffet"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "La Pulsion",
+					"Description": "[Target Fixed]\nDuality\n[On Use] Gain +(Pulsation Potency on self - 1) Atk Weight (max 2)\n$ Prioritize 'Le Rouge' allies as sub-targets; selected in order of HP percentage\n[On Use] Clash Power +1 for every 4 Bleed on target (max 2)\n[On Use] Gain +5 Pulsation Count\n$ If target is an ally, gain an additional +5 Pulsation Count\n<1>[Current Coin Attack End] If target is an ally, apply the following effects (2 times per turn):\n$ Target heals (10 + Pulsation Potency on self)% HP (max 15%)\n$- If target is a 'Le Rouge' ally, consume 20% of its max HP and apply 2 Power Up instead\n$ Target heals (10 + Pulsation Potency on self) SP (max 15)\n$- If target is at max SP, apply +4 Charge Count instead",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 6,
+					"CoinCount": 1,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Target Fixed",
+						"Duality",
+						"Atk Weight Increase",
+						"Pulsation Count",
+						"Ally Heal HP",
+						"Ally HP Damage",
+						"Ally Power Up",
+						"Ally Heal SP",
+						"Ally Charge Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Je vous aide",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nWhen in Uncontrollable Rampage state, deal +50% damage\nDeal +5% damage for every 1% missing HP on target (max 100%)\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] Gain 5 Relentless Hunger\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 Lust Fragility (once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 6,
+						"CoinCount": 1,
+						"Level": 1,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 4,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Relentless Hunger",
+							"Bleed Count",
+							"Lust Fragility"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S12",
+						"Name": "Je m'expulse",
+						"Description": "Noble Dignity exclusive Skill\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] Gain +3 Pulsation Count\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 2 L'Abject",
+						"DamageType": "Pierce",
+						"SinType": "Gluttony",
+						"BasePower": 3,
+						"CoinPower": 3,
+						"CoinCount": 1,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Pulsation Count",
+							"Bleed Count",
+							"Bleed Potency",
+							"L'Abject"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "L'Appétit",
+					"Description": "[Target Fixed]\nDuality\n[On Use] Atk Weight +1 for every 2 Pulsation Potency on self (max 2)\n$ Prioritize 'Le Rouge' allies as sub-targets; selected in descending order of HP percentage\n[On Use] Clash Power +1 for every 3 Pulsation Count on self (max 3)\n[On Use] Gain +3 Pulsation Count\n[On Use] If target is an ally, end Skill after activating Coin 1 effects\n<1>[Current Coin Attack End] If target is an ally, apply the following effects:\n$ Apply 1 Clash Power Up and 1 Desperate Hunger\n$ If target is a Charge Identity, apply +4 Charge Count\n$ If target is a 'Le Rouge' ally, consume 10% of its max HP and apply 2 Offense Level Up\n<2>[On Hit] Inflict 3 Bleed",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Target Fixed",
+						"Duality",
+						"Atk Weight Increase",
+						"Pulsation Count",
+						"Ally Clash Power Up",
+						"Ally Desperate Hunger",
+						"Ally Charge Count",
+						"Ally HP Damage",
+						"Ally Offense Level Up",
+						"Bleed Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Je m'abjecte",
+						"Description": "Noble Dignity exclusive Skill\n[On Use] If target has 6+ Bleed, Coin Power +1\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[Before Attack] Consume 15% of each respective ally's max HP on 2 other allies\n$ Prioritize 'Le Rouge' allies; selected in descending order of current HP\n$ Deal +15% damage for every ally whose HP was consumed\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 2 L'Abject\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 L'Abject\n$ When in Uncontrollable Rampage state, inflict 2 L'Abject instead\n<3>[On Hit] Inflict 1 Lust Fragility (once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Wrath",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Ally HP Damage",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Lust Fragility",
+							"Charge Count"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S22",
+						"Name": "La Demande",
+						"Description": "[Unclashable]\nNoble Dignity exclusive Skill\nThis Skill does not trigger Defense Skills\nDeal +5% damage for every 3 Bleed on target (max 30%)\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Remove all L'Abject on target and inflict 2 Lust Fragility next turn (once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 5,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Bleed Potency",
+							"Spend Enemy L'Abject",
+							"Lust Fragility",
+							"Charge Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Le Baptême rouge",
+					"Description": "[Combat Start] Consume 15% of each respective ally's max HP on 2 other allies and apply 3 Offense Level Up\n$ Selected in descending order of current HP among allies that have 50%+ HP\n$ Prioritizes 'Le Rouge' Identities\n$- Prioritized regardless of their HP as long as they have 2+ HP\n$- Consume 25% of their max HP instead of 15%; additionally apply 1 Attack Power Up\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[On Use] When in Uncontrollable Rampage state, convert all Coins to Unbreakable Coins\n$ At 10+ Pulsation Count, consume up to 10 Pulsation Count to gain +2 Atk Weight and Coin Power +1\n[On Use] Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n<1>[On Hit] Inflict 3 Bleed\n[On Hit] Gain 3 Relentless Hunger\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Gain 3 Relentless Hunger\n<3>[On Hit] Inflict +3 Bleed Count\n[On Hit] Gain 3 Relentless Hunger",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Ally HP Damage",
+						"Ally Offense Level Up",
+						"Ally Attack Power Up",
+						"Unbreakable Coin",
+						"Spend Pulsation Count",
+						"Atk Weight Increase",
+						"Bleed Potency",
+						"Relentless Hunger",
+						"Bleed Count",
+						"Charge Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Le Manque-à-être",
+						"Description": "[Unclashable]\n[Target Fixed]\nDuality\nExternal effects cannot trigger this Skill to be Reused\n<1>[Current Coin Attack End] Recover target from Stagger\n[Current Coin Attack End] Heal target equal to 15% of target's max HP",
+						"DamageType": "Pierce",
+						"SinType": "Gluttony",
+						"BasePower": 7,
+						"CoinPower": 8,
+						"CoinCount": 3,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Target Fixed",
+							"Duality",
+							"Ally Stagger Recovery",
+							"Ally Heal HP"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "La Voracité",
+						"Description": "Noble Dignity exclusive Skill\nTurn Start: At 150 Relentless Hunger, replace this Skill with 'La Castration' (once per turn)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[On Use] When in Uncontrollable Rampage state, convert all Coins into Unbreakable Coins\n$ At 10+ Pulsation Count, consume up to 10 Pulsation Count and gain +2 Atk Weight and Coin Power +1\n[On Use] Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Before Attack] Consume 15% of each respective ally's max HP on 3 other allies\n$ Prioritize 'Le Rouge' allies; selected in descending order of current HP\n$ Deal +10% damage for every ally whose HP was consumed\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 L'Abject\n[On Hit] If it is the main target, inflict 1 additional L'Abject for every excess Atk Weight beyond the number of actual targets\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Activate Bleed on target once; target loses 1 Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Skill Change",
+							"Unbreakable Coin",
+							"Spend Pulsation Count",
+							"Atk Weight Increase",
+							"Ally HP Damage",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Activate Bleed",
+							"Spend Enemy Bleed Count",
+							"Charge Count"
+						]
+					},
+					"CRTSkill": {
+						"SkillSlot": "S33",
+						"Name": "La Castration",
+						"Description": "Noble Dignity exclusive Skill\n[Before Use] Turn Start: At fewer than 150 Relentless Hunger, replace this Skill with 'La Voracité'\n[Before Attack] Consume HP on all other 'Le Rouge' allies equal to 50% of their respective current HP to apply 3 Uncontrollable Rampage on them\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[On Use] When in Uncontrollable Rampage state, Coin Power +1\n[On Use] Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Attack End] Consume all Relentless Hunger\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 L'Abject\n[On Hit] If it is the main target, inflict 1 additional L'Abject for every excess Atk Weight beyond the number of actual targets\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n[On Hit] Remove all L'Abject on target and inflict (L'Abject removed) Lust Fragility next turn (max 3)\n<5>[Unbreakable Coin]\n[Coin Start] Consume up to 15 Pulsation Count on self and deal +(Pulsation Count consumed x 3)% damage\n[On Hit] Activate Bleed on target once; target loses 1 Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 5,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Skill Change",
+							"Ally HP Damage",
+							"Ally Uncontrollable Rampage",
+							"Spend Relentless Hunger",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Spend Enemy L'Abject",
+							"Lust Fragility",
+							"Spend Pulsation Count",
+							"Activate Bleed",
+							"Spend Enemy Bleed Count",
+							"Charge Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "La Fuite",
+					"Description": "[Combat Start] If this unit does not have Uncontrollable Rampage, and is at fewer than 15 Pulsation Count, consume (15 - current Pulsation Count)% HP to raise Pulsation Count to 15 (once per turn)\n[On Evade] Gain +2 Pulsation Count (2 times per turn)",
+					"DamageType": "Evade",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "La Garde",
+						"Description": "[Clashable Guard]\nThis Skill counts as Assist Defense only for the unit that uses the Skill\nWhen the user is hit while using this Skill, Haute Couture::The Crimson God of Le Rouge Sinclair gains 2 Relentless Hunger\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[Unbreakable Coin]",
+						"DamageType": "Defend",
+						"SinType": "Gluttony",
+						"BasePower": 2,
+						"CoinPower": 7,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Assist Defense Skill",
+							"Clashable Guard",
+							"Relentless Hunger",
+							"Unbreakable Coin"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "SD2",
+						"Name": "Le Trait unaire",
+						"Description": "[Clashable Counter]\nNoble Dignity exclusive Skill\n[Combat Start] If this unit does not have Uncontrollable Rampage, and is at fewer than 15 Pulsation Count, consume (15 - current Pulsation Count)% HP to raise Pulsation Count to 15 (once per turn)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 3+/5+ Pulsation Potency, Coin Power +1/+2\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 L'Abject\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 L'Abject\n[On Hit] When in Uncontrollable Rampage state, inflict 1 L'Abject",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Counter",
+							"Self HP Damage",
+							"Pulsation Count",
+							"Bleed Potency",
+							"L'Abject"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "La Fin de l'Enfance",
+						"Description": "Gain Relentless Hunger based on the following conditions (50 per turn):\n$ When this unit consumes Pulsation Count, gain Stack equal to Pulsation Count consumed\n$ When this unit's Base Skills heal other allies' HP, gain Stack equal to the actual amount healed\n$ Gain 1 Stacks for every 10 cumulative HP lost on allies\n$ On Base Attack Hit by another 'Le Rouge' allied Identity, gain 2 Stacks\n$ Turn End: Gain 5 Stacks for every other 'Le Rouge' allied Identity on the field\nTurn End: At 100+ Relentless Hunger, and if this unit does not have Noble Dignity, replace the Skill on the leftmost Skill Slot's bottom row with 'La Voracité' at the next Turn Start\nCombat Start: If this unit equipped 'La Voracité' or 'La Castration' for the first time in this Encounter, gain Desperate Hunger and Noble Dignity; then, remove this unit's Stagger Threshold\n$ Replace equipped Base Skills with Noble Dignity exclusive Skills\n$ Base Skills that targeted allies instead activate Unopposed Attack against random enemies\n$ At Attack End of the Skill activated by the said effect, consume all Relentless Hunger\nTurn End: At 150 Relentless Hunger, and if this unit has Noble Dignity, and if this unit does not have 'La Voracité' on its Dashboard at next Turn Start, replace a Base Skill with 'La Voracité' (prioritizes the Skill on the leftmost Slot's bottom row)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Relentless Hunger",
+							"Skill Draw",
+							"Desperate Hunger",
+							"Noble Dignity",
+							"Remove Stagger Threshold",
+							"Skill Change",
+							"Spend Relentless Hunger"
+						]
+					},
+					{
+						"Name": "La Moisson",
+						"Description": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered due to the said Skill effect, and its HP does not drop below 1\nCombat End: At 3+ Lust Reson, apply Desperate Hunger next turn on (Lust Reson / 3) other allies (rounded up)\n$ Prioritizes 'Le Rouge' allies, in Deployment order\n$ If this unit has Noble Dignity, apply this effect to +1 more allies (max 4 allies)\nIf this unit does not have Noble Dignity,\n$ When using a Duality Skill on an ally, apply 1 Attending the Divine to the non-immobilized 'Le Rouge' ally with the highest current HP (once per turn)\n$ At Base Attack End by another Charge Identity, if the said Skill did not defeat its main target, use 'Je vous aide' against that enemy (once per turn)\nIf this unit has Noble Dignity,\n Gain Crimson Cradle\n$ Activate Buffet on the current battlefield\nTurn End: Gain Desperate Hunger next turn\nCombat Start: Apply 1 Attending the Divine to the non-immobilized 'Le Rouge' ally with the highest current HP\n$ At Attack End of a Base Attack Skill against enemies, if the main target has 5 L'Abject, use 'La Demande' (once per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Desperate Hunger",
+							"Ally Attending the Divine",
+							"Self Follow Up",
+							"Crimson Cradle",
+							"Buffet",
+							"Desperate Hunger"
+						]
+					},
+					{
+						"Name": "La Jouissance phallique",
+						"Description": "Gain 1 Pulsation Count every time Bleed is activated in this Encounter (10 times per turn)\nCombat End: At 15+ Pulsation Count, if this unit is not in Uncontrollable Rampage state, consume all Pulsation Count to gain 3 Uncontrollable Rampage next turn\n$ Heal SP equal to (3 x Pulsation Count consumed beyond 15) (max 15)\nWhen Uncontrollable Rampage expires, consume all Pulsation Count on self to heal HP equal to (Pulsation Count consumed x 2)\nGain 1 Pulsation Potency for every 10 cumulative Pulsation Count this unit consumes in this Encounter\nThis unit's Base Attack Skills and Clashable Counter Skills are considered as Skills that gain Charge Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Count",
+							"Spend Pulsation Count",
+							"Uncontrollable Rampage",
+							"Heal SP",
+							"Heal HP",
+							"Pulsation Potency",
+							"Keyword Modification"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Les Pouvoirs de la vie",
+					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\nWhen another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Stagger Recovery",
+						"Ally Unrelenting"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Voracious Overindulgence",
+					"Description": "Combat Start: Apply 2 Offense Level Up to the ally with the lowest HP\nThe said ally heals 5% HP at Attack Skill End (min 1, once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Offense Level Up",
+						"Ally Heal HP"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "La Pulsion",
+					"Description": "[Target Fixed]\nDuality\n[On Use] Clash Power +1 for every 4 Bleed on target (max 2)\n[On Use] Gain +5 Pulsation Count\n$ If target is an ally, gain an additional +5 Pulsation Count\n<1>[Current Coin Attack End] If target is an ally, apply the following effects (2 times per turn):\n$ Target heals 10% HP\n$- If target is a 'Le Rouge' ally, consume 20% of its max HP and apply 2 Power Up instead\n$ Target heals 10 SP\n$- If target is at max SP, apply +4 Charge Count instead",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 1,
+					"Level": 1,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Target Fixed",
+						"Duality",
+						"Pulsation Count",
+						"Ally Heal HP",
+						"Ally HP Damage",
+						"Ally Power Up",
+						"Ally Heal SP",
+						"Ally Charge Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S11",
+						"Name": "Je vous aide",
+						"Description": "[Unclashable]\nThis Skill does not trigger Defense Skills\nWhen in Uncontrollable Rampage state, deal +50% damage\n[On Use] Final Power +1 for every 4 Bleed on target (max 4)\n[On Use] Gain 5 Relentless Hunger\n<1>[On Hit] Inflict +2 Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 4,
+						"CoinPower": 6,
+						"CoinCount": 1,
+						"Level": 1,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 4,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Relentless Hunger",
+							"Bleed Count"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S12",
+						"Name": "Je m'expulse",
+						"Description": "Noble Dignity exclusive Skill\n[On Use] Gain +3 Pulsation Count\n<1>[On Hit] Inflict +2 Bleed Count\n<2>[On Hit] Inflict 2 Bleed\n<3>[On Hit] Inflict 1 L'Abject",
+						"DamageType": "Pierce",
+						"SinType": "Gluttony",
+						"BasePower": 3,
+						"CoinPower": 3,
+						"CoinCount": 1,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Pulsation Count",
+							"Bleed Count",
+							"Bleed Potency",
+							"L'Abject"
+						]
+					}
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "L'Appétit",
+					"Description": "[Target Fixed]\nDuality\n[On Use] Clash Power +1 for every 3 Pulsation Count on self (max 3)\n[On Use] Gain +3 Pulsation Count\n[On Use] If target is an ally, end Skill after activating Coin 1 effects\n<1>[Current Coin Attack End] If target is an ally, apply the following effects:\n$ Apply 1 Desperate Hunger\n$ If target is a Charge Identity, apply +4 Charge Count\n$ If target is a 'Le Rouge' ally, consume 10% of its max HP and apply 2 Offense Level Up\n<2>[On Hit] Inflict 3 Bleed",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Target Fixed",
+						"Duality",
+						"Pulsation Count",
+						"Ally Desperate Hunger",
+						"Ally Charge Count",
+						"Ally HP Damage",
+						"Ally Offense Level Up",
+						"Bleed Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "S21",
+						"Name": "Je m'abjecte",
+						"Description": "Noble Dignity exclusive Skill\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[Before Attack] Consume 15% of each respective ally's max HP on 2 other allies\n$ Prioritize 'Le Rouge' allies; selected in descending order of current HP\n$ Deal +15% damage for every ally whose HP was consumed\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 2 L'Abject\n<2>[On Hit] Inflict 2 Bleed\n[On Hit] Inflict 1 L'Abject\n$ When in Uncontrollable Rampage state, inflict 2 L'Abject instead\n<3>[On Hit] Inflict 1 Lust Fragility (once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Wrath",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Ally HP Damage",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Lust Fragility",
+							"Charge Count"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S22",
+						"Name": "La Demande",
+						"Description": "[Unclashable]\nNoble Dignity exclusive Skill\nThis Skill does not trigger Defense Skills\nDeal +5% damage for every 3 Bleed on target (max 30%)\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Bleed\n[On Hit] Remove all L'Abject on target and inflict 1 Lust Fragility next turn (once per turn)",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 5,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Ignore Defense Skill",
+							"Bleed Potency",
+							"Spend Enemy L'Abject",
+							"Lust Fragility",
+							"Charge Count"
+						]
+					}
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Le Baptême rouge",
+					"Description": "[Combat Start] Consume 15% of each respective ally's max HP on 2 other allies and apply 3 Offense Level Up\n$ Selected in descending order of current HP among allies that have 50%+ HP\n$ Prioritizes 'Le Rouge' Identities\n$- Prioritized regardless of their HP as long as they have 2+ HP\n$- Consume 25% of their max HP instead of 15%; additionally apply 1 Attack Power Up\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[On Use] When in Uncontrollable Rampage state, convert all Coins to Unbreakable Coins\n$ At 10+ Pulsation Count, consume up to 10 Pulsation Count to gain +2 Atk Weight and Coin Power +1\n<1>[On Hit] Inflict 3 Bleed\n<2>[On Hit] Inflict 3 Bleed\n<3>[On Hit] Inflict +3 Bleed Count",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 3,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Ally HP Damage",
+						"Ally Offense Level Up",
+						"Ally Attack Power Up",
+						"Unbreakable Coin",
+						"Spend Pulsation Count",
+						"Atk Weight Increase",
+						"Bleed Potency",
+						"Bleed Count",
+						"Charge Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Le Manque-à-être",
+						"Description": "[Unclashable]\n[Target Fixed]\nDuality\nExternal effects cannot trigger this Skill to be Reused\n<1>[Current Coin Attack End] Recover target from Stagger",
+						"DamageType": "Pierce",
+						"SinType": "Gluttony",
+						"BasePower": 7,
+						"CoinPower": 8,
+						"CoinCount": 3,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Target Fixed",
+							"Duality",
+							"Ally Stagger Recovery"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "La Voracité",
+						"Description": "Noble Dignity exclusive Skill\nTurn Start: At 150 Relentless Hunger, replace this Skill with 'La Castration' (once per turn)\n[On Use] When in Uncontrollable Rampage state, convert all Coins into Unbreakable Coins\n$ At 10+ Pulsation Count, consume up to 10 Pulsation Count and gain +2 Atk Weight and Coin Power +1\n[Before Attack] Consume 15% of each respective ally's max HP on 3 other allies\n$ Prioritize 'Le Rouge' allies; selected in descending order of current HP\n$ Deal +10% damage for every ally whose HP was consumed\n<1>[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 L'Abject\n[On Hit] If it is the main target, inflict 1 additional L'Abject for every excess Atk Weight beyond the number of actual targets\n<2>[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 2 Bleed\n<4>[On Hit] Activate Bleed on target once; target loses 1 Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 4,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 4,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Skill Change",
+							"Unbreakable Coin",
+							"Spend Pulsation Count",
+							"Atk Weight Increase",
+							"Ally HP Damage",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Activate Bleed",
+							"Spend Enemy Bleed Count",
+							"Charge Count"
+						]
+					},
+					"CRTSkill": {
+						"SkillSlot": "S33",
+						"Name": "La Castration",
+						"Description": "Noble Dignity exclusive Skill\n[Before Use] Turn Start: At fewer than 150 Relentless Hunger, replace this Skill with 'La Voracité'\n[Before Attack] Consume HP on all other 'Le Rouge' allies equal to 50% of their respective current HP to apply 3 Uncontrollable Rampage on them\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n[On Use] At 3+ Pulsation Potency, Coin Power +1\n[Attack End] Consume all Relentless Hunger\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Inflict 1 L'Abject\n[On Hit] If it is the main target, inflict 1 additional L'Abject for every excess Atk Weight beyond the number of actual targets\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict 1 Bleed\n[On Hit] Remove all L'Abject on target and inflict (L'Abject removed) Lust Fragility next turn (max 3)\n<5>[Unbreakable Coin]\n[On Hit] Activate Bleed on target once; target loses 1 Bleed Count",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 3,
+						"CoinCount": 5,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 5,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Skill Change",
+							"Ally HP Damage",
+							"Ally Uncontrollable Rampage",
+							"Spend Relentless Hunger",
+							"Unbreakable Coin",
+							"Bleed Count",
+							"L'Abject",
+							"Bleed Potency",
+							"Spend Enemy L'Abject",
+							"Lust Fragility",
+							"Activate Bleed",
+							"Spend Enemy Bleed Count",
+							"Charge Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "La Fuite",
+					"Description": "[Combat Start] If this unit does not have Uncontrollable Rampage, and is at fewer than 15 Pulsation Count, consume (15 - current Pulsation Count)% HP to raise Pulsation Count to 15 (once per turn)\n[On Evade] Gain +2 Pulsation Count (2 times per turn)",
+					"DamageType": "Evade",
+					"SinType": "None",
+					"BasePower": 3,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "La Garde",
+						"Description": "[Clashable Guard]\nThis Skill counts as Assist Defense only for the unit that uses the Skill\nWhen the user is hit while using this Skill, Haute Couture::The Crimson God of Le Rouge Sinclair gains 2 Relentless Hunger\n[On Use] Final Power +1 for every 4 Bleed on target (max 3)\n<1>[Unbreakable Coin]",
+						"DamageType": "Defend",
+						"SinType": "Gluttony",
+						"BasePower": 2,
+						"CoinPower": 7,
+						"CoinCount": 1,
+						"Level": 0,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Assist Defense Skill",
+							"Clashable Guard",
+							"Relentless Hunger",
+							"Unbreakable Coin"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "SD2",
+						"Name": "Le Trait unaire",
+						"Description": "[Clashable Counter]\nNoble Dignity exclusive Skill\n[Combat Start] If this unit does not have Uncontrollable Rampage, and is at fewer than 15 Pulsation Count, consume (15 - current Pulsation Count)% HP to raise Pulsation Count to 15 (once per turn)\n[On Use] Final Power +1 for every 4 Bleed on target (max 2)\n<1>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 L'Abject\n<2>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict 1 L'Abject",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 4,
+						"CoinPower": 4,
+						"CoinCount": 1,
+						"Level": 2,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Counter",
+							"Self HP Damage",
+							"Pulsation Count",
+							"Bleed Potency",
+							"L'Abject"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "La Fin de l'Enfance",
+						"Description": "Gain Relentless Hunger based on the following conditions (50 per turn):\n$ When this unit consumes Pulsation Count, gain Stack equal to Pulsation Count consumed\n$ When this unit's Base Skills heal other allies' HP, gain Stack equal to the actual amount healed\n$ Gain 1 Stacks for every 10 cumulative HP lost on allies\n$ On Base Attack Hit by another 'Le Rouge' allied Identity, gain 2 Stacks\n$ Turn End: Gain 5 Stacks for every other 'Le Rouge' allied Identity on the field\nTurn End: At 100+ Relentless Hunger, and if this unit does not have Noble Dignity, replace the Skill on the leftmost Skill Slot's bottom row with 'La Voracité' at the next Turn Start\nCombat Start: If this unit equipped 'La Voracité' or 'La Castration' for the first time in this Encounter, gain Desperate Hunger and Noble Dignity; then, remove this unit's Stagger Threshold\n$ Replace equipped Base Skills with Noble Dignity exclusive Skills\n$ Base Skills that targeted allies instead activate Unopposed Attack against random enemies\n$ At Attack End of the Skill activated by the said effect, consume all Relentless Hunger\nTurn End: At 150 Relentless Hunger, and if this unit has Noble Dignity, and if this unit does not have 'La Voracité' on its Dashboard at next Turn Start, replace a Base Skill with 'La Voracité' (prioritizes the Skill on the leftmost Slot's bottom row)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Relentless Hunger",
+							"Skill Draw",
+							"Desperate Hunger",
+							"Noble Dignity",
+							"Remove Stagger Threshold",
+							"Skill Change",
+							"Spend Relentless Hunger"
+						]
+					},
+					{
+						"Name": "La Moisson",
+						"Description": "When this unit's Base Skill effects consume an ally's HP, the ally cannot become Staggered due to the said Skill effect, and its HP does not drop below 1\nCombat End: At 3+ Lust Reson, apply Desperate Hunger next turn on (Lust Reson / 3) other allies (rounded up)\n$ Prioritizes 'Le Rouge' allies, in Deployment order\n$ If this unit has Noble Dignity, apply this effect to +1 more allies (max 4 allies)\nIf this unit does not have Noble Dignity,\n$ When using a Duality Skill on an ally, apply 1 Attending the Divine to the non-immobilized 'Le Rouge' ally with the highest current HP (once per turn)\n$ At Base Attack End by another Charge Identity, if the said Skill did not defeat its main target, use 'Je vous aide' against that enemy (once per turn)\nIf this unit has Noble Dignity,\n Gain Crimson Cradle\n$ Activate Buffet on the current battlefield\nTurn End: Gain Desperate Hunger next turn\nCombat Start: Apply 1 Attending the Divine to the non-immobilized 'Le Rouge' ally with the highest current HP\n$ At Attack End of a Base Attack Skill against enemies, if the main target has 5 L'Abject, use 'La Demande' (once per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Desperate Hunger",
+							"Ally Attending the Divine",
+							"Self Follow Up",
+							"Crimson Cradle",
+							"Buffet",
+							"Desperate Hunger"
+						]
+					},
+					{
+						"Name": "La Jouissance phallique",
+						"Description": "Gain 1 Pulsation Count every time Bleed is activated in this Encounter (10 times per turn)\nCombat End: At 15+ Pulsation Count, if this unit is not in Uncontrollable Rampage state, consume all Pulsation Count to gain 3 Uncontrollable Rampage next turn\n$ Heal SP equal to (3 x Pulsation Count consumed beyond 15) (max 15)\nWhen Uncontrollable Rampage expires, consume all Pulsation Count on self to heal HP equal to (Pulsation Count consumed x 2)\nGain 1 Pulsation Potency for every 10 cumulative Pulsation Count this unit consumes in this Encounter\nThis unit's Base Attack Skills and Clashable Counter Skills are considered as Skills that gain Charge Count",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Count",
+							"Spend Pulsation Count",
+							"Uncontrollable Rampage",
+							"Heal SP",
+							"Heal HP",
+							"Pulsation Potency",
+							"Keyword Modification"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Les Pouvoirs de la vie",
+					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\nWhen another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Gluttony",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Stagger Recovery",
+						"Ally Unrelenting"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Voracious Overindulgence",
+					"Description": "Combat Start: Apply 2 Offense Level Up to the ally with the lowest HP\nThe said ally heals 5% HP at Attack Skill End (min 1, once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Offense Level Up",
+						"Ally Heal HP"
 					]
 				}
 			}
@@ -53613,7 +54561,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Conditional Indiscriminate",
 						"Self SP Damage",
 						"Magic Bullet",
@@ -53737,7 +54685,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 7,
 					"EffectTags": [
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Conditional Indiscriminate",
 						"Self SP Damage",
 						"Magic Bullet",
@@ -54444,7 +55392,7 @@
 					"AttackWeightMod": 3,
 					"EffectTags": [
 						"Heal HP",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Blood-tinged Scissorblades",
 						"Bloodfeast",
 						"Blood-tinged Scissorblades",
@@ -54591,7 +55539,7 @@
 					"AttackWeightMod": 2,
 					"EffectTags": [
 						"Heal HP",
-						"Attack Weight Increase",
+						"Atk Weight Increase",
 						"Spend Blood-tinged Scissorblades",
 						"Bloodfeast",
 						"Blood-tinged Scissorblades",
@@ -55652,7 +56600,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "I'll Gut You Like a Fish",
-						"Description": "Laevateinn Skill\nCoin Power +1 for every 6 (Burn + Bleed) on target (max 2)\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Raise Stagger Threshold by 10\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn and +2 Burn Count\n[On Hit] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bind and 1 Paralyze next turn (once per turn)",
+						"Description": "Laevateinn exclusive Skill\nCoin Power +1 for every 6 (Burn + Bleed) on target (max 2)\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Raise Stagger Threshold by 10\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn and +2 Burn Count\n[On Hit] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bind and 1 Paralyze next turn (once per turn)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 3,
@@ -55712,7 +56660,7 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "Gut Stab [Lævateinn]",
-						"Description": "Laevateinn Skill\nIf target has 4+ (Burn + Bleed), Final Power +1\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict 1 Bind and 1 Paralyze next turn (once per turn)",
+						"Description": "Laevateinn exclusive Skill\nIf target has 4+ (Burn + Bleed), Final Power +1\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict 1 Bind and 1 Paralyze next turn (once per turn)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 3,
@@ -55773,7 +56721,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Complete and Total Extermination [Lævateinn]",
-						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) on target (max 3)\nDeal +1% damage for every (Burn + Bleed) on target (max 40%)\n[On Use] This Skill gains (highest Reson) Offense Level (max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister] Inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End] If this Skillwas activated as a Counter, gain 1 Blunt DMG Up next turn (once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (max 50%)\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (max 50%)\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Pierce damage (max 25%)\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Blunt damage (max 25%)",
+						"Description": "Laevateinn exclusive Skill\nFinal Power +1 for every (Burn + Bleed) on target (max 3)\nDeal +1% damage for every (Burn + Bleed) on target (max 40%)\n[On Use] This Skill gains (highest Reson) Offense Level (max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister] Inflict 1 Bleed On Coin Hit\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n[Attack End] If this Skillwas activated as a Counter, gain 1 Blunt DMG Up next turn (once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 4 Bleed\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (max 50%)\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Deal ((Burn + Bleed on target) x 2)% of this Coin's final damage as Slash damage (max 50%)\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Pierce damage (max 25%)\n[On Hit] Deal (Burn + Bleed on target)% of this Coin's final damage as Blunt damage (max 25%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 4,
@@ -55834,7 +56782,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nExternal effects cannot trigger this Skill to be Reused, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn exclusive Skill\n[Unclashable]\n[Target Fixed]\nExternal effects cannot trigger this Skill to be Reused, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -56039,7 +56987,7 @@
 					"AltSkill": {
 						"SkillSlot": "S11",
 						"Name": "I'll Gut You Like a Fish",
-						"Description": "Laevateinn Skill\nCoin Power +1 for every 6 (Burn + Bleed) on target (max 2)\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Raise Stagger Threshold by 5\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn and +2 Burn Count\n[On Hit] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bind next turn (once per turn)",
+						"Description": "Laevateinn exclusive Skill\nCoin Power +1 for every 6 (Burn + Bleed) on target (max 2)\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n[On Hit] Raise Stagger Threshold by 5\n<2>[Unbreakable Coin]\n[On Hit] Inflict 4 Burn and +2 Burn Count\n[On Hit] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bind next turn (once per turn)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 3,
@@ -56097,7 +57045,7 @@
 					"AltSkill": {
 						"SkillSlot": "S21",
 						"Name": "Gut Stab [Lævateinn]",
-						"Description": "Laevateinn Skill\nIf target has 4+ (Burn + Bleed), Final Power +1\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict 1 Bind next turn (once per turn)",
+						"Description": "Laevateinn exclusive Skill\nIf target has 4+ (Burn + Bleed), Final Power +1\n[On Use] This Skill gains (highest Reson / 2) Offense Level (max 3; round down)\n[On Use] Gain +5 Aggro to this Skill Slot next turn\n[Before Attack] Gain Burn equal to Skill's Coins\n[Attack End] Lose 5 SP\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<3>[Unbreakable Coin]\n[On Hit] Inflict +1 Burn Count\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Inflict 1 Bind next turn (once per turn)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 2,
@@ -56157,7 +57105,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "Complete and Total Extermination [Lævateinn]",
-						"Description": "Laevateinn Skill\nFinal Power +1 for every (Burn + Bleed) (max 3)\nDeal +1% damage for every (Burn + Bleed) (max 20%)\n[On Use] This Skill gains (highest Reson) Offense Level (max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Pierce damage (max 25%)\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Blunt damage (max 25%)",
+						"Description": "Laevateinn exclusive Skill\nFinal Power +1 for every (Burn + Bleed) (max 3)\nDeal +1% damage for every (Burn + Bleed) (max 20%)\n[On Use] This Skill gains (highest Reson) Offense Level (max 6)\n[On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1\n[Before Attack] Gain Burn equal to this Skill's Coins\n[Attack End] Lose 5 SP\n[Attack End] Consume all The Middle - Grudge\n<1>[Unbreakable Coin]\n[On Hit] Inflict 2 Burn\n<2>[Unbreakable Coin]\n[On Hit] Inflict +2 Burn Count\n<3>[Unbreakable Coin]\n[On Hit] Inflict 2 Bleed\n<4>[Unbreakable Coin]\n[On Hit] Inflict +2 Bleed Count\n<5>[Unbreakable Coin]\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Pierce damage (max 25%)\n[On Hit] Deal (Burn + Bleed)% Coin's final damage Blunt damage (max 25%)",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 3,
@@ -56218,7 +57166,7 @@
 					"CRTSkill": {
 						"SkillSlot": "S33",
 						"Name": "Good Girl. Your Sacrifice for the Family Won't be Forgotten.",
-						"Description": "Laevateinn Skill\n[Unclashable]\n[Target Fixed]\nExternal effects cannot trigger this Skill to be Reused, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
+						"Description": "Laevateinn exclusive Skill\n[Unclashable]\n[Target Fixed]\nExternal effects cannot trigger this Skill to be Reused, does not trigger Defense Skills\nFinal Power +1 for every 4 (Burn + Bleed) on the main target (max 3)\n[On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] (max 3; 100%)\n[On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage\n[Attack End] Consume all The Middle - Grudge, gain 5 The Middle - Grudge\n[Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge\n<1>[Unbreakable Coin]\nIf the target's Blunt Resist is below 'Normal' (1.0), treat it as 'Normal' (1.0)\n[On Hit] Inflict 3 Burn and +2 Burn Count\n[On Hit] Inflict 3 Bleed and +2 Bleed Count\n[On Hit] Deal (100% of this Coin's final damage) Blunt damage",
 						"DamageType": "Blunt",
 						"SinType": "Envy",
 						"BasePower": 16,
@@ -61111,7 +62059,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Heat Haze",
-						"Description": "[Clashable Counter]\nAssist Defense Skill\n[On Use] Gain 5 Light of Daybreak (once per turn)\n[On Use] Gain 2 Protection\n[On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2)\n[On Use] At 20+ Light of Daybreak, or if this unit 'Crack of Dawn' Skill this turn, convert all Coins in this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Tremor",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\n[On Use] Gain 5 Light of Daybreak (once per turn)\n[On Use] Gain 2 Protection\n[On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2)\n[On Use] At 20+ Light of Daybreak, or if this unit 'Crack of Dawn' Skill this turn, convert all Coins in this Skill into Unbreakable Coins\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Tremor",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 4,
@@ -61363,7 +62311,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Heat Haze",
-						"Description": "[Clashable Counter]\nAssist Defense Skill\n[On Use] Gain 5 Light of Daybreak (once per turn)\n[On Use] Gain 2 Protection\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Tremor",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\n[On Use] Gain 5 Light of Daybreak (once per turn)\n[On Use] Gain 2 Protection\n<1>[On Hit] Inflict 1 Burn\n<2>[On Hit] Inflict 1 Tremor",
 						"DamageType": "Slash",
 						"SinType": "Wrath",
 						"BasePower": 4,

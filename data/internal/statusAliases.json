@@ -1448,7 +1448,7 @@
 	{
 		"entry": "the third magic bullet",
 		"aliases": [
-			"attack weight increase",
+			"atk weight increase",
 			"attack power down",
 			"burn potency"
 		]
@@ -1456,7 +1456,7 @@
 	{
 		"entry": "the fourth magic bullet",
 		"aliases": [
-			"attack weight increase",
+			"atk weight increase",
 			"raise stagger threshold",
 			"fragile"
 		]
@@ -1464,7 +1464,7 @@
 	{
 		"entry": "the fifth magic bullet",
 		"aliases": [
-			"attack weight increase",
+			"atk weight increase",
 			"burn potency",
 			"offense level down",
 			"defense level down"
@@ -1473,7 +1473,7 @@
 	{
 		"entry": "the sixth magic bullet",
 		"aliases": [
-			"attack weight increase",
+			"atk weight increase",
 			"burn potency"
 		]
 	},
@@ -3697,6 +3697,106 @@
 			"ally charge count",
 			"ally offense level up",
 			"ally damage amp"
+		]
+	},
+	{
+		"entry": "noble dignity",
+		"aliases": [
+			"bleed damage reduction",
+			"bleed potency",
+			"bleed count",
+			"base power up",
+			"min speed",
+			"max speed",
+			"unrelenting",
+			"ally min speed",
+			"ally max speed",
+			"spend buffet"
+		]
+	},
+	{
+		"entry": "uncontrollable rampage",
+		"aliases": [
+			"offense level up",
+			"min speed",
+			"max speed",
+			"nullify stagger",
+			"bleed damage reduction",
+			"self bleed count",
+			"self bleed potency"
+		]
+	},
+	{
+		"entry": "ally uncontrollable rampage",
+		"aliases": [
+			"ally offense level up",
+			"ally min speed",
+			"ally max speed",
+			"ally nullify stagger",
+			"ally bleed damage reduction",
+			"ally bleed count",
+			"ally bleed potency"
+		]
+	},
+	{
+		"entry": "ally desperate hunger",
+		"aliases": [
+			"ally offense level up",
+			"ally spend charge count",
+			"spend buffet",
+			"ally hp damage"
+		]
+	},
+	{
+		"entry": "crimson cradle",
+		"aliases": [
+			"max hp up",
+			"heal hp"
+		]
+	},
+	{
+		"entry": "ally attending the divine",
+		"aliases": [
+			"ally assist defense"
+		]
+	},
+	{
+		"entry": "l'abject",
+		"aliases": [
+			"unique bleed",
+			"bleed count",
+			"bind"
+		]
+	},
+	{
+		"entry": "buffet",
+		"aliases": [
+			"field effect"
+		]
+	},
+	{
+		"entry": "bloodfeast",
+		"aliases": [
+			"field effect"
+		]
+	},
+	{
+		"entry": "scorchfield",
+		"aliases": [
+			"field effect"
+		]
+	},
+	{
+		"entry": "faction buff: sisyphe",
+		"aliases": [
+			"faction buff"
+		]
+	},
+	{
+		"entry": "mark of the king of needleworks",
+		"aliases": [
+			"bind",
+			"hp damage"
 		]
 	}
 ]

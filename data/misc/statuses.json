@@ -1454,7 +1454,9 @@
 	{
 		"Name": "Bloodfeast",
 		"Description": "Max Value: 999\nStores all Bleed damage dealt in this zone\nResets when moving to a different zone\nThis value is shared by all characters\nIf there is a higher Kindred among the allies who also consume Bloodfeast, this unit cannot consume Bloodfeast until that ally consumes it first.",
-		"EffectTags": []
+		"EffectTags": [
+			"Field Effect"
+		]
 	},
 	{
 		"Name": "Blood-tinged Scissorblades",
@@ -1730,7 +1732,7 @@
 		"Description": "Deal +20% damage\nBefore Attack: Gain +2 Attack Weight\nOn Hit, inflict 2 Attack Power Down and 10 Burn",
 		"EffectTags": [
 			"The Magic Bullet",
-			"Attack Weight Increase",
+			"Atk Weight Increase",
 			"Attack Power Down",
 			"Burn Potency"
 		]
@@ -1740,7 +1742,7 @@
 		"Description": "Deal +30% damage\nBefore Attack: Gain +3 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (max 20); inflict 3 Fragile next turn",
 		"EffectTags": [
 			"The Magic Bullet",
-			"Attack Weight Increase",
+			"Atk Weight Increase",
 			"Raise Stagger Threshold",
 			"Fragile"
 		]
@@ -1750,7 +1752,7 @@
 		"Description": "Deal +30% damage\nBefore Attack: Gain +4 Attack Weight\nOn Hit, inflict 10 Burn; inflict 4 Offense Level Down and 4 Defense Level Down next turn",
 		"EffectTags": [
 			"The Magic Bullet",
-			"Attack Weight Increase",
+			"Atk Weight Increase",
 			"Burn Potency",
 			"Offense Level Down",
 			"Defense Level Down"
@@ -1761,7 +1763,7 @@
 		"Description": "Before Attack: Gain +6 Attack Weight\nOn Hit, raise target's Stagger Threshold by damage dealt (max 30)\nReuse Coin for every 7 Burn on the main target (max 2 times)\nPlus Coin Skill Base Power -16\nPlus Coin Power -8\nMinus Coin Skill Base Power -22\nMinus Coin Power -12",
 		"EffectTags": [
 			"The Magic Bullet",
-			"Attack Weight Increase",
+			"Atk Weight Increase",
 			"Burn Potency"
 		]
 	},
@@ -2669,7 +2671,7 @@
 		"Name": "Lordsguard",
 		"Description": "Unique Assist Defense\nMax Stack: 1\nWhen The Lord of Hongyuan Hong Lu is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; copy and use The Lord of Hongyuan Hong Lu's 'Lordsguard' Skill\nWhen multiple allies have Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\nThis effect counts as Assist Defense, and is counted toward Assist Defense Stacks\nExpires at Turn End",
 		"EffectTags": [
-			"Assist Defense"
+			"Unique Assist Defense"
 		]
 	},
 	{
@@ -4436,7 +4438,7 @@
 	},
 	{
 		"Name": "Lævateinn",
-		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Burn + Bleed), deal (10% of this Coin's final damage) Pierce damage (rounded down)",
+		"Description": "Turn Start: Inflict 3 Burn on all units on the field\nReplace this unit's Base Skills with Laevateinn exclusive Skills corresponding to each Skill's rank\nBlunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\nOn final Coin Hit using Base Skills, if the target has 20+ (Burn + Bleed), deal (10% of this Coin's final damage) Pierce damage (rounded down)",
 		"EffectTags": [
 			"Field Burn Potency",
 			"Skill Change",
@@ -4797,6 +4799,7 @@
 		"Name": "Scorchfield",
 		"Description": "Stores all Burn damage dealt in this zone\nResets when moving to a different zone\nThis value is shared by all characters",
 		"EffectTags": [
+			"Field Effect"
 		]
 	},
 	{
@@ -5271,7 +5274,7 @@
 		]
 	},
 	{
-		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Die Hämmer (Low Morale)",
+		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Les Marteux (Low Morale)",
 		"Description": "Unobservable",
 		"EffectTags": [
 			"Low Morale",
@@ -5279,7 +5282,7 @@
 		]
 	},
 	{
-		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Die Hämmer (Panic)",
+		"Name": "The Obsidian God - The Giant of Le Noir - The Chaplain - Les Marteux (Panic)",
 		"Description": "Unobservable",
 		"EffectTags": [
 			"Panic",
@@ -5332,6 +5335,90 @@
 		"EffectTags": [
 			"Panic",
 			"Panic Type"
+		]
+	},
+	{
+		"Name": "Relentless Hunger",
+		"Description": "Max Stack: 150\nCan gain up to 50 Stacks per turn",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Noble Dignity",
+		"Description": "Gain all of the following effects based on Pulsation Potency on self:\n$ 2+: Take -25% damage from Bleed\n$ 3+: Base Skills inflict +1 more Bleed Potency and Bleed Count\n$ 4+: Base Power +1 for Base Skills\nMin & Max Speed +1\nWhen this unit takes damage that brings its hP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following effects to 'Le Rouge' allied Identities (including this unit):\nMin & Max Speed +1\nIf there is not enough Charge Count to activate the effects of Skills that consume Charge Count, consume 1 Buffet to gain 1 Charge Count for every missing Charge Count required for activation",
+		"EffectTags": [
+			"Bleed Damage Reduction",
+			"Bleed Potency",
+			"Bleed Count",
+			"Base Power Up",
+			"Min Speed",
+			"Max Speed",
+			"Unrelenting",
+			"Ally Min Speed",
+			"Ally Max Speed",
+			"Spend Buffet"
+		]
+	},
+	{
+		"Name": "Uncontrollable Rampage",
+		"Description": "Max Stack: 3\nOffense Level +1 for every Stack (max 3)\nMin & Max Speed +1\nDeal +1% damage for every Bleed on self (max 15%)\nCannot become Staggered (excluding forced Stagger)\nTake -50% damage from Bleed\nCannot be defeated by Bleed damage\nOn Base Attack Skill Use, gain +3 Bleed Count\nOn Base Attack Skill Hit, gain Bleed equal to Uncontrollable Rampage Stack\nTurn End: Lose 1 Stack",
+		"EffectTags": [
+			"Offense Level Up",
+			"Min Speed",
+			"Max Speed",
+			"Nullify Stagger",
+			"Bleed Damage Reduction",
+			"Self Bleed Count",
+			"Self Bleed Potency"
+		]
+	},
+	{
+		"Name": "Desperate Hunger",
+		"Description": "Offense Level +2\nAt Coin Start of a Base Attack Skill used against an enemy, consume 1 Charge Count to deal +5% damage\n$ Skills that inflict Bleed Potency or Bleed Count deal +10% damage instead (including Unique Bleed)\n$ At 1+ Buffet on the field, and if this unit is not at max Charge Count, consume 1 Buffet to gain 1 Charge Count\nIf both Charge Count and Buffet are at 0, consume 1% max HP instead to activate the effect (rounded down; damage dealt by this effect does not Stagger or reduce this unit's HP below 1; activates even at 1 HP)\nTurn End: This effect expires",
+		"EffectTags": [
+			"Offense Level Up",
+			"Spend Charge Count",
+			"Spend Buffet",
+			"Self HP Damage"
+		]
+	},
+	{
+		"Name": "Crimson Cradle",
+		"Description": "When conditions are met by other 'Le Rouge' allies, activate the following effects for Haute Couture::The Crimson God of Le Rouge Sinclair\nThe following effects remain activate even if the corresponding ally is defeated\n**Haute Couture::Boutique du Rouge Ishmael**\nIf Ishmael is in Full Makeover state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up; 5 times per turn)",
+		"EffectTags": [
+			"Max HP Up",
+			"Heal HP"
+		]
+	},
+	{
+		"Name": "Attending the Divine",
+		"Description": "Unique Assist Defense\nMax Stack: 1\nWhen Haute Couture::The Crimson God of Le Rouge Sinclair is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self\n$ Then, copy and use Haute Couture::The Crimson God of Le Rouge Sinclair's 'Le Garde'\nWhen there are multiple allies that have Assist Defense Stacks, the ally that has the highest Stack has the highest activation priority\nThis effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\nTurn End: This effect expires",
+		"EffectTags": [
+			"Unique Assist Defense"
+		]
+	},
+	{
+		"Name": "L'Abject",
+		"Description": "Unique Bleed\nMax Stack: 5\nTake +2% damage from 'Le Rouge' Identities for every Stack (max 10%)\nTurn Start: Gain +1 Bleed Count\nTurn End: Gain (Stack / 2) Bind next turn (rounded down)\nTurn Start: If Haute Couture::The Crimson God of Le Rouge Sinclair is not on the field, this effect expires",
+		"EffectTags": [
+			"Unique Bleed",
+			"Bleed Count",
+			"Bind"
+		]
+	},
+	{
+		"Name": "Buffet",
+		"Description": "Max Value: 999\nThis value is increased by (actual HP healed / 10) whenever allies' or enemies' HP is healed on the field\n$ Max 100 per instance of healing\n$ Rounded up for each instance\n$ Healing from E.G.O Gifts does not count\nThis value is shared by all characters\nResets when moving to a different zone",
+		"EffectTags": [
+			"Field Effect"
+		]
+	},
+	{
+		"Name": "Mark of the King of Needleworks",
+		"Description": "Max Stack: 1\nTake +20% damage from 'Sisyphe' Identities\nTurn End: Gain 1 Bind next turn\nTurn End: Take fixed damage equal to 5% of HP damage (including Shield damage) taken from the Sinners' Skills",
+		"EffectTags": [
+			"Bind",
+			"HP Damage"
 		]
 	}
 ]

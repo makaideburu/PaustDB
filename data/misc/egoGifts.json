@@ -6102,7 +6102,7 @@
         "Id": "A-1-006-205",
         "Name": "WB Flask",
         "Tag": "Bleed",
-        "Abnormality": "None",
+        "Abnormality": "Theme Packs: [La Manchaland Re-opening][The Infinite Procession][The Dream Ending][Who Couldn't be Bloodfiends][Blessed Carnival][The Master of La Manchaland]",
         "Affinity": "Lust",
         "Tier": 2,
         "Cost": 200,
@@ -6195,7 +6195,7 @@
         "Cost": 246,
         "Upgrades": [
             {
-                "Description": "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 2 Defense Level Down (2 times per turn)",
+                "Description": "Enemies in Low Morale or Panic states lose 1 Final Power (against targets without SP, when they have 25+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 2 Defense Level Down next turn (2 times per turn)",
                 "Rank": 1,
                 "EffectTags": [
                     "Final Power Down",
@@ -6203,7 +6203,7 @@
                 ]
             },
             {
-                "Description": "Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 3 Defense Level Down (2 times per turn)",
+                "Description": "Enemies in Low Morale or Panic states lose 2 Final Power (against targets without SP, when they have 15+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 3 Defense Level Down next turn (2 times per turn)",
                 "Rank": 2,
                 "EffectTags": [
                     "Final Power Down",
@@ -6211,7 +6211,7 @@
                 ]
             },
             {
-                "Description": "Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 3 Defense Level Down (3 times per turn)",
+                "Description": "Enemies in Low Morale or Panic states lose 3 Final Power (against targets without SP, when they have 10+ Sinking)\nWhen dealing damage against the affected enemies with Skills that apply Sinking, Sinking Count or Unique Sinking, inflict 3 Defense Level Down next turn (3 times per turn)",
                 "Rank": 3,
                 "EffectTags": [
                     "Final Power Down",
@@ -6220,7 +6220,189 @@
             }
         ],
         "Availability": [
-            "MD6"
+            "MD7"
+        ]
+    },
+    {
+        "Id": "A-1-008-210",
+        "Name": "Out-of-style Rouge Clothing",
+        "Tag": "Keywordless",
+        "Abnormality": "Theme Pack: [Readvent of Gluttony]",
+        "Affinity": "Wrath",
+        "Tier": 3,
+        "Cost": 258,
+        "Upgrades": [
+            {
+                "Description": "When allies heal HP through Base Attack Skills' Skill or Coin effects, heal +50% HP (3 times per turn; rounded down)\n[Haute Couture::Boutique du Rouge Ishmael Exclusive Effect]\nIf Haute Couture::The Crimson God of Le Rouge Sinclair is with this unit or on the field, gain 1 Changing Room at Turn Start and enter Changing Room state (once per Encounter)\n$ If 'In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 Changing Room and enter the Changing Room state (once per Encounter)' from the Passive 'Into the Changing Room...' activated, the exclusive effect does not activate\n$ When the exclusive effect activates, the effect 'In this Encounter, when this unit takes damage that brings its HP down to 0, nullify that damage; then, immediately gain 2 Changing Room and enter the Changing Room state (once per Encounter)' from the Passive 'Into the Changing Room...' does not activate",
+                "Rank": 1,
+                "EffectTags": [
+                    "Heal HP",
+                    "Identity Exclusive Effect"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-211",
+        "Name": "Soda Pop",
+        "Tag": "Keywordless",
+        "Abnormality": "Theme Pack: [Readvent of Gluttony]",
+        "Affinity": "Sloth",
+        "Tier": 2,
+        "Cost": 201,
+        "Upgrades": [
+            {
+                "Description": "Sinners who attempt to heal HP on self this turn using Skill or Coin effects gain the following effects next turn:\nSkills deal +10% damage\nGain Offense Level Up equal to (sum of HP healed during the turn (excluding excess healing) / 10) (max 6; rounded down)\nIf there are other Identities on the field that are in the same faction as the units that activated the above effect, they gain half of the Offense Level Up the above units gained (min 1, max 3 per turn; rounded down)",
+                "Rank": 1,
+                "EffectTags": [
+                    "Damage Amp",
+                    "Offense Level Up"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-212",
+        "Name": "Maison du Noir Slacks",
+        "Tag": "Tremor",
+        "Abnormality": "Theme Pack: [Creed of Preservation]",
+        "Affinity": "Envy",
+        "Tier": 3,
+        "Cost": 258,
+        "Upgrades": [
+            {
+                "Description": "When allies that have 2+ Charge Potency trigger Tremor Burst, apply the following effects:\n$ Deal (Charge Potency on self x Charge Count) Envy damage (2 times per skill, max 100 damage per tick)\n$ Every 2 times the above effect deals Envy damage, inflict 3 Bind next turn on target\nEvery time an ally triggers Tremor Burst using a Skill, gain (Charge Potency on self / 3) Offense Level Up next turn (max 5 per turn; rounded down)",
+                "Rank": 1,
+                "EffectTags": [
+                    "HP Damage",
+                    "Bind",
+                    "Offense Level Up"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-213",
+        "Name": "Le Noir Mary Janes",
+        "Tag": "Charge",
+        "Abnormality": "Theme Pack: [Creed of Preservation]",
+        "Affinity": "Sloth",
+        "Tier": 3,
+        "Cost": 254,
+        "Upgrades": [
+            {
+                "Description": "Combat Start: On Hit from an Identity that has the highest Shield, deal (current Shield / 2) Sloth damage (2 times per Skill, max 100 damage per tick; rounded down)\n$ If 2+ Identities have the same Shield HP, applies to the Identity with the earlier Deployment Order\nIf the affected Identity is a Charge identity, deal Sloth Damage equal to current Shield instead (3 times per Skill, max 100 per tick; rounded down)",
+                "Rank": 1,
+                "EffectTags": [
+                    "HP Damage"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-214",
+        "Name": "Blanket",
+        "Tag": "Charge",
+        "Abnormality": "Theme Pack: [Storefront Campout]",
+        "Affinity": "Sloth",
+        "Tier": 2,
+        "Cost": 199,
+        "Upgrades": [
+            {
+                "Description": "Identities that equipped Defense Skills this turn take -20% damage from enemy attacks\n$ Combat End: If the affected Identity is a Charge Identity, gain 2 Offense Level Up next turn\n$ Combat End: If the affected Identity is a 'Sisyphe' Identity, gain 1 Power Up next turn",
+                "Rank": 1,
+                "EffectTags": [
+                    "Damage Reduction",
+                    "Faction Buff: Sisyphe",
+                    "Offense Level Up",
+                    "Power Up"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-215",
+        "Name": "Blossom Scissors",
+        "Tag": "Charge",
+        "Abnormality": "Theme Pack: [Storefront Campout]",
+        "Affinity": "Envy",
+        "Tier": 2,
+        "Cost": 204,
+        "Upgrades": [
+            {
+                "Description": "[Effects apply only to #1 Deployed Identity]\n'Sisyphe' or Charge Identity: On Base Skill final Coin Hit, deal Slash damage equal to 5% of the said Coin's final damage on the main target (once per Skill)",
+                "Rank": 1,
+                "EffectTags": [
+                    "Faction Buff: Sisyphe",
+                    "HP Damage"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
+        "Id": "A-1-008-216",
+        "Name": "Straight Pin of the King of Needleworks",
+        "Tag": "Charge",
+        "Abnormality": "Theme Pack: [An Anarchy of Colors]",
+        "Affinity": "Lust",
+        "Tier": 3,
+        "Cost": 249,
+        "Upgrades": [
+            {
+                "Description": "Turn Start: If no enemies have Mark of the King of Needleworks, inflict Mark of the King of Needleworks on a random enemy (in Focused Encounters, a Part)",
+                "Rank": 1,
+                "EffectTags": [
+                    "Mark of the King of Needleworks"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ],
+        "UniqueStatuses":[
+            "Mark of the King of Needleworks"
+        ]
+    },
+    {
+        "Id": "A-1-008-217",
+        "Name": "Cartilage",
+        "Tag": "Charge",
+        "Abnormality": "Theme Pack: [An Anarchy of Colors]",
+        "Affinity": "Envy",
+        "Tier": 3,
+        "Cost": 256,
+        "Upgrades": [
+            {
+                "Description": "Skills that consume Charge Count or Unique Charge deal +(Charge Potency on self x 2)% damage (max 10%)\nTurn End: Units that consumed Charge Count or Unique Charge this turn gain 1 Haste next turn\nIf a unit's Speed is faster than the target's, Clash Power +1\n$ If the said unit is a 'Sisyphe' Identity, gain Final Power +1 instead",
+                "Rank": 1,
+                "EffectTags": [
+                    "Damage Amp",
+                    "Haste",
+                    "Clash Power",
+                    "Final Power"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
         ]
     },
     {
@@ -9179,7 +9361,7 @@
     {
         "Id": "C-1-090-04",
         "Name": "Universal Skeleton",
-        "Tag": "Keywordless",
+        "Tag": "Bleed",
         "Abnormality": "Theme Pack: [Twining Threads]",
         "Affinity": "Lust",
         "Tier": 2,
@@ -9223,7 +9405,7 @@
     {
         "Id": "C-1-090-06",
         "Name": "Universal Instinct",
-        "Tag": "Keywordless",
+        "Tag": "Bleed",
         "Abnormality": "Theme Pack: [Twining Threads]",
         "Affinity": "Lust",
         "Tier": 2,
@@ -11311,7 +11493,7 @@
         "Cost": 403,
         "Upgrades": [
             {
-                "Description": "Max Burn Potency +11\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
+                "Description": "Max Burn Potency +11\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage due to Burn activation, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 1,
                 "EffectTags": [
                     "Burn Potency Limit Increase",
@@ -11319,7 +11501,7 @@
                 ]
             },
             {
-                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
+                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage due to Burn activation, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 2,
                 "EffectTags": [
                     "Burn Potency Limit Increase",
@@ -11327,7 +11509,7 @@
                 ]
             },
             {
-                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
+                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage due to Burn activation, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
                 "Rank": 3,
                 "EffectTags": [
                     "Burn Potency Limit Increase",
