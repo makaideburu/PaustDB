@@ -193,7 +193,11 @@
 		"HelpDescription": "Faust is currently in development. If you're curious, here is what has changed recently.",
 		"HelpItems": [
 			[
-				"3.4.6 (2026-10-`1`)",
+				"3.4.6.1 (2026-10-26)",
+				"```fix for empty effect tags```"
+			],
+			[
+				"3.4.6 (2026-10-???)",
 				"```drop down shows skill 3-2 and such and whatever```"
 			],
 			[

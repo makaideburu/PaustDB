@@ -3798,5 +3798,79 @@
 			"bind",
 			"hp damage"
 		]
+	},
+	{
+		"entry": "le noir: worsted overcoat",
+		"aliases": [
+			"offense level up",
+			"defense level up",
+			"shield"
+		]
+	},
+	{
+		"entry": "ready to narrate",
+		"aliases": [
+			"protection"
+		]
+	},
+	{
+		"entry": "time to listen",
+		"aliases": [
+			"base power up",
+			"ally heal sp",
+			"ally sp damage",
+			"ally sloth dmg up",
+			"ally base power up"
+		]
+	},
+	{
+		"entry": "auditive punishment",
+		"aliases": [
+			"offense level down"
+		]
+	},
+	{
+		"entry": "naildle",
+		"aliases": [
+			"unique bleed",
+			"bleed potency",
+			"l'abject"
+		]
+	},
+	{
+		"entry": "taxidermied",
+		"aliases": [
+			"final power down",
+			"activate bleed",
+			"spend enemy bleed count",
+			"bleed count",
+			"power down",
+			"bind"
+		]
+	},
+	{
+		"entry": "needlekin",
+		"aliases": [
+			"offense level up"
+		]
+	},
+	{
+		"entry": "tiny and sharp nails",
+		"aliases": [
+		]
+	},
+	{
+		"entry": "cry of the cocoon - frail",
+		"aliases": [
+			"final power up",
+			"heal hp"
+		]
+	},
+	{
+		"entry": "cry of the cocoon - vicious",
+		"aliases": [
+			"final power up",
+			"heal hp"
+		]
 	}
 ]

@@ -6351,6 +6351,22 @@
                     "Faction Buff: Sisyphe",
                     "HP Damage"
                 ]
+            },
+            {
+                "Description": "[Effects apply only to #1 Deployed Identity]\n'Sisyphe' or Charge Identity: On Base Skill final Coin Hit, deal Slash damage equal to 10% of the said Coin's final damage on the main target (once per Skill)",
+                "Rank": 2,
+                "EffectTags": [
+                    "Faction Buff: Sisyphe",
+                    "HP Damage"
+                ]
+            },
+            {
+                "Description": "[Effects apply only to #1 Deployed Identity]\n'Sisyphe' or Charge Identity: On Base Skill final Coin Hit, deal Slash damage equal to 15% of the said Coin's final damage on the main target (once per Skill)",
+                "Rank": 2,
+                "EffectTags": [
+                    "Faction Buff: Sisyphe",
+                    "HP Damage"
+                ]
             }
         ],
         "Availability": [
@@ -11509,7 +11525,7 @@
                 ]
             },
             {
-                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage due to Burn activation, deal Wrath damage equal to Burn Potency\nSkills that inflict Burn, Burn Count, or Unique Burn deal +20% damage",
+                "Description": "Max Burn Potency +21\nTriple the first Burn Potency to be inflicted in this Encounter (once per Encounter)\nWhen an enemy takes Burn damage due to Burn activation, deal Wrath damage equal to (Burn Potency x 1.5)\nSkills that inflict Burn, Burn Count, or Unique Burn deal +30% damage",
                 "Rank": 3,
                 "EffectTags": [
                     "Burn Potency Limit Increase",

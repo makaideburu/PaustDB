@@ -5345,7 +5345,7 @@
 	},
 	{
 		"Name": "Noble Dignity",
-		"Description": "Gain all of the following effects based on Pulsation Potency on self:\n$ 2+: Take -25% damage from Bleed\n$ 3+: Base Skills inflict +1 more Bleed Potency and Bleed Count\n$ 4+: Base Power +1 for Base Skills\nMin & Max Speed +1\nWhen this unit takes damage that brings its hP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following effects to 'Le Rouge' allied Identities (including this unit):\nMin & Max Speed +1\nIf there is not enough Charge Count to activate the effects of Skills that consume Charge Count, consume 1 Buffet to gain 1 Charge Count for every missing Charge Count required for activation",
+		"Description": "Gain all of the following effects based on Pulsation Potency on self:\n$ 2+: Take -25% damage from Bleed\n$ 3+: Base Skills inflict +1 more Bleed Potency and Bleed Count\n$ 4+: Base Power +1 for Base Skills\nMin & Max Speed +1\nWhen this unit takes damage that brings its HP down to 0, this unit's HP does not drop below 1 for the turn\nApply the following effects to 'Le Rouge' allied Identities (including this unit):\nMin & Max Speed +1\nIf there is not enough Charge Count to activate the effects of Skills that consume Charge Count, consume 1 Buffet to gain 1 Charge Count for every missing Charge Count required for activation",
 		"EffectTags": [
 			"Bleed Damage Reduction",
 			"Bleed Potency",
@@ -5384,7 +5384,7 @@
 	},
 	{
 		"Name": "Crimson Cradle",
-		"Description": "When conditions are met by other 'Le Rouge' allies, activate the following effects for Haute Couture::The Crimson God of Le Rouge Sinclair\nThe following effects remain activate even if the corresponding ally is defeated\n**Haute Couture::Boutique du Rouge Ishmael**\nIf Ishmael is in Full Makeover state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up; 5 times per turn)",
+		"Description": "When conditions are met by other 'Le Rouge' allies, activate the following effects for Haute Couture::The Crimson God of Le Rouge Sinclair\nThe following effects remain activate even if the corresponding ally is defeated\n**Haute Couture::Boutique du Rouge Ishmael**\n$ If Ishmael is in Full Makeover state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up; 5 times per turn)\n**Haute Couture::Le Rouge King of Needleworks Heathcliff**\n$ On Hit using the 'La Demande' Skill's Coins, gain +1 Pulsation Count and heal 5% HP",
 		"EffectTags": [
 			"Max HP Up",
 			"Heal HP"
@@ -5415,10 +5415,94 @@
 	},
 	{
 		"Name": "Mark of the King of Needleworks",
-		"Description": "Max Stack: 1\nTake +20% damage from 'Sisyphe' Identities\nTurn End: Gain 1 Bind next turn\nTurn End: Take fixed damage equal to 5% of HP damage (including Shield damage) taken from the Sinners' Skills",
+		"Description": "Max Stack: 1\nTake +20% damage from 'Sisyphe' Identities\nTurn End: Gain 1 Bind next turn\nTurn End: Take fixed damage equal to 5% of HP damage (including Shield damage) taken from the Sinners' Skills\nOn death, deal fixed damage equal to 10% of this unit's max HP on 1 random ally (in Focused Encounters, a Part)",
 		"EffectTags": [
 			"Bind",
 			"HP Damage"
+		]
+	},
+	{
+		"Name": "Le Noir: Worsted Overcoat",
+		"Description": "Max Stack: 15\nOffense Level +1, Defense Level +1 for every 5 Stack\nWhen hit while this unit has Shield, gain 1 Stack (5 Stacks per turn)\nTurn End: Next turn, gain (Stack x 5) Shield and lose 1 Stack",
+		"EffectTags": [
+			"Offense Level Up",
+			"Defense Level Up",
+			"Shield"
+		]
+	},
+	{
+		"Name": "Ready to Narrate",
+		"Description": "Max Stack: 2\nTurn End: Gain (Stack) Protection next turn\nTurn End: At max Stack, consume all Stacks to gain 2 Time to Listen next turn\nCan gain up to 1 Stack per turn\nIf this unit has Time to Listen, it cannot gain Ready to Narrate",
+		"EffectTags": [
+			"Protection"
+		]
+	},
+	{
+		"Name": "Time to Listen",
+		"Description": "Max Stack: 2\nBase Skill Base Power +1\nCombat Start (once per turn per Sinner):\n$ Identities that equipped Plus Coin Skills in their leftmost Slots heal 4 SP\n$ Identities that equipped Minus Coin Skills in their leftmost Slots lose 4 SP (this effect cannot reduce the unit's SP below 40)\nCombat Start: Apply 1 Sloth DMG Up on the following Identities (once per turn per Sinner):\n$ Identities that equipped Plus Coin Skills and have 40 or higher SP; Le Noir Identities additionally gain 1 Base Power Up\n$ Identities that equipped Minus Coin Skills and have -40 or lower SP; Le Noir Identities additionally gain 1 Base Power Up\nTurn End: Lose 1 Stack",
+		"EffectTags": [
+			"Base Power Up",
+			"Ally Heal SP",
+			"Ally SP Damage",
+			"Ally Sloth DMG Up",
+			"Ally Base Power Up"
+		]
+	},
+	{
+		"Name": "Auditive Punishment",
+		"Description": "Max Stack: 2\nLose Offense Level equal to Stack\nIf there is an Identity that has Time to Listen, take +(Stack x 10)% damage from 'Le Noir' Identities\nTurn End: If there is an Identity that has Time to Listen, lose 1 Stack (if the Identity that inflicted this effect has been defeated or Retreated, expires)",
+		"EffectTags": [
+			"Offense Level Down"
+		]
+	},
+	{
+		"Name": "Naildle",
+		"Description": "Unique Bleed\nMax Stack: 10\nTurn End: 1 Lose Stack\nWhen losing this effect's Stack, gain 1 Bleed Potency and take 3 Lust damage for every Stack lost\nTurn End: If enemy Haute Couture::The Crimson God of Le Rouge Sinclair is on the field and this unit has this effect, this unit gains 1 L'Abject",
+		"EffectTags": [
+			"Unique Bleed",
+			"Bleed Potency",
+			"L'Abject"
+		]
+	},
+	{
+		"Name": "Taxidermied",
+		"Description": "Skill Final Power -1\nOn Attack Skill Use, Activate Bleed on self and lose 1 Bleed Count (once per Skill)\nTurn End: Gain +2 Bleed Count, 1 Power Down, and 2 Bind next turn\nTurn End: This effect expires",
+		"EffectTags": [
+			"Final Power Down",
+			"Activate Bleed",
+			"Spend Enemy Bleed Count",
+			"Bleed Count",
+			"Power Down",
+			"Bind"
+		]
+	},
+	{
+		"Name": "Needlekin",
+		"Description": "Max Stack: 3\nOffense Level +1 for every Stack",
+		"EffectTags": [
+			"Offense Level Up"
+		]
+	},
+	{
+		"Name": "Tiny and Sharp Nails",
+		"Description": "Max Stack: 30",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Cry of the Cocoon - Frail",
+		"Description": "Max Stack: 5\nBase Skill Final Power +1\nOn Hit using Base Skills, heal 3% HP (5 times per turn)\nTurn Start: If allied Haute Couture::The Crimson God of Le Rouge Sinclair is not on the field, this effect expires",
+		"EffectTags": [
+			"Final Power Up",
+			"Heal HP"
+		]
+	},
+	{
+		"Name": "Cry of the Cocoon - Vicious",
+		"Description": "Max Stack: 1\nBase Skill Final Power +1\nDeal +10% damage using Base Skills\nOn Hit using Base Skills, heal 6% HP (5 times per turn)\nTurn Start: If allied Haute Couture::The Crimson God of Le Rouge Sinclair is not on the field, this effect expires",
+		"EffectTags": [
+			"Final Power Up",
+			"Heal HP"
 		]
 	}
 ]

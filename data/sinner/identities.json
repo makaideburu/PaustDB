@@ -29156,7 +29156,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "I Carve the Path of a Lord",
-						"Description": "[On Use] If this unit activated combo with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\nDeal +1% damage for every 1% (missing HP% on target + self) (max 50%)\n[On Use] Coin Power +1 for every 6 (Rupture on target + Poise on self) (max 3)\n[On Use] Deal +10% damage for every 2 negative effects on target (max 30%)\n[On Use] Deal +10% damage for every Heishou Bolus Contamination [黑獸丸染]\n[After Attack] Gain Heishou Bolus Contamination [黑獸丸染] for the depending on which Heishou Pack Identity activated Exalted Command\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 1 Slash Resist Down next turn (once per turn)\n[On Kill] For 2 Heishou Pack Identities with the least SP, heal 10 SP and apply 1 Attack Power Up next turn",
+						"Description": "[On Use] If this unit activated combo with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\nDeal +1% damage for every 1% (missing HP% on target + self) (max 50%)\n[On Use] Coin Power +1 for every 6 (Rupture on target + Poise on self) (max 3)\n[On Use] Deal +10% damage for every 2 negative effects on target (max 30%)\n[On Use] Deal +10% damage for every Heishou Bolus Contamination [黑獸丸染]\n[After Attack] Gain Heishou Bolus Contamination [黑獸丸染] depending on which Heishou Pack Identity activated Exalted Command\n<1>[On Hit] Inflict +1 Rupture Count\n<2>Deal +50% damage on Critical Hit\n[On Hit] Inflict 2 Rupture\n[On Hit] Inflict 1 Slash Resist Down next turn (once per turn)\n[On Kill] For 2 Heishou Pack Identities with the least SP, heal 10 SP and apply 1 Attack Power Up next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
 						"BasePower": 6,
@@ -29390,7 +29390,7 @@
 					"AltSkill": {
 						"SkillSlot": "S31",
 						"Name": "I Carve the Path of a Lord",
-						"Description": "[On Use] If this unit activated combo with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\n[On Use] At 6+ (Rupture on target + Poise on self), Coin Power +1\n[On Use] Deal +5% damage for every Heishou Bolus Contamination [黑獸丸染]\n[After Attack] Gain Heishou Bolus Contamination [黑獸丸染] for the depending on which Heishou Pack Identity activated Exalted Command\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n[On Kill] For 2 Heishou Pack Identities with the least SP, heal 10 SP and apply 1 Attack Power Up next turn",
+						"Description": "[On Use] If this unit activated combo with a Heishou Pack Adept Identity, Base Power +1, Coin Power +1\n[On Use] At 6+ (Rupture on target + Poise on self), Coin Power +1\n[On Use] Deal +5% damage for every Heishou Bolus Contamination [黑獸丸染]\n[After Attack] Gain Heishou Bolus Contamination [黑獸丸染] depending on which Heishou Pack Identity activated Exalted Command\n<1>[On Hit] Inflict +1 Rupture Count\n<2>[On Hit] Inflict 2 Rupture\n[On Kill] For 2 Heishou Pack Identities with the least SP, heal 10 SP and apply 1 Attack Power Up next turn",
 						"DamageType": "Slash",
 						"SinType": "Pride",
 						"BasePower": 6,
@@ -30857,6 +30857,408 @@
 						"Bind",
 						"Burn Count",
 						"Burn Potency"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 6311,
+		"Sinner": "Hong Lu",
+		"Identity": "Haute Couture::Le Noir 3F Public Address Room",
+		"DWorld": "???",
+		"Season": 8,
+		"Traits": [
+			"Le Noir",
+			"Sisyphe"
+		],
+		"Speed": [ 4, 6 ],
+		"BaseHP": 95,
+		"GrowthHP": 3.14,
+		"StaggerThresholds": [ 45 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 2,
+			"Blunt": 0.5
+		},
+		"UniqueStatuses":[
+			"Preservation",
+			"Le Noir: Worsted Overcoat",
+			"Ready to Narrate",
+			"",
+			"Time to Listen",
+			"Auditive Punishment"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Please Listen to Me",
+					"Description": "Deal +5% damage for every 2 Preservation Potency on self (max 10%)\n[On Use] Consume 3 Preservation Count to gain Coin Power +1 (max 2 times)\n[Skill End] At fewer than 10 Preservation Count, gain +3 Preservation Count\n<1>[On Hit] Gain +4 Preservation Count\n<2>[On Hit] Inflict 3 Tremor",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Spend Preservation Count",
+						"Preservation Count",
+						"Tremor Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Repeat on Repeat",
+					"Description": "Deal +10% damage for every 2 Preservation Potency on self (max 20%)\n[On Use] Consume 3 Preservation Count to gain Coin Power +1 (max 2 times)\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +5 Preservation Count\n<2>If this unit has Time to Listen, Reuse this Coin once (once per Skill)\n[On Hit] Inflict 1 Auditive Punishment\n[Reuse - On Hit] Deal 3 SP damage\n[Reuse - On Hit] Inflict 1 Sloth Resist Down this turn and next turn (once per turn)",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 1,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Spend Preservation Count",
+						"Tremor Count",
+						"Preservation Count",
+						"Auditive Punishment",
+						"SP Damage",
+						"Sloth Resist Down"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Horribly Infinite Replay",
+					"Description": "Deal +10% damage for every 2 Preservation Potency on self (max 30%)\n[On Use] Gain (Preservation Potency on self x 3) Le Noir: Worsted Overcoat (max 15 per Skill)\n[On Use] Consume 5 Preservation Count to gain Coin Power +1 (max 3 times)\n[Attack End] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>If this unit has Time to Listen, Reuse this Coin once (once per Skill)\n[On Hit] At 2+ Preservation Potency, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Inflict 1 Auditive Punishment\n[Reuse - On Hit] Deal 5 SP damage\n[Reuse - On Hit] Deal Sloth damage equal to 30% of this Coin's final damage",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 3,
+					"CoinCountModifier": 1,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Le Noir: Worsted Overcoat",
+						"Spend Preservation Count",
+						"Ready to Narrate",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Auditive Punishment",
+						"SP Damage"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Customer Announcement",
+					"Description": "[Clashable Counter]\nDeal +25% damage for every 2 Preservation Potency on self (max 75%)\n[Combat Start] If this unit does not have Assist Defense, gain 1 Assist Defense\n[Before Use] If this unit has Time to Listen, activate 'Horribly Infinite Replay' instead (once per Encounter)\n[On Use] Coin Power +1 for every 3 Preservation Potency on self (max 2)\n[On Use] Gain (Preservation Potency on self x 3) Le Noir: Worsted Overcoat (max 15 per Skill)\n[On Use] Gain +4 Preservation Count\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 1 Tremor",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 5,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Clashable Counter",
+						"Assist Defense",
+						"Skill Change",
+						"Le Noir: Worsted Overcoat",
+						"Preservation Count",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Warning Announcement",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\nFinal Power +1 for every 2 Preservation Potency on self (max 3)\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +4 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"DamageType": "Defend",
+						"SinType": "Sloth",
+						"BasePower": 4,
+						"CoinPower": 10,
+						"CoinCount": 1,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 3,
+						"ClashPowerModifier": 5,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Guard",
+							"Assist Defense Skill",
+							"Assist Defense",
+							"Ready to Narrate",
+							"Preservation Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "You Should Listen, You Know?",
+						"Description": "Gain 1 Preservation Potency every time this unit consumes 10 cumulative Preservation Count in this Encounter\nCan gain up to 1 Ready to Narrate per turn\n$ If this unit has Time to Listen, this unit cannot gain Ready to Narrate\nTurn End: At 2 Ready to Narrate, consume all Stacks and apply the following effects next turn:\n$ Gain 2 Time to Listen\n$ Inflict 2 Auditive Punishment on all enemies on the field (once per turn; in Focused Encounters, all Parts)\n$ Reset the activation limit on the 'Before Use' effect on the 'Customer Announcement' Skill",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Preservation Potency",
+							"Spend Ready to Narrate",
+							"Time to Listen",
+							"Auditive Punishment"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Le Noir: Worsted",
+					"Description": "Defense Skill Clash Power +1 equal to Preservation Potency on self (max 5)\nAt 8+ Le Noir: Worsted Overcoat, after this unit consumes Preservation Count using the 'Warning Announcement' Skill, gain +(Preservation Count consumed by said Skill) Preservation Count at Skill End (once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Preservation Count"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Tuck Them Under a Blanket",
+					"Description": "The first Identity to use an Assist Defense exclusive Skill in a turn gains 1 Protection on said Skill Use (once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Protection"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Please Listen to Me",
+					"Description": "[On Use] Consume 3 Preservation Count to gain Coin Power +1 (max 2 times)\n<1>[On Hit] Gain +3 Preservation Count\n<2>[On Hit] Inflict 2 Tremor",
+					"DamageType": "Blunt",
+					"SinType": "Gloom",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Spend Preservation Count",
+						"Preservation Count",
+						"Tremor Potency"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Repeat on Repeat",
+					"Description": "[On Use] Consume 3 Preservation Count to gain Coin Power +1 (max 2 times)\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +4 Preservation Count\n<2>If this unit has Time to Listen, Reuse this Coin once (once per Skill)\n[On Hit] Inflict 1 Auditive Punishment\n[Reuse - On Hit] Deal 3 SP damage\n[Reuse - On Hit] Inflict 1 Sloth Resist Down this turn and next turn (once per turn)",
+					"DamageType": "Blunt",
+					"SinType": "Envy",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 1,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Spend Preservation Count",
+						"Tremor Count",
+						"Preservation Count",
+						"Auditive Punishment",
+						"SP Damage",
+						"Sloth Resist Down"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Horribly Infinite Replay",
+					"Description": "Deal +10% damage for every 2 Preservation Potency on self (max 30%)\n[On Use] Gain (Preservation Potency on self x 2) Le Noir: Worsted Overcoat (max 10 per Skill)\n[On Use] Consume 5 Preservation Count to gain Coin Power +1 (max 3 times)\n[Attack End] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n<1>[On Hit] Inflict 3 Tremor\n<2>[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>If this unit has Time to Listen, Reuse this Coin once (once per Skill)\n[On Hit] Inflict 1 Auditive Punishment\n[Reuse - On Hit] Deal 5 SP damage\n[Reuse - On Hit] Deal Sloth damage equal to 20% of this Coin's final damage",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 3,
+					"CoinCountModifier": 1,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Le Noir: Worsted Overcoat",
+						"Spend Preservation Count",
+						"Ready to Narrate",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Auditive Punishment",
+						"SP Damage"
+					]
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Customer Announcement",
+					"Description": "[Clashable Counter]\n[Combat Start] If this unit does not have Assist Defense, gain 1 Assist Defense\n[On Use] Gain Le Noir: Worsted Overcoat equal to Preservation Potency on self (max 5 per Skill)\n[On Use] Gain +2 Preservation Count\n<1>[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Tremor",
+					"DamageType": "Blunt",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 5,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"BasePowerModifierStatuses": 2,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Clashable Counter",
+						"Assist Defense",
+						"Le Noir: Worsted Overcoat",
+						"Preservation Count",
+						"Tremor Potency"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Warning Announcement",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +2 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"DamageType": "Defend",
+						"SinType": "None",
+						"BasePower": 4,
+						"CoinPower": 8,
+						"CoinCount": 1,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 5,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"BasePowerModifierStatuses": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Guard",
+							"Assist Defense Skill",
+							"Assist Defense",
+							"Ready to Narrate",
+							"Preservation Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "You Should Listen, You Know?",
+						"Description": "Gain 1 Preservation Potency every time this unit consumes 10 cumulative Preservation Count in this Encounter\nCan gain up to 1 Ready to Narrate per turn\n$ If this unit has Time to Listen, this unit cannot gain Ready to Narrate\nTurn End: At 2 Ready to Narrate, consume all Stacks and apply the following effects next turn:\n$ Gain 2 Time to Listen\n$ Inflict 2 Auditive Punishment on all enemies on the field (once per turn; in Focused Encounters, all Parts)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Preservation Potency",
+							"Spend Ready to Narrate",
+							"Time to Listen",
+							"Auditive Punishment"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Le Noir: Worsted",
+					"Description": "Defense Skill Clash Power +1 equal to Preservation Potency on self (max 5)\nAt 8+ Le Noir: Worsted Overcoat, after this unit consumes Preservation Count using the 'Warning Announcement' Skill, gain +(Preservation Count consumed by said Skill) Preservation Count at Skill End (once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Envy",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Preservation Count"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Tuck Them Under a Blanket",
+					"Description": "The first Identity to use an Assist Defense exclusive Skill in a turn gains 1 Protection on said Skill Use (once per turn)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Protection"
 					]
 				}
 			}
@@ -36055,6 +36457,428 @@
 					"EffectTags": [
 						"Burn Count",
 						"Tremor Count"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 7312,
+		"Sinner": "Heathcliff",
+		"Identity": "Haute Couture::Le Rouge King of Needleworks",
+		"DWorld": "???",
+		"Season": 8,
+		"Traits": [
+			"Le Rouge",
+			"Sisyphe"
+		],
+		"Speed": [ 3, 7 ],
+		"BaseHP": 72,
+		"GrowthHP": 3.2,
+		"StaggerThresholds": [ 50, 30 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 2,
+			"Pierce": 0.5,
+			"Blunt": 1
+		},
+		"UniqueStatuses":[
+			"Pulsation",
+			"Naildle",
+			"Taxidermied",
+			"Needlekin",
+			"Tiny and Sharp Nails",
+			"Cry of the Cocoon - Frail",
+			"Cry of the Cocoon - Vicious"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
+					"Description": "Final Power +1 for every 2 Pulsation Potency on self (max 2)\n[On Use] At fewer than 5 Pulsation Count, consume (2 x (5 - Pulsation Count))% HP to raise Pulsation Count to 5\n[On Use] If target has 6+ Bleed, Coin Power +1\n<1>[On Hit] Gain +4 Pulsation Count\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<2>[On Hit] Inflict +3 Bleed Count\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<3>[On Hit] Inflict Naildle equal to Needlekin on self\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)",
+					"DamageType": "Pierce",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count",
+						"Bleed Count",
+						"Naildle"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Stitch! Per! Inch!",
+					"Description": "Final Power +1 for every 2 Pulsation Potency on self (max 2)\n[On Use] At fewer than 10 Pulsation Count, consume (2 x (10 - Pulsation Count))% HP to raise Pulsation Count to 10\n[On Use] Consume 7 Pulsation Count on self to gain Final Power +2\n[On Use] If target has 6+ Bleed, Coin Power +1\n<1>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<2>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<3>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<4>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict Naildle on target equal to Needlekin Stack on self\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 4,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count",
+						"Spend Pulsation Count",
+						"Bleed Potency",
+						"Naildle"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Pick stitch too obvious, you say?! I'll pick-stitch your bum!",
+					"Description": "Final Power +1 for every 2 Pulsation Potency on self (max 2)\n[On Use] Atk Weight +1 for every 15 Tiny and Sharp Nails on self (max 2)\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Parts)\n[On Use] Consume up to 20 Pulsation Count on self to apply the following effects:\n$ Coin Power +1 for every 7 Pulsation Count consumed (max 2)\n$ Deal +2% damage using this Skill for every Pulsation Count consumed\n[Attack End] Consume Tiny and Sharp Nails on self equal to (Atk Weight gained from Tiny and Sharp Nails x 15)\n<1>[On Hit] Gain +3 Pulsation Count (once per Skill)\n[On Hit] Inflict 1 Bleed\n<2>[On Hit] Gain +3 Pulsation Count (once per Skill)\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 3 Naildle\n[On Hit] Inflict 1 Pierce Fragility next turn\n[On Hit] If target has 5+ Naildle, consume 5 Naildle on target to inflict Taxidermied on the said target next turn (counted per target)",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 5,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Atk Weight Increase",
+						"Spend Pulsation Count",
+						"Spend Tiny and Sharp Nails",
+						"Pulsation Count",
+						"Bleed Potency",
+						"Naildle",
+						"Pierce Fragility",
+						"Taxidermied"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Double stitching past the side seam? Double-needle! Rejected!",
+						"Description": "Unfocused Volley\nOn Hit using this Skill, heal 8% HP\n[On Use] Consume all Needlekin on self to apply 1 Pierce DMG Up on self and other 2 random allies next turn\n$ Prioritizes 'Le Rouge' Identities (in Deployment Order)\n<1>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle\n<2>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle\n<3>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 12,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Unfocused Volley",
+							"Heal HP",
+							"Spend Needlekin",
+							"Pierce DMG Up",
+							"Ally Pierce DMG Up",
+							"Pulsation Count",
+							"Naildle"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Gnnnngh...",
+					"Description": "[Clashable Counter]\n[Combat Start] Consume 20% HP on self to gain 2 Attack Power Up and +5 Pulsation Count next turn (once per turn)\n[On Use] Final Power +1 for every 2 Pulsation Potency on self (max 2)\n<1>[On Hit] Inflict 2 Naildle",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 7,
+					"CoinPower": 8,
+					"CoinCount": 1,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Clashable Counter",
+						"Self HP Damage",
+						"Attack Power Up",
+						"Pulsation Count",
+						"Naildle"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Customer Complaints Haunting the Ears",
+						"Description": "Gain 1 Pulsation Potency for every 10 Pulsation Count this unit consumes in this Encounter\nTurn Start: If Haute Couture::The Crimson God of Le Rouge Sinclair is on the field, gain 1 Cry of the Cocoon - Frail\nTurn Start: At max Cry of the Cocoon - Frail Stack, or if allied Haute Couture::The Crimson God of Le Rouge Sinclair has Noble Dignity, convert Cry of the Cocoon - Frail into Cry of the Cocoon - Vicious; then, allied Haute Couture::The Crimson God of Le Rouge Sinclair gains the following effects:\n$ Gain 1 Crimson Cradle\n$ On Hit using the 'La Demande' Skill's Coins, gain +1 Pulsation Count and heal 5% HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Potency",
+							"Cry of the Cocoon - Frail",
+							"Cry of the Cocoon - Vicious"
+						]
+					},
+					{
+						"Name": "Handmade / Hand-stitching, I said!!",
+						"Description": "Every time this unit loses 3% HP, gain +1 Pulsation Count (max 20 per turn)\nEvery time this unit loses 1.5% HP, gain 1 Tiny and Sharp Nails\nHP consumption effects from this unit's Base Skills do not Stagger or reduce this unit's HP Below 1 (at 1 HP, Base Skill effects that consume HP will be activated for free)\nAt 3 Needlekin, use the 'Double stitching past the side seam? Double-needle! Rejected!' Skill on random enemies at Attack Skill End",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Count",
+							"Tiny and Sharp Nails",
+							"Self Follow Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Too even, you say? Not pick-stitching, you say? Assemble!!!",
+					"Description": "Turn End: Gain 1 Needlekin",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Needlekin"
+					]
+				},
+				"SupportSkill": {
+					"Name": "20 stitches an inch, minimum!!!",
+					"Description": "1 ally with the fastest Speed: On Hit using Base Attack Skills, inflict 2 Bleed (once per turn)\n$ If the said ally is a 'Le Rouge' Identity, additionally inflict 1 Naildle",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Bleed Potency",
+						"Naildle"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Bla Bla Warp Bla, Yap Yap Weft Yap",
+					"Description": "Final Power +1 for every 2 Pulsation Potency on self (max 2)\n[On Use] At fewer than 5 Pulsation Count, consume (2 x (5 - Pulsation Count))% HP to raise Pulsation Count to 5\n<1>[On Hit] Gain +4 Pulsation Count\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<2>[On Hit] Inflict +3 Bleed Count\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<3>[On Hit] Inflict Naildle equal to Needlekin on self\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)",
+					"DamageType": "Pierce",
+					"SinType": "Envy",
+					"BasePower": 2,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count",
+						"Bleed Count",
+						"Naildle"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Stitch! Per! Inch!",
+					"Description": "Final Power +1 for every 2 Pulsation Potency on self (max 2)\n[On Use] At fewer than 10 Pulsation Count, consume (2 x (10 - Pulsation Count))% HP to raise Pulsation Count to 10\n[On Use] Consume 7 Pulsation Count on self to gain Final Power +2\n<1>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<2>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<3>[On Hit] Gain +2 Pulsation Count\n[On Hit] Inflict 1 Bleed\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)\n<4>[On Hit] Inflict 1 Bleed\n[On Hit] Inflict Naildle on target equal to Needlekin Stack on self\n[On Hit] Deal Pierce damage equal to 1% of this Coin's final damage for every Needlekin Stack on self (min 1)",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 4,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Self HP Damage",
+						"Pulsation Count",
+						"Spend Pulsation Count",
+						"Bleed Potency",
+						"Naildle"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Pick stitch too obvious, you say?! I'll pick-stitch your bum!",
+					"Description": "[On Use] Atk Weight +1 for every 15 Tiny and Sharp Nails on self (max 2)\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Parts)\n[On Use] Consume up to 20 Pulsation Count on self to apply the following effects:\n$ Coin Power +1 for every 7 Pulsation Count consumed (max 2)\n$ Deal +2% damage using this Skill for every Pulsation Count consumed\n[Attack End] Consume Tiny and Sharp Nails on self equal to (Atk Weight gained from Tiny and Sharp Nails x 15)\n<1>[On Hit] Gain +3 Pulsation Count (once per Skill)\n[On Hit] Inflict 1 Bleed\n<2>[On Hit] Gain +3 Pulsation Count (once per Skill)\n[On Hit] Inflict 1 Bleed\n<3>[On Hit] Inflict 3 Naildle\n[On Hit] If target has 5+ Naildle, consume 5 Naildle on target to inflict Taxidermied on the said target next turn (counted per target)",
+					"DamageType": "Pierce",
+					"SinType": "Wrath",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 3,
+					"EffectTags": [
+						"Atk Weight Increase",
+						"Spend Pulsation Count",
+						"Spend Tiny and Sharp Nails",
+						"Pulsation Count",
+						"Bleed Potency",
+						"Naildle",
+						"Pierce Fragility",
+						"Taxidermied"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Double stitching past the side seam? Double-needle! Rejected!",
+						"Description": "Unfocused Volley\nOn Hit using this Skill, heal 8% HP\n[On Use] Consume all Needlekin on self to apply 1 Pierce DMG Up on self and other 2 random allies next turn\n$ Prioritizes 'Le Rouge' Identities (in Deployment Order)\n<1>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle\n<2>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle\n<3>[On Hit] Gain +1 Pulsation Count\n[On Hit] Inflict 2 Naildle",
+						"DamageType": "Pierce",
+						"SinType": "Lust",
+						"BasePower": 12,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"AttackWeight": 3,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Unfocused Volley",
+							"Heal HP",
+							"Spend Needlekin",
+							"Pierce DMG Up",
+							"Ally Pierce DMG Up",
+							"Pulsation Count",
+							"Naildle"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Gnnnngh...",
+					"Description": "[Clashable Counter]\n[Combat Start] Consume 20% HP on self to gain 1 Attack Power Up and +5 Pulsation Count next turn (once per turn)\n<1>[On Hit] Inflict 2 Naildle",
+					"DamageType": "Slash",
+					"SinType": "Wrath",
+					"BasePower": 6,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Clashable Counter",
+						"Self HP Damage",
+						"Attack Power Up",
+						"Pulsation Count",
+						"Naildle"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Customer Complaints Haunting the Ears",
+						"Description": "Gain 1 Pulsation Potency for every 10 Pulsation Count this unit consumes in this Encounter\nTurn Start: If Haute Couture::The Crimson God of Le Rouge Sinclair is on the field, gain 1 Cry of the Cocoon - Frail\nTurn Start: At max Cry of the Cocoon - Frail Stack, or if allied Haute Couture::The Crimson God of Le Rouge Sinclair has Noble Dignity, convert Cry of the Cocoon - Frail into Cry of the Cocoon - Vicious; then, allied Haute Couture::The Crimson God of Le Rouge Sinclair gains the following effects:\n$ Gain 1 Crimson Cradle\n$ On Hit using the 'La Demande' Skill's Coins, gain +1 Pulsation Count and heal 5% HP",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Potency",
+							"Cry of the Cocoon - Frail",
+							"Cry of the Cocoon - Vicious"
+						]
+					},
+					{
+						"Name": "Handmade / Hand-stitching, I said!!",
+						"Description": "Every time this unit loses 3% HP, gain +1 Pulsation Count (max 20 per turn)\nEvery time this unit loses 1.5% HP, gain 1 Tiny and Sharp Nails\nHP consumption effects from this unit's Base Skills do not Stagger or reduce this unit's HP Below 1 (at 1 HP, Base Skill effects that consume HP will be activated for free)\nAt 3 Needlekin, use the 'Double stitching past the side seam? Double-needle! Rejected!' Skill on random enemies at Attack Skill End",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Pulsation Count",
+							"Tiny and Sharp Nails",
+							"Self Follow Up"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Too even, you say? Not pick-stitching, you say? Assemble!!!",
+					"Description": "Turn End: Gain 1 Needlekin",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Needlekin"
+					]
+				},
+				"SupportSkill": {
+					"Name": "20 stitches an inch, minimum!!!",
+					"Description": "1 ally with the fastest Speed: On Hit using Base Attack Skills, inflict 2 Bleed (once per turn)\n$ If the said ally is a 'Le Rouge' Identity, additionally inflict 1 Naildle",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Lust",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Bleed Potency",
+						"Naildle"
 					]
 				}
 			}
