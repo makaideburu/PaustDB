@@ -3489,7 +3489,7 @@
 		]
 	},
 	{
-		"entry": "le noir: garbadine overcoat",
+		"entry": "le noir: gabardine overcoat",
 		"aliases": [
 			"defense level up",
 			"aggro"
@@ -3817,6 +3817,7 @@
 		"entry": "time to listen",
 		"aliases": [
 			"base power up",
+			"heal sp",
 			"ally heal sp",
 			"ally sp damage",
 			"ally sloth dmg up",
@@ -3871,6 +3872,56 @@
 		"aliases": [
 			"final power up",
 			"heal hp"
+		]
+	},
+	{
+		"entry": "field analysis",
+		"aliases": [
+			"poise count",
+			"unbreakable coin",
+			"modify enemy resist"
+		]
+	},
+	{
+		"entry": "wedge - don quixote",
+		"aliases": [
+			"tremor count"
+		]
+	},
+	{
+		"entry": "wedge - sinclair",
+		"aliases": [
+			"tremor count"
+		]
+	},
+	{
+		"entry": "wedge office",
+		"aliases": [
+			"offense level up",
+			"pierce dmg up"
+		]
+	},
+	{
+		"entry": "ally wedge office",
+		"aliases": [
+			"ally offense level up",
+			"ally pierce dmg up"
+		]
+	},
+	{
+		"entry": "ally the knight's loyal protection",
+		"aliases": [
+			"modify ally resist",
+			"ally damage reduction",
+			"fragile",
+			"attack power up",
+			"damage up"
+		]
+	},
+	{
+		"entry": "sword of a forgotten knight",
+		"aliases": [
+			"pierce fragility"
 		]
 	}
 ]

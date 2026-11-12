@@ -717,7 +717,7 @@
 		"Name": "Weakness Analyzed",
 		"Description": "A random 'Endured' or 'Normal' Attack type resistance is reduced by 0.2 for one turn.",
 		"EffectTags": [
-			"Resist Down"
+			"Modify Enemy Resist"
 		]
 	},
 	{
@@ -1772,8 +1772,8 @@
 		"Description": "Deal +200% damage\nDeal +2.5% damage for every 1% missing HP on target (max 200%)\nBefore Attack: For this attack, if Pierce Res on self or target are less than x2.0, change Pierce Damage Res on both target and self to x2.0\nAfter Attack: This unit dies",
 		"EffectTags": [
 			"The Magic Bullet",
-			"Pierce Resist Down",
-			"Self Pierce Resist Down",
+			"Modify Enemy Resist",
+			"Modify Self Resist",
 			"Self Instant Death"
 		]
 	},
@@ -1787,7 +1787,7 @@
 		"Name": "Requested Target",
 		"Description": "+0.2 Resistance to Attack Types with 1.5 or less Resistance.\nIf the target with this effect is defeated, gain 1 E.G.O Resource for all Affinities, and the unit that defeated the target heals 10 SP",
 		"EffectTags": [
-			"Resist Down",
+			"Modify Enemy Resist",
 			"Gain Resources",
 			"Heal SP"
 		]
@@ -1971,7 +1971,7 @@
 		"Name": "Searing Birdcage",
 		"Description": "Max Stack: 5\nIf this unit has Burn, weaken Wrath Resist by 0.1 for every Stack (does not weaken past 2.0)\nTurn End: Gain Bind equal to Stack next turn\nTurn End: Halve stack\nCannot gain additional Stacks of this effect while it is already active",
 		"EffectTags": [
-			"Wrath Resist Down",
+			"Modify Enemy Resist",
 			"Bind"
 		]
 	},
@@ -2482,7 +2482,7 @@
 		"EffectTags": [
 			"Charge Count Limit Increase",
 			"Damage Amp",
-			"Resist Down"
+			"Modify Enemy Resist"
 		]
 	},
 	{
@@ -4404,7 +4404,7 @@
 		"Name": "Ridiculous Grit",
 		"Description": "Max Stack: 3\nFix any Attack Type Resistances that exceed 'Normal' to 'Normal'\nTake -(30 x (The Middle - Vengeance Tattoo [Great Sister] x 4))% damage from Skills (max 50%, rounded down)\nOn Clash Win, heal an additional (Clash count x 5) SP (max 15)\nTurn End: If this unit lost SP this turn due to its Skill effects, deal +10% damage next turn using Base Skills\nTurn End: Lose 1 Stack",
 		"EffectTags": [
-			"Damage Type Resist Up",
+			"Modify Self Resist",
 			"Damage Reduction",
 			"Heal SP"
 		]
@@ -4885,7 +4885,7 @@
 		]
 	},
 	{
-		"Name": "Le Noir: Garbadine Overcoat",
+		"Name": "Le Noir: Gabardine Overcoat",
 		"Description": "Max Stack: 100\nDefense Level +1 for every 25 Stacks\nGain +5 Aggro to the leftmost Slot\nWhen hit while this unit has Shield, gain 5 Stack (10 per turn)\nTurn End: If this unit has remaining Shield, gain 10 Stack\nApply the following when this unit gains or consumes Preservation Count due to its Skill or Passive effects:\n$ Gain Stack equal to Preservation Count gained (this effect's Stack is gained regardless of Preservation's max Count)\n$ Gain Stack equal to (Preservation Count consumed x 2)\n$ Can gain up to 30 Stacks per turn via this effect\nAt 100 Stack, convert this effect into Armure Éveillée next turn",
 		"EffectTags": [
 			"Defense Level Up",
@@ -4895,7 +4895,7 @@
 	},
 	{
 		"Name": "Armure Éveillée",
-		"Description": "Max Stack: 100\nMin & Max Speed +2\nOffense Level +1 and Defense Level +1 for every 25 Stack\nConvert all Base Attack Skill Coins into Unbreakable Coins\nTurn Start: Heal 8 SP\nAt 0 Stack, convert this effect into Le Noir: Garbadine Overcoat",
+		"Description": "Max Stack: 100\nMin & Max Speed +2\nOffense Level +1 and Defense Level +1 for every 25 Stack\nConvert all Base Attack Skill Coins into Unbreakable Coins\nTurn Start: Heal 8 SP\nAt 0 Stack, convert this effect into Le Noir: Gabardine Overcoat",
 		"EffectTags": [
 			"Min Speed",
 			"Max Speed",
@@ -4903,7 +4903,7 @@
 			"Defense Level Up",
 			"Unbreakable Coin",
 			"Heal SP",
-			"Le Noir: Garbadine Overcoat"
+			"Le Noir: Gabardine Overcoat"
 		]
 	},
 	{
@@ -5090,7 +5090,7 @@
 	},
 	{
 		"Name": "Sanctum of Conservation",
-		"Description": "Max Stack: 5\nApply the following effect on all allied Identities:\n$ On Skill Use, each ally gains Shield equal to (Preservation Potency on Don Quixote x 2)% of their respective max HP (once per turn, max 10%)\nApply the following effects on all 'Le Noir' allied Identities\n$ Offense Level +(Preservation Potency on Don Quixote / 3) (max 2; rounded down)\n$ Defense Level +(Preservation Potency on Don Quixote / 2) (max 3; rounded down)\nApply the following effects on all enemies:\n$ Min & Max Speed -1 (this effect cannot reduce Min & Max SPeed below 1)\n$ Stagger Threshold raised by Tremor Burst +10%\n$ Take +10% damage from Skills that consume Charge Count or Unique Charge\n$ From 'Le Noir' allied Identities Skills, take +20% damage instead\nTurn End: Lose 1 Stack",
+		"Description": "Max Stack: 5\nApply the following effect on all allied Identities:\n$ On Skill Use, each ally gains Shield equal to (Preservation Potency on Don Quixote x 2)% of their respective max HP (once per turn, max 10%)\nApply the following effects on all 'Le Noir' allied Identities\n$ Offense Level +(Preservation Potency on Don Quixote / 3) (max 2; rounded down)\n$ Defense Level +(Preservation Potency on Don Quixote / 2) (max 3; rounded down)\nApply the following effects on all enemies:\n$ Min & Max Speed -1 (this effect cannot reduce Min & Max Speed below 1)\n$ Stagger Threshold raised by Tremor Burst +10%\n$ Take +10% damage from Skills that consume Charge Count or Unique Charge\n$ From 'Le Noir' allied Identities Skills, take +20% damage instead\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Party Shield",
 			"Ally Offense Level Up",
@@ -5442,6 +5442,7 @@
 		"Description": "Max Stack: 2\nBase Skill Base Power +1\nCombat Start (once per turn per Sinner):\n$ Identities that equipped Plus Coin Skills in their leftmost Slots heal 4 SP\n$ Identities that equipped Minus Coin Skills in their leftmost Slots lose 4 SP (this effect cannot reduce the unit's SP below 40)\nCombat Start: Apply 1 Sloth DMG Up on the following Identities (once per turn per Sinner):\n$ Identities that equipped Plus Coin Skills and have 40 or higher SP; Le Noir Identities additionally gain 1 Base Power Up\n$ Identities that equipped Minus Coin Skills and have -40 or lower SP; Le Noir Identities additionally gain 1 Base Power Up\nTurn End: Lose 1 Stack",
 		"EffectTags": [
 			"Base Power Up",
+			"Heal SP",
 			"Ally Heal SP",
 			"Ally SP Damage",
 			"Ally Sloth DMG Up",
@@ -5503,6 +5504,94 @@
 		"EffectTags": [
 			"Final Power Up",
 			"Heal HP"
+		]
+	},
+	{
+		"Name": "Thundercrack",
+		"Description": "Max Stack: 3\nFor every Stack:\n$ Coin Power +1\n$ Base Skills deal +15% damage against enemies\nIf Wild Hunt Heathcliff has been defeated or Retreated, expires",
+		"EffectTags": [
+			"Coin Power",
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Field Analysis",
+		"Description": "Max Stack: 5\nGain +1 Poise Count when gaining Stacks of this effect\nTurn End: Gain +(Stack) Poise Count\nTurn Start: If this unit is Staggered at Turn Start, recover from Stagger (2 times per Encounter; excluding forced Staggers)\nBase Attack Skills gain the following effects based on Stack:\n$ X+ On Skill Use, deal +(30 / # of Coins)% damage on enemies (rounded down)\n$ 3+: Coin Power +1; On Skill Use, convert the final Coin to Unbreakable Coin\n$ 4+: On Skill Use, deal +(30 / # of Coins)% damage on enemies (rounded down)\n$ 5+: Target's Pierce Resist +0.1 from Attack Start to Attack End\nThe Stack immediately before Skill Use is used to determine whether the damage-boosting and Unbreakable Coin conversion effects are activated",
+		"EffectTags": [
+			"Poise Count",
+			"Unbreakable Coin",
+			"Modify Enemy Resist"
+		]
+	},
+	{
+		"Name": "Wedge - Don Quixote",
+		"Description": "Max Stack: 8\nAt sufficient Stacks, empower a certain Skill of Wedge Office Fixer Sinclair\nTurn End: Gain +1 Tremor Count\nTurn Start: If there are no enemy 'Wedge Office' characters on the field, this effect expires",
+		"EffectTags": [
+			"Tremor Count"
+		]
+	},
+	{
+		"Name": "Wedge - Sinclair",
+		"Description": "Max Stack: 8\nAt sufficient Stacks, empower a certain Skill of Wedge Office Fixer Don Quixote\nTurn End: Gain +1 Tremor Count\nTurn Start: If there are no enemy 'Wedge Office' characters on the field, this effect expires",
+		"EffectTags": [
+			"Tremor Count"
+		]
+	},
+	{
+		"Name": "Momentum",
+		"Description": "Max Stack: 30\nCan gain up to 20 Stacks per turn\nTurn Start: If this unit is Staggered, recover from Stagger (once per Encounter; excluding forced Staggers)",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Dawn's Camaraderie",
+		"Description": "Max Stack: 5",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Joint Combo",
+		"Description": "If the pertinent Identity is on the field, alive, and isn't immobilized, activate the linked effects (does not activate if the pertinent Identity is in any of the following states: all types of immobilized states, E.G.O Corrosions, and Staggers)",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Wedge Office",
+		"Description": "Max Stack: 3\nOffense Level +1 for every Stack\nCombat Start: At 3 Stacks, gain Pierce DMG Up\nExpires at Turn End",
+		"EffectTags": [
+			"Offense Level Up",
+			"Pierce DMG Up"
+		]
+	},
+	{
+		"Name": "The Knight's Loyal Protection",
+		"Description": "Base Stack: 3\nThis unit's Attack Type Resist that are higher than 1.5 are adjusted to 1.5 (except while Staggered)\nIf this unit is Staggered, take -30% damage (excluding forced Staggers)\nTurn End: Lose 1 Stack\nExpires when the character that applied this effect retreats, is defeated, or applies this effect to a different target; replaced when another character applies the same effect\nIf this unit is defeated by an enemy, inflict 2 Fragile against the attacker next turn, and the unit that applied this effect gains 2 Attack Power Up and 3 Damage Up next turn",
+		"EffectTags": [
+			"Modify Self Resist",
+			"Damage Reduction",
+			"Fragile",
+			"Ally Attack Power Up",
+			"Ally Damage Up"
+		]
+	},
+	{
+		"Name": "Sword Sharpened with Tears",
+		"Description": "Max Stack: 3\nSkills that gain or consume Charge deal +(Charge Potency x 2)% damage (max 10%)\nPierce or Pride Skills deal +(Stack x 5)% damage\nOn Hit using this unit's Pierce or Pride Skills, deal Pride damage equal to ((Stack x 2) + (5% of the Coin's final damage))\nAttack End: If the main target is an enemy, inflict Sinking Potency equal to Stack",
+		"EffectTags": [
+			"Damage Amp"
+		]
+	},
+	{
+		"Name": "Weathered Pride",
+		"Description": "Max Stack: 999\nCan only be gained up to 500 Stacks per turn",
+		"EffectTags": [
+		]
+	},
+	{
+		"Name": "Sword of a Forgotten Knight",
+		"Description": "Max Stack: 3\nWhen hit by Pierce or Pride Skills, gain 1 Stack\n$ At max Stack, take 50 Pride damage; then, this effect expires. Gain 1 Pierce Fragility this turn and next turn\nOnly 1 character can have this effect at any given time (existing effect expires when inflicted on another target)",
+		"EffectTags": [
+			"Pierce Fragility"
 		]
 	}
 ]

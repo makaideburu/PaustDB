@@ -4306,7 +4306,7 @@
         "Cost": 207,
         "Upgrades": [
             {
-                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +1 on the first turn, and gain 1 Haste and Clash Power +1 starting from the second turn.\nShi Association Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal (activates immediately upon entering an encounter)",
+                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +2 on the first turn, and gain 1 Haste and Clash Power +2 starting from the second turn.\nShi Association Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal (activates immediately upon entering an encounter)",
                 "Rank": 1,
                 "EffectTags": [
                     "Clash Power",
@@ -4317,7 +4317,7 @@
                 ]
             },
             {
-                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +1 on the first turn, and gain 2 Haste and Clash Power +1 starting from the second turn.\nShi Association Identities' HP gets capped to 50% of Max HP. In return, take 75% less damage and receive 75% reduced heal (activates immediately upon entering an encounter)",
+                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +2 on the first turn, and gain 2 Haste and Clash Power +2 starting from the second turn.\nShi Association Identities' HP gets capped to 50% of Max HP. In return, take 75% less damage and receive 75% reduced heal (activates immediately upon entering an encounter)",
                 "Rank": 2,
                 "EffectTags": [
                     "Clash Power",
@@ -4328,7 +4328,7 @@
                 ]
             },
             {
-                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +1 on the first turn, and gain 2 Haste and Final Power +1 starting from the second turn.\nShi Association Identities' HP gets capped to 49% of Max HP. In return, take 75% less damage and receive 75% reduced heal (activates immediately upon entering an encounter)",
+                "Description": "All allies with 2 or more Slash Skills: For this Encounter, gain Clash Power +2 on the first turn, and gain 2 Haste and Final Power +2 starting from the second turn.\nIf the affected Identity is at 7+ Speed, the said Identity's Slash Skills deal +10% damage\nShi Association Identities' HP gets capped to 49% of Max HP. In return, take 75% less damage and receive 75% reduced heal (activates immediately upon entering an encounter)",
                 "Rank": 3,
                 "EffectTags": [
                     "Final Power",
@@ -5422,7 +5422,7 @@
         "Cost": 402,
         "Upgrades": [
             {
-                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count (except E.G.O Skills, except Backup Units)\nTurn End: If an ally has 20+ Poise, the ally consumes 1 Poise to gain +1 Poise Count\nTurn End: 1 ally with the highest Poise and 1 ally with the highest Poise Count gain 2 Haste and 1 Offense Level Up (can be the same ally)\nWhen gaining Poise from Skill effects, gain +2 Poise and +2 Poise Count. At less than 20 (Poise + Poise Count), gain +3 Poise and +3 Poise Count instead.\nTurn End: At 40+ Poise, consume 15 Poise to Discard 1 lowest rank Skill (once per turn per ally)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count (except E.G.O Skills, except Backup Units)\nTurn End: If an ally has 20+ Poise, the ally consumes 1 Poise to gain +1 Poise Count\nTurn End: 1 ally with the highest Poise and 1 ally with the highest Poise Count gain 2 Haste, 1 Offense Level Up, and 1 Damage Up next turn (can be the same ally)\nWhen gaining Poise from Skill effects, gain +2 Poise and +2 Poise Count. At less than 20 (Poise + Poise Count), gain +3 Poise and +3 Poise Count instead.\nTurn End: At 40+ Poise, consume 15 Poise to Discard 1 lowest rank Skill (once per turn per ally)",
                 "Rank": 1,
                 "EffectTags": [
                     "Spend Poise Potency",
@@ -6559,6 +6559,30 @@
         ]
     },
     {
+        "Id": "B-1-020-05",
+        "Name": "The Measure of Frost",
+        "Tag": "Keywordless",
+        "Abnormality": "Theme Pack: [The Unloving]",
+        "Affinity": "Pride",
+        "Tier": 3,
+        "Cost": 250,
+        "Upgrades": [
+            {
+                "Description": "Turn Start: At 40+ SP, or at -40 SP or lower, gain 1 E.G.O Resource Amp\n[Effect exclusive to Identities that have 2 or more Minus Coin Skills]\nTurn Start: Lose 15 SP (this unit's SP does not drop below -40 from this effect)\nIn this Encounter, when taking SP damage that would reduce this unit's SP to -45, this unit's SP cannot drop below -44 for the turn (once per Encounter)\n$ Applies only to SP damage, does not apply to SP-changing effects, or SP-consuming effects such as using E.G.O Skills)\nBefore Attack using Skill 3 or an E.G.O Skill, consume up to 5 E.G.O Resources of the same Affinity of the said Skill to deal +(E.G.O Resources consumed x 10)% damage",
+                "Rank": 1,
+                "EffectTags": [
+                    "E.G.O Resource Amp",
+                    "SP Damage",
+                    "SP Unrelenting",
+                    "Damage Amp"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ]
+    },
+    {
         "Id": "B-1-030-01",
         "Name": "Nagel und Hammer Scriptures",
         "Tag": "Bleed",
@@ -6927,7 +6951,7 @@
         "Cost": 243,
         "Upgrades": [
             {
-                "Description": "Turn End: When Staggered, recover from Stagger; at next Turn Start, inflict 4 Sinking and +4 Sinking Count to all enemies (once per Encounter; in Focused Encounters, all Parts)\nOn Kill, 1 enemy with the least Sinking Count gains +2 Sinking Count",
+                "Description": "Turn End: When Staggered, recover from Stagger; at next Turn Start, inflict 4 Sinking and +4 Sinking Count to all enemies (once per Encounter; in Focused Encounters, all Parts)\n$ The above effect activates ((deployed 'Wuthering Heights' Identities + deployed 'Edgar Family' Identities) / 2) more times per Encounter (max 4 times per Encounter; including Backup Units)\nOn Kill, 1 enemy with the least Sinking Count gains +2 Sinking Count (in Focused Encounters, the Part)",
                 "Rank": 1,
                 "EffectTags": [
                     "Stagger Recovery",
@@ -7099,7 +7123,7 @@
         "Cost": 392,
         "Upgrades": [
             {
-                "Description": "Regular Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), if the target is at -45 SP, deal (Sinking on target / 2) Gloom damage (once per Skill)\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
+                "Description": "On Hit against SP Units, if target has -45 SP, deal Gloom damage equal to Sinking Potency on target\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (each turn, this effect only applies to the first Sinking-inflicting Skill that hits)",
                 "Rank": 1,
                 "EffectTags": [
                     "HP Damage"
@@ -7108,6 +7132,34 @@
         ],
         "Availability": [
             "MD5"
+        ]
+    },
+    {
+        "Id": "B-1-060-08",
+        "Name": "Wuthering Heights",
+        "Tag": "Sinking",
+        "Abnormality": "Theme Pack Fusion: ||Manor-shaped Music Box [Dregs of the Manor] + Refraction Glass Pod [The Heartbreaking]||",
+        "Affinity": "Gloom",
+        "Tier": 4,
+        "Cost": 404,
+        "Upgrades": [
+            {
+                "Description": "Turn End: When Staggered, recover from Stagger; at next Turn Start, inflict 4 Sinking and +4 Sinking Count to all enemies (once per Encounter; in Focused Encounters, all Parts)\n$ The above effect activates ((deployed 'Wuthering Heights' Identities + deployed 'Edgar Family' Identities) / 2) more times per Encounter (max 4 times per Encounter; including Backup Units)\nOn Kill, 1 enemy with the least Sinking Count gains +2 Sinking Count (in Focused Encounters, the Part)\nOn Hit against SP Units, if target has -45 SP, deal Gloom damage equal to Sinking Potency on target\nFocused Encounters: On Hit against enemies with 10+ (Sinking + Sinking Count), deal (Sinking on target / 2) Gloom damage (once per Skill)\nIf the Skill that hit an enemy inflicts Sinking, Sinking Count, or Unique Sinking, instead of dealing (Sinking Potency / 2) Gloom damage, deal (Sinking Potency) Gloom damage (each turn, this effect only applies to the first Sinking-inflicting Skill that hits)\n\n[Wild Hunt Heathcliff exclusive effect]\nTurn Start: If this unit does not have Dullahan, gain 1 Dullahan\n$ At 5/10 Coffin, gain 2/3 Dullahan\n$ Apply 1 Thundercrack on 'Wuthering Heights' and 'Edgar Family' Identities (3 times per Identity per Encounter)\nDouble the amount of Coffin gained\n$ Gain 2 Coffin when 'Wuthering Heights' or 'Edgar Family' Identities defeat an enemy\n'Lament, Mourn, and Despair' Skill effects:\n$ Lose 15 more SP from the 'On Use' effect\n$ The effects of the Skill or this E.G.O Gift cannot reduce this unit's SP below -40\n$ On final Coin Hit, if the enemy has 20+ Sinking, deal Gloom damage equal to 100% of this Coin's final damage",
+                "Rank": 1,
+                "EffectTags": [
+                    "Stagger Recovery",
+                    "Sinking Potency",
+                    "Sinking Count",
+                    "HP Damage",
+                    "Identity Exclusive Effect"
+                ]
+            }
+        ],
+        "Availability": [
+            "MD8"
+        ],
+        "UniqueStatuses":[
+            "Thundercrack"
         ]
     },
     {
@@ -7554,7 +7606,7 @@
         "Cost": 199,
         "Upgrades": [
             {
-                "Description": "Combat Start: Allies with Shield gain 1 Crit DMG Up\nOn Crit with ally Skill, said ally gains Shield equal to (Poise / 5) for the next turn (max 15)",
+                "Description": "Turn Start: Activates for the whole Encounter when 5+ Identities have Attack Skills that apply or gain Poise or Poise Count (except E.G.O Skills, except Backup Units)\nCombat Start: Allies with Shield gain 1 Crit DMG Up\nOn Crit with ally Skill, said ally gains Shield equal to (Poise / 5) for the next turn (max 15)\n\n[The House of Spiders: The Pinky Apprentice Sinclair exclusive effect]\nCombat End: At more than 30 Poise Count, consume 10 Poise Count to Discard 1 Skill of the lowest Rank in all of this unit's Skill Slots (once per turn)\nAmong the E.G.O Gift 'Cask Spirits' effects, the following does not apply to this unit: 'Combat End: at more than 40 Poise Potency, consume 15 Poise Potency to Discard 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)'",
                 "Rank": 1,
                 "EffectTags": [
                     "Crit DMG Up",

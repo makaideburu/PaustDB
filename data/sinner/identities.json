@@ -3349,6 +3349,7 @@
 						"Self SP Damage",
 						"Heal SP",
 						"Unbreakable Coin",
+						"Modify Ally Resist",
 						"Bleed Potency",
 						"Bleed Count"
 					],
@@ -3527,6 +3528,7 @@
 						"Spend Torn Memory",
 						"Self SP Damage",
 						"Heal SP",
+						"Modify Ally Resist",
 						"Unbreakable Coin",
 						"Bleed Potency",
 						"Bleed Count"
@@ -4205,7 +4207,6 @@
 						"ClashPowerModifier": 3,
 						"CoinPowerModifier": 0,
 						"CoinCountModifier": 0,
-						"ForceCoinCollapse": true,
 						"UnbreakableCoinCount": 9,
 						"AttackWeight": 7,
 						"AttackWeightMod": 7,
@@ -15158,7 +15159,7 @@
 		"StaggerThresholds": [ 40 ],
 		"Rarity": 3,
 		"DamageResist": {
-			"Slash": -1,
+			"Slash": 1,
 			"Pierce": 2,
 			"Blunt":  0.5
 		},
@@ -15292,7 +15293,7 @@
 						"Spend Enemy Tremor Count"
 					],
 					"AltSkill": {
-						"SkillSlot": "S30",
+						"SkillSlot": "S31",
 						"Name": "With Each Smite, I Sever Thine Advent!",
 						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up all 'Le Noir' allied Identities (once per turn)\n[On Use] Coin Power +1 for every 6 total sum of (Tremor + Promised Nail) on all targets (max 2)\n[On Use] At 3+ Preservation Potency, Coin Power +1\n[On Use] Deal +50% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Before Attack] The final Coin gains Final Power +2 for every highest Reson (max 8)\n[Attack End] Consume all Blessing of the Obsidian God\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 2 Tremor\n<2>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 2 Tremor\n<3>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +4 Preservation Count (once per Coin)\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Apply the following effects on target depending on its respective Promised Nail Stack\n$ If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n$ Deal Sloth damage equal to (Promised Nail on target x 3)% of this Coin's final damage (max 90%)\n$ Consume all Promised Nail on target",
 						"DamageType": "Blunt",
@@ -15573,7 +15574,7 @@
 						"Spend Enemy Tremor Count"
 					],
 					"AltSkill": {
-						"SkillSlot": "S30",
+						"SkillSlot": "S31",
 						"Name": "With Each Smite, I Sever Thine Advent!",
 						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\n[Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up all 'Le Noir' allied Identities (once per turn)\n[On Use]At 6+ total sum of (Tremor + Promised Nail) on all targets, Coin Power +1\n[On Use] At 3+ Preservation Potency, Coin Power +1\n[On Use] Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, Parts)\n[Before Attack] The final Coin gains Final Power +2 for every highest Reson (max 8)\n[Attack End] Consume all Blessing of the Obsidian God\n<1>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 1 Tremor\n<2>[On Hit] Inflict 1 Promised Nail\n[On Hit] Inflict 1 Tremor\n<3>[On Hit] Inflict +3 Tremor Count\n[On Hit] Gain +3 Preservation Count (once per Coin)\n[On Hit] Trigger Amplitude Conversion into Tremor - Conservation\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Apply the following effects on target depending on its respective Promised Nail Stack\n$ If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n$ Deal Sloth damage equal to (Promised Nail on target x 1.5)% of this Coin's final damage (max 45%)\n$ Consume all Promised Nail on target",
 						"DamageType": "Blunt",
@@ -15729,6 +15730,489 @@
 					"ResourceType": "Owned",
 					"EffectTags": [
 						"Ally Damage Reduction"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 3311,
+		"Sinner": "Don Quixote",
+		"Identity": "Wedge Office Fixer",
+		"Season": 10,
+		"IsWalpurgis": true,
+		"Traits": [
+			"Fixer",
+			"Wedge Office"
+		],
+		"Speed": [ 4, 6 ],
+		"BaseHP": 72,
+		"GrowthHP": 2.52,
+		"StaggerThresholds": [ 60, 30 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt":  2
+		},
+		"UniqueStatuses":[
+			"Field Analysis",
+			"Wedge - Don Quixote",
+			"Wedge - Sinclair",
+			"Momentum",
+			"Dawn's Camaraderie",
+			"Joint Combo",
+			"Tremor - Decay"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Collision",
+					"Description": "[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 3)\n[On Use] Gain 4 Poise\nJoint Combo: Upon Reson. with Wedge Office Fixer Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +2\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Reuse the final Coin once\n[Clash Win] Gain 1 Pierce DMG Up next turn (once per turn)\n<1>[On Hit] Inflict 2 Tremor\n[Reuse - On Hit] Inflict 1 Wedge - Sinclair",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 6,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 2,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Pierce DMG Up",
+						"Tremor Potency",
+						"Wedge - Sinclair"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Gap Strike",
+					"Description": "[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 3)\n[On Use] Gain 3 Poise\n[Clash Win] Inflict 1 Tremor, then trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[On Hit] Gain 2 Poise\n<2>[Coin Start] This Coin gains Final Power +1 for every Field Analysis on self (max 4)\n[On Hit] Inflict +2 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 3, 7 ],
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Speared Sweep",
+					"Description": "[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +3\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +40% damage\n[Clash Win] Inflict 2 Tremor, then trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[On Hit] Gain 4 Poise\n<2>[On Hit] Inflict +3 Tremor Count\n<3>If target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage\n[Coin Start] This Coin gains Final Power for every Field Analysis on self (max 4)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 5,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 0, 0, 4 ],
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Decay"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "My Spear Shall Puncture Thee True!",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\nClash Power +1 for every 2 Wedge - Sinclair on target (max 4)\n[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +3\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +50% damage\n[Clash Win] Inflict 4 Tremor, then trigger Tremor Burst\n[Attack End] Remove all Wedge - Sinclair on target\n[Attack End] Allied Wedge Office Rep Outis Identity gains 3 Momentum\n<1>[Unbreakable Coin]\n[On Hit] Gain 4 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Tremor Count\n<3>[Unbreakable Coin]\nDeal +40% damage on Critical Hit\nDeal +(40 / target's Pierce Resist)% damage (max 80%; rounded down)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage\n[Coin Start] This Coin gains Final Power +2 for every Field Analysis on self (max 8)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Deal Pierce damage equal to (Wedge - Sinclair on target x 7)% of this Coin's final damage (max 56%)\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 5,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 7,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 0, 0, 8 ],
+						"CoinPowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Poise Potency",
+							"Field Analysis",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Wedge - Sinclair",
+							"Ally Momentum",
+							"Unbreakable Coin",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Decay",
+							"Spend Enemy Tremor Count"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] If target has 4+ Wedge - Sinclair, activate 'My Spear Shall Puncture Thee True!' instead (once per turn; can activate for Unopposed Attacks)\n[On Use] At 6+ Poise Potency, Coin Power +1\n[On Evade] Gain 2 Poise (3 times per turn)\n[On Evade] Gain 1 Haste next turn (once per turn)\n[Combat End] If this unit could not gain Field Analysis from Skill effects this turn, gain 1 Field Analysis (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Skill Change",
+						"Poise Potency",
+						"Haste",
+						"Field Analysis"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Ho, Young Sinclair! Thou Must keep pace!",
+						"Description": "In the Team Loadout menu:\n$ Equipping Wedge Office Fixer Don Quixote automatically equips Sinclair's Identity as Wedge Office Fixer Sinclair\n$ When Wedge Office Fixer Sinclair is unequipped, automatically equip the most recently equipped Identity that isn't Wedge Office Fixer Don Quixote (if Wedge Office Fixer Don Quixote was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Don Quixote Identity instead)\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied Wedge Office Fixer Sinclair Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities are at -45 SP, or are under an effect that fixes their Speed)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+						]
+					},
+					{
+						"Name": "Wedge Drive",
+						"Description": "Turn Start: Gain 1 Field Analysis\nIf any of the following conditions are met, inflict 1 Wedge - Don Quixote on the main target (once per turn)\n$ On final Coin Hit using an Attack Skill against the main target\n$ Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Field Analysis",
+							"Wedge - Don Quixote"
+						]
+					},
+					{
+						"Name": "Back-to-back in Dawnbreak's Light",
+						"Description": "When the allied Dawn Office Fixer Faust's Identity uses the 'Dismemberment at High Noon' Skill, the Skill's Coin 1 gains the following effects (once per turn):\nJoint Combo: Wedge Office Fixer Don Quixote:\n$ [On Hit] Inflict 2 Burn and +2 Burn Count\n$ [On Hit] Inflict 2 Tremor\n$ [On Hit] Inflict 1 Wedge - Don Quixote\n$ [On Hit] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Joint Combo"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Hunters of the City",
+					"Description": "Combat End: At 10+ Poise Potency, gain 1 Haste next turn\nAt more than 20 Poise Potency, Base Skills deal +(excess Poise Potency)% damage on Critical Hit (max 25%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Reconnaissance",
+					"Description": "When 1 ally with the fastest Speed uses a Skill to Clash, inflict 3 Tremor Potency on the target of the Clash (for Focused Encounters, the Part)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Tremor Potency"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Collision",
+					"Description": "[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 2)\n[On Use] Gain 4 Poise\nJoint Combo: Upon Reson. with Wedge Office Fixer Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +2\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Reuse the final Coin once\n[Clash Win] Gain 1 Pierce DMG Up next turn (once per turn)\n<1>[On Hit] Inflict 2 Tremor\n[Reuse - On Hit] Inflict 1 Wedge - Sinclair",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 6,
+					"CoinPower": 7,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 2,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Pierce DMG Up",
+						"Tremor Potency",
+						"Wedge - Sinclair"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Gap Strike",
+					"Description": "[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 2)\n[On Use] Gain 3 Poise\n[Clash Win] Inflict 1 Tremor, then trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[On Hit] Gain 2 Poise\n<2>[Coin Start] This Coin gains Final Power +1 for every Field Analysis on self (max 4)\n[On Hit] Inflict +2 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 5,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 3, 7 ],
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Speared Sweep",
+					"Description": "[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +1\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +20% damage\n[Clash Win] Inflict 2 Tremor, then trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[On Hit] Gain 4 Poise\n<2>[On Hit] Inflict +3 Tremor Count\n<3>If target is in either Amplitude Conversion or Amplitude Entanglement states, deal +20% damage\n[Coin Start] This Coin gains Final Power for every Field Analysis on self (max 4)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 5,
+					"CoinCount": 3,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"ClashesWithOverride": true,
+					"FinalPowerOverride": [ 0, 0, 4 ],
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Decay"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "My Spear Shall Puncture Thee True!",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\nClash Power +1 for every 2 Wedge - Sinclair on target (max 4)\n[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Sinclair's Skills, gain the following effects:\n$ [On Use] Clash Power +1\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +30% damage\n[Clash Win] Inflict 4 Tremor, then trigger Tremor Burst\n[Attack End] Remove all Wedge - Sinclair on target\n[Attack End] Allied Wedge Office Rep Outis Identity gains 3 Momentum\n<1>[Unbreakable Coin]\n[On Hit] Gain 4 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Tremor Count\n<3>[Unbreakable Coin]\nDeal +20% damage on Critical Hit\nDeal +(40 / target's Pierce Resist)% damage (max 80%; rounded down)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage\n[Coin Start] This Coin gains Final Power +2 for every Field Analysis on self (max 8)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Deal Pierce damage equal to (Wedge - Sinclair on target x 7)% of this Coin's final damage (max 56%)\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 4,
+						"CoinPower": 5,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 7,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 3,
+						"ClashesWithOverride": true,
+						"FinalPowerOverride": [ 0, 0, 8 ],
+						"CoinPowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Poise Potency",
+							"Field Analysis",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Wedge - Sinclair",
+							"Ally Momentum",
+							"Unbreakable Coin",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Decay",
+							"Spend Enemy Tremor Count"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] If target has 4+ Wedge - Sinclair, activate 'My Spear Shall Puncture Thee True!' instead (once per turn; can activate for Unopposed Attacks)\n[On Use] At 6+ Poise Potency, Coin Power +1\n[On Evade] Gain 2 Poise (3 times per turn)\n[Combat End] If this unit could not gain Field Analysis from Skill effects this turn, gain 1 Field Analysis (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Skill Change",
+						"Poise Potency",
+						"Field Analysis"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Ho, Young Sinclair! Thou Must keep pace!",
+						"Description": "In the Team Loadout menu:\n$ Equipping Wedge Office Fixer Don Quixote automatically equips Sinclair's Identity as Wedge Office Fixer Sinclair\n$ When Wedge Office Fixer Sinclair is unequipped, automatically equip the most recently equipped Identity that isn't Wedge Office Fixer Don Quixote (if Wedge Office Fixer Don Quixote was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Don Quixote Identity instead)\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied Wedge Office Fixer Sinclair Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities are at -45 SP, or are under an effect that fixes their Speed)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+						]
+					},
+					{
+						"Name": "Wedge Drive",
+						"Description": "Turn Start: Gain 1 Field Analysis\nIf any of the following conditions are met, inflict 1 Wedge - Don Quixote on the main target (once per turn)\n$ On final Coin Hit using an Attack Skill against the main target\n$ Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Field Analysis",
+							"Wedge - Don Quixote"
+						]
+					},
+					{
+						"Name": "Back-to-back in Dawnbreak's Light",
+						"Description": "When the allied Dawn Office Fixer Faust's Identity uses the 'Dismemberment at High Noon' Skill, the Skill's Coin 1 gains the following effects (once per turn):\nJoint Combo: Wedge Office Fixer Don Quixote:\n$ [On Hit] Inflict 2 Burn and +2 Burn Count\n$ [On Hit] Inflict 2 Tremor\n$ [On Hit] Inflict 1 Wedge - Don Quixote\n$ [On Hit] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Joint Combo"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Hunters of the City",
+					"Description": "Combat End: At 10+ Poise Potency, gain 1 Haste next turn\nAt more than 20 Poise Potency, Base Skills deal +(excess Poise Potency)% damage on Critical Hit (max 15%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Reconnaissance",
+					"Description": "When 1 ally with the fastest Speed uses a Skill to Clash, inflict 3 Tremor Potency on the target of the Clash (for Focused Encounters, the Part)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Tremor Potency"
 					]
 				}
 			}
@@ -20612,7 +21096,7 @@
 		},
 		"UniqueStatuses":[
 			"Preservation",
-			"Le Noir: Garbadine Overcoat",
+			"Le Noir: Gabardine Overcoat",
 			"Armure Éveillée"
 		],
 		"UptieTiers": [
@@ -20621,7 +21105,7 @@
 				"SkillOne": {
 					"SkillSlot": "S10",
 					"Name": "You, Revolting Thing",
-					"Description": "[Combat Start] At 3+ Preservation Potency and 12+ Preservation Count, consume 6 Preservation Count to gain Shield equal to 5% of this unit's max HP (2 times per turn)\n[On Use] At fewer than 12 Preservation Count, gain +2 Preservation Count\n[On Use] At 50+ Le Noir: Garbadine Overcoat, Clash Power +1 and deal +30% damage\n[On Use] Consume up to 15 Armure Éveillée to apply the following:\n$ Final Power +1\n$ Deal +(Armure Éveillée consumed x 3)% damage (max 45%)\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Gain +5 Preservation Count",
+					"Description": "[Combat Start] At 3+ Preservation Potency and 12+ Preservation Count, consume 6 Preservation Count to gain Shield equal to 5% of this unit's max HP (2 times per turn)\n[On Use] At fewer than 12 Preservation Count, gain +2 Preservation Count\n[On Use] At 50+ Le Noir: Gabardine Overcoat, Clash Power +1 and deal +30% damage\n[On Use] Consume up to 15 Armure Éveillée to apply the following:\n$ Final Power +1\n$ Deal +(Armure Éveillée consumed x 3)% damage (max 45%)\n<1>[On Hit] Inflict 2 Tremor\n<2>[On Hit] Gain +5 Preservation Count",
 					"DamageType": "Blunt",
 					"SinType": "Envy",
 					"BasePower": 3,
@@ -20647,7 +21131,7 @@
 				"SkillTwo": {
 					"SkillSlot": "S20",
 					"Name": "Come and Try It On",
-					"Description": "[On Use]\n$ At 12+ Preservation Count, consume 6 Preservation Count to gain Final Power +1 and deal +20% damage\n$ Gain +4 Preservation Count\n[On Use] At 50+ Le Noir: Garbadine Overcoat, deal +15% damage\n[On Use] Consume up to 20 Armure Éveillée to apply the following:\n$ Final Power +1\n$ Deal +(Armure Éveillée consumed)% damage (max 20%)\n<1>[On Hit] Gain (Preservation Potency on self + 3) Preservation Count (max 6)\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>[On Hit] At 3+ Preservation Potency, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"Description": "[On Use]\n$ At 12+ Preservation Count, consume 6 Preservation Count to gain Final Power +1 and deal +20% damage\n$ Gain +4 Preservation Count\n[On Use] At 50+ Le Noir: Gabardine Overcoat, deal +15% damage\n[On Use] Consume up to 20 Armure Éveillée to apply the following:\n$ Final Power +1\n$ Deal +(Armure Éveillée consumed)% damage (max 20%)\n<1>[On Hit] Gain (Preservation Potency on self + 3) Preservation Count (max 6)\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>[On Hit] At 3+ Preservation Potency, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Pride",
 					"BasePower": 4,
@@ -20675,7 +21159,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Triple Stamped Stitching",
-					"Description": "[Combat Start] Gain 20 Le Noir: Garbadine Overcoat\n[On Use]\n$ At 10+ Preservation Count, consume up to 20 Preservation Count to deal +(Preservation Count consumed)% damage (max 20%)\n$ Gain +5 Preservation Count\n[On Use] For every 30 Le Noir: Garbadine Overcoat, Clash Power +1 and deal +20% damage (max 3 and 60%, respectively)\n<1>[On Hit] Gain +5 Preservation Count\n<2>[On Hit] Inflict 3 Tremor and +3 Tremor Count\n<3>Deal +(Le Noir: Garbadine Overcoat Stack)% damage (max 100%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] At 3+ Preservation Potency on self, trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
+					"Description": "[Combat Start] Gain 20 Le Noir: Gabardine Overcoat\n[On Use]\n$ At 10+ Preservation Count, consume up to 20 Preservation Count to deal +(Preservation Count consumed)% damage (max 20%)\n$ Gain +5 Preservation Count\n[On Use] For every 30 Le Noir: Gabardine Overcoat, Clash Power +1 and deal +20% damage (max 3 and 60%, respectively)\n<1>[On Hit] Gain +5 Preservation Count\n<2>[On Hit] Inflict 3 Tremor and +3 Tremor Count\n<3>Deal +(Le Noir: Gabardine Overcoat Stack)% damage (max 100%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] At 3+ Preservation Potency on self, trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 5,
@@ -20691,7 +21175,7 @@
 					"AttackWeight": 1,
 					"AttackWeightMod": 1,
 					"EffectTags": [
-						"Le Noir: Garbadine Overcoat",
+						"Le Noir: Gabardine Overcoat",
 						"Spend Preservation Count",
 						"Preservation Count",
 						"Tremor Potency",
@@ -20731,7 +21215,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Tch. Stupid Customer. You're Wrinkling the Merchandise!",
-					"Description": "[Clashable Counter]\n[Combat Start]\n$ At 60+ Le Noir: Garbadine Overcoat, convert the said effect into Armure Éveillée next turn\n$ At fewer than 60 Armure Éveillée, convert the said effect into Le Noir: Garbadine Overcoat next turn\n[Before Use] At 60+ Armure Éveillée, activate as 'Single Kick - Couture Multiple' (once per turn)\n$ If the above effect was triggered, consume all Armure Éveillée at Attack End\n[On Use] At 3+/5+ Preservation Potency on self, Coin Power +1/+2\n[On Use] Gain +2 Preservation Count (2 times per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Tremor (2 times per turn)",
+					"Description": "[Clashable Counter]\n[Combat Start]\n$ At 60+ Le Noir: Gabardine Overcoat, convert the said effect into Armure Éveillée next turn\n$ At fewer than 60 Armure Éveillée, convert the said effect into Le Noir: Gabardine Overcoat next turn\n[Before Use] At 60+ Armure Éveillée, activate as 'Single Kick - Couture Multiple' (once per turn)\n$ If the above effect was triggered, consume all Armure Éveillée at Attack End\n[On Use] At 3+/5+ Preservation Potency on self, Coin Power +1/+2\n[On Use] Gain +2 Preservation Count (2 times per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 2 Tremor (2 times per turn)",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 5,
@@ -20749,7 +21233,7 @@
 					"EffectTags": [
 						"Clashable Counter",
 						"Armure Éveillée",
-						"Le Noir: Garbadine Overcoat",
+						"Le Noir: Gabardine Overcoat",
 						"Skill Change",
 						"Spend Armure Éveillée",
 						"Preservation Count",
@@ -20759,8 +21243,8 @@
 				},
 				"InstallPassives": [
 					{
-						"Name": "Le Noir: Garbadine Fabric",
-						"Description": "Upon entering the field, gain 25 Le Noir: Garbadine Overcoat\nTurn Start:\n$ Gain Shield equal to ((Le Noir: Garbadine Overcoat + Armure Éveillée) / 5)% of this unit's max HP\n$ If this unit has Armure Éveillée, convert 'Triple Stamped Stitching' into 'Single Kick - Couture Multiple'",
+						"Name": "Le Noir: Gabardine Fabric",
+						"Description": "Upon entering the field, gain 25 Le Noir: Gabardine Overcoat\nTurn Start:\n$ Gain Shield equal to ((Le Noir: Gabardine Overcoat + Armure Éveillée) / 5)% of this unit's max HP\n$ If this unit has Armure Éveillée, convert 'Triple Stamped Stitching' into 'Single Kick - Couture Multiple'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -20769,7 +21253,7 @@
 						],
 						"ResourceType": "None",
 						"EffectTags": [
-							"Le Noir: Garbadine Overcoat",
+							"Le Noir: Gabardine Overcoat",
 							"Shield",
 							"Skill Change"
 						]
@@ -20888,7 +21372,7 @@
 				"SkillThree": {
 					"SkillSlot": "S30",
 					"Name": "Triple Stamped Stitching",
-					"Description": "[On Use]\n$ At 10+ Preservation Count, consume up to 20 Preservation Count to deal +(Preservation Count consumed)% damage (max 20%)\n$ Gain +3 Preservation Count\n[On Use] For every 40 Le Noir: Garbadine Overcoat, Clash Power +1 and deal +10% damage (max 2 and 20%, respectively)\n<1>[On Hit] Gain +3 Preservation Count\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>Deal +(Le Noir: Garbadine Overcoat Stack / 2)% damage (max 50%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] At 3+ Preservation Potency on self, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"Description": "[On Use]\n$ At 10+ Preservation Count, consume up to 20 Preservation Count to deal +(Preservation Count consumed)% damage (max 20%)\n$ Gain +3 Preservation Count\n[On Use] For every 40 Le Noir: Gabardine Overcoat, Clash Power +1 and deal +10% damage (max 2 and 20%, respectively)\n<1>[On Hit] Gain +3 Preservation Count\n<2>[On Hit] Inflict 2 Tremor and +2 Tremor Count\n<3>Deal +(Le Noir: Gabardine Overcoat Stack / 2)% damage (max 50%)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] At 3+ Preservation Potency on self, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 3,
@@ -20943,7 +21427,7 @@
 				"SkillDefense": {
 					"SkillSlot": "SD0",
 					"Name": "Tch. Stupid Customer. You're Wrinkling the Merchandise!",
-					"Description": "[Clashable Counter]\n[Combat Start]\n$ At 60+ Le Noir: Garbadine Overcoat, convert the said effect into Armure Éveillée next turn\n$ At fewer than 60 Armure Éveillée, convert the said effect into Le Noir: Garbadine Overcoat next turn\n[Before Use] At 60+ Armure Éveillée, activate as 'Single Kick - Couture Multiple' (once per turn)\n$ If the above effect was triggered, consume all Armure Éveillée at Attack End\n[On Use] Gain +2 Preservation Count (2 times per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor (2 times per turn)",
+					"Description": "[Clashable Counter]\n[Combat Start]\n$ At 60+ Le Noir: Gabardine Overcoat, convert the said effect into Armure Éveillée next turn\n$ At fewer than 60 Armure Éveillée, convert the said effect into Le Noir: Gabardine Overcoat next turn\n[Before Use] At 60+ Armure Éveillée, activate as 'Single Kick - Couture Multiple' (once per turn)\n$ If the above effect was triggered, consume all Armure Éveillée at Attack End\n[On Use] Gain +2 Preservation Count (2 times per turn)\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor (2 times per turn)",
 					"DamageType": "Blunt",
 					"SinType": "Sloth",
 					"BasePower": 3,
@@ -20961,7 +21445,7 @@
 					"EffectTags": [
 						"Clashable Counter",
 						"Armure Éveillée",
-						"Le Noir: Garbadine Overcoat",
+						"Le Noir: Gabardine Overcoat",
 						"Skill Change",
 						"Spend Armure Éveillée",
 						"Preservation Count",
@@ -20971,8 +21455,8 @@
 				},
 				"InstallPassives": [
 					{
-						"Name": "Le Noir: Garbadine Fabric",
-						"Description": "Upon entering the field, gain 25 Le Noir: Garbadine Overcoat\nTurn Start:\n$ Gain Shield equal to ((Le Noir: Garbadine Overcoat + Armure Éveillée) / 5)% of this unit's max HP\n$ If this unit has Armure Éveillée, convert 'Triple Stamped Stitching' into 'Single Kick - Couture Multiple'",
+						"Name": "Le Noir: Gabardine Fabric",
+						"Description": "Upon entering the field, gain 25 Le Noir: Gabardine Overcoat\nTurn Start:\n$ Gain Shield equal to ((Le Noir: Gabardine Overcoat + Armure Éveillée) / 5)% of this unit's max HP\n$ If this unit has Armure Éveillée, convert 'Triple Stamped Stitching' into 'Single Kick - Couture Multiple'",
 						"PassiveResources": [
 							{
 								"ResourceSin": "None",
@@ -20981,7 +21465,7 @@
 						],
 						"ResourceType": "None",
 						"EffectTags": [
-							"Le Noir: Garbadine Overcoat",
+							"Le Noir: Gabardine Overcoat",
 							"Shield",
 							"Skill Change"
 						]
@@ -29275,7 +29759,7 @@
 					}
 				],
 				"PassiveSkill": {
-					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
+					"Name": "Embrace the Tarnished Blood and Exsanguinate Others for the Cause.",
 					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (highest Reson / 3) random Heishou Pack allies with the least Assist Defense (max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (once per Encounter)",
 					"PassiveResources": [
 						{
@@ -29508,7 +29992,7 @@
 					}
 				],
 				"PassiveSkill": {
-					"Name": "Embrace the Tarnished Blood and Exanguinate Others for the Cause.",
+					"Name": "Embrace the Tarnished Blood and Exsanguinate Others for the Cause.",
 					"Description": "Combat Start: If this unit did not equip a Defense Skill and would take an Unopposed Attack, apply 1 Lordsguard to (highest Reson / 3) random Heishou Pack allies with the least Assist Defense (max 2 allies; once per Identity; excludes Identities that gain Assist Defense)\nWhen taking fatal damage, HP cannot drop below 1 for the turn and gain 1 Tarnished Blood (once per Encounter)\nDeal +3% damage for every Tarnished Blood\nWhen activating 'Tears of the Tarnished Blood - The End', nullify the death effect in its After Attack; instead heal 60% HP. Starting next turn, gain 1 Damage Up at every Turn Start (once per Encounter)",
 					"PassiveResources": [
 						{
@@ -31003,7 +31487,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Warning Announcement",
-						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\nFinal Power +1 for every 2 Preservation Potency on self (max 3)\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +4 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\nFinal Power +1 for every 2 Preservation Potency on self (max 3)\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +4 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "Sloth",
 						"BasePower": 4,
@@ -31025,7 +31509,8 @@
 							"Ready to Narrate",
 							"Preservation Count",
 							"Tremor Burst",
-							"Spend Enemy Tremor Count"
+							"Spend Enemy Tremor Count",
+							"Unbreakable Coin"
 						]
 					}
 				},
@@ -31188,7 +31673,7 @@
 					"AltSkill": {
 						"SkillSlot": "SD1",
 						"Name": "Warning Announcement",
-						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +2 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"Description": "[Clashable Guard]\nAssist Defense exclusive Skill\n[On Use] Consume 6 Preservation Count to gain 1 Assist Defense next turn (once per turn)\n[On Use] If this unit does not have Time to Listen, gain 1 Ready to Narrate (once per turn)\n[Clash Win] Gain +2 Preservation Count\n[Clash Win] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<1>[Unbreakable Coin]",
 						"DamageType": "Defend",
 						"SinType": "None",
 						"BasePower": 4,
@@ -31210,7 +31695,8 @@
 							"Ready to Narrate",
 							"Preservation Count",
 							"Tremor Burst",
-							"Spend Enemy Tremor Count"
+							"Spend Enemy Tremor Count",
+							"Unbreakable Coin"
 						]
 					}
 				},
@@ -52963,7 +53449,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Les Pouvoirs de la vie",
-					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\nWhen another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
+					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\n$ When another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -53415,7 +53901,7 @@
 				],
 				"PassiveSkill": {
 					"Name": "Les Pouvoirs de la vie",
-					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\nWhen another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
+					"Description": "When a 'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per turn, excluding forced Stagger)\nIf this unit does not have Noble Dignity,\n$ When a non-'Le Rouge' ally becomes Staggered due to damage, use 'Le Manque-à-être' on the said ally (once per Encounter, excluding forced Stagger)\nIf this unit has Noble Dignity,\n$ When another 'Le Rouge' ally takes damage that brings its HP down to 0, HP does not drop below 1, and the said ally heals 50% HP (rounded up, once per Encounter per Identity)",
 					"PassiveResources": [
 						{
 							"ResourceSin": "Lust",
@@ -53445,6 +53931,470 @@
 					"EffectTags": [
 						"Ally Offense Level Up",
 						"Ally Heal HP"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 11311,
+		"Sinner": "Sinclair",
+		"Identity": "Wedge Office Fixer",
+		"Season": 10,
+		"IsWalpurgis": true,
+		"Traits": [
+		],
+		"Speed": [ 4, 6 ],
+		"BaseHP": 72,
+		"GrowthHP": 2.52,
+		"StaggerThresholds": [ 60, 30 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt":  2
+		},
+		"UniqueStatuses":[
+			"Field Analysis",
+			"Wedge - Don Quixote",
+			"Wedge - Sinclair",
+			"Momentum",
+			"Dawn's Camaraderie",
+			"Joint Combo",
+			"Tremor - Decay"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Collision",
+					"Description": "[On Use] Final Power +1 for every Y (Poise Potency on self + Tremor Potency on target) (max 3)\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson. with Wedge Office Fixer Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +2\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Reuse the final Coin once\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Tremor\n[Reuse - On Hit] Inflict 1 Wedge - Don Quixote",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 2,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Wedge - Don Quixote"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Riding the Tide of the Offensive",
+					"Description": "[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Deal +5% damage for every Field Analysis on self (max 20%)",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Speared Sweep",
+					"Description": "[On Use] At 5+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +3\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +30% damage\n<1>[On Hit] Gain 4 Poise\n<2>[On Hit] Inflict +3 Tremor Count\n<3>Deal +10% damage for every Field Analysis on self (max 40%)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 3,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Decay"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "I'll Run You Through Quick & True",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\nClash Power +1 for every 2 Wedge - Don Quixote on target (max 4)\n[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +3\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +30% damage\n[Attack End] Remove all Wedge - Don Quixote on target\n[Attack End] Allied Wedge Office Rep Outis Identity gains 3 Momentum\n<1>[Unbreakable Coin]\n[On Hit] Gain 4 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Tremor Count\n<3>[Unbreakable Coin]\nDeal +10% damage for every Field Analysis on self (max 40%)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage\n[On Hit] Reuse this Coin (once per Skill)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Deal Pierce damage equal to (Wedge - Don Quixote on target x 6)% of this Coin's final damage (max 48%)\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 5,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 7,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 1,
+						"UnbreakableCoinCount": 4,
+						"CoinPowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Poise Potency",
+							"Field Analysis",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Wedge - Don Quixote",
+							"Ally Momentum",
+							"Unbreakable Coin",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Decay",
+							"Spend Enemy Tremor Count"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] If target has 4+ Wedge - Don Quixote, activate 'I'll Run You Through Quick & True' instead (once per turn; can activate for Unopposed Attacks)\n[On Use] At 6+ Poise Potency, Coin Power +1\n[On Evade] Gain 2 Poise (3 times per turn)\n[On Evade] Gain 1 Haste next turn (once per turn)\n[Combat End] If this unit could not gain Field Analysis from Skill effects this turn, gain 1 Field Analysis (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Skill Change",
+						"Poise Potency",
+						"Haste",
+						"Field Analysis"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Don Quixote... Please focus on the task at hand.",
+						"Description": "In the Team Loadout menu:\n$ Equipping Wedge Office Fixer Sinclair automatically equips Don Quixote's Identity as Wedge Office Fixer Don Quixote\n$ When Wedge Office Fixer Don Quixote is unequipped, automatically equip the most recently equipped Identity that isn't Wedge Office Fixer Sinclair (if Wedge Office Fixer Sinclair was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Sinclair Identity instead)\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied Wedge Office Fixer Don Quixote Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities are at -45 SP, or are under an  effect that fixes their Speed)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+						]
+					},
+					{
+						"Name": "Wedge Drive",
+						"Description": "Turn Start: Gain 1 Field Analysis\nIf any of the following conditions are met, inflict 1 Wedge - Sinclair on the main target (once per turn)\n$ On final Coin Hit using an Attack Skill against the main target\n$ Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Field Analysis",
+							"Wedge - Sinclair"
+						]
+					},
+					{
+						"Name": "Back-to-back in Dawnbreak's Light",
+						"Description": "When the allied Dawn Office Fixer Faust's Identity uses the 'Dismemberment at High Noon' Skill, the Skill's Coin 2 gains the following effects:\nJoint Combo: Wedge Office Fixer Sinclair:\n$ [On Hit] Inflict 2 Burn and +2 Burn Count\n$ [On Hit] Inflict 2 Tremor\n$ [On Hit] Inflict 1 Wedge - Sinclair\n$ [On Hit] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Joint Combo"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Hunters of the City",
+					"Description": "Combat End: At 10+ Poise Potency, gain 1 Haste next turn\nAt 10+ Poise Potency, Base Skills deal +(excess Poise Potency)% damage on Critical Hit (max 25%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "None",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Keeping Pace",
+					"Description": "Turn End: Apply 1 Haste next turn on the allied Identity with the slowest Speed (prioritize 'Fixer' Identities)\n$ If the said Identity is a 'Fixer', apply 1 Haste and 1 Offense Level Up instead next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Haste",
+						"Ally Offense Level Up"
+					]
+				}
+			},
+			{
+				"Tier": 3,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "Collision",
+					"Description": "[On Use] Final Power +1 for every Y (Poise Potency on self + Tremor Potency on target) (max 2)\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson. with Wedge Office Fixer Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +2\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Reuse the final Coin once\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Tremor\n[Reuse - On Hit] Inflict 1 Wedge - Don Quixote",
+					"DamageType": "Pierce",
+					"SinType": "Gluttony",
+					"BasePower": 3,
+					"CoinPower": 4,
+					"CoinCount": 2,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 2,
+					"ClashPowerModifier": 2,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 1,
+					"UnbreakableCoinCount": 2,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Wedge - Don Quixote"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Riding the Tide of the Offensive",
+					"Description": "[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 3 Poise\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict +2 Tremor Count\n<3>Deal +5% damage for every Field Analysis on self (max 15%)",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 4,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Speared Sweep",
+					"Description": "[On Use] At 5+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +1\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +20% damage\n<1>[On Hit] Gain 4 Poise\n<2>[On Hit] Inflict +3 Tremor Count\n<3>Deal +10% damage for every Field Analysis on self (max 40%)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +20% damage\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 4,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 1,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"UnbreakableCoinCount": 1,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Field Analysis",
+						"Tremor Potency",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count",
+						"Amplitude Conversion",
+						"Tremor - Decay"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "I'll Run You Through Quick & True",
+						"Description": "This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is affected by Attack Power-changing effects\nClash Power +1 for every 2 Wedge - Don Quixote on target (max 4)\n[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain 2 Poise\nJoint Combo: Upon Reson with Wedge Office Don Quixote's Skills, gain the following effects:\n$ [On Use] Clash Power +1\n$ [On Use] Gain 1 Field Analysis\n$ [On Use] Deal +20% damage\n[Attack End] Remove all Wedge - Don Quixote on target\n[Attack End] Allied Wedge Office Rep Outis Identity gains 3 Momentum\n<1>[Unbreakable Coin]\n[On Hit] Gain 4 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict +3 Tremor Count\n<3>[Unbreakable Coin]\nDeal +10% damage for every Field Analysis on self (max 40%)\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, deal +20% damage\n[On Hit] Reuse this Coin (once per Skill)\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Deal Pierce damage equal to (Wedge - Don Quixote on target x 6)% of this Coin's final damage (max 48%)\n[On Hit] Trigger Tremor Burst 2 times; then, reduce target's Tremor Count by 2",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 4,
+						"CoinPower": 5,
+						"CoinCount": 3,
+						"Level": 4,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 5,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 1,
+						"UnbreakableCoinCount": 4,
+						"CoinPowerModifierStatuses": 1,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Poise Potency",
+							"Field Analysis",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Wedge - Don Quixote",
+							"Ally Momentum",
+							"Unbreakable Coin",
+							"Tremor Count",
+							"Amplitude Conversion",
+							"Tremor - Decay",
+							"Spend Enemy Tremor Count"
+							]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] If target has 4+ Wedge - Don Quixote, activate 'I'll Run You Through Quick & True' instead (once per turn; can activate for Unopposed Attacks)\n[On Use] At 6+ Poise Potency, Coin Power +1\n[On Evade] Gain 2 Poise (3 times per turn)\n[On Evade] Gain 1 Haste next turn (once per turn)\n[Combat End] If this unit could not gain Field Analysis from Skill effects this turn, gain 1 Field Analysis (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"CoinPowerModifierStatuses": 1,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Skill Change",
+						"Poise Potency",
+						"Haste",
+						"Field Analysis"
+					]
+				},
+				"InstallPassives": [
+					{
+						"Name": "Don Quixote... Please focus on the task at hand.",
+						"Description": "In the Team Loadout menu:\n$ Equipping Wedge Office Fixer Sinclair automatically equips Don Quixote's Identity as Wedge Office Fixer Don Quixote\n$ When Wedge Office Fixer Don Quixote is unequipped, automatically equip the most recently equipped Identity that isn't Wedge Office Fixer Sinclair (if Wedge Office Fixer Sinclair was already equipped when entering the Team Loadout menu, removing this Identity will automatically equip the LCB Sinner Sinclair Identity instead)\nFrom Turn Start ~ before Combat Start: If this unit's Speed is slower than allied Wedge Office Fixer Don Quixote Identity's Speed, become faster until their Speed values are equal (this effect does not activate if either of the two Identities are at -45 SP, or are under an  effect that fixes their Speed)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+						]
+					},
+					{
+						"Name": "Wedge Drive",
+						"Description": "Turn Start: Gain 1 Field Analysis\nIf any of the following conditions are met, inflict 1 Wedge - Sinclair on the main target (once per turn)\n$ On final Coin Hit using an Attack Skill against the main target\n$ Upon using this unit's Evade Skill to successfully evade all of the attacker's Coins",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Field Analysis",
+							"Wedge - Sinclair"
+						]
+					},
+					{
+						"Name": "Back-to-back in Dawnbreak's Light",
+						"Description": "When the allied Dawn Office Fixer Faust's Identity uses the 'Dismemberment at High Noon' Skill, the Skill's Coin 2 gains the following effects:\nJoint Combo: Wedge Office Fixer Sinclair:\n$ [On Hit] Inflict 2 Burn and +2 Burn Count\n$ [On Hit] Inflict 2 Tremor\n$ [On Hit] Inflict 1 Wedge - Sinclair\n$ [On Hit] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Ally Joint Combo"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Hunters of the City",
+					"Description": "Combat End: At 10+ Poise Potency, gain 1 Haste next turn\nAt 10+ Poise Potency, Base Skills deal +(excess Poise Potency)% damage on Critical Hit (max 25%)",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Sloth",
+							"ResourceCount": 2
+						},
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 2
+						}
+					],
+					"ResourceType": "None",
+					"EffectTags": [
+						"Haste"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Keeping Pace",
+					"Description": "Turn End: Apply 1 Haste next turn on the allied Identity with the slowest Speed (prioritize 'Fixer' Identities)\n$ If the said Identity is a 'Fixer', apply 1 Haste and 1 Offense Level Up instead next turn",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Owned",
+					"EffectTags": [
+						"Ally Haste",
+						"Ally Offense Level Up"
 					]
 				}
 			}
@@ -57627,7 +58577,7 @@
 							"Target Ally",
 							"Ignore Defense Skill",
 							"Spend The Middle - Grudge",
-							"Blunt Resist Down",
+							"Modify Enemy Resist",
 							"The Middle - Grudge",
 							"Unbreakable Coin",
 							"Burn Potency",
@@ -58011,7 +58961,7 @@
 							"Target Ally",
 							"Ignore Defense Skill",
 							"Spend The Middle - Grudge",
-							"Blunt Resist Down",
+							"Modify Enemy Resist",
 							"The Middle - Grudge",
 							"Unbreakable Coin",
 							"Burn Potency",
@@ -58160,6 +59110,694 @@
 						"Ally Damage Up",
 						"Ally Protection",
 						"Ally Envy DMG Up"
+					]
+				}
+			}
+		]
+	},
+	{
+		"Id": 12311,
+		"Sinner": "Outis",
+		"Identity": "Wedge Office Rep",
+		"DWorld": "???",
+		"Season": 10,
+		"IsWalpurgis": true,
+		"Traits": [
+		],
+		"Speed": [ 4, 8 ],
+		"BaseHP": 85,
+		"GrowthHP": 3.1,
+		"StaggerThresholds": [ 55 ],
+		"Rarity": 3,
+		"DamageResist": {
+			"Slash": 1,
+			"Pierce": 0.5,
+			"Blunt": 2
+		},
+		"UniqueStatuses": [
+			"Wedge Office",
+			"Momentum",
+			"Dawn's Camaraderie",
+			"Joint Combo",
+			"Tremor - Decay",
+			"Tremor - Scorch"
+		],
+		"UptieTiers": [
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "High-speed Stabbing",
+					"Description": "At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] At 3 Wedge Office, Final Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Crit] Inflict +1 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 1,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Sparking Spear",
+					"Description": "[Combat Start] Apply 1 Pierce DMG Up to all allied 'Wedge Office' Identities, including this unit (once per turn)\n[On Use] If the other Skill in the same Skill Slot is 'High-speed Stabbing', Discard that Skill\n[On Use] Coin Power +1 for every 6 (Poise Potency on self + Tremor Potency on target) (max 2)\n[On Use] Final Power +1 for every Wedge Office on self (max 3)\n[On Use] Gain +3 Poise Count\n<1>[On Hit] Gain 3 Poise\n<2>[On Hit] Inflict 2 Tremor and +1 Tremor Count\n[On Crit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Pierce DMG Up",
+						"Ally Pierce DMG Up",
+						"Discard",
+						"Poise Count",
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Transpierce",
+					"Description": "[On Use] Deal +(Tremor Potency x Tremor Count on target)% damage (max 100%)\n[On Use] Deal +(Poise Potency x Poise Count on self)% damage on Critical Hit (max 100%)\n[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 5)\n[On Use] At 3 Wedge Office, Clash Power +6\n[On Use] Gain 2 Poise\n[On Use] Gain +3 Poise Count\nJoint Combo: Dawn Office Rep Gregor\n$ [On Use] Gain 1 Dawn's Camaraderie (once per Skill)\n<1>[Unbreakable Coin]\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, this Coin deals +50% damage\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Inflict 2 Pierce Fragility (once per turn)\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\n[On Hit] Deal Pierce damage equal to 100% of this Coin's final damage\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +30% damage\n$ [On Hit] Inflict +2 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 10,
+					"CoinPower": 12,
+					"CoinCount": 1,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 5,
+					"ClashPowerModifier": 6,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Dawn's Camaraderie",
+						"Unbreakable Coin",
+						"Amplitude Conversion",
+						"Tremor - Decay",
+						"Tremor Potency",
+						"Tremor Count",
+						"Pierce Fragility",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Assume Wedge Formation",
+						"Description": "[Unclashable]\n[On Use] At 8+ Poise Potency, Coin Power +1\n[On Use] If target has 8+ Tremor Potency, Final Power +1\n[On Use] Gain +3 Poise Count\n[Attack End]\n$ Consume 25 Momentum on self\n$ Apply 1 Pierce Power Up next turn to all other allied 'Wedge Office' Identities\n$ Gain 1 Dawn's Camaraderie\n<1>[On Hit] Inflict +3 Tremor Count\nJoint Combo: Dawn Office Fixer Don Quixote\n$ Deal +30% damage\n$ On final Coin Hit, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Inflict 2 Tremor Count\nJoint Combo: Dawn Office Fixer Sinclair\n$ Deal +30% damage\n$ On final Coin Hit, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>Deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Poise Count",
+							"Spend Momentum",
+							"Ally Pierce Power Up",
+							"Dawn's Camaraderie",
+							"Tremor Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Tremor Potency"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "...All units, engage for collision.",
+						"Description": "[On Use] Coin Power +1 for every 8 Poise Potency on self (max 2)\n[On Use] Final Power +1 for every 8 Tremor Potency on target (max 2)\n[On Use]\n$ Gain +3 Poise Count\n$ Gain Atk Weight equal to the number of other non-immobilized allied 'Wedge Office' Identities (max 2)\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\n[Attack End]\n$ Consume all Dawn's Camaraderie on self\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Decay\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Dawn Office Fixer Faust\n$ Deal +20% damage\n$ [On Hit] Inflict 3 Burn\n$ [On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<2>[On Hit] Inflict 1 Tremor\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Wedge Office Fixer Don Quixote\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Inflict 2 Tremor\nJoint Combo: Wedge Office Fixer Sinclair\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n<3>[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +20% damage\n$ [On Hit] Inflict 2 Burn\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n$ [On Hit] Activate Burn on target. Target loses 1 Burn Count",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 8,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 6,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Poise Count",
+							"Atk Weight Increase",
+							"Spend Dawn's Camaraderie",
+							"Tremor Count",
+							"Amplitude Entanglement",
+							"Tremor - Decay",
+							"Amplitude Conversion",
+							"Burn Potency",
+							"Tremor - Scorch",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Activate Burn",
+							"Spend Enemy Burn Count"
+						]
+					},
+					"CRTSkill": {
+						"SkillSlot": "S33",
+						"Name": "The Wedge in the Wake of Dawnbreak",
+						"Description": "[On Use] Coin Power +1 for every 8 Poise Potency on self (max 2)\n[On Use] Final Power +1 for every 8 Tremor Potency on target (max 2)\n[On Use]\n$ Gain +3 Poise Count\n$ Gain Atk Weight equal to the number of other non-immobilized allied 'Wedge Office' Identities (max 2)\n[On Use] Deal +60% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[Clash Win] Trigger Amplitude Entanglement into Tremor - Decay\n[Attack End]\n$ Consume all Dawn's Camaraderie on self\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage\nJoint Combo: Dawn Office Fixer Faust\n$ Deal +20% damage\n$ [On Hit] Inflict 3 Burn\n$ [On Hit] Trigger Amplitude Conversion into Tremor - Scorch\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +20% damage\n$ [On Hit] Inflict 2 Burn\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n$ [On Hit] Activate Burn on target. Target loses 1 Burn Count\n<2>[On Hit] Inflict 1 Tremor\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage\nJoint Combo: Wedge Office Fixer Don Quixote\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Inflict 2 Tremor\nJoint Combo: Wedge Office Fixer Sinclair\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n<3>Deal +100% damage on Critical Hit\n[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 8,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 6,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Poise Count",
+							"Atk Weight Increase",
+							"Spend Dawn's Camaraderie",
+							"Tremor Count",
+							"Amplitude Entanglement",
+							"Tremor - Decay",
+							"Amplitude Conversion",
+							"Burn Potency",
+							"Tremor - Scorch",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Activate Burn",
+							"Spend Enemy Burn Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] Gain 1 Assist Defense (2 times per turn)\n[On Use] Coin Power +1 for every 3 Poise Potency on self (max 2)\n[On Evade]\n$ Gain 2 Poise Potency (3 times per turn)\n$ Gain 2 Haste next turn (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "Pride",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 2,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Assist Defense",
+						"Poise Potency",
+						"Haste"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Step Aside.",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\n[On Use] Clash Power +1 for every 20% missing HP on self (max 4)\n[On Use]\n$ This unit and the ally this unit used Assist Defense on heal 5 SP\n$ Gain Shield equal to 15% HP (once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor\n[On Hit] Gain 2 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor\n[On Hit] Gain 2 Poise",
+						"DamageType": "Pierce",
+						"SinType": "Envy",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 4,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Counter",
+							"Assist Defense Skill",
+							"Heal SP",
+							"Ally Heal SP",
+							"Shield",
+							"Unbreakable Coin",
+							"Tremor Potency",
+							"Poise Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Unrelenting",
+						"Description": "In this Encounter, when this unit takes damage that brings its HP down to 0, apply the following effects (once per Encounter):\n$ Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n$ Turn End: Heal 50% HP\n$ Take -20% damage for this Encounter",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Unrelenting",
+							"Heal HP",
+							"Damage Reduction"
+						]
+					},
+					{
+						"Name": "Wedge Office",
+						"Description": "Turn Start: If there are 2+ allied 'Wedge Office' Identities (including this unit) on the field, apply Wedge Office Stack on all allied 'Wedge Office Identities' equal to the number of the said Identities on the field",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Wedge Office",
+							"Ally Wedge Office"
+						]
+					},
+					{
+						"Name": "Assistance of the Wedge",
+						"Description": "On Skill Use by an allied Identity (including this unit), gain 1 Momentum\nOn Clash Win by an allied 'Wedge Office' or 'Dawn Office' Identity, including this unit, gain 2 Momentum (once per turn per Identity)\nAt this unit's Attack End, if this unit has 25+ Momentum, use 'Assume Wedge Formation' (once per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Momentum",
+							"Self Follow Up"
+						]
+					},
+					{
+						"Name": "Dawn - Wedge",
+						"Description": "Apply the following when allied Dawn Office Rep Gregor Identity uses the 'Crack of Dawn' Skill:\nJoint Combo: Wedge Office Rep Outis\n$ [On Use] Deal +30% damage\n[On Use] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie\nTurn Start: Convert one of this unit's Base Skills based on Dawn's Camaraderie Stack\n$ At 4 Dawn's Camaraderie, convert the said Skill into '...All units, engage for collision'\n$ At 5 Dawn's Camaraderie, convert the said Skill into 'The Wedge in the Wake of Dawnbreak'\n$ Prioritizes the Skill on the leftmost Slot's bottom row on this unit's Dashboard. If this unit already has one of the Skills above, the said Skill will not be duplicated; instead, the said Skill will be replaced by the Skill corresponding to the Dawn's Camaraderie Stack condition",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "Res",
+						"EffectTags": [
+							"Ally Joint Combo",
+							"Skill Draw",
+							"Skill Change"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Wedge-style Spearmanship",
+					"Description": "Increase the Stagger Threshold raise by +10% for Tremor Burst triggered by this unit's Skills\nCombat Start: Gain 1 Pierce Power Up and 1 Pierce DMG Up",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Pierce Power Up",
+						"Pierce DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Acceleration Lance",
+					"Description": "All allies' Pierce Skills deal +5% damage",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Pierce Damage Amp"
+					]
+				}
+			},
+			{
+				"Tier": 4,
+				"SkillOne": {
+					"SkillSlot": "S10",
+					"Name": "High-speed Stabbing",
+					"Description": "At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 2 Poise\n<2>[On Hit] Inflict 2 Tremor\n<3>[On Crit] Inflict +1 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Lust",
+					"BasePower": 3,
+					"CoinPower": 3,
+					"CoinCount": 3,
+					"Level": 2,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Count",
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Count"
+					]
+				},
+				"SkillTwo": {
+					"SkillSlot": "S20",
+					"Name": "Sparking Spear",
+					"Description": "[Combat Start] Apply 1 Pierce DMG Up to all allied 'Wedge Office' Identities, including this unit (once per turn)\n[On Use] If the other Skill in the same Skill Slot is 'High-speed Stabbing', Discard that Skill\n[On Use] At 6+ (Poise Potency on self + Tremor Potency on target), Coin Power +1\n[On Use] Final Power +1 for every Wedge Office on self (max 3)\n[On Use] Gain +2 Poise Count\n<1>[On Hit] Gain 3 Poise\n<2>[On Hit] Inflict 2 Tremor and +1 Tremor Count\n[On Crit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+					"DamageType": "Pierce",
+					"SinType": "Sloth",
+					"BasePower": 4,
+					"CoinPower": 6,
+					"CoinCount": 2,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 1,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Pierce DMG Up",
+						"Ally Pierce DMG Up",
+						"Discard",
+						"Poise Count",
+						"Poise Potency",
+						"Tremor Potency",
+						"Tremor Count",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					]
+				},
+				"SkillThree": {
+					"SkillSlot": "S30",
+					"Name": "Transpierce",
+					"Description": "[On Use] Final Power +1 for every 4 (Poise Potency on self + Tremor Potency on target) (max 3)\n[On Use] Gain 2 Poise\n[On Use] Gain +3 Poise Count\nJoint Combo: Dawn Office Rep Gregor\n$ [On Use] Gain 1 Dawn's Camaraderie (once per Skill)\n<1>[Unbreakable Coin]\nIf target is in either Amplitude Conversion or Amplitude Entanglement states, this Coin deals +50% damage\n[On Hit] If target isn't in an Amplitude Conversion state, trigger Amplitude Conversion into Tremor - Decay\n[On Hit] Inflict 2 Tremor\n[On Hit] Inflict +2 Tremor Count\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +30% damage\n$ [On Hit] Inflict +2 Tremor Count",
+					"DamageType": "Pierce",
+					"SinType": "Pride",
+					"BasePower": 8,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 4,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 3,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Poise Potency",
+						"Poise Count",
+						"Dawn's Camaraderie",
+						"Unbreakable Coin",
+						"Amplitude Conversion",
+						"Tremor - Decay",
+						"Tremor Potency",
+						"Tremor Count",
+						"Pierce Fragility",
+						"Tremor Burst",
+						"Spend Enemy Tremor Count"
+					],
+					"AltSkill": {
+						"SkillSlot": "S31",
+						"Name": "Assume Wedge Formation",
+						"Description": "[Unclashable]\n[On Use] At 8+ Poise Potency, Coin Power +1\n[On Use] If target has 8+ Tremor Potency, Final Power +1\n[On Use] Gain +3 Poise Count\n[Attack End]\n$ Consume 25 Momentum on self\n$ Apply 1 Pierce Power Up next turn to all other allied 'Wedge Office' Identities\n$ Gain 1 Dawn's Camaraderie\n<1>[On Hit] Inflict +3 Tremor Count\nJoint Combo: Dawn Office Fixer Don Quixote\n$ Deal +30% damage\n$ On final Coin Hit, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<2>[On Hit] Inflict 2 Tremor Count\nJoint Combo: Dawn Office Fixer Sinclair\n$ Deal +30% damage\n$ On final Coin Hit, trigger Tremor Burst; then, reduce target's Tremor Count by 1\n<3>Deal +30% damage on Critical Hit\n[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 5,
+						"CoinPower": 3,
+						"CoinCount": 3,
+						"Level": 5,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 1,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 1,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Unclashable",
+							"Poise Count",
+							"Spend Momentum",
+							"Ally Pierce Power Up",
+							"Dawn's Camaraderie",
+							"Tremor Count",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Tremor Potency"
+						]
+					},
+					"BLTSkill": {
+						"SkillSlot": "S32",
+						"Name": "...All units, engage for collision.",
+						"Description": "[On Use] Coin Power +1 for every 8 Poise Potency on self (max 2)\n[On Use] Final Power +1 for every 8 Tremor Potency on target (max 2)\n[On Use]\n$ Gain +3 Poise Count\n$ Gain Atk Weight equal to the number of other non-immobilized allied 'Wedge Office' Identities (max 2)\n[On Use] Deal +60% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part)\n[Attack End]\n$ Consume all Dawn's Camaraderie on self\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Trigger Amplitude Entanglement into Tremor - Decay\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Dawn Office Fixer Faust\n$ Deal +20% damage\n$ [On Hit] Inflict 3 Burn\n$ [On Hit] Trigger Amplitude Conversion into Tremor - Scorch\n<2>[On Hit] Inflict 1 Tremor\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Wedge Office Fixer Don Quixote\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Inflict 2 Tremor\nJoint Combo: Wedge Office Fixer Sinclair\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n<3>[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n[On Hit] Deal Pierce damage equal to 10% of this Coin's final damage\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +20% damage\n$ [On Hit] Inflict 2 Burn\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n$ [On Hit] Activate Burn on target. Target loses 1 Burn Count",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 8,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 6,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Poise Count",
+							"Atk Weight Increase",
+							"Spend Dawn's Camaraderie",
+							"Tremor Count",
+							"Amplitude Entanglement",
+							"Tremor - Decay",
+							"Amplitude Conversion",
+							"Burn Potency",
+							"Tremor - Scorch",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Activate Burn",
+							"Spend Enemy Burn Count"
+						]
+					},
+					"CRTSkill": {
+						"SkillSlot": "S33",
+						"Name": "The Wedge in the Wake of Dawnbreak",
+						"Description": "[On Use] Coin Power +1 for every 8 Poise Potency on self (max 2)\n[On Use] Final Power +1 for every 8 Tremor Potency on target (max 2)\n[On Use]\n$ Gain +3 Poise Count\n$ Gain Atk Weight equal to the number of other non-immobilized allied 'Wedge Office' Identities (max 2)\n[On Use] Deal +60% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[Clash Win] Trigger Amplitude Entanglement into Tremor - Decay\n[Attack End]\n$ Consume all Dawn's Camaraderie on self\n<1>[On Hit] Inflict +3 Tremor Count\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage\nJoint Combo: Dawn Office Fixer Faust\n$ Deal +20% damage\n$ [On Hit] Inflict 3 Burn\n$ [On Hit] Trigger Amplitude Conversion into Tremor - Scorch\nJoint Combo: Dawn Office Rep Gregor\n$ Deal +20% damage\n$ [On Hit] Inflict 2 Burn\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n$ [On Hit] Activate Burn on target. Target loses 1 Burn Count\n<2>[On Hit] Inflict 1 Tremor\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage\nJoint Combo: Wedge Office Fixer Don Quixote\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Inflict 2 Tremor\nJoint Combo: Wedge Office Fixer Sinclair\n$ Deal +20% damage on Critical Hit\n$ [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n<3>Deal +100% damage on Critical Hit\n[On Hit] Inflict 2 Tremor\n[On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1\n[On Hit] Deal Pierce damage equal to 20% of this Coin's final damage",
+						"DamageType": "Pierce",
+						"SinType": "Pride",
+						"BasePower": 8,
+						"CoinPower": 4,
+						"CoinCount": 3,
+						"Level": 6,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 2,
+						"ClashPowerModifier": 0,
+						"CoinPowerModifier": 2,
+						"CoinCountModifier": 0,
+						"AttackWeight": 1,
+						"AttackWeightMod": 3,
+						"EffectTags": [
+							"Poise Count",
+							"Atk Weight Increase",
+							"Spend Dawn's Camaraderie",
+							"Tremor Count",
+							"Amplitude Entanglement",
+							"Tremor - Decay",
+							"Amplitude Conversion",
+							"Burn Potency",
+							"Tremor - Scorch",
+							"Tremor Potency",
+							"Tremor Burst",
+							"Spend Enemy Tremor Count",
+							"Activate Burn",
+							"Spend Enemy Burn Count"
+						]
+					}
+				},
+				"SkillDefense": {
+					"SkillSlot": "SD0",
+					"Name": "Catch Breath",
+					"Description": "[Combat Start] Gain 1 Assist Defense (2 times per turn)\n[On Evade]\n$ Gain 2 Poise Potency (3 times per turn)\n$ Gain 2 Haste next turn (once per turn)",
+					"DamageType": "Evade",
+					"SinType": "None",
+					"BasePower": 4,
+					"CoinPower": 10,
+					"CoinCount": 1,
+					"Level": 3,
+					"BasePowerModifier": 0,
+					"FinalPowerModifier": 0,
+					"ClashPowerModifier": 0,
+					"CoinPowerModifier": 0,
+					"CoinCountModifier": 0,
+					"AttackWeight": 1,
+					"AttackWeightMod": 1,
+					"EffectTags": [
+						"Assist Defense",
+						"Poise Potency",
+						"Haste"
+					],
+					"AltSkill": {
+						"SkillSlot": "SD1",
+						"Name": "Step Aside.",
+						"Description": "[Clashable Counter]\nAssist Defense exclusive Skill\n[On Use] Clash Power +1 for every 20% missing HP on self (max 4)\n[On Use]\n$ This unit and the ally this unit used Assist Defense on heal 5 SP\n$ Gain Shield equal to 15% HP (once per turn)\n<1>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor\n[On Hit] Gain 2 Poise\n<2>[Unbreakable Coin]\n[On Hit] Inflict 1 Tremor\n[On Hit] Gain 2 Poise",
+						"DamageType": "Pierce",
+						"SinType": "Envy",
+						"BasePower": 5,
+						"CoinPower": 4,
+						"CoinCount": 2,
+						"Level": 3,
+						"BasePowerModifier": 0,
+						"FinalPowerModifier": 0,
+						"ClashPowerModifier": 4,
+						"CoinPowerModifier": 0,
+						"CoinCountModifier": 0,
+						"UnbreakableCoinCount": 2,
+						"AttackWeight": 1,
+						"AttackWeightMod": 1,
+						"EffectTags": [
+							"Clashable Counter",
+							"Assist Defense Skill",
+							"Heal SP",
+							"Ally Heal SP",
+							"Shield",
+							"Unbreakable Coin",
+							"Tremor Potency",
+							"Poise Potency"
+						]
+					}
+				},
+				"InstallPassives": [
+					{
+						"Name": "Unrelenting",
+						"Description": "In this Encounter, when this unit takes damage that brings its HP down to 0, apply the following effects (once per Encounter):\n$ Nullify that damage; then, this unit's HP cannot drop below 1 for the turn\n$ Turn End: Heal 50% HP\n$ Take -20% damage for this Encounter",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Unrelenting",
+							"Heal HP",
+							"Damage Reduction"
+						]
+					},
+					{
+						"Name": "Wedge Office",
+						"Description": "Turn Start: If there are 2+ allied 'Wedge Office' Identities (including this unit) on the field, apply Wedge Office Stack on all allied 'Wedge Office Identities' equal to the number of the said Identities on the field",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Wedge Office",
+							"Ally Wedge Office"
+						]
+					},
+					{
+						"Name": "Assistance of the Wedge",
+						"Description": "On Skill Use by an allied Identity (including this unit), gain 1 Momentum\nOn Clash Win by an allied 'Wedge Office' or 'Dawn Office' Identity, including this unit, gain 2 Momentum (once per turn per Identity)\nAt this unit's Attack End, if this unit has 25+ Momentum, use 'Assume Wedge Formation' (once per turn)",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "None",
+						"EffectTags": [
+							"Momentum",
+							"Self Follow Up"
+						]
+					},
+					{
+						"Name": "Dawn - Wedge",
+						"Description": "Apply the following when allied Dawn Office Rep Gregor Identity uses the 'Crack of Dawn' Skill:\nJoint Combo: Wedge Office Rep Outis\n$ [On Use] Deal +30% damage\n[On Use] Allied Wedge Office Rep Outis Identity gains 1 Dawn's Camaraderie\nTurn Start: Convert one of this unit's Base Skills based on Dawn's Camaraderie Stack\n$ At 4 Dawn's Camaraderie, convert the said Skill into '...All units, engage for collision'\n$ At 5 Dawn's Camaraderie, convert the said Skill into 'The Wedge in the Wake of Dawnbreak'\n$ Prioritizes the Skill on the leftmost Slot's bottom row on this unit's Dashboard. If this unit already has one of the Skills above, the said Skill will not be duplicated; instead, the said Skill will be replaced by the Skill corresponding to the Dawn's Camaraderie Stack condition",
+						"PassiveResources": [
+							{
+								"ResourceSin": "None",
+								"ResourceCount": -1
+							}
+						],
+						"ResourceType": "Res",
+						"EffectTags": [
+							"Ally Joint Combo",
+							"Skill Draw",
+							"Skill Change"
+						]
+					}
+				],
+				"PassiveSkill": {
+					"Name": "Wedge-style Spearmanship",
+					"Description": "Increase the Stagger Threshold raise by +10% for Tremor Burst triggered by this unit's Skills\nCombat Start: Gain 1 Pierce Power Up and 1 Pierce DMG Up",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 3
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Pierce Power Up",
+						"Pierce DMG Up"
+					]
+				},
+				"SupportSkill": {
+					"Name": "Acceleration Lance",
+					"Description": "All allies' Pierce Skills deal +5% damage",
+					"PassiveResources": [
+						{
+							"ResourceSin": "Pride",
+							"ResourceCount": 4
+						}
+					],
+					"ResourceType": "Res",
+					"EffectTags": [
+						"Ally Pierce Damage Amp"
 					]
 				}
 			}
